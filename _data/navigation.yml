@@ -10,21 +10,21 @@
   href: /report/
 - text: Locations
   href: /locations/
-- text: Specieshref
+- text: Species
   href: /species_index/
-#  menu: # Dropdown menu (one level deep only)
-#  - text: Faxonius limosus
-#    href: /species/faxonius_limosus/
-#  - text: Faxonius rusticus
-#    href: /species/faxonius_rusticus/
-#  - text: Faxonius virilis
-#    href: /species/faxonius_virilis/
-#  - text: Pacifastacus leniusculus
-#    href: /species/pacifastacus_leniusculus
-#  - text: Procambarus clarkii
-#    href: /species/procambarus_clarkii
-#  - text: Procambarus virginalis
-#    href: /species/procambarus_virginalis
+  menu: # Dropdown menu (one level deep only)
+  - text: Faxonius limosus
+    href: /species/faxonius_limosus/
+  - text: Faxonius rusticus
+    href: /species/faxonius_rusticus/
+  - text: Faxonius virilis
+    href: /species/faxonius_virilis/
+  - text: Pacifastacus leniusculus
+    href: /species/pacifastacus_leniusculus
+  - text: Procambarus clarkii
+    href: /species/procambarus_clarkii
+  - text: Procambarus virginalis
+    href: /species/procambarus_virginalis
 - text: GitHub
   href: https://github.com/inbo/craywatch/
   new_window: true
