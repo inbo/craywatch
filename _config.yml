@@ -1,0 +1,54 @@
+# SITE SETTINGS
+title: Craywatch                        # Title in top navigation bar (navbar) and <head>
+author: Damiano Oldoni                    # Used for copyright statement in footer
+baseurl: "/craywatch"                   # Only required if your site is in a directory e.g. https://username.github.io/sitename
+                                        # which has url: "https://username.github.io" (no slash) and baseurl: "/sitename" (leading slash)
+                                        # A baseurl affects internal links, see http://peterdesmet.github.io/petridish/markdown/#links
+
+# SOCIAL PROFILES
+social:
+  email: name@example.com
+  # twitter: damianozingaro
+  github: inbo/craywatch               # Can also be a github_username/repository
+  # mastodon: https://mastodon.social/@mastodon_username
+  # facebook:                             # A URL
+  # disqus: disqus_sitename               # Enable Disqus comments from disqus_sitename.disqus.com
+
+# THEME SETTINGS (ALL OPTIONAL)
+posts_on_home: 3                        # Show x number of latest posts on homepage, can be 0
+# tweets_on_home: true                    # Show Twitter feed of social.twitter on homepage
+archive_permalink: /blog/               # Permalink of page using the archive.html layout, required when using post tags
+github_edit: true                       # Show an "edit this page" link in the footer, can also be name of branch (default: main)
+colors:
+  links: "#007bff"                      # Color for links: use a readable color that contrasts well with dark text
+  banner: "#007bff"                     # Background color for page banners: use color that contrasts well with white
+  footer: "#6c757d"                     # Background color for footer: use color that contrasts well with white
+font_serif: true                        # Font type for page content: serif (default) or slightly smaller sans-serif
+rounded_corners: true                   # Enable (default) rounded corners on boxes and buttons
+logo: /assets/theme/images/crayfish_emoji_icons8.png # Logo in navbar (<a target="_blank" href="https://icons8.com/icon/wNlA1FTmEuM2/crayfish">Crayfish</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>)
+
+# BUILD SETTINGS
+markdown: kramdown
+plugins:                                # If you build your site on gh-pages, only use these plugins: https://pages.github.com/versions/
+  - jekyll-feed
+  - jekyll-sitemap
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - LICENSE
+  - package-lock.json
+  - package.json
+  - petridish.gemspec
+
+# FRONTMATTER DEFAULTS
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default                   # Use default.html layout by default for all files
+  - scope:
+      type: posts
+    values:
+      permalink: "/blog/:year/:slug/"   # Use /blog/yyyy/{filename}/ as permalink for all posts
