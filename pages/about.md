@@ -11,9 +11,9 @@ permalink: /about/
 {:.alert .alert-warning}
 The source file for this page is [`pages/about.md`](https://github.com/inbo/craywatch/blob/main/pages/about.md?plain=1).
 
-This is a default page. See [configuration]({{ '/docs/configuration/' | relative_url }}) to learn more about **pages**.
+This is a default page. 
 
-To remove this page, you need to:
+How to remove a page, e.g. this one?
 
 - Remove `pages/about.md`
 - Update `_data/navigation.yml` to remove the link to this page from the top navigation.
