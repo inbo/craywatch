@@ -6,6 +6,9 @@ background: /assets/theme/images/faxonius_limosus_observation.org_63570315.jpg
 permalink: /
 ---
 
+{:.alert .alert-warning}
+The source file for this page is [`pages/home.md`](https://raw.githubusercontent.com/inbo/craywatch/main/pages/home.md).
+
 [Petridish](https://github.com/peterdesmet/petridish) is a Jekyll theme for research project websites. Or your personal blog or lab website. 👩‍🔬 It's mobile-friendly (thanks to [Bootstrap 5](https://getbootstrap.com/docs/5.1/)), free, easy to customize, and designed to work well with [GitHub Pages](https://pages.github.com/).
 
 ## Some Markdown instructions
