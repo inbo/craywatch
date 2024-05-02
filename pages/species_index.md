@@ -9,7 +9,7 @@ permalink: /species_index/
 ---
 
 {:.alert .alert-warning}
-The source file for this page is [`pages/species.md`](https://github.com/inbo/craywatch/blob/main/pages/species.md?plain=1).
+The source file for this page is [`pages/species_index.md`](https://github.com/inbo/craywatch/blob/main/pages/species_index.md?plain=1).
 
 We monitoren de volgende soorten:
 
