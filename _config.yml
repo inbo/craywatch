@@ -26,7 +26,7 @@ colors:
   footer: "#6c757d"                     # Background color for footer: use color that contrasts well with white
 font_serif: true                        # Font type for page content: serif (default) or slightly smaller sans-serif
 rounded_corners: true                   # Enable (default) rounded corners on boxes and buttons
-logo: /assets/theme/images/crayfish_emoji_icons8.png # Logo in navbar (<a target="_blank" href="https://icons8.com/icon/wNlA1FTmEuM2/crayfish">Crayfish</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>)
+logo: /assets/theme/images/logo.png # Logo in navbar (<a target="_blank" href="https://icons8.com/icon/wNlA1FTmEuM2/crayfish">Crayfish</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>)
 
 # BUILD SETTINGS
 markdown: kramdown
