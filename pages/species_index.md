@@ -1,6 +1,6 @@
 ---
 title: Species
-description: species under consideration.
+description: soorten
 background:
   img: https://observation.org/photos/63570315.jpg
   by:  AJ Laansma (CC BY-NC-ND 4.0)
