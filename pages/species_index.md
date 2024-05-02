@@ -3,9 +3,9 @@ title: Species
 description: species under consideration.
 background:
   img: https://observation.org/photos/63570315.jpg
-  by:  AJ Laansma (licensed under http://creativecommons.org/licenses/by-nc-nd/4.0/)
+  by:  AJ Laansma (CC BY-NC-ND 4.0)
   href: https://bit.ly/3UwkD8u
-permalink: /species/
+permalink: /species_index/
 ---
 
 {:.alert .alert-warning}
