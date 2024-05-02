@@ -15,9 +15,8 @@ The source file for this page is [`pages/home.md`](https://raw.githubusercontent
 
 This is how to link to other pages:
 
-- [Installation]({{ '/docs/installation/' | relative_url }})
-- [Configuration]({{ '/docs/configuration/' | relative_url }})
-- [Markdown]({{ '/docs/markdown/' | relative_url }})
+- [About]({{ '/docs/about/' | relative_url }})
+- [Team]({{ '/docs/team/' | relative_url }})
 
 I am `code`, while I am **bold**. I am *italic*. I am _italic_ too.
 
