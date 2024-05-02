@@ -9,7 +9,7 @@ permalink: /about/
 ---
 
 {:.alert .alert-warning}
-The source file for this page is [`pages/about.md`](https://raw.githubusercontent.com/peterdesmet/petridish/main/pages/about.md).
+The source file for this page is [`pages/about.md`](https://github.com/inbo/craywatch/blob/main/pages/about.md?plain=1).
 
 This is a default page. See [configuration]({{ '/docs/configuration/' | relative_url }}) to learn more about **pages**.
 
