@@ -15,8 +15,9 @@ The source file for this page is [`pages/home.md`](https://github.com/inbo/crayw
 
 This is how to link to other pages:
 
-- [About]({{ '/docs/about/' | relative_url }})
-- [Team]({{ '/docs/team/' | relative_url }})
+- [About]({{ '/about/' | relative_url }})
+- [Species]({{ '/species_index/' | relative_url }})
+- [Faxonius limosus]({{ '/species/faxonius_limosus/' | relative_url }})
 
 I am `code`, while I am **bold**. I am *italic*. I am _italic_ too.
 
