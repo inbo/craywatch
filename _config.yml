@@ -42,7 +42,6 @@ exclude:
   - package-lock.json
   - package.json
   - petridish.gemspec
-  - /map/map.html
 
 # FRONTMATTER DEFAULTS
 defaults:
