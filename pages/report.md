@@ -1,4 +1,5 @@
 ---
+layout: people
 title: report
 description: Rapporteer een waarneming
 permalink: /report/
