@@ -9,13 +9,13 @@ permalink: /species/
 ---
 
 {:.alert .alert-warning}
-The source file for this page is [`pages/species_index.md`](https://github.com/inbo/craywatch/blob/main/pages/species_index.md?plain=1).
+The source file for this page is [`pages/species.md`](https://github.com/inbo/craywatch/blob/main/pages/species.md?plain=1).
 
 We monitoren de volgende soorten:
 
-- [Faxonius limosus](/species/faxonius_limosus/)
-- [Faxonius rusticus](/species/faxonius_rusticus/)
-- [Faxonius virilis](/species/faxonius_virilis/)
-- [Pacifastacus leniusculus](/species/pacifastacus_leniusculus/)
-- [Procambarus clarkii](/species/procambarus_clarkii/)
-- [Procambarus virginalis](/species/procambarus_virginalis/)
+- [Faxonius limosus](/species/faxonius-limosus/)
+- [Faxonius rusticus](/species/faxonius-rusticus/)
+- [Faxonius virilis](/species/faxonius-virilis/)
+- [Pacifastacus leniusculus](/species/pacifastacus-leniusculus/)
+- [Procambarus clarkii](/species/procambarus-clarkii/)
+- [Procambarus virginalis](/species/procambarus-virginalis/)
