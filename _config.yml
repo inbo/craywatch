@@ -1,6 +1,9 @@
 # SITE SETTINGS
 title: Craywatch
 author: INBO
+url: "https://craywatch.inbo.be" # Custom domain is not set via CNAME, so url and baseurl need to be indicated
+baseurl: "" # Otherwise GitHub Pages will set this to "/craywatch"
+
 
 # SOCIAL PROFILES
 social:
