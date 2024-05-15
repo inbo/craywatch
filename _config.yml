@@ -21,7 +21,7 @@ colors:
   footer: "#6c757d"
 font_serif: true
 rounded_corners: true
-logo: /assets/theme/images/logo.png
+logo: /assets/images/logo.png
 
 # BUILD SETTINGS
 markdown: kramdown

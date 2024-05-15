@@ -2,7 +2,7 @@
 title: Locations
 description: Locaties
 background:
-  img: /assets/theme/images/map_icon.jpg
+  img: /assets/images/map_icon.jpg
   by:  iyikon
   href: https://www.vecteezy.com/free-vector/location
 permalink: /locations/
