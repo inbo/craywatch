@@ -2,7 +2,7 @@
 layout: home
 title: De Kreeftenwacht
 description: referentie pagina van de bestrijders van uitheemse kreeften in Vlaanderen
-background: /assets/theme/images/faxonius_limosus_observation.org_63570315.jpg
+background: /assets/images/faxonius_limosus_observation.org_63570315.jpg
 permalink: /
 ---
 
