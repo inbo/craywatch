@@ -1,5 +1,5 @@
 ---
-title: Locaties selecteren
+title: Locaties
 description: Locaties bekijken en selecteren
 permalink: /locaties/
 ---
