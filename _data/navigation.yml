@@ -1,17 +1,5 @@
-- text: Info
-  href: /info/
-- text: Team
-  href: /team/
-- text: Locaties
-  href: /locaties/
-- text: Aanmelden
-  href: /aanmelden/
-- text: Instructies
-  href: /instructies/
-- text: Waarnemingen
-  href: /waarnemingen/
 - text: Soorten
-  menu: # Dropdown menu (one level deep only)
+  menu:
   - text: Faxonius limosus
     href: /soorten/faxonius-limosus/
   - text: Faxonius virilis
@@ -28,8 +16,21 @@
     href: /soorten/procambarus-virginalis/
   - text: Procambarus acutus
     href: /soorten/procambarus-acutus/
+- text: Project
+  menu:
+  - text: Info
+    href: /info/
+  - text: Team
+    href: /team/
+- text: Doe mee
+  menu:
+  - text: Meld je aan
+    href: /aanmelden/
+  - text: Selecteer locaties
+    href: /locaties/
+  - text: Hoe waarnemen
+    href: /instructies/
+  - text: Rapporteer waarnemingen
+    href: /waarnemingen/
 - text: FAQ
   href: /faq/
-- text: GitHub
-  href: https://github.com/inbo/craywatch/
-  new_window: true
