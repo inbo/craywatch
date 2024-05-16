@@ -1,7 +1,7 @@
 ---
-title: report
+title: Waarnemingen
 description: Rapporteer een waarneming
-permalink: /report/
+permalink: /waarnemingen/
 ---
 
 

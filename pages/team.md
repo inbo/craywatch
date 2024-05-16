@@ -1,7 +1,7 @@
 ---
 layout: team
 title: Team
-description: Who we are
+description: Wie zijn we?
 permalink: /team/
 ---
 

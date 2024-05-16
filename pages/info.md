@@ -1,21 +1,21 @@
 ---
-title: About
-description: Beschrijf you project hier.
+title: Info
+description: Achtergrond informatie over het project en invasieve rivierkreeften
 background:
   img: https://observation.org/photos/63570315.jpg
   by:  AJ Laansma (licensed under http://creativecommons.org/licenses/by-nc-nd/4.0/)
   href: https://bit.ly/3UwkD8u
-permalink: /about/
+permalink: /info/
 ---
 
 {:.alert .alert-warning}
-The source file for this page is [`pages/about.md`](https://github.com/inbo/craywatch/blob/main/pages/about.md?plain=1).
+The source file for this page is [`pages/info.md`](https://github.com/inbo/craywatch/blob/main/pages/about.md?plain=1).
 
 This is a default page. 
 
 How to remove a page, e.g. this one?
 
-- Remove `pages/about.md`
+- Remove `pages/info.md`
 - Update `_data/navigation.yml` to remove the link to this page from the top navigation.
 
 ## Some gibberish

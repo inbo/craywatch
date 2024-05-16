@@ -1,11 +1,11 @@
 ---
-title: Locations
-description: Locaties
+title: Locaties
+description: Locaties selecteren en reserveren
 background:
   img: /assets/images/map_icon.jpg
   by:  iyikon
   href: https://www.vecteezy.com/free-vector/location
-permalink: /locations/
+permalink: /locaties/
 ---
 
 
