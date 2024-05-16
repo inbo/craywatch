@@ -14,8 +14,10 @@ The source file for this page is [`pages/species.md`](https://github.com/inbo/cr
 We monitoren de volgende soorten:
 
 - [Faxonius limosus](/species/faxonius-limosus/)
-- [Faxonius rusticus](/species/faxonius-rusticus/)
 - [Faxonius virilis](/species/faxonius-virilis/)
+- [Astacus astacus](/species/astacus-astacus/)
+- [Pontastacus leptodactylus](/species/pontastacus-leptodactylus/)
 - [Pacifastacus leniusculus](/species/pacifastacus-leniusculus/)
 - [Procambarus clarkii](/species/procambarus-clarkii/)
 - [Procambarus virginalis](/species/procambarus-virginalis/)
+- [Procambarus acutus](/species/procambarus-acutus/)
