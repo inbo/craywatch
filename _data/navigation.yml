@@ -2,15 +2,15 @@
 
 - text: Home # Note that users can also reach the homepage by clicking the site's title on the left in the navbar
   href: /
-- text: About
-  href: /about/
+- text: Info
+  href: /info/
 - text: Team
   href: /team/
-- text: Report
-  href: /report/
-- text: Locations
-  href: /locations/
-- text: Species
+- text: Locaties
+  href: /locaties/
+- text: Waarnemingen
+  href: /waarnemingen/
+- text: Soorten
   href: /species_index/
   menu: # Dropdown menu (one level deep only)
   - text: Faxonius limosus
@@ -29,6 +29,8 @@
     href: /species/procambarus_virginalis/
   - text: Procambarus acutus
     href: /species/procambarus_acutus/
+- text: FAQ
+  href: /FAQ/
 - text: GitHub
   href: https://github.com/inbo/craywatch/
   new_window: true
