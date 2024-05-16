@@ -1,5 +1,3 @@
-# Links listed below will be included in your site's navbar (navigation at the top)
-
 - text: Home # Note that users can also reach the homepage by clicking the site's title on the left in the navbar
   href: /
 - text: Info
@@ -29,8 +27,7 @@
   - text: Procambarus acutus
     href: /soorten/procambarus-acutus/
 - text: FAQ
-  href: /FAQ/
-
+  href: /faq/
 - text: GitHub
   href: https://github.com/inbo/craywatch/
   new_window: true
