@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<table>
+<head>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+    </tr>
+</head>
+{% for person in site.data.people %}
+  <tr>
+    <td>{{ person.id }}</td>
+    <td>{{ person.name }}</td>
+  </tr>
+{% endfor %}
+</table>
