@@ -11,8 +11,10 @@
 - text: Locations
   href: /locations/
 - text: Species
-  href: /species_index/
   menu: # Dropdown menu (one level deep only)
+  - text: Overzicht
+    href: /species/
+  - text: "---"
   - text: Faxonius limosus
     href: /species/faxonius-limosus/
   - text: Faxonius virilis
@@ -29,8 +31,7 @@
     href: /species/procambarus-virginalis/
   - text: Procambarus acutus
     href: /species/procambarus-acutus/
-  - text: Soorten
-    href: /species/
+  
 - text: GitHub
   href: https://github.com/inbo/craywatch/
   new_window: true
