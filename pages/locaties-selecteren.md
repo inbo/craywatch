@@ -1,7 +1,7 @@
 ---
-title: Locaties
-description: Locaties selecteren en reserveren
-permalink: /locaties/
+title: Locaties selecteren
+description: Locaties bekijken en selecteren
+permalink: /locaties-selecteren/
 ---
 
 The map with pounds (polygons) and occurrences must be added in this page.
