@@ -1,6 +1,6 @@
 ---
 title: Locaties
-description: Locaties selecteren en reserveren
+description: Locaties bekijken en selecteren
 permalink: /locaties/
 ---
 
