@@ -1,37 +1,31 @@
-# Links listed below will be included in your site's navbar (navigation at the top)
-
-- text: Home # Note that users can also reach the homepage by clicking the site's title on the left in the navbar
-  href: /
-- text: About
-  href: /about/
+- text: Info
+  href: /info/
 - text: Team
   href: /team/
-- text: Report
-  href: /report/
-- text: Locations
-  href: /locations/
-- text: Species
+- text: Locaties
+  href: /locaties/
+- text: Waarnemingen
+  href: /waarnemingen/
+- text: Soorten
   menu: # Dropdown menu (one level deep only)
-  - text: Overzicht
-    href: /species/
-  - text: "---"
   - text: Faxonius limosus
-    href: /species/faxonius-limosus/
+    href: /soorten/faxonius-limosus/
   - text: Faxonius virilis
-    href: /species/faxonius-virilis/
+    href: /soorten/faxonius-virilis/
   - text: Astacus astacus
-    href: /species/astacus-astacus/
+    href: /soorten/astacus-astacus/
   - text: Pontastacus leptodactylus
-    href: /species/pontastacus-leptodactylus/
+    href: /soorten/pontastacus-leptodactylus/
   - text: Pacifastacus leniusculus
-    href: /species/pacifastacus-leniusculus/
+    href: /soorten/pacifastacus-leniusculus/
   - text: Procambarus clarkii
-    href: /species/procambarus-clarkii/
+    href: /soorten/procambarus-clarkii/
   - text: Procambarus virginalis
-    href: /species/procambarus-virginalis/
+    href: /soorten/procambarus-virginalis/
   - text: Procambarus acutus
-    href: /species/procambarus-acutus/
-  
+    href: /soorten/procambarus-acutus/
+- text: FAQ
+  href: /faq/
 - text: GitHub
   href: https://github.com/inbo/craywatch/
   new_window: true

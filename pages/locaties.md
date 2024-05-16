@@ -1,13 +1,8 @@
 ---
-title: Locations
-description: Locaties
-background:
-  img: /assets/images/map_icon.jpg
-  by:  iyikon
-  href: https://www.vecteezy.com/free-vector/location
-permalink: /locations/
+title: Locaties
+description: Locaties selecteren en reserveren
+permalink: /locaties/
 ---
-
 
 The map with pounds (polygons) and occurrences must be added in this page.
 

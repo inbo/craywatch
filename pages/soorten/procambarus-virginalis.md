@@ -1,11 +1,9 @@
 ---
 title: Procambarus virginalis
-description: 
+description: Marmerkreeft
 background:
   img: 
   by: 
   href: 
-permalink: /species/procambarus-virginalis/
+permalink: /soorten/procambarus-virginalis/
 ---
-
-...
