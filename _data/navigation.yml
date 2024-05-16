@@ -14,21 +14,23 @@
   href: /species_index/
   menu: # Dropdown menu (one level deep only)
   - text: Faxonius limosus
-    href: /species/faxonius_limosus/
+    href: /species/faxonius-limosus/
   - text: Faxonius virilis
-    href: /species/faxonius_virilis/
+    href: /species/faxonius-virilis/
   - text: Astacus astacus
-    href: /species/astacus_astacus/
+    href: /species/astacus-astacus/
   - text: Pontastacus leptodactylus
-    href: /species/pontastacus_leptodactylus/
+    href: /species/pontastacus-leptodactylus/
   - text: Pacifastacus leniusculus
-    href: /species/pacifastacus_leniusculus/
+    href: /species/pacifastacus-leniusculus/
   - text: Procambarus clarkii
-    href: /species/procambarus_clarkii/
+    href: /species/procambarus-clarkii/
   - text: Procambarus virginalis
-    href: /species/procambarus_virginalis/
+    href: /species/procambarus-virginalis/
   - text: Procambarus acutus
-    href: /species/procambarus_acutus/
+    href: /species/procambarus-acutus/
+  - text: Soorten
+    href: /species/
 - text: GitHub
   href: https://github.com/inbo/craywatch/
   new_window: true
