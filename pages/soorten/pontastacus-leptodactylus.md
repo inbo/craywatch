@@ -7,5 +7,3 @@ background:
   href: https://www.inaturalist.org/people/anna_mitroshenkova
 permalink: /soorten/pontastacus-leptodactylus/
 ---
-
-...

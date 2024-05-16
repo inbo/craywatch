@@ -7,5 +7,3 @@ background:
   href: 
 permalink: /soorten/procambarus-virginalis/
 ---
-
-...

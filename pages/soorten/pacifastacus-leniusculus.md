@@ -7,5 +7,3 @@ background:
   href: 
 permalink: /soorten/pacifastacus-leniusculus/
 ---
-
-...

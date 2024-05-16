@@ -7,5 +7,3 @@ background:
   href: 
 permalink: /soorten/faxonius-virilis/
 ---
-
-...

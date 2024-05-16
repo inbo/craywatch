@@ -7,5 +7,3 @@ background:
   href: https://www.inaturalist.org/people/hania2004
 permalink: /soorten/faxonius-limosus/
 ---
-
-...
