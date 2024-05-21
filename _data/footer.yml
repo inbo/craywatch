@@ -5,12 +5,15 @@
 columns:
   - description:
     links:
-    - text: Craywatch is een project van het INBO
-      href: http://example.com
+    - text: Instituut Natuur en Bos Onderzoek
+      href: http://www.inbo.be
+      new_window: true
+      - text: Agentschap Natuur en Bos
+      href: http://www.natuurenbos.be
       new_window: true
 
   - description: > # E.g. funding acknowledgement. Can be Markdown
-      This project is made with ❤ for open source.
+      Dit project is een samenwerking tussen ANB en INBO.
       See [`_data/footer.yml`](https://raw.githubusercontent.com/peterdesmet/petridish/master/_data/footer.yml)
       to customize this text.
     links:
