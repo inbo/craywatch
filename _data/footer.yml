@@ -5,15 +5,15 @@
 columns:
   - description: "Project partners:"
     links:
-    - text: Instituut Natuur en Bos Onderzoek
-      href: http://www.inbo.be
+    - text: Instituut voor Natuur- en Bos Onderzoek (INBO)
+      href: https://www.vlaanderen.be/inbo/home/
       new_window: true
-    - text: Agentschap Natuur en Bos
-      href: http://www.natuurenbos.be
+    - text: Agentschap voor Natuur en Bos (ANB)
+      href: https://www.natuurenbos.be/
       new_window: true
 
 # Small print license statement to add at the bottom of the footer. Can be Markdown
 # Will be prefixed by "© {{ site.author }}" if defined in _config.yml
 license: >
-  De inhoud van deze website kan gebruikt worden met naamsvermelding [CC BY 4.0 licentie](http://creativecommons.org/licenses/by/4.0/).
+  De inhoud van deze website kan gebruikt worden met naamsvermelding ([CC BY 4.0 licentie](http://creativecommons.org/licenses/by/4.0/)).
   \| Theme: [Petridish](https://github.com/peterdesmet/petridish)
