@@ -15,17 +15,17 @@
     aviation services on board the [Planet Express Ship](https://en.wikipedia.org/wiki/Planet_Express_Ship). 
 
 - name: Margot Vermeylen
-  role: Onderzoeksmedewerker
+  role: Onderzoeksmedewerker - bioloog
   image: assets/theme/images/farnsworth_angelo-abear-1662775-unsplash.jpg
   description: >
     Many times great-nephew of Fry. Tenured professor of [Mars University](https://en.wikipedia.org/wiki/Mars_University).
     
-  name: Kevin Scheers
+- name: Kevin Scheers
   role: Onderzoeksmedewerker
-  descriptiot: >
+  description: >
     Waterkeverfanaat, gebeten door kreeften
 
-  name: Dr. Lenin Riascos Flores
+- name: Dr. Lenin Riascos Flores
   role: Onderzoeker
   description: >
     Looking for crayfish in the water
