@@ -1,3 +1,9 @@
+- text: Project
+  menu:
+  - text: Info
+    href: /info/
+  - text: Team
+    href: /team/
 - text: Soorten
   menu:
   - text: Faxonius limosus
@@ -16,12 +22,6 @@
     href: /soorten/procambarus-virginalis/
   - text: Procambarus acutus
     href: /soorten/procambarus-acutus/
-- text: Project
-  menu:
-  - text: Info
-    href: /info/
-  - text: Team
-    href: /team/
 - text: Doe mee
   menu:
   - text: Meld je aan
