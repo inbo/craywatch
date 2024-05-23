@@ -1,6 +1,6 @@
 ---
-title: Faxonius limosus
-description: Gevlekte Amerikaanse Rivierkreeft
+title: Gevlekte Amerikaanse Rivierkreeft
+description: _Faxonius limosus_
 background:
   img: https://inaturalist-open-data.s3.amazonaws.com/photos/362674317/original.jpeg
   by: hania2004 (CC BY-NC 4.0)

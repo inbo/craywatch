@@ -1,6 +1,6 @@
 ---
-title: Procambarus clarkii
-description: Rode Amerikaanse Rivierkreeft
+title: Rode Amerikaanse Rivierkreeft
+description: _Procambarus clarkii_
 background:
   img: 
   by: 

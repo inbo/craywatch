@@ -1,6 +1,6 @@
 ---
-title: Pacifastacus leniusculus
-description: Californische Rivierkreeft
+title: Californische Rivierkreeft
+description: _Pacifastacus leniusculus_
 background:
   img: /assets/images/pacifastacus-leniusculus.jpg
   by: Geert De Knijf
