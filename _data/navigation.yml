@@ -1,9 +1,7 @@
-- text: Project
-  menu:
-  - text: Info
-    href: /info/
-  - text: Team
-    href: /team/
+- text: Info
+  href: /info/
+- text: Team
+  href: /team/
 - text: Soorten
   menu:
   - text: Gevlekte Amerikaanse rivierkreeft
