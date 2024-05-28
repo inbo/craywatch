@@ -1,9 +1,7 @@
-- text: Project
-  menu:
-  - text: Info
-    href: /info/
-  - text: Team
-    href: /team/
+- text: Info
+  href: /info/
+- text: Team
+  href: /team/
 - text: Soorten
   menu:
   - text: Gevlekte Amerikaanse rivierkreeft
@@ -26,9 +24,7 @@
   menu:
   - text: Meld je aan
     href: /aanmelden/
-  - text: Selecteer locaties
-    href: /locaties/
-  - text: Hoe waarnemen?
+  - text: Instructies
     href: /instructies/
   - text: Rapporteer waarnemingen
     href: /waarnemingen/
