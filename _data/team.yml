@@ -8,7 +8,8 @@
   researchgate: Frederique_Steen
 
 - name: Bieke Maex
-  role: Onderzoeksmedewerker
+  description: > # Can be Markdown
+  Onderzoeksmedewerker
   image: assets/images/Bieke.jpg
       
 - name: Margot Vermeylen
