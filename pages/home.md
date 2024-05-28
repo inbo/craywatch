@@ -1,9 +1,9 @@
 ---
 layout: home
-title: Craywatch
-description: Burgerwetenschappelijk onderzoek rond uitheemse rivierkreeften in Vlaanderen
+title: 
+description: 
 background:
-  img: /assets/images/Vaart.jpg
-  by: Margot Vermeylen
+  img: /assets/images/Craywatch banner.jpg
+  by: Bieke Maex
 permalink: /
 ---
