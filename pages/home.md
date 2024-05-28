@@ -3,7 +3,7 @@ layout: home
 title: Craywatch
 description: Burgerwetenschappelijk onderzoek rond uitheemse rivierkreeften in Vlaanderen
 background:
-  img: /assets/images/pacifastacus-leniusculus.jpg
-  by: Geert De Knijf
+  img: /assets/images/Vaart.jpg
+  by: Margot Vermeylen
 permalink: /
 ---

@@ -17,9 +17,9 @@ remote_theme: peterdesmet/petridish@3.0
 github_edit: true
 colors:
   links: "#007bff"
-  banner: "#007bff"
-  footer: "#6c757d"
-font_serif: true
+  banner: "#7d9b76"
+  footer: "#7d9b76"
+font_montserrat: true
 rounded_corners: true
 logo: /assets/images/logo.png
 
