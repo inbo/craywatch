@@ -18,9 +18,7 @@ Na het registreren en het reserveren van je locatie(s), krijg je een pakket met 
 - Een vergunning voor het gebruik van de vallen in het kader van Craywatch
 
 Controleer zo snel mogelijk of je alles ontvangen hebt. Indien niet, kan je ons contacteren door een mail te sturen naar <craywatch@inbo.be>.
-
 <br><br>
-
 ### De voorbereiding
 
 **Kies een periode** van 5 opeenvolgende dagen tussen 15 juni en 15 oktober om de vallen te plaatsen en te controleren. Ga best al eens een **kijkje nemen** op de gekozen locatie(s) om in te schatten of je er gemakkelijk kan geraken en waar de vallen geplaatst kunnen worden.
