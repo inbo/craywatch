@@ -34,4 +34,12 @@ Invasieve rivierkreeften vormen om meerdere redenen een bedreiging voor lokale e
 
 Door hun dieet en gedrag gaat de komst van uitheemse rivierkreeften vaak samen met de afname of verlies van verschillende, al dan niet beschermde, soortgroepen zoals vogels, vissen en amfibieëen. Om de impact van deze invasieve dieren te verminderen, is het nodig ze te bestrijden of beheren. De snelle toename van het aantal uitheemse rivierkreeften in combinatie met hun verborgen levenswijze maakt dit echter een zeer moeilijke opdracht.
 
- ### Meer weten?
+
+### Meer weten?
+- [Invasieve rivierkreeften in Vlaanderen: Stand van zaken](https://www.vlaanderen.be/inbo/publicaties/invasieve-rivierkreeften-in-vlaanderen-stand-van-zaken-en-aanbevelingen-bij-vaststelling-van-nieuwe-soorten-en-populaties)
+- [Exotische rivierkreeften in België: Een (k)nijpend probleem?](https://www.vlaanderen.be/inbo/publicaties/exotische-rivierkreeften-in-belgie)
+- [Identificatie en beste beheerpraktijken](https://www.vmm.be/water/projecten/afbeeldingen-projecten-water/invasieve-uitheemse-rivierkreeftsoorten.pdf)
+- [Rivierkreeften in Vlaanderen: een steeds groter probleem?](https://www.vlaanderen.be/inbo/publicaties/rivierkreeften-in-vlaanderen-een-steeds-groter-probleem)
+- [De opmars van de gestreepte Amerikaanse rivierkreeft in Vlaanderen](https://www.vlaanderen.be/inbo/publicaties/de-opmars-van-de-gestreepte-amerikaanse-rivierkreeft-in-vlaanderen)
+- [Ecopedia](https://www.ecopedia.be/dieren/uitheemse-rivierkreeften-diverse-soorten)
+- [Factsheets en verspreiding in België](https://www.riparias.be/nl/355)
