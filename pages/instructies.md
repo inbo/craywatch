@@ -19,6 +19,7 @@ Na het registreren en het reserveren van je locatie(s), krijg je een pakket met 
 
 Controleer zo snel mogelijk of je alles ontvangen hebt. Indien niet, kan je ons contacteren door een mail te sturen naar <craywatch@inbo.be>.
 
+<br><br>
 
 ### De voorbereiding
 
