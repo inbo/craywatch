@@ -4,6 +4,7 @@ description:
 background:
   img: /assets/images/info_foto.jpg
 permalink: /info/
+toc: true
 ---
 
 ### Uitheemse rivierkreeften in Vlaanderen
