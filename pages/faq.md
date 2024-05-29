@@ -33,7 +33,7 @@ Nee, dat mag niet. Rivierkreeften gevangen tijdens Craywatch dienen terug uitgez
 
 Ja, dat is mogelijk. Je kan, wanneer je je aanmeldt bij Craywatch via het Google formulier, een locatie voorstellen. Wij zullen dan kijken of je suggestie voldoet aan enkele criteria, waaronder de diepte en oppervlakte van het water,  en deze na goedkeuring toevoegen aan de lijst van locaties. Het is wel belangrijk om dit steeds in samenspraak te doen en de vallen dus niet op willekeurige locaties uit te zetten. Zo kunnen jouw (nul)waarnemingen zeker meetellen in dit onderzoek. Bij vragen kan je altijd contact opnemen met <craywatch@inbo.be>.
 
-## Help! Een gewonde rivierkreeft
+## Help, Een gewonde rivierkreeft!
 
 Rivierkreeften die samen in een val zitten kunnen elkaar soms verwonden. Ook kan het gebeuren dat een rivierkreeft een poot loslaat bij het hanteren. Dit is een natuurlijk ontsnappingsmechanisme en doet het dier normaal geen pijn. De afgeworpen poot zal gewoon weer teruggroeien en na enkele maanden is het dier terug als voorheen. Laat dit je alvast niet weerhouden om de rivierkreeft te fotograferen en jouw waarneming door te geven.
 
