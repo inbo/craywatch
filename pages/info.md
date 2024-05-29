@@ -8,7 +8,7 @@ toc: true
 ---
 
 ### Uitheemse rivierkreeften in Vlaanderen
-De laatste jaren ziet Vlaanderen een toename van invasieve, uitheemse rivierkreeften zoals de beruchte marmerkreeft en de rode Amerikaanse rivierkreeft. Deze dieren, die hier van nature niet voorkomen, zorgen voor aanzienlijke schade en overlast. Tot nu toe zijn er zes verschillende soorten waargenomen, en de kans op nieuwe introducties blijft hoog. De enige inheemse soort , de [Europese rivierkreeft](soorten/astacus-astacus.md/) (_Astacus astacus_), werd sinds 1945 niet meer in Vlaanderen gezien.
+De laatste jaren ziet Vlaanderen een toename van invasieve, uitheemse rivierkreeften zoals de beruchte marmerkreeft en de rode Amerikaanse rivierkreeft. Deze dieren, die hier van nature niet voorkomen, zorgen voor aanzienlijke schade en overlast. Tot nu toe zijn er zes verschillende soorten waargenomen, en de kans op nieuwe introducties blijft hoog. De enige inheemse soort, de [Europese rivierkreeft](soorten/astacus-astacus.md/) (_Astacus astacus_), werd sinds 1945 niet meer in Vlaanderen gezien.
 
 De soorten die tot nu toe in Vlaanderen voorkomen zijn:
 - [Gevlekte Amerikaanse rivierkreeft](soorten/faxonius-limosus.md/) (_Faxonius limosus_)
