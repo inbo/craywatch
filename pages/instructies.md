@@ -25,10 +25,10 @@ Controleer zo snel mogelijk of je alles ontvangen hebt. Indien niet, kan je ons 
 
 ## Het plaatsen van de vallen op de eerste dag
 
-1. **Vul de aaszakjes** volledig met het bijgeleverde aas en bevestig deze aan de binnenkant van de fuik (de fuik kan slechts aan één van de uiteinden geopend worden). Op die manier kunnen rivierkreeften de aaszakjes niet uit de fuik halen. Zorg ervoor dat je de fuik hierna terug goed sluit. _(Foto van fuik met aaszakje bevestigd invoegen)_
-2. Bind **aan elke fuik een touw** om ze aan de oever te kunnen vasthangen. Bevestig aan het andere uiteinde van het touw één van de bijgevoegde **labels**. Deze verwijzen naar het Craywatch-project en bevatten contactinformatie van het INBO. _(foto van fuik met touw en label invoegen_
-3. **Leg de eerste fuik in het water** op de afgesproken locatie. Zorg ervoor dat deze zeker op de **bodem** ligt. Bevestig de fuik daarna aan de oever door het uiteinde van het touw aan een stevig object te knopen, bijvoorbeeld aan een tak of een in de grond gestoken stok of piket. Het is belangrijk dat de fuik niet boven het water uitsteekt en dat het touw niet te opvallend wordt geplaatst, zo beperk je de kans op vandalisme of diefstal. _(foto van fuik in het water invoegen)_
-4. **Plaats de tweede en derde fuik** op dezelfde manier als de eerste, maar **telkens 10 meter verder** langs de oever in dezelfde waterloop of plas. Zo heb je uiteindelijk drie vallen in het water, gescheiden door twee keer een afstand van 10 meter, gemeten langs de oever.
+1. **Vul de aaszakjes** volledig met het bijgeleverde aas en bevestig deze aan de binnenkant van de val (de val kan slechts aan één van de uiteinden geopend worden). Op die manier kunnen rivierkreeften de aaszakjes niet uit de val halen. Zorg ervoor dat je de val hierna terug goed sluit. _(Foto van val met aaszakje bevestigd invoegen)_
+2. Bind **aan elke val een touw** om ze aan de oever te kunnen vasthangen. Bevestig aan het andere uiteinde van het touw één van de bijgevoegde **labels**. Deze verwijzen naar het Craywatch-project en bevatten contactinformatie van het INBO. _(foto van val met touw en label invoegen_
+3. **Leg de eerste val in het water** op de afgesproken locatie. Zorg ervoor dat deze zeker op de **bodem** ligt. Bevestig de val daarna aan de oever door het uiteinde van het touw aan een stevig object te knopen, bijvoorbeeld aan een tak of een in de grond gestoken stok of piket. Het is belangrijk dat de val niet boven het water uitsteekt en dat het touw niet te opvallend wordt geplaatst, zo beperk je de kans op vandalisme of diefstal. _(foto van val in het water invoegen)_
+4. **Plaats de tweede en derde val** op dezelfde manier als de eerste, maar **telkens 10 meter verder** langs de oever in dezelfde waterloop of plas. Zo heb je uiteindelijk drie vallen in het water, gescheiden door twee keer een afstand van 10 meter, gemeten langs de oever.
 
 ## Het controleren
 
