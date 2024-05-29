@@ -19,11 +19,11 @@ Na het registreren en het reserveren van je locatie(s), krijg je een pakket met 
 
 Controleer zo snel mogelijk of je alles ontvangen hebt. Indien niet, kan je ons contacteren door een mail te sturen naar <craywatch@inbo.be>.
 
-## De voorbereiding
+### De voorbereiding
 
 **Kies een periode** van 5 opeenvolgende dagen tussen 15 juni en 15 oktober om de vallen te plaatsen en te controleren. Ga best al eens een **kijkje nemen** op de gekozen locatie(s) om in te schatten of je er gemakkelijk kan geraken en waar de vallen geplaatst kunnen worden.
 
-## Het plaatsen van de vallen op de eerste dag
+#### Het plaatsen van de vallen op de eerste dag
 
 1. **Vul de aaszakjes** volledig met het bijgeleverde aas en bevestig deze aan de binnenkant van de val (de val kan slechts aan één van de uiteinden geopend worden). Op die manier kunnen rivierkreeften de aaszakjes niet uit de val halen. Zorg ervoor dat je de val hierna terug goed sluit. _(Foto van val met aaszakje bevestigd invoegen)_
 2. Bind **aan elke val een touw** om ze aan de oever te kunnen vasthangen. Bevestig aan het andere uiteinde van het touw één van de bijgevoegde **labels**. Deze verwijzen naar het Craywatch-project en bevatten contactinformatie van het INBO. _(foto van val met touw en label invoegen_
