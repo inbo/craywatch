@@ -30,6 +30,7 @@ Controleer zo snel mogelijk of je alles ontvangen hebt. Indien niet, kan je ons 
 3. **Leg de eerste val in het water** op de afgesproken locatie. Zorg ervoor dat deze zeker op de **bodem** ligt. Bevestig de val daarna aan de oever door het uiteinde van het touw aan een stevig object te knopen, bijvoorbeeld aan een tak of een in de grond gestoken stok of piket. Het is belangrijk dat de val niet boven het water uitsteekt en dat het touw niet te opvallend wordt geplaatst, zo beperk je de kans op vandalisme of diefstal. _(foto van val in het water invoegen)_
 4. **Plaats de tweede en derde val** op dezelfde manier als de eerste, maar **telkens 10 meter verder** langs de oever in dezelfde waterloop of plas. Zo heb je uiteindelijk drie vallen in het water, gescheiden door twee keer een afstand van 10 meter, gemeten langs de oever.
 <br><br>
+
 ### Het controleren
 
 De vier opeenvolgende dagen na het plaatsen van de vallen controleer je of je iets gevangen hebt. Indien mogelijk doe je dit best in de voormiddag.
@@ -44,6 +45,7 @@ Ga op de website naar [rapporteer waarnemingen](/waarnemingen.md/) om je waarnem
 7. **Herhaal dit proces** de volgende vier dagen. Het is belangrijk dat de dagen waarop je de vallen controleert aaneensluitend zijn, sla er dus geen over.
 8. Op de **laatste dag** haal je na de controle **de vallen weg**. Zorg dat je alles terug meeneemt en laat niets achter. De gebruikte aaszakjes mogen achteraf bij het restafval weggegooid worden.
 <br><br>
+
 ### Na afloop
 
 De vallen terugsturen.
