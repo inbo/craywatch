@@ -1,0 +1,4 @@
+---
+title: Determinatie
+permalink: /determinatie/
+---
