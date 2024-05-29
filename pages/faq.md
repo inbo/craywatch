@@ -7,7 +7,7 @@ toc: true
 
 ## Wat is een invasieve uitheemse soort?
 
-Een uitheemse soort is een dier, plant of ander organisme dat van nature niet voorkomt in een bepaald ecosysteem en daar vaak door menselijk handelen wordt binnengebracht. Soms kan een uitheemse soort zich vestigen in het nieuwe leefgebied en zich vervolgens snel verspreiden, onder andere door een gebrek aan natuurlijke vijanden. Wanneer hij hierdoor de inheemse biodiversiteit verstoort en een ecologisch, economisch of gezondheidsrisico vormt, krijgt hij het label ‘invasief’.
+Een uitheemse soort is een dier, plant of ander organisme dat van nature niet voorkomt in een bepaald ecosysteem en daar vaak door menselijk handelen wordt binnengebracht. Soms kan een uitheemse soort zich vestigen in het nieuwe leefgebied en zich vervolgens snel verspreiden, onder andere door een gebrek aan natuurlijke vijanden. Wanneer hij hierdoor de inheemse biodiversiteit verstoort en een ecologisch, economisch of gezondheidsrisico vormt, krijgt hij het label 'invasief'.
 
 ## Heb ik een visverlof nodig om in het kader van Craywatch rivierkreeften te vangen?
 
@@ -19,11 +19,11 @@ Ja, voor het plaatsen van fuiken en andere vangtuigen in openbare wateren is een
 
 ## Ik ving geen rivierkreeften met de fuiken op de door mij gekozen locatie.
 
-Dat is goed nieuws! Vermoedelijk betekent dit dat er geen rivierkreeften aanwezig zijn op die locatie. Geef deze ‘nulwaarneming’ zeker door, want de afwezigheid van kreeften is voor ons even belangrijk als een waarneming van een rivierkreeft! Op de pagina [**rapporteer waarnemingen**](pages/waarnemingen.md) wordt uitgelegd hoe je een nulwaarneming invoert.
+Dat is goed nieuws! Vermoedelijk betekent dit dat er geen rivierkreeften aanwezig zijn op die locatie. Geef deze 'nulwaarneming' zeker door, want de afwezigheid van kreeften is voor ons even belangrijk als een waarneming van een rivierkreeft! Op de pagina [**rapporteer waarnemingen**](pages/waarnemingen.md) wordt uitgelegd hoe je een nulwaarneming invoert.
 
 ## Kan je uitheemse rivierkreeften eten? 
 
-Rivierkreeften leven in het water en wroeten in de bodem. Hierdoor worden zij gemakkelijk blootgesteld aan zware metalen en andere verontreinigingen. Zeker in vervuilde wateren stapelen deze giftige stoffen zich in hoge concentraties op in de weefsels van de dieren. Het vangen en eten van uitheemse rivierkreeften uit Vlaamse wateren is omwille van de mogelijke gezondheidsrisico’s bijgevolg af te raden.
+Rivierkreeften leven in het water en wroeten in de bodem. Hierdoor worden zij gemakkelijk blootgesteld aan zware metalen en andere verontreinigingen. Zeker in vervuilde wateren stapelen deze giftige stoffen zich in hoge concentraties op in de weefsels van de dieren. Het vangen en eten van uitheemse rivierkreeften uit Vlaamse wateren is omwille van de mogelijke gezondheidsrisico's bijgevolg af te raden.
 
 ## Mag ik gevangen rivierkreeften mee naar huis nemen?
 
@@ -31,7 +31,7 @@ Nee, dat mag niet. Rivierkreeften gevangen tijdens Craywatch dienen terug uitgez
 
 ## Kan ik ook zelf een locatie voorstellen?
 
-Ja, dat is mogelijk. Je kan, wanneer je je aanmeldt bij Craywatch via het Google formulier, een locatie voorstellen. Wij zullen dan kijken of je suggestie voldoet aan enkele criteria, waaronder de diepte en oppervlakte van het water,  en deze na goedkeuring toevoegen aan de lijst van locaties. Het is wel belangrijk om dit steeds in samenspraak te doen en de fuiken dus niet op willekeurige locaties uit te zetten. Zo kunnen jouw (nul-)waarnemingen zeker meetellen in dit onderzoek. Bij vragen kan je altijd contact opnemen met <craywatch@inbo.be>.
+Ja, dat is mogelijk. Je kan, wanneer je je aanmeldt bij Craywatch via het Google formulier, een locatie voorstellen. Wij zullen dan kijken of je suggestie voldoet aan enkele criteria, waaronder de diepte en oppervlakte van het water,  en deze na goedkeuring toevoegen aan de lijst van locaties. Het is wel belangrijk om dit steeds in samenspraak te doen en de fuiken dus niet op willekeurige locaties uit te zetten. Zo kunnen jouw (nul)waarnemingen zeker meetellen in dit onderzoek. Bij vragen kan je altijd contact opnemen met <craywatch@inbo.be>.
 
 ## Help! Een gewonde rivierkreeft… 
 
@@ -39,7 +39,7 @@ Rivierkreeften die samen in een fuik zitten kunnen elkaar soms verwonden. Ook ka
 
 ## Waarom worden fuiken gebruikt in dit onderzoek?
 
-Rivierkreeften zijn voornamelijk ‘s nachts actief en verbergen zich overdag in holen of tussen dichte vegetatie. Hierdoor zijn ze meestal moeilijk waar te nemen en worden ze pas gespot wanneer ze al in grote aantallen aanwezig zijn. Het is de bedoeling om bij het project Craywatch ook kleine of recent ontstane populaties te detecteren. Hiervoor is het gebruik van beaasde fuiken die ‘s nachts blijven staan de meest geschikte methode.
+Rivierkreeften zijn voornamelijk 's nachts actief en verbergen zich overdag in holen of tussen dichte vegetatie. Hierdoor zijn ze meestal moeilijk waar te nemen en worden ze pas gespot wanneer ze al in grote aantallen aanwezig zijn. Het is de bedoeling om bij het project Craywatch ook kleine of recent ontstane populaties te detecteren. Hiervoor is het gebruik van beaasde fuiken die 's nachts blijven staan de meest geschikte methode.
 
 ## Er is een fuik kapot of verdwenen.
 
