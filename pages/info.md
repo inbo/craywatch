@@ -9,15 +9,15 @@ permalink: /info/
 ---
 
 ### Uitheemse rivierkreeften in Vlaanderen
-De laatste jaren ziet Vlaanderen een toename van invasieve, uitheemse rivierkreeften zoals de beruchte marmerkreeft en de rode Amerikaanse rivierkreeft. Deze dieren, die hier van nature niet voorkomen, zorgen voor aanzienlijke schade en overlast. Tot nu toe zijn er zes verschillende soorten waargenomen, en de kans op nieuwe introducties blijft hoog. De enige inheemse soort , de [Europese rivierkreeft](/astacus-astacus/) (_Astacus astacus_), werd sinds 1945 niet meer in Vlaanderen gezien.
+De laatste jaren ziet Vlaanderen een toename van invasieve, uitheemse rivierkreeften zoals de beruchte marmerkreeft en de rode Amerikaanse rivierkreeft. Deze dieren, die hier van nature niet voorkomen, zorgen voor aanzienlijke schade en overlast. Tot nu toe zijn er zes verschillende soorten waargenomen, en de kans op nieuwe introducties blijft hoog. De enige inheemse soort , de [Europese rivierkreeft](/astacus-astacus.md/) (_Astacus astacus_), werd sinds 1945 niet meer in Vlaanderen gezien.
 
 De soorten die tot nu toe in Vlaanderen voorkomen zijn:
-- [Gevlekte Amerikaanse rivierkreeft](/faxonius-limosus/) (_Faxonius limosus_)
-- [Turkse rivierkreeft](/pontastacus-leptodactylus/) (_Pontastacus leptodactylus_)
-- [Californische rivierkreeft](/pacifastacus-leniusculus/) (_Pacifastacus leniusculus)
-- [Rode Amerikaanse rivierkreeft](/procambarus-clarkii/) (_Procambarus clarkii_)
-- [Marmerkreeft](/procambarus-virginalis/) (_Procambarus virginalis_)
-- [Gestreepte Amerikaanse rivierkreeft](/procambarus-acutus/) (_Procambarus acutus_)  
+- [Gevlekte Amerikaanse rivierkreeft](/faxonius-limosus.md/) (_Faxonius limosus_)
+- [Turkse rivierkreeft](/pontastacus-leptodactylus.md/) (_Pontastacus leptodactylus_)
+- [Californische rivierkreeft](/pacifastacus-leniusculus.md/) (_Pacifastacus leniusculus)
+- [Rode Amerikaanse rivierkreeft](/procambarus-clarkii.md/) (_Procambarus clarkii_)
+- [Marmerkreeft](/procambarus-virginalis.md/) (_Procambarus virginalis_)
+- [Gestreepte Amerikaanse rivierkreeft](/procambarus-acutus.md/) (_Procambarus acutus_)  
 
 
 ### Hoe kwamen ze hier terecht?
