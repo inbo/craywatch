@@ -21,7 +21,7 @@ De soorten die tot nu toe in Vlaanderen voorkomen zijn:
 
 
 ### Hoe kwamen ze hier terecht?
-Traditioneel waren Europese rivierkreeften een geliefd gerecht in Vlaanderen, maar door intensieve vangst en een verslechterende waterkwaliteit gingen de populaties aan een stevig tempo achteruit. Als oplossing voor het dalende aanbod werden in de jaren '70 en '80 de uitheemse Turkse en Californische rivierkreeft geïntroduceerd. Deze soorten planten zich sneller voort dan de Europese rivierkreeft en zijn minder veeleisend wat betreft waterkwaliteit. Helaas bracht de Californische rivierkreeft ook de kreeftenpest mee, wat de druk op de inheemse populaties verder verhoogde.  
+Traditioneel waren Europese rivierkreeften een geliefd gerecht in Vlaanderen, maar door intensieve vangst en een verslechterende waterkwaliteit gingen de populaties aan een stevig tempo achteruit. Als oplossing voor het dalende aanbod werden in de jaren '70 en '80 de uitheemse Turkse en Californische rivierkreeft geÃ¯ntroduceerd. Deze soorten planten zich sneller voort dan de Europese rivierkreeft en zijn minder veeleisend wat betreft waterkwaliteit. Helaas bracht de Californische rivierkreeft ook de kreeftenpest mee, wat de druk op de inheemse populaties verder verhoogde.  
 
 Recent zijn de meeste introducties gelinkt aan de aquarium- en vijverhandel. Rivierkreeften zijn populair bij aquariumhouders en tal van soorten worden uit verschillende landen ingevoerd. Als ze ontsnappen of worden vrijgelaten, bestaat de kans dat ze zich hier vestigen. Hun vermogen om in diverse aquatische habitats te overleven en zich over het land te verplaatsen naar andere waterlichamen maakt hen uiterst succesvol in het inpalmen van onze Vlaamse wateren.  
 
