@@ -2,7 +2,6 @@
 title: Meld je aan als vrijwilliger
 permalink: /aanmelden/
 ---
-# Instructions listed below will appear on the /aanmelden page
 
 Het opsporen van uitheemse rivierkreeften in Vlaanderen is een grote opdracht. Maar vele handen maken licht werk. Dankzij de kracht van burgerwetenschap is een beter overzicht van de aanwezige soorten en hun verspreiding mogelijk.
 
@@ -10,6 +9,5 @@ Ook jij kan hieraan bijdragen! Maak je geen zorgen als je (nog) geen expert in u
 
 Heb je zin om de wetenschap en onze inheemse natuur een duwtje in de rug te geven? 
 
-Registreer je hier als burgerwetenschapper 
-
-<!-- Link naar Google Sheet om als vrijwilliger aan te melden -->
+{: .text-center}
+[Registreer je hier als burgerwetenschapper](https://forms.gle/N9i2oAX1wzwPFgQ18){:.btn .btn-primary .text-light}
