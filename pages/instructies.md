@@ -40,7 +40,7 @@ De vier opeenvolgende dagen na het plaatsen van de fuiken controleer je of je ie
 4. Noteer eventuele **bijvangst**, zoals vissen, padden, krabben, etc. Deze moet je niet tot op soort determineren en je moet er geen foto's van nemen, maar het mag uiteraard wel.
 5. Nadat alles genoteerd is, laat de rivierkreeften en eventuele bijvangst meteen terug vrij in dezelfde waterloop waar ze gevangen werden. Doe dit een tiental meter verwijderd van de fuiken om hervangst van dezelfde dieren te minimaliseren.
 6. **Vul de aaszakjes** in de fuiken aan en **leg de fuiken terug** op dezelfde plaats in het water.
-Ga op de website naar For pages: [**rapporteer waarnemingen**](pages/waarnemingen.md) om je waarnemingen door te geven. Dit gebeurt best dagelijks zodat er geen waarnemingen verloren gaan.
+Ga op de website naar [**rapporteer waarnemingen**](pages/waarnemingen.md) om je waarnemingen door te geven. Dit gebeurt best dagelijks zodat er geen waarnemingen verloren gaan.
 7. **Herhaal dit proces** de volgende vier dagen. Het is belangrijk dat de dagen waarop je de fuiken controleert aaneensluitend zijn, sla er dus geen over.
 8. Op de **laatste dag** haal je na de controle **de fuiken weg**. Zorg dat je alles terug meeneemt en laat niets achter. De gebruikte aaszakjes mogen achteraf bij het restafval weggegooid worden.
 
