@@ -1,10 +1,8 @@
 ---
 title: Info
-description: Achtergrond informatie over het project en invasieve rivierkreeften
+description:
 background:
-  img: https://observation.org/photos/63570315.jpg
-  by: AJ Laansma (CC BY-NC-ND 4.0)
-  href: https://bit.ly/3UwkD8u
+  img: /assets/images/info_foto.jpg
 permalink: /info/
 ---
 
