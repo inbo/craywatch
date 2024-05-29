@@ -2,7 +2,7 @@
 
 - name: Dr. Frédérique Steen
   role: Onderzoeker # Will appear next to name
-  image: assets/images/pacifastacus-leniusculus.jpg # Can be external link
+  image: assets/images/Frederique.jpg # Can be external link
   description: > # Can be Markdown
   orcid: 0000-0001-5165-8644
   researchgate: Frederique_Steen
@@ -23,6 +23,6 @@
    
 - name: Dr. Lenin Riascos Flores
   role: Onderzoeker
-  image: assets/images/pacifastacus-leniusculus.jpg 
+  image: assets/images/Lenin.jpg 
   description: >
     
