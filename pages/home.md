@@ -11,4 +11,4 @@ Er is dringend meer kennis nodig over de aanwezige invasieve uitheemse rivierkre
 
 Met de hulp van burgerwetenschappers onderzoeken we tussen 15 juni en 15 oktober welke uitheemse rivierkreeften al dan niet in Vlaanderen voorkomen. Deze informatie is noodzakelijk om gerichte maatregelen te kunnen nemen en de uitvoering ervan te verbeteren. 
 
-**Wil jij bijdragen aan dit project?** Klik dan hier voor [meer informatie](/instructies.md/) en om je te [registreren](/aanmelden.md/). 
+**Wil jij bijdragen aan dit project?** Klik dan hier voor [meer informatie](/instructies/) en om je te [registreren](/aanmelden/). 

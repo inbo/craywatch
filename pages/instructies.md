@@ -20,7 +20,7 @@ Na het registreren en het reserveren van je locatie(s), krijg je een pakket met 
 - Een vergunning voor het gebruik van de vallen in het kader van Craywatch
 
 Controleer zo snel mogelijk of je alles ontvangen hebt. Indien niet, kan je ons contacteren door een mail te sturen naar <craywatch@inbo.be>.
-<br><br>
+
 ### De voorbereiding
 
 **Kies een periode** van 5 opeenvolgende dagen tussen 15 juni en 15 oktober om de vallen te plaatsen en te controleren. Ga best al eens een **kijkje nemen** op de gekozen locatie(s) om in te schatten of je er gemakkelijk kan geraken en waar de vallen geplaatst kunnen worden.
@@ -46,14 +46,13 @@ De vier opeenvolgende dagen na het plaatsen van de vallen controleer je of je ie
 Ga op de website naar [rapporteer waarnemingen](/waarnemingen.md/) om je waarnemingen door te geven. Dit gebeurt best dagelijks zodat er geen waarnemingen verloren gaan.
 7. **Herhaal dit proces** de volgende vier dagen. Het is belangrijk dat de dagen waarop je de vallen controleert aaneensluitend zijn, sla er dus geen over.
 8. Op de **laatste dag** haal je na de controle **de vallen weg**. Zorg dat je alles terug meeneemt en laat niets achter. De gebruikte aaszakjes mogen achteraf bij het restafval weggegooid worden.
-<br><br>
 
 ### Na afloop
 
 De vallen terugsturen.
 
 **De resultaten** van het onderzoek zullen nadien op de website gedeeld worden. Je krijgt een verwittiging via mail eens deze online staan.
-<br><br>
+
 ### Tips en extra informatie
 
 - Sla de exacte locaties van de vallen op, bijvoorbeeld via google maps, zodat je ze zeker terugvindt.
