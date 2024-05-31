@@ -11,3 +11,5 @@ Heb je zin om de wetenschap en onze inheemse natuur een duwtje in de rug te geve
 
 {: .text-center}
 [Registreer je hier als burgerwetenschapper](https://forms.gle/N9i2oAX1wzwPFgQ18){:.btn .btn-primary .text-light}
+
+![alt text](/assets/images/aanmelden.jpg)
