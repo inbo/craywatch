@@ -9,7 +9,7 @@ permalink: /soorten/faxonius-limosus/
 toc: true
 ---
 
-### Herkenning
+## Herkenning
 
 ![photo](https://inaturalist-open-data.s3.amazonaws.com/photos/362674317/original.jpeg){:.rounded .w-50 .float-start .me-3}
 
@@ -18,14 +18,18 @@ De gevlekte Amerikaanse rivierkreeft is een kleinere soort, met een lengte tot 1
 {:.alert .alert-warning}
 Opgelet: In onze buurlanden zijn nog vier andere uitheemse soorten van het genus Faxonius aanwezig die ook bij ons zouden kunnen opduiken.
 
-### Verspreiding
+## Verspreiding
 
 De soort is verspreid over heel Vlaanderen, maar vooral in de Kempen zeer algemeen. Hij komt vooral voor in grotere plassen, kanalen, rivieren en beken. De gevlekte Amerikaanse rivierkreeft is al in België aanwezig sinds 1960 en heeft zich intussen in nagenoeg heel het land gevestigd. 
 
-### Habitat
+## Habitat
 
 Deze uitheemse rivierkreeft wordt voornamelijk gevonden in grotere permanente wateren zoals rivieren, beken, kanalen, plassen en vijvers. Hij wordt uiterst zelden gezien in kleinere wateren zoals poelen of sloten.
 
-### Introductie
+## Introductie
 
 De gevlekte Amerikaanse rivierkreeft is in België terecht gekomen vanuit een geïntroduceerde populatie in Duitsland. Daarnaast wordt de soort soms aangeboden in de vijverhandel.
+
+## Informatiefiche
+
+[Informatiefiche](https://www.iasregulation.be/770/download){:.btn .btn-primary .text-light}
