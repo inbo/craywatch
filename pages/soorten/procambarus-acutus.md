@@ -18,3 +18,5 @@ De gestreepte Amerikaanse rivierkreeft komt in Vlaanderen in verschillende types
 
 ### Introductie
 De soort wordt vooral binnengebracht via de aquarium- en vijverhandel. In Noord-Amerika wordt hij buiten zijn natuurlijke verspreidingsgebied ook vaak geïntroduceerd voor consumptie.
+
+[Verspreiding in België](https://alert.riparias.be/?filters=%7B%27speciesIds%27%3A+%5B23%5D%7D)
