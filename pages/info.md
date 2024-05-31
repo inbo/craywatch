@@ -2,7 +2,7 @@
 title: Info
 description:
 background:
-  img: /assets/images/info_foto.jpg
+  img: /assets/images/kreeft.jpg
 permalink: /info/
 toc: true
 ---
