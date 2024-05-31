@@ -10,6 +10,11 @@ Een uitheemse soort is een dier, plant of ander organisme dat van nature niet vo
 </details>
 
 <details closed markdown="1">
+<summary><strong>Wat heb ik nodig om mee te doen?</strong></summary>
+Als je je aanmeldt, krijg je al het nodige materiaal toegestuurd. Dingen die ook handig zijn om te gebruiken, zijn laarzen, regenkledij, gsm of fototoestel en een schrijfplank (ook als je niet over deze dingen beschikt kan je nog steeds meedoen).
+</details>
+
+<details closed markdown="1">
 <summary><strong>Heb ik een visverlof nodig om in het kader van Craywatch rivierkreeften te vangen?</strong></summary>
 Nee, dat is niet nodig. Als vrijwilliger kan je zonder visvergunning de toegestuurde vallen plaatsen zoals afgesproken binnen het kader van Craywatch (afgesproken locatie en afgesproken data).
 </details>
