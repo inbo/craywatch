@@ -1,6 +1,8 @@
 ---
 title: Instructies
 description: Hoe ga je te werk?
+background:
+  img: /assets/images/RAkreeft.jpg
 permalink: /instructies/
 toc: true
 ---
