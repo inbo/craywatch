@@ -5,4 +5,4 @@ background:
 permalink: /determinatie/
 ---
 
-![Anatomische tekening rivierkreeft] (assets/images/anatomie_rivierkreeft.jpg)
+![Anatomische tekening rivierkreeft] (/assets/images/anatomie_rivierkreeft.jpg)
