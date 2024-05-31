@@ -1,6 +1,6 @@
 ---
 title: Determinatie
 background:
-  img: /assets/images/fotobanner.jpg
+  img: /assets/images/determinatie.jpg
 permalink: /determinatie/
 ---
