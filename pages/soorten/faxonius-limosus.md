@@ -4,7 +4,7 @@ description: _Faxonius limosus_
 background:
   img: /assets/images/f_limosus_XV.jpg
   by: Xavier Vermeersch
-  permalink: /soorten/faxonius-limosus/
+permalink: /soorten/faxonius-limosus/
 toc: true
 ---
 
