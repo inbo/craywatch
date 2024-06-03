@@ -1,0 +1,20 @@
+---
+layout: base
+description: Template for a list of page.pages as cards, with full width, adapted from petridish _layouts/archive.html
+---
+
+<div class="row">
+  <div class="col content">
+
+    {{ content }}
+  
+  </div>
+</div>
+
+<div class="row cards">
+  {% for item in page.pages %}
+    <div class="col-md-6 col-lg-4">
+      {% include card.html %}
+    </div>
+  {% endfor %}
+</div>
