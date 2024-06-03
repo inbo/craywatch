@@ -1,5 +1,5 @@
 ---
-title: rode Amerikaanse rivierkreeft
+title: Rode Amerikaanse rivierkreeft
 description: _Procambarus clarkii_
 background:
   img: /assets/images/rode.jpg
