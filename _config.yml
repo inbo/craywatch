@@ -24,6 +24,7 @@ rounded_corners: true
 logo: /assets/images/logo.png
 
 # BUILD SETTINGS
+repository: inbo/craywatch
 markdown: kramdown
 plugins:
   - jekyll-feed
