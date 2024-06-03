@@ -11,7 +11,7 @@ toc: true
 
 ## Herkenning
 
-De geknobbelde Amerikaanse rivierkreeft is een relatief kleine soort, met een lengte tot 13 cm (scharen niet inbegrepen). Volwassen dieren zijn grijs tot grijsbruin. De scharen zijn meestal grijsbruin tot groenblauw met duidelijke bleke knobbels aan de bovenzijde en bleek aan de onderzijde. De soort is te onderscheiden van de gevlekte Amerikaanse rivierkreeft door de afwezigheid van de stekels op de wang, de afwezigheid van de wijnrode vlekken en de punten van de scharen die niet zwart-oranje gebandeerd zijn.
+De geknobbelde Amerikaanse rivierkreeft is een relatief kleine soort, met een lengte tot 13 cm (scharen niet inbegrepen). Volwassen dieren zijn grijs tot grijsbruin. De [scharen](/determinatie/) zijn meestal grijsbruin tot groenblauw met duidelijke bleke knobbels aan de bovenzijde en bleek aan de onderzijde. De soort is te onderscheiden van de gevlekte Amerikaanse rivierkreeft door de afwezigheid van de stekels op de wang, de afwezigheid van de wijnrode vlekken en de punten van de scharen die niet zwart-oranje gebandeerd zijn.
 
 ## Verspreiding
 
