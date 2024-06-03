@@ -32,3 +32,5 @@ De gevlekte Amerikaanse rivierkreeft is in BelgiÃ« terecht gekomen vanuit een ge
 ## Informatiefiche
 
 [Informatiefiche](https://www.iasregulation.be/770/download){:.btn .btn-primary .text-light}
+
+Naast (_Faxonius limosus_) wordt soms ook de wetenschappelijke naam (­_Orconectes limosus_) voor de gevlekte Amerikaanse rivierkreeft gebruikt.
