@@ -29,4 +29,4 @@ Deze soort heeft geen natuurlijk verspreidingsgebied maar is ontstaan in de aqua
 
 [Informatiefiche](https://www.iasregulation.be/772/download){:.btn .btn-primary .text-light}
 
-Naast (_Procambarus virginalis_) wordt soms ook de wetenschappelijke naam (_Procambarus fallax f. virginalis_) voor de marmerkreeft gebruikt.
+Naast _Procambarus virginalis_ wordt soms ook de wetenschappelijke naam _Procambarus fallax f. virginalis_ voor de marmerkreeft gebruikt.
