@@ -28,3 +28,5 @@ Onbekend, vermoedelijk vijverhandel.
 ## Informatiefiche
 
 [Informatiefiche](https://www.iasregulation.be/771/download){:.btn .btn-primary .text-light}
+
+Naast _Faxonius virilis_ wordt soms ook de wetenschappelijke naam _Orconectes virilis_ voor de geknobbelde Amerikaanse rivierkreeft gebruikt.
