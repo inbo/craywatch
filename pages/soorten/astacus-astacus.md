@@ -2,8 +2,10 @@
 title: Europese rivierkreeft
 description: _Astacus astacus_
 background:
-  img: https://inaturalist-open-data.s3.amazonaws.com/photos/213316687/original.jpeg
-  by: daczison (CC BY-NC 4.0)
-  href: https://www.inaturalist.org/people/daczison
+  img: /assets/images/a_astacus_XV.jpg
+  by: Xavier Vermeersch
 permalink: /soorten/astacus-astacus/
 ---
+
+![photo](/assets/images/a_astacus_XV.jpeg){:.rounded .w-50 .float-start .me-3}
+_Foto door Xavier Vermeersch_
