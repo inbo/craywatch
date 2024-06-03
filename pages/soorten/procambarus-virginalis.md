@@ -11,7 +11,7 @@ toc: true
 
 ![photo](/assets/images/marmer.jpg){:.rounded .w-50 .float-start .me-3}
 
-De marmerkreeft is een kleinere soort, met een maximale lengte tot 13 cm (scharen niet inbegrepen). Doorgaans zijn de dieren grijs tot grijsgroen van kleur, maar blauwe, groene of bruine dieren komen ook voor. Het lijf is getekend met een duidelijk bleek marmerpatroon en een bruingelige lengtestreep over de carapax. De marmertekening is ook bij jonge dieren zichtbaar. Het [rostrum](/determinatie/) van deze rivierkreeften is toelopend. Marmerkreeften planten zich strikt parthenogenetisch voort, wat betekent dat er enkel vrouwtjes bestaan die zichzelf klonen. Deze soort onderscheidt zich van de andere Procambarus soorten door zijn opvallende marmertekening op het gehele lichaam en van de gevlekte Amerikaanse rivierkreeft (Faxonius limosus) door de gemarmerde scharen zonder oranje-zwarte punt en het toelopend rostrum.
+De marmerkreeft is een kleinere soort, met een maximale lengte tot 13 cm (scharen niet inbegrepen). Doorgaans zijn de dieren grijs tot grijsgroen van kleur, maar blauwe, groene of bruine dieren komen ook voor. Het lijf is getekend met een duidelijk bleek marmerpatroon en een bruingelige lengtestreep over de carapax. De marmertekening is ook bij jonge dieren zichtbaar. Het [rostrum](/determinatie/) van deze rivierkreeften is toelopend. Marmerkreeften planten zich strikt parthenogenetisch voort, wat betekent dat er enkel vrouwtjes bestaan die zichzelf klonen. Deze soort onderscheidt zich van de andere Procambarus soorten door zijn opvallende marmertekening op het gehele lichaam en van de gevlekte Amerikaanse rivierkreeft (_Faxonius limosus_) door de gemarmerde scharen zonder oranje-zwarte punt en het toelopend rostrum.
 
 ## Verspreiding
 
