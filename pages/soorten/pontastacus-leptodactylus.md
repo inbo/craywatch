@@ -1,5 +1,5 @@
 ---
-title: Turkse Rivierkreeft
+title: Turkse rivierkreeft
 description: _Pontastacus leptodactylus_
 background:
   img: /assets/images/p_leptodactylus_XV.jpg

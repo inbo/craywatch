@@ -1,5 +1,5 @@
 ---
-title: Marmerkreeft
+title: marmerkreeft
 description: _Procambarus virginalis_
 background:
   img: /assets/images/marmer.jpg

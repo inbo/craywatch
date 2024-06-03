@@ -1,5 +1,5 @@
 ---
-title: Gestreepte Amerikaanse Rivierkreeft
+title: gestreepte Amerikaanse rivierkreeft
 description: _Procambarus acutus_
 background:
   img: /assets/images/gestreepte.jpg
