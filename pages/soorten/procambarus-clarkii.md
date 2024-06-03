@@ -9,6 +9,8 @@ toc: true
 
 ## Herkenning
 
+![photo](assets/images/p_clarkii.jpg){:.rounded .w-50 .float-start .me-3}
+
 De rode Amerikaanse rivierkreeft is een middelgrote soort, die tot 15 cm lang kan worden (exclusief de scharen). Volwassen dieren zijn vaak opvallend rood gekleurd en ook de knobbels op de scharen zijn steeds rood. Jonge dieren zijn moeilijker te herkennen en kunnen grijs tot groenbruin zijn. Zij hebben een donkere tekening op het achterlijf en op hun scharen zijn er vaak oranje knobbels zichtbaar. Het rostrum van de rode Amerikaanse rivierkreeft is spits toelopend. Jonge dieren zijn moeilijk te onderscheiden van jonge gestreepte Amerikaanse rivierkreeften  (Procambarus acutus). Volwassen dieren kunnen ook verward worden met de gestreepte Amerikaanse rivierkreeft, maar het is eenvoudig het onderscheid te maken tussen deze beide soorten op basis van de kleur van de knobbels op de scharen. Bij de rode Amerikaanse rivierkreeft zijn deze rood, maar bij de gestreepte Amerikaanse rivierkreeft wit of zwart .
 
 ## Verspreiding
