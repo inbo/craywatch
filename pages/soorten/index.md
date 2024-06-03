@@ -25,6 +25,6 @@ pages:
   background: /assets/images/p_virginalis_wit.png
   url: /soorten/procambarus-virginalis/
 - title: Gestreepte Amerikaanse rivierkreeft
-  background: /assets/images/p_acutus_wit.jpg
+  background: /assets/images/p_acutus_wit.png
   url: /soorten/procambarus-acutus/
 ---
