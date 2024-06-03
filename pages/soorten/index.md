@@ -13,7 +13,7 @@ pages:
   background: /assets/images/a_astacus_XV.jpg
   url: /soorten/astacus-astacus/
 - title: Turkse rivierkreeft
-  background: 
+  background: /assets/images/p_leptodactylus_XV_2.jpg
   url: /soorten/pontastacus-leptodactylus/
 - title: Californische rivierkreeft
   background: /assets/images/p_leniusculus_XV.jpg
