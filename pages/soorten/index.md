@@ -18,7 +18,7 @@ pages:
 - title: Californische rivierkreeft
   img: /assets/images/p_leniusculus_XV.jpg
   href: /soorten/pacifastacus-leniusculus/
-- Rode Amerikaanse rivierkreeft
+- title: Rode Amerikaanse rivierkreeft
   img: /assets/images/rode.jpg
   href: /soorten/procambarus-clarkii/
 - title: marmerkreeft
