@@ -23,8 +23,10 @@ In het buitenland wordt de marmerkreeft zowel in stromend als stilstaand water g
 
 ## Introductie
 
-Deze soort heeft geen natuurlijk verspreidingsgebied maar is ontstaan in de aquariumhandel als kweekvorm van de Everglades-moeraskreeft (Procambarus fallax). Elke populatie in het wild, overal ter wereld, is dus geïntroduceerd, voornamelijk via de aquarium- en vijverhandel. De marmerkreeft plant zich uitsluitend parthenogenetisch voort, waardoor er enkel vrouwtjes zijn.
+Deze soort heeft geen natuurlijk verspreidingsgebied maar is ontstaan in de aquariumhandel als kweekvorm van de Everglades-moeraskreeft (_Procambarus fallax_). Elke populatie in het wild, overal ter wereld, is dus geïntroduceerd, voornamelijk via de aquarium- en vijverhandel. De marmerkreeft plant zich uitsluitend parthenogenetisch voort, waardoor er enkel vrouwtjes zijn.
 
 ## Informatiefiche
 
 [Informatiefiche](https://www.iasregulation.be/772/download){:.btn .btn-primary .text-light}
+
+Naast (_Procambarus virginalis_) wordt soms ook de wetenschappelijke naam (_Procambarus fallax f. virginalis_) voor de marmerkreeft gebruikt.
