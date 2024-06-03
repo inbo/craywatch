@@ -9,7 +9,7 @@ toc: true
 
 ## Herkenning
 
-De gestreepte Amerikaanse rivierkreeft wordt tot 13 cm lang, zonder inbegrip van de scharen. Volwassen dieren zijn doorgaans rood gekleurd. Er loopt een duidelijke zwarte band over de gehele lengte van het achterlijf, geflankeerd door contrasterende lichtere banden. Ook blekere, oranje tot zandkleurige, exemplaren komen af en toe voor. De rode, slanke, scharen hebben witte en zwarte knobbels en daardoor is de soort eenvoudig te onderscheiden van de rode Amerikaanse rivierkreeft (_Procambarus clarkii_), die duidelijke rode knobbels op de scharen heeft. Jonge dieren zijn bruingrijs tot groengrijs met een donkere tekening op het achterlijf, maar zijn moeilijk van de rode Amerikaanse rivierkreeft te onderscheiden. Het rostrum is toelopend maar korter en minder spits dan bij de rode Amerikaanse rivierkreeft.
+De gestreepte Amerikaanse rivierkreeft wordt tot 13 cm lang, zonder inbegrip van de scharen. Volwassen dieren zijn doorgaans rood gekleurd. Er loopt een duidelijke zwarte band over de gehele lengte van het achterlijf, geflankeerd door contrasterende lichtere banden. Ook blekere, oranje tot zandkleurige, exemplaren komen af en toe voor. De rode, slanke, scharen hebben witte en zwarte knobbels en daardoor is de soort eenvoudig te onderscheiden van de rode Amerikaanse rivierkreeft (_Procambarus clarkii_), die duidelijke rode knobbels op de scharen heeft. Jonge dieren zijn bruingrijs tot groengrijs met een donkere tekening op het achterlijf, maar zijn moeilijk van de rode Amerikaanse rivierkreeft te onderscheiden. Het [rostrum](/determinatie/) is toelopend maar korter en minder spits dan bij de rode Amerikaanse rivierkreeft.
 
 ## Verspreiding
 
