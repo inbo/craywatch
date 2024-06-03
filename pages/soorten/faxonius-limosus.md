@@ -2,16 +2,16 @@
 title: Gevlekte Amerikaanse Rivierkreeft
 description: _Faxonius limosus_
 background:
-  img: https://inaturalist-open-data.s3.amazonaws.com/photos/362674317/original.jpeg
-  by: hania2004 (CC BY-NC 4.0)
-  href: https://www.inaturalist.org/people/hania2004
-permalink: /soorten/faxonius-limosus/
+  img: /assets/images/f_limosus_XV.jpg
+  by: Xavier Vermeersch
+  permalink: /soorten/faxonius-limosus/
 toc: true
 ---
 
 ## Herkenning
 
-![photo](https://inaturalist-open-data.s3.amazonaws.com/photos/362674317/original.jpeg){:.rounded .w-50 .float-start .me-3}
+![photo](/assets/images/f_limosus_XV.jpeg){:.rounded .w-50 .float-start .me-3}
+_Foto door Xavier Vermeersch_
 
 De gevlekte Amerikaanse rivierkreeft is een kleinere soort, met een lengte tot 12 cm (scharen niet inbegrepen). Volwassen dieren zijn grijs tot grijsbruin met twee rijen wijnrode vlekken op het achterlijf. De scharen hebben een duidelijk oranje-zwart gekleurde punt, wat aan de onderzijde duidelijk zichtbaar is. Op de wang achter het oog is een groepje scherpe stekels te zien. Jonge exemplaren zijn vaak egaal grijs, maar de kleine schaartjes hebben doorgaans toch al de typerende oranje-zwarte punt. Het rostrum is niet toelopend maar vertoont twee parallelle richels. De soort is makkelijk te onderscheiden van de overige rivierkreeften door de wijnrode vlekken, de aanwezigheid van een groepje wangstekels, de oranje-zwarte punt van de schaar en het niet toelopend rostrum.
 
