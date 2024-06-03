@@ -7,5 +7,4 @@ background:
 permalink: /soorten/astacus-astacus/
 ---
 
-![photo](/assets/images/a_astacus_XV.jpeg)
-{:.rounded .w-50 .float-start .me-3}
+![photo](/assets/images/a_astacus_XV.jpg){:.rounded .w-50 .float-start .me-3}
