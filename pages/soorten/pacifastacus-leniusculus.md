@@ -10,7 +10,7 @@ toc: true
 
 ## Herkenning
 
-![photo](assets/images/p_leniusculus_XV_2.jpg){:.rounded .w-50 .float-start .me-3}
+![photo](/assets/images/p_leniusculus_XV_2.jpg){:.rounded .w-50 .float-start .me-3}
 
 
 De Californische rivierkreeft is een middelgrote soort met een lengte tot 16 cm, zonder inbegrip van de scharen. Volwassen dieren zijn geheel geelbruin of grijsbruin tot donkerbruin. De soort is makkelijk herkenbaar aan de geheel gladde scharen en het gladde carapax zonder wangstekels. De scharen zijn breed en aan de bovenzijde bij de aanhechting van de beweegbare vinger hebben ze een typische bleke witte tot blauwe vlek (niet bij jonge dieren). Bij volwassen dieren is de onderzijde van de scharen doorgaans oranjerood. Het rostrum is toelopend en over het midden zwak gekield.
