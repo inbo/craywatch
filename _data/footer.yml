@@ -3,14 +3,10 @@
 
 # Columns (the more you add, the narrower they will be)
 columns:
-  - description: "Project partners:"
-    links:
-    - text: Instituut voor Natuur- en Bos Onderzoek (INBO)
-      href: https://www.vlaanderen.be/inbo/home/
-      new_window: true
-    - text: Agentschap voor Natuur en Bos (ANB)
-      href: https://www.natuurenbos.be/
-      new_window: true
+  - description: >
+      [![INBO logo](/assets/images/logo-inbo.png){:.img-fluid}](https://www.vlaanderen.be/inbo/home/)
+  - description: >
+      [![ANB logo](/assets/images/logo-anb.png){:.img-fluid}](https://www.natuurenbos.be/)
 
 # Small print license statement to add at the bottom of the footer. Can be Markdown
 # Will be prefixed by "© {{ site.author }}" if defined in _config.yml
