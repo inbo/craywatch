@@ -1,5 +1,5 @@
 ---
-title: Gevlekte Amerikaanse Rivierkreeft
+title: gevlekte Amerikaanse rivierkreeft
 description: _Faxonius limosus_
 background:
   img: /assets/images/f_limosus_XV.jpg
