@@ -13,12 +13,12 @@ De laatste jaren ziet Vlaanderen een toename van invasieve, uitheemse rivierkree
 
 De soorten die tot nu toe in Vlaanderen voorkomen zijn:
 
-- [Gevlekte Amerikaanse rivierkreeft](/soorten/faxonius-limosus/) (_Faxonius limosus_)
+- [gevlekte Amerikaanse rivierkreeft](/soorten/faxonius-limosus/) (_Faxonius limosus_)
 - [Turkse rivierkreeft](/soorten/pontastacus-leptodactylus/) (_Pontastacus leptodactylus_)
 - [Californische rivierkreeft](/soorten/pacifastacus-leniusculus/) (_Pacifastacus leniusculus_)
-- [Rode Amerikaanse rivierkreeft](/soorten/procambarus-clarkii/) (_Procambarus clarkii_)
-- [Marmerkreeft](/soorten/procambarus-virginalis/) (_Procambarus virginalis_)
-- [Gestreepte Amerikaanse rivierkreeft](/soorten/procambarus-acutus/) (_Procambarus acutus_)  
+- [rode Amerikaanse rivierkreeft](/soorten/procambarus-clarkii/) (_Procambarus clarkii_)
+- [marmerkreeft](/soorten/procambarus-virginalis/) (_Procambarus virginalis_)
+- [gestreepte Amerikaanse rivierkreeft](/soorten/procambarus-acutus/) (_Procambarus acutus_)  
 
 ### Hoe kwamen ze hier terecht?
 

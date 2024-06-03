@@ -1,5 +1,5 @@
 ---
-title: geknobbelde Amerikaanse rivierkreeft
+title: Geknobbelde Amerikaanse rivierkreeft
 description: _Faxonius virilis_
 background:
   img: 

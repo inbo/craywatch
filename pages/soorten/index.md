@@ -1,30 +1,30 @@
 ---
-layout: archive
+layout: pages
 title: Soorten
 permalink: /soorten/
 pages:
-- title: gevlekte Amerikaanse rivierkreeft
-  img: /assets/images/f_limosus_XV.jpg
-  href: /soorten/faxonius-limosus/
-- title: geknobbelde Amerikaanse rivierkreeft
-  img: 
-  href: /soorten/faxonius-virilis/
+- title: Gevlekte Amerikaanse rivierkreeft
+  background: /assets/images/f_limosus_XV.jpg
+  url: /soorten/faxonius-limosus/
+- title: Geknobbelde Amerikaanse rivierkreeft
+  background: 
+  url: /soorten/faxonius-virilis/
 - title: Europese rivierkreeft
-  img: /assets/images/a_astacus_XV.jpg
-  href: /soorten/astacus-astacus/
+  background: /assets/images/a_astacus_XV.jpg
+  url: /soorten/astacus-astacus/
 - title: Turkse rivierkreeft
-  img: /assets/images/p_leptodactylus_XV_2.jpg
-  href: /soorten/pontastacus-leptodactylus/
+  background: /assets/images/p_leptodactylus_XV_2.jpg
+  url: /soorten/pontastacus-leptodactylus/
 - title: Californische rivierkreeft
-  img: /assets/images/p_leniusculus_XV.jpg
-  href: /soorten/pacifastacus-leniusculus/
+  background: /assets/images/p_leniusculus_XV.jpg
+  url: /soorten/pacifastacus-leniusculus/
 - title: Rode Amerikaanse rivierkreeft
-  img: /assets/images/rode.jpg
-  href: /soorten/procambarus-clarkii/
-- title: marmerkreeft
-  img: /assets/images/p_virginalis_wit.png
-  href: /soorten/procambarus-virginalis/
-- title: gestreepte Amerikaanse rivierkreeft
-  img: /assets/images/gestreepte.jpg
-  href: /soorten/procambarus-acutus/
+  background: /assets/images/rode.jpg
+  url: /soorten/procambarus-clarkii/
+- title: Marmerkreeft
+  background: /assets/images/p_virginalis_wit.png
+  url: /soorten/procambarus-virginalis/
+- title: Gestreepte Amerikaanse rivierkreeft
+  background: /assets/images/gestreepte.jpg
+  url: /soorten/procambarus-acutus/
 ---
