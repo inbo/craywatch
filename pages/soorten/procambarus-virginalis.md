@@ -2,7 +2,7 @@
 title: Marmerkreeft
 description: _Procambarus virginalis_
 background:
-  img: /assets/images/marmer.jpg
+  img: /assets/images/marmer_banner.jpg
 permalink: /soorten/procambarus-virginalis/
 toc: true
 ---
