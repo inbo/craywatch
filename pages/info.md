@@ -32,7 +32,7 @@ Invasieve rivierkreeften vormen om meerdere redenen een bedreiging voor lokale e
 - De dieren hebben een **omnivoor dieet**. Op het menu staan onder andere waterinsecten, slakken, amfibieëen, vissen en eieren, maar ook planten, algen en dood organisch materiaal.
 - Ze vernielen waterplanten en graven gangen en holen in oevers en waterbodems. Dit heeft als gevolg dat het **water troebel** wordt en de **waterkwaliteit achteruit** gaat.
 - Uitheemse rivierkreeften kunnen drager zijn van ziektes zoals de kreeftenpest, waar onze inheemse soort niet tegen bestand is.
-- Dankzij hun groot aanpassingsvermogen en snelle voortplanting kunnen ze zich zeer makkelijk in nieuwe habitats verstigen.  
+- Dankzij hun groot aanpassingsvermogen en snelle voortplanting kunnen ze zich zeer makkelijk in nieuwe habitats vestigen.  
 
 Door hun dieet en gedrag gaat de komst van uitheemse rivierkreeften vaak samen met de afname of verlies van verschillende, al dan niet beschermde, soortgroepen zoals vogels, vissen en amfibieëen. Om de impact van deze invasieve dieren te verminderen, is het nodig ze te bestrijden of beheren. De snelle toename van het aantal uitheemse rivierkreeften in combinatie met hun verborgen levenswijze maakt dit echter een zeer moeilijke opdracht.
 
