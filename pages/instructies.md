@@ -44,7 +44,7 @@ De vier opeenvolgende dagen na het plaatsen van de vallen controleer je of je ie
 5. Nadat alles genoteerd is, laat de rivierkreeften en eventuele bijvangst meteen terug vrij in dezelfde waterloop waar ze gevangen werden. Doe dit een tiental meter verwijderd van de vallen om hervangst van dezelfde dieren te minimaliseren.
 6. **Vul de aaszakjes** in de vallen aan en **leg de vallen terug** op dezelfde plaats in het water.
 Ga op de website naar [rapporteer waarnemingen](/waarnemingen/) om je waarnemingen door te geven. Dit gebeurt best dagelijks zodat er geen waarnemingen verloren gaan.
-7. **Herhaal dit proces** de volgende vier dagen. Het is belangrijk dat de dagen waarop je de vallen controleert aaneensluitend zijn, sla er dus geen over.
+7. **Herhaal dit proces** de volgende drie dagen. Het is belangrijk dat de dagen waarop je de vallen controleert aaneensluitend zijn, sla er dus geen over.
 8. Op de **laatste dag** haal je na de controle **de vallen weg**. Zorg dat je alles terug meeneemt en laat niets achter. De gebruikte aaszakjes mogen achteraf bij het restafval weggegooid worden.
 
 ### Na afloop
