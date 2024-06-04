@@ -7,7 +7,7 @@ pages:
   background: /assets/images/f_limosus_XV.jpg
   url: /soorten/faxonius-limosus/
 - title: Geknobbelde Amerikaanse rivierkreeft
-  background: 
+  background: /assets/images/virilis_TA.jpg
   url: /soorten/faxonius-virilis/
 - title: Europese rivierkreeft
   background: /assets/images/a_astacus_XV.jpg
