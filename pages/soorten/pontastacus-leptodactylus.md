@@ -12,7 +12,7 @@ toc: true
 
 ![photo](/assets/images/p_leptodactylus_XV_2.jpg){:.rounded .w-50 .float-start .me-3}
 
-Dit is een grote soort, hij wordt tot 20 cm lang (scharen niet inbegrepen). De Turkse rivierkreeft is geheel bleek geelbruin of grijsbruin. Zijn carapax en slanke, rechte scharen zijn zeer ruw door vele kleine stekels. De stekels op de wang zijn vaak scherp en duidelijk. Het [rostrum](/determinatie/) is gekield en niet toelopend. De Turkse rivierkreeft is makkelijk te onderscheiden van de andere uitheemse rivierkreeften door de uniform bleke kleur, het ruwe oppervlak van de slanke scharen en het carapax,  en het grote formaat.
+Dit is een van de grotere soorten in Vlaanderen en wordt tot 20 cm lang (scharen niet inbegrepen). De Turkse rivierkreeft is geheel bleek geelbruin of grijsbruin. Zijn carapax en slanke, rechte scharen zijn zeer ruw door vele kleine stekels. De stekels op de wang zijn vaak scherp en duidelijk. Het [rostrum](/determinatie/) is gekield en niet toelopend. De Turkse rivierkreeft is makkelijk te onderscheiden van de andere uitheemse rivierkreeften door de uniform bleke kleur, het ruwe oppervlak van de slanke scharen en het carapax,  en het grote formaat.
 
 ## Verspreiding
 
