@@ -11,7 +11,7 @@ De Craywatch website wordt beheerd door het Instituut voor Natuur- en Bosonderzo
 
 ## Welke gegevens verwerken we?
 
-Via het Craywatch-project verzamelen we meldingen van individuen van verscheidene invasieve uitheemse soorten rivierkreeften, via het Waarnemingen.be platform (beheerd door Natuurpunt). Een melding bestaat uit algemene gegevens van de waarneming (locatie, tijdstip, foto etc) en persoonsgegevens. We verwijderen meldingen met ongepaste foto’s (inclusief auteursrechtelijk beschermde foto’s die van het web geplukt worden) en foutieve locaties die niet achterhaald kunnen worden.
+Via het Craywatch-project verzamelen we meldingen van individuen van verscheidene invasieve uitheemse soorten rivierkreeften, via het Waarnemingen.be platform (beheerd door Natuurpunt). Een melding bestaat uit algemene gegevens van de waarneming (locatie, tijdstip, foto etc) en persoonsgegevens. We verwijderen meldingen met ongepaste foto's (inclusief auteursrechtelijk beschermde foto's die van het web geplukt worden) en foutieve locaties die niet achterhaald kunnen worden.
 
 Via het aanmeldingsformulier worden ook persoonsgegevens verzameld.
 
