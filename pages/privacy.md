@@ -19,7 +19,7 @@ Via het aanmeldingsformulier worden ook persoonsgegevens verzameld.
 
 Bij het ingeven van een waarneming op waarnemingen.be via een eigen account of de event paginas, is het [privacybeleid](https://waarnemingen.be/pages/privacy/) van het platform Waarnemingen.be van toepassing.
 
-Met het ingeven van een waarneming via de event paginas gaat u ook akkoord met onderstaande. Ter bescherming van het leefmilieu, voor wetenschappelijke doeleinden en in lijn met het [open databeleid van het INBO] (https://www.vlaanderen.be/inbo/opendatabeleid/) worden algemene gegevens van meldingen ter beschikking gesteld onder een [Creative Commons zero waiver] (https://creativecommons.org/publicdomain/zero/1.0/deed.nl). Meer specifiek:
+Met het ingeven van een waarneming via de event paginas gaat u ook akkoord met onderstaande. Ter bescherming van het leefmilieu, voor wetenschappelijke doeleinden en in lijn met het [open databeleid van het INBO](https://www.vlaanderen.be/inbo/opendatabeleid/) worden algemene gegevens van meldingen ter beschikking gesteld onder een [Creative Commons zero waiver](https://creativecommons.org/publicdomain/zero/1.0/deed.nl). Meer specifiek:
 
 - De deelnemers gaan ermee akkoord dat Natuurpunt en het NSSIAS de foto's kunnen gebruiken voor algemene communicatie, als promotie voor de betreffende actie en de foto's kunnen verspreiden naar derden, zonder dat hiervoor een vergoeding van het auteursrecht verschuldigd is. De auteur van het beeld wordt hierbij telkenmale vermeld.
 
