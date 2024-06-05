@@ -34,5 +34,20 @@ Met het ingeven van een waarneming via de event paginas gaat u ook akkoord met o
 
 Bij het ingeven van een waarneming op waarnemingen.be via een eigen account of de event paginas, is het [privacybeleid](https://waarnemingen.be/pages/privacy/) van het platform Waarnemingen.be van toepassing.
 
-Door een ingave van een waarneming op Waarnemingen.be in het kader van dit project gaat u ook akkoord met het delen van uw e-mailadres met het projectteam. Het mailadres zal alleen gebruikt worden om contact op te nemen met de waarnemer in het kader van extra gegevensverzameling gelinkt aan de betreffende waarneming (morfologie, DNA-staalname). Je persoonsgegevens worden niet voor andere toepassingen gebruikt, niet gedeeld met derden buiten het project en niet getoond op de website.
+Door een ingave van een waarneming op Waarnemingen.be in het kader van dit project gaat u ook akkoord met het delen van uw e-mailadres met het projectteam. Het mailadres zal alleen gebruikt worden om contact op te nemen met de waarnemer in het kader van extra gegevensverzameling gelinkt aan de betreffende waarneming (morfologie, DNA-staalname). Uw persoonsgegevens worden niet voor andere toepassingen gebruikt, niet gedeeld met derden buiten het project en niet getoond op de website.
+
+Uw gegevens worden bewaard tot de afloop van het onderzoek.
+
+## Wat zijn uw rechten?
+
+Met betrekking tot de persoonsgegevens die verbonden zijn aan een account op Waarnemingen.be zijn de [privacy statement](https://waarnemingen.be/pages/privacy/) van dat platform van toepassing.
+
+Wanneer u een waarneming ingeeft via de Event pages (zonder account aan te maken), of uw mailadres verstrekt via het formulier "Aanmelding Craywatch" heeft u de volgende rechten:
+
+- U hebt het recht om toegang te vragen tot uw persoonsgegevens. Zo kunt u een kopie krijgen van de persoonsgegevens die wij over u bewaren.
+- U hebt het recht om correctie te vragen van de persoonsgegevens die wij over u bewaren. Zo kunt u eventuele onvolledige of onjuiste informatie die wij over u hebben, laten corrigeren.
+- U hebt het recht om te vragen dat uw persoonsgegevens worden gewist. Zo kunt u ons vragen om persoonsgegevens te wissen of te verwijderen als er geen goede reden is om ze te blijven verwerken. Voor zover de verdere verwerking van uw persoonsgegevens noodzakelijk is, bijvoorbeeld om te voldoen aan onze wettelijke verplichtingen of om wettelijke voorschriften vast te stellen, af te dwingen of te verdedigen, zijn wij niet verplicht om uw persoonsgegevens te wissen.
+- U hebt het recht bezwaar te maken tegen onze verwerking van uw persoonsgegevens wanneer wij ons baseren op een rechtmatig belang (of dat van een derde partij) en er iets in uw specifieke situatie is waardoor u bezwaar wilt maken tegen verwerking op deze grond.
+- In gevallen waarin wij uw gegevens verwerken op basis van uw toestemming, hebt u het recht deze toestemming te allen tijde in te trekken. Indien u uw toestemming wilt intrekken, kunt u contact met ons opnemen via <privacy@inbo.be>.
+- Als u de indruk heeft dat uw gegevens niet goed beveiligd zijn of er aanwijzingen zijn van misbruik, neem dan contact op via <privacy@inbo.be>. 
 
