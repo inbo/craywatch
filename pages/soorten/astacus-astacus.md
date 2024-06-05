@@ -5,17 +5,24 @@ background:
   img: /assets/images/a_astacus_XV.jpg
   by: Xavier Vermeersch
 permalink: /soorten/astacus-astacus/
+toc: true
 ---
 
 ## Herkenning
 
-![photo](/assets/images/a_astacus_XV.jpg){:.rounded .w-50 .float-start .me-3}
+{:.rounded .w-50 .float-start .me-3}
+![photo](/assets/images/a_astacus_XV.jpg)
+_Foto door Xavier Vermeersch_
 
-Deze robuuste soort wordt tot 18 cm lang. Het dier is meestal bruin of grijsgroen, maar kan ook blauw zijn. De carapax is hoogstens ruw, maar niet gestekeld zoals bij de Turkse rivierkreeft. Scharen zijn bij volwassen dieren aan de onderzijde roodbruin. Het rostrum is niet toelopend en de areola breed.
+Deze robuuste soort kan tot 18 cm lang worden. Het dier is meestal bruin of grijsgroen van kleur, maar kan ook blauw zijn. De carapax is hoogstens ruw, maar is niet gestekeld zoals bij de Turkse rivierkreeft. 
+
+De scharen van volwassen dieren zijn aan de onderzijde roodbruin. Het rostrum is bij deze soort niet toelopend en de areola zijn breed.  
 
 ## Verspreiding
 
-De Europese rivierkreeft is de enige inheemse rivierkreeft in België en kwam vroeger voor in het oosten van Vlaanderen en in Wallonië. Ten gevolge van slechte waterkwaliteit en overbevissing is de soort uitgestorven in Vlaanderen (laatste waarneming in 1949). Recent zijn er enkele waarnemingen gemeld die louter het gevolg zijn van ontsnapte dieren uit gevangenschap.
+De Europese rivierkreeft is de enige inheemse rivierkreeft in België en kwam vroeger voor in het oosten van Vlaanderen en in Wallonië. 
+
+Ten gevolge van slechte waterkwaliteit en overbevissing is de soort uitgestorven in Vlaanderen (laatste waarneming in 1949). Recent zijn er enkele waarnemingen gemeld die louter het gevolg zijn van ontsnapte dieren uit gevangenschap.
 
 ## Habitat
 
