@@ -11,13 +11,13 @@ De Craywatch website wordt beheerd door het [Instituut voor Natuur- en Bosonderz
 
 ## Welke gegevens verwerken we?
 
-Via het Craywatch-project verzamelen we meldingen van individuen van verscheidene invasieve uitheemse soorten rivierkreeften, via het Waarnemingen.be platform (beheerd door Natuurpunt). Een melding bestaat uit algemene gegevens van de waarneming (locatie, tijdstip, foto etc) en persoonsgegevens. We verwijderen meldingen met ongepaste foto's (inclusief auteursrechtelijk beschermde foto's die van het web geplukt worden) en foutieve locaties die niet achterhaald kunnen worden.
+Via het Craywatch-project verzamelen we meldingen van individuen van verscheidene invasieve uitheemse soorten rivierkreeften, via het [Waarnemingen.be](https://waarnemingen.be/) platform (beheerd door Natuurpunt). Een melding bestaat uit algemene gegevens van de waarneming (locatie, tijdstip, foto etc) en persoonsgegevens. We verwijderen meldingen met ongepaste foto's (inclusief auteursrechtelijk beschermde foto's die van het web geplukt worden) en foutieve locaties die niet achterhaald kunnen worden.
 
 Via het aanmeldingsformulier worden ook persoonsgegevens verzameld.
 
 ## Wat gebeurt er met mijn algemene gegevens?
 
-Bij het ingeven van een waarneming op waarnemingen.be via een eigen account of de event paginas, is het privacybeleid van het platform Waarnemingen.be van toepassing.
+Bij het ingeven van een waarneming op waarnemingen.be via een eigen account of de event paginas, is het [privacybeleid](https://waarnemingen.be/pages/privacy/) van het platform Waarnemingen.be van toepassing.
 
 Met het ingeven van een waarneming via de event paginas gaat u ook akkoord met onderstaande. Ter bescherming van het leefmilieu, voor wetenschappelijke doeleinden en in lijn met het open databeleid worden algemene gegevens van meldingen ter beschikking gesteld onder een Creative common zero waiver. Meer specifiek:
 
@@ -32,7 +32,7 @@ Met het ingeven van een waarneming via de event paginas gaat u ook akkoord met o
 
 ## Wat gebeurt er met mijn persoonsgegevens?
 
-Bij het ingeven van een waarneming op waarnemingen.be via een eigen account of de event paginas, is het privacybeleid van het platform Waarnemingen.be van toepassing.
+Bij het ingeven van een waarneming op waarnemingen.be via een eigen account of de event paginas, is het [privacybeleid](https://waarnemingen.be/pages/privacy/) van het platform Waarnemingen.be van toepassing.
 
 Door een ingave van een waarneming op Waarnemingen.be in het kader van dit project gaat u ook akkoord met het delen van uw e-mailadres met het projectteam. Het mailadres zal alleen gebruikt worden om contact op te nemen met de waarnemer in het kader van extra gegevensverzameling gelinkt aan de betreffende waarneming (morfologie, DNA-staalname). Je persoonsgegevens worden niet voor andere toepassingen gebruikt, niet gedeeld met derden buiten het project en niet getoond op de website.
 
