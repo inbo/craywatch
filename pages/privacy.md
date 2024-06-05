@@ -26,9 +26,9 @@ Met het ingeven van een waarneming via de event paginas gaat u ook akkoord met o
 - Bij het gebruik van het platform Waarnemingen.be gaat u ermee akkoord dat de wetenschappelijke data geassocieerd met uw waarneming kan gebruikt worden onder een CC0 licentie en gebruikt kunnen worden voor wetenschappelijke doeleinden en beleid.
 
 	- Observaties die verzameld werd in het kader van dit project zullen door het NSSIAS gebruikt worden in een publicatie.
-	- Observaties van uitheemse soorten die verzameld werd in het kader van dit project zullen na validatie gepubliceerd worden op het GBIF-platform waar deze data kunnen gebruikt worden voor wetenschappelijke doeleinden en door privépersonen.
+	- Observaties van uitheemse soorten die verzameld werd in het kader van dit project zullen na validatie gepubliceerd worden op het GBIF-platform waar deze data kunnen gebruikt worden voor wetenschappelijke doeleinden en door privÃ©personen.
 
-- Observaties die vrijgegeven wordt op Waarnemingen.be zijn beschikbaar voor gebruik voor privé personen. Voor alle ander gebruik is expliciete toestemming nodig van Natuurpunt of het NSSIAS.
+- Observaties die vrijgegeven wordt op Waarnemingen.be zijn beschikbaar voor gebruik voor privÃ©personen personen. Voor alle ander gebruik is expliciete toestemming nodig van Natuurpunt of het NSSIAS.
 
 ## Wat gebeurt er met mijn persoonsgegevens?
 
