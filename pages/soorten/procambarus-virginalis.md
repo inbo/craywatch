@@ -10,7 +10,7 @@ toc: true
 ## Herkenning
 
 {:.rounded .w-50 .float-start .me-3}
-![photo](/assets/images/p_virginalis_wit.png)
+[![photo](/assets/images/p_virginalis_wit.png)](/assets/images/p_virginalis_wit.png)
 _Foto door Kevin Scheers_
 
 De marmerkreeft kan maximaal 13 cm lang worden (scharen niet inbegrepen). Doorgaans zijn de dieren grijs tot grijsgroen van kleur, maar blauwe, groene of bruine dieren komen ook voor. Het lijf is getekend met een duidelijk bleek marmerpatroon en een bruingelige lengtestreep over de carapax. De marmertekening is ook bij jonge dieren zichtbaar. Het [rostrum](/determinatie/) van deze rivierkreeften is toelopend. 
