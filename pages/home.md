@@ -3,7 +3,7 @@ layout: home
 title: Craywatch
 description: Burgerwetenschappelijk onderzoek rond invasieve uitheemse rivierkreeften in Vlaanderen
 background:
-  img: /assets/images/banner_home.png
+  img: /assets/images/home-banner.jpg
 permalink: /
 ---
 
