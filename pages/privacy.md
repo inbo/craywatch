@@ -7,7 +7,7 @@ Dank voor je interesse in het Craywatch-project en voor je hulp bij het verzamel
 
 ## Wie beheert het Craywatch-project?
 
-De Craywatch website wordt beheerd door het [Instituut voor Natuur- en Bosonderzoek (INBO)](https://https://www.vlaanderen.be/inbo/home/).
+De Craywatch website wordt beheerd door het [Instituut voor Natuur- en Bosonderzoek (INBO)](https://www.vlaanderen.be/inbo/home/).
 
 ## Welke gegevens verwerken we?
 
