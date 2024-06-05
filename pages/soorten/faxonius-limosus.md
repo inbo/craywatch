@@ -10,7 +10,9 @@ toc: true
 
 ## Herkenning
 
-![photo](/assets/images/f_limosus_XV.jpg){:.rounded .w-50 .float-start .me-3}
+{:.rounded .w-50 .float-start .me-3}
+[![photo](/assets/images/f_limosus_XV.jpg)](/assets/images/f_limosus_XV.jpg)
+_Foto door Xavier Vermeersch_
 
 De gevlekte Amerikaanse rivierkreeft wordt tot 12 cm lang (scharen niet inbegrepen). Volwassen dieren zijn grijs tot grijsbruin met twee rijen wijnrode vlekken op het achterlijf. De scharen hebben een duidelijk oranje-zwart gekleurde punt, wat aan de onderzijde duidelijk zichtbaar is. Op de wang achter het oog is een groepje scherpe stekels te zien. Jonge exemplaren zijn vaak egaal grijs, maar de kleine schaartjes hebben doorgaans toch al de typerende oranje-zwarte punt. Het [rostrum](/determinatie/) is niet toelopend maar vertoont twee parallelle richels. De soort is makkelijk te onderscheiden van de overige rivierkreeften door de wijnrode vlekken, de aanwezigheid van een groepje wangstekels, de oranje-zwarte punt van de schaar en het niet toelopend rostrum.
 
