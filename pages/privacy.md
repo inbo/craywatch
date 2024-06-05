@@ -21,7 +21,7 @@ Bij het ingeven van een waarneming op waarnemingen.be via een eigen account of d
 
 Met het ingeven van een waarneming via de event paginas gaat u ook akkoord met onderstaande. Ter bescherming van het leefmilieu, voor wetenschappelijke doeleinden en in lijn met het open databeleid worden algemene gegevens van meldingen ter beschikking gesteld onder een Creative common zero waiver. Meer specifiek:
 
-- De deelnemers gaan ermee akkoord dat Natuurpunt en het NSSIAS de foto('s) kunnen gebruiken voor algemene communicatie, als promotie voor de betreffende actie en de foto('s) kunnen verspreiden naar derden, zonder dat hiervoor een vergoeding van het auteursrecht verschuldigd is. De auteur van het beeld wordt hierbij telkenmale vermeld.
+- De deelnemers gaan ermee akkoord dat Natuurpunt en het NSSIAS de foto's kunnen gebruiken voor algemene communicatie, als promotie voor de betreffende actie en de foto's kunnen verspreiden naar derden, zonder dat hiervoor een vergoeding van het auteursrecht verschuldigd is. De auteur van het beeld wordt hierbij telkenmale vermeld.
 
 - Bij het gebruik van het platform Waarnemingen.be gaat u ermee akkoord dat de wetenschappelijke data geassocieerd met uw waarneming kan gebruikt worden onder een CC0 licentie en gebruikt kunnen worden voor wetenschappelijke doeleinden en beleid.
 
