@@ -35,8 +35,13 @@
 - name: Tim Adriaens
   role: Onderzoeker
   image: assets/images/tim.jpg
+  description: >
+    Tim is gepassioneerd door biologische invasies en hun beheer. Hij is programmacoördinator invasieve soorten bij INBO en werkt vaak met citizen science.
   orcid: 0000-0001-7268-4200
+  email: tim.adriaens@inbo.be
   researchgate: Tim_Adriaens
+  x: https://x.com/AdriaensTim
+  github: timadriaens
 
 - name: Damiano Oldoni
   role: Onderzoekssoftware ontwikkelaar
