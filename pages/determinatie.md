@@ -5,4 +5,4 @@ background:
 permalink: /determinatie/
 ---
 
-![alt text](/assets/images/Morfologie.jpg)
+![alt text](/assets/images/morfologie_cor.jpg)

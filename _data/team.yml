@@ -1,42 +1,46 @@
 # Project team members listed below will appear on the /team page
 
 - name: Dr. Frédérique Steen
-  role: Onderzoeker # Will appear next to name
-  image: assets/images/Frederique.jpg # Can be external link
-  description: > # Can be Markdown
+  role: Onderzoeker
+  image: assets/images/frederique.jpg
+  description: >
     Frédérique is biologe met een focus op invasieve rivierkreeften en (water)planten. Zij zet zich in voor het monitoren en beheren van deze soorten, met als doel de watersystemen veerkrachtiger te maken.
   orcid: 0000-0001-5165-8644
   researchgate: Frederique_Steen
 
 - name: Bieke Maex
   role: Onderzoeksmedewerker
-  image: assets/images/Bieke.jpg
+  image: assets/images/bieke.jpg
       
 - name: Margot Vermeylen
   role: Onderzoeksmedewerker - bioloog
-  image: assets/images/Margot.jpg
-  description: >
+  image: assets/images/margot.jpg
     
 - name: Kevin Scheers
   role: Onderzoeksmedewerker
-  image: assets/images/Kevin.jpg 
-  description: >
+  image: assets/images/kevin.jpg
    
 - name: Dr. Lenin Riascos Flores
   role: Onderzoeker
-  image: assets/images/Lenin.jpg 
-  description: >
+  image: assets/images/lenin.jpg
 
 - name: Wietse Chanet
   role: Communicatiemedewerker
-  image: assets/images/Wietse.jpg 
-  description: >
+  image: assets/images/wietse.jpg
 
 - name: Tim Adriaens
   role: Onderzoeker
-  image: assets/images/Tim.jpg 
-  description: > 
+  image: assets/images/tim.jpg
   orcid: 0000-0001-7268-4200
   researchgate: Tim_Adriaens
 
-
+- name: Peter Desmet
+  role: Open data coördinator
+  image: https://avatars1.githubusercontent.com/u/600993?s=460&v=4
+  description: >
+    Peter is gepassioneerd door open data en open onderzoek. Hij is open data coördinator bij INBO's [Open science lab for biodiversity](https://oscibio.inbo.be) en biedt technische ondersteuning aan voor Craywatch.
+  orcid: 0000-0002-8442-8025
+  email: peter.desmet@inbo.be
+  researchgate: Peter-Desmet
+  mastodon: https://mastodon.social/@peterdesmet
+  github: peterdesmet

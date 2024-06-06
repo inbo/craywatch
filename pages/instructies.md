@@ -2,7 +2,7 @@
 title: Instructies
 description: Hoe ga je te werk?
 background:
-  img: /assets/images/RAkreeft.jpg
+  img: /assets/images/ra_kreeft.jpg
 permalink: /instructies/
 toc: true
 ---
