@@ -29,7 +29,6 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-leaflet
 exclude:
   - README.md
   - Gemfile
