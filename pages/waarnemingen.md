@@ -9,7 +9,7 @@ permalink: /waarnemingen/
 <div class="accordion accordion-flush" id="steps">
   <div class="accordion-item">
     <div class="accordion-header" id="heading-step-1">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#step-1" aria-expanded="true" aria-controlled="step-1">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#step-1" aria-expanded="true" aria-controlled="step-1">
         Er zat minstens één kreeft in mijn vallen en ik ken de soort
       </button>
     </div>
@@ -30,7 +30,7 @@ permalink: /waarnemingen/
   </div>
   <div class="accordion-item">
     <div class="accordion-header" id="heading-step-2">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#step-2" aria-expanded="true" aria-controlled="step-2">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#step-2" aria-expanded="true" aria-controlled="step-2">
         Er zat minstens één kreeft in mijn vallen, maar ik ken de soort niet
       </button>
     </div>
@@ -44,7 +44,7 @@ permalink: /waarnemingen/
   </div>
   <div class="accordion-item">
     <div class="accordion-header" id="heading-step-3">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#step-3" aria-expanded="true" aria-controlled="step-3">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#step-3" aria-expanded="true" aria-controlled="step-3">
         Er zaten geen rivierkreeften in mijn vallen
       </button>
     </div>
