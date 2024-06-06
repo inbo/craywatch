@@ -7,7 +7,7 @@ permalink: /kaart/
 In ontwikkeling.
 
 {% leaflet_map { "center" : [51,  4.15],
-                 "zoom" : 7,
+                 "zoom" : 8,
                  "providerBasemap": "OpenStreetMap.HOT" } %}
     {}
 {% endleaflet_map %}
