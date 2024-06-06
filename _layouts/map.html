@@ -9,11 +9,29 @@ description: Template for a leaflet map with the observations
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="https://d3js.org/d3.v7.min.js"></script>
 <script>
-  const map = L.map('map').setView([51.0, 4.15], 8);
-  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
-    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-  }).addTo(map);
-  <!-- how to add a marker (pound location) const marker1 = L.marker([51.1, 4.3]).addTo(map); -->
+  d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vQ0oBcuDB5uC9PaTOJU8MDKHR43nhY_X8Kwt9D3yVPB1ug6p9ioc0Ss4HUzx7cevkRV4ZEscqfAHiKi/pub?output=csv").then(function(data) { // Handle the loaded CSV data here 
+    // Create the map
+    const map = L.map('map').setView([51.0, 4.15], 8);
+    // Add OpenStreetMap tiles
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(map);
+    // Loop through the data
+    data.forEach(function(d) {
+      // Check if the 'isGereserveerd' column is TRUE
+      if (d.isGereserveerd === 'TRUE') {
+      // Parse the coordinates as numbers
+        var lat = +d.y;
+        var lon = +d.x;
+        // Add a marker to the map
+        var marker = L.marker([lat, lon]).addTo(map);
+        // Bind a popup to the marker with the 'locatieID' column's value
+        marker.bindPopup(
+          `<b>locatieID:</b> ${d.locatieID}<br/><b>gemeente:</b> ${d.gemeente}`);
+      }
+    });
+  })
 </script>
