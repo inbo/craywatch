@@ -1,0 +1,4 @@
+---
+title: Kaart
+permalink: /kaart/
+---
