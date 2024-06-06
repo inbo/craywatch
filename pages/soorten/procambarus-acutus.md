@@ -19,6 +19,8 @@ De gestreepte Amerikaanse rivierkreeft kan tot 13 cm lang worden, zonder inbegri
 
 Momenteel zijn er slechts vier gevestigde populaties bekend in Vlaanderen, meer bepaald in Oost-Vlaanderen, Antwerpen en Limburg. Verspreide waarnemingen buiten deze populaties en provincies wijzen erop dat de verspreiding van de soort nog niet goed gekend is. In Wallonië is de soort voorlopig nog niet waargenomen.
 
+[Verpreidingskaart](/kaart/){:.btn .btn-primary .text-light}
+
 ## Habitat
 
 De gestreepte Amerikaanse rivierkreeft komt in Vlaanderen in verschillende types wateren voor: grachten, vijvers en beken. De soort heeft in zijn natuurlijke verspreidingsgebied een voorkeur voor ondiep water en komt ook voor in jaarlijks droogvallende waterlichamen. Bij droogte trekt hij zich terug in zelfgegraven gangen. Bij het zoeken naar nieuwe habitats kan deze uitheemse rivierkreeft over land lopen. De gestreepte Amerikaanse rivierkreeft zou toleranter zijn voor lage temperaturen dan de rode Amerikaanse rivierkreeft.
@@ -27,4 +29,3 @@ De gestreepte Amerikaanse rivierkreeft komt in Vlaanderen in verschillende types
 
 De soort wordt vooral binnengebracht via de aquarium- en vijverhandel. In Noord-Amerika wordt hij buiten zijn natuurlijke verspreidingsgebied ook vaak geïntroduceerd voor consumptie.
 
-[Verspreiding in België](https://alert.riparias.be/?filters=%7B%27speciesIds%27%3A+%5B23%5D%7D)

@@ -22,6 +22,8 @@ Marmerkreeften planten zich strikt parthenogenetisch voort, wat betekent dat er 
 
 Deze soort is momenteel gekend van vijf populaties: Schoonselhof (Antwerpen), de Wolvenberg (Antwerpen), Provinciaal Domein Kessel-Lo (Vlaams-Brabant), een artificiële vijver in Leuven (Vlaams-Brabant) en een parkvijver bij Middelkerke (West-Vlaanderen).
 
+[Verpreidingskaart](/kaart/){:.btn .btn-primary .text-light}
+
 ## Habitat
 
 In het buitenland wordt de marmerkreeft zowel in stromend als stilstaand water gevonden. In Vlaanderen is de soort waargenomen in vijvers, poelen en grachten. De marmerkreeft graaft zich in bij droogte en kan hierdoor droogval goed verdragen.
