@@ -21,6 +21,8 @@ Jonge dieren zijn moeilijk te onderscheiden van jonge gestreepte Amerikaanse riv
 
 De soort is sterk aan het toenemen, met vondsten in alle Belgische provincies. Momenteel is er een grote populatie ten noorden van Brugge (ruwweg in de driehoek tussen Oostende, Maldegem en Knokke-Heist), en enkele clusters tussen Westerlo en Tessenderlo en bij Lokeren. Verder zijn er verspreide vondsten over heel Vlaanderen.
 
+[Verpreidingskaart](/kaart/){:.btn .btn-primary .text-light}
+
 ## Habitat
 
 De rode Amerikaanse rivierkreeft kan in vrijwel alle wateren voorkomen en heeft een zekere tolerantie voor brak water. Hij wordt gevonden in kanalen, rivieren, beken, plassen, vijvers, poelen en sloten. Deze rivierkreeft heeft een lichte voorkeur voor ondiep water en komt ook voor in jaarlijks droogvallende waterlichamen, waarbij hij zich tijdens droogte in zelfgegraven gangen terugtrekt. Nieuwe habitats kunnen bereikt worden na een wandeling over land.

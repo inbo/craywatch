@@ -20,6 +20,8 @@ De Californische rivierkreeft wordt tot 16 cm lang, zonder inbegrip van de schar
 
 Deze soort is bekend van enkele locaties in Limburg en één locatie in het zuiden van Oost-Vlaanderen. In Wallonië is hij daarentegen zeer algemeen in rivieren, beken en vijvers. 
 
+[Verpreidingskaart](/kaart/){:.btn .btn-primary .text-light}
+
 ## Habitat
 
 Waarnemingen gebeuren voornamelijk in stromende wateren en vijvers die door een beek of bron worden gevoed.

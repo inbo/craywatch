@@ -24,6 +24,8 @@ De Europese rivierkreeft is de enige inheemse rivierkreeft in België en kwam vr
 
 Ten gevolge van slechte waterkwaliteit en overbevissing is de soort uitgestorven in Vlaanderen (laatste waarneming in 1949). Recent zijn er enkele waarnemingen gemeld die louter het gevolg zijn van ontsnapte dieren uit gevangenschap.
 
+[Verpreidingskaart](/kaart/){:.btn .btn-primary .text-light}
+
 ## Habitat
 
 De soort kwam vroeger voor in kleinere stromende wateren en vijvers met goede waterkwaliteit, maar is heden uitgestorven in Vlaanderen.

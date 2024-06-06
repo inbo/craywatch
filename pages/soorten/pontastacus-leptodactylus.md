@@ -20,6 +20,8 @@ Dit is een van de grotere soorten in Vlaanderen en wordt tot 20 cm lang (scharen
 
 De Turkse rivierkreeft komt vooral voor in vijvers in het zuiden van Vlaams-Brabant en bij Damme (West-Vlaanderen). Verder zijn er waarnemingen in alle provincies met uitzondering van Antwerpen. Het lijkt er op dat de soort regionaal terug afneemt door concurrentie met andere invasieve rivierkreeften.
 
+[Verpreidingskaart](/kaart/){:.btn .btn-primary .text-light}
+
 ## Habitat
 
 De soort komt voor in stromende wateren, kanalen, vijvers en kreken. Hij heeft een hoge zouttolerantie en kan ook aangetroffen worden in brakke wateren.

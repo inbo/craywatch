@@ -23,6 +23,8 @@ Opgelet: In onze buurlanden zijn nog vier andere uitheemse soorten van het genus
 
 De soort is verspreid over heel Vlaanderen, maar vooral in de Kempen zeer algemeen. Hij komt vooral voor in grotere plassen, kanalen, rivieren en beken. De gevlekte Amerikaanse rivierkreeft is al in België aanwezig sinds 1960 en heeft zich intussen in nagenoeg heel het land gevestigd. 
 
+[Verpreidingskaart](/kaart/){:.btn .btn-primary .text-light}
+
 ## Habitat
 
 Deze uitheemse rivierkreeft wordt voornamelijk gevonden in grotere permanente wateren zoals rivieren, beken, kanalen, plassen en vijvers. Hij wordt uiterst zelden gezien in kleinere wateren zoals poelen of sloten.
