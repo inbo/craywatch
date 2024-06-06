@@ -20,6 +20,8 @@ De geknobbelde Amerikaanse rivierkreeft kan tot 13 cm lang worden (scharen niet 
 
 De geknobbelde Amerikaanse rivierkreeft is momenteel nog niet aangetroffen in Vlaanderen. De soort komt wel al op veel plaatsen voor in Nederland, waaronder één locatie dicht bij de grens met Vlaanderen.
 
+[Verpreidingskaart](/kaart/){:.btn .btn-primary .text-light}
+
 ## Habitat
 
 Deze uitheemse rivierkreeft wordt voornamelijk gevonden in grotere permanente wateren zoals sloten, kanalen, plassen en vijvers. 
