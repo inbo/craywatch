@@ -1,4 +1,4 @@
 ---
-title: Kaart
+title: Verspreiding en resultaten
 permalink: /kaart/
 ---
