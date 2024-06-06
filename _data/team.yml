@@ -35,6 +35,17 @@
   orcid: 0000-0001-7268-4200
   researchgate: Tim_Adriaens
 
+- name: Damiano Oldoni
+  role: Onderzoekssoftware ontwikkelaar
+  image: https://avatars1.githubusercontent.com/damianooldoni?s=460&v=4
+  description: >
+    Damiano is de trekker van de [INBO coding club](https://inbo.github.io/coding-club/) en ondersteunt onderzoekers door (open) software te schrijven. Hij is onderzoekssoftware ontwikkelaar bij INBO's [Open science lab for biodiversity](https://oscibio.inbo.be/) en biedt technische ondersteuning aan voor Craywatch.
+  orcid: 0000-0003-3445-7562
+  email: damiano.oldoni@inbo.be
+  researchgate: Damiano-Oldoni
+  mastodon: https://fosstodon.org/@damianooldoni
+  github: damianooldoni
+
 - name: Peter Desmet
   role: Open data coördinator
   image: https://avatars1.githubusercontent.com/u/600993?s=460&v=4
@@ -45,3 +56,5 @@
   researchgate: Peter-Desmet
   mastodon: https://mastodon.social/@peterdesmet
   github: peterdesmet
+
+
