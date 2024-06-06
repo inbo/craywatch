@@ -11,38 +11,79 @@ description: Template for a leaflet map with the observations
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <script>
-  d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vQ0oBcuDB5uC9PaTOJU8MDKHR43nhY_X8Kwt9D3yVPB1ug6p9ioc0Ss4HUzx7cevkRV4ZEscqfAHiKi/pub?output=csv").then(function(data) { // Handle the loaded CSV data here 
+// Define OpenStreetMap tiles
+  var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+  });
+
+  var satellite = L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
+    attribution: '© OpenStreetMap FR'
+  });
+
+  var terrain = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+    attribution: '© OpenTopoMap'
+  });
+
+   // Example GeoJSON data for overlay
+  var geojsonFeature = {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[
+            [4.15, 51.0],
+            [4.12, 51.07],
+            [4.2, 51.3],
+            [4.23, 50.5],
+            [4.7, 50.7]
+          ]]
+        },
+        "properties": {
+          "name": "Example Area"
+        }
+      }
+    ]
+  };
+
+  var geojsonLayer = L.geoJSON(geojsonFeature, {
+      style: function (feature) {
+          return {
+              color: "red",
+              weight: 2,
+              opacity: 0.5
+          };
+      },
+      onEachFeature: function (feature, layer) {
+          layer.bindPopup(`<b>${feature.properties.name}</b>`);
+      }
+  });
+
+  // Create the map
+  var map = L.map('map', {
+      center: [51.0, 4.15], // Set the center of the map
+      zoom: 8,                // Set the zoom level
+      layers: [osm, geojsonLayer]      // Set the OpenStreetMap layer as the default
+  });
+
+  // Define base layers object
+  var baseLayers = {
+      "OpenStreetMap": osm,
+      "Satellite": satellite,
+      "Terrain": terrain
+  };
+
+  // Define overlay layers object
+  var overlayLayers = {
+    "GeoJSON Layer": geojsonLayer
+  };
+
+  // Add layer control to the map
+  L.control.layers(baseLayers, overlayLayers).addTo(map);
     
-    // Define OpenStreetMap tiles
-    var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      maxZoom: 19,
-      attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-    });
-
-    var satellite = L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
-      attribution: '© OpenStreetMap FR'
-    });
-
-    var terrain = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
-      attribution: '© OpenTopoMap'
-    });
-
-    // Define base layers object
-    var baseLayers = {
-        "OpenStreetMap": osm,
-        "Satellite": satellite,
-        "Terrain": terrain
-    };
-
-    // Create the map
-    var map = L.map('map', {
-        center: [51.0, 4.15], // Set the center of the map
-        zoom: 8,                // Set the zoom level
-        layers: [osm]      // Set the OpenStreetMap layer as the default
-    });
-
-    // Add layer control to the map
-    L.control.layers(baseLayers).addTo(map);
+  d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vQ0oBcuDB5uC9PaTOJU8MDKHR43nhY_X8Kwt9D3yVPB1ug6p9ioc0Ss4HUzx7cevkRV4ZEscqfAHiKi/pub?output=csv").then(function(data) { // Handle the loaded CSV data here
 
     // Loop through the data
     data.forEach(function(d) {
