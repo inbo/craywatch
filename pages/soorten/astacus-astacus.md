@@ -18,6 +18,12 @@ Deze robuuste soort kan tot 18 cm lang worden. Het dier is meestal bruin of grij
 
 De scharen van volwassen dieren zijn aan de onderzijde roodbruin. Het rostrum is bij deze soort niet toelopend en de areola zijn breed.  
 
+<br>
+<br>
+<br>
+<br>
+<br>
+
 ## Verspreiding
 
 De Europese rivierkreeft is de enige inheemse rivierkreeft in België en kwam vroeger voor in het oosten van Vlaanderen en in Wallonië. 
