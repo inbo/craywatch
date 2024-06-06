@@ -2,7 +2,7 @@
 title: Waarnemingen
 description: Rapporteer een waarneming
 background:
-  img: /assets/images/Home.jpg
+  img: /assets/images/home.jpg
 permalink: /waarnemingen/
 ---
 
