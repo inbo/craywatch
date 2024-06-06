@@ -10,7 +10,7 @@ toc: true
 ## Herkenning
 
 {:.rounded .w-50 .float-start .me-3}
-[![photo](/assets/images/p_clarkii_BK.jpg)](/assets/images/p_clarkii_BK.jpg)
+[![photo](/assets/images/p_clarkii_bk.jpg)](/assets/images/p_clarkii_bk.jpg)
 _Foto door Bram Koese/EIS_
 
 De rode Amerikaanse rivierkreeft kan een lengte van 15 cm bereiken (exclusief de scharen). Volwassen dieren zijn vaak opvallend rood gekleurd en ook de knobbels op de scharen zijn steeds rood. Jonge dieren zijn moeilijker te herkennen en kunnen grijs tot groenbruin zijn. Zij hebben een donkere tekening op het achterlijf en op hun scharen zijn er vaak oranje knobbels zichtbaar. Het [rostrum](/determinatie/) van de rode Amerikaanse rivierkreeft is spits toelopend. 

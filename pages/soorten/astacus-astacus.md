@@ -2,7 +2,7 @@
 title: Europese rivierkreeft
 description: _Astacus astacus_
 background:
-  img: /assets/images/a_astacus_XV.jpg
+  img: /assets/images/a_astacus_xv.jpg
   by: Xavier Vermeersch
 permalink: /soorten/astacus-astacus/
 toc: true
@@ -11,7 +11,7 @@ toc: true
 ## Herkenning
 
 {:.rounded .w-50 .float-start .me-3}
-![photo](/assets/images/a_astacus_XV.jpg)
+![photo](/assets/images/a_astacus_xv.jpg)
 _Foto door Xavier Vermeersch_
 
 Deze robuuste soort kan tot 18 cm lang worden. Het dier is meestal bruin of grijsgroen van kleur, maar kan ook blauw zijn. De carapax is hoogstens ruw, maar is niet gestekeld zoals bij de Turkse rivierkreeft. 

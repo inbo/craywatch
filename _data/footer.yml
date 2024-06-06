@@ -4,8 +4,8 @@
 # Columns (the more you add, the narrower they will be)
 columns:
   - description: |
-      [![INBO logo](/assets/images/logo-inbo.png){:.img-fluid}](https://www.vlaanderen.be/inbo/home/)
-      [![ANB logo](/assets/images/logo-anb.png){:.img-fluid}](https://www.natuurenbos.be/)
+      [![INBO logo](/assets/images/logo_inbo.png){:.img-fluid}](https://www.vlaanderen.be/inbo/home/)
+      [![ANB logo](/assets/images/logo_anb.png){:.img-fluid}](https://www.natuurenbos.be/)
   - links:
     - text: Privacybeleid
       href: /privacy/
