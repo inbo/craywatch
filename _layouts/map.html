@@ -12,13 +12,38 @@ description: Template for a leaflet map with the observations
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <script>
   d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vQ0oBcuDB5uC9PaTOJU8MDKHR43nhY_X8Kwt9D3yVPB1ug6p9ioc0Ss4HUzx7cevkRV4ZEscqfAHiKi/pub?output=csv").then(function(data) { // Handle the loaded CSV data here 
-    // Create the map
-    const map = L.map('map').setView([51.0, 4.15], 8);
-    // Add OpenStreetMap tiles
-    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    
+    // Define OpenStreetMap tiles
+    var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 19,
       attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-    }).addTo(map);
+    });
+
+    var satellite = L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap FR'
+    });
+
+    var terrain = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenTopoMap'
+    });
+
+    // Define base layers object
+    var baseLayers = {
+        "OpenStreetMap": osm,
+        "Satellite": satellite,
+        "Terrain": terrain
+    };
+
+    // Create the map
+    var map = L.map('map', {
+        center: [51.0, 4.15], // Set the center of the map
+        zoom: 8,                // Set the zoom level
+        layers: [osm]      // Set the OpenStreetMap layer as the default
+    });
+
+    // Add layer control to the map
+    L.control.layers(baseLayers).addTo(map);
+
     // Loop through the data
     data.forEach(function(d) {
       // Check if the 'isGereserveerd' column is TRUE
