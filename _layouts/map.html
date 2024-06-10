@@ -112,7 +112,7 @@ description: Template for a leaflet map with the observations
             fillColor: 'blue', 
             fillOpacity: 0.5
         });
-        circle.bindPopup(`<b>${item.species}</b><br>${item.eventDate}<br><a href=${item.references} target="_blank">${item.references}</a>${item.references}`);
+        circle.bindPopup(`<b>${item.species}</b><br>${item.eventDate}<br><a href=${item.references} target="_blank">${item.references}</a>`);
         jsonLayer.addLayer(circle);
       }
     });
