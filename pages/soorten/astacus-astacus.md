@@ -24,7 +24,7 @@ De scharen van volwassen dieren zijn aan de onderzijde roodbruin. Het rostrum is
 
 De Europese rivierkreeft is de enige inheemse rivierkreeft in België en kwam vroeger voor in het oosten van Vlaanderen en in Wallonië.
 
-Ten gevolge van slechte waterkwaliteit en overbevissing is de soort uitgestorven in Vlaanderen (laatste waarneming in 1949). Recent zijn er enkele waarnemingen gemeld die louter het gevolg zijn van ontsnapte dieren uit gevangenschap.
+Ten gevolge van slechte waterkwaliteit en overbevissing is de soort uitgestorven in Vlaanderen (laatste waarneming in 1945). Recent zijn er enkele waarnemingen gemeld die louter het gevolg zijn van ontsnapte dieren uit gevangenschap.
 
 [Verpreidingskaart](/kaart/){:.btn .btn-primary .text-light}
 
