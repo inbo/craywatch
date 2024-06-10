@@ -10,20 +10,20 @@ toc: true
 
 ## Herkenning
 
-{:.rounded .w-50 .float-start .me-3}
-[![photo](/assets/images/f_limosus_wit.png)](/assets/images/f_limosus_wit.png)
+<div class="clearfix" markdown="1">
+{:.w-50 .float-start .me-3}
+[![Foto](/assets/images/f_limosus_wit.png)](/assets/images/f_limosus_wit.png)
 _Foto door Wietse Chanet_
 
 De gevlekte Amerikaanse rivierkreeft wordt tot 12 cm lang (scharen niet inbegrepen). Volwassen dieren zijn grijs tot grijsbruin met twee rijen wijnrode vlekken op het achterlijf. De scharen hebben een duidelijk oranje-zwart gekleurde punt, wat aan de onderzijde duidelijk zichtbaar is. Op de wang achter het oog is een groepje scherpe stekels te zien. Jonge exemplaren zijn vaak egaal grijs, maar de kleine schaartjes hebben doorgaans toch al de typerende oranje-zwarte punt. Het [rostrum](/determinatie/) is niet toelopend maar vertoont twee parallelle richels. De soort is makkelijk te onderscheiden van de overige rivierkreeften door de wijnrode vlekken, de aanwezigheid van een groepje wangstekels, de oranje-zwarte punt van de schaar en het niet toelopend rostrum.
-
-<br>
+</div>
 
 {:.alert .alert-warning}
 Opgelet: In onze buurlanden zijn nog vier andere uitheemse soorten van het genus Faxonius aanwezig die ook bij ons zouden kunnen opduiken.
 
 ## Verspreiding
 
-De soort is verspreid over heel Vlaanderen, maar vooral in de Kempen zeer algemeen. Hij komt vooral voor in grotere plassen, kanalen, rivieren en beken. De gevlekte Amerikaanse rivierkreeft is al in België aanwezig sinds 1960 en heeft zich intussen in nagenoeg heel het land gevestigd. 
+De soort is verspreid over heel Vlaanderen, maar vooral in de Kempen zeer algemeen. Hij komt vooral voor in grotere plassen, kanalen, rivieren en beken. De gevlekte Amerikaanse rivierkreeft is al in België aanwezig sinds 1960 en heeft zich intussen in nagenoeg heel het land gevestigd.
 
 [Verpreidingskaart](/kaart/){:.btn .btn-primary .text-light}
 

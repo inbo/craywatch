@@ -12,13 +12,13 @@
   role: Onderzoeksmedewerker
   image: assets/images/bieke.jpg
   description: >
-    Bieke heeft een passie voor dieren en natuurbehoud. Als onderzoeksmedewerker brengt ze mee de populatie rivierkreeften in Vlaanderen in kaart en ondersteunt ze het citizen science project Craywatch.
+    Bieke heeft een passie voor dieren en natuurbehoud. Als onderzoeksmedewerker brengt ze mee de populatie rivierkreeften in Vlaanderen in kaart en ondersteunt ze het burgerwetenschapsproject Craywatch.
       
 - name: Margot Vermeylen
   role: Onderzoeksmedewerker
   image: assets/images/margot.jpg
   description: >
-    Margot is biologe met een passie voor de conservatie van onze natuurlijke ecosystemen. Als onderzoeksmedewerker in het team Zoetwaterhabitats zet ze zich in voor Craywatch en de problematiek rond invasieve rivierkreeften.
+    Margot is biologe met een passie voor het behoud van onze natuurlijke ecosystemen. Als onderzoeksmedewerker in het team Zoetwaterhabitats zet ze zich in voor Craywatch en de problematiek rond invasieve rivierkreeften.
   orcid: 0000-0001-5886-3528
   researchgate: Margot-Vermeylen
     
@@ -34,16 +34,22 @@
 - name: Dr. Lenin Riascos Flores
   role: Onderzoeker
   image: assets/images/lenin.jpg
+  description: >
+    Lenin is gepassioneerd door aquatische ecologie. Zijn expertise omvat de evaluatie en restauratie van ecosystemen, met specialisatie in het monitoren van endemische en invasieve soorten met behulp van moleculaire technieken zoals environmental DNA (eDNA).
+  orcid: 0000-0002-9356-4088
+  researchgate: Lenin-Riascos
 
 - name: Wietse Chanet
   role: Communicatiemedewerker
   image: assets/images/wietse.jpg
+  description: >
+    Wietse is bioloog met een grote liefde voor natuurbehoud en wetenschapscommunicatie. Bij het INBO staat hij in voor de externe communicatie rond invasieve soorten, waaronder uitheemse rivierkreeften. Voor Craywatch levert hij tekst, beeld en ondersteuning bij het zoeken naar burgerwetenschappers.   
 
 - name: Tim Adriaens
   role: Onderzoeker
   image: assets/images/tim.jpg
   description: >
-    Tim is gepassioneerd door biologische invasies en hun beheer. Hij is programmacoördinator invasieve soorten bij INBO en werkt vaak met citizen science.
+    Tim is gepassioneerd door biologische invasies en hun beheer. Hij is programmacoördinator invasieve soorten bij het INBO en werkt vaak met burgerwetenschap.
   orcid: 0000-0001-7268-4200
   email: tim.adriaens@inbo.be
   researchgate: Tim_Adriaens

@@ -51,7 +51,7 @@ permalink: /waarnemingen/
     <div id="step-3" class="accordion-collapse collapse" aria-labelledby="heading-step-3" data-bs-parent="#steps">
       <div class="accordion-body">
         <div class="list-group">
-          <a class="list-group-item list-group-item-action" href="https://waarnemingen.be/events/craywatch-crayfish-indet/">Rapporteer een nulwaarneming (vul 0 in bij het aantal individuën)</a>
+          <a class="list-group-item list-group-item-action" href="https://waarnemingen.be/events/craywatch-crayfish-indet/">Rapporteer een nulwaarneming (vul 0 in bij het aantal individuen)</a>
         </div>
       </div>
     </div>
