@@ -31,7 +31,14 @@ description: Template for a leaflet map with the observations
     attribution: '© OpenTopoMap'
   });
 
-   // Add a default tile layer to the map
+  // Define species and their colors
+  var speciesColors = {
+    'Faxonius limosus': 'blue',
+    'Procambarus clarkii': 'red',
+    'Procambarus virginalis': 'green'
+  };
+
+  // Add a default tile layer to the map
     osm.addTo(map);
 
   // Global variable to hold CSV data (reserved locations)
@@ -100,7 +107,7 @@ description: Template for a leaflet map with the observations
     }
   }
 
-        // Function to add JSON data to the map
+  // Function to add JSON data to the map
   function addJsonData(data) {
     data.forEach(item => {
       const lat = parseFloat(item.decimalLatitude);
@@ -108,7 +115,8 @@ description: Template for a leaflet map with the observations
       if (!isNaN(lat) && !isNaN(lon)) {
         const circle = L.circle([lat, lon], {
             radius: 200, 
-            color: 'blue', 
+            // Default to gray if species not found
+            color: speciesColors[item.species] || 'gray', 
             fillColor: 'blue', 
             fillOpacity: 0.5
         });
