@@ -9,13 +9,15 @@ toc: true
 
 ## Herkenning
 
-{:.rounded .w-50 .float-start .me-3}
+<div class="clearfix" markdown="1">
+{:.w-50 .float-start .me-3}
 [![photo](/assets/images/p_clarkii_bk.jpg)](/assets/images/p_clarkii_bk.jpg)
 _Foto door Bram Koese/EIS_
 
-De rode Amerikaanse rivierkreeft kan een lengte van 15 cm bereiken (exclusief de scharen). Volwassen dieren zijn vaak opvallend rood gekleurd en ook de knobbels op de scharen zijn steeds rood. Jonge dieren zijn moeilijker te herkennen en kunnen grijs tot groenbruin zijn. Zij hebben een donkere tekening op het achterlijf en op hun scharen zijn er vaak oranje knobbels zichtbaar. Het [rostrum](/determinatie/) van de rode Amerikaanse rivierkreeft is spits toelopend. 
+De rode Amerikaanse rivierkreeft kan een lengte van 15 cm bereiken (exclusief de scharen). Volwassen dieren zijn vaak opvallend rood gekleurd en ook de knobbels op de scharen zijn steeds rood. Jonge dieren zijn moeilijker te herkennen en kunnen grijs tot groenbruin zijn. Zij hebben een donkere tekening op het achterlijf en op hun scharen zijn er vaak oranje knobbels zichtbaar. Het [rostrum](/determinatie/) van de rode Amerikaanse rivierkreeft is spits toelopend.
 
-Jonge dieren zijn moeilijk te onderscheiden van jonge gestreepte Amerikaanse rivierkreeften  (_Procambarus acutus_). Volwassen dieren kunnen ook verward worden met de gestreepte Amerikaanse rivierkreeft, maar het is eenvoudig het onderscheid te maken tussen deze beide soorten op basis van de kleur van de knobbels op de scharen. Bij de rode Amerikaanse rivierkreeft zijn deze rood, maar bij de gestreepte Amerikaanse rivierkreeft wit of zwart .
+Jonge dieren zijn moeilijk te onderscheiden van jonge gestreepte Amerikaanse rivierkreeften  (_Procambarus acutus_). Volwassen dieren kunnen ook verward worden met de gestreepte Amerikaanse rivierkreeft, maar het is eenvoudig het onderscheid te maken tussen deze beide soorten op basis van de kleur van de knobbels op de scharen. Bij de rode Amerikaanse rivierkreeft zijn deze rood, maar bij de gestreepte Amerikaanse rivierkreeft wit of zwart.
+</div>
 
 ## Verspreiding
 
