@@ -59,4 +59,4 @@ permalink: /waarnemingen/
 </div>
 
 
-[![Foto](/assets/images/stappenplan_rapportage.jpg)](/assets/images/stappenplan_rapportage.jpg)
+[![Foto](/assets/images/stappenplan_bijgeknipt.jpg)](/assets/images/stappenplan_bijgeknipt.jpg)
