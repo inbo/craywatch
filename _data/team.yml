@@ -1,13 +1,5 @@
 # Project team members listed below will appear on the /team page
 
-- name: Dr. Frédérique Steen
-  role: Onderzoeker
-  image: assets/images/frederique.jpg
-  description: >
-    Frédérique is biologe met een focus op invasieve rivierkreeften en (water)planten. Zij zet zich in voor het monitoren en beheren van deze soorten, met als doel de watersystemen veerkrachtiger te maken.
-  orcid: 0000-0001-5165-8644
-  researchgate: Frederique_Steen
-
 - name: Bieke Maex
   role: Onderzoeksmedewerker
   image: assets/images/bieke.jpg
@@ -38,6 +30,14 @@
     Lenin is gepassioneerd door aquatische ecologie. Zijn expertise omvat de evaluatie en restauratie van ecosystemen, met specialisatie in het monitoren van endemische en invasieve soorten met behulp van moleculaire technieken zoals environmental DNA (eDNA).
   orcid: 0000-0002-9356-4088
   researchgate: Lenin-Riascos
+
+- name: Dr. Frédérique Steen
+  role: Onderzoeker
+  image: assets/images/frederique.jpg
+  description: >
+    Frédérique werkt sinds 2021 bij het INBO als aquatisch bioloog in het team Zoetwaterhabitats. Ze streeft naar een verbeterde veerkracht van onze watersystemen door zich te richten op het monitoren en beheren van invasieve rivierkreeften en (water)planten. Haar expertise heeft bijgedragen aan de ontwikkeling van het project Craywatch.
+  orcid: 0000-0001-5165-8644
+  researchgate: Frederique_Steen
 
 - name: Wietse Chanet
   role: Communicatiemedewerker
