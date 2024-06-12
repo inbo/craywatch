@@ -31,10 +31,10 @@ Recent zijn de meeste introducties gelinkt aan de aquarium- en vijverhandel. Riv
 Invasieve rivierkreeften vormen om meerdere redenen een bedreiging voor lokale ecosystemen:
 - De dieren hebben een **omnivoor dieet**. Op het menu staan onder andere waterinsecten, slakken, amfibieëen, vissen en eieren, maar ook planten, algen en dood organisch materiaal.
 - Ze vernielen waterplanten en graven gangen en holen in oevers en waterbodems. Dit heeft als gevolg dat het **water troebel** wordt en de **waterkwaliteit achteruit** gaat.
-- Uitheemse rivierkreeften kunnen drager zijn van ziektes zoals de kreeftenpest, waar onze inheemse soort niet tegen bestand is.
-- Dankzij hun groot aanpassingsvermogen en snelle voortplanting kunnen ze zich zeer makkelijk in nieuwe habitats vestigen.  
+- Uitheemse rivierkreeften kunnen **drager zijn van ziektes** zoals de kreeftenpest, waar onze inheemse soort niet tegen bestand is.
+- Dankzij hun **groot aanpassingsvermogen** en **snelle voortplanting** kunnen ze zich zeer makkelijk in nieuwe habitats vestigen.  
 
-Door hun dieet en gedrag gaat de komst van uitheemse rivierkreeften vaak samen met de afname of verlies van verschillende, al dan niet beschermde, soortgroepen zoals vogels, vissen en amfibieëen. Om de impact van deze invasieve dieren te verminderen, is het nodig ze te bestrijden of beheren. De snelle toename van het aantal uitheemse rivierkreeften in combinatie met hun verborgen levenswijze maakt dit echter een zeer moeilijke opdracht.
+Door hun dieet en gedrag gaat de komst van uitheemse rivierkreeften vaak samen met een afname of verlies van verschillende, al dan niet beschermde, soortgroepen zoals vogels, vissen en amfibieëen. Om de impact van deze invasieve dieren te verminderen, is het nodig ze te bestrijden of beheren. De snelle toename van het aantal uitheemse rivierkreeften in combinatie met hun verborgen levenswijze maakt dit echter een zeer moeilijke opdracht.
 
 ### Regelgeving
 
@@ -43,7 +43,7 @@ Indien je al vóór deze data in het bezit was van de vermelde soorten, dan mag 
 
 In Vlaanderen mogen deze soorten worden bestreden volgens de bepalingen van het soortenbesluit. De bestrijding mag worden uitgevoerd door (of met toestemming van) de eigenaar, de (ver)huurder, de exploitant of de grondgebruiker(s) van het terrein waarop de ingrepen plaatsvinden. 
 
-**Handel/Eigendom (voor de niet-unielijst soorten)**
+**Houden en verhandelen van niet-Unielijst soorten**
 
 De Turkse rivierkreeft, gestreepte Amerikaanse rivierkreeft en eventuele nieuwe soorten zijn nog niet vermeld op de Unielijst en er is op dit moment geen wet die het bezit, kweken en verhandelen van deze soorten verbiedt. Omdat ze van nature niet voorkomen in België, is het echter wel verboden deze dieren vrij te laten in de natuur. Daarnaast willen we, om toekomstige introducties te vermijden, aanraden deze soorten niet te houden en er anders nadrukkelijk op te letten dat ze niet kunnen ontsnappen. 
 
