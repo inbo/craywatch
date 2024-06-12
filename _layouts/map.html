@@ -80,16 +80,16 @@ description: Template for a leaflet map with the observations
   // Function to read the CSV file
   async function readCSV(csvURL) {
       try {
-          // Read the CSV file
-          csvArray = await d3.csv('/assets/locaties.csv');
-          
-          // Filter the data where the field 'z' is TRUE
-          const filteredData = csvArray.filter(row => row.isGereserveerd === 'TRUE');
-          
-          // Call the function to add markers after the CSV is loaded
-          addMarkers(filteredData);
+        // Read the CSV file
+        csvArray = await d3.csv('/assets/locaties.csv');
+
+        // Filter the data where the field 'z' is TRUE
+        const filteredData = csvArray.filter(row => row.isGereserveerd === 'TRUE');
+        
+        // Call the function to add markers after the CSV is loaded
+        addMarkers(filteredData);
       } catch (error) {
-          console.error('Error reading the CSV file:', error);
+        console.error('Error reading the CSV file:', error);
       }
   }
 
