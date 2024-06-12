@@ -56,9 +56,7 @@ Ga op de website naar [rapporteer waarnemingen](/waarnemingen/) om je waarneming
 
 ### Na afloop
 
-De vallen terugsturen.
-
-**De resultaten** van het onderzoek zullen nadien op de website gedeeld worden. Je krijgt een verwittiging via mail eens deze online staan.
+**De resultaten** van het onderzoek zullen nadien op de website gedeeld worden. Je krijgt een verwittiging via mail wanneer deze online staan.
 
 ### Tips en extra informatie
 
