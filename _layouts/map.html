@@ -81,7 +81,7 @@ description: Template for a leaflet map with the observations
   async function readCSV(csvURL) {
       try {
           // Read the CSV file
-          csvArray = await d3.csv(csvURL);
+          csvArray = await d3.csv('/assets/locaties.csv');
           
           // Filter the data where the field 'z' is TRUE
           const filteredData = csvArray.filter(row => row.isGereserveerd === 'TRUE');
