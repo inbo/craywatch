@@ -11,38 +11,38 @@ De Craywatch website wordt beheerd door het [Instituut voor Natuur- en Bosonderz
 
 ## Welke gegevens verwerken we?
 
-Via het Craywatch-project verzamelen we meldingen van individuen van verscheidene invasieve uitheemse soorten rivierkreeften, via het [Waarnemingen.be](https://waarnemingen.be/) platform (beheerd door Natuurpunt). Een melding bestaat uit algemene gegevens van de waarneming (locatie, tijdstip, foto etc) en persoonsgegevens. We verwijderen meldingen met ongepaste foto's (inclusief auteursrechtelijk beschermde foto's die van het web geplukt worden) en foutieve locaties die niet achterhaald kunnen worden.
+Via het Craywatch-project verzamelen we meldingen van individuen van verschillende soorten invasieve uitheemse rivierkreeften, via het [waarnemingen.be](https://waarnemingen.be/) platform (beheerd door Natuurpunt). Een melding bestaat uit algemene gegevens van de waarneming (locatie, tijdstip, foto etc) en persoonsgegevens. We verwijderen meldingen met ongepaste foto's (inclusief auteursrechtelijk beschermde foto's die van het web geplukt worden) en foutieve locaties die niet achterhaald kunnen worden.
 
 Via het aanmeldingsformulier worden ook persoonsgegevens verzameld.
 
 ## Wat gebeurt er met mijn algemene gegevens?
 
-Bij het ingeven van een waarneming op waarnemingen.be via een eigen account of de event paginas, is het [privacybeleid](https://waarnemingen.be/pages/privacy/) van het platform Waarnemingen.be van toepassing.
+Bij het ingeven van een waarneming op waarnemingen.be via een eigen account of de event pagina's, is het [privacybeleid](https://waarnemingen.be/pages/privacy/) van het platform waarnemingen.be van toepassing.
 
-Met het ingeven van een waarneming via de event paginas gaat u ook akkoord met onderstaande. Ter bescherming van het leefmilieu, voor wetenschappelijke doeleinden en in lijn met het [open databeleid van het INBO](https://www.vlaanderen.be/inbo/opendatabeleid/) worden algemene gegevens van meldingen ter beschikking gesteld onder een [Creative Commons zero waiver](https://creativecommons.org/publicdomain/zero/1.0/deed.nl). Meer specifiek:
+Met het ingeven van een waarneming via de event pagina's gaat u ook akkoord met onderstaande. Ter bescherming van het leefmilieu, voor wetenschappelijke doeleinden en in lijn met het [open databeleid van het INBO](https://www.vlaanderen.be/inbo/opendatabeleid/) worden algemene gegevens van meldingen ter beschikking gesteld onder een [Creative Commons zero waiver](https://creativecommons.org/publicdomain/zero/1.0/deed.nl). Meer specifiek:
 
 - De deelnemers gaan ermee akkoord dat Natuurpunt en het NSSIAS de foto's kunnen gebruiken voor algemene communicatie, als promotie voor de betreffende actie en de foto's kunnen verspreiden naar derden, zonder dat hiervoor een vergoeding van het auteursrecht verschuldigd is. De auteur van het beeld wordt hierbij telkenmale vermeld.
 
-- Bij het gebruik van het platform Waarnemingen.be gaat u ermee akkoord dat de wetenschappelijke data geassocieerd met uw waarneming kan gebruikt worden onder een CC0 licentie en gebruikt kunnen worden voor wetenschappelijke doeleinden en beleid.
+- Bij het gebruik van het platform waarnemingen.be gaat u ermee akkoord dat de wetenschappelijke data geassocieerd met uw waarneming gebruikt kunnen worden onder een CC0 licentie en gebruikt kunnen worden voor wetenschappelijke doeleinden en beleidsvorming.
 
-	- Observaties die verzameld werd in het kader van dit project zullen door het NSSIAS gebruikt worden in een publicatie.
-	- Observaties van uitheemse soorten die verzameld werd in het kader van dit project zullen na validatie gepubliceerd worden op [GBIF](https://www.gbif.org/) waar deze data kunnen gebruikt worden voor wetenschappelijke doeleinden en door privépersonen.
+	- Observaties die verzameld werden in het kader van dit project kunnen door het NSSIAS gebruikt worden in een publicatie.
+	- Observaties van uitheemse soorten die verzameld werden in het kader van dit project zullen na validatie gepubliceerd worden op [GBIF](https://www.gbif.org/). Daar kunnen deze data gebruikt worden voor wetenschappelijke doeleinden en door privépersonen.
 
-- Observaties die vrijgegeven wordt op Waarnemingen.be zijn beschikbaar voor gebruik voor privépersonen personen. Voor alle ander gebruik is expliciete toestemming nodig van Natuurpunt of het NSSIAS.
+- Observaties die vrijgegeven worden op waarnemingen.be zijn beschikbaar voor gebruik door privépersonen. Voor al het andere gebruik is expliciete toestemming nodig van Natuurpunt of het NSSIAS.
 
 ## Wat gebeurt er met mijn persoonsgegevens?
 
-Bij het ingeven van een waarneming op waarnemingen.be via een eigen account of de event paginas, is het [privacybeleid](https://waarnemingen.be/pages/privacy/) van het platform Waarnemingen.be van toepassing.
+Bij het ingeven van een waarneming op waarnemingen.be via een eigen account of de event pagina's, is het [privacybeleid](https://waarnemingen.be/pages/privacy/) van het platform waarnemingen.be van toepassing.
 
-Door een ingave van een waarneming op Waarnemingen.be in het kader van dit project gaat u ook akkoord met het delen van uw e-mailadres met het projectteam. Het mailadres zal alleen gebruikt worden om contact op te nemen met de waarnemer in het kader van extra gegevensverzameling gelinkt aan de betreffende waarneming (morfologie, DNA-staalname). Uw persoonsgegevens worden niet voor andere toepassingen gebruikt, niet gedeeld met derden buiten het project en niet getoond op de website.
+Door een ingave van een waarneming op waarnemingen.be in het kader van dit project gaat u ook akkoord met het delen van uw e-mailadres met het projectteam. Het mailadres zal alleen gebruikt worden om contact op te nemen met de waarnemer in het kader van extra gegevensverzameling gelinkt aan de betreffende waarneming (morfologie, DNA-staalname). Uw persoonsgegevens worden niet voor andere toepassingen gebruikt, niet gedeeld met derden buiten het project en niet getoond op de website.
 
 Uw gegevens worden bewaard tot de afloop van het onderzoek.
 
 ## Wat zijn uw rechten?
 
-Met betrekking tot de persoonsgegevens die verbonden zijn aan een account op Waarnemingen.be zijn de [privacy statement](https://waarnemingen.be/pages/privacy/) van dat platform van toepassing.
+Met betrekking tot de persoonsgegevens die verbonden zijn aan een account op waarnemingen.be is het [privacy statement](https://waarnemingen.be/pages/privacy/) van dat platform van toepassing.
 
-Wanneer u een waarneming ingeeft via de Event pages (zonder account aan te maken), of uw mailadres verstrekt via het formulier "Aanmelding Craywatch" heeft u de volgende rechten:
+Wanneer u een waarneming ingeeft via de event pagina's zonder een account aan te maken, of uw mailadres verstrekt via het formulier "Aanmelding Craywatch" heeft u de volgende rechten:
 
 - U hebt het recht om toegang te vragen tot uw persoonsgegevens. Zo kunt u een kopie krijgen van de persoonsgegevens die wij over u bewaren.
 - U hebt het recht om correctie te vragen van de persoonsgegevens die wij over u bewaren. Zo kunt u eventuele onvolledige of onjuiste informatie die wij over u hebben, laten corrigeren.
