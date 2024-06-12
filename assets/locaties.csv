@@ -1,5 +1,5 @@
 locatieID;gemeente;provincie;postcode;x;y;isGereserveerd;vrijwilligerID
-Gentbrugse_meersen_1;Gent;Oost-Vlaanderen;9050;3.772298;51.037071;TRUE;10
-Vijverpark_1;Gent;Oost-Vlaanderen;9050;3.751775;51.035079;TRUE;10
-Kort_1;Kortrijk;West-Vlaanderen;8511;3.236271;50.783753;FALSE,
-Kort_2;Kortrijk;West-Vlaanderen;8511;3.235832;50.780655;TRUE;10
+Meers_1;Gent;Oost-Vlaanderen;9050;78835.0;191735.0;TRUE;10
+Vij_1;Gent;Oost-Vlaanderen;9050;148924.0;188588.0;TRUE;10
+Ko_1;Kortrijk;West-Vlaanderen;8511;176314.0;237355.0;FALSE;
+Ko_2;Kortrijk;West-Vlaanderen;8511;174019.0;177806.0;TRUE;10
