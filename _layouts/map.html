@@ -78,11 +78,17 @@ description: Template for a leaflet map with the observations
   const markersLayer = L.layerGroup();
   const jsonLayer = L.layerGroup();
 
+  // Custom row parser to handle semicolon-delimited CSV
+  const customRowParser = d3.dsvFormat(";");
+  
   // Function to read the CSV file
   async function readCSV(csvURL) {
       try {
-        // Read the CSV file
-        csvArray = await d3.csv('/assets/locaties.csv');
+        // Fetch the CSV file
+        const response = await fetch('/assets/locaties.csv');
+        const text = await response.text();
+        // Parse the CSV text with the custom row parser
+        const csvArray = customRowParser.parse(text);
 
         // Filter the data where the field 'z' is TRUE
         const filteredData = csvArray.filter(row => row.isGereserveerd === 'TRUE');
