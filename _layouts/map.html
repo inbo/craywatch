@@ -85,14 +85,14 @@ description: Template for a leaflet map with the observations
   async function readCSV(csvURL) {
       try {
         // Fetch the CSV file
-        const response = await fetch('/assets/locaties.csv');
+        const response = await fetch('/assets/Localities.csv');
         const text = await response.text();
 
         // Parse the CSV text with the custom row parser
         const csvArray = customRowParser.parse(text);
 
-        // Filter the data where the field 'z' is TRUE
-        const filteredData = csvArray.filter(row => row.isGereserveerd === 'TRUE');
+        // Filter the data where the field 'IsGereserv' is TRUE
+        const filteredData = csvArray.filter(row => row.IsGereserv === 'TRUE');
         
         // Call the function to add markers after the CSV is loaded
         addMarkers(filteredData);
@@ -109,8 +109,8 @@ description: Template for a leaflet map with the observations
   // Function to add markers to the map
   function addMarkers(data) {
       data.forEach(row => {
-      // Check if the 'isGereserveerd' column is TRUE
-      if (row.isGereserveerd === 'TRUE') {
+      // Check if the 'IsGereserv' column is TRUE
+      if (row.IsGereserv === 'TRUE') {
         // Parse the coordinates as numbers
         const y = parseFloat(row.y.replace(',', '.'));
         const x = parseFloat(row.x.replace(',', '.'));
@@ -121,7 +121,7 @@ description: Template for a leaflet map with the observations
         // Add a marker to the map
         const marker = L.marker([lat, lon]);
         // Bind a popup to the marker with the 'locatieID' column's value
-        marker.bindPopup(`<b>locatieID:</b> ${row.locatieID}<br/><b>gemeente:</b> ${row.gemeente}`);
+        marker.bindPopup(`<b>locatieID:</b> ${row.locID}<br/><b>gemeente:</b> ${row.gemeente}`);
         markersLayer.addLayer(marker);
       }
     });
