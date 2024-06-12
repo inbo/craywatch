@@ -13,8 +13,8 @@ description: Template for a leaflet map with the observations
 <script>
   // Initialize the map
   var map = L.map('map', {
-      center: [51.0, 4.15], // Set the center of the map
-      zoom: 8                // Set the zoom level
+    center: [51.0, 4.15], // Set the center of the map
+    zoom: 8                // Set the zoom level
   });
 
   // Define tile layers (background layers)
@@ -33,9 +33,14 @@ description: Template for a leaflet map with the observations
 
   // Define species and their colors
   var speciesColors = {
-    'Faxonius limosus': 'blue',
-    'Procambarus clarkii': 'red',
-    'Procambarus virginalis': 'green'
+    'Faxonius limosus': '#8ecae6',
+    'Faxonius virilis': '#219ebc',
+    'Astacus astacus': '#219ebc',
+    'Pontastacus leptodactylus': '#219ebc',
+    'Pacifastacus leniusculus': '#219ebc',
+    'Procambarus clarkii': '#219ebc',
+    'Procambarus virginalis': '#ffb703',
+    'Procambarus acutus': '#fb8500'
   };
 
   // Add a default tile layer to the map
@@ -134,16 +139,15 @@ description: Template for a leaflet map with the observations
   readJSON();
 
   // Create layer control and add to the map
-    L.control.layers(
-        {
-            'OpenStreetMap': osm,
-            'Satellite': satellite,
-            'Terrain': terrain
-        },
-        {
-            'Gereserveerd locaties': markersLayer,
-            'Waarnemingen': jsonLayer
-        }
-    ).addTo(map);
-
+  L.control.layers(
+    {
+        'OpenStreetMap': osm,
+        'Satellite': satellite,
+        'Terrain': terrain
+    },
+    {
+        'Gereserveerd locaties': markersLayer,
+        'Waarnemingen': jsonLayer
+    }
+  ).addTo(map);
 </script>
