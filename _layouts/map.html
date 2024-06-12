@@ -11,52 +11,143 @@ description: Template for a leaflet map with the observations
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <script>
-  d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vQ0oBcuDB5uC9PaTOJU8MDKHR43nhY_X8Kwt9D3yVPB1ug6p9ioc0Ss4HUzx7cevkRV4ZEscqfAHiKi/pub?output=csv").then(function(data) { // Handle the loaded CSV data here 
-    
-    // Define OpenStreetMap tiles
-    var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      maxZoom: 19,
-      attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-    });
+  // Initialize the map
+  var map = L.map('map', {
+    center: [51.0, 4.15], // Set the center of the map
+    zoom: 8                // Set the zoom level
+  });
 
-    var satellite = L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
-      attribution: '© OpenStreetMap FR'
-    });
+  // Define tile layers (background layers)
+  var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+  });
 
-    var terrain = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
-      attribution: '© OpenTopoMap'
-    });
+  var satellite = L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
+    attribution: '© OpenStreetMap FR'
+  });
 
-    // Define base layers object
-    var baseLayers = {
-        "OpenStreetMap": osm,
-        "Satellite": satellite,
-        "Terrain": terrain
-    };
+  var terrain = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+    attribution: '© OpenTopoMap'
+  });
 
-    // Create the map
-    var map = L.map('map', {
-        center: [51.0, 4.15], // Set the center of the map
-        zoom: 8,                // Set the zoom level
-        layers: [osm]      // Set the OpenStreetMap layer as the default
-    });
+  // Define species and their colors
+  var speciesColors = {
+    'Faxonius limosus': '#8ecae6',
+    'Faxonius virilis': '#219ebc',
+    'Astacus astacus': '#219ebc',
+    'Pontastacus leptodactylus': '#219ebc',
+    'Pacifastacus leniusculus': '#219ebc',
+    'Procambarus clarkii': '#219ebc',
+    'Procambarus virginalis': '#ffb703',
+    'Procambarus acutus': '#fb8500'
+  };
 
-    // Add layer control to the map
-    L.control.layers(baseLayers).addTo(map);
+  // Add a default tile layer to the map
+    osm.addTo(map);
 
-    // Loop through the data
-    data.forEach(function(d) {
+  // Global variable to hold CSV data (reserved locations)
+  let csvArray = [];
+
+  // Global variable to hold JSON data (new observations)
+  let jsonArray = [];
+
+  // Layer groups for markers
+  const markersLayer = L.layerGroup();
+  const jsonLayer = L.layerGroup();
+
+  // Function to read the CSV file
+  async function readCSV() {
+      try {
+          // Read the CSV file
+          csvArray = await d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vQ0oBcuDB5uC9PaTOJU8MDKHR43nhY_X8Kwt9D3yVPB1ug6p9ioc0Ss4HUzx7cevkRV4ZEscqfAHiKi/pub?output=csv");
+          
+          // Filter the data where the field 'z' is TRUE
+          const filteredData = csvArray.filter(row => row.isGereserveerd === 'TRUE');
+          
+          // Call the function to add markers after the CSV is loaded
+          addMarkers(filteredData);
+      } catch (error) {
+          console.error('Error reading the CSV file:', error);
+      }
+  }
+
+ // Function to add markers to the map
+  function addMarkers(data) {
+      data.forEach(row => {
       // Check if the 'isGereserveerd' column is TRUE
-      if (d.isGereserveerd === 'TRUE') {
+      if (row.isGereserveerd === 'TRUE') {
       // Parse the coordinates as numbers
-        var lat = +d.y;
-        var lon = +d.x;
+        const lat = parseFloat(row.y);
+        const lon = parseFloat(row.x);
         // Add a marker to the map
-        var marker = L.marker([lat, lon]).addTo(map);
+        const marker = L.marker([lat, lon]);
         // Bind a popup to the marker with the 'locatieID' column's value
-        marker.bindPopup(
-          `<b>locatieID:</b> ${d.locatieID}<br/><b>gemeente:</b> ${d.gemeente}`);
+        marker.bindPopup(`<b>locatieID:</b> ${row.locatieID}<br/><b>gemeente:</b> ${row.gemeente}`);
+        markersLayer.addLayer(marker);
       }
     });
-  })
+    
+    // Add markers layer to the map
+    markersLayer.addTo(map);
+  }
+
+
+  // Function to read the JSON data from the API
+  async function readJSON() {
+    try {
+      const response = await fetch('https://api.gbif.org/v1/occurrence/search?basis_of_record=OBSERVATION&basis_of_record=HUMAN_OBSERVATION&basis_of_record=MATERIAL_SAMPLE&country=BE&event_date=2024-05-15,*&taxon_key=2227289&taxon_key=9442269&taxon_key=2227300&taxon_key=2226990&taxon_key=8946295&taxon_key=2226998&taxon_key=8971201&taxon_key=8909595&advanced=1&gadm_gid=BEL.2_1');
+      const data = await response.json();
+      
+      // Log the JSON data to the console
+      console.log(data);
+
+      // Extract the results array from the JSON data
+      const results = data.results;
+
+      // Call the function to add JSON data to the map
+      addJsonData(results);
+    } catch (error) {
+        console.error('Error reading the JSON data:', error);
+    }
+  }
+
+  // Function to add JSON data to the map
+  function addJsonData(data) {
+    data.forEach(item => {
+      const lat = parseFloat(item.decimalLatitude);
+      const lon = parseFloat(item.decimalLongitude);
+      if (!isNaN(lat) && !isNaN(lon)) {
+        const circle = L.circle([lat, lon], {
+            radius: 200, 
+            // Default to gray if species not found
+            color: speciesColors[item.species] || 'gray', 
+            fillColor: 'blue', 
+            fillOpacity: 0.5
+        });
+        circle.bindPopup(`<b>${item.species}</b><br>${item.eventDate}<br><a href=${item.references} target="_blank">${item.references}</a>`);
+        jsonLayer.addLayer(circle);
+      }
+    });
+
+    // Add JSON layer to the map
+    jsonLayer.addTo(map);
+  }
+
+  // Call the functions to read the CSV and JSON
+  readCSV();
+  readJSON();
+
+  // Create layer control and add to the map
+  L.control.layers(
+    {
+        'OpenStreetMap': osm,
+        'Satellite': satellite,
+        'Terrain': terrain
+    },
+    {
+        'Gereserveerd locaties': markersLayer,
+        'Waarnemingen': jsonLayer
+    }
+  ).addTo(map);
 </script>
