@@ -11,12 +11,12 @@ Een uitheemse soort is een dier, plant of ander organisme dat van nature niet vo
 
 <details closed markdown="1">
 <summary><strong>Wat heb ik nodig om mee te doen?</strong></summary>
-Als je je aanmeldt, krijg je al het nodige materiaal toegestuurd. Dingen die ook handig zijn om te gebruiken, zijn laarzen, regenkledij, gsm of fototoestel en een schrijfplank (ook als je niet over deze dingen beschikt kan je nog steeds meedoen).
+Als je je aanmeldt, krijg je al het nodige materiaal toegestuurd. Je hebt wel een gsm of fototoestel nodig om foto's te kunnen trekken van de rivierkreeften. Dingen die ook handig zijn om te gebruiken zijn laarzen, regenkledij en een schrijfplank (ook als je niet over deze dingen beschikt kan je nog steeds meedoen).
 </details>
 
 <details closed markdown="1">
 <summary><strong>Heb ik een visverlof nodig om in het kader van Craywatch rivierkreeften te vangen?</strong></summary>
-Nee, dat is niet nodig. Als vrijwilliger kan je zonder visvergunning de toegestuurde vallen plaatsen zoals afgesproken binnen het kader van Craywatch (afgesproken locatie en afgesproken data).
+Nee, dat is niet nodig. Als vrijwilliger kan je zonder visvergunning de toegestuurde vallen plaatsen op de afgesproken locatie(s) en data binnen het kader van Craywatch.
 </details>
 
 <details closed markdown="1">
@@ -36,7 +36,7 @@ Rivierkreeften leven in het water en wroeten in de bodem. Hierdoor worden zij ge
 
 <details closed markdown="1">
 <summary><strong>Mag ik gevangen rivierkreeften mee naar huis nemen?</strong></summary>
-Nee, dat mag niet. Rivierkreeften gevangen tijdens Craywatch dienen terug uitgezet te worden op de locatie waar ze werden gevangen. Het is niet toegelaten (en zelfs wettelijk verboden) om gevangen rivierkreeften mee naar huis te nemen. Ze zouden namelijk kunnen ontsnappen en elders een nieuwe populatie kunnen stichten. Daarnaast zou zo ook de kreeftenpest,  een schimmelziekte die dodelijk is voor inheemse rivierkreeften en waar uitheemse rivierkreeften potentiële drager van zijn, zich verder kunnen verspreiden.
+Nee, dat mag niet. Rivierkreeften gevangen tijdens Craywatch moeten terug uitgezet worden op de locatie waar ze werden gevangen. Het is niet toegelaten, en zelfs wettelijk verboden, om gevangen rivierkreeften mee naar huis te nemen. Ze zouden namelijk kunnen ontsnappen en elders een nieuwe populatie kunnen stichten. Daarnaast zou zo ook de kreeftenpest,  een schimmelziekte die dodelijk is voor inheemse rivierkreeften en waar uitheemse rivierkreeften potentiële drager van zijn, zich verder kunnen verspreiden.
 </details>
 
 <details closed markdown="1">
