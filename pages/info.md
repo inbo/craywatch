@@ -1,5 +1,5 @@
 ---
-title: Info
+title: Achtergrond
 description:
 background:
   img: /assets/images/kreeft.jpg
