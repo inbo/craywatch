@@ -57,7 +57,7 @@ description: Template for a leaflet map with the observations
   const jsonLayer = L.layerGroup();
 
   // Function to read the CSV file
-  async function readCSV() {
+  async function readCSV(csvURL) {
       try {
           // Read the CSV file
           csvArray = await d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vQ0oBcuDB5uC9PaTOJU8MDKHR43nhY_X8Kwt9D3yVPB1ug6p9ioc0Ss4HUzx7cevkRV4ZEscqfAHiKi/pub?output=csv");
@@ -135,7 +135,7 @@ description: Template for a leaflet map with the observations
   }
 
   // Call the functions to read the CSV and JSON
-  readCSV();
+  readCSV(localitiesURL);
   readJSON();
 
   // Create layer control and add to the map
