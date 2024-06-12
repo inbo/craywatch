@@ -87,8 +87,12 @@ description: Template for a leaflet map with the observations
         // Fetch the CSV file
         const response = await fetch('/assets/locaties.csv');
         const text = await response.text();
+
+        // Replace comma with period for decimal separation
+        const processedText = text.replace(/,/g, '.');
+
         // Parse the CSV text with the custom row parser
-        const csvArray = customRowParser.parse(text);
+        const csvArray = customRowParser.parse(processedText);
 
         // Filter the data where the field 'z' is TRUE
         const filteredData = csvArray.filter(row => row.isGereserveerd === 'TRUE');
