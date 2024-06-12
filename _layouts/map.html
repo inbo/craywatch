@@ -8,6 +8,27 @@ description: Template for a leaflet map with the observations
 <div id="map" style="height: 600px;"></div>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+<style>
+  #map {
+    height: 600px;
+    width: 100%;
+  }
+  .legend {
+    background: white;
+    line-height: 1.5em;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+  .legend em {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+  }
+</style>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <script>
@@ -159,7 +180,7 @@ description: Template for a leaflet map with the observations
     var labels = ['<strong>Species</strong>'];
     for (var species in speciesColors) {
         labels.push(
-            '<i style="background:' + speciesColors[species] + '"></i> ' +
+            '<em style="background:' + speciesColors[species] + '"></em> ' +
             species
         );
     }
