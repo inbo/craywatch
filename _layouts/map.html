@@ -88,11 +88,8 @@ description: Template for a leaflet map with the observations
         const response = await fetch('/assets/locaties.csv');
         const text = await response.text();
 
-        // Replace comma with period for decimal separation
-        const processedText = text.replace(/,/g, '.');
-
         // Parse the CSV text with the custom row parser
-        const csvArray = customRowParser.parse(processedText);
+        const csvArray = customRowParser.parse(text);
 
         // Filter the data where the field 'z' is TRUE
         const filteredData = csvArray.filter(row => row.isGereserveerd === 'TRUE');
@@ -115,8 +112,8 @@ description: Template for a leaflet map with the observations
       // Check if the 'isGereserveerd' column is TRUE
       if (row.isGereserveerd === 'TRUE') {
         // Parse the coordinates as numbers
-        const y = parseFloat(row.y);
-        const x = parseFloat(row.x);
+        const y = parseFloat(row.y.replace(',', '.'));
+        const x = parseFloat(row.x.replace(',', '.'));
         
         // Transform the coordinates from EPSG:31370 to WGS84
         const [lon, lat] = proj4(proj31370, projWGS84, [x, y]);
