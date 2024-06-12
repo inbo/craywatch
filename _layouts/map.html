@@ -31,6 +31,7 @@ description: Template for a leaflet map with the observations
 </style>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://unpkg.com/proj4"></script>
 <script>
   // Initialize the map
   var map = L.map('map', {
@@ -77,34 +78,50 @@ description: Template for a leaflet map with the observations
   const markersLayer = L.layerGroup();
   const jsonLayer = L.layerGroup();
 
+  // Custom row parser to handle semicolon-delimited CSV
+  const customRowParser = d3.dsvFormat(";");
+  
   // Function to read the CSV file
-  async function readCSV() {
+  async function readCSV(csvURL) {
       try {
-          // Read the CSV file
-          csvArray = await d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vQ0oBcuDB5uC9PaTOJU8MDKHR43nhY_X8Kwt9D3yVPB1ug6p9ioc0Ss4HUzx7cevkRV4ZEscqfAHiKi/pub?output=csv");
-          
-          // Filter the data where the field 'z' is TRUE
-          const filteredData = csvArray.filter(row => row.isGereserveerd === 'TRUE');
-          
-          // Call the function to add markers after the CSV is loaded
-          addMarkers(filteredData);
+        // Fetch the CSV file
+        const response = await fetch('/assets/Localities.csv');
+        const text = await response.text();
+
+        // Parse the CSV text with the custom row parser
+        const csvArray = customRowParser.parse(text);
+
+        // Filter the data where the field 'IsGereserv' is TRUE
+        const filteredData = csvArray.filter(row => row.IsGereserv === 'TRUE');
+        
+        // Call the function to add markers after the CSV is loaded
+        addMarkers(filteredData);
       } catch (error) {
-          console.error('Error reading the CSV file:', error);
+        console.error('Error reading the CSV file:', error);
       }
   }
 
- // Function to add markers to the map
+  // Define the EPSG:31370 and WGS84 projections
+  //'+proj=utm +zone=31 +ellps=intl +units=m +datum=belge1950';
+  const proj31370 = '+proj=lcc +lat_0=90 +lon_0=4.36748666666667 +lat_1=51.1666672333333 +lat_2=49.8333339 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,-0.3366,0.457,-1.8422,-1.2747 +units=m +no_defs +type=crs'
+  const projWGS84 = proj4('EPSG:4326');
+
+  // Function to add markers to the map
   function addMarkers(data) {
       data.forEach(row => {
-      // Check if the 'isGereserveerd' column is TRUE
-      if (row.isGereserveerd === 'TRUE') {
-      // Parse the coordinates as numbers
-        const lat = parseFloat(row.y);
-        const lon = parseFloat(row.x);
+      // Check if the 'IsGereserv' column is TRUE
+      if (row.IsGereserv === 'TRUE') {
+        // Parse the coordinates as numbers
+        const y = parseFloat(row.y.replace(',', '.'));
+        const x = parseFloat(row.x.replace(',', '.'));
+        
+        // Transform the coordinates from EPSG:31370 to WGS84
+        const [lon, lat] = proj4(proj31370, projWGS84, [x, y]);
+        
         // Add a marker to the map
         const marker = L.marker([lat, lon]);
         // Bind a popup to the marker with the 'locatieID' column's value
-        marker.bindPopup(`<b>locatieID:</b> ${row.locatieID}<br/><b>gemeente:</b> ${row.gemeente}`);
+        marker.bindPopup(`<b>locatieID:</b> ${row.locID}<br/><b>gemeente:</b> ${row.gemeente}`);
         markersLayer.addLayer(marker);
       }
     });
@@ -142,8 +159,8 @@ description: Template for a leaflet map with the observations
         const circle = L.circle([lat, lon], {
             radius: 200, 
             // Default to gray if species not found
-            color: speciesColors[item.species] || 'gray', 
-            fillColor: 'blue', 
+            color: speciesColors[item.species] || 'gray',
+            fillColor: speciesColors[item.species] || 'gray',
             fillOpacity: 0.5
         });
         circle.bindPopup(`<b>${item.species}</b><br>${item.eventDate}<br><a href=${item.references} target="_blank">${item.references}</a>`);
@@ -155,8 +172,11 @@ description: Template for a leaflet map with the observations
     jsonLayer.addTo(map);
   }
 
+// Link to directly download csv with locations
+  const localitiesURL = "https://drive.google.com/uc?export=download&id=1Jr8BiXaVsul15JUZkYGco1CcLE_6_m2z"
+
   // Call the functions to read the CSV and JSON
-  readCSV();
+  readCSV(localitiesURL);
   readJSON();
 
   // Create layer control and add to the map
