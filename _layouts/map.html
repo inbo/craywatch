@@ -60,7 +60,7 @@ description: Template for a leaflet map with the observations
   async function readCSV(csvURL) {
       try {
           // Read the CSV file
-          csvArray = await d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vQ0oBcuDB5uC9PaTOJU8MDKHR43nhY_X8Kwt9D3yVPB1ug6p9ioc0Ss4HUzx7cevkRV4ZEscqfAHiKi/pub?output=csv");
+          csvArray = await d3.csv(csvURL);
           
           // Filter the data where the field 'z' is TRUE
           const filteredData = csvArray.filter(row => row.isGereserveerd === 'TRUE');
@@ -134,6 +134,8 @@ description: Template for a leaflet map with the observations
     jsonLayer.addTo(map);
   }
 
+// Link to directly download csv with locations
+  const localitiesURL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ0oBcuDB5uC9PaTOJU8MDKHR43nhY_X8Kwt9D3yVPB1ug6p9ioc0Ss4HUzx7cevkRV4ZEscqfAHiKi/pub?output=csv"
   // Call the functions to read the CSV and JSON
   readCSV(localitiesURL);
   readJSON();
