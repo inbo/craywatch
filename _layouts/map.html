@@ -159,8 +159,8 @@ description: Template for a leaflet map with the observations
         const circle = L.circle([lat, lon], {
             radius: 200, 
             // Default to gray if species not found
-            color: speciesColors[item.species] || 'gray', 
-            fillColor: 'blue', 
+            color: speciesColors[item.species] || 'gray',
+            fillColor: speciesColors[item.species] || 'gray',
             fillOpacity: 0.5
         });
         circle.bindPopup(`<b>${item.species}</b><br>${item.eventDate}<br><a href=${item.references} target="_blank">${item.references}</a>`);
