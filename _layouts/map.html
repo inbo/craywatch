@@ -278,11 +278,10 @@ description: Template for a leaflet map with the observations
 
   legend.onAdd = function(map) {
     var div = L.DomUtil.create('div', 'legend');
-    var labels = ['<strong>Species</strong>'];
-    for (var species in speciesColors) {
+    var labels = ['<strong>Soorten</strong>'];
+    for (var species in speciesColorsVernacularNames) {
         labels.push(
-            '<em style="background:' + speciesColors[species] + '"></em> ' +
-            species
+            '<em style="background:' + speciesColorsVernacularNames[species].color + '"></em> ' + speciesColorsVernacularNames[species].vernacularName
         );
     }
     div.innerHTML = labels.join('<br>');
