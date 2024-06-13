@@ -76,13 +76,14 @@ description: Template for a leaflet map with the observations
 
   // Layer groups for markers
   const markersLayer = L.layerGroup();
-  const jsonLayer = L.layerGroup();
+  const newOccsLayers = L.layerGroup();
+  const histOccsLayers = L.layerGroup();
 
   // Custom row parser to handle semicolon-delimited CSV
   const customRowParser = d3.dsvFormat(";");
   
   // Function to read the CSV file
-  async function readCSV(csvFile) {
+  async function readAndShow(csvFile) {
       try {
         // Fetch the CSV file
         const response = await fetch(csvFile);
@@ -163,7 +164,7 @@ description: Template for a leaflet map with the observations
   }
 
   // Function to add JSON data to the leaflet map
-  function addJsonData(data) {
+  async function addJsonDataToMap(data, occsLayer) {
     data.forEach(item => {
       const lat = parseFloat(item.decimalLatitude);
       const lon = parseFloat(item.decimalLongitude);
@@ -176,32 +177,44 @@ description: Template for a leaflet map with the observations
             fillOpacity: 0.5
         });
         circle.bindPopup(`<b>${item.species}</b><br>${item.eventDate}<br>individuals: ${item.individualCount}<br><a href=${item.references} target="_blank">${item.references}</a>`);
-        jsonLayer.addLayer(circle);
+        occsLayer.addLayer(circle);
       }
     });
-
-    // Add JSON layer to the map
-    jsonLayer.addTo(map);
+    return occsLayer;
   }
 
   // Function to read the JSON data from the API and add them to the leaflet map
-  async function readAndShowJSON(apiUrl) {
+  async function readAndShowJSON(apiUrl, occsLayer) {
     // Call the function to fetch all data
     const occs = await fetchAllData(apiUrl);
     // Call the function to add JSON data to the map
-    addJsonData(occs);
+    const finalizedLayer = await addJsonDataToMap(occs, occsLayer);
+    return finalizedLayer
   }
 
   // Path to directly download csv with locations
   const localitiesURL = '/assets/Localities.csv';
 
-  // URL root (URL to call the GBIF API without offset)
-  const historicalDataUrl = 'https://api.gbif.org/v1/occurrence/search?basis_of_record=OBSERVATION&basis_of_record=HUMAN_OBSERVATION&basis_of_record=MATERIAL_SAMPLE&country=BE&event_date=2020-06-01,*&taxon_key=2227289&taxon_key=9442269&taxon_key=2227300&taxon_key=2226990&taxon_key=8946295&taxon_key=2226998&taxon_key=8971201&taxon_key=8909595&advanced=1&occurrence_status=present&gadm_gid=BEL.2_1&limit=300';
+  // URL root for recent data (URL to call the GBIF API without offset)
+  const recentDataUrl = 'https://api.gbif.org/v1/occurrence/search?basis_of_record=OBSERVATION&basis_of_record=HUMAN_OBSERVATION&basis_of_record=MATERIAL_SAMPLE&country=BE&event_date=2024-06-05,*&taxon_key=2227289&taxon_key=9442269&taxon_key=2227300&taxon_key=2226990&taxon_key=8946295&taxon_key=2226998&taxon_key=8971201&taxon_key=8909595&advanced=1&occurrence_status=present&gadm_gid=BEL.2_1&limit=300';
 
-  // Call the functions to read the CSV and JSON and add the results to the leaflet
-  readCSV(localitiesURL);
-  // Call the function to fetch all data
-  readAndShowJSON(historicalDataUrl);
+  // URL root for historical data (URL to call the GBIF API without offset)
+  const historicalDataUrl = 'https://api.gbif.org/v1/occurrence/search?basis_of_record=OBSERVATION&basis_of_record=HUMAN_OBSERVATION&basis_of_record=MATERIAL_SAMPLE&country=BE&event_date=2020-06-01,2024-06-04&taxon_key=2227289&taxon_key=9442269&taxon_key=2227300&taxon_key=2226990&taxon_key=8946295&taxon_key=2226998&taxon_key=8971201&taxon_key=8909595&advanced=1&occurrence_status=present&gadm_gid=BEL.2_1&limit=300';
+
+  // Define the main function to fetch and add all data to the map
+  async function main() {
+    // Call the functions to read the CSV and JSON and add the results to the leaflet
+    readAndShow(localitiesURL);
+    // Call the functions to read the recent occurrences (JSON) and add them to the leaflet map
+    await readAndShowJSON(recentDataUrl, newOccsLayers);
+    // Call the functions to read the historical occurrences (JSON) and add them to the leaflet map
+    newOccsLayers.addTo(map);
+    // Call the function to fetch all data
+    await readAndShowJSON(historicalDataUrl, histOccsLayers);
+  }
+  
+  // Execute main function when the script loads
+  main();
 
   // Create layer control and add to the map
   L.control.layers(
@@ -212,7 +225,8 @@ description: Template for a leaflet map with the observations
     },
     {
         'Gereserveerd locaties': markersLayer,
-        'Waarnemingen': jsonLayer
+        'Nieuwe waarnemingen': newOccsLayers,
+        'Historische waarnemingen': histOccsLayers
     }
   ).addTo(map);
 
