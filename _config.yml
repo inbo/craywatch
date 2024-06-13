@@ -4,23 +4,22 @@ author: INBO
 url: "https://craywatch.inbo.be" # Custom domain is not set via CNAME, so url and baseurl need to be indicated
 baseurl: "" # Otherwise GitHub Pages will set this to "/craywatch"
 
-
 # SOCIAL PROFILES
 social:
   github: inbo/craywatch
 
 # THEME SETTINGS (ALL OPTIONAL)
-posts_on_home: 3
-# tweets_on_home: true
-archive_permalink: /blog/
+theme: minima # Fallback theme
 remote_theme: peterdesmet/petridish@3.0
+posts_on_home: false
+tweets_on_home: false
+archive_permalink: /blog/
 github_edit: true
 colors:
   links: "#ff6f61"
   banner: "#7d9b76"
   footer: "#7d9b76"
 font_serif: false
-rounded_corners: true
 logo: /assets/images/logo.png
 
 # BUILD SETTINGS
@@ -34,7 +33,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE
-  - map/map.html
 
 # FRONTMATTER DEFAULTS
 defaults:
