@@ -205,7 +205,7 @@ description: Template for a leaflet map with the observations
             fillColor: speciesInfo.color,
             fillOpacity: 0.5
         });
-        circle.bindPopup(`<b>${item.vernacularName}</b><br>${item.species}<br>${item.eventDate}<br><a href=${item.references} target="_blank">${item.references}</a>`);
+        circle.bindPopup(`<b>${speciesInfo.vernacularName}</b><br>${item.eventDate}<br><a href=${item.references} target="_blank">${item.references}</a>`);
         occsLayer.addLayer(circle);
       }
     });
