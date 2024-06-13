@@ -106,6 +106,7 @@ description: Template for a leaflet map with the observations
   const markersLayer = L.layerGroup();
   const newOccsLayers = L.layerGroup();
   const histOccsLayers = L.layerGroup();
+  const absencesLayer = L.layerGroup();
 
   // Custom row parser to handle semicolon-delimited CSV
   const customRowParser = d3.dsvFormat(";");
@@ -256,7 +257,8 @@ description: Template for a leaflet map with the observations
     {
         'Gereserveerde locaties': markersLayer,
         'Nieuwe waarnemingen': newOccsLayers,
-        'Historische waarnemingen': histOccsLayers
+        'Historische waarnemingen': histOccsLayers,
+        'Null waarnemingen': absencesLayer
     }
   ).addTo(map);
 
