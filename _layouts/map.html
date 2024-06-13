@@ -236,9 +236,8 @@ description: Template for a leaflet map with the observations
     readAndShow(localitiesURL);
     // Call the functions to read the recent occurrences (JSON) and add them to the leaflet map
     await readAndShowJSON(recentDataUrl, newOccsLayers);
-    // Call the functions to read the historical occurrences (JSON) and add them to the leaflet map
     newOccsLayers.addTo(map);
-    // Call the function to fetch all data
+    // Call the functions to read the historical occurrences (JSON) and add them to the leaflet map
     await readAndShowJSON(historicalDataUrl, histOccsLayers);
   }
   
