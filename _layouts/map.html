@@ -49,8 +49,16 @@ description: Template for a leaflet map with the observations
     attribution: '© OpenStreetMap FR'
   });
 
-  var terrain = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
-    attribution: '© OpenTopoMap'
+  var positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://carto.com/attributions">CARTO</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  });
+
+  var darkMatter = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://carto.com/attributions">CARTO</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  });
+
+  var worldGrayCanvas = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+    attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ'
   });
 
   // Define species and their colors
@@ -66,7 +74,7 @@ description: Template for a leaflet map with the observations
   };
 
   // Add a default tile layer to the map
-    satellite.addTo(map);
+  satellite.addTo(map);
 
   // Global variable to hold CSV data (reserved locations)
   let csvArray = [];
@@ -120,7 +128,7 @@ description: Template for a leaflet map with the observations
         const [lon, lat] = proj4(proj31370, projWGS84, [x, y]);
         
         // Add a marker to the map
-        const marker = L.marker([lat, lon]);
+        const marker = L.marker([lat, lon], {alt: `locatieID: ${row.locID}`});
         // Bind a popup to the marker with the 'locatieID' column's value
         marker.bindPopup(`<b>locatieID:</b> ${row.locID}<br/><b>gemeente:</b> ${row.gemeente}`);
         markersLayer.addLayer(marker);
@@ -220,11 +228,13 @@ description: Template for a leaflet map with the observations
   L.control.layers(
     {
         'OpenStreetMap': osm,
-        'Satellite': satellite,
-        'Terrain': terrain
+        'Satellite': satellite,        
+        'CartoDB Positron': positron,
+        'CartoDB Dark Matter': darkMatter,
+        'Esri WorldGrayCanvas': worldGrayCanvas,
     },
     {
-        'Gereserveerd locaties': markersLayer,
+        'Gereserveerde locaties': markersLayer,
         'Nieuwe waarnemingen': newOccsLayers,
         'Historische waarnemingen': histOccsLayers
     }
