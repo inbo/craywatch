@@ -198,11 +198,11 @@ description: Template for a leaflet map with the observations
       const lat = parseFloat(item.decimalLatitude);
       const lon = parseFloat(item.decimalLongitude);
       if (!isNaN(lat) && !isNaN(lon)) {
+        const speciesInfo = speciesColorsVernacularNames[item.species] || {color: 'gray', vernacularName: 'null'};
         const circle = L.circle([lat, lon], {
             radius: 300, 
-            // Default to gray if species not found
-            color: speciesColors[item.species] || 'gray',
-            fillColor: speciesColors[item.species] || 'gray',
+            color: speciesInfo.color,
+            fillColor: speciesInfo.color,
             fillOpacity: 0.5
         });
         circle.bindPopup(`<b>${item.vernacularName}</b><br>${item.species}<br>${item.eventDate}<br><a href=${item.references} target="_blank">${item.references}</a>`);
