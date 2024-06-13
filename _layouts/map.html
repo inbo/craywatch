@@ -169,7 +169,7 @@ description: Template for a leaflet map with the observations
       const lon = parseFloat(item.decimalLongitude);
       if (!isNaN(lat) && !isNaN(lon)) {
         const circle = L.circle([lat, lon], {
-            radius: 200, 
+            radius: 300, 
             // Default to gray if species not found
             color: speciesColors[item.species] || 'gray',
             fillColor: speciesColors[item.species] || 'gray',
