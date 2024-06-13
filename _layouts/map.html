@@ -82,10 +82,10 @@ description: Template for a leaflet map with the observations
   const customRowParser = d3.dsvFormat(";");
   
   // Function to read the CSV file
-  async function readCSV(csvURL) {
+  async function readCSV(csvFile) {
       try {
         // Fetch the CSV file
-        const response = await fetch('/assets/Localities.csv');
+        const response = await fetch(csvFile);
         const text = await response.text();
 
         // Parse the CSV text with the custom row parser
@@ -186,8 +186,8 @@ description: Template for a leaflet map with the observations
     jsonLayer.addTo(map);
   }
 
-// Link to directly download csv with locations
-  const localitiesURL = "https://drive.google.com/uc?export=download&id=1Jr8BiXaVsul15JUZkYGco1CcLE_6_m2z"
+  // Path to directly download csv with locations
+  const localitiesURL = '/assets/Localities.csv';
 
   // Call the functions to read the CSV and JSON
   readCSV(localitiesURL);
