@@ -130,41 +130,39 @@ description: Template for a leaflet map with the observations
     markersLayer.addTo(map);
   }
 
-
-  // Function to read the JSON data from the API
-  async function readJSON() {
-    const baseUrl = 'https://api.gbif.org/v1/occurrence/search?basis_of_record=OBSERVATION&basis_of_record=HUMAN_OBSERVATION&basis_of_record=MATERIAL_SAMPLE&country=BE&event_date=2020-01-01,*&taxon_key=2227289&taxon_key=9442269&taxon_key=2227300&taxon_key=2226990&taxon_key=8946295&taxon_key=2226998&taxon_key=8971201&taxon_key=8909595&advanced=1&occurrence_status=present&gadm_gid=BEL.2_1&limit=300';
+  async function fetchAllData(baseUrl) {
     let offset = 0;
     let allData = [];
     let fetchMoreData = true;
+
     while (fetchMoreData) {
-        const url = `${baseUrl}&offset=${offset}`;
-        try {
-            const response = await fetch(url);
-            if (!response.ok) {
-                throw new Error('Network response was not ok');
-            }
-            const data = await response.json();
+      const url = `${baseUrl}&offset=${offset}`;
+      try {
+        const response = await fetch(url);
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        const data = await response.json();
 
-            allData = allData.concat(data.results);
-            offset += 300;
+        allData = allData.concat(data.results);
+        offset += 300;
 
-            // If the number of results returned is less than 300, we've reached the end
-            if (data.results.length < 300) {
-                fetchMoreData = false;
-            }
-      // new data 'https://api.gbif.org/v1/occurrence/search?basis_of_record=OBSERVATION&basis_of_record=HUMAN_OBSERVATION&basis_of_record=MATERIAL_SAMPLE&country=BE&event_date=2024-05-15,*&taxon_key=2227289&taxon_key=9442269&taxon_key=2227300&taxon_key=2226990&taxon_key=8946295&taxon_key=2226998&taxon_key=8971201&taxon_key=8909595&advanced=1&gadm_gid=BEL.2_1';
-      // old data 'https://api.gbif.org/v1/occurrence/search?basis_of_record=OBSERVATION&basis_of_record=HUMAN_OBSERVATION&basis_of_record=MATERIAL_SAMPLE&country=BE&event_date=2020-01-01,*&taxon_key=2227289&taxon_key=9442269&taxon_key=2227300&taxon_key=2226990&taxon_key=8946295&taxon_key=2226998&taxon_key=8971201&taxon_key=8909595&advanced=1&occurrence_status=present&gadm_gid=BEL.2_1&limit=300'
-      
-    } catch (error) {
+        // If the number of results returned is less than 300, we've reached the end
+        if (data.results.length < 300) {
+          fetchMoreData = false;
+        }
+
+      } catch (error) {
+        console.error('Fetch error:', error);
         fetchMoreData = false; // Exit the loop on error
+      }
     }
-    
-    // Call the function to add JSON data to the map
-    addJsonData(allData);
+
+    // console.log('All data fetched:', allData);
+    return allData;
   }
 
-  // Function to add JSON data to the map
+  // Function to add JSON data to the leaflet map
   function addJsonData(data) {
     data.forEach(item => {
       const lat = parseFloat(item.decimalLatitude);
@@ -186,12 +184,24 @@ description: Template for a leaflet map with the observations
     jsonLayer.addTo(map);
   }
 
+  // Function to read the JSON data from the API and add them to the leaflet map
+  async function readAndShowJSON(apiUrl) {
+    // Call the function to fetch all data
+    const occs = await fetchAllData(apiUrl);
+    // Call the function to add JSON data to the map
+    addJsonData(occs);
+  }
+
   // Path to directly download csv with locations
   const localitiesURL = '/assets/Localities.csv';
 
-  // Call the functions to read the CSV and JSON
+  // URL root (URL to call the GBIF API without offset)
+  const historicalDataUrl = 'https://api.gbif.org/v1/occurrence/search?basis_of_record=OBSERVATION&basis_of_record=HUMAN_OBSERVATION&basis_of_record=MATERIAL_SAMPLE&country=BE&event_date=2020-06-01,*&taxon_key=2227289&taxon_key=9442269&taxon_key=2227300&taxon_key=2226990&taxon_key=8946295&taxon_key=2226998&taxon_key=8971201&taxon_key=8909595&advanced=1&occurrence_status=present&gadm_gid=BEL.2_1&limit=300';
+
+  // Call the functions to read the CSV and JSON and add the results to the leaflet
   readCSV(localitiesURL);
-  readJSON();
+  // Call the function to fetch all data
+  readAndShowJSON(historicalDataUrl);
 
   // Create layer control and add to the map
   L.control.layers(
@@ -222,6 +232,6 @@ description: Template for a leaflet map with the observations
     return div;
   };
 
-    legend.addTo(map);
+  legend.addTo(map);
 
 </script>
