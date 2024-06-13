@@ -184,7 +184,7 @@ description: Template for a leaflet map with the observations
             fillColor: speciesColors[item.species] || 'gray',
             fillOpacity: 0.5
         });
-        circle.bindPopup(`<b>${item.species}</b><br>${item.eventDate}<br>individuals: ${item.individualCount}<br><a href=${item.references} target="_blank">${item.references}</a>`);
+        circle.bindPopup(`<b>${item.vernacularName}</b><br>${item.species}<br>${item.eventDate}<br><a href=${item.references} target="_blank">${item.references}</a>`);
         occsLayer.addLayer(circle);
       }
     });
