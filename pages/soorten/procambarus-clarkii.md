@@ -2,7 +2,7 @@
 title: Rode Amerikaanse rivierkreeft
 description: _Procambarus clarkii_
 background:
-  img: /assets/images/rode.jpg
+  img: /assets/images/rode_banner.jpg
 permalink: /soorten/procambarus-clarkii/
 toc: true
 ---
