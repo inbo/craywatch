@@ -58,15 +58,39 @@ description: Template for a leaflet map with the observations
   });
 
   // Define species and their colors
-  var speciesColors = {
-    'Faxonius limosus': '#8ecae6',
-    'Faxonius virilis': '#219ebc',
-    'Astacus astacus': '#023047',
-    'Pontastacus leptodactylus': '#425236',
-    'Pacifastacus leniusculus': '#817425',
-    'Procambarus clarkii': '#c09614',
-    'Procambarus virginalis': '#ffb703',
-    'Procambarus acutus': '#fb8500'
+  var speciesColorsVernacularNames = {
+    'Faxonius limosus': {
+      color: '#8ecae6',
+      vernacularName: 'Gevlekte Amerikaanse rivierkreeft'
+    },
+    'Faxonius virilis': {
+      color: '#219ebc',
+      vernacularName: 'Geknobbelde Amerikaanse rivierkreeft'
+    },
+    'Astacus astacus': {
+      color: '#023047',
+      vernacularName: 'Europese rivierkreeft'
+    },
+    'Pontastacus leptodactylus': {
+      color: '#425236',
+      vernacularName: 'Turkse rivierkreeft'
+    },
+    'Pacifastacus leniusculus': {
+      color: '#817425',
+      vernacularname: 'Californische rivierkreeft'
+    },
+    'Procambarus clarkii': {
+      color: '#c09614',
+      vernacularName: 'Rode Amerikaanse rivierkreeft'
+    },
+    'Procambarus virginalis': {
+      color: '#ffb703',
+      vernacularName: 'Marmerkreeft'
+    },
+    'Procambarus acutus': {
+      color: '#fb8500',
+      vernacularName: 'Gestreepte Amerikaanse rivierkreeft'
+    }
   };
 
   // Add a default tile layer to the map
