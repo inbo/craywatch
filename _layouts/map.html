@@ -203,7 +203,8 @@ description: Template for a leaflet map with the observations
             radius: 300, 
             color: speciesInfo.color,
             fillColor: speciesInfo.color,
-            fillOpacity: 0.5
+            fillOpacity: 0.5,
+            stroke: false
         });
         // Create basic popup content
         let popupContent = `<b>${speciesInfo.vernacularName}</b><br>${item.eventDate}`;
