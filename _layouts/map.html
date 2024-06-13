@@ -120,7 +120,7 @@ description: Template for a leaflet map with the observations
         const [lon, lat] = proj4(proj31370, projWGS84, [x, y]);
         
         // Add a marker to the map
-        const marker = L.marker([lat, lon]);
+        const marker = L.marker([lat, lon], {alt: `locatieID: ${row.locID}`});
         // Bind a popup to the marker with the 'locatieID' column's value
         marker.bindPopup(`<b>locatieID:</b> ${row.locID}<br/><b>gemeente:</b> ${row.gemeente}`);
         markersLayer.addLayer(marker);
