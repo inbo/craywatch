@@ -205,7 +205,18 @@ description: Template for a leaflet map with the observations
             fillColor: speciesInfo.color,
             fillOpacity: 0.5
         });
-        circle.bindPopup(`<b>${speciesInfo.vernacularName}</b><br>${item.eventDate}<br><a href=${item.references} target="_blank">${item.references}</a>`);
+        // Create basic popup content
+        let popupContent = `<b>${speciesInfo.vernacularName}</b><br>${item.eventDate}`;
+        if (item.references) {
+          // Add reference link if present, typically with link to observation on waarnemingen.be
+          popupContent += `<br><a href="${item.references}" target="_blank">${item.references}</a>`;
+        } else {
+          // Add link to the occurrence as published on GBIF
+          popupContent += `<br><a href="https://www.gbif.org/occurrence/${item.key}" target="_blank">https://www.gbif.org/occurrence/${item.key}</a>`;
+        }
+        // Add popup
+        circle.bindPopup(popupContent);
+        // Add circle to layer
         occsLayer.addLayer(circle);
       }
     });
