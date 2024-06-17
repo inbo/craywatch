@@ -53,10 +53,6 @@ description: Template for a leaflet map with the observations
     attribution: '&copy; <a href="https://carto.com/attributions">CARTO</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
   });
 
-  var worldGrayCanvas = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
-    attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ'
-  });
-
   // Define species and their colors
   var speciesColorsVernacularNames = {
     'Faxonius limosus': {
@@ -261,16 +257,13 @@ description: Template for a leaflet map with the observations
     {
       'OpenStreetMap': osm,
       'Satellite': satellite,        
-      'CartoDB Positron': positron,
-      'Esri WorldGrayCanvas': worldGrayCanvas,
+      'CartoDB Positron': positron
     },
     {
-        'Gereserveerde locaties': markersLayer
-    },
-    {
-        'Nieuwe waarnemingen': newOccsLayers,
-        'Historische waarnemingen': histOccsLayers,
-        'Null waarnemingen': absencesLayer
+      'Gereserveerde locaties': markersLayer,
+      'Nieuwe waarnemingen': newOccsLayers,
+      'Historische waarnemingen': histOccsLayers,
+      'Null waarnemingen': absencesLayer
     }
   ).addTo(map);
 
