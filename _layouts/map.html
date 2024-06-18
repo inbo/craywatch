@@ -110,7 +110,7 @@ description: Template for a leaflet map with the observations
         const csvArray = await d3.csv(csvFile);
 
         // Filter the data where the field 'IsGereserv' is TRUE
-        const filteredData = csvArray.filter(row => row.IsGereserv === 'TRUE');
+        const filteredData = csvArray.filter(row => row.isReserved === 'TRUE');
         
         // Call the function to add markers after the CSV is loaded
         addMarkers(filteredData);
@@ -122,8 +122,8 @@ description: Template for a leaflet map with the observations
   // Function to add markers to the map
   function addMarkers(data) {
       data.forEach(row => {
-      // Check if the 'IsGereserv' column is TRUE
-      if (row.IsGereserv === 'TRUE') {
+      // Check if the 'isReserved' column is TRUE
+      if (row.isReserved === 'TRUE') {
         // Parse the coordinates as numbers
         const lon = parseFloat(row.Longitude);
         const lat = parseFloat(row.Latitude);
