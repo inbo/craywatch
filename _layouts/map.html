@@ -31,7 +31,6 @@ description: Template for a leaflet map with the observations
 </style>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script src="https://d3js.org/d3.v7.min.js"></script>
-<script src="https://unpkg.com/proj4"></script>
 <script>
   // Initialize the map
   var map = L.map('map', {
@@ -53,28 +52,44 @@ description: Template for a leaflet map with the observations
     attribution: '&copy; <a href="https://carto.com/attributions">CARTO</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
   });
 
-  var darkMatter = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://carto.com/attributions">CARTO</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-  });
-
-  var worldGrayCanvas = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
-    attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ'
-  });
-
   // Define species and their colors
-  var speciesColors = {
-    'Faxonius limosus': '#8ecae6',
-    'Faxonius virilis': '#219ebc',
-    'Astacus astacus': '#023047',
-    'Pontastacus leptodactylus': '#425236',
-    'Pacifastacus leniusculus': '#817425',
-    'Procambarus clarkii': '#c09614',
-    'Procambarus virginalis': '#ffb703',
-    'Procambarus acutus': '#fb8500'
+  var speciesColorsVernacularNames = {
+    'Faxonius limosus': {
+      color: '#264653',
+      vernacularName: 'Gevlekte Amerikaanse rivierkreeft'
+    },
+    'Faxonius virilis': {
+      color: '#287271',
+      vernacularName: 'Geknobbelde Amerikaanse rivierkreeft'
+    },
+    'Astacus astacus': {
+      color: '#2a9d8f',
+      vernacularName: 'Europese rivierkreeft'
+    },
+    'Pontastacus leptodactylus': {
+      color: '#8ab17d',
+      vernacularName: 'Turkse rivierkreeft'
+    },
+    'Pacifastacus leniusculus': {
+      color: '#e9c46a',
+      vernacularName: 'Californische rivierkreeft'
+    },
+    'Procambarus clarkii': {
+      color: '#f4a261',
+      vernacularName: 'Rode Amerikaanse rivierkreeft'
+    },
+    'Procambarus virginalis': {
+      color: '#e76f51',
+      vernacularName: 'Marmerkreeft'
+    },
+    'Procambarus acutus': {
+      color: '#eb886f',
+      vernacularName: 'Gestreepte Amerikaanse rivierkreeft'
+    }
   };
 
   // Add a default tile layer to the map
-  satellite.addTo(map);
+  positron.addTo(map);
 
   // Global variable to hold CSV data (reserved locations)
   let csvArray = [];
@@ -86,22 +101,16 @@ description: Template for a leaflet map with the observations
   const markersLayer = L.layerGroup();
   const newOccsLayers = L.layerGroup();
   const histOccsLayers = L.layerGroup();
+  const absencesLayer = L.layerGroup();
 
-  // Custom row parser to handle semicolon-delimited CSV
-  const customRowParser = d3.dsvFormat(";");
-  
   // Function to read the CSV file
   async function readAndShow(csvFile) {
       try {
-        // Fetch the CSV file
-        const response = await fetch(csvFile);
-        const text = await response.text();
-
-        // Parse the CSV text with the custom row parser
-        const csvArray = customRowParser.parse(text);
+        // Read the CSV file
+        const csvArray = await d3.csv(csvFile);
 
         // Filter the data where the field 'IsGereserv' is TRUE
-        const filteredData = csvArray.filter(row => row.IsGereserv === 'TRUE');
+        const filteredData = csvArray.filter(row => row.isReserved === 'TRUE');
         
         // Call the function to add markers after the CSV is loaded
         addMarkers(filteredData);
@@ -110,23 +119,14 @@ description: Template for a leaflet map with the observations
       }
   }
 
-  // Define the EPSG:31370 and WGS84 projections
-  //'+proj=utm +zone=31 +ellps=intl +units=m +datum=belge1950';
-  const proj31370 = '+proj=lcc +lat_0=90 +lon_0=4.36748666666667 +lat_1=51.1666672333333 +lat_2=49.8333339 +x_0=150000.013 +y_0=5400088.438 +ellps=intl +towgs84=-106.8686,52.2978,-103.7239,-0.3366,0.457,-1.8422,-1.2747 +units=m +no_defs +type=crs'
-  const projWGS84 = proj4('EPSG:4326');
-
   // Function to add markers to the map
   function addMarkers(data) {
       data.forEach(row => {
-      // Check if the 'IsGereserv' column is TRUE
-      if (row.IsGereserv === 'TRUE') {
+      // Check if the 'isReserved' column is TRUE
+      if (row.isReserved === 'TRUE') {
         // Parse the coordinates as numbers
-        const y = parseFloat(row.y.replace(',', '.'));
-        const x = parseFloat(row.x.replace(',', '.'));
-        
-        // Transform the coordinates from EPSG:31370 to WGS84
-        const [lon, lat] = proj4(proj31370, projWGS84, [x, y]);
-        
+        const lon = parseFloat(row.Longitude);
+        const lat = parseFloat(row.Latitude);
         // Add a marker to the map
         const marker = L.marker([lat, lon], {alt: `locatieID: ${row.locID}`});
         // Bind a popup to the marker with the 'locatieID' column's value
@@ -177,14 +177,26 @@ description: Template for a leaflet map with the observations
       const lat = parseFloat(item.decimalLatitude);
       const lon = parseFloat(item.decimalLongitude);
       if (!isNaN(lat) && !isNaN(lon)) {
+        const speciesInfo = speciesColorsVernacularNames[item.species] || {color: 'gray', vernacularName: 'null'};
         const circle = L.circle([lat, lon], {
             radius: 300, 
-            // Default to gray if species not found
-            color: speciesColors[item.species] || 'gray',
-            fillColor: speciesColors[item.species] || 'gray',
-            fillOpacity: 0.5
+            color: speciesInfo.color,
+            fillColor: speciesInfo.color,
+            fillOpacity: 0.95,
+            stroke: false
         });
-        circle.bindPopup(`<b>${item.species}</b><br>${item.eventDate}<br>individuals: ${item.individualCount}<br><a href=${item.references} target="_blank">${item.references}</a>`);
+        // Create basic popup content
+        let popupContent = `<b>${speciesInfo.vernacularName}</b><br>${item.eventDate}`;
+        if (item.references) {
+          // Add reference link if present, typically with link to observation on waarnemingen.be
+          popupContent += `<br><a href="${item.references}" target="_blank">${item.references}</a>`;
+        } else {
+          // Add link to the occurrence as published on GBIF
+          popupContent += `<br><a href="https://www.gbif.org/occurrence/${item.key}" target="_blank">https://www.gbif.org/occurrence/${item.key}</a>`;
+        }
+        // Add popup
+        circle.bindPopup(popupContent);
+        // Add circle to layer
         occsLayer.addLayer(circle);
       }
     });
@@ -201,23 +213,28 @@ description: Template for a leaflet map with the observations
   }
 
   // Path to directly download csv with locations
-  const localitiesURL = '/assets/Localities.csv';
+  const localitiesURL = '/assets/localities.csv';
 
   // URL root for recent data (URL to call the GBIF API without offset)
-  const recentDataUrl = 'https://api.gbif.org/v1/occurrence/search?basis_of_record=OBSERVATION&basis_of_record=HUMAN_OBSERVATION&basis_of_record=MATERIAL_SAMPLE&country=BE&event_date=2024-06-05,*&taxon_key=2227289&taxon_key=9442269&taxon_key=2227300&taxon_key=2226990&taxon_key=8946295&taxon_key=2226998&taxon_key=8971201&taxon_key=8909595&advanced=1&occurrence_status=present&gadm_gid=BEL.2_1&limit=300';
+  const recentDataUrl = 'https://api.gbif.org/v1/occurrence/search?basis_of_record=OBSERVATION&basis_of_record=HUMAN_OBSERVATION&basis_of_record=MATERIAL_SAMPLE&country=BE&event_date=2024-06-13,*&taxon_key=2227289&taxon_key=9442269&taxon_key=2227300&taxon_key=2226990&taxon_key=8946295&taxon_key=2226998&taxon_key=8971201&taxon_key=8909595&advanced=1&occurrence_status=present&gadm_gid=BEL.2_1&limit=300';
 
   // URL root for historical data (URL to call the GBIF API without offset)
-  const historicalDataUrl = 'https://api.gbif.org/v1/occurrence/search?basis_of_record=OBSERVATION&basis_of_record=HUMAN_OBSERVATION&basis_of_record=MATERIAL_SAMPLE&country=BE&event_date=2020-06-01,2024-06-04&taxon_key=2227289&taxon_key=9442269&taxon_key=2227300&taxon_key=2226990&taxon_key=8946295&taxon_key=2226998&taxon_key=8971201&taxon_key=8909595&advanced=1&occurrence_status=present&gadm_gid=BEL.2_1&limit=300';
+  const historicalDataUrl = 'https://api.gbif.org/v1/occurrence/search?basis_of_record=OBSERVATION&basis_of_record=HUMAN_OBSERVATION&basis_of_record=MATERIAL_SAMPLE&country=BE&event_date=2000-01-01,2024-06-12&taxon_key=2227289&taxon_key=9442269&taxon_key=2227300&taxon_key=2226990&taxon_key=8946295&taxon_key=2226998&taxon_key=8971201&taxon_key=8909595&advanced=1&occurrence_status=present&gadm_gid=BEL.2_1&limit=300';
+
+  // URL root for recent absent data (URL to call the GBIF API without offset)
+  const absencesUrl = 'https://api.gbif.org/v1/occurrence/search?basis_of_record=OBSERVATION&basis_of_record=HUMAN_OBSERVATION&basis_of_record=MATERIAL_SAMPLE&country=BE&event_date=2024-06-13,*&taxon_key=2227289&taxon_key=9442269&taxon_key=2227300&taxon_key=2226990&taxon_key=8946295&taxon_key=2226998&taxon_key=8971201&taxon_key=8909595&advanced=1&occurrence_status=absent&gadm_gid=BEL.2_1&limit=300';
+
 
   // Define the main function to fetch and add all data to the map
   async function main() {
-    // Call the functions to read the CSV and JSON and add the results to the leaflet
+    // Call the functions to read the CSV and add the results to the leaflet
     readAndShow(localitiesURL);
     // Call the functions to read the recent occurrences (JSON) and add them to the leaflet map
     await readAndShowJSON(recentDataUrl, newOccsLayers);
-    // Call the functions to read the historical occurrences (JSON) and add them to the leaflet map
     newOccsLayers.addTo(map);
-    // Call the function to fetch all data
+    // Call the functions to read the recent absences (JSON) and add them to the leaflet map
+    await readAndShowJSON(absencesUrl, absencesLayer);
+    // Call the functions to read the historical occurrences (JSON) and add them to the leaflet map
     await readAndShowJSON(historicalDataUrl, histOccsLayers);
   }
   
@@ -227,16 +244,15 @@ description: Template for a leaflet map with the observations
   // Create layer control and add to the map
   L.control.layers(
     {
-        'OpenStreetMap': osm,
-        'Satellite': satellite,        
-        'CartoDB Positron': positron,
-        'CartoDB Dark Matter': darkMatter,
-        'Esri WorldGrayCanvas': worldGrayCanvas,
+      'OpenStreetMap': osm,
+      'Satellite': satellite,        
+      'CartoDB Positron': positron
     },
     {
-        'Gereserveerde locaties': markersLayer,
-        'Nieuwe waarnemingen': newOccsLayers,
-        'Historische waarnemingen': histOccsLayers
+      'Gereserveerde locaties': markersLayer,
+      'Nieuwe waarnemingen': newOccsLayers,
+      'Historische waarnemingen': histOccsLayers,
+      'Null waarnemingen': absencesLayer
     }
   ).addTo(map);
 
@@ -245,11 +261,10 @@ description: Template for a leaflet map with the observations
 
   legend.onAdd = function(map) {
     var div = L.DomUtil.create('div', 'legend');
-    var labels = ['<strong>Species</strong>'];
-    for (var species in speciesColors) {
+    var labels = ['<strong>Soorten</strong>'];
+    for (var species in speciesColorsVernacularNames) {
         labels.push(
-            '<em style="background:' + speciesColors[species] + '"></em> ' +
-            species
+            '<em style="background:' + speciesColorsVernacularNames[species].color + '"></em> ' + speciesColorsVernacularNames[species].vernacularName
         );
     }
     div.innerHTML = labels.join('<br>');
