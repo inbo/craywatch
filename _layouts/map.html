@@ -221,6 +221,10 @@ description: Template for a leaflet map with the observations
   // URL root for historical data (URL to call the GBIF API without offset)
   const historicalDataUrl = 'https://api.gbif.org/v1/occurrence/search?basis_of_record=OBSERVATION&basis_of_record=HUMAN_OBSERVATION&basis_of_record=MATERIAL_SAMPLE&country=BE&event_date=2000-01-01,2024-06-12&taxon_key=2227289&taxon_key=9442269&taxon_key=2227300&taxon_key=2226990&taxon_key=8946295&taxon_key=2226998&taxon_key=8971201&taxon_key=8909595&advanced=1&occurrence_status=present&gadm_gid=BEL.2_1&limit=300';
 
+  // URL root for recent absent data (URL to call the GBIF API without offset)
+  const absencesUrl = 'https://api.gbif.org/v1/occurrence/search?basis_of_record=OBSERVATION&basis_of_record=HUMAN_OBSERVATION&basis_of_record=MATERIAL_SAMPLE&country=BE&event_date=2024-06-13,*&taxon_key=2227289&taxon_key=9442269&taxon_key=2227300&taxon_key=2226990&taxon_key=8946295&taxon_key=2226998&taxon_key=8971201&taxon_key=8909595&advanced=1&occurrence_status=absent&gadm_gid=BEL.2_1&limit=300';
+
+
   // Define the main function to fetch and add all data to the map
   async function main() {
     // Call the functions to read the CSV and add the results to the leaflet
@@ -228,6 +232,8 @@ description: Template for a leaflet map with the observations
     // Call the functions to read the recent occurrences (JSON) and add them to the leaflet map
     await readAndShowJSON(recentDataUrl, newOccsLayers);
     newOccsLayers.addTo(map);
+    // Call the functions to read the recent absences (JSON) and add them to the leaflet map
+    await readAndShowJSON(absencesUrl, absencesLayer);
     // Call the functions to read the historical occurrences (JSON) and add them to the leaflet map
     await readAndShowJSON(historicalDataUrl, histOccsLayers);
   }
