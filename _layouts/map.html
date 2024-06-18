@@ -223,7 +223,7 @@ description: Template for a leaflet map with the observations
 
   // Define the main function to fetch and add all data to the map
   async function main() {
-    // Call the functions to read the CSV and JSON and add the results to the leaflet
+    // Call the functions to read the CSV and add the results to the leaflet
     readAndShow(localitiesURL);
     // Call the functions to read the recent occurrences (JSON) and add them to the leaflet map
     await readAndShowJSON(recentDataUrl, newOccsLayers);
