@@ -282,7 +282,7 @@
 "FALSE","FALSE","Stasegemsesteenweg, Gavermeer","Gaverbeek"," ","NA","YES","I_8530_1","NA"," ","VMM_Mtp","Lotisch"," ","West-Vlaanderen","Harelbeke","8530","1","15720"," ","50.8412429702596","3.31047755973651","NA",NA,"NA"
 "FALSE","FALSE","Hulste, Hazebeekstraat, Havikhoek","Hazebeek"," ","NA","YES","I_8531_1","NA"," ","VMM_Mtp","Lotisch"," ","West-Vlaanderen","Harelbeke","8531","2","4710"," ","50.8789875370817","3.29102611282182","NA",NA,"NA"
 "FALSE","FALSE","Moorsele, Ledegemsestraat","Heulebeek"," ","NA","YES","I_8560_1","NA"," ","VMM_Mtp","Lotisch"," ","West-Vlaanderen","Wevelgem","8560","1","4205"," ","50.8426824197549","3.15546872317856","NA",NA,"NA"
-"FALSE","FALSE","Zilverenhoek,Gageltjes, opw zandweg","Zilveren Loop",NA,"NA","YES","I_2920_1","bij voorkeur tussen 20/07 - 01/09"," ","VMM_Mtp","Lotisch"," ","Antwerpen","Kalmthout","2920","2","9860"," ","51.4195583","4.4824202","NA",NA,"NA"
+"FALSE","FALSE","Zilverenhoek,Gageltjes, opw zandweg","Zilveren Loop","NA","NA","YES","I_2920_1","bij voorkeur tussen 20/07 - 01/09"," ","VMM_Mtp","Lotisch"," ","Antwerpen","Kalmthout","2920","2","9860"," ","51.4195583","4.4824202","NA",NA,"NA"
 "FALSE","FALSE","Mispelarestraat"," "," ","NA","YES","I_8980_1","NA"," ","VMM_Mtp","Lotisch"," ","West-Vlaanderen","Zonnebeke","8980","2","58840"," ","50.8727855723837","3.02209020640218","NA",NA,"NA"
 "FALSE","FALSE","Moen,Kraaibosstraat,afw weg","Oliebergbeek"," ","NA","YES","I_8552_1","NA"," ","VMM_Mtp","Lotisch"," ","West-Vlaanderen","Zwevegem","8552","2","163"," ","50.7779135699985","3.37833333484665","NA",NA,"NA"
 "FALSE","FALSE","Lauwe, Waterstraat,  na samenvl Meurissonsbeek","Palingbeek"," ","NA","YES","I_8930_1","NA"," ","VMM_Mtp","Lotisch"," ","West-Vlaanderen","Menen","8930","2","4311"," ","50.7916406988454","3.16320955394","NA",NA,"NA"
@@ -486,7 +486,7 @@
 "FALSE","FALSE","Huldenberg, afw 221550, ongeveer 10m afw na lozing effluent RWZI","Dijle"," ","NA","YES","I_3051_3","NA"," ","VMM_Mtp","Lotisch"," ","Vlaams-Brabant","Oud-Heverlee","3051","9","6551"," ","50.8030706892185","4.64255945658383","NA",NA,"NA"
 "FALSE","FALSE","Ruisbroek; einde Donkstr - Vlietdijk; beginnen aan brug thv pompstation(mtp 225000)","Grote Molenbeek"," ","NA","YES","I_2870_3","NA"," ","VMM_Mtp","Lotisch"," ","Antwerpen","Puurs-Sint-Amands","2870","1","6"," ","51.095019","4.317481","NA",NA,"NA"
 "FALSE","FALSE","Puurs; Achterheide;  beginnen aan fietsbrugje","Grote Molenbeek"," ","NA","YES","I_2890_1","NA"," ","VMM_Mtp","Lotisch"," ","Antwerpen","Puurs-Sint-Amands","2890","1","6"," ","51.0541727808753","4.26214468706053","NA",NA,"NA"
-"FALSE","FALSE","Londerzeel; Malderen; Herbodin, afw. Hoeve Ter Helle; begin 100m afw mtp 228800","Grote Molenbeek",NA,"NA","YES","I_1840_2","NA"," ","VMM_Mtp","Lotisch"," ","Vlaams-Brabant","Londerzeel","1840","1","6"," ","51.0156529","4.2702121","NA",NA,"NA"
+"FALSE","FALSE","Londerzeel; Malderen; Herbodin, afw. Hoeve Ter Helle; begin 100m afw mtp 228800","Grote Molenbeek","NA","NA","YES","I_1840_2","NA"," ","VMM_Mtp","Lotisch"," ","Vlaams-Brabant","Londerzeel","1840","1","6"," ","51.0156529","4.2702121","NA",NA,"NA"
 "FALSE","FALSE","Steenhuffel; Robbroek; opw brug Marselaarmolen","Grote Molenbeek"," ","NA","YES","I_1840_3","NA"," ","VMM_Mtp","Lotisch"," ","Vlaams-Brabant","Londerzeel","1840","1","6"," ","50.9812283053672","4.2640468142229","NA",NA,"NA"
 "FALSE","FALSE","Buggenhout; Vidtstraat; begin 100m opw brug","Bouwbeek"," ","NA","YES","I_9255_1","NA"," ","VMM_Mtp","Lotisch"," ","Oost-Vlaanderen","Buggenhout","9255","2","70"," ","51.0197059112","4.21110139335781","NA",NA,"NA"
 "FALSE","FALSE","Ruisbroek; Ooievaarsnest; 50m afw mtp 234000; direct na bloembak paadje inrijden tot aan slagboom","Birrebeek"," ","NA","YES","I_2870_4","NA"," ","VMM_Mtp","Lotisch"," ","Antwerpen","Puurs-Sint-Amands","2870","1","3106"," ","51.0749364813618","4.34003288278503","NA",NA,"NA"
@@ -500,7 +500,7 @@
 "ONHOLD","ONHOLD","Balen; bereikbaar via kanaalpad; begin aan zandweg (300m afw mtp 261900)","Grote Nete","nzzmzdm3 ","NA","YES","I_2490_1","NA"," ","VMM_Mtp","Lotisch"," ","Antwerpen","Balen","2490","1","8501"," ","51.149968","5.1432007","NA",NA,"NA"
 "FALSE","FALSE","Meerhout;Rooiaarde; 2de zandweg links (aan verkeersbordje 50km)","Grote Nete"," ","NA","YES","I_2450_1","NA"," ","VMM_Mtp","Lotisch"," ","Antwerpen","Meerhout","2450","1","8501"," ","51.136424979392","5.09166732696183","NA",NA,"NA"
 "FALSE","FALSE","Geel; brug Wildersedijk; opw. Scherpenbergloop","Grote Nete"," ","NA","YES","I_2440_5","NA"," ","VMM_Mtp","Lotisch"," ","Antwerpen","Geel","2440","1","8501"," ","51.138819712937","4.99689876038797","NA",NA,"NA"
-"ONHOLD","ONHOLD","Lommel; Kerkhoven; Kerkhovenstwg; 150m opw mtp 262400","Grote Nete","yty5zti4 ","NA","YES","I_3920_1","NA"," ","VMM_Mtp","Lotisch"," ","Limburg","Lommel","3920","2","8501"," ","51.1582457","5.2628727","NA",NA,"NA"
+"TRUE","TRUE","Lommel; Kerkhoven; Kerkhovenstwg; 150m opw mtp 262400","Grote Nete","yty5zti4 ","NA","YES","I_3920_1","NA"," ","VMM_Mtp","Lotisch"," ","Limburg","Lommel","3920","2","8501"," ","51.1582457","5.2628727","NA",NA,"NA"
 "FALSE","FALSE","Hechtel-Eksel; Weyerbrugstraat; 500m afw mtp 262600","Grote Nete"," ","NA","YES","I_3941_1","NA"," ","VMM_Mtp","Lotisch"," ","Limburg","Hechtel-Eksel","3941","2","8501"," ","51.1542372947161","5.33789644568761","NA",NA,"NA"
 "FALSE","FALSE","Duffel; Zandstraat; afw Zandstraat en 50m opw pompinstallatie","Goorbosbeek"," ","NA","YES","I_2570_1","bij voorkeur tussen 20/07 - 01/09"," ","VMM_Mtp","Lotisch"," ","Antwerpen","Duffel","2570","2","9112"," ","51.0763420011462","4.48089608313567","NA",NA,"NA"
 "FALSE","FALSE","Duffel; Beukendreef; 50m opw brug (aan dikke canadaboom)","Goorbosbeek"," ","NA","YES","I_2860_3","bij voorkeur tussen 20/07 - 01/09"," ","VMM_Mtp","Lotisch"," ","Antwerpen","Sint-Katelijne-Waver","2860","2","9112"," ","51.0751529572285","4.4834901178451","NA",NA,"NA"
@@ -1451,13 +1451,14 @@
 "ONHOLD","ONHOLD","NA","NA","nzzmzdm3","NA","NO","V_2490_2","NA","NA","NA","NA","NA","Antwerpen","Balen","2490","NA","NA","NA","51.1902884","5.244542","NA",NA,"NA"
 "ONHOLD","ONHOLD","NA","Watering De Molenbeek","zjbmngyy","NA","YES","I_3220_2","NA","NA","NA","NA","NA","Vlaams-Brabant","Holsbeek","3220","NA","NA","NA","50.9343435","4.8303267","NA",NA,"NA"
 "ONHOLD","ONHOLD","NA","NA","zjbmngyy","NA","YES","I_3390_1","NA","NA","NA","NA","NA","Vlaams-Brabant","Tielt-Winge","3390","NA","NA","NA","50.9071142","4.8515781","NA",NA,"NA"
-"ONHOLD","ONHOLD",NA,NA,"nmvkndjl",NA,"YES","I_2900_3",NA,NA,NA,NA,NA,"Antwerpen","Schoten","2900",NA,NA,NA,"51.2927059","4.5470864",NA,NA,NA
-"ONHOLD","ONHOLD",NA,NA,"yty5zti4",NA,"YES","I_2400_7",NA,NA,NA,NA,NA,"Antwerpen","Mol","2400",NA,NA,NA,"51.2040817","5.1834068",NA,NA,NA
-"FALSE","FALSE","Spoorwegstraat-Christoffelweg-veldweg langs spoorweg,afw brug (Waalbrug)","Nieuwe Kale",NA,"NA","YES","I_9940_2","NA"," ","VMM_Mtp","Lotisch"," ","Oost-Vlaanderen","Evergem","9940","1","625"," ","51.1039419","3.7079004","NA",NA,"NA"
-"ONHOLD","ONHOLD",NA,"Koppelingsgebied Doornzele","mze2mza3",NA,"NO","V_9000_9",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Gent","9000",NA,NA,NA,"51.1469864","3.7675561",NA,NA,NA
-"ONHOLD","ONHOLD",NA,"Schipdonkkanaal","ntiwzdk2",NA,"NO","V_9930_2",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Lievegem","9930",NA,NA,NA,"51.1239677","3.5685398",NA,NA,NA
-"ONHOLD","ONHOLD",NA,NA,"nzzlmmvm",NA,"YES","I_3660_2",NA,NA,NA,NA,NA,"Limburg","Oudsbergen","3660",NA,NA,NA,"51.0490058","5.5427268",NA,NA,NA
+"ONHOLD","ONHOLD","NA","NA","nmvkndjl","NA","YES","I_2900_3","NA","NA","NA","NA","NA","Antwerpen","Schoten","2900","NA","NA","NA","51.2927059","4.5470864","NA",NA,"NA"
+"TRUE","TRUE","NA","NA","yty5zti4","NA","YES","I_2400_7","NA","NA","NA","NA","NA","Antwerpen","Mol","2400","NA","NA","NA","51.2040817","5.1834068","NA",NA,"NA"
+"FALSE","FALSE","Spoorwegstraat-Christoffelweg-veldweg langs spoorweg,afw brug (Waalbrug)","Nieuwe Kale","NA","NA","YES","I_9940_2","NA"," ","VMM_Mtp","Lotisch"," ","Oost-Vlaanderen","Evergem","9940","1","625"," ","51.1039419","3.7079004","NA",NA,"NA"
+"ONHOLD","ONHOLD","NA","Koppelingsgebied Doornzele","mze2mza3","NA","NO","V_9000_9","NA","NA","NA","NA","NA","Oost-Vlaanderen","Gent","9000","NA","NA","NA","51.1469864","3.7675561","NA",NA,"NA"
+"ONHOLD","ONHOLD","NA","Schipdonkkanaal","ntiwzdk2","NA","NO","V_9930_2","NA","NA","NA","NA","NA","Oost-Vlaanderen","Lievegem","9930","NA","NA","NA","51.1239677","3.5685398","NA",NA,"NA"
+"ONHOLD","ONHOLD","NA","NA","nzzlmmvm","NA","YES","I_3660_2","NA","NA","NA","NA","NA","Limburg","Oudsbergen","3660","NA","NA","NA","51.0490058","5.5427268","NA",NA,"NA"
 "ONHOLD","ONHOLD","Steenhuffel, Lakeman, opw brug","Grote Molenbeek","njdhzdu1","NA","YES","I_1840_1","NA"," ","VMM_Mtp","Lotisch"," ","Vlaams-Brabant","Londerzeel","1840","1","6"," ","50.9962826","4.2716058","NA",NA,"NA"
-"ONHOLD","ONHOLD",NA,NA,"nzzlmmvm",NA,"YES","I_3660_2",NA,NA,NA,NA,NA,"Limburg","Oudsbergen","3660",NA,NA,NA,"51.0553657","5.5472437",NA,NA,NA
+"ONHOLD","ONHOLD","NA","NA","nzzlmmvm","NA","YES","I_3660_2","NA","NA","NA","NA","NA","Limburg","Oudsbergen","3660","NA","NA","NA","51.0553657","5.5472437","NA",NA,"NA"
 "ONHOLD","ONHOLD","Stationsstraat, Gruuthuyse kasteel","Rivierbeek","mdjjotdj ","NA","YES","I_8020_1","NA"," ","VMM_Mtp","Lotisch"," ","West-Vlaanderen","Oostkamp","8020","1","28"," ","51.1530017","3.2531877","NA",NA,"NA"
-"ONHOLD","ONHOLD",NA,NA,"ndg3nju0",NA,"NO","V_2900_3",NA,NA,NA,NA,NA,"Antwerpen","Schoten","2900",NA,NA,NA,"51.2613534","4.5119248",NA,NA,NA
+"ONHOLD","ONHOLD","NA","NA","ndg3nju0","NA","NO","V_2900_3","NA","NA","NA","NA","NA","Antwerpen","Schoten","2900","NA","NA","NA","51.2613534","4.5119248","NA",NA,"NA"
+"ONHOLD","ONHOLD",NA,NA,"ndg3nju0",NA,"YES","I_2900_4",NA,NA,NA,NA,NA,"Antwerpen","Schoten","2900",NA,NA,NA,"51.2773012","4.5328356",NA,NA,NA
