@@ -10,9 +10,3 @@ vendor/
 
 # Mac OS
 .DS_Store
-
-# R specific files
-/R/.Rproj.user
-/R/.Rhistory
-/R/.RData
-/R/.Ruserdata
