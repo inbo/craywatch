@@ -11,14 +11,9 @@ vendor/
 # Mac OS
 .DS_Store
 
-# Negeer shapefiles en hun gerelateerde bestanden uit ./R/
-/R/data/input/shapefiles/*.shp
-/R/data/input/shapefiles/*.shx
-/R/data/input/shapefiles/*.dbf
-/R/data/input/shapefiles/*.prj
-/R/data/input/shapefiles/*.sbn
-/R/data/input/shapefiles/*.sbx
-/R/data/input/shapefiles/*.cpg
-/R/data/input/shapefiles/*.qix
-/R/data/input/shapefiles/*.shp.xml
+# Negeer shapefiles en R-specifieke bestanden uit ./R/
+/R/data/input/shapefiles/
 /R/.Rproj.user
+/R/.Rhistory
+/R/.RData
+/R/.Ruserdata
