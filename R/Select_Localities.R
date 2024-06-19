@@ -240,7 +240,7 @@ print("LocID toegevoegd aan nieuwe locaties")
 
 ## Save als een csv bestand
 # Definieer het pad naar het CSV-bestand
-csv_path <- "./data/output/localities.csv"
+csv_path <- "../assets/localities.csv"
 
 # Schrijf kml_data naar een CSV-bestand
 write.csv(st_drop_geometry(kml_data), file = csv_path, row.names = FALSE, sep = ",", dec = ".")
