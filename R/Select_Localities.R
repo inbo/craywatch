@@ -188,7 +188,12 @@ if (!"locID" %in% colnames(kml_data)) {
   kml_data <- kml_data %>% mutate(locID = NA_character_)
 }
 
-# Create a dictionary to keep track of unique sequence numbers for each postcode
+# Initialize the list to store unique numbers for each postcode
+unique_numbers <- list()
+
+## Populate the unique_numbers list with the highest existing locID numbers
+
+# Initialize the list to store unique numbers for each postcode
 unique_numbers <- list()
 
 # First pass to populate the unique_numbers list with existing locIDs
@@ -211,32 +216,52 @@ for (i in 1:nrow(kml_data)) {
   }
 }
 
-# Update the 'locID' field
-kml_data <- kml_data %>%
-  rowwise() %>%
-  mutate(
-    locID = ifelse(
-      is.na(locID) | locID == "",
-      {
-        if (is.null(unique_numbers[[as.character(postcode)]])) {
-          unique_numbers[[as.character(postcode)]] <- 1
-        } else {
-          unique_numbers[[as.character(postcode)]] <- unique_numbers[[as.character(postcode)]] + 1
-        }
-        
-        unique_number <- unique_numbers[[as.character(postcode)]]
-        prefix <- ifelse(SugbyINBO == "YES", "I", "V")
-        sprintf("%s_%s_%s", prefix, as.character(postcode), unique_number)
-      },
-      locID
-    )
-  ) %>%
-  ungroup()
+# Function to generate unique locID
+generate_locID <- function(postcode, SugbyINBO) {
+  postcode_str <- as.character(postcode)
+  if (is.null(unique_numbers[[postcode_str]])) {
+    unique_numbers[[postcode_str]] <- 1
+  } else {
+    unique_numbers[[postcode_str]] <- unique_numbers[[postcode_str]] + 1
+  }
+  unique_number <- unique_numbers[[postcode_str]]
+  prefix <- ifelse(SugbyINBO == "YES", "I", "V")
+  sprintf("%s_%s_%s", prefix, postcode_str, unique_number)
+}
+
+# Create a vector to store new locIDs
+new_locIDs <- character(nrow(kml_data))
+
+# Update the 'locID' field and fix duplicates
+for (i in 1:nrow(kml_data)) {
+  row <- kml_data[i, ]
+  current_locID <- as.character(row$locID)
+  postcode <- row$postcode
+  SugbyINBO <- row$SugbyINBO
+  
+  if (is.na(current_locID) || current_locID == "" || current_locID %in% new_locIDs) {
+    new_locIDs[i] <- generate_locID(postcode, SugbyINBO)
+  } else {
+    new_locIDs[i] <- current_locID
+  }
+}
+
+# Assign the new locIDs to the kml_data DataFrame
+kml_data$locID <- new_locIDs
 
 print("LocID toegevoegd aan nieuwe locaties")
 
+# Check for duplicates in the locID column
+duplicate_locIDs <- kml_data %>%
+  filter(duplicated(locID) | duplicated(locID, fromLast = TRUE))
 
-#Save als csv
+# Print the duplicate locIDs
+if (nrow(duplicate_locIDs) > 0) {
+  print("Duplicate locIDs found:")
+  print(duplicate_locIDs)
+} else {
+  print("No duplicate locIDs found.")
+}
 
 ## Save als een csv bestand
 # Definieer het pad naar het CSV-bestand
