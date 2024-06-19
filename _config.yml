@@ -33,7 +33,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE
-  - ./R/
+  - R
 
 # FRONTMATTER DEFAULTS
 defaults:
