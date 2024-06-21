@@ -186,7 +186,9 @@ print("VHAG, CATC, Province, postcode, and gemeenten successfully added to local
 library(data.table)
 
 # Convert kml_data to data.table for better performance
-kml_data <- as.data.table(kml_data)
+kml_data <- kml_data %>%
+            st_drop_geometry() %>%
+            as.data.table()
 
 # Voeg het veld 'locID' toe als het niet bestaat
 if (!"locID" %in% colnames(kml_data)) {
@@ -267,7 +269,7 @@ if (nrow(duplicate_locIDs) > 0) {
 csv_path <- "../assets/localities.csv"
 
 # Schrijf kml_data naar een CSV-bestand
-write.csv(st_drop_geometry(kml_data), file = csv_path, row.names = FALSE, sep = ",", dec = ".")
+write.csv(kml_data, file = csv_path, row.names = FALSE, sep = ",", dec = ".")
 
 print("CSV file successfully saved.")
 
