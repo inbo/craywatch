@@ -184,7 +184,9 @@ kml_data <- kml_data %>%
     Beheerder = if_else(is.na(Beheerder) | Beheerder == "", anb_naam_dict[as.character(temp_id)], Beheerder),
     Bhremail = if_else(is.na(Bhremail) | Bhremail == "", anb_email_dict[as.character(temp_id)], Bhremail),
     Beheerder = if_else(is.na(Beheerder) & CATC == 2 & provincie == "Antwerpen", "provincie Antwerpen", Beheerder),
-    Bhremail = if_else(is.na(Bhremail) & CATC == 2 & provincie == "Antwerpen", "hans.vanloy@provincieantwerpen.be", Bhremail)
+    Bhremail = if_else(is.na(Bhremail) & CATC == 2 & provincie == "Antwerpen", "hans.vanloy@provincieantwerpen.be", Bhremail),
+    Beheerder = if_else(is.na(Beheerder) & CATC == 2, provincie, Beheerder),
+    Beheerder = if_else(is.na(Beheerder) & CATC == 1, "VMM", Beheerder)
     ) %>%
   ungroup() %>%
   select(-temp_id) 
