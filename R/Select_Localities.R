@@ -178,18 +178,27 @@ kml_data <- kml_data %>%
     CATC = if_else(is.na(CATC) | CATC == "", wat_catc_dict[as.character(temp_id)], CATC), 
     NAAM = if_else(is.na(NAAM) | NAAM == "", wat_naam_dict[as.character(temp_id)], NAAM),
     VHAG = if_else(is.na(VHAG) | VHAG == 0 | VHAG == "", wat_vhag_dict[as.character(temp_id)], VHAG),
+    
     Beheerder = if_else(CATC %in% c(2, 3) & (is.na(Beheerder) | Beheerder == ""), pol_naam_dict[as.character(temp_id)], Beheerder),
     Bhremail = if_else(CATC %in% c(2, 3) & (is.na(Bhremail) | Bhremail == ""), pol_email_dict[as.character(temp_id)], Bhremail),
     Bhrtel = if_else(CATC %in% c(2, 3) & (is.na(Bhrtel) | Bhrtel == ""), pol_tel_dict[as.character(temp_id)], Bhrtel),
+    
     Beheerder = if_else(is.na(Beheerder) | Beheerder == "", anb_naam_dict[as.character(temp_id)], Beheerder),
     Bhremail = if_else(is.na(Bhremail) | Bhremail == "", anb_email_dict[as.character(temp_id)], Bhremail),
-    Beheerder = if_else(is.na(Beheerder) & CATC == 2 & provincie == "Antwerpen", "provincie Antwerpen", Beheerder),
-    Bhremail = if_else(is.na(Bhremail) & CATC == 2 & provincie == "Antwerpen", "hans.vanloy@provincieantwerpen.be", Bhremail),
-    Beheerder = if_else(is.na(Beheerder) & CATC == 2, provincie, Beheerder),
-    Beheerder = if_else(is.na(Beheerder) & CATC == 1, "VMM", Beheerder)
     ) %>%
   ungroup() %>%
   select(-temp_id) 
+
+# Convert "NA" strings to actual NA values in the 'Beheerder' column
+kml_data$Beheerder[kml_data$Beheerder == "NA"] <- NA
+kml_data$Beheerder[kml_data$Bhremail == "NA"] <- NA
+
+kml_data <- kml_data %>%
+  mutate(
+    Beheerder = if_else((is.na(Beheerder) | Beheerder == "") & CATC == 2, provincie, Beheerder),
+    Bhremail = if_else((is.na(Bhremail) | Bhremail == "") & CATC == 2 & provincie == "Antwerpen", "hans.vanloy@provincieantwerpen.be", Bhremail),
+    Beheerder = if_else((is.na(Beheerder) | Beheerder == "") & CATC == 1, "VMM", Beheerder)
+  )
 
 print("VHAG, CATC, Province, postcode, and gemeenten successfully added to localities")
 
