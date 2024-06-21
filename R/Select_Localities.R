@@ -64,9 +64,9 @@ waterlopen_shape <- st_read(waterlopen_path) %>%
 waterlopen_buffer <- waterlopen_shape %>%
   st_buffer(dist = 5)
 watering_shape <- st_read(watering_path) %>%
-  st_transform(crs = 31370)
+                  st_transform(crs = 31370)
 polder_shape <- st_read(polder_path) %>%
-  st_transform(crs = 31370) 
+                st_transform(crs = 31370) 
 anbterrein_shape <- st_read(anbterrein_path) %>%
   st_transform(crs = 31370) 
 
@@ -182,8 +182,10 @@ kml_data <- kml_data %>%
     Bhremail = if_else(CATC %in% c(2, 3) & (is.na(Bhremail) | Bhremail == ""), pol_email_dict[as.character(temp_id)], Bhremail),
     Bhrtel = if_else(CATC %in% c(2, 3) & (is.na(Bhrtel) | Bhrtel == ""), pol_tel_dict[as.character(temp_id)], Bhrtel),
     Beheerder = if_else(is.na(Beheerder) | Beheerder == "", anb_naam_dict[as.character(temp_id)], Beheerder),
-    Bhremail = if_else(is.na(Bhremail) | Bhremail == "", anb_email_dict[as.character(temp_id)], Bhremail)
-  ) %>%
+    Bhremail = if_else(is.na(Bhremail) | Bhremail == "", anb_email_dict[as.character(temp_id)], Bhremail),
+    Beheerder = if_else(is.na(Beheerder) & CATC == 2 & provincie == "Antwerpen", "provincie Antwerpen", Beheerder),
+    Bhremail = if_else(is.na(Bhremail) & CATC == 2 & provincie == "Antwerpen", "hans.vanloy@provincieantwerpen.be", Bhremail)
+    ) %>%
   ungroup() %>%
   select(-temp_id) 
 
@@ -194,9 +196,7 @@ print("VHAG, CATC, Province, postcode, and gemeenten successfully added to local
 library(data.table)
 
 # Convert kml_data to data.table for better performance
-kml_data <- kml_data %>%
-            st_drop_geometry() %>%
-            as.data.table()
+kml_data <- as.data.table(kml_data)
 
 # Voeg het veld 'locID' toe als het niet bestaat
 if (!"locID" %in% colnames(kml_data)) {
@@ -208,7 +208,7 @@ unique_numbers <- list()
 
 # First pass to populate the unique_numbers list with the highest locID numbers
 for (i in seq_len(nrow(kml_data))) {
-  row <- kml_data[i, ]
+  row <- kml_data[i]
   postcode <- as.character(row$postcode)
   locID <- as.character(row$locID)
   
@@ -216,18 +216,13 @@ for (i in seq_len(nrow(kml_data))) {
     tryCatch({
       unique_number <- as.integer(strsplit(locID, "_")[[1]][3])
       if (is.null(unique_numbers[[postcode]])) {
-        unique_numbers[[postcode]] <- 0
+        unique_numbers[[postcode]] <- unique_number
+      } else {
+        unique_numbers[[postcode]] <- max(unique_numbers[[postcode]], unique_number)
       }
-      unique_numbers[[postcode]] <- max(unique_numbers[[postcode]], unique_number)
     }, error = function(e) {
       # Skip locID values that are not in the expected format
-      print(paste("Error processing locID:", locID, "Error:", e))
     })
-  } else {
-    # Voeg deze else-clausule toe voor het geval locID ontbreekt of niet geldig is
-    if (is.null(unique_numbers[[postcode]])) {
-      unique_numbers[[postcode]] <- 0
-    }
   }
 }
 
@@ -277,7 +272,7 @@ if (nrow(duplicate_locIDs) > 0) {
 csv_path <- "../assets/localities.csv"
 
 # Schrijf kml_data naar een CSV-bestand
-write.csv(kml_data, file = csv_path, row.names = FALSE, sep = ",", dec = ".")
+write.csv(st_drop_geometry(kml_data), file = csv_path, row.names = FALSE, sep = ",", dec = ".")
 
 print("CSV file successfully saved.")
 
