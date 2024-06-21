@@ -198,7 +198,7 @@ unique_numbers <- list()
 
 # First pass to populate the unique_numbers list with the highest locID numbers
 for (i in seq_len(nrow(kml_data))) {
-  row <- kml_data[i]
+  row <- kml_data[i, ]
   postcode <- as.character(row$postcode)
   locID <- as.character(row$locID)
   
@@ -206,13 +206,18 @@ for (i in seq_len(nrow(kml_data))) {
     tryCatch({
       unique_number <- as.integer(strsplit(locID, "_")[[1]][3])
       if (is.null(unique_numbers[[postcode]])) {
-        unique_numbers[[postcode]] <- unique_number
-      } else {
-        unique_numbers[[postcode]] <- max(unique_numbers[[postcode]], unique_number)
+        unique_numbers[[postcode]] <- 0
       }
+      unique_numbers[[postcode]] <- max(unique_numbers[[postcode]], unique_number)
     }, error = function(e) {
       # Skip locID values that are not in the expected format
+      print(paste("Error processing locID:", locID, "Error:", e))
     })
+  } else {
+    # Voeg deze else-clausule toe voor het geval locID ontbreekt of niet geldig is
+    if (is.null(unique_numbers[[postcode]])) {
+      unique_numbers[[postcode]] <- 0
+    }
   }
 }
 
