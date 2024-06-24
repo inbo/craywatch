@@ -102,9 +102,9 @@ description: Template for a leaflet map with the observations
 
   // Layer groups for markers
   const markersLayer = L.layerGroup();
-  const newOccsLayers = L.markerClusterGroup();
-  const histOccsLayers = L.markerClusterGroup();
-  const absencesLayer = L.markerClusterGroup();
+  const newOccsLayers = L.layerGroup();
+  const histOccsLayers = L.layerGroup();
+  const absencesLayer = L.layerGroup();
 
   // Function to read the CSV file
   async function readAndShow(csvFile) {
