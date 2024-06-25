@@ -197,6 +197,7 @@ kml_data <- kml_data %>%
   mutate(
     Beheerder = if_else((is.na(Beheerder) | Beheerder == "") & CATC == 2, provincie, Beheerder),
     Bhremail = if_else((is.na(Bhremail) | Bhremail == "") & CATC == 2 & provincie == "Antwerpen", "hans.vanloy@provincieantwerpen.be", Bhremail),
+    Bhremail = if_else((is.na(Bhremail) | Bhremail == "") & CATC == 2 & provincie == "Vlaams-Brabant", "ingrid.beuls@vlaamsbrabant.be", Bhremail),
     Beheerder = if_else((is.na(Beheerder) | Beheerder == "") & CATC == 1, "VMM", Beheerder)
   )
 
