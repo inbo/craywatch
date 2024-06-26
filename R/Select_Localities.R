@@ -78,7 +78,7 @@ names(kml_data)[names(kml_data) == "Name"] <- "isReserved"
 # Wijs dezelfde waarden toe =aan de nieuwe kolom 'isReserved'
 kml_data$isReserved <- kml_data$updateRes
 
-#########UPDATA VELDEN provincies, gemeenten en postkantons ####################
+#########UPDATE VELDEN provincies, gemeenten en postkantons ####################
 # Voeg een tijdelijke index kolom toe
 kml_data <- kml_data %>%
   mutate(temp_id = row_number())
@@ -208,6 +208,7 @@ print("VHAG, CATC, Province, postcode, and gemeenten successfully added to local
 library(data.table)
 
 # Convert kml_data to data.table for better performance
+kml_data <- st_drop_geometry(kml_data)
 kml_data <- as.data.table(kml_data)
 
 # Voeg het veld 'locID' toe als het niet bestaat
