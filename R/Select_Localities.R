@@ -285,7 +285,7 @@ if (nrow(duplicate_locIDs) > 0) {
 csv_path <- "../assets/localities.csv"
 
 # Schrijf kml_data naar een CSV-bestand
-write.csv(st_drop_geometry(kml_data), file = csv_path, row.names = FALSE, sep = ",", dec = ".")
+write.csv(kml_data, file = csv_path, row.names = FALSE, sep = ",", dec = ".")
 
 print("CSV file successfully saved.")
 
