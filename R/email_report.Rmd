@@ -1,0 +1,44 @@
+---
+output:
+  html_document:
+    theme: null
+  html_vignette: default
+  prettydoc::html_pretty: default
+---
+
+```{r setup, include=FALSE}
+# Suppress messages and warnings and prevent output display
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+# Load the processed data
+load("processed_data.RData")
+```
+
+```{r ShowBanner, echo=FALSE}
+knitr::include_graphics("https://imgur.com/7g3eJVw.jpg")
+```
+
+Beste Craywatchers,
+
+We zijn verheugd om jullie zo talrijk te mogen verwelkomen op het Craywatch project. Op dit ogenblik zijn jullie reeds met `r nrow(filtered_data)` deelnemers. De provincie `r province_counts$Provincie[1]` gaf ons een overweldigende respons met `r province_counts$n[1]` vrijwilligers die registreerden! 
+Ons projectteam verzekert jullie dat we jullie enthousiasme zo snel als mogelijk zullen beantwoorden. In de komende dagen zullen meerdere onder jullie    een persoonlijk bericht van ons mogen ontvangen. Op dit ogenblik werden reeds `r num_reserved` locaties gereserveerd in Vlaanderen en verstuurden we      de eerste `r count_sent` vrijwilligers vallen. 
+
+<div style="text-align: center;">
+```{r ShowTreemap, echo=FALSE}
+knitr::include_graphics("https://imgur.com/IvvKFp0.png")
+```
+</div>
+
+Op de volgende kaart zie je een gedetailleerd overzicht van welke postkantons jullie graag willen Craywatchen, maar dus ook waar jullie nog ondervertegenwoordigd zijn.
+
+```{r IncludeMap, echo = FALSE}
+knitr::include_graphics("https://imgur.com/tMDVkwS.png")
+```
+
+Vooralsnog zijn er nog geen vangsten gerealiseerd, maar wanneer jullie van start gaan, worden de resultaten van jullie vangsten wekelijks geüpdatet op deze [kaart](https://craywatch.inbo.be/kaart/).
+
+Vergeet niet de [werkwijze](http://craywatch.inbo.be) grondig na te lezen alvorens jullie aan de slag gaan. Hebben jullie nog vragen, raadpleeg dan de [FAQ-pagina](http://craywatch.inbo.be/faq/) of contacteer ons op craywatch@inbo.be. Wij streven ernaar elk van jullie emails te beantwoorden,
+
+Keep Craywatching!
+
+Het Craywatch project-team
+
