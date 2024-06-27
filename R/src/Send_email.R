@@ -15,18 +15,18 @@ html_content <- paste(readLines("./data/output/email_report.html"), collapse = "
 email <- compose_email(
   body = md(paste0('<div style="max-width: 600px; margin: auto; text-align: justify;">', html_content, '</div>'))
 )
-
-create_smtp_creds_key(
-  id = "gmail",
-  user = "frederique.steen@inbo.be",  # je Gmail-adres
-  provider = "gmail",
-  use_ssl = TRUE
-)
+# 
+# create_smtp_creds_key(
+#   id = "gmail",
+#   user = "frederique.steen@inbo.be",  # je Gmail-adres
+#   provider = "gmail",
+#   use_ssl = TRUE
+# )
 
 smtp_send(
   email,
   from = "frederique.steen@inbo.be",
-  to = "frederique.steen@inbo.be",
+  to = "craywatch@inbo.be",
   subject = "Craywatch Nieuws",
   credentials = creds_key(
     id = "gmail"
