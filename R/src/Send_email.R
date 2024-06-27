@@ -3,11 +3,10 @@
 
 library(blastula)
 library(keyring)
+library(rmarkdown)
 
-#key_set("gmail", "frederique.steen@inbo.be")
-rmarkdown::render("./email_report.Rmd")
 # Render het RMarkdown-bestand naar HTML
-render("email_report.Rmd", output_file = "email_report.html")
+render("./src/email_report.Rmd", output_file = "../data/output/email_report.html")
 
 html_content <- paste(readLines("./email_report.html"), collapse = "\n")
 # Maak een e-mail met blastula

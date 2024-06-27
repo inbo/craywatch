@@ -10,7 +10,7 @@ output:
 # Suppress messages and warnings and prevent output display
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 # Load the processed data
-load("./data/output/processed_data.RData")
+load("../data/output/processed_data.RData")
 ```
 
 ```{r ShowBanner, echo=FALSE}
