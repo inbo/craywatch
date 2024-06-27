@@ -282,7 +282,7 @@ if (nrow(duplicate_locIDs) > 0) {
 
 ## Save als een csv bestand
 # Definieer het pad naar het CSV-bestand
-csv_path <- "../../assets/localities.csv"
+csv_path <- "../assets/localities.csv"
 
 # Schrijf kml_data naar een CSV-bestand
 write.csv(kml_data, file = csv_path, row.names = FALSE, sep = ",", dec = ".")

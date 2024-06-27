@@ -8,6 +8,7 @@ library(httr)
 library(jsonlite)
 library(imguR)
 library(stringr)
+library(readr)
 
 client_id <- Sys.getenv("IMGUR_CLIENT_ID")
 client_secret <- Sys.getenv("IMGUR_CLIENT_SECRET")
@@ -89,7 +90,7 @@ num_reserved <- sum(as.logical(localities$isReserved), na.rm = TRUE)
 count_sent <- sum(tolower(data$FuikenVerzonden) == 'true', na.rm = TRUE)
 
 
-save(filtered_data, province_counts, num_reserved, count_sent, file = "processed_data.RData")
+save(filtered_data, province_counts, num_reserved, count_sent, file = "./data/output/processed_data.RData")
 
 #Uploading images to webserver
 
