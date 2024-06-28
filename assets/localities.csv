@@ -572,8 +572,8 @@
 "FALSE","FALSE","Zelem, afw mpl 395000","Demer"," ","NA","YES","I_3545_6","NA"," ","VMM_Mtp","Lotisch"," ","Limburg","Halen","3545","1","7151"," ","50.9673713812277","5.08867371903707","VMM","NA","NA","c(200569.999880955"
 "FALSE","FALSE","Halen, via landweg langs eindpunt (422900) tot op einde langs LO Demer","Demer"," ","NA","YES","I_3545_7","NA"," ","VMM_Mtp","Lotisch"," ","Limburg","Halen","3545","1","7151"," ","50.964023381496","5.09659416624928","VMM","NA","NA","c(201129.999880673"
 "FALSE","FALSE","Linkhout, Schansstr, afw brug","Demer"," ","NA","YES","I_3560_3","NA"," ","VMM_Mtp","Lotisch"," ","Limburg","Lummen","3560","1","7151"," ","50.9632477352718","5.1447403301582","VMM","NA","NA","c(204512.999879523"
-"FALSE","FALSE","Kuringen, Zolderse Kiezel, opw 398000","Demer"," ","NA","YES","I_3511_2","NA"," ","VMM_Mtp","Lotisch"," ","Limburg","Hasselt","3511","1","7151"," ","50.9603218075774","5.26883223000721","VMM","NA","NA","c(213233.999876525"
-"FALSE","FALSE","Kuringen, Rode-Rokstr, opw 398500","Demer"," ","NA","YES","I_3511_3","NA"," ","VMM_Mtp","Lotisch"," ","Limburg","Hasselt","3511","1","7151"," ","50.9537513579611","5.30095761956552","VMM","NA","NA","c(215499.99987558"
+"ONHOLD","ONHOLD","Kuringen, Zolderse Kiezel, opw 398000","Demer","zwexnwe1 ","NA","YES","I_3511_2","NA"," ","VMM_Mtp","Lotisch"," ","Limburg","Hasselt","3511","1","7151"," ","50.9603218","5.2688322","VMM","NA","NA","c(213233.999876525"
+"ONHOLD","ONHOLD","Kuringen, Rode-Rokstr, opw 398500","Demer","zwexnwe1","NA","YES","I_3511_3","NA"," ","VMM_Mtp","Lotisch"," ","Limburg","Hasselt","3511","1","7151"," ","50.9537514","5.3009576","VMM","NA","NA","c(215499.99987558"
 "FALSE","FALSE","Diepenbeek, Ginderoverstr, opw brug","Demer"," ","NA","YES","I_3590_2","NA"," ","VMM_Mtp","Lotisch"," ","Limburg","Diepenbeek","3590","1","7151"," ","50.9238133486224","5.39591865832034","VMM","NA","NA","c(222217.999872475"
 "FALSE","FALSE","Diepenbeek, Peperstr, doodlopende straat, via fietsweg","Demer"," ","NA","YES","I_3590_3","NA"," ","VMM_Mtp","Lotisch"," ","Limburg","Diepenbeek","3590","1","7151"," ","50.9181892380407","5.40876626094707","VMM","NA","NA","c(223129.999872008"
 "FALSE","FALSE","Diepenbeek, Bentstr, opw 400000 na oeververdediging","Demer"," ","NA","YES","I_3740_3","NA"," ","VMM_Mtp","Lotisch"," ","Limburg","Diepenbeek","3740","1","7151"," ","50.9055104836366","5.45372870709876","VMM","NA","NA","c(226311.999870562"
@@ -983,7 +983,6 @@
 "FALSE","FALSE"," "," "," ","NA","YES","I_3680_7","NA"," "," ","Lotisch"," ","Limburg","Maaseik","3680","2","0"," ","51.0870792759989","5.69955387553264","Limburg","NA","NA","c(243238.298551263"
 "FALSE","FALSE"," "," "," ","NA","YES","I_3510_1","NA"," "," ","Lotisch"," ","Limburg","Hasselt","3510","1","0"," ","50.9619939617076","5.24792734504459","VMM","NA","NA","c(211763.215709122"
 "FALSE","FALSE"," "," "," ","NA","YES","I_3560_9","NA"," "," ","Lotisch"," ","Limburg","Lummen","3560","1","0"," ","50.9674345937983","5.16207532591304","VMM","NA","NA","c(205725.755928011"
-"FALSE","FALSE"," "," "," ","NA","YES","I_3511_4","NA"," "," ","Lotisch"," ","Limburg","Hasselt","3511","2","0"," ","50.9652474884958","5.29188524786761","Limburg","NA","NA","c(214846.664176119"
 "FALSE","FALSE"," "," "," ","NA","YES","I_3520_4","NA"," "," ","Lotisch"," ","Limburg","Zonhoven","3520","2","0"," ","50.9869594589211","5.35089292967738","Limburg","NA","NA","c(218959.538056975"
 "FALSE","FALSE"," "," "," ","NA","YES","I_3580_1","NA"," "," ","Lotisch"," ","Limburg","Beringen","3580","2","0"," ","51.0419471070289","5.22872525235291","Limburg","NA","NA","c(210311.206558676"
 "FALSE","FALSE"," "," "," ","NA","YES","I_3560_10","NA"," "," ","Lotisch"," ","Limburg","Lummen","3560","2","0"," ","51.0218975522711","5.20355435730779","Limburg","NA","NA","c(208571.100252231"
@@ -1528,6 +1527,9 @@
 "ONHOLD","ONHOLD","NA","Grote Nete","mwnhmtq1","NA","YES","I_3940_1","NA","NA","NA","NA","NA","Limburg","Hechtel-Eksel","3940","NA","NA","NA","51.1341464","5.3779604",NA,"NA","NA","NA"
 "ONHOLD","ONHOLD","Kanaal van Beverlo","NA","mwnhmtq1","NA","NO","V_2490_3","NA","NA","NA","NA","NA","Antwerpen","Balen","2490","NA","NA","NA","51.1533249","5.2511977",NA,"NA","Toelating vragen aan eigenaar","NA"
 "ONHOLD","ONHOLD","Vinderhoute,Bulken,Langendam","Merebeek","mzu1ode0 ","NA","YES","I_9031_2","NA"," ","VMM_Mtp","Lotisch"," ","Oost-Vlaanderen","Gent","9031","1","402"," ","51.0822354","3.6543178","VMM","NA","NA","c(99937.9999170762"
-"ONHOLD","ONHOLD",NA,"Hof ter Zielbeek","zwuxmwy1",NA,"NO","V_2870_7",NA,NA,NA,NA,NA,"Antwerpen","Puurs-Sint-Amands","2870",NA,NA,NA,"51.0753132","4.3381038",NA,NA,NA,NA
-"ONHOLD","ONHOLD",NA,"Kanaal","mtbiodey",NA,"YES","I_3631_2",NA,NA,NA,NA,NA,"Limburg","Maasmechelen","3631",NA,NA,NA,"50.9342336","5.7123655",NA,NA,NA,NA
-"ONHOLD","ONHOLD",NA,"Kikbeek","mtbiodey",NA,"YES","I_3630_8",NA,NA,NA,NA,NA,"Limburg","Maasmechelen","3630",NA,NA,NA,"50.9522191","5.7023816",NA,NA,NA,NA
+"ONHOLD","ONHOLD","NA","Hof ter Zielbeek","zwuxmwy1","NA","NO","V_2870_7","NA","NA","NA","NA","NA","Antwerpen","Puurs-Sint-Amands","2870","NA","NA","NA","51.0753132","4.3381038",NA,"NA","NA","NA"
+"ONHOLD","ONHOLD","NA","Kanaal","mtbiodey","NA","YES","I_3631_2","NA","NA","NA","NA","NA","Limburg","Maasmechelen","3631","NA","NA","NA","50.9342336","5.7123655",NA,"NA","NA","NA"
+"ONHOLD","ONHOLD","NA","Kikbeek","mtbiodey","NA","YES","I_3630_8","NA","NA","NA","NA","NA","Limburg","Maasmechelen","3630","NA","NA","NA","50.9522191","5.7023816",NA,"NA","NA","NA"
+"ONHOLD","ONHOLD"," "," ","zwexnwe1 ","NA","YES","I_3511_4","NA"," "," ","Lotisch"," ","Limburg","Hasselt","3511","2","0"," ","50.9652475","5.2918906","Limburg","NA","NA","c(214846.664176119"
+"ONHOLD","ONHOLD",NA,"Molse Nete","odq4mdmz",NA,"NO","V_2490_4",NA,NA,NA,NA,NA,"Antwerpen","Balen","2490",NA,NA,NA,"51.1875052","5.1570086",NA,NA,NA,NA
+"ONHOLD","ONHOLD",NA,"Vallei van de Mangelbeek","odq4mdmz",NA,"NO","V_3550_9",NA,NA,NA,NA,NA,"Limburg","Heusden-Zolder","3550",NA,NA,NA,"51.023217","5.2880405",NA,NA,NA,NA
