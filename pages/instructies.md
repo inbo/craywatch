@@ -6,6 +6,11 @@ background:
 permalink: /instructies/
 toc: true
 ---
+### Instructievideo
+
+<div class="ratio ratio-16x9 mb-3">
+<iframe src="https://www.youtube.com/embed/OeNY6xAWEdc?si=YbpUoej66ttbKtCp" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 ### Het materiaal
 
