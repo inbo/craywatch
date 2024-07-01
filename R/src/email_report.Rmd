@@ -28,7 +28,7 @@ knitr::include_graphics(image_links$treemap)
 ```
 </div>
 
-Op de volgende kaart zie je een gedetailleerd overzicht vanuit welke gemeenten jullie graag willen Craywatchen, maar dus ook waar jullie nog ondervertegenwoordigd zijn.
+Op deze kaart zie je een gedetailleerd overzicht vanuit welke gemeenten jullie graag willen Craywatchen, maar dus ook waar jullie nog ondervertegenwoordigd zijn.
 
 ```{r IncludeMap, echo = FALSE}
 knitr::include_graphics(image_links$map)
