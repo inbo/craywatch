@@ -9,6 +9,14 @@ library(jsonlite)
 library(imguR)
 library(stringr)
 library(readr)
+library(tm)
+library(wordcloud)
+library(RColorBrewer)
+library(knitr)
+library(RCurl)
+library(XML)
+
+
 
 client_id <- Sys.getenv("IMGUR_CLIENT_ID")
 client_secret <- Sys.getenv("IMGUR_CLIENT_SECRET")
@@ -119,7 +127,24 @@ upload_image_to_imgur <- function(image_path, client_id) {
   }
 }
 
-# Example usage
-image_path <- "./images/map.png"
-imgur_link <- upload_image_to_imgur(image_path, client_id)
-map_link <-imgur_link 
+# upload each image in ./images/ to imgur & extract link for rmarkdown script 
+# List all image files in the ./images/ directory
+image_files <- list.files(path = "./images/", pattern = "\\.(png|jpg)$", full.names = TRUE)
+
+# Loop through each image file, upload to Imgur, and store the link in a variable
+for (image_path in image_files) {
+  # Extract the file name without extension
+  file_name <- tools::file_path_sans_ext(basename(image_path))
+  
+  # Upload the image to Imgur
+  imgur_link <- knitr::imgur_upload(image_path, key = client_id)
+  
+  # Create a variable name based on the file name with '_link' appended
+  var_name <- paste0(file_name, "_link")
+  
+  # Assign the Imgur link to the dynamically created variable name
+  assign(var_name, imgur_link[1])
+}
+
+# Print all dynamically created variables
+ls()
