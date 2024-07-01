@@ -39,7 +39,7 @@ Controleer zo snel mogelijk of je alles ontvangen hebt. Indien niet, kan je ons 
  ![image](/assets/images/val_touw.jpg){:.col-md-8 .w-50 .mx-auto}
 
 3. Bevestig aan het andere uiteinde van het touw één van de bijgevoegde **labels**. Deze verwijzen naar het Craywatch-project en bevatten contactinformatie van het INBO. 
-4. **Leg de eerste val in het water** op de afgesproken locatie. Zorg ervoor dat deze zeker op de **bodem** ligt. Bevestig de val daarna aan de oever door het uiteinde van het touw aan een stevig object te knopen, bijvoorbeeld aan een tak of een in de grond gestoken stok of piket. Het is belangrijk dat de val niet boven het water uitsteekt en dat het touw niet te opvallend wordt geplaatst, zo beperk je de kans op vandalisme of diefstal.
+4. **Leg de eerste val in het water** op de afgesproken locatie. Zorg ervoor dat deze zeker op de **bodem** ligt. Bevestig de val daarna aan de oever door het uiteinde van het touw aan een stevig object te knopen, bijvoorbeeld aan een tak of een in de grond gestoken stok of piket (als je gebruik maakt van een piket, zorg dan dat deze volledig tegen de grond wordt geduwd en niet uitsteekt). Het is belangrijk dat de val volledig onder water ligt en dat het touw niet te opvallend wordt geplaatst, zo beperk je de kans op vandalisme of diefstal.
  ![image](/assets/images/val_water.jpg){:.col-md-8 .w-50 .mx-auto}
 
 5. **Plaats de tweede en derde val** op dezelfde manier als de eerste, maar **telkens 10 meter verder** langs de oever in dezelfde waterloop of plas. Zo heb je uiteindelijk drie vallen in het water, gescheiden door twee keer een afstand van 10 meter, gemeten langs de oever.
