@@ -17,11 +17,12 @@ email <- compose_email(
 smtp_send(
   email,
   from = "craywatch@inbo.be",
-  to = "",
+  to = "craywatch@inbo.be",
   subject = "Craywatch Nieuws",
   credentials = creds_key(
     id = "gmail"
   ),
   verbose = TRUE,
-  timeout = 60  # Time-out in seconden
-)
+  timeout = 600,  # Time-out in seconden
+  bcc = bcc_emails
+  )
