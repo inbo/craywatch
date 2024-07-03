@@ -3,6 +3,8 @@ library(xml2)
 library(dplyr)
 library(lwgeom)
 
+
+#####LAAD DE KML DATA EN MAAK KLAAR VOOR UPDATE ###############################
 # Bestandspad naar de KML-file
 kml_file <- "./data/input/localities.kml"
 
@@ -40,48 +42,59 @@ kml_data <- kml_data %>% select(-Description)
 # Voeg de nieuwe attributen toe aan kml_data
 kml_data <- cbind(kml_data, df)
 
-
-###Transform before doing intersects with other layers
+#Transform before doing intersects with other layers
 kml_data <- st_transform(kml_data, crs = 31370)
 
-###Voer de bewerkingen uit voor de nieuw gecreëerde punten
-#Lees de locaties
-provincies_path = "./data/input/shapefiles/provincies.shp"
-postkantons_path = "./data/input/shapefiles/postkantons.shp"
-gemeenten_path = "./data/input/shapefiles/gemeenten.shp"
-waterlopen_path = "./data/input/shapefiles/VhaCattraj.shp"
-polder_path = "./data/input/shapefiles/polder.shp"
-watering_path = "./data/input/shapefiles/watering.shp"
-anbterrein_path = "./data/input/shapefiles/am_patdat.shp"
-
-#Laad de files op
-# Shapefiles inlezen
-provincies_shape <- st_read(provincies_path)
-postkantons_shape <- st_read(postkantons_path)
-gemeenten_shape <- st_read(gemeenten_path)
-waterlopen_shape <- st_read(waterlopen_path) %>%
-  st_transform(crs = st_crs(kml_data))
-waterlopen_buffer <- waterlopen_shape %>%
-  st_buffer(dist = 5)
-watering_shape <- st_read(watering_path) %>%
-                  st_transform(crs = 31370)
-polder_shape <- st_read(polder_path) %>%
-                st_transform(crs = 31370) 
-anbterrein_shape <- st_read(anbterrein_path) %>%
-  st_transform(crs = 31370) 
-
-
-###UPDATE DE TOEGEKENDE WAARDEN VOOR isRESERVED
 # Hernoem de kolom 'Name' naar 'isReserved'
 names(kml_data)[names(kml_data) == "Name"] <- "isReserved"
 
 # Wijs dezelfde waarden toe =aan de nieuwe kolom 'isReserved'
 kml_data$isReserved <- kml_data$updateRes
 
-#########UPDATE VELDEN provincies, gemeenten en postkantons ####################
 # Voeg een tijdelijke index kolom toe
 kml_data <- kml_data %>%
   mutate(temp_id = row_number())
+
+
+##### LOAD ALL SHAPES ##########################################################
+# Lijst van alle shapefiles in de directory
+shapefile_dir <- "./data/input/shapefiles/"
+shapefiles <- list.files(shapefile_dir, pattern = "\\.shp$", full.names = TRUE)
+
+# Verkrijg de CRS van kml_data
+kml_crs <- st_crs(kml_data)
+
+# Dynamisch toewijzen van paden aan variabelen en shapefiles laden en  
+# transformeren naar de CRS van kml_data
+for (shapefile in shapefiles) {
+  shapefile_name <- tools::file_path_sans_ext(basename(shapefile))
+  variable_name <- paste0(shapefile_name, "_path")
+  assign(variable_name, shapefile)
+  
+  # Shapefile laden
+  shape <- st_read(shapefile)
+  
+  # Valideer en repareer ongeldige geometrieën
+  shape <- st_make_valid(shape)
+  
+  # Transformeer naar de CRS van kml_data
+  shape <- st_transform(shape, crs = kml_crs)
+  
+  # Toewijzen aan variabele met "_shape" suffix
+  assign(paste0(shapefile_name, "_shape"), shape)
+}
+
+# Controleer de toegewezen shapes
+print(ls(pattern = "_shape"))
+
+# Leg buffer van 5m rond waterlopen om punten te capteren bij intersect
+waterlopen_buffer <- st_buffer(vhaCattraj_shape, dist = 5) %>%
+                      st_transform(st_crs(kml_data))
+OSM_waterways_buffer <- st_buffer(OSM_waterways_shape, dist = 5)%>%
+                  st_transform(st_crs(kml_data))
+rm(OSM_waterways_shape)
+
+####BEWERKINGEN MET SHAPES - INTERSECT MET KML_DATA ############################
 # Intersect met provincies_shape
 provincies_intersect <- st_intersection(kml_data, provincies_shape)
 # Intersect met postkantons_shape
@@ -90,14 +103,17 @@ postkantons_intersect <- st_intersection(kml_data, postkantons_shape)
 gemeenten_intersect <- st_intersection(kml_data, gemeenten_shape)
 # Intersect met waterlopen_buffer
 waterlopen_intersect <- st_intersection(kml_data, waterlopen_buffer)
-# Intersect met watervlakken_shape
 watering_intersect <- st_intersection(kml_data, watering_shape)
 polder_intersect <- st_intersection(kml_data, polder_shape)
-anbterrein_intersect <- st_intersection (kml_data, anbterrein_shape)
+anbterrein_intersect <- st_intersection (kml_data, am_patdat_shape)
+OSM_waterways_intersect <- st_intersection(kml_data, OSM_waterways_buffer)
+OSM_waterbodies_intersect <- st_intersection(kml_data, OSM_waterbodies_shape)
+
 
 # Bewerk zodat je voor elke temp_id slechts één punt krijgt, het intersect & buffer kan ervoor zorgen dat punten in meerdere polygonen liggen
 # Controleer of alle waarden in waterlopen_intersect$temp_id uniek zijn
 is_unique <- length(unique(waterlopen_intersect$temp_id)) == nrow(waterlopen_intersect)
+
 # Print het resultaat
 if (is_unique) {
   print("Alle waarden in waterlopen_intersect$temp_id zijn uniek.")
@@ -129,6 +145,41 @@ if (length(duplicated_ids) > 0) {
   waterlopen_intersect <- filtered_waterlopen_intersect
 }
 
+#Herhaal voor OSM_waterways_intersect, maar bij duplicaten, verwijder dubbele waarden
+# Controleer of alle waarden in OSM_waterways_intersect$temp_id uniek zijn
+is_unique <- length(unique(OSM_waterways_intersect$temp_id)) == nrow(OSM_waterways_intersect)
+
+# Print het resultaat
+if (is_unique) {
+  print("Alle waarden in OSM_waterways_intersect$temp_id zijn uniek.")
+} else {
+  print("Niet alle waarden in OSM_waterways_intersect$temp_id zijn uniek.")
+}
+
+# Optioneel: Als je de niet-unieke waarden wilt zien
+duplicated_ids <- OSM_waterways_intersect$temp_id[duplicated(OSM_waterways_intersect$temp_id)]
+if (length(duplicated_ids) > 0) {
+  print("Niet-unieke temp_id waarden:")
+  print(duplicated_ids)
+  
+  # Verwijder de duplicaten
+  filtered_OSM_waterways_intersect <- OSM_waterways_intersect %>%
+    group_by(temp_id) %>%
+    filter(row_number() == 1) %>%
+    ungroup()
+  
+  # Controleer het resultaat
+  print(filtered_OSM_waterways_intersect)
+  
+  # Als je wilt zien hoeveel rijen er zijn verwijderd
+  print(paste("Aantal rijen voor filtering:", nrow(OSM_waterways_intersect)))
+  print(paste("Aantal rijen na filtering:", nrow(filtered_OSM_waterways_intersect)))
+  
+  # Werk de originele dataset bij
+  OSM_waterways_intersect <- filtered_OSM_waterways_intersect
+}
+
+#########Populate the kml_data dataframe#######################################
 # Voeg velden toe indien ze niet bestaan
 if (!"provincie" %in% colnames(kml_data)) {
   kml_data$provincie <- NA
@@ -152,6 +203,7 @@ if (!"Bhremail" %in% colnames(kml_data)) {
   kml_data$Bhremail <- NA
 }
 
+
 # Maak dictionaries van de intersecties
 prov_dict <- setNames(provincies_intersect$PROVNAAM, provincies_intersect$temp_id)
 post_dict <- setNames(postkantons_intersect$nouveau_PO, postkantons_intersect$temp_id)
@@ -168,6 +220,10 @@ wat_naam_dict <- setNames(watering_intersect$NAAMWAT, watering_intersect$temp_id
 anb_email_dict <- setNames(anbterrein_intersect$contact_em, anbterrein_intersect$temp_id)
 anb_naam_dict <- setNames(anbterrein_intersect$beheerder, anbterrein_intersect$temp_id)
 
+OSM_wb_dict <- setNames(OSM_waterbodies_intersect$name, OSM_waterbodies_intersect$temp_id)
+OSM_ww_dict <- setNames(OSM_waterways_intersect$name, OSM_waterways_intersect$temp_id)
+
+
 # Update de velden in kml_data gebaseerd op de intersecties alleen als de velden leeg zijn
 kml_data <- kml_data %>%
   rowwise() %>%
@@ -176,7 +232,7 @@ kml_data <- kml_data %>%
     provincie = if_else(is.na(provincie) | provincie == "", prov_dict[as.character(temp_id)], provincie),
     postcode = if_else(is.na(postcode) | postcode == "", post_dict[as.character(temp_id)], postcode),
     CATC = if_else(is.na(CATC) | CATC == "", wat_catc_dict[as.character(temp_id)], CATC), 
-    NAAM = if_else(is.na(NAAM) | NAAM == "", wat_naam_dict[as.character(temp_id)], NAAM),
+    NAAM = if_else(is.na(NAAM) | NAAM == "" | NAAM == " " | NAAM == "NA", wat_naam_dict[as.character(temp_id)], NAAM),
     VHAG = if_else(is.na(VHAG) | VHAG == 0 | VHAG == "", wat_vhag_dict[as.character(temp_id)], VHAG),
     
     Beheerder = if_else(CATC %in% c(2, 3) & (is.na(Beheerder) | Beheerder == ""), pol_naam_dict[as.character(temp_id)], Beheerder),
@@ -186,6 +242,18 @@ kml_data <- kml_data %>%
     Beheerder = if_else(is.na(Beheerder) | Beheerder == "", anb_naam_dict[as.character(temp_id)], Beheerder),
     Bhremail = if_else(is.na(Bhremail) | Bhremail == "", anb_email_dict[as.character(temp_id)], Bhremail),
     ) %>%
+  ungroup()
+
+kml_data <- kml_data %>%
+  rowwise() %>%
+  mutate(
+    NAAM = if_else(is.na(NAAM) | NAAM == "" | NAAM == " " | NAAM == "NA", OSM_wb_dict[as.character(temp_id)], NAAM),) %>%
+  ungroup() 
+
+kml_data <- kml_data %>%
+  rowwise() %>%
+  mutate(
+    NAAM = if_else(is.na(NAAM) | NAAM == "" | NAAM == " " | NAAM == "NA", OSM_ww_dict[as.character(temp_id)], NAAM),) %>%
   ungroup() %>%
   select(-temp_id) 
 
@@ -205,7 +273,8 @@ kml_data <- kml_data %>%
 
 print("VHAG, CATC, Province, postcode, and gemeenten successfully added to localities")
 
-####UPDATE LOC_ID######
+ 
+####UPDATE LOC_ID###############################################################
 
 library(data.table)
 
@@ -282,7 +351,7 @@ if (nrow(duplicate_locIDs) > 0) {
   print("No duplicate locIDs found after resolving.")
 }
 
-## Save als een csv bestand
+######################### Save als een csv bestand############################## 
 # Definieer het pad naar het CSV-bestand
 csv_path <- "../assets/localities.csv"
 
