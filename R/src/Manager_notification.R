@@ -78,14 +78,17 @@ for (beheerder in beheerders) {
     beheerder_table <- beheerder_table %>% arrange(startDate)
     assign("table_NA", beheerder_table)
     
-    # Save the table as a CSV file
-    write.csv(beheerder_table, file.path(output_dir, "table_NA.csv"), row.names = FALSE)
-    
     # Save the table as a shapefile
     st_write(beheerder_table, file.path(output_dir, "table_NA.shp"), delete_layer = TRUE)
     
+    # Drop geometry column
+    beheerder_table_no_geom <- st_drop_geometry(beheerder_table)
+    
+    # Save the table as a CSV file
+    write.csv(beheerder_table_no_geom, file.path(output_dir, "table_NA.csv"), row.names = FALSE)
+    
     # Save the table as an HTML file with a line under the header row
-    html_table <- kable(beheerder_table, format = "html", table.attr = "style='width:100%;'") %>%
+    html_table <- kable(beheerder_table_no_geom, format = "html", table.attr = "style='width:100%;'") %>%
       kable_styling(full_width = F, position = "left") %>%
       row_spec(0, bold = TRUE, extra_css = "border-bottom: 2px solid;")
     writeLines(html_table, con = file.path(output_dir, "table_NA.html"))
@@ -103,14 +106,17 @@ for (beheerder in beheerders) {
     # Assign the table to a variable with the name of the 'Beheerder'
     assign(paste0("table_", valid_name), beheerder_table)
     
-    # Save the table as a CSV file
-    write.csv(beheerder_table, file.path(output_dir, paste0("table_", valid_name, ".csv")), row.names = FALSE)
-    
     # Save the table as a shapefile
     st_write(beheerder_table, file.path(output_dir, paste0("table_", valid_name, ".shp")), delete_layer = TRUE)
     
+    # Drop geometry column
+    beheerder_table_no_geom <- st_drop_geometry(beheerder_table)
+    
+    # Save the table as a CSV file
+    write.csv(beheerder_table_no_geom, file.path(output_dir, paste0("table_", valid_name, ".csv")), row.names = FALSE)
+    
     # Save the table as an HTML file with a line under the header row
-    html_table <- kable(beheerder_table, format = "html", table.attr = "style='width:100%;'") %>%
+    html_table <- kable(beheerder_table_no_geom, format = "html", table.attr = "style='width:100%;'") %>%
       kable_styling(full_width = F, position = "left") %>%
       row_spec(0, bold = TRUE, extra_css = "border-bottom: 2px solid;")
     writeLines(html_table, con = file.path(output_dir, paste0("table_", valid_name, ".html")))
