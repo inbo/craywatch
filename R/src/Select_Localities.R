@@ -267,8 +267,8 @@ kml_data <- kml_data %>%
     Bhremail = if_else(Beheerder == "Antwerpen", "hans.vanloy@provincieantwerpen.be", Bhremail),
     Bhremail = if_else(Beheerder == "Vlaams-Brabant", "ingrid.beuls@vlaamsbrabant.be", Bhremail),
     Bhremail = if_else(Beheerder == "Oost-Vlaanderen", "katleen.brangers@oost-vlaanderen.be", Bhremail),
-    Beheerder = if_else((is.na(Beheerder) | Beheerder == "") & CATC == 1, "VMM", Beheerder),
-    Bhremail = if_else(Beheerder == "VMM" & SystemType != "Lentisch", "d.slootmaekers@vmm.be", Bhremail)
+    Beheerder = if_else((is.na(Beheerder) | Beheerder == "") & CATC == 1 & SystemType != "Lentisch",    "VMM", Beheerder),
+    Bhremail = if_else(Beheerder == "VMM", "d.slootmaekers@vmm.be", Bhremail)
   )
 
 print("VHAG, CATC, Province, postcode, and gemeenten successfully added to localities")
