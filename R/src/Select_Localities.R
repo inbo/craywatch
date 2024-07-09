@@ -223,6 +223,9 @@ anb_naam_dict <- setNames(anbterrein_intersect$beheerder, anbterrein_intersect$t
 OSM_wb_dict <- setNames(OSM_waterbodies_intersect$name, OSM_waterbodies_intersect$temp_id)
 OSM_ww_dict <- setNames(OSM_waterways_intersect$name, OSM_waterways_intersect$temp_id)
 
+# Replace 'NA' string with actual NA values in the entire data frame except geometry columns
+kml_data <- kml_data %>%
+  mutate(across(where(is.character), ~na_if(.x, "NA")))
 
 # Update de velden in kml_data gebaseerd op de intersecties alleen als de velden leeg zijn
 kml_data <- kml_data %>%
@@ -232,7 +235,7 @@ kml_data <- kml_data %>%
     provincie = if_else(is.na(provincie) | provincie == "", prov_dict[as.character(temp_id)], provincie),
     postcode = if_else(is.na(postcode) | postcode == "", post_dict[as.character(temp_id)], postcode),
     CATC = if_else(is.na(CATC) | CATC == "", wat_catc_dict[as.character(temp_id)], CATC), 
-    NAAM = if_else(is.na(NAAM) | NAAM == "" | NAAM == " " | NAAM == "NA", wat_naam_dict[as.character(temp_id)], NAAM),
+    NAAM = if_else(is.na(NAAM) | NAAM == "" | NAAM == " ", wat_naam_dict[as.character(temp_id)], NAAM),
     VHAG = if_else(is.na(VHAG) | VHAG == 0 | VHAG == "", wat_vhag_dict[as.character(temp_id)], VHAG),
     
     Beheerder = if_else(CATC %in% c(2, 3) & (is.na(Beheerder) | Beheerder == ""), pol_naam_dict[as.character(temp_id)], Beheerder),
@@ -257,10 +260,7 @@ kml_data <- kml_data %>%
   ungroup() %>%
   select(-temp_id) 
 
-# Convert "NA" strings to actual NA values in the 'Beheerder' column
-kml_data$Beheerder[kml_data$Beheerder == "NA"] <- NA
-kml_data$Beheerder[kml_data$Bhremail == "NA"] <- NA
-
+# Add manager contacts
 kml_data <- kml_data %>%
   mutate(
     Beheerder = if_else((is.na(Beheerder) | Beheerder == "") & CATC == 2 & SystemType != "Lentisch", provincie, Beheerder),
