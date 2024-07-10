@@ -4,7 +4,7 @@ library(lubridate)
 library(sf)
 library(knitr)
 library(kableExtra)
-
+library(zip)
 
 csv_path <- "../assets/localities.csv"
 
@@ -14,8 +14,10 @@ localities_reserved <- localities %>%
   filter(isReserved == TRUE)
 
 # Select Managers & data
-unique_entries <- localities_reserved %>%
+beheerder_list <- localities_reserved %>%
   distinct(Beheerder, Bhremail, Bhrtel)
+beheerder_list <- beheerder_list %>%
+  mutate(valid_name = make.names(Beheerder, unique = TRUE) %>% gsub("\\.", "_", .))
 
 # Ensure the localities data frame has geometry columns for shapefile creation
 # Replace 'Longitude' and 'Latitude' with your actual column names
@@ -24,6 +26,7 @@ localities_reserved <- st_as_sf(localities_reserved, coords = c("Longitude", "La
 # Get unique list of 'Beheerder', including NA
 beheerders <- unique(localities_reserved$Beheerder)
 
+##### ADJUST DATES ############################################################
 # Replace NA in startDate with "TBD"
 localities_reserved$startDate <- ifelse(is.na(localities_reserved$startDate), "TBD", localities_reserved$startDate)
 
@@ -49,10 +52,8 @@ reformat_dates <- function(date) {
 # Apply the reformat_dates function
 localities_reserved$startDate <- sapply(localities_reserved$startDate, reformat_dates)
 
-
 # Get system date
-system_date <- Sys.Date() %>%
-  format("%d-%m-%Y")
+system_date <- format(Sys.Date(), "%d-%m-%Y")
 
 # Filter entries that are later than the system date or have startDate "TBD"
 localities_filtered <- localities_reserved %>%
@@ -71,7 +72,16 @@ if (!dir.exists(output_dir)) {
 columns_to_keep <- c("NAAM", "OMSCHR", "CATC", "startDate", "provincie", "gemeente", "postcode", "VHAG", "Latitude", "Longitude")
 
 # Create separate tables for each 'Beheerder'
-for (beheerder in beheerders) {
+for (row in 1:nrow(beheerder_list)) {
+  beheerder <- beheerder_list$Beheerder[row]
+  valid_name <- beheerder_list$valid_name[row]
+  
+  # Create a directory for the current 'Beheerder'
+  beheerder_dir <- file.path(output_dir, paste0("table_", valid_name))
+  if (!dir.exists(beheerder_dir)) {
+    dir.create(beheerder_dir)
+  }
+  
   # Handle NA values separately
   if (is.na(beheerder)) {
     beheerder_table <- localities_filtered %>% filter(is.na(Beheerder)) %>% select(all_of(columns_to_keep))
@@ -79,19 +89,23 @@ for (beheerder in beheerders) {
     assign("table_NA", beheerder_table)
     
     # Save the table as a shapefile
-    st_write(beheerder_table, file.path(output_dir, "table_NA.shp"), delete_layer = TRUE)
+    st_write(beheerder_table, file.path(beheerder_dir, "table_NA.shp"), delete_layer = TRUE)
     
     # Drop geometry column
     beheerder_table_no_geom <- st_drop_geometry(beheerder_table)
     
     # Save the table as a CSV file
-    write.csv(beheerder_table_no_geom, file.path(output_dir, "table_NA.csv"), row.names = FALSE)
+    write.csv(beheerder_table_no_geom, file.path(beheerder_dir, "table_NA.csv"), row.names = FALSE)
     
     # Save the table as an HTML file with a line under the header row
     html_table <- kable(beheerder_table_no_geom, format = "html", table.attr = "style='width:100%;'") %>%
       kable_styling(full_width = F, position = "left") %>%
       row_spec(0, bold = TRUE, extra_css = "border-bottom: 2px solid;")
-    writeLines(html_table, con = file.path(output_dir, "table_NA.html"))
+    writeLines(html_table, con = file.path(output_dir, paste0("table_NA.html")))
+    
+    # Zip the directory without the HTML file
+    zip_file <- file.path(output_dir, paste0("table_NA.zip"))
+    zip::zipr(zip_file, files = list.files(beheerder_dir, full.names = TRUE, pattern = "\\.shp$|\\.csv$"))
   } else {
     # Filter the localities for the current 'Beheerder'
     beheerder_table <- localities_filtered %>% filter(Beheerder == beheerder) %>% select(all_of(columns_to_keep))
@@ -99,26 +113,28 @@ for (beheerder in beheerders) {
     # Sort the table by startDate in ascending order
     beheerder_table <- beheerder_table %>% arrange(startDate)
     
-    # Create a valid R variable name from 'Beheerder'
-    valid_name <- make.names(beheerder, unique = TRUE)
-    valid_name <- gsub("\\.", "_", valid_name)  # Replace periods with underscores
-    
     # Assign the table to a variable with the name of the 'Beheerder'
     assign(paste0("table_", valid_name), beheerder_table)
     
     # Save the table as a shapefile
-    st_write(beheerder_table, file.path(output_dir, paste0("table_", valid_name, ".shp")), delete_layer = TRUE)
+    st_write(beheerder_table, file.path(beheerder_dir, paste0("table_", valid_name, ".shp")), delete_layer = TRUE)
     
     # Drop geometry column
     beheerder_table_no_geom <- st_drop_geometry(beheerder_table)
     
     # Save the table as a CSV file
-    write.csv(beheerder_table_no_geom, file.path(output_dir, paste0("table_", valid_name, ".csv")), row.names = FALSE)
+    write.csv(beheerder_table_no_geom, file.path(beheerder_dir, paste0("table_", valid_name, ".csv")), row.names = FALSE)
     
     # Save the table as an HTML file with a line under the header row
     html_table <- kable(beheerder_table_no_geom, format = "html", table.attr = "style='width:100%;'") %>%
       kable_styling(full_width = F, position = "left") %>%
       row_spec(0, bold = TRUE, extra_css = "border-bottom: 2px solid;")
     writeLines(html_table, con = file.path(output_dir, paste0("table_", valid_name, ".html")))
+    
+    # Zip the directory without the HTML file
+    zip_file <- file.path(output_dir, paste0("table_", valid_name, ".zip"))
+    zip::zipr(zip_file, files = list.files(beheerder_dir, full.names = TRUE, pattern = "\\.shp$|\\.csv$"))
   }
 }
+
+unlink(list.dirs(output_dir, recursive = FALSE), recursive = TRUE)
