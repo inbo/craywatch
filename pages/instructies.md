@@ -63,6 +63,10 @@ Ga op de website naar [rapporteer waarnemingen](/waarnemingen/) om je waarneming
 
 **De resultaten** van het onderzoek zullen nadien op de website gedeeld worden. Je krijgt een verwittiging via mail wanneer deze online staan.
 
+### Vallen terugbezorgen
+
+We zouden het geweldig vinden mocht je na afloop je vallen terug kunnen brengen naar een [Natuurpunt bezoekerscentrum](https://www.natuurpunt.be/bezoekerscentra?text_input=&f%5B0%5D=natcen_type%3A972) in jouw buurt. Op die manier kunnen wij de vallen hergebruiken en nog meer plaatsen in Vlaanderen controleren op de aanwezigheid van rivierkreeften.
+
 ### Tips en extra informatie
 
 - Sla de exacte locaties van de vallen op, bijvoorbeeld via google maps, zodat je ze zeker terugvindt.
