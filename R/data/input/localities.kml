@@ -38,42 +38,6 @@
         <styleUrl>#icon-1899-558B2F-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1899-673AB7-normal">
-      <IconStyle>
-        <color>ffb73a67</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-    </Style>
-    <Style id="icon-1899-673AB7-highlight">
-      <IconStyle>
-        <color>ffb73a67</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-    </Style>
-    <StyleMap id="icon-1899-673AB7">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1899-673AB7-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1899-673AB7-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
     <Style id="icon-1899-7CB342-normal">
       <IconStyle>
         <color>ff42b37c</color>
@@ -108,6 +72,42 @@
       <Pair>
         <key>highlight</key>
         <styleUrl>#icon-1899-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-A52714-normal">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-A52714-highlight">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-A52714">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-A52714-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-A52714-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="icon-1899-F9A825-normal">
@@ -125248,7 +125248,7 @@
     </Placemark>
     <Placemark>
       <name>Punt 1545</name>
-      <description><![CDATA[updateRes: TRUE<br>OMSCHR: <br>NAAM: <br>vrijwillID: nzzmzdm3<br>startDate: 12/07/24<br>SugbyINBO: NO<br>locID: <br>restricties: <br>Sampler: <br>dataset: <br>SystemType: <br>GEBIED: <br>provincie: <br>gemeente: <br>postcode: <br>CATC: <br>VHAG: <br>WVLC: <br>Latitude: 51.1470732<br>Longitude: 5.1343553<br>Beheerder: <br>Bhrtel: <br>Bhremail: ]]></description>
+      <description><![CDATA[updateRes: TRUE<br>OMSCHR: <br>NAAM: <br>vrijwillID: nzzmzdm3<br>startDate: <br>SugbyINBO: NO<br>locID: <br>restricties: <br>Sampler: <br>dataset: <br>SystemType: <br>GEBIED: <br>provincie: <br>gemeente: <br>postcode: <br>CATC: <br>VHAG: <br>WVLC: <br>Latitude: 51.1470732<br>Longitude: 5.1343553<br>Beheerder: <br>Bhrtel: <br>Bhremail: ]]></description>
       <styleUrl>#icon-1899-7CB342</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
@@ -125264,7 +125264,7 @@
           <value>nzzmzdm3</value>
         </Data>
         <Data name="startDate">
-          <value>12/07/24</value>
+          <value/>
         </Data>
         <Data name="SugbyINBO">
           <value>NO</value>
@@ -125328,9 +125328,9 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Punt 1546</name>
-      <description><![CDATA[updateRes: TRUE<br>OMSCHR: <br>NAAM: <br>vrijwillID: nzzmzdm3<br>startDate: 12/07/24<br>SugbyINBO: NO<br>locID: <br>restricties: <br>Sampler: <br>dataset: <br>SystemType: <br>GEBIED: <br>provincie: <br>gemeente: <br>postcode: <br>CATC: <br>VHAG: <br>WVLC: <br>Latitude: 51.1459677<br>Longitude: 5.1342373<br>Beheerder: <br>Bhrtel: <br>Bhremail: ]]></description>
-      <styleUrl>#icon-1899-673AB7</styleUrl>
+      <name>Punt 1547</name>
+      <description><![CDATA[updateRes: TRUE<br>OMSCHR: <br>NAAM: <br>vrijwillID: nzzmzdm3<br>startDate: <br>SugbyINBO: NO<br>locID: <br>restricties: <br>Sampler: <br>dataset: <br>SystemType: <br>GEBIED: <br>provincie: <br>gemeente: <br>postcode: <br>CATC: <br>VHAG: <br>WVLC: <br>Latitude: 51.145961<br>Longitude: 5.1341065<br>Beheerder: <br>Bhrtel: <br>Bhremail: ]]></description>
+      <styleUrl>#icon-1899-A52714</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
           <value>TRUE</value>
@@ -125345,7 +125345,7 @@
           <value>nzzmzdm3</value>
         </Data>
         <Data name="startDate">
-          <value>12/07/24</value>
+          <value/>
         </Data>
         <Data name="SugbyINBO">
           <value>NO</value>
@@ -125387,10 +125387,10 @@
           <value/>
         </Data>
         <Data name="Latitude">
-          <value>51.1459677</value>
+          <value>51.145961</value>
         </Data>
         <Data name="Longitude">
-          <value>5.1342373</value>
+          <value>5.1341065</value>
         </Data>
         <Data name="Beheerder">
           <value/>
@@ -125404,7 +125404,7 @@
       </ExtendedData>
       <Point>
         <coordinates>
-          5.1342373,51.1459677,0
+          5.1341065,51.145961,0
         </coordinates>
       </Point>
     </Placemark>
