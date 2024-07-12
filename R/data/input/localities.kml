@@ -57460,11 +57460,11 @@
     </Placemark>
     <Placemark>
       <name>FALSE</name>
-      <description><![CDATA[updateRes: FALSE<br>OMSCHR: Emelgem, Emelgems plein, petanqueclub 3<br>NAAM: Mandel<br>vrijwillID:  <br>startDate: NA<br>SugbyINBO: YES<br>locID: I_8870_2<br>restricties: NA<br>Sampler:  <br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED:  <br>provincie: West-Vlaanderen<br>gemeente: Izegem<br>postcode: 8870<br>CATC: 1<br>VHAG: 4203<br>WVLC:  <br>Latitude: 50.9208318289821<br>Longitude: 3.23220522592068<br>Beheerder: VMM<br>Bhrtel: NA<br>Bhremail: d.slootmaekers@vmm.be]]></description>
+      <description><![CDATA[updateRes: TRUE<br>OMSCHR: Emelgem, Emelgems plein, petanqueclub 3<br>NAAM: Mandel<br>vrijwillID: zgqwyjrm <br>startDate: 05/08/24<br>SugbyINBO: YES<br>locID: I_8870_2<br>restricties: NA<br>Sampler:  <br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED:  <br>provincie: West-Vlaanderen<br>gemeente: Izegem<br>postcode: 8870<br>CATC: 1<br>VHAG: 4203<br>WVLC:  <br>Latitude: 50.9208318<br>Longitude: 3.2322052<br>Beheerder: VMM<br>Bhrtel: NA<br>Bhremail: d.slootmaekers@vmm.be]]></description>
       <styleUrl>#icon-1899-558B2F</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
-          <value>FALSE</value>
+          <value>TRUE</value>
         </Data>
         <Data name="OMSCHR">
           <value>Emelgem, Emelgems plein, petanqueclub 3</value>
@@ -57473,10 +57473,10 @@
           <value>Mandel</value>
         </Data>
         <Data name="vrijwillID">
-          <value> </value>
+          <value>zgqwyjrm </value>
         </Data>
         <Data name="startDate">
-          <value>NA</value>
+          <value>05/08/24</value>
         </Data>
         <Data name="SugbyINBO">
           <value>YES</value>
@@ -57518,10 +57518,10 @@
           <value> </value>
         </Data>
         <Data name="Latitude">
-          <value>50.9208318289821</value>
+          <value>50.9208318</value>
         </Data>
         <Data name="Longitude">
-          <value>3.23220522592068</value>
+          <value>3.2322052</value>
         </Data>
         <Data name="Beheerder">
           <value>VMM</value>
@@ -57535,7 +57535,7 @@
       </ExtendedData>
       <Point>
         <coordinates>
-          3.23220522592068,50.9208318289821,0
+          3.2322052,50.9208318,0
         </coordinates>
       </Point>
     </Placemark>
@@ -89779,11 +89779,11 @@
     </Placemark>
     <Placemark>
       <name>FALSE</name>
-      <description><![CDATA[updateRes: FALSE<br>OMSCHR: Provinciaal Domein 't Veld; Vijver op Veldbeek<br>NAAM: Ardooievijver<br>vrijwillID:  <br>startDate: NA<br>SugbyINBO: YES<br>locID: I_8850_4<br>restricties: NA<br>Sampler: permit?<br>dataset: ANB_Mtp<br>SystemType: Lentisch<br>GEBIED: t Veld<br>provincie: West-Vlaanderen<br>gemeente: Ardooie<br>postcode: 8850<br>CATC: NA<br>VHAG: NA<br>WVLC: WVLARD0094<br>Latitude: 50.9607503471095<br>Longitude: 3.22957267106692<br>Beheerder: NA<br>Bhrtel: NA<br>Bhremail: NA]]></description>
+      <description><![CDATA[updateRes: TRUE<br>OMSCHR: Provinciaal Domein 't Veld; Vijver op Veldbeek<br>NAAM: Ardooievijver<br>vrijwillID: zgqwyjrm <br>startDate: 26/07/24<br>SugbyINBO: YES<br>locID: I_8850_4<br>restricties: NA<br>Sampler: permit?<br>dataset: ANB_Mtp<br>SystemType: Lentisch<br>GEBIED: t Veld<br>provincie: West-Vlaanderen<br>gemeente: Ardooie<br>postcode: 8850<br>CATC: NA<br>VHAG: NA<br>WVLC: WVLARD0094<br>Latitude: 50.9607503<br>Longitude: 3.2295727<br>Beheerder: NA<br>Bhrtel: NA<br>Bhremail: NA]]></description>
       <styleUrl>#icon-1899-558B2F</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
-          <value>FALSE</value>
+          <value>TRUE</value>
         </Data>
         <Data name="OMSCHR">
           <value><![CDATA[Provinciaal Domein 't Veld; Vijver op Veldbeek]]></value>
@@ -89792,10 +89792,10 @@
           <value>Ardooievijver</value>
         </Data>
         <Data name="vrijwillID">
-          <value> </value>
+          <value>zgqwyjrm </value>
         </Data>
         <Data name="startDate">
-          <value>NA</value>
+          <value>26/07/24</value>
         </Data>
         <Data name="SugbyINBO">
           <value>YES</value>
@@ -89837,10 +89837,10 @@
           <value>WVLARD0094</value>
         </Data>
         <Data name="Latitude">
-          <value>50.9607503471095</value>
+          <value>50.9607503</value>
         </Data>
         <Data name="Longitude">
-          <value>3.22957267106692</value>
+          <value>3.2295727</value>
         </Data>
         <Data name="Beheerder">
           <value>NA</value>
@@ -89854,7 +89854,7 @@
       </ExtendedData>
       <Point>
         <coordinates>
-          3.22957267106692,50.9607503471095,0
+          3.2295727,50.9607503,0
         </coordinates>
       </Point>
     </Placemark>
@@ -111973,11 +111973,11 @@
     </Placemark>
     <Placemark>
       <name>FALSE</name>
-      <description><![CDATA[updateRes: FALSE<br>OMSCHR: Izegem<br>NAAM: NA<br>vrijwillID:  <br>startDate: NA<br>SugbyINBO: YES<br>locID: I_8870_6<br>restricties: NA<br>Sampler:  <br>dataset: Scheers<br>SystemType: Lentisch<br>GEBIED:  <br>provincie: West-Vlaanderen<br>gemeente: Izegem<br>postcode: 8870<br>CATC: NA<br>VHAG: NA<br>WVLC: WVLIZE0147<br>Latitude: 50.9194812901803<br>Longitude: 3.22298029851141<br>Beheerder: Dewulf Evy<br>Bhrtel: NA<br>Bhremail: recreatie.wvl.anb@vlaanderen.be]]></description>
+      <description><![CDATA[updateRes: TRUE<br>OMSCHR: Izegem<br>NAAM: NA<br>vrijwillID: zgqwyjrm <br>startDate: 31/07/24<br>SugbyINBO: YES<br>locID: I_8870_6<br>restricties: NA<br>Sampler:  <br>dataset: Scheers<br>SystemType: Lentisch<br>GEBIED:  <br>provincie: West-Vlaanderen<br>gemeente: Izegem<br>postcode: 8870<br>CATC: NA<br>VHAG: NA<br>WVLC: WVLIZE0147<br>Latitude: 50.9194813<br>Longitude: 3.2229803<br>Beheerder: Dewulf Evy<br>Bhrtel: NA<br>Bhremail: recreatie.wvl.anb@vlaanderen.be]]></description>
       <styleUrl>#icon-1899-558B2F</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
-          <value>FALSE</value>
+          <value>TRUE</value>
         </Data>
         <Data name="OMSCHR">
           <value>Izegem</value>
@@ -111986,10 +111986,10 @@
           <value>NA</value>
         </Data>
         <Data name="vrijwillID">
-          <value> </value>
+          <value>zgqwyjrm </value>
         </Data>
         <Data name="startDate">
-          <value>NA</value>
+          <value>31/07/24</value>
         </Data>
         <Data name="SugbyINBO">
           <value>YES</value>
@@ -112031,10 +112031,10 @@
           <value>WVLIZE0147</value>
         </Data>
         <Data name="Latitude">
-          <value>50.9194812901803</value>
+          <value>50.9194813</value>
         </Data>
         <Data name="Longitude">
-          <value>3.22298029851141</value>
+          <value>3.2229803</value>
         </Data>
         <Data name="Beheerder">
           <value>Dewulf Evy</value>
@@ -112048,7 +112048,7 @@
       </ExtendedData>
       <Point>
         <coordinates>
-          3.22298029851141,50.9194812901803,0
+          3.2229803,50.9194813,0
         </coordinates>
       </Point>
     </Placemark>
