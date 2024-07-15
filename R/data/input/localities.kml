@@ -2,42 +2,6 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>localities.csv</name>
-    <Style id="icon-1899-0097A7-normal">
-      <IconStyle>
-        <color>ffa79700</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-    </Style>
-    <Style id="icon-1899-0097A7-highlight">
-      <IconStyle>
-        <color>ffa79700</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-    </Style>
-    <StyleMap id="icon-1899-0097A7">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1899-0097A7-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1899-0097A7-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
     <Style id="icon-1899-558B2F-normal">
       <IconStyle>
         <color>ff2f8b55</color>
@@ -125486,87 +125450,6 @@
       <Point>
         <coordinates>
           3.6291464,51.0271353,0
-        </coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <name>Punt 1548</name>
-      <description><![CDATA[updateRes: ONHOLD<br>OMSCHR: <br>NAAM: <br>vrijwillID: otnkzgi3<br>startDate: <br>SugbyINBO: NO<br>locID: <br>restricties: <br>Sampler: <br>dataset: <br>SystemType: <br>GEBIED: <br>provincie: <br>gemeente: <br>postcode: <br>CATC: <br>VHAG: <br>WVLC: <br>Latitude: 51.0012676<br>Longitude: 3.6247274<br>Beheerder: <br>Bhrtel: <br>Bhremail: ]]></description>
-      <styleUrl>#icon-1899-0097A7</styleUrl>
-      <ExtendedData>
-        <Data name="updateRes">
-          <value>ONHOLD</value>
-        </Data>
-        <Data name="OMSCHR">
-          <value/>
-        </Data>
-        <Data name="NAAM">
-          <value/>
-        </Data>
-        <Data name="vrijwillID">
-          <value>otnkzgi3</value>
-        </Data>
-        <Data name="startDate">
-          <value/>
-        </Data>
-        <Data name="SugbyINBO">
-          <value>NO</value>
-        </Data>
-        <Data name="locID">
-          <value/>
-        </Data>
-        <Data name="restricties">
-          <value/>
-        </Data>
-        <Data name="Sampler">
-          <value/>
-        </Data>
-        <Data name="dataset">
-          <value/>
-        </Data>
-        <Data name="SystemType">
-          <value/>
-        </Data>
-        <Data name="GEBIED">
-          <value/>
-        </Data>
-        <Data name="provincie">
-          <value/>
-        </Data>
-        <Data name="gemeente">
-          <value/>
-        </Data>
-        <Data name="postcode">
-          <value/>
-        </Data>
-        <Data name="CATC">
-          <value/>
-        </Data>
-        <Data name="VHAG">
-          <value/>
-        </Data>
-        <Data name="WVLC">
-          <value/>
-        </Data>
-        <Data name="Latitude">
-          <value>51.0012676</value>
-        </Data>
-        <Data name="Longitude">
-          <value>3.6247274</value>
-        </Data>
-        <Data name="Beheerder">
-          <value/>
-        </Data>
-        <Data name="Bhrtel">
-          <value/>
-        </Data>
-        <Data name="Bhremail">
-          <value/>
-        </Data>
-      </ExtendedData>
-      <Point>
-        <coordinates>
-          3.6247274,51.0012676,0
         </coordinates>
       </Point>
     </Placemark>
