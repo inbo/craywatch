@@ -31,11 +31,44 @@ description: Template for a leaflet map with the observations
 </style>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OverlappingMarkerSpiderfier-Leaflet/0.2.6/oms.min.js"></script>
 <script>
   // Initialize the map
   var map = L.map('map', {
     center: [51.0, 4.15], // Set the center of the map
     zoom: 8                // Set the zoom level
+  });
+
+  // Initialize the spiderfier
+  var oms = new OverlappingMarkerSpiderfier(map, {
+    keepSpiderfied: true,
+    nearbyDistance: 20,
+    circleSpiralSwitchover: 9,
+    legWeight: 1
+  });
+
+  map.on('zoomend', function() {
+    oms.unspiderfy();
+  });
+
+  map.on('moveend', function() {
+    oms.unspiderfy();
+  });
+
+  var popup = new L.Popup();
+  oms.addListener('click', function(marker) {
+    map.closePopup(); // Close any open popups
+    popup.setContent(marker.getPopup().getContent());
+    popup.setLatLng(marker.getLatLng());
+    map.openPopup(popup);
+  });
+  
+  oms.addListener('spiderfy', function(markers) {
+    map.closePopup(); // Close any open popups
+  });
+  
+  oms.addListener('unspiderfy', function(markers) {
+    map.closePopup(); // Close any open popups
   });
 
   // Define tile layers (background layers)
@@ -196,8 +229,9 @@ description: Template for a leaflet map with the observations
         }
         // Add popup
         circle.bindPopup(popupContent);
-        // Add circle to layer
+        // Add circle to layer and spiderfier
         occsLayer.addLayer(circle);
+        oms.addMarker(circle);
       }
     });
     return occsLayer;
@@ -236,6 +270,10 @@ description: Template for a leaflet map with the observations
     await readAndShowJSON(absencesUrl, absencesLayer);
     // Call the functions to read the historical occurrences (JSON) and add them to the leaflet map
     await readAndShowJSON(historicalDataUrl, histOccsLayer);
+    // Add all markers to the spiderfier
+    newOccsLayer.eachLayer(marker => oms.addMarker(marker));
+    absencesLayer.eachLayer(marker => oms.addMarker(marker));
+    histOccsLayer.eachLayer(marker => oms.addMarker(marker));
   }
   
   // Execute main function when the script loads
