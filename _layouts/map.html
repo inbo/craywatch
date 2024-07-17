@@ -28,6 +28,10 @@ description: Template for a leaflet map with the observations
     margin-right: 8px;
     opacity: 0.7;
   }
+  .custom-div-icon {
+    background: transparent;
+    border: none;
+  }
 </style>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script src="https://d3js.org/d3.v7.min.js"></script>
@@ -47,11 +51,7 @@ description: Template for a leaflet map with the observations
     legWeight: 1
   });
 
-  map.on('zoomend', function() {
-    oms.unspiderfy();
-  });
-
-  map.on('moveend', function() {
+  map.on('zoomend moveend', function() {
     oms.unspiderfy();
   });
 
@@ -62,11 +62,11 @@ description: Template for a leaflet map with the observations
     popup.setLatLng(marker.getLatLng());
     map.openPopup(popup);
   });
-  
+
   oms.addListener('spiderfy', function(markers) {
     map.closePopup(); // Close any open popups
   });
-  
+
   oms.addListener('unspiderfy', function(markers) {
     map.closePopup(); // Close any open popups
   });
@@ -210,33 +210,31 @@ description: Template for a leaflet map with the observations
       const lat = parseFloat(item.decimalLatitude);
       const lon = parseFloat(item.decimalLongitude);
       if (!isNaN(lat) && !isNaN(lon)) {
-        const speciesInfo = speciesColorsVernacularNames[item.species] || {color: 'gray', vernacularName: 'null'};
-        const circle = L.circleMarker([lat, lon], {
-            radius: 5, 
-            color: speciesInfo.color,
-            fillColor: speciesInfo.color,
-            fillOpacity: 0.95,
-            stroke: false
+        const speciesInfo = speciesColorsVernacularNames[item.species] || {color: 'gray',   vernacularName: 'null'};
+        const marker = L.marker([lat, lon], {
+          icon: L.divIcon({
+            className: 'custom-div-icon',
+            html: `<div style="background-color:${speciesInfo.color}; width:10px; height:10px;  border-radius:50%;"></div>`,
+            iconSize: [10, 10],
+            iconAnchor: [5, 5]
+          })
         });
         // Create basic popup content
         let popupContent = `<b>${speciesInfo.vernacularName}</b><br>${item.eventDate}`;
         if (item.references) {
-          // Add reference link if present, typically with link to observation on waarnemingen.be
           popupContent += `<br><a href="${item.references}" target="_blank">${item.references}</a>`;
         } else {
-          // Add link to the occurrence as published on GBIF
-          popupContent += `<br><a href="https://www.gbif.org/occurrence/${item.key}" target="_blank">https://www.gbif.org/occurrence/${item.key}</a>`;
+          popupContent += `<br><a href="https://www.gbif.org/occurrence/${item.key}"  target="_blank">https://www.gbif.org/occurrence/${item.key}</a>`;
         }
         // Add popup
-        circle.bindPopup(popupContent);
-        // Add circle to layer and spiderfier
-        occsLayer.addLayer(circle);
-        oms.addMarker(circle);
+        marker.bindPopup(popupContent);
+        // Add marker to layer and spiderfier
+        occsLayer.addLayer(marker);
+        oms.addMarker(marker);
       }
     });
     return occsLayer;
   }
-
   // Function to read the JSON data from the API and add them to the leaflet map
   async function readAndShowJSON(apiUrl, occsLayer) {
     // Call the function to fetch all data
