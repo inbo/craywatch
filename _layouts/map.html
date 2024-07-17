@@ -99,8 +99,8 @@ description: Template for a leaflet map with the observations
 
   // Layer groups for markers
   const markersLayer = L.layerGroup();
-  const newOccsLayers = L.layerGroup();
-  const histOccsLayers = L.layerGroup();
+  const newOccsLayer = L.layerGroup();
+  const histOccsLayer = L.layerGroup();
   const absencesLayer = L.layerGroup();
 
   // Function to read the CSV file
@@ -230,12 +230,12 @@ description: Template for a leaflet map with the observations
     // Call the functions to read the CSV and add the results to the leaflet
     readAndShow(localitiesURL);
     // Call the functions to read the recent occurrences (JSON) and add them to the leaflet map
-    await readAndShowJSON(recentDataUrl, newOccsLayers);
-    newOccsLayers.addTo(map);
+    await readAndShowJSON(recentDataUrl, newOccsLayer);
+    newOccsLayer.addTo(map);
     // Call the functions to read the recent absences (JSON) and add them to the leaflet map
     await readAndShowJSON(absencesUrl, absencesLayer);
     // Call the functions to read the historical occurrences (JSON) and add them to the leaflet map
-    await readAndShowJSON(historicalDataUrl, histOccsLayers);
+    await readAndShowJSON(historicalDataUrl, histOccsLayer);
   }
   
   // Execute main function when the script loads
@@ -250,8 +250,8 @@ description: Template for a leaflet map with the observations
     },
     {
       'Gereserveerde locaties': markersLayer,
-      'Nieuwe waarnemingen': newOccsLayers,
-      'Historische waarnemingen': histOccsLayers,
+      'Nieuwe waarnemingen': newOccsLayer,
+      'Historische waarnemingen': histOccsLayer,
       'Null waarnemingen': absencesLayer
     },
     {
