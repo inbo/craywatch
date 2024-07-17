@@ -266,7 +266,8 @@ kml_data <- kml_data %>%
     Beheerder = if_else((is.na(Beheerder) | Beheerder == "") & CATC == 2 & SystemType != "Lentisch", provincie, Beheerder),
     Bhremail = if_else(Beheerder == "Antwerpen", "hans.vanloy@provincieantwerpen.be", Bhremail),
     Bhremail = if_else(Beheerder == "Vlaams-Brabant", "ingrid.beuls@vlaamsbrabant.be", Bhremail),
-    Bhremail = if_else(Beheerder == "Oost-Vlaanderen", "katleen.brangers@oost-vlaanderen.be", Bhremail),
+    Bhremail = if_else(Beheerder == "Oost-Vlaanderen", "waterbeleid@oost-vlaanderen.be", Bhremail),
+    Bhremail = if_else(Beheerder == "Limburg", "christel.bouchet@limburg.be", Bhremail),
     Beheerder = if_else((is.na(Beheerder) | Beheerder == "") & CATC == 1 & SystemType != "Lentisch",    "VMM", Beheerder),
     Bhremail = if_else(Beheerder == "VMM", "d.slootmaekers@vmm.be", Bhremail)
   )
