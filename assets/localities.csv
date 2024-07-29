@@ -1487,8 +1487,8 @@
 "FALSE","FALSE","extra punt Kevin","Ringgracht",NA,NA,"YES","I_9200_15",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Dendermonde","9200","NA","NA",NA,"51.0424251","4.156642",NA,NA,NA
 "TRUE","TRUE","extra punt Kevin","Nieuwe Kale","ngm2y2mw",NA,"YES","I_9940_18",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Evergem","9940","NA","NA",NA,"51.1034925","3.6992643",NA,NA,NA
 "FALSE","FALSE","Genk",NA,NA,NA,"YES","I_3600_7",NA,NA,"Scheers","Lentisch",NA,"Limburg","Genk","3600",NA,NA,NA,"50.9648428","5.5140142",NA,NA,NA
-"FALSE","FALSE",NA,"Watering De Vreenebeek",NA,NA,"YES","I_3670_8",NA,NA,NA,NA,NA,"Limburg","Oudsbergen","3670","NA","NA",NA,"51.0731049","5.5235651",NA,NA,NA
-"FALSE","FALSE",NA,"Gemeentelijke Visvijver",NA,NA,"YES","I_3665_2",NA,NA,NA,NA,NA,"Limburg","As","3665",NA,NA,NA,"51.020737","5.5774568",NA,NA,NA
+"ONHOLD","ONHOLD",NA,"Watering De Vreenebeek","nzzlmmvm",NA,"YES","I_3670_8",NA,NA,NA,NA,NA,"Limburg","Oudsbergen","3670","NA","NA",NA,"51.0731049","5.5235651",NA,NA,NA
+"ONHOLD","ONHOLD",NA,"Gemeentelijke Visvijver","nzzlmmvm",NA,"YES","I_3665_2",NA,NA,NA,NA,NA,"Limburg","As","3665",NA,NA,NA,"51.020737","5.5774568",NA,NA,NA
 "TRUE","TRUE",NA,"Bomput","nge4otq3","15/08/24","NO","V_9840_3",NA,NA,NA,NA,NA,"Oost-Vlaanderen","De Pinte","9840",NA,NA,NA,"50.969326","3.6943734",NA,NA,NA
 "TRUE","TRUE",NA,NA,"mdjjotdj","01/07/2024","YES","I_8730_9",NA,NA,NA,NA,NA,"West-Vlaanderen","Beernem","8730",NA,NA,NA,"51.1439286","3.2919752",NA,NA,NA
 "TRUE","TRUE","Provinciedomein Kessel Lo",NA,"nzq2nzbh","29/07/2024","YES","I_3010_8",NA,NA,NA,NA,NA,"Vlaams-Brabant","Leuven","3010",NA,NA,NA,"50.8931725","4.7201455",NA,NA,NA
@@ -1564,3 +1564,4 @@
 "ONHOLD","ONHOLD","gracht rond Middelheimmuseum",NA,"zdvjmdzk",NA,"YES","I_2020_2",NA,NA,NA,NA,NA,"Antwerpen","Antwerpen","2020",NA,NA,NA,"51.17985","4.4122",NA,NA,NA
 "TRUE","TRUE",NA,"Hollebeek","ymjlzwe4",NA,"NO","V_2610_4",NA,NA,NA,NA,NA,"Antwerpen","Antwerpen","2610","NA","NA",NA,"51.181113","4.3731417",NA,NA,NA
 "TRUE","TRUE",NA,NA,"nzzmzdm3",NA,"NO","V_2491_5",NA,NA,NA,NA,NA,"Antwerpen","Balen","2491",NA,NA,NA,"51.1448134","5.1286907","Quintens Hildegarde",NA,"recreatie.ant.anb@vlaanderen.be"
+"TRUE","TRUE",NA,NA,"nzzmzdm3",NA,"NO","V_2491_6",NA,NA,NA,NA,NA,"Antwerpen","Balen","2491",NA,NA,NA,"51.1436651","5.1272898","Quintens Hildegarde",NA,"recreatie.ant.anb@vlaanderen.be"
