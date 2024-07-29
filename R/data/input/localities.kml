@@ -36,9 +36,9 @@
         <styleUrl>#icon-1789-558B2F-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="icon-1899-0288D1-normal">
+    <Style id="icon-1899-7CB342-normal">
       <IconStyle>
-        <color>ffd18802</color>
+        <color>ff42b37c</color>
         <scale>1</scale>
         <Icon>
           <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
@@ -49,9 +49,9 @@
         <scale>0</scale>
       </LabelStyle>
     </Style>
-    <Style id="icon-1899-0288D1-highlight">
+    <Style id="icon-1899-7CB342-highlight">
       <IconStyle>
-        <color>ffd18802</color>
+        <color>ff42b37c</color>
         <scale>1</scale>
         <Icon>
           <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
@@ -62,14 +62,14 @@
         <scale>1</scale>
       </LabelStyle>
     </Style>
-    <StyleMap id="icon-1899-0288D1">
+    <StyleMap id="icon-1899-7CB342">
       <Pair>
         <key>normal</key>
-        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+        <styleUrl>#icon-1899-7CB342-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+        <styleUrl>#icon-1899-7CB342-highlight</styleUrl>
       </Pair>
     </StyleMap>
     <Style id="icon-1899-F9A825-normal">
@@ -120674,11 +120674,11 @@
     </Placemark>
     <Placemark>
       <name>FALSE</name>
-      <description><![CDATA[updateRes: FALSE<br>OMSCHR: NA<br>NAAM: Watering De Vreenebeek<br>vrijwillID: NA<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_3670_8<br>restricties: NA<br>Sampler: NA<br>dataset: NA<br>SystemType: NA<br>GEBIED: NA<br>provincie: Limburg<br>gemeente: Oudsbergen<br>postcode: 3670<br>CATC: NA<br>VHAG: NA<br>WVLC: NA<br>Latitude: 51.0731049<br>Longitude: 5.5235651<br>Beheerder: NA<br>Bhrtel: NA<br>Bhremail: NA]]></description>
+      <description><![CDATA[updateRes: ONHOLD<br>OMSCHR: NA<br>NAAM: Watering De Vreenebeek<br>vrijwillID: nzzlmmvm<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_3670_8<br>restricties: NA<br>Sampler: NA<br>dataset: NA<br>SystemType: NA<br>GEBIED: NA<br>provincie: Limburg<br>gemeente: Oudsbergen<br>postcode: 3670<br>CATC: NA<br>VHAG: NA<br>WVLC: NA<br>Latitude: 51.0731049<br>Longitude: 5.5235651<br>Beheerder: NA<br>Bhrtel: NA<br>Bhremail: NA]]></description>
       <styleUrl>#icon-1789-558B2F</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
-          <value>FALSE</value>
+          <value>ONHOLD</value>
         </Data>
         <Data name="OMSCHR">
           <value>NA</value>
@@ -120687,7 +120687,7 @@
           <value>Watering De Vreenebeek</value>
         </Data>
         <Data name="vrijwillID">
-          <value>NA</value>
+          <value>nzzlmmvm</value>
         </Data>
         <Data name="startDate">
           <value>NA</value>
@@ -120755,11 +120755,11 @@
     </Placemark>
     <Placemark>
       <name>FALSE</name>
-      <description><![CDATA[updateRes: FALSE<br>OMSCHR: NA<br>NAAM: Gemeentelijke Visvijver<br>vrijwillID: NA<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_3665_2<br>restricties: NA<br>Sampler: NA<br>dataset: NA<br>SystemType: NA<br>GEBIED: NA<br>provincie: Limburg<br>gemeente: As<br>postcode: 3665<br>CATC: NA<br>VHAG: NA<br>WVLC: NA<br>Latitude: 51.020737<br>Longitude: 5.5774568<br>Beheerder: NA<br>Bhrtel: NA<br>Bhremail: NA]]></description>
+      <description><![CDATA[updateRes: ONHOLD<br>OMSCHR: NA<br>NAAM: Gemeentelijke Visvijver<br>vrijwillID: nzzlmmvm<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_3665_2<br>restricties: NA<br>Sampler: NA<br>dataset: NA<br>SystemType: NA<br>GEBIED: NA<br>provincie: Limburg<br>gemeente: As<br>postcode: 3665<br>CATC: NA<br>VHAG: NA<br>WVLC: NA<br>Latitude: 51.020737<br>Longitude: 5.5774568<br>Beheerder: NA<br>Bhrtel: NA<br>Bhremail: NA]]></description>
       <styleUrl>#icon-1789-558B2F</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
-          <value>FALSE</value>
+          <value>ONHOLD</value>
         </Data>
         <Data name="OMSCHR">
           <value>NA</value>
@@ -120768,7 +120768,7 @@
           <value>Gemeentelijke Visvijver</value>
         </Data>
         <Data name="vrijwillID">
-          <value>NA</value>
+          <value>nzzlmmvm</value>
         </Data>
         <Data name="startDate">
           <value>NA</value>
@@ -126829,9 +126829,90 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>Punt 1565</name>
-      <description><![CDATA[updateRes: TRUE<br>OMSCHR: <br>NAAM: <br>vrijwillID: nzzmzdm3<br>startDate: <br>SugbyINBO: NO<br>locID: <br>restricties: <br>Sampler: <br>dataset: <br>SystemType: <br>GEBIED: <br>provincie: <br>gemeente: <br>postcode: <br>CATC: <br>VHAG: <br>WVLC: <br>Latitude: 51.1448134<br>Longitude: 5.1286907<br>Beheerder: <br>Bhrtel: <br>Bhremail: ]]></description>
-      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <name>TRUE</name>
+      <description><![CDATA[updateRes: TRUE<br>OMSCHR: NA<br>NAAM: NA<br>vrijwillID: nzzmzdm3<br>startDate: NA<br>SugbyINBO: NO<br>locID: V_2491_5<br>restricties: NA<br>Sampler: NA<br>dataset: NA<br>SystemType: NA<br>GEBIED: NA<br>provincie: Antwerpen<br>gemeente: Balen<br>postcode: 2491<br>CATC: NA<br>VHAG: NA<br>WVLC: NA<br>Latitude: 51.1448134<br>Longitude: 5.1286907<br>Beheerder: Quintens Hildegarde<br>Bhrtel: NA<br>Bhremail: recreatie.ant.anb@vlaanderen.be]]></description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <ExtendedData>
+        <Data name="updateRes">
+          <value>TRUE</value>
+        </Data>
+        <Data name="OMSCHR">
+          <value>NA</value>
+        </Data>
+        <Data name="NAAM">
+          <value>NA</value>
+        </Data>
+        <Data name="vrijwillID">
+          <value>nzzmzdm3</value>
+        </Data>
+        <Data name="startDate">
+          <value>NA</value>
+        </Data>
+        <Data name="SugbyINBO">
+          <value>NO</value>
+        </Data>
+        <Data name="locID">
+          <value>V_2491_5</value>
+        </Data>
+        <Data name="restricties">
+          <value>NA</value>
+        </Data>
+        <Data name="Sampler">
+          <value>NA</value>
+        </Data>
+        <Data name="dataset">
+          <value>NA</value>
+        </Data>
+        <Data name="SystemType">
+          <value>NA</value>
+        </Data>
+        <Data name="GEBIED">
+          <value>NA</value>
+        </Data>
+        <Data name="provincie">
+          <value>Antwerpen</value>
+        </Data>
+        <Data name="gemeente">
+          <value>Balen</value>
+        </Data>
+        <Data name="postcode">
+          <value>2491.0</value>
+        </Data>
+        <Data name="CATC">
+          <value>NA</value>
+        </Data>
+        <Data name="VHAG">
+          <value>NA</value>
+        </Data>
+        <Data name="WVLC">
+          <value>NA</value>
+        </Data>
+        <Data name="Latitude">
+          <value>51.1448134</value>
+        </Data>
+        <Data name="Longitude">
+          <value>5.1286907</value>
+        </Data>
+        <Data name="Beheerder">
+          <value>Quintens Hildegarde</value>
+        </Data>
+        <Data name="Bhrtel">
+          <value>NA</value>
+        </Data>
+        <Data name="Bhremail">
+          <value>recreatie.ant.anb@vlaanderen.be</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          5.1286907,51.1448134,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punt 1567</name>
+      <description><![CDATA[updateRes: TRUE<br>OMSCHR: <br>NAAM: <br>vrijwillID: nzzmzdm3<br>startDate: <br>SugbyINBO: NO<br>locID: <br>restricties: <br>Sampler: <br>dataset: <br>SystemType: <br>GEBIED: <br>provincie: <br>gemeente: <br>postcode: <br>CATC: <br>VHAG: <br>WVLC: <br>Latitude: 51.1436651<br>Longitude: 5.1272898<br>Beheerder: <br>Bhrtel: <br>Bhremail: ]]></description>
+      <styleUrl>#icon-1899-7CB342</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
           <value>TRUE</value>
@@ -126888,10 +126969,10 @@
           <value/>
         </Data>
         <Data name="Latitude">
-          <value>51.1448134</value>
+          <value>51.1436651</value>
         </Data>
         <Data name="Longitude">
-          <value>5.1286907</value>
+          <value>5.1272898</value>
         </Data>
         <Data name="Beheerder">
           <value/>
@@ -126905,7 +126986,7 @@
       </ExtendedData>
       <Point>
         <coordinates>
-          5.1286907,51.1448134,0
+          5.1272898,51.1436651,0
         </coordinates>
       </Point>
     </Placemark>
