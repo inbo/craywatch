@@ -13,20 +13,11 @@ localities <- read.csv(csv_path)
 localities_reserved <- localities %>%
   filter(isReserved == TRUE)
 
-# Select Managers & data
-beheerder_list <- localities_reserved %>%
-  distinct(Beheerder, Bhremail, Bhrtel)
-beheerder_list <- beheerder_list %>%
-  mutate(valid_name = make.names(Beheerder, unique = TRUE) %>% gsub("\\.", "_", .))
-
-# Ensure the localities data frame has geometry columns for shapefile creation
-# Replace 'Longitude' and 'Latitude' with your actual column names
-localities_reserved <- st_as_sf(localities_reserved, coords = c("Longitude", "Latitude"), crs = 4326, remove = FALSE)
-
-# Get unique list of 'Beheerder', including NA
-beheerders <- unique(localities_reserved$Beheerder)
 
 ##### ADJUST DATES ############################################################
+library(dplyr)
+library(lubridate)
+
 # Replace NA in startDate with "TBD"
 localities_reserved$startDate <- ifelse(is.na(localities_reserved$startDate), "TBD", localities_reserved$startDate)
 
@@ -52,12 +43,31 @@ reformat_dates <- function(date) {
 # Apply the reformat_dates function
 localities_reserved$startDate <- sapply(localities_reserved$startDate, reformat_dates)
 
-# Get system date
+# Convert dates to Date type
+localities_reserved$startDateDate <- as.Date(localities_reserved$startDate, format="%d-%m-%Y")
+
+# Get system date in dmy format
 system_date <- format(Sys.Date(), "%d-%m-%Y")
 
 # Filter entries that are later than the system date or have startDate "TBD"
 localities_filtered <- localities_reserved %>%
-  filter(startDate == "TBD" | (!is.na(startDate) & startDate > system_date))
+  filter(startDate == "TBD" | (!is.na(startDateDate) & startDateDate > dmy(system_date)))
+
+
+##### SELECT MANAGERS ############################################################
+
+# Select Managers & data
+beheerder_list <- localities_filtered %>%
+  distinct(Beheerder, Bhremail, Bhrtel)
+beheerder_list <- beheerder_list %>%
+  mutate(valid_name = make.names(Beheerder, unique = TRUE) %>% gsub("\\.", "_", .))
+
+# Ensure the localities data frame has geometry columns for shapefile creation
+# Replace 'Longitude' and 'Latitude' with your actual column names
+localities_filtered <- st_as_sf(localities_filtered, coords = c("Longitude", "Latitude"), crs = 4326, remove = FALSE)
+
+# Get unique list of 'Beheerder', including NA
+beheerders <- unique(localities_filtered$Beheerder)
 
 
 # Create the output directory path
@@ -76,7 +86,7 @@ for (row in 1:nrow(beheerder_list)) {
   beheerder <- beheerder_list$Beheerder[row]
   valid_name <- beheerder_list$valid_name[row]
   
-  # Create a directory for the current 'Beheerder'
+  # Create a directory for the current 'Beheerder' 
   beheerder_dir <- file.path(output_dir, paste0("table_", valid_name))
   if (!dir.exists(beheerder_dir)) {
     dir.create(beheerder_dir)
