@@ -61,7 +61,7 @@ for (row in 1:nrow(beheerder_list)) {
         "Sinds 15 juni is het wetenschappelijk project Craywatch van start gegaan. Binnen dit project bemonsteren burgerwetenschappers waterlichamen op Vlaams grondgebied om de aanwezigheid van invasieve rivierkreeften in kaart te brengen.\n\n",
         "Wij houden u graag op de hoogte van opkomende staalnamelocaties. In onderstaande tabel worden voorziene staalnamepunten en hun bemonsteringsdata vermeld. De data vertegenwoordigen de startdata van het staalnameprotocol. De vallen blijven in principe 4 dagen in het watersysteem aanwezig. Indien we de startdatum nog dienen te vernemen wordt dit aangeduid met 'TBD'. Wij geven u graag de wekelijkse update van de punten.\n\n",
         paste(html_content, collapse = "\n"),
-        "\n\nWe streven ernaar uw werking niet te compromitteren en zoveel als mogelijk met uw suggesties rekening te houden. Het staalnameprotocol kunt u hier uitgebreid terugvinden. In bijlage vindt u de bovenstaande tabel eveneens als zipfile. Met vragen of opmerkingen kunt u ons steeds bereiken op craywatch@inbo.be.\n\n",
+        "\n\nWe streven ernaar uw werking niet te compromitteren en zoveel als mogelijk met uw suggesties rekening te houden. Het staalnameprotocol kunt u <a href='https://craywatch.inbo.be/instructies/'>hier</a> uitgebreid terugvinden. In bijlage vindt u de bovenstaande tabel nogmaals terug als shapefile en als csv-file. Met vragen of opmerkingen kunt u ons steeds bereiken op craywatch@inbo.be.\n\n",
         "Hoogachtend,\n\n",
         "Het Craywatch project-team\n"
       )
