@@ -309,7 +309,7 @@
 "FALSE","FALSE","Zandvoordestraat","Gauweloze kreek",NA,NA,"YES","I_8400_1",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Oostende","8400","1","14884",NA,"51.2132630069322","2.94687931801598","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Hollebeekstraat,10m opwaarts weg","Melsenbeek",NA,NA,"YES","I_9820_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Merelbeke","9820","2","5088",NA,"50.9751978498288","3.74775958728668","Oost-Vlaanderen",NA,"waterbeleid@oost-vlaanderen.be"
 "FALSE","FALSE","Eke, Pontweg, afw weg","Leebeek",NA,NA,"YES","I_9810_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Nazareth","9810","2","5171",NA,"50.9426795439085","3.64350704457478","Oost-Vlaanderen",NA,"waterbeleid@oost-vlaanderen.be"
-"ONHOLD","ONHOLD","Melsen,Wassemstraat,opw weg","Molenbeek","mdu1yja5",NA,"YES","I_9820_2",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Merelbeke","9820","2","5675",NA,"50.9507837","3.7083912","Coppens Xavier",NA,"recreatie.ovl.anb@vlaanderen.be"
+"FALSE","FALSE","Melsen,Wassemstraat,opw weg","Molenbeek",NA,NA,"YES","I_9820_2",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Merelbeke","9820","2","5675",NA,"50.9507837","3.7083912","Coppens Xavier",NA,"recreatie.ovl.anb@vlaanderen.be"
 "FALSE","FALSE","Asper,Landdijk,thv brugje","Stampkotbeek",NA,NA,"YES","I_9890_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Gavere","9890","2","5274",NA,"50.9195661381773","3.656606825356","Oost-Vlaanderen",NA,"waterbeleid@oost-vlaanderen.be"
 "FALSE","FALSE","Ouwegem, Den Bos, afw weg","Stampkotbeek",NA,NA,"YES","I_9750_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Kruisem","9750","2","5274",NA,"50.9214655585815","3.61659817232954","Oost-Vlaanderen",NA,"waterbeleid@oost-vlaanderen.be"
 "FALSE","FALSE","Vermerenhoek,Merestraat-Mantelstraat,opw weg en lozing","Plezierbeek",NA,NA,"YES","I_9810_2",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Nazareth","9810","2","5196",NA,"50.9358336630423","3.56268921271369","Oost-Vlaanderen",NA,"waterbeleid@oost-vlaanderen.be"
@@ -1550,7 +1550,7 @@
 "TRUE","TRUE",NA,"Oude Netearm","ntvinwe1","09/09/24","YES","I_2840_4",NA,NA,NA,NA,NA,"Antwerpen","Rumst","2840",NA,NA,NA,"51.0779516","4.4314065",NA,NA,NA
 "TRUE","TRUE",NA,"De Ham","nwixndkz","9/8/24","YES","I_9840_4",NA,NA,NA,NA,NA,"Oost-Vlaanderen","De Pinte","9840",NA,NA,NA,"50.9789334","3.7041863",NA,NA,NA
 "TRUE","TRUE",NA,"Karpelput","nwixndkz","16/8/24","YES","I_9052_1","Karel Schoonvaere vraagt toestemming aan opzichter",NA,NA,NA,NA,"Oost-Vlaanderen","Gent","9052",NA,NA,NA,"50.9874059","3.7175079",NA,NA,NA
-"TRUE","TRUE",NA,"Schelderodeput","mdu1yja5","08/24","YES","I_9820_8",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Merelbeke","9820",NA,NA,NA,"50.977823","3.7128887",NA,NA,NA
+"TRUE","TRUE",NA,"Schelderodeput","mdu1yja5","16/08/24","YES","I_9820_8",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Merelbeke","9820",NA,NA,NA,"50.977823","3.7128887",NA,NA,NA
 "TRUE","TRUE",NA,"Kanaal Dessel-Schoten","mdq4mmy1","8/9/24","YES","I_2960_4",NA,NA,NA,NA,NA,"Antwerpen","Brecht","2960",NA,NA,NA,"51.3360393","4.6535706",NA,NA,NA
 "TRUE","TRUE",NA,"Kanaal Gent-Brugge","otg3mza0",NA,"NO","V_8730_11",NA,NA,NA,NA,NA,"West-Vlaanderen","Beernem","8730",NA,NA,NA,"51.1376902","3.3306563",NA,NA,NA
 "TRUE","TRUE",NA,"Ronselarebeek","zmrhymrm",NA,"NO","V_8000_6",NA,NA,NA,NA,NA,"West-Vlaanderen","Brugge","8000","NA","NA",NA,"51.257102","3.252708",NA,NA,NA
@@ -1576,4 +1576,6 @@
 "FALSE","FALSE",NA,"De Spanjaard",NA,NA,"YES","I_9840_6","beheer NP, check met Karel Schoonvaere",NA,NA,NA,NA,"Oost-Vlaanderen","De Pinte","9840",NA,NA,NA,"50.980918","3.707763",NA,NA,NA
 "ONHOLD","ONHOLD",NA,"Vunt","owzjzmi2",NA,"YES","I_3010_2",NA,NA,"VMM_Mtp","Lotisch",NA,"Vlaams-Brabant","Leuven","3010","1","6603",NA,"50.892316","4.711942","VMM",NA,"d.slootmaekers@vmm.be"
 "ONHOLD","ONHOLD","Bezoekerscentrum De Wulp",NA,"mdflzwm0",NA,"YES","I_3910_13",NA,NA,NA,NA,NA,"Limburg","Pelt","3910",NA,NA,NA,"51.248411","5.41703",NA,NA,NA
-"TRUE","TRUE",NA,"Melsenbeek ","mdu1yja5","16/08/24","NO","V_9820_9",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Merelbeke","9820",NA,NA,NA,"50.972361","3.711361",NA,NA,NA
+"TRUE","TRUE",NA,"Melsenbeek ","mdu1yja5","16/08/24","NO","V_9820_9",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Merelbeke","9820","NA","NA",NA,"50.972361","3.711361",NA,NA,NA
+"TRUE","TRUE","Kleine Hoofdgracht","Kleine Hoofdgracht","nzzmzdm3","2/8/24","NO","V_2490_7",NA,NA,NA,NA,NA,"Antwerpen","Balen","2490",NA,NA,NA,"51.172775","5.243459","Quintens Hildegarde",NA,"recreatie.ant.anb@vlaanderen.be"
+"TRUE","TRUE",NA,NA,"nzzmzdm3","2/8/24","NO","V_2490_8",NA,NA,NA,NA,NA,"Antwerpen","Balen","2490",NA,NA,NA,"51.17374","5.244323","Quintens Hildegarde",NA,"recreatie.ant.anb@vlaanderen.be"
