@@ -702,7 +702,7 @@
 "FALSE","FALSE","Gottem, Terdonckstraat","Oude Mandel",NA,NA,"YES","I_9800_9",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Deinze","9800","1","4688",NA,"50.96837206164","3.45271782224592","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE",NA,"Speibeek",NA,NA,"YES","I_8700_3",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Tielt","8700","2","4824",NA,"50.9835627","3.3997018","West-Vlaanderen",NA,NA
 "FALSE","FALSE","Graaf Jansdijk, zijweg","Isabellavaart",NA,NA,"YES","I_8300_4",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Knokke-Heist","8300","1","2125",NA,"51.3292259730276","3.3373197440542","VMM",NA,"d.slootmaekers@vmm.be"
-"FALSE","FALSE","St. Baafs-Vijve, Vijvestraat, Hooie","Mandel",NA,NA,"YES","I_8720_2",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Dentergem","8720","1","4203",NA,"50.9205784157483","3.41502084093871","VMM",NA,"d.slootmaekers@vmm.be"
+"ONHOLD","ONHOLD","St. Baafs-Vijve, Vijvestraat, Hooie","Mandel","njmzowyw",NA,"YES","I_8720_2",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Dentergem","8720","1","4203",NA,"50.9205784","3.4150208","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Berkstraat, Nieuwbrug","Mandel",NA,NA,"YES","I_8720_3",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Dentergem","8720","1","4203",NA,"50.9434534758038","3.37324683354034","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Turkijenstraat, Leembrug","Mandel",NA,NA,"YES","I_8760_2",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Meulebeke","8760","1","4203",NA,"50.9215194925005","3.30669143344085","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Dievestraat, Vliegend paard","Mandel",NA,NA,"YES","I_8770_1",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Ingelmunster","8770","1","4203",NA,"50.9147899704761","3.27770390625212","VMM",NA,"d.slootmaekers@vmm.be"
@@ -719,7 +719,7 @@
 "FALSE","FALSE","Saf meetpunt 620680- start 5m sop lozingsbuis","Roobeek",NA,NA,"YES","I_8850_2",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Ardooie","8850","2","4206",NA,"50.9667041441837","3.2022773831527","West-Vlaanderen",NA,NA
 "FALSE","FALSE","Molenhoek, Geeststraat, Hve Goed ter Geest","Gaverbeek",NA,NA,"YES","I_8540_1",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Deerlijk","8540","1","4202",NA,"50.8566928680053","3.389713155352","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Industrielaan, Biest","Gaverbeek",NA,NA,"YES","I_8790_1",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Waregem","8790","1","4202",NA,"50.872205508697","3.42428553210577","VMM",NA,"d.slootmaekers@vmm.be"
-"FALSE","FALSE","Oostpoort","Gaverbeek",NA,NA,"YES","I_8793_1",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Waregem","8793","1","4202",NA,"50.9058140078892","3.41247689475484","VMM",NA,"d.slootmaekers@vmm.be"
+"ONHOLD","ONHOLD","Oostpoort","Gaverbeek","njmzowyw",NA,"YES","I_8793_1",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Waregem","8793","1","4202",NA,"50.905814","3.4124769","VMM",NA,"d.slootmaekers@vmm.be"
 "TRUE","TRUE","Otterbeek-Sop brug bij 632350- Kappaard","Slijpbeek","zguxztnj",NA,"YES","I_8550_2",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Zwevegem","8550","2","18815",NA,"50.822296","3.359259","West-Vlaanderen",NA,NA
 "FALSE","FALSE",NA,"Keibeek",NA,NA,"YES","I_8550_3",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Zwevegem","8550","2","4339",NA,"50.8083862796892","3.32390134773583","West-Vlaanderen",NA,NA
 "FALSE","FALSE","Stasegemsesteenweg, Gavermeer","Gaverbeek",NA,NA,"YES","I_8530_2",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Harelbeke","8530","1","15720",NA,"50.8412518308375","3.31046316127095","VMM",NA,"d.slootmaekers@vmm.be"
@@ -727,7 +727,7 @@
 "FALSE","FALSE","Stationsstraat, Hbg Gaverkasteel","Gaverbeek",NA,NA,"YES","I_8540_3",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Deerlijk","8540","1","15720",NA,"50.8443515482056","3.35192845674308","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Steenbruggestraat","Maalbeek",NA,NA,"YES","I_8570_1",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Anzegem","8570","2","4851",NA,"50.850214909849","3.45487689401072","West-Vlaanderen",NA,NA
 "FALSE","FALSE","Kap OLV Ter Warande, in 't veld lgs molen","Heulebeek",NA,NA,"YES","I_8501_1",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Kortrijk","8501","1","4205",NA,"50.8425955049462","3.24796878573256","VMM",NA,"d.slootmaekers@vmm.be"
-"FALSE","FALSE","Gullegem, Ter Winkel, sop brug","Heulebeek",NA,NA,"YES","I_8560_2",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Wevelgem","8560","1","4205",NA,"50.8444541888194","3.21069123556494","VMM",NA,"d.slootmaekers@vmm.be"
+"ONHOLD","ONHOLD","Gullegem, Ter Winkel, sop brug","Heulebeek","owu5nznl",NA,"YES","I_8560_2",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Wevelgem","8560","1","4205",NA,"50.844742","3.215369","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Moorsele, Overheulestraat, sop brug","Heulebeek",NA,NA,"YES","I_8560_3",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Wevelgem","8560","1","4205",NA,"50.8430417357239","3.16416412289594","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE",NA,"Heulebeek",NA,NA,"YES","I_8890_1",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Moorslede","8890","2","4205",NA,"50.8660858638903","3.05368065715565","West-Vlaanderen",NA,NA
 "FALSE","FALSE","Wuustwezel; Tereik; Heikenweg; afw brug mtp 67300","Kleine Aa of Weerijsbeek",NA,NA,"YES","I_2990_6",NA,NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Wuustwezel","2990","1","9503",NA,"51.4176135329876","4.63945106257134","VMM",NA,"d.slootmaekers@vmm.be"
@@ -826,9 +826,9 @@
 "FALSE","FALSE",NA,"Handzamevaart",NA,NA,"YES","I_8820_5",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Torhout","8820","2","1208",NA,"51.0413366710452","3.09591910896961","West-Vlaanderen",NA,NA
 "FALSE","FALSE","Werken, Steenstraat","Zarrenbeek",NA,NA,"YES","I_8610_5",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Kortemark","8610","1","1496",NA,"51.0243482433492","2.94762403242223","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE",NA,"Zarrenbeek",NA,NA,"YES","I_8840_6",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Staden","8840","2","1496",NA,"50.9938746278352","3.01126065168251","West-Vlaanderen",NA,NA
-"FALSE","FALSE","Woumen, Rapestraat","Stenensluisvaart",NA,NA,"YES","I_8600_5",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Diksmuide","8600","1","1379",NA,"51.0006078710428","2.82926656995696","VMM",NA,"d.slootmaekers@vmm.be"
+"ONHOLD","ONHOLD","Woumen, Rapestraat","Stenensluisvaart","zjhlnjq4",NA,"YES","I_8600_5",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Diksmuide","8600","1","1379",NA,"51.0006079","2.8292666","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Woumen, Noordbroekstraat, Rillebroek","Stenensluisvaart",NA,NA,"YES","I_8600_6",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Diksmuide","8600","1","1379",NA,"50.9949931676546","2.83513566233399","VMM",NA,"d.slootmaekers@vmm.be"
-"FALSE","FALSE","Woumen, Noordbroekstraat, Rillebroek","Noordkantvaart",NA,NA,"YES","I_8600_7",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Diksmuide","8600","1","2083",NA,"51.0001744646338","2.84640795351695","VMM",NA,"d.slootmaekers@vmm.be"
+"ONHOLD","ONHOLD","Woumen, Noordbroekstraat, Rillebroek","Noordkantvaart","zjhlnjq4",NA,"YES","I_8600_7",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Diksmuide","8600","1","2083",NA,"51.0001745","2.846408","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Rijselseweg, landweg lgs spoorweg","Ieperlee",NA,NA,"YES","I_8900_2",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Ieper","8900","1","1206",NA,"50.8355208535783","2.89160772496389","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Merkem, Ketsedijk","Martjevaart",NA,NA,"YES","I_8650_2",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Houthulst","8650","1","1216",NA,"50.9563211263981","2.82952414278949","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Merkem, Iepersteenweg","Martjevaart",NA,NA,"YES","I_8920_4",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Langemark-Poelkapelle","8920","1","10592",NA,"50.9403941042036","2.86045753195041","VMM",NA,"d.slootmaekers@vmm.be"
@@ -972,7 +972,7 @@
 "FALSE","FALSE",NA,"Yser-IJzer",NA,NA,"YES","I_8972_2",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Poperinge","8972","0","0",NA,"50.9116887333862","2.60737947107892",NA,NA,NA
 "FALSE","FALSE",NA,"Lovaart",NA,NA,"YES","I_8690_2",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Alveringem","8690","0","0",NA,"51.01944380784","2.72230504436411",NA,NA,NA
 "TRUE","TRUE",NA,"Lovaart","nzm3mdi0",NA,"YES","I_8647_7",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Lo-Reninge","8647","NA","NA",NA,"50.9716344","2.7377762",NA,NA,NA
-"FALSE","FALSE",NA,NA,NA,NA,"YES","I_8600_8",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Diksmuide","8600",NA,NA,NA,"50.9882039033642","2.81363185089169",NA,NA,NA
+"ONHOLD","ONHOLD",NA,"Ijzer","zjhlnjq4",NA,"YES","I_8600_8",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Diksmuide","8600",NA,NA,NA,"50.9882039","2.8136319",NA,NA,NA
 "FALSE","FALSE",NA,NA,NA,NA,"YES","I_8650_3",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Houthulst","8650",NA,NA,NA,"50.9629665784883","2.81989477679407",NA,NA,NA
 "TRUE","TRUE",NA,NA,"mwzkzmy1","08/07/2024","YES","I_8600_9",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Diksmuide","8600",NA,NA,NA,"51.076334","2.8366286",NA,NA,NA
 "FALSE","FALSE",NA,NA,NA,NA,"YES","I_8600_10",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Diksmuide","8600",NA,NA,NA,"51.1023186019735","2.82048467422401",NA,NA,NA
@@ -1011,7 +1011,7 @@
 "FALSE","FALSE","Oude Leie Astene","Vosselareput",NA,NA,"YES","I_9800_12",NA,NA,"EcoWater","Lentisch",NA,"Oost-Vlaanderen","Deinze","9800",NA,NA,NA,"50.9986962902904","3.56394719898113",NA,NA,NA
 "FALSE","FALSE","Oude Leie Gottem","Leiemeander",NA,NA,"YES","I_9800_13",NA,NA,"EcoWater","Lentisch",NA,"Oost-Vlaanderen","Deinze","9800","0","0",NA,"50.9533582903049","3.45428189902176","Coppens Xavier",NA,"recreatie.ovl.anb@vlaanderen.be"
 "FALSE","FALSE","Oude Leie Oeselgem",NA,NA,NA,"YES","I_8720_4",NA,NA,"EcoWater","Lentisch",NA,"West-Vlaanderen","Dentergem","8720",NA,NA,NA,"50.9332660903111","3.43133049902622","Coppens Xavier",NA,"recreatie.ovl.anb@vlaanderen.be"
-"FALSE","FALSE","Oude Leie Sint-Baafs-Vijve",NA,NA,NA,"YES","I_8710_1",NA,NA,"EcoWater","Lentisch",NA,"West-Vlaanderen","Wielsbeke","8710",NA,NA,NA,"50.9084882524235","3.39017057674634",NA,NA,NA
+"ONHOLD","ONHOLD","Oude Leie Sint-Baafs-Vijve",NA,"njmzowyw",NA,"YES","I_8710_1",NA,NA,"EcoWater","Lentisch",NA,"West-Vlaanderen","Wielsbeke","8710",NA,NA,NA,"50.9084883","3.3901706",NA,NA,NA
 "FALSE","FALSE","Oude Leie Ooigem","Oude Leiearm",NA,NA,"YES","I_8710_2",NA,NA,"EcoWater","Lentisch",NA,"West-Vlaanderen","Wielsbeke","8710","9","0",NA,"50.8951289903234","3.34409459905757","Coppens Xavier",NA,"recreatie.wvl.anb@vlaanderen.be"
 "FALSE","FALSE","Oude Leie Bavikhove","Oude Leiearm Bavikhove",NA,NA,"YES","I_8531_2",NA,NA,"EcoWater","Lentisch",NA,"West-Vlaanderen","Harelbeke","8531",NA,NA,NA,"50.8784134903287","3.32367279906194",NA,NA,NA
 "TRUE","TRUE","Oude Leie Wevelgem Leiebos",NA,"zguxztnj","12/07/24","YES","I_8560_4",NA,NA,"EcoWater","Lentisch",NA,"West-Vlaanderen","Wevelgem","8560",NA,NA,NA,"50.8066401","3.2026969","Coppens Xavier",NA,"recreatie.wvl.anb@vlaanderen.be"
@@ -1098,7 +1098,7 @@
 "FALSE","FALSE","Meilegem,Oude Scheldestraat,ten noorden van Hve De Kaai",NA,NA,NA,"YES","I_9636_4",NA,NA,"ANB_Mtp","Lentisch",NA,"Oost-Vlaanderen","Zwalm","9636",NA,NA,NA,"50.9043048566712","3.68905467972068","Coppens Xavier",NA,"recreatie.ovl.anb@vlaanderen.be"
 "FALSE","FALSE","Sint-Baafs-Vijve, Sint-Bavostraat",NA,NA,NA,"YES","I_8710_5",NA,NA,"ANB_Mtp","Lentisch",NA,"West-Vlaanderen","Wielsbeke","8710",NA,NA,NA,"50.9034986369272","3.38207993505722","Coppens Xavier",NA,"recreatie.wvl.anb@vlaanderen.be"
 "TRUE","TRUE","Moorseelsesteenweg, Sterrebosvijver",NA,"nzi3zgyy","TBD","YES","I_8800_3","Aanvraag indienen en mail naar Tom Desodt",NA,"ANB_Mtp","Lentisch",NA,"West-Vlaanderen","Roeselare","8800",NA,NA,NA,"50.9270384","3.137029",NA,NA,NA
-"FALSE","FALSE","Oeselgem, Zultse Meers",NA,NA,NA,"YES","I_9870_2",NA,NA,"ANB_Mtp","Lentisch",NA,"Oost-Vlaanderen","Zulte","9870","9","0",NA,"50.9332243446539","3.43140917238899","Coppens Xavier",NA,"recreatie.ovl.anb@vlaanderen.be"
+"ONHOLD","ONHOLD","Oeselgem, Zultse Meers",NA,"njmzowyw",NA,"YES","I_9870_2",NA,NA,"ANB_Mtp","Lentisch",NA,"Oost-Vlaanderen","Zulte","9870","9","0",NA,"50.9332243","3.4314092","Coppens Xavier",NA,"recreatie.ovl.anb@vlaanderen.be"
 "FALSE","FALSE","Semmerzake, Kriephoek, einde pad lgs Scheldearm","Kriephoek",NA,NA,"YES","I_9890_7",NA,NA,"ANB_Mtp","Lentisch",NA,"Oost-Vlaanderen","Gavere","9890","0","0",NA,"50.9522153","3.6653481","Coppens Xavier",NA,"recreatie.ovl.anb@vlaanderen.be"
 "TRUE","TRUE","Melsen,Scheldekaai","Teerlinckput","ytvimtiz","21/8/24","YES","I_9820_5",NA,NA,"ANB_Mtp","Lentisch",NA,"Oost-Vlaanderen","Merelbeke","9820",NA,NA,NA,"50.9566251","3.6860056","Coppens Xavier",NA,"recreatie.ovl.anb@vlaanderen.be"
 "FALSE","FALSE","Meer van Rotselaar - ter hoogte van rietkraag (zone vispaaiplaats) oost","Rotselaar Meer",NA,NA,"YES","I_3110_5",NA,NA,"ANB_Mtp","Lentisch",NA,"Vlaams-Brabant","Rotselaar","3110",NA,NA,NA,"50.9594283842464","4.73078359166638","Saey Frank",NA,"recreatie.vbr.anb@vlaanderen.be"
@@ -1581,4 +1581,7 @@
 "TRUE","TRUE",NA,NA,"nzzmzdm3","2/8/24","NO","V_2490_8",NA,NA,NA,NA,NA,"Antwerpen","Balen","2490",NA,NA,NA,"51.17374","5.244323","Quintens Hildegarde",NA,"recreatie.ant.anb@vlaanderen.be"
 "ONHOLD","ONHOLD",NA,"Middelbeek","nwnizjfi","TBD","NO","V_3290_13",NA,NA,NA,NA,NA,"Vlaams-Brabant","Diest","3290","NA","NA",NA,"51.0273549","5.106811",NA,NA,NA
 "ONHOLD","ONHOLD",NA,"Kleine Boor","nwnizjfi","TBD","YES","I_3290_14",NA,NA,NA,NA,NA,"Vlaams-Brabant","Diest","3290","NA","NA",NA,"51.0196521","5.0731681",NA,NA,NA
-"ONHOLD","ONHOLD",NA,"Steengote","mtm4ytcx",NA,"NO","V_9240_5",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Zele","9240",NA,NA,NA,"51.062782","4.081158",NA,NA,NA
+"ONHOLD","ONHOLD",NA,"Steengote","mtm4ytcx",NA,"NO","V_9240_5",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Zele","9240","NA","NA",NA,"51.062782","4.081158",NA,NA,NA
+"ONHOLD","ONHOLD",NA,NA,"owu5nznl",NA,"NO","V_8560_8",NA,NA,NA,NA,NA,"West-Vlaanderen","Wevelgem","8560",NA,NA,NA,"50.844984","3.215365",NA,NA,NA
+"ONHOLD","ONHOLD",NA,NA,"owu5nznl",NA,"NO","V_8560_9",NA,NA,NA,NA,NA,"West-Vlaanderen","Wevelgem","8560",NA,NA,NA,"50.807755","3.209974","Coppens Xavier",NA,"recreatie.wvl.anb@vlaanderen.be"
+"ONHOLD","ONHOLD",NA,NA,"owu5nznl",NA,"NO","V_8560_10",NA,NA,NA,NA,NA,"West-Vlaanderen","Wevelgem","8560",NA,NA,NA,"50.806901","3.205077",NA,NA,NA
