@@ -36,6 +36,42 @@
         <styleUrl>#icon-1789-558B2F-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    <Style id="icon-1899-0F9D58-normal">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0F9D58-highlight">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0F9D58">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0F9D58-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0F9D58-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Style id="icon-1899-F9A825-normal">
       <IconStyle>
         <color>ff25a8f9</color>
@@ -16310,7 +16346,7 @@
     </Placemark>
     <Placemark>
       <name>FALSE</name>
-      <description><![CDATA[updateRes: FALSE<br>OMSCHR: Wilsele-Putkapel, Weggevoerdenstr/Vuntlaan, afw brug (FC), 50 m opw brug (BBI)<br>NAAM: Vunt<br>vrijwillID: <br>startDate: NA<br>SugbyINBO: YES<br>locID: I_3012_3<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: Vlaams-Brabant<br>gemeente: Leuven<br>postcode: 3012<br>CATC: 1<br>VHAG: 6603<br>WVLC: NA<br>Latitude: 50.9246625<br>Longitude: 4.7147897<br>Beheerder: VMM<br>Bhrtel: NA<br>Bhremail: d.slootmaekers@vmm.be]]></description>
+      <description><![CDATA[updateRes: FALSE<br>OMSCHR: Wilsele-Putkapel, Weggevoerdenstr/Vuntlaan, afw brug (FC), 50 m opw brug (BBI)<br>NAAM: Vunt<br>vrijwillID: NA<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_3012_3<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: Vlaams-Brabant<br>gemeente: Leuven<br>postcode: 3012<br>CATC: 1<br>VHAG: 6603<br>WVLC: NA<br>Latitude: 50.9246625<br>Longitude: 4.7147897<br>Beheerder: VMM<br>Bhrtel: NA<br>Bhremail: d.slootmaekers@vmm.be]]></description>
       <styleUrl>#icon-1789-558B2F</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
@@ -16323,7 +16359,7 @@
           <value>Vunt</value>
         </Data>
         <Data name="vrijwillID">
-          <value/>
+          <value>NA</value>
         </Data>
         <Data name="startDate">
           <value>NA</value>
@@ -25219,9 +25255,9 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>FALSE</name>
+      <name>ONHOLD</name>
       <description><![CDATA[updateRes: ONHOLD<br>OMSCHR: Melsen,Wassemstraat,opw weg<br>NAAM: Molenbeek<br>vrijwillID: mdu1yja5<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_9820_2<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: Oost-Vlaanderen<br>gemeente: Merelbeke<br>postcode: 9820<br>CATC: 2<br>VHAG: 5675<br>WVLC: NA<br>Latitude: 50.9507837<br>Longitude: 3.7083912<br>Beheerder: Coppens Xavier<br>Bhrtel: NA<br>Bhremail: recreatie.ovl.anb@vlaanderen.be]]></description>
-      <styleUrl>#icon-1789-558B2F</styleUrl>
+      <styleUrl>#icon-1899-F9A825</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
           <value>ONHOLD</value>
@@ -30484,9 +30520,9 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>ONHOLD</name>
+      <name>TRUE</name>
       <description><![CDATA[updateRes: TRUE<br>OMSCHR: Abtsdreef, afw brug, afw Fort Stabroek<br>NAAM: Antitankkanaal<br>vrijwillID: nzi4mtm4<br>startDate: TBD<br>SugbyINBO: YES<br>locID: I_2940_1<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: Antwerpen<br>gemeente: Stabroek<br>postcode: 2940<br>CATC: 1<br>VHAG: 113<br>WVLC: NA<br>Latitude: 51.3412834<br>Longitude: 4.3502764<br>Beheerder: VMM<br>Bhrtel: NA<br>Bhremail: d.slootmaekers@vmm.be]]></description>
-      <styleUrl>#icon-1899-F9A825</styleUrl>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
           <value>TRUE</value>
@@ -32509,9 +32545,9 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>ONHOLD</name>
+      <name>TRUE</name>
       <description><![CDATA[updateRes: TRUE<br>OMSCHR: Neerpelt, Volmolenstr, opw weg<br>NAAM: Dommel<br>vrijwillID: yjvinjli<br>startDate: TBD<br>SugbyINBO: YES<br>locID: I_3910_2<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: Limburg<br>gemeente: Pelt<br>postcode: 3910<br>CATC: 1<br>VHAG: 9512<br>WVLC: NA<br>Latitude: 51.2358368<br>Longitude: 5.4214858<br>Beheerder: VMM<br>Bhrtel: NA<br>Bhremail: d.slootmaekers@vmm.be]]></description>
-      <styleUrl>#icon-1899-F9A825</styleUrl>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
           <value>TRUE</value>
@@ -33319,9 +33355,9 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>ONHOLD</name>
+      <name>TRUE</name>
       <description><![CDATA[updateRes: TRUE<br>OMSCHR: Kleine-Brogel,opw brug aan woning (galerie Daelhoxent)<br>NAAM: Dommel<br>vrijwillID: yjvinjli<br>startDate: TBD<br>SugbyINBO: YES<br>locID: I_3900_2<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: Limburg<br>gemeente: Pelt<br>postcode: 3900<br>CATC: 1<br>VHAG: 9512<br>WVLC: NA<br>Latitude: 51.173029<br>Longitude: 5.437316<br>Beheerder: VMM<br>Bhrtel: NA<br>Bhremail: d.slootmaekers@vmm.be]]></description>
-      <styleUrl>#icon-1899-F9A825</styleUrl>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
           <value>TRUE</value>
@@ -37774,9 +37810,9 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>ONHOLD</name>
+      <name>TRUE</name>
       <description><![CDATA[updateRes: TRUE<br>OMSCHR: Ekeren (Leugenberg); Edisonlaan; naast Voorgracht aan brug waar Hoofdgracht onderdoor gaat<br>NAAM: Hoofdgracht<br>vrijwillID: nzi4mtm4<br>startDate: TBD<br>SugbyINBO: YES<br>locID: I_2180_1<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: Antwerpen<br>gemeente: Antwerpen<br>postcode: 2180<br>CATC: 1<br>VHAG: 3104<br>WVLC: NA<br>Latitude: 51.2921729<br>Longitude: 4.4059522<br>Beheerder: VMM<br>Bhrtel: NA<br>Bhremail: d.slootmaekers@vmm.be]]></description>
-      <styleUrl>#icon-1899-F9A825</styleUrl>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
           <value>TRUE</value>
@@ -52111,9 +52147,9 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>FALSE</name>
+      <name>ONHOLD</name>
       <description><![CDATA[updateRes: ONHOLD<br>OMSCHR: Heverlee, Tervuursevest, opw 478000<br>NAAM: Voer<br>vrijwillID: owzjzmi2<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_3001_4<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: Vlaams-Brabant<br>gemeente: Leuven<br>postcode: 3001<br>CATC: 1<br>VHAG: 6919<br>WVLC: NA<br>Latitude: 50.8715217<br>Longitude: 4.6903964<br>Beheerder: VMM<br>Bhrtel: NA<br>Bhremail: d.slootmaekers@vmm.be]]></description>
-      <styleUrl>#icon-1789-558B2F</styleUrl>
+      <styleUrl>#icon-1899-F9A825</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
           <value>ONHOLD</value>
@@ -52516,9 +52552,9 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>FALSE</name>
+      <name>ONHOLD</name>
       <description><![CDATA[updateRes: ONHOLD<br>OMSCHR: IJzeren Brugje, Oaseln, 20m afw 482000<br>NAAM: Molenbeek<br>vrijwillID: owzjzmi2<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_3000_3<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: Vlaams-Brabant<br>gemeente: Leuven<br>postcode: 3000<br>CATC: 2<br>VHAG: 6557<br>WVLC: NA<br>Latitude: 50.8601116<br>Longitude: 4.7393212<br>Beheerder: Vlaams-Brabant<br>Bhrtel: NA<br>Bhremail: ingrid.beuls@vlaamsbrabant.be]]></description>
-      <styleUrl>#icon-1789-558B2F</styleUrl>
+      <styleUrl>#icon-1899-F9A825</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
           <value>ONHOLD</value>
@@ -76816,9 +76852,9 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>FALSE</name>
+      <name>ONHOLD</name>
       <description><![CDATA[updateRes: ONHOLD<br>OMSCHR: NA<br>NAAM: NA<br>vrijwillID: njjkzwfl<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_8460_2<br>restricties: NA<br>Sampler: NA<br>dataset: NA<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: West-Vlaanderen<br>gemeente: Oudenburg<br>postcode: 8460<br>CATC: 2<br>VHAG: 0<br>WVLC: NA<br>Latitude: 51.2057176<br>Longitude: 3.0240857<br>Beheerder: Nieuwe Polder van Blankenberge<br>Bhrtel: 050/321790<br>Bhremail: info@polderblankenberge.be]]></description>
-      <styleUrl>#icon-1789-558B2F</styleUrl>
+      <styleUrl>#icon-1899-F9A825</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
           <value>ONHOLD</value>
@@ -77059,9 +77095,9 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>FALSE</name>
-      <description><![CDATA[updateRes: ONHOLD<br>OMSCHR: NA<br>NAAM: NA<br>vrijwillID: njjkzwfl<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_8420_1<br>restricties: NA<br>Sampler: NA<br>dataset: NA<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: West-Vlaanderen<br>gemeente: De Haan<br>postcode: 8420<br>CATC: NA<br>VHAG: NA<br>WVLC: NA<br>Latitude: 51.228075<br>Longitude: 3.0407048<br>Beheerder: NA<br>Bhrtel: NA<br>Bhremail: NA]]></description>
-      <styleUrl>#icon-1789-558B2F</styleUrl>
+      <name>ONHOLD</name>
+      <description><![CDATA[updateRes: ONHOLD<br>OMSCHR: NA<br>NAAM: Noordede<br>vrijwillID: njjkzwfl<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_8420_1<br>restricties: NA<br>Sampler: NA<br>dataset: NA<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: West-Vlaanderen<br>gemeente: De Haan<br>postcode: 8420<br>CATC: NA<br>VHAG: NA<br>WVLC: NA<br>Latitude: 51.228075<br>Longitude: 3.0407048<br>Beheerder: NA<br>Bhrtel: NA<br>Bhremail: NA]]></description>
+      <styleUrl>#icon-1899-F9A825</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
           <value>ONHOLD</value>
@@ -77070,7 +77106,7 @@
           <value>NA</value>
         </Data>
         <Data name="NAAM">
-          <value>NA</value>
+          <value>Noordede</value>
         </Data>
         <Data name="vrijwillID">
           <value>njjkzwfl</value>
@@ -77950,9 +77986,9 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>FALSE</name>
+      <name>ONHOLD</name>
       <description><![CDATA[updateRes: ONHOLD<br>OMSCHR: NA<br>NAAM: Duiveketezwin<br>vrijwillID: njjkzwfl<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_8420_3<br>restricties: NA<br>Sampler: NA<br>dataset: NA<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: West-Vlaanderen<br>gemeente: De Haan<br>postcode: 8420<br>CATC: 2<br>VHAG: 0<br>WVLC: NA<br>Latitude: 51.2368122<br>Longitude: 2.9986906<br>Beheerder: Nieuwe Polder van Blankenberge<br>Bhrtel: 050/321790<br>Bhremail: info@polderblankenberge.be]]></description>
-      <styleUrl>#icon-1789-558B2F</styleUrl>
+      <styleUrl>#icon-1899-F9A825</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
           <value>ONHOLD</value>
@@ -92855,7 +92891,7 @@
     </Placemark>
     <Placemark>
       <name>FALSE</name>
-      <description><![CDATA[updateRes: FALSE<br>OMSCHR: gestreepte Amerikaanse rivierkreeft aanwezig (sinds 2015?)<br>NAAM: NA<br>vrijwillID: NA<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_2920_9<br>restricties: prive eigendom: niet gebruiken<br>Sampler: NA<br>dataset: Scheers<br>SystemType: Lentisch<br>GEBIED: NA<br>provincie: Antwerpen<br>gemeente: Kalmthout<br>postcode: 2920<br>CATC: NA<br>VHAG: NA<br>WVLC: NA<br>Latitude: 51.428769<br>Longitude: 4.5248433<br>Beheerder: NA<br>Bhrtel: NA<br>Bhremail: NA]]></description>
+      <description><![CDATA[updateRes: FALSE<br>OMSCHR: gestreepte Amerikaanse rivierkreeft aanwezig (sinds 2015?)<br>NAAM: NA<br>vrijwillID: NA<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_2920_9<br>restricties: NA<br>Sampler: NA<br>dataset: Scheers<br>SystemType: Lentisch<br>GEBIED: NA<br>provincie: Antwerpen<br>gemeente: Kalmthout<br>postcode: 2920<br>CATC: NA<br>VHAG: NA<br>WVLC: NA<br>Latitude: 51.428769<br>Longitude: 4.5248433<br>Beheerder: NA<br>Bhrtel: NA<br>Bhremail: NA]]></description>
       <styleUrl>#icon-1789-558B2F</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
@@ -92880,7 +92916,7 @@
           <value>I_2920_9</value>
         </Data>
         <Data name="restricties">
-          <value>prive eigendom: niet gebruiken</value>
+          <value>NA</value>
         </Data>
         <Data name="Sampler">
           <value>NA</value>
@@ -99820,9 +99856,9 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>ONHOLD</name>
+      <name>TRUE</name>
       <description><![CDATA[updateRes: TRUE<br>OMSCHR: recreation area, Overmeers<br>NAAM: Schoonmeersvijver<br>vrijwillID: nzkzyzvh<br>startDate: TBD<br>SugbyINBO: YES<br>locID: I_9000_6<br>restricties: NA<br>Sampler: NA<br>dataset: Scheers<br>SystemType: Lentisch<br>GEBIED: NA<br>provincie: Oost-Vlaanderen<br>gemeente: Gent<br>postcode: 9000<br>CATC: NA<br>VHAG: NA<br>WVLC: NA<br>Latitude: 51.0339201<br>Longitude: 3.6972447<br>Beheerder: NA<br>Bhrtel: NA<br>Bhremail: NA]]></description>
-      <styleUrl>#icon-1899-F9A825</styleUrl>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
           <value>TRUE</value>
@@ -122339,7 +122375,7 @@
     </Placemark>
     <Placemark>
       <name>FALSE</name>
-      <description><![CDATA[updateRes: FALSE<br>OMSCHR: extra punt Kevin<br>NAAM: Lemingsbeek<br>vrijwillID: <br>startDate: NA<br>SugbyINBO: YES<br>locID: I_3010_15<br>restricties: NA<br>Sampler: NA<br>dataset: NA<br>SystemType: NA<br>GEBIED: NA<br>provincie: Vlaams-Brabant<br>gemeente: Leuven<br>postcode: 3010<br>CATC: NA<br>VHAG: NA<br>WVLC: NA<br>Latitude: 50.904574<br>Longitude: 4.7185382<br>Beheerder: NA<br>Bhrtel: NA<br>Bhremail: NA]]></description>
+      <description><![CDATA[updateRes: FALSE<br>OMSCHR: extra punt Kevin<br>NAAM: Lemingsbeek<br>vrijwillID: NA<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_3010_15<br>restricties: NA<br>Sampler: NA<br>dataset: NA<br>SystemType: NA<br>GEBIED: NA<br>provincie: Vlaams-Brabant<br>gemeente: Leuven<br>postcode: 3010<br>CATC: NA<br>VHAG: NA<br>WVLC: NA<br>Latitude: 50.904574<br>Longitude: 4.7185382<br>Beheerder: NA<br>Bhrtel: NA<br>Bhremail: NA]]></description>
       <styleUrl>#icon-1789-558B2F</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
@@ -122352,7 +122388,7 @@
           <value>Lemingsbeek</value>
         </Data>
         <Data name="vrijwillID">
-          <value/>
+          <value>NA</value>
         </Data>
         <Data name="startDate">
           <value>NA</value>
@@ -125740,9 +125776,9 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>ONHOLD</name>
+      <name>TRUE</name>
       <description><![CDATA[updateRes: TRUE<br>OMSCHR: NA<br>NAAM: Schelderodeput<br>vrijwillID: mdu1yja5<br>startDate: 08/24<br>SugbyINBO: YES<br>locID: I_9820_8<br>restricties: NA<br>Sampler: NA<br>dataset: NA<br>SystemType: NA<br>GEBIED: NA<br>provincie: Oost-Vlaanderen<br>gemeente: Merelbeke<br>postcode: 9820<br>CATC: NA<br>VHAG: NA<br>WVLC: NA<br>Latitude: 50.977823<br>Longitude: 3.7128887<br>Beheerder: NA<br>Bhrtel: NA<br>Bhremail: NA]]></description>
-      <styleUrl>#icon-1899-F9A825</styleUrl>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
           <value>TRUE</value>
@@ -127684,15 +127720,15 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>FALSE</name>
-      <description><![CDATA[updateRes: ONHOLD<br>OMSCHR: <br>NAAM: Vunt<br>vrijwillID: owzjzmi2<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_3010_2<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: Vlaams-Brabant<br>gemeente: Leuven<br>postcode: 3010<br>CATC: 1<br>VHAG: 6603<br>WVLC: NA<br>Latitude: 50.892316<br>Longitude: 4.711942<br>Beheerder: VMM<br>Bhrtel: NA<br>Bhremail: d.slootmaekers@vmm.be]]></description>
-      <styleUrl>#icon-1789-558B2F</styleUrl>
+      <name>ONHOLD</name>
+      <description><![CDATA[updateRes: ONHOLD<br>OMSCHR: NA<br>NAAM: Vunt<br>vrijwillID: owzjzmi2<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_3010_2<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: Vlaams-Brabant<br>gemeente: Leuven<br>postcode: 3010<br>CATC: 1<br>VHAG: 6603<br>WVLC: NA<br>Latitude: 50.892316<br>Longitude: 4.711942<br>Beheerder: VMM<br>Bhrtel: NA<br>Bhremail: d.slootmaekers@vmm.be]]></description>
+      <styleUrl>#icon-1899-F9A825</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
           <value>ONHOLD</value>
         </Data>
         <Data name="OMSCHR">
-          <value/>
+          <value>NA</value>
         </Data>
         <Data name="NAAM">
           <value>Vunt</value>
@@ -127761,6 +127797,87 @@
       <Point>
         <coordinates>
           4.711942,50.892316,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>51.248411, 5.417030</name>
+      <description><![CDATA[updateRes: ONHOLD<br>OMSCHR: Bezoekerscentrum De Wulp<br>NAAM: <br>vrijwillID: mdflzwm0<br>startDate: <br>SugbyINBO: YES<br>locID: <br>restricties: <br>Sampler: <br>dataset: <br>SystemType: <br>GEBIED: <br>provincie: <br>gemeente: <br>postcode: <br>CATC: <br>VHAG: <br>WVLC: <br>Latitude: 51.248411<br>Longitude: 5.41703<br>Beheerder: <br>Bhrtel: <br>Bhremail: ]]></description>
+      <styleUrl>#icon-1899-0F9D58</styleUrl>
+      <ExtendedData>
+        <Data name="updateRes">
+          <value>ONHOLD</value>
+        </Data>
+        <Data name="OMSCHR">
+          <value>Bezoekerscentrum De Wulp</value>
+        </Data>
+        <Data name="NAAM">
+          <value/>
+        </Data>
+        <Data name="vrijwillID">
+          <value>mdflzwm0</value>
+        </Data>
+        <Data name="startDate">
+          <value/>
+        </Data>
+        <Data name="SugbyINBO">
+          <value>YES</value>
+        </Data>
+        <Data name="locID">
+          <value/>
+        </Data>
+        <Data name="restricties">
+          <value/>
+        </Data>
+        <Data name="Sampler">
+          <value/>
+        </Data>
+        <Data name="dataset">
+          <value/>
+        </Data>
+        <Data name="SystemType">
+          <value/>
+        </Data>
+        <Data name="GEBIED">
+          <value/>
+        </Data>
+        <Data name="provincie">
+          <value/>
+        </Data>
+        <Data name="gemeente">
+          <value/>
+        </Data>
+        <Data name="postcode">
+          <value/>
+        </Data>
+        <Data name="CATC">
+          <value/>
+        </Data>
+        <Data name="VHAG">
+          <value/>
+        </Data>
+        <Data name="WVLC">
+          <value/>
+        </Data>
+        <Data name="Latitude">
+          <value>51.248411</value>
+        </Data>
+        <Data name="Longitude">
+          <value>5.41703</value>
+        </Data>
+        <Data name="Beheerder">
+          <value/>
+        </Data>
+        <Data name="Bhrtel">
+          <value/>
+        </Data>
+        <Data name="Bhremail">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          5.41703,51.248411,0
         </coordinates>
       </Point>
     </Placemark>
