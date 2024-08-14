@@ -593,7 +593,7 @@
 "FALSE","FALSE","Paal, Zwarte Beekstr ten einde, via onverharde weg tot aan brugje, afw brugje","Zwarte Beek",NA,NA,"YES","I_3583_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Limburg","Beringen","3583","1","7157",NA,"51.0315836522526","5.19916376144752","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Meldert/Lummen, St-Lutgardisstr, voorbij paaltje (uittrekken), dr 2 weiafspanningen, begin traj op 419400","Zwarte Beek",NA,NA,"YES","I_3560_4",NA,NA,"VMM_Mtp","Lotisch",NA,"Limburg","Lummen","3560","1","7157",NA,"51.0139241975792","5.17517966384059","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Koersel, Stalse Molenstr, einde traj aan eik LO, afw Stalse Molen en 30m afw brugje","Zwarte Beek",NA,NA,"YES","I_3582_2",NA,NA,"VMM_Mtp","Lotisch",NA,"Limburg","Beringen","3582","2","7157",NA,"51.0619585877352","5.24513925297759","Limburg",NA,"christel.bouchet@limburg.be"
-"ONHOLD","ONHOLD","Koersel, via Stalse Schansstr, tot op einde, dan rechts, ongeveer 200m doorrijden tot populierenbos.","Zwarte Beek","mzc5yzc3",NA,"YES","I_3582_3","beheerder zegt ok",NA,"VMM_Mtp","Lotisch",NA,"Limburg","Beringen","3582","2","7157",NA,"51.0690631","5.2555738","Limburg",NA,"christel.bouchet@limburg.be"
+"FALSE","FALSE","Koersel, via Stalse Schansstr, tot op einde, dan rechts, ongeveer 200m doorrijden tot populierenbos.","Zwarte Beek",NA,NA,"YES","I_3582_3","beheerder zegt ok",NA,"VMM_Mtp","Lotisch",NA,"Limburg","Beringen","3582","2","7157",NA,"51.0690631","5.2555738","Limburg",NA,"christel.bouchet@limburg.be"
 "FALSE","FALSE","Stal, Nieuwendijk naast huis nr 4, opw brug tot aan betonnen brugje (ongev 50m)","Zwarte Beek","mzc5yzc3",NA,"YES","I_3582_4","beheerder wil liever niet hier",NA,"VMM_Mtp","Lotisch",NA,"Limburg","Beringen","3582","2","7157",NA,"51.0730024","5.2660079","Limburg",NA,"christel.bouchet@limburg.be"
 "FALSE","FALSE","25/5-6; Halen; onverhard gedeelte Eksterhoekstraat volgen; voorbij hoeve 1ste weg links; begin traject 100m afw brugje","Zwartwater",NA,NA,"YES","I_3545_9",NA,NA,"VMM_Mtp","Lotisch",NA,"Limburg","Halen","3545","1","7621",NA,"50.9748315278706","5.08445980128567","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","25/5-6. Zelk; zijstraat Zelemstraat; rijden naar MP 396000; weg over brug aan MP 396000 volgen; begin traject 10m opw brug","Zwartwater",NA,NA,"YES","I_3545_10",NA,NA,"VMM_Mtp","Lotisch",NA,"Limburg","Halen","3545","1","7621",NA,"50.9646839692172","5.09589264312242","VMM",NA,"d.slootmaekers@vmm.be"
@@ -1191,7 +1191,7 @@
 "FALSE","FALSE","Access not free in summer, Recreational area, Provincial dom. De Ster","Zeil- & roeivijver",NA,NA,"YES","I_9100_1",NA,NA,"Scheers","Lentisch",NA,"Oost-Vlaanderen","Sint-Niklaas","9100",NA,NA,NA,"51.1699268902353","4.19061289871305",NA,NA,NA
 "FALSE","FALSE",NA,NA,NA,NA,"YES","I_9120_6",NA,NA,"Scheers","Lentisch",NA,"Oost-Vlaanderen","Beveren","9120",NA,NA,NA,"51.1733678","4.2302776",NA,NA,NA
 "FALSE","FALSE",NA,"Halve Maan",NA,NA,"YES","I_2070_1",NA,NA,"Scheers","Lentisch",NA,"Antwerpen","Zwijndrecht","2070",NA,NA,NA,"51.2307452902167","4.29991969867725",NA,NA,NA
-"ONHOLD","ONHOLD","fort",NA,"Chris Van Liefferinge",NA,"YES","I_2600_2",NA,NA,"Scheers","Lentisch",NA,"Antwerpen","Antwerpen","2600",NA,NA,NA,"51.1905352","4.4293877",NA,NA,NA
+"TRUE","TRUE","fort",NA,"zdvjmdzk",NA,"YES","I_2600_2",NA,NA,"Scheers","Lentisch",NA,"Antwerpen","Antwerpen","2600",NA,NA,NA,"51.1905352","4.4293877",NA,NA,NA
 "TRUE","TRUE","fort","Fortgracht","zgjhngvm","TBD","YES","I_2650_1",NA,NA,"Scheers","Lentisch",NA,"Antwerpen","Edegem","2650",NA,NA,NA,"51.1667654","4.4365771",NA,NA,NA
 "TRUE","TRUE","fort",NA,"zgjhngvm","TBD","YES","I_2640_1",NA,NA,"Scheers","Lentisch",NA,"Antwerpen","Mortsel","2640",NA,NA,NA,"51.1718562","4.4609497",NA,NA,NA
 "TRUE","TRUE","fort",NA,"zgjhngvm","TBD","YES","I_2610_1",NA,NA,"Scheers","Lentisch",NA,"Antwerpen","Antwerpen","2610",NA,NA,NA,"51.1634236","4.4021273",NA,NA,NA
@@ -1559,8 +1559,8 @@
 "TRUE","TRUE",NA,"Abeek","ztnhyzk1","TBD","NO","V_3640_15",NA,NA,NA,NA,NA,"Limburg","Kinrooi","3640","NA","NA",NA,"51.162806","5.741083",NA,NA,NA
 "TRUE","TRUE",NA,NA,"nzzmzdm3",NA,"NO","V_2491_3",NA,NA,NA,NA,NA,"Antwerpen","Balen","2491",NA,NA,NA,"51.1461648","5.1410524",NA,NA,NA
 "TRUE","TRUE",NA,NA,"nzzmzdm3",NA,"NO","V_2491_4",NA,NA,NA,NA,NA,"Antwerpen","Balen","2491",NA,NA,NA,"51.1458209","5.1421366",NA,NA,NA
-"ONHOLD","ONHOLD",NA,"Vogelzang","zdvjmdzk",NA,"YES","I_2020_1",NA,NA,NA,NA,NA,"Antwerpen","Antwerpen","2020",NA,NA,NA,"51.18664","4.40863",NA,NA,NA
-"ONHOLD","ONHOLD","gracht rond Middelheimmuseum",NA,"zdvjmdzk",NA,"YES","I_2020_2",NA,NA,NA,NA,NA,"Antwerpen","Antwerpen","2020",NA,NA,NA,"51.17985","4.4122",NA,NA,NA
+"TRUE","TRUE",NA,"Vogelzang","zdvjmdzk",NA,"YES","I_2020_1",NA,NA,NA,NA,NA,"Antwerpen","Antwerpen","2020",NA,NA,NA,"51.18664","4.40863",NA,NA,NA
+"TRUE","TRUE","gracht rond Middelheimmuseum",NA,"zdvjmdzk",NA,"YES","I_2020_2",NA,NA,NA,NA,NA,"Antwerpen","Antwerpen","2020",NA,NA,NA,"51.17985","4.4122",NA,NA,NA
 "TRUE","TRUE",NA,"Hollebeek","ymjlzwe4",NA,"NO","V_2610_4",NA,NA,NA,NA,NA,"Antwerpen","Antwerpen","2610","NA","NA",NA,"51.181113","4.3731417",NA,NA,NA
 "TRUE","TRUE",NA,NA,"nzzmzdm3",NA,"NO","V_2491_5",NA,NA,NA,NA,NA,"Antwerpen","Balen","2491",NA,NA,NA,"51.1448134","5.1286907","Quintens Hildegarde",NA,"recreatie.ant.anb@vlaanderen.be"
 "TRUE","TRUE",NA,NA,"nzzmzdm3",NA,"NO","V_2491_6",NA,NA,NA,NA,NA,"Antwerpen","Balen","2491",NA,NA,NA,"51.1436651","5.1272898","Quintens Hildegarde",NA,"recreatie.ant.anb@vlaanderen.be"
@@ -1607,3 +1607,4 @@
 "ONHOLD","ONHOLD",NA,"Demer","owuwmwnj",NA,"YES","I_3118_3",NA,NA,NA,NA,NA,"Vlaams-Brabant","Rotselaar","3118",NA,NA,NA,"50.96851","4.7046893",NA,NA,NA
 "TRUE","TRUE",NA,"Barbierbeek","otniytkz",NA,"NO","V_9100_2",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Sint-Niklaas","9100",NA,NA,NA,"51.1488282","4.1871482",NA,NA,NA
 "TRUE","TRUE",NA,NA,"otniytkz",NA,"NO","V_9100_3",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Sint-Niklaas","9100",NA,NA,NA,"51.1831314","4.1304798",NA,NA,NA
+"TRUE","TRUE",NA,NA,"mdflzwm0",NA,"NO","V_3910_14",NA,NA,NA,NA,NA,"Limburg","Pelt","3910",NA,NA,NA,"51.249836","5.416268",NA,NA,NA
