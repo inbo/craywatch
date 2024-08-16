@@ -702,7 +702,7 @@
 "ONHOLD","ONHOLD","Gottem, Terdonckstraat","Oude Mandel","mgi4zwzi",NA,"YES","I_9800_9",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Deinze","9800","1","4688",NA,"50.9683721","3.4527178","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE",NA,"Speibeek",NA,NA,"YES","I_8700_3",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Tielt","8700","2","4824",NA,"50.9835627","3.3997018","West-Vlaanderen",NA,NA
 "FALSE","FALSE","Graaf Jansdijk, zijweg","Isabellavaart",NA,NA,"YES","I_8300_4",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Knokke-Heist","8300","1","2125",NA,"51.3292259730276","3.3373197440542","VMM",NA,"d.slootmaekers@vmm.be"
-"TRUE","TRUE","St. Baafs-Vijve, Vijvestraat, Hooie","Mandel","njmzowyw","TBD","YES","I_8720_2",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Dentergem","8720","1","4203",NA,"50.9205784","3.4150208","VMM",NA,"d.slootmaekers@vmm.be"
+"TRUE","TRUE","St. Baafs-Vijve, Vijvestraat, Hooie","Mandel","njmzowyw","19/8/24","YES","I_8720_2",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Dentergem","8720","1","4203",NA,"50.9205784","3.4150208","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Berkstraat, Nieuwbrug","Mandel",NA,NA,"YES","I_8720_3",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Dentergem","8720","1","4203",NA,"50.9434534758038","3.37324683354034","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Turkijenstraat, Leembrug","Mandel",NA,NA,"YES","I_8760_2",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Meulebeke","8760","1","4203",NA,"50.9215194925005","3.30669143344085","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Dievestraat, Vliegend paard","Mandel",NA,NA,"YES","I_8770_1",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Ingelmunster","8770","1","4203",NA,"50.9147899704761","3.27770390625212","VMM",NA,"d.slootmaekers@vmm.be"
@@ -1098,7 +1098,7 @@
 "FALSE","FALSE","Meilegem,Oude Scheldestraat,ten noorden van Hve De Kaai",NA,NA,NA,"YES","I_9636_4",NA,NA,"ANB_Mtp","Lentisch",NA,"Oost-Vlaanderen","Zwalm","9636",NA,NA,NA,"50.9043048566712","3.68905467972068","Coppens Xavier",NA,"recreatie.ovl.anb@vlaanderen.be"
 "FALSE","FALSE","Sint-Baafs-Vijve, Sint-Bavostraat",NA,NA,NA,"YES","I_8710_5",NA,NA,"ANB_Mtp","Lentisch",NA,"West-Vlaanderen","Wielsbeke","8710",NA,NA,NA,"50.9034986369272","3.38207993505722","Coppens Xavier",NA,"recreatie.wvl.anb@vlaanderen.be"
 "TRUE","TRUE","Moorseelsesteenweg, Sterrebosvijver",NA,"nzi3zgyy","TBD","YES","I_8800_3","Aanvraag indienen en mail naar Tom Desodt",NA,"ANB_Mtp","Lentisch",NA,"West-Vlaanderen","Roeselare","8800",NA,NA,NA,"50.9270384","3.137029",NA,NA,NA
-"TRUE","TRUE","Oeselgem, Zultse Meers",NA,"njmzowyw","TBD","YES","I_9870_2",NA,NA,"ANB_Mtp","Lentisch",NA,"Oost-Vlaanderen","Zulte","9870","9","0",NA,"50.9332243","3.4314092","Coppens Xavier",NA,"recreatie.ovl.anb@vlaanderen.be"
+"TRUE","TRUE","Oeselgem, Zultse Meers",NA,"njmzowyw","19/8/24","YES","I_9870_2",NA,NA,"ANB_Mtp","Lentisch",NA,"Oost-Vlaanderen","Zulte","9870","9","0",NA,"50.9332243","3.4314092","Coppens Xavier",NA,"recreatie.ovl.anb@vlaanderen.be"
 "FALSE","FALSE","Semmerzake, Kriephoek, einde pad lgs Scheldearm","Kriephoek",NA,NA,"YES","I_9890_7",NA,NA,"ANB_Mtp","Lentisch",NA,"Oost-Vlaanderen","Gavere","9890","0","0",NA,"50.9522153","3.6653481","Coppens Xavier",NA,"recreatie.ovl.anb@vlaanderen.be"
 "TRUE","TRUE","Melsen,Scheldekaai","Teerlinckput","ytvimtiz","21/8/24","YES","I_9820_5",NA,NA,"ANB_Mtp","Lentisch",NA,"Oost-Vlaanderen","Merelbeke","9820",NA,NA,NA,"50.9566251","3.6860056","Coppens Xavier",NA,"recreatie.ovl.anb@vlaanderen.be"
 "FALSE","FALSE","Meer van Rotselaar - ter hoogte van rietkraag (zone vispaaiplaats) oost","Rotselaar Meer",NA,NA,"YES","I_3110_5",NA,NA,"ANB_Mtp","Lentisch",NA,"Vlaams-Brabant","Rotselaar","3110",NA,NA,NA,"50.9594283842464","4.73078359166638","Saey Frank",NA,"recreatie.vbr.anb@vlaanderen.be"
@@ -1476,7 +1476,7 @@
 "ONHOLD","ONHOLD",NA,NA,"mzy5mzq0",NA,"YES","I_9220_5",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Hamme","9220","NA","NA",NA,"51.0784642","4.183568",NA,NA,NA
 "ONHOLD","ONHOLD","extra punt Kevin",NA,"mzy5mzq0",NA,"YES","I_9220_6",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Hamme","9220","NA","NA",NA,"51.0606654","4.1715729",NA,NA,NA
 "ONHOLD","ONHOLD","extra punt Kevin",NA,"mzy5mzq0",NA,"YES","I_9220_7",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Hamme","9220",NA,NA,NA,"51.0616346","4.1465091","Meulebrouck Klaar",NA,"recreatie.ovl.anb@vlaanderen.be"
-"ONHOLD","ONHOLD","extra punt Kevin",NA,"mdm5y2i4",NA,"YES","I_9200_13",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Dendermonde","9200","NA","NA",NA,"51.0517948","4.1226199",NA,NA,NA
+"ONHOLD","ONHOLD","extra punt Kevin",NA,"ngi0ytux",NA,"YES","I_9200_13",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Dendermonde","9200","NA","NA",NA,"51.0517948","4.1226199",NA,NA,NA
 "TRUE","TRUE",NA,NA,"ntq0otk2","26/08/24","YES","I_9050_1",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Gent","9050",NA,NA,NA,"51.0351294","3.7511217",NA,NA,NA
 "FALSE","FALSE","extra punt Kevin",NA,NA,NA,"YES","I_9220_8",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Hamme","9220",NA,NA,NA,"51.0539472","4.1832227",NA,NA,NA
 "TRUE","TRUE",NA,NA,"ntq0otk2","26/08/24","YES","I_9050_2",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Gent","9050",NA,NA,NA,"51.0375743","3.7602421",NA,NA,NA
@@ -1620,3 +1620,6 @@
 "ONHOLD","ONHOLD",NA,"Leopoldkanaal","nwmzmtg3",NA,"YES","I_9961_9",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Assenede","9961","NA","NA",NA,"51.268483","3.685986",NA,NA,NA
 "TRUE","TRUE",NA,NA,"y2zhzmy3",NA,"NO","V_9220_10",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Hamme","9220",NA,NA,NA,"51.074298","4.175564",NA,NA,NA
 "ONHOLD","ONHOLD",NA,NA,"y2zhzmy3",NA,"NO","V_9220_11","prive terrein - voor Sven De Rauw",NA,NA,NA,NA,"Oost-Vlaanderen","Hamme","9220",NA,NA,NA,"51.0746822","4.1771787",NA,NA,NA
+"ONHOLD","ONHOLD",NA,"Volkaardebeek","mdm5y2i4",NA,"NO","V_9200_16","land v Bert Verbist",NA,NA,NA,NA,"Oost-Vlaanderen","Dendermonde","9200",NA,NA,NA,"51.045801","4.114733",NA,NA,NA
+"ONHOLD","ONHOLD",NA,"Bloedbeek","mdm5y2i4",NA,"NO","V_9200_17","land v Bert Verbist",NA,NA,NA,NA,"Oost-Vlaanderen","Dendermonde","9200",NA,NA,NA,"51.045879","4.11165",NA,NA,NA
+"ONHOLD","ONHOLD",NA,NA,"mdm5y2i4",NA,"NO","V_9200_18","land v Bert Verbist",NA,NA,NA,NA,"Oost-Vlaanderen","Dendermonde","9200",NA,NA,NA,"51.046804","4.113049",NA,NA,NA
