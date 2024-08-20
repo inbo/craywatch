@@ -1656,10 +1656,10 @@
 "TRUE","TRUE",NA,"Zuidlede","ndlmngu0","2e helft sept","YES","I_9180_12",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Moerbeke","9180",NA,NA,NA,"51.151791","3.938289",NA,NA,NA
 "ONHOLD","ONHOLD",NA,NA,"mdm4oge4",NA,"NO","V_2830_7",NA,NA,NA,NA,NA,"Antwerpen","Willebroek","2830",NA,NA,NA,"51.0757642","4.3744873",NA,NA,NA
 "ONHOLD","ONHOLD",NA,"Mesureput","zgexogy3",NA,"NO","V_9750_6",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Kruisem","9750",NA,NA,NA,"50.903171","3.685047",NA,NA,NA
-"TRUE","TRUE",NA,"Grote Beverdijkvaart","zmu2zji1","TBD","YES","I_8600_16",NA,NA,NA,NA,NA,"West-Vlaanderen","Diksmuide","8600","NA","NA",NA,"51.07975","2.806389",NA,NA,NA
-"TRUE","TRUE",NA,"Kleine Beverdijkvaart","zmu2zji1","TBD","YES","I_8630_13",NA,NA,NA,NA,NA,"West-Vlaanderen","Veurne","8630","NA","NA",NA,"51.086946","2.765037",NA,NA,NA
+"TRUE","TRUE",NA,"Grote Beverdijkvaart","zmu2zji1","09/24","YES","I_8600_16",NA,NA,NA,NA,NA,"West-Vlaanderen","Diksmuide","8600","NA","NA",NA,"51.07975","2.806389",NA,NA,NA
+"TRUE","TRUE",NA,"Kleine Beverdijkvaart","zmu2zji1","09/24","YES","I_8630_13",NA,NA,NA,NA,NA,"West-Vlaanderen","Veurne","8630","NA","NA",NA,"51.086946","2.765037",NA,NA,NA
 "ONHOLD","ONHOLD",NA,NA,"mdm4oge4",NA,"NO","V_2850_1",NA,NA,NA,NA,NA,"Antwerpen","Boom","2850",NA,NA,NA,"51.091341","4.3834673",NA,NA,NA
-"TRUE","TRUE",NA,"Oude A-vaart","zmu2zji1","TBD","YES","I_8600_17",NA,NA,NA,NA,NA,"West-Vlaanderen","Diksmuide","8600",NA,NA,NA,"51.073806","2.769782",NA,NA,NA
+"TRUE","TRUE",NA,"Oude A-vaart","zmu2zji1","09/24","YES","I_8600_17",NA,NA,NA,NA,NA,"West-Vlaanderen","Diksmuide","8600",NA,NA,NA,"51.073806","2.769782",NA,NA,NA
 "ONHOLD","ONHOLD",NA,NA,"mdm4oge4",NA,"NO","V_2800_9",NA,NA,NA,NA,NA,"Antwerpen","Mechelen","2800",NA,NA,NA,"51.0227107","4.4550347",NA,NA,NA
 "ONHOLD","ONHOLD",NA,"Sint-Trudoledeken","ymfjyju2",NA,"YES","I_8310_5",NA,NA,NA,NA,NA,"West-Vlaanderen","Brugge","8310","NA","NA",NA,"51.185147","3.278781",NA,NA,NA
 "ONHOLD","ONHOLD",NA,NA,"mdm4oge4",NA,"NO","V_2500_8",NA,NA,NA,NA,NA,"Antwerpen","Lier","2500",NA,NA,NA,"51.10687","4.5231917",NA,NA,NA
@@ -1684,5 +1684,8 @@
 "ONHOLD","ONHOLD",NA,NA,"yzc5zdbk",NA,"NO","V_2650_2",NA,NA,NA,NA,NA,"Antwerpen","Edegem","2650",NA,NA,NA,"51.155861","4.409111",NA,NA,NA
 "ONHOLD","ONHOLD",NA,NA,"yzc5zdbk",NA,"NO","V_2650_3",NA,NA,NA,NA,NA,"Antwerpen","Edegem","2650",NA,NA,NA,"51.155417","4.407444",NA,NA,NA
 "ONHOLD","ONHOLD",NA,NA,"yzc5zdbk",NA,"NO","V_2650_4",NA,NA,NA,NA,NA,"Antwerpen","Edegem","2650",NA,NA,NA,"51.156389","4.405889",NA,NA,NA
-"ONHOLD","ONHOLD",NA,"Grote Astbeek","otblmwjl",NA,"NO","V_9250_3",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Waasmunster","9250",NA,NA,NA,"51.1370644","4.039342",NA,NA,NA
-"ONHOLD","ONHOLD",NA,"Klaverbeek","otblmwjl",NA,"NO","V_9112_9",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Sint-Niklaas","9112",NA,NA,NA,"51.1387529","4.0403949",NA,NA,NA
+"ONHOLD","ONHOLD",NA,"Grote Astbeek","otblmwjl",NA,"NO","V_9250_3",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Waasmunster","9250","NA","NA",NA,"51.1370644","4.039342",NA,NA,NA
+"ONHOLD","ONHOLD",NA,"Klaverbeek","otblmwjl",NA,"NO","V_9112_9",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Sint-Niklaas","9112","NA","NA",NA,"51.1387529","4.0403949",NA,NA,NA
+"ONHOLD","ONHOLD",NA,"Zuunbeek","otyyyjk1",NA,"YES","I_1600_9",NA,NA,NA,NA,NA,"Vlaams-Brabant","Sint-Pieters-Leeuw","1600",NA,NA,NA,"50.783287","4.242457",NA,NA,NA
+"ONHOLD","ONHOLD",NA,NA,"otyyyjk1",NA,"YES","I_1600_10",NA,NA,NA,NA,NA,"Vlaams-Brabant","Sint-Pieters-Leeuw","1600",NA,NA,NA,"50.782475","4.239501",NA,NA,NA
+"ONHOLD","ONHOLD",NA,NA,"ztnjowu1",NA,"YES","I_2930_10",NA,NA,NA,NA,NA,"Antwerpen","Brasschaat","2930",NA,NA,NA,"51.2870106","4.5002058",NA,NA,NA
