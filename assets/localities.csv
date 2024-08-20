@@ -60,7 +60,7 @@
 "TRUE","TRUE","Ruisbroek; einde Donkstr - Vlietdijk opw. brug thv pompstation","Grote Molenbeek","zwuxmwy1","09/07/2024","YES","I_2870_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Puurs-Sint-Amands","2870","1","6",NA,"51.095037","4.3174525","VMM",NA,"d.slootmaekers@vmm.be"
 "TRUE","TRUE","Kobbegem; Sint-Goriksstraat, afw Torenhof","Grote Molenbeek","ownlnda3","TBD","YES","I_1730_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Vlaams-Brabant","Asse","1730","2","6",NA,"50.9065872","4.2510468","Vlaams-Brabant",NA,"ingrid.beuls@vlaamsbrabant.be"
 "FALSE","FALSE","Wolvertem, Heidestr, opw. weg","Beek",NA,NA,"YES","I_1861_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Vlaams-Brabant","Meise","1861","2","349",NA,"50.9481571891498","4.30144559221856","Vlaams-Brabant",NA,"ingrid.beuls@vlaamsbrabant.be"
-"TRUE","TRUE","Mansteen","Stambeek","ndzmm2ex","TBD","YES","I_1745_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Vlaams-Brabant","Opwijk","1745","2","615",NA,"50.960996","4.212466","Vlaams-Brabant",NA,"ingrid.beuls@vlaamsbrabant.be"
+"TRUE","TRUE","Mansteen","Stambeek","ndzmm2ex","25/8/24","YES","I_1745_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Vlaams-Brabant","Opwijk","1745","2","615",NA,"50.960996","4.212466","Vlaams-Brabant",NA,"ingrid.beuls@vlaamsbrabant.be"
 "TRUE","TRUE","Ruisbroek, St. Katharinastr., afw Moerloop","Birrebeek","zwuxmwy1","09/07/2024","YES","I_2870_2",NA,NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Puurs-Sint-Amands","2870","1","3106",NA,"51.0746396","4.338863","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Hogerhei, Bosbeekstr einde wegje naast Taverne De Nachtegaal, opw weg","Landbeek",NA,NA,"YES","I_1880_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Vlaams-Brabant","Kapelle-op-den-Bos","1880","2","3171",NA,"50.9972015927551","4.34966622919388","Vlaams-Brabant",NA,"ingrid.beuls@vlaamsbrabant.be"
 "FALSE","FALSE","Amocolaan, langs E313, opw brug en lozing Amoco","Grote Nete",NA,NA,"YES","I_2440_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Geel","2440","1","8501",NA,"51.1165612108819","4.98530232658815","VMM",NA,"d.slootmaekers@vmm.be"
@@ -449,8 +449,8 @@
 "FALSE","FALSE","Ellikom, Neermolenstraat, begin traject 100 m afw verval aan Neermolen, Xcoördinaat","Abeek",NA,NA,"YES","I_3670_4",NA,NA,"VMM_Mtp","Lotisch",NA,"Limburg","Oudsbergen","3670","2","9505",NA,"51.134490824116","5.52140504391744","Limburg",NA,"christel.bouchet@limburg.be"
 "FALSE","FALSE","Ellikom, Brogelerweg, einde traject 10m afw brug","Abeek",NA,NA,"YES","I_3670_5",NA,NA,"VMM_Mtp","Lotisch",NA,"Limburg","Oudsbergen","3670","2","9505",NA,"51.1309585573803","5.52133212499817","Limburg",NA,"christel.bouchet@limburg.be"
 "TRUE","TRUE","begin traject 100m opw molen","Abeek","mznkyti0","15/07/2024","YES","I_3670_6",NA,NA,"VMM_Mtp","Lotisch",NA,"Limburg","Oudsbergen","3670","2","9505",NA,"51.1244491","5.5150079","Limburg",NA,"christel.bouchet@limburg.be"
-"FALSE","FALSE","Boekhoute,Braakmanstraat,Vrije Dijk","Zwartesluisbeek",NA,NA,"YES","I_9961_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Assenede","9961","1","2802",NA,"51.2703389085039","3.74178012745995","VMM",NA,"d.slootmaekers@vmm.be"
-"FALSE","FALSE","Boekhoute,Scheurhoekstraat","Zwartesluisbeek",NA,NA,"YES","I_9960_2",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Assenede","9960","1","2802",NA,"51.2612471816877","3.76342025776063","VMM",NA,"d.slootmaekers@vmm.be"
+"ONHOLD","ONHOLD","Boekhoute,Braakmanstraat,Vrije Dijk","Zwartesluisbeek","ztbjotzi",NA,"YES","I_9961_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Assenede","9961","1","2802",NA,"51.2703389","3.7417801","VMM",NA,"d.slootmaekers@vmm.be"
+"ONHOLD","ONHOLD","Boekhoute,Scheurhoekstraat","Zwartesluisbeek","ztbjotzi",NA,"YES","I_9960_2",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Assenede","9960","1","2802",NA,"51.2612472","3.7634203","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","18/7-8; Wurfeld;onverharde zijweg van Wurfeldermolenweg; begin traject vanaf bomenrij","Bosbeek",NA,NA,"YES","I_3680_5",NA,NA,"VMM_Mtp","Lotisch",NA,"Limburg","Maaseik","3680","1","10004",NA,"51.0939041291675","5.76476057834479","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","18/7-8;Opoeteren; Volmolenstraat ; einde traject 20m afw verval aan MP 135000","Bosbeek",NA,NA,"YES","I_3680_6",NA,NA,"VMM_Mtp","Lotisch",NA,"Limburg","Maaseik","3680","1","10004",NA,"51.0777338042151","5.67510725843161","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Maasmechelen, begin MF-traject 10m opw brug aan MP 139700","Kikbeek",NA,NA,"YES","I_3630_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Limburg","Maasmechelen","3630","2","9986",NA,"50.9620956691412","5.71756865186286","Limburg",NA,"christel.bouchet@limburg.be"
@@ -641,12 +641,12 @@
 "FALSE","FALSE","Romershoven, einde traject afw zijwegje Romershovenstr","Winterbeek",NA,NA,"YES","I_3730_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Limburg","Hoeselt","3730","2","7420",NA,"50.865870724889","5.45483011225191","Limburg",NA,"christel.bouchet@limburg.be"
 "FALSE","FALSE","Wilsele, langs Vuntlaan, 10m opw 476000 en overstort","Vunt",NA,NA,"YES","I_3012_6",NA,NA,"VMM_Mtp","Lotisch",NA,"Vlaams-Brabant","Leuven","3012","1","6603",NA,"50.9241424","4.7150425","VMM",NA,"d.slootmaekers@vmm.be"
 "TRUE","TRUE","Wilsele, Aarschotsestw, afw brug en overstorten","Vunt","mjiyy2uw",NA,"YES","I_3012_7",NA,NA,"VMM_Mtp","Lotisch",NA,"Vlaams-Brabant","Leuven","3012","1","6603",NA,"50.9151847","4.7152261","VMM",NA,"d.slootmaekers@vmm.be"
-"ONHOLD","ONHOLD","Heverlee, Tervuursevest, opw 478000","Voer","owzjzmi2",NA,"YES","I_3001_4",NA,NA,"VMM_Mtp","Lotisch",NA,"Vlaams-Brabant","Leuven","3001","1","6919",NA,"50.8715217","4.6903964","VMM",NA,"d.slootmaekers@vmm.be"
+"ONHOLD","ONHOLD","Heverlee, Tervuursevest, opw 478000","Voer","nwi1ntu1",NA,"YES","I_3001_4",NA,NA,"VMM_Mtp","Lotisch",NA,"Vlaams-Brabant","Leuven","3001","1","6919",NA,"50.8715217","4.6903964","VMM",NA,"d.slootmaekers@vmm.be"
 "TRUE","TRUE","Heverlee, Kapeldreef, laatste bocht voor Heverleebos","Voer","y2nhotdk",NA,"YES","I_3001_5",NA,NA,"VMM_Mtp","Lotisch",NA,"Vlaams-Brabant","Leuven","3001","1","6919",NA,"50.8633361","4.6721017","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Heverlee (Egenhoven), Kapeldreef, 5m opw brugje","Voer",NA,NA,"YES","I_3001_6",NA,NA,"VMM_Mtp","Lotisch",NA,"Vlaams-Brabant","Leuven","3001","1","6919",NA,"50.8620321297645","4.66879789099083","VMM",NA,"d.slootmaekers@vmm.be"
 "TRUE","TRUE","Leefdaal, Dorpstr, 5m opw brug nr huizen en wandelweg langs waterwinningsgebied, 200m opw mpl 479000","Voer","zja3zjyx","15/07/2024","YES","I_3061_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Vlaams-Brabant","Bertem","3061","2","6919",NA,"50.8565096","4.6076213","Vlaams-Brabant",NA,"ingrid.beuls@vlaamsbrabant.be"
 "FALSE","FALSE","Leefdaal, Lange Gracht, 5m opw 479200","Voer",NA,"20/07/2024","YES","I_3061_2",NA,NA,"VMM_Mtp","Lotisch",NA,"Vlaams-Brabant","Bertem","3061","2","6919",NA,"50.8331618","4.5546995","Vlaams-Brabant",NA,"ingrid.beuls@vlaamsbrabant.be"
-"ONHOLD","ONHOLD","IJzeren Brugje, Oaseln, 20m afw 482000","Molenbeek","owzjzmi2",NA,"YES","I_3000_3",NA,NA,"VMM_Mtp","Lotisch",NA,"Vlaams-Brabant","Leuven","3000","2","6557",NA,"50.8601116","4.7393212","Vlaams-Brabant",NA,"ingrid.beuls@vlaamsbrabant.be"
+"ONHOLD","ONHOLD","IJzeren Brugje, Oaseln, 20m afw 482000","Molenbeek","nwi1ntu1",NA,"YES","I_3000_3",NA,NA,"VMM_Mtp","Lotisch",NA,"Vlaams-Brabant","Leuven","3000","2","6557",NA,"50.8601116","4.7393212","Vlaams-Brabant",NA,"ingrid.beuls@vlaamsbrabant.be"
 "FALSE","FALSE","Lovenjoel, to Technisch Instituut KU Leuven, dr poort, 15m opw brugje en kasseiweg","Molenbeek",NA,NA,"YES","I_3360_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Vlaams-Brabant","Bierbeek","3360","2","6557",NA,"50.8535196733536","4.77575215946626","Vlaams-Brabant",NA,"ingrid.beuls@vlaamsbrabant.be"
 "FALSE","FALSE","Neerijse, Kamstr, 5m opw brug aan 4840000","Ijse",NA,NA,"YES","I_3040_8",NA,NA,"VMM_Mtp","Lotisch",NA,"Vlaams-Brabant","Huldenberg","3040","1","6556",NA,"50.8126835536196","4.62130343496555","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Huldenberg, Smeysberg, afw 484300 en 5m afw overstorten","Ijse",NA,NA,"YES","I_3040_9",NA,NA,"VMM_Mtp","Lotisch",NA,"Vlaams-Brabant","Huldenberg","3040","1","6556",NA,"50.7914123478958","4.59583026100954","VMM",NA,"d.slootmaekers@vmm.be"
@@ -1574,7 +1574,7 @@
 "FALSE","FALSE","niet gebruiken",NA,NA,NA,"NO","V_9052_3","PRIVE & ONTOEGANKELIJK",NA,NA,NA,NA,"Oost-Vlaanderen","Gent","9052",NA,NA,NA,"50.9847937","3.7151682",NA,NA,NA
 "FALSE","FALSE","beheer visclub, prive",NA,NA,NA,"NO","V_9052_4","evt contactgegevens via Karel Schoonvaere",NA,NA,NA,NA,"Oost-Vlaanderen","Gent","9052",NA,NA,NA,"50.983365","3.713624",NA,NA,NA
 "FALSE","FALSE",NA,"De Spanjaard",NA,NA,"YES","I_9840_6","beheer NP, check met Karel Schoonvaere",NA,NA,NA,NA,"Oost-Vlaanderen","De Pinte","9840",NA,NA,NA,"50.980918","3.707763",NA,NA,NA
-"ONHOLD","ONHOLD",NA,"Vunt","owzjzmi2",NA,"YES","I_3010_2",NA,NA,"VMM_Mtp","Lotisch",NA,"Vlaams-Brabant","Leuven","3010","1","6603",NA,"50.892316","4.711942","VMM",NA,"d.slootmaekers@vmm.be"
+"ONHOLD","ONHOLD",NA,"Vunt","nwi1ntu1",NA,"YES","I_3010_2",NA,NA,"VMM_Mtp","Lotisch",NA,"Vlaams-Brabant","Leuven","3010","1","6603",NA,"50.892316","4.711942","VMM",NA,"d.slootmaekers@vmm.be"
 "TRUE","TRUE","Bezoekerscentrum De Wulp",NA,"mdflzwm0",NA,"YES","I_3910_13",NA,NA,NA,NA,NA,"Limburg","Pelt","3910",NA,NA,NA,"51.248411","5.41703",NA,NA,NA
 "TRUE","TRUE",NA,"Melsenbeek ","mdu1yja5","16/08/24","NO","V_9820_9",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Merelbeke","9820","NA","NA",NA,"50.972361","3.711361",NA,NA,NA
 "TRUE","TRUE","Kleine Hoofdgracht","Kleine Hoofdgracht","nzzmzdm3","2/8/24","NO","V_2490_7",NA,NA,NA,NA,NA,"Antwerpen","Balen","2490","NA","NA",NA,"51.172775","5.243459","Quintens Hildegarde",NA,"recreatie.ant.anb@vlaanderen.be"
@@ -1652,7 +1652,7 @@
 "ONHOLD","ONHOLD",NA,"De Grote Laak","yjlioti2",NA,"NO","V_3120_1",NA,NA,NA,NA,NA,"Vlaams-Brabant","Rotselaar","3120","NA","NA",NA,"50.9818273","4.7197769",NA,NA,NA
 "ONHOLD","ONHOLD",NA,NA,"njixzjg3",NA,"NO","V_2330_4",NA,NA,NA,NA,NA,"Antwerpen","Merksplas","2330",NA,NA,NA,"51.3792635","4.8833541",NA,NA,NA
 "ONHOLD","ONHOLD","visvijver",NA,"njixzjg3",NA,"NO","V_2381_7",NA,NA,NA,NA,NA,"Antwerpen","Ravels","2381",NA,NA,NA,"51.3871882","4.9754018",NA,NA,NA
-"ONHOLD","ONHOLD",NA,"Bosbeek","ndlmngu0",NA,"YES","I_9180_11",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Moerbeke","9180","NA","NA",NA,"51.162451","3.948537",NA,NA,NA
+"TRUE","TRUE",NA,"Bosbeek","ndlmngu0",NA,"YES","I_9180_11",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Moerbeke","9180","NA","NA",NA,"51.162451","3.948537",NA,NA,NA
 "TRUE","TRUE",NA,"Zuidlede","ndlmngu0","TBD","YES","I_9180_12",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Moerbeke","9180",NA,NA,NA,"51.151791","3.938289",NA,NA,NA
 "ONHOLD","ONHOLD",NA,NA,"mdm4oge4",NA,"NO","V_2830_7",NA,NA,NA,NA,NA,"Antwerpen","Willebroek","2830",NA,NA,NA,"51.0757642","4.3744873",NA,NA,NA
 "ONHOLD","ONHOLD",NA,"Mesureput","zgexogy3",NA,"NO","V_9750_6",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Kruisem","9750",NA,NA,NA,"50.903171","3.685047",NA,NA,NA
@@ -1678,3 +1678,9 @@
 "ONHOLD","ONHOLD",NA,"Kleine Kril","ztbjotzi",NA,"YES","I_9960_10",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Assenede","9960",NA,NA,NA,"51.25569","3.785126",NA,NA,NA
 "ONHOLD","ONHOLD",NA,NA,"mmy5nzkz",NA,"YES","I_8310_6",NA,NA,NA,NA,NA,"West-Vlaanderen","Brugge","8310",NA,NA,NA,"51.182775","3.233472",NA,NA,NA
 "TRUE","TRUE",NA,NA,"mzk5yjmz",NA,"NO","V_2300_7",NA,NA,NA,NA,NA,"Antwerpen","Turnhout","2300",NA,NA,NA,"51.3590129","4.9624728",NA,NA,NA
+"ONHOLD","ONHOLD",NA,NA,"yzc5zdbk",NA,"NO","V_2610_5",NA,NA,NA,NA,NA,"Antwerpen","Antwerpen","2610",NA,NA,NA,"51.160917","4.404333",NA,NA,NA
+"ONHOLD","ONHOLD",NA,NA,"yzc5zdbk",NA,"NO","V_2610_6",NA,NA,NA,NA,NA,"Antwerpen","Antwerpen","2610",NA,NA,NA,"51.160667","4.406944",NA,NA,NA
+"ONHOLD","ONHOLD",NA,NA,"yzc5zdbk",NA,"NO","V_2610_7",NA,NA,NA,NA,NA,"Antwerpen","Antwerpen","2610",NA,NA,NA,"51.159667","4.408444",NA,NA,NA
+"ONHOLD","ONHOLD",NA,NA,"yzc5zdbk",NA,"NO","V_2650_2",NA,NA,NA,NA,NA,"Antwerpen","Edegem","2650",NA,NA,NA,"51.155861","4.409111",NA,NA,NA
+"ONHOLD","ONHOLD",NA,NA,"yzc5zdbk",NA,"NO","V_2650_3",NA,NA,NA,NA,NA,"Antwerpen","Edegem","2650",NA,NA,NA,"51.155417","4.407444",NA,NA,NA
+"ONHOLD","ONHOLD",NA,NA,"yzc5zdbk",NA,"NO","V_2650_4",NA,NA,NA,NA,NA,"Antwerpen","Edegem","2650",NA,NA,NA,"51.156389","4.405889",NA,NA,NA
