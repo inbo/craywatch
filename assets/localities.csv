@@ -30,7 +30,7 @@
 "TRUE","TRUE","Burgstraat, opw weg","Maatbeek","yjbjmtay","26/8/24","YES","I_9960_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Assenede","9960","2","2894",NA,"51.2171653","3.733953","Zwarte Sluispolder","09/3445519","zwartesluispolder@telenet.be"
 "FALSE","FALSE","Rode Weel, thv bunker a brug over Verlegde Schijns","Hoofdgracht",NA,NA,"YES","I_2030_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Antwerpen","2030","1","3104",NA,"51.3013778797996","4.37241519189361","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Deurne; Ruggeveldlaan, opw Rivierenhof, opw brug","Groot Schijn",NA,NA,"YES","I_2100_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Antwerpen","2100","1","3103",NA,"51.2140025092506","4.48164417719761","VMM",NA,"d.slootmaekers@vmm.be"
-"FALSE","FALSE","Deurne; grens Wommelgem, Autolei, afw brug","Groot Schijn",NA,NA,"YES","I_2160_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Wommelgem","2160","1","3103",NA,"51.2157686","4.4950443","VMM",NA,"d.slootmaekers@vmm.be"
+"ONHOLD","ONHOLD","Deurne; grens Wommelgem, Autolei, afw brug","Groot Schijn","zwjizmvl",NA,"YES","I_2160_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Wommelgem","2160","1","3103",NA,"51.2157686","4.4950443","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Westmalle; Ossegoor, Sparrenlaan, opw weg","Groot Schijn",NA,NA,"YES","I_2390_1","bij voorkeur tussen 20/07 - 01/09",NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Malle","2390","2","3103",NA,"51.2849529","4.6789681","Antwerpen",NA,"hans.vanloy@provincieantwerpen.be"
 "FALSE","FALSE","Ekeren; Rode Weel thv PS","Voorgracht",NA,NA,"YES","I_2030_2",NA,NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Antwerpen","2030","1","16818",NA,"51.3057614387582","4.34273309075741","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Walenhoek, Ettenhovense Dijk, afw autoweg","Afwateringsgracht",NA,NA,"YES","I_2030_3","omheind",NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Antwerpen","2030","1","3251",NA,"51.3103297","4.3589644","VMM",NA,"d.slootmaekers@vmm.be"
@@ -1063,9 +1063,9 @@
 "FALSE","FALSE","Hoeilaart, via zijweg Groenendaalsestwg, afw 1ste grote Koningsvijver, opw weg","Koningsvijvers",NA,NA,"YES","I_1560_6",NA,NA,"ANB_Mtp","Lentisch",NA,"Vlaams-Brabant","Hoeilaart","1560","2","0",NA,"50.7674183593825","4.45622766025204","Huvenne Patrick",NA,"recreatie.vbr.anb@vlaanderen.be"
 "FALSE","FALSE","Hoeilaart, via zijweg Duboislaan, opw RO","Keizer Karelvijver",NA,NA,"YES","I_1560_7",NA,NA,"ANB_Mtp","Lentisch",NA,"Vlaams-Brabant","Hoeilaart","1560","2","0",NA,"50.7678594922322","4.44235060433104","Huvenne Patrick",NA,"recreatie.vbr.anb@vlaanderen.be"
 "FALSE","FALSE","Hoeilaart, zijweg Duboislaan tov huis nr. 119, 20 m afw koker Ijse + koker afloop ring",NA,NA,NA,"YES","I_1560_8",NA,NA,"ANB_Mtp","Lentisch",NA,"Vlaams-Brabant","Hoeilaart","1560",NA,NA,NA,"50.768711286394","4.44578249760492","Huvenne Patrick",NA,"recreatie.vbr.anb@vlaanderen.be"
-"FALSE","FALSE","Gouden Karper,Trappelstraat","Waarmaardecoupure",NA,NA,"YES","I_8581_2",NA,NA,"ANB_Mtp","Lentisch",NA,"West-Vlaanderen","Avelgem","8581",NA,NA,NA,"50.7846624921892","3.48359020868838","Coppens Xavier",NA,"recreatie.wvl.anb@vlaanderen.be"
-"FALSE","FALSE","Oude Schelde - Kerkhove, Heye,thv kerkhof",NA,NA,NA,"YES","I_8581_3",NA,NA,"ANB_Mtp","Lentisch",NA,"West-Vlaanderen","Avelgem","8581",NA,NA,NA,"50.8005654453726","3.51499784625282","Coppens Xavier",NA,"recreatie.wvl.anb@vlaanderen.be"
-"FALSE","FALSE","Berchem,zijweg einde Meersestraat,Schijtput",NA,NA,NA,"YES","I_9690_3",NA,NA,"ANB_Mtp","Lentisch",NA,"Oost-Vlaanderen","Kluisbergen","9690",NA,NA,NA,"50.8039407875656","3.52549204070563","Coppens Xavier",NA,"recreatie.ovl.anb@vlaanderen.be"
+"ONHOLD","ONHOLD","Gouden Karper,Trappelstraat","Waarmaardecoupure","ywzmndyy",NA,"YES","I_8581_2",NA,NA,"ANB_Mtp","Lentisch",NA,"West-Vlaanderen","Avelgem","8581",NA,NA,NA,"50.7846625","3.4835902","Coppens Xavier",NA,"recreatie.wvl.anb@vlaanderen.be"
+"ONHOLD","ONHOLD","Oude Schelde - Kerkhove, Heye,thv kerkhof",NA,"ywzmndyy",NA,"YES","I_8581_3",NA,NA,"ANB_Mtp","Lentisch",NA,"West-Vlaanderen","Avelgem","8581",NA,NA,NA,"50.8005654","3.5149978","Coppens Xavier",NA,"recreatie.wvl.anb@vlaanderen.be"
+"ONHOLD","ONHOLD","Berchem,zijweg einde Meersestraat,Schijtput",NA,"ywzmndyy",NA,"YES","I_9690_3",NA,NA,"ANB_Mtp","Lentisch",NA,"Oost-Vlaanderen","Kluisbergen","9690",NA,NA,NA,"50.8039408","3.525492","Coppens Xavier",NA,"recreatie.ovl.anb@vlaanderen.be"
 "FALSE","FALSE","Berchem,Meers,Visserij","Rijtgracht",NA,NA,"YES","I_9690_4",NA,NA,"ANB_Mtp","Lentisch",NA,"Oost-Vlaanderen","Kluisbergen","9690",NA,NA,NA,"50.8085522876175","3.54439395078818","Coppens Xavier",NA,"recreatie.ovl.anb@vlaanderen.be"
 "FALSE","FALSE","Melden, afw Berchemweg, 2de zijarm",NA,NA,NA,"YES","I_9700_13",NA,NA,"ANB_Mtp","Lentisch",NA,"Oost-Vlaanderen","Oudenaarde","9700",NA,NA,NA,"50.8185231268847","3.56918250327694","Coppens Xavier",NA,"recreatie.ovl.anb@vlaanderen.be"
 "FALSE","FALSE","Melden, Berchemweg,centraal gedeelte",NA,NA,NA,"YES","I_9700_14",NA,NA,"ANB_Mtp","Lentisch",NA,"Oost-Vlaanderen","Oudenaarde","9700",NA,NA,NA,"50.8192876","3.574046","Coppens Xavier",NA,"recreatie.ovl.anb@vlaanderen.be"
@@ -1702,12 +1702,14 @@
 "ONHOLD","ONHOLD",NA,"Leie","mtfizjjh",NA,"YES","I_9051_2",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Gent","9051","NA","NA",NA,"51.022718","3.662586",NA,NA,NA
 "ONHOLD","ONHOLD",NA,"Moerdijkvaart","yzmzndnm",NA,"YES","I_8470_4",NA,NA,NA,NA,NA,"West-Vlaanderen","Gistel","8470","NA","NA",NA,"51.135665","2.989359",NA,NA,NA
 "ONHOLD","ONHOLD",NA,"Damse Vaart","mjcxzme1",NA,"YES","I_8310_7",NA,NA,NA,NA,NA,"West-Vlaanderen","Brugge","8310","NA","NA",NA,"51.23781","3.263194",NA,NA,NA
-"ONHOLD","ONHOLD",NA,"Kruisilader","otqwzjhi",NA,"YES","I_8377_3",NA,NA,NA,NA,NA,"West-Vlaanderen","Zuienkerke","8377","NA","NA",NA,"51.269943","3.153608",NA,NA,NA
-"ONHOLD","ONHOLD",NA,"Blankenbergse Vaart","otqwzjhi",NA,"YES","I_8377_4",NA,NA,NA,NA,NA,"West-Vlaanderen","Zuienkerke","8377","NA","NA",NA,"51.26219","3.134494",NA,NA,NA
-"ONHOLD","ONHOLD",NA,"Bommelzwin","otqwzjhi",NA,"YES","I_8377_5",NA,NA,NA,NA,NA,"West-Vlaanderen","Zuienkerke","8377","NA","NA",NA,"51.281888","3.089738",NA,NA,NA
+"TRUE","TRUE",NA,"Kruisilader","otqwzjhi","09/09/24","YES","I_8377_3",NA,NA,NA,NA,NA,"West-Vlaanderen","Zuienkerke","8377","NA","NA",NA,"51.269943","3.153608",NA,NA,NA
+"TRUE","TRUE",NA,"Blankenbergse Vaart","otqwzjhi","09/09/24","YES","I_8377_4",NA,NA,NA,NA,NA,"West-Vlaanderen","Zuienkerke","8377","NA","NA",NA,"51.26219","3.134494",NA,NA,NA
+"TRUE","TRUE",NA,"Bommelzwin","otqwzjhi","09/09/24","YES","I_8377_5",NA,NA,NA,NA,NA,"West-Vlaanderen","Zuienkerke","8377","NA","NA",NA,"51.281888","3.089738",NA,NA,NA
 "TRUE","TRUE",NA,"Brugse Vaart","nmm1ndmy","09/24","NO","V_9030_2",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Gent","9030","NA","NA",NA,"51.078167","3.676972",NA,NA,NA
 "ONHOLD","ONHOLD",NA,NA,"zdhimgq3",NA,"YES","I_8630_14",NA,NA,NA,NA,NA,"West-Vlaanderen","Veurne","8630","NA","NA",NA,"51.080795","2.664205",NA,NA,NA
 "ONHOLD","ONHOLD",NA,"Kruisilader","zgiwntyy",NA,"NO","V_8380_4",NA,NA,NA,NA,NA,"West-Vlaanderen","Brugge","8380","NA","NA",NA,"51.289472","3.173519",NA,NA,NA
 "ONHOLD","ONHOLD",NA,"Lisseweegs Vaartje","yjywyjhi",NA,"YES","I_8380_5",NA,NA,NA,NA,NA,"West-Vlaanderen","Brugge","8380","NA","NA",NA,"51.3007178","3.1969685",NA,NA,NA
-"ONHOLD","ONHOLD",NA,"Grote Nete","yjbjnzi1",NA,"NO","V_2235_3",NA,NA,NA,NA,NA,"Antwerpen","Hulshout","2235",NA,NA,NA,"51.0618265","4.7866473",NA,NA,NA
-"ONHOLD","ONHOLD",NA,"Houtvense Loop","yjbjnzi1",NA,"YES","I_2221_3",NA,NA,NA,NA,NA,"Antwerpen","Heist-op-den-Berg","2221",NA,NA,NA,"51.0598654","4.7877307",NA,NA,NA
+"ONHOLD","ONHOLD",NA,"Grote Nete","yjbjnzi1",NA,"NO","V_2235_3",NA,NA,NA,NA,NA,"Antwerpen","Hulshout","2235","NA","NA",NA,"51.0618265","4.7866473",NA,NA,NA
+"ONHOLD","ONHOLD",NA,"Houtvense Loop","yjbjnzi1",NA,"YES","I_2221_3",NA,NA,NA,NA,NA,"Antwerpen","Heist-op-den-Berg","2221","NA","NA",NA,"51.0598654","4.7877307",NA,NA,NA
+"ONHOLD","ONHOLD",NA,NA,"zwjizmvl",NA,"YES","I_2900_5",NA,NA,NA,NA,NA,"Antwerpen","Schoten","2900",NA,NA,NA,"51.2598299","4.4806343",NA,NA,NA
+"ONHOLD","ONHOLD",NA,"Klein Schijn","zwjizmvl",NA,"NO","V_2900_6",NA,NA,NA,NA,NA,"Antwerpen","Schoten","2900",NA,NA,NA,"51.2374766","4.5129461",NA,NA,NA
