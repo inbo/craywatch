@@ -98,7 +98,7 @@
 "FALSE","FALSE","Wiekevorst; Morkhovenseweg-Wiekevorstseweg, opw brug en overstort","Wimp",NA,NA,"YES","I_2222_2",NA,NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Heist-op-den-Berg","2222","1","8507",NA,"51.1113552567229","4.80687517124659","VMM",NA,"d.slootmaekers@vmm.be"
 "TRUE","TRUE","Rooiveld, afw brug","Wimp","ztfhota2","2/9/24","YES","I_2260_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Westerlo","2260","1","8507",NA,"51.1021604","4.8324878","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Rossem, Wouwerkenshof, afw brug","Stapkensloop",NA,NA,"YES","I_2200_2","bij voorkeur tussen 20/07 - 01/09",NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Herentals","2200","2","9153",NA,"51.1528545355561","4.81938533348492","Antwerpen",NA,"hans.vanloy@provincieantwerpen.be"
-"FALSE","FALSE","Houtvenne, Linieweg, afw brugje","Steenkensbeek",NA,NA,"YES","I_2235_1","bij voorkeur tussen 20/07 - 01/09",NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Hulshout","2235","2","8518",NA,"51.0619955611143","4.80233247967286","Antwerpen",NA,"hans.vanloy@provincieantwerpen.be"
+"ONHOLD","ONHOLD","Houtvenne, Linieweg, afw brugje","Steenkensbeek","yjbjnzi1",NA,"YES","I_2235_1","bij voorkeur tussen 20/07 - 01/09",NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Hulshout","2235","2","8518",NA,"51.0619956","4.8023325","Antwerpen",NA,"hans.vanloy@provincieantwerpen.be"
 "FALSE","FALSE","Ramsel; Ramselsestwg (zijstraat), opw brug","Raamdonksebeek",NA,NA,"YES","I_2230_1","bij voorkeur tussen 20/07 - 01/09",NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Herselt","2230","2","8657",NA,"51.0393323110565","4.84904542078318","Antwerpen",NA,"hans.vanloy@provincieantwerpen.be"
 "FALSE","FALSE","Varendonk; Blaardonk-Trichelhoek, opw. brug","Grote Laak",NA,NA,"YES","I_2431_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Laakdal","2431","1","8503",NA,"51.0870574694784","4.95569651110529","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Vorsterweg,  afw brug","Grote Laak",NA,NA,"YES","I_3980_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Limburg","Tessenderlo","3980","1","8503",NA,"51.0819167298938","5.09423482329304","VMM",NA,"d.slootmaekers@vmm.be"
@@ -1708,4 +1708,6 @@
 "TRUE","TRUE",NA,"Brugse Vaart","nmm1ndmy","09/24","NO","V_9030_2",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Gent","9030","NA","NA",NA,"51.078167","3.676972",NA,NA,NA
 "ONHOLD","ONHOLD",NA,NA,"zdhimgq3",NA,"YES","I_8630_14",NA,NA,NA,NA,NA,"West-Vlaanderen","Veurne","8630","NA","NA",NA,"51.080795","2.664205",NA,NA,NA
 "ONHOLD","ONHOLD",NA,"Kruisilader","zgiwntyy",NA,"NO","V_8380_4",NA,NA,NA,NA,NA,"West-Vlaanderen","Brugge","8380","NA","NA",NA,"51.289472","3.173519",NA,NA,NA
-"ONHOLD","ONHOLD",NA,"Lisseweegs Vaartje","yjywyjhi",NA,"YES","I_8380_5",NA,NA,NA,NA,NA,"West-Vlaanderen","Brugge","8380",NA,NA,NA,"51.3007178","3.1969685",NA,NA,NA
+"ONHOLD","ONHOLD",NA,"Lisseweegs Vaartje","yjywyjhi",NA,"YES","I_8380_5",NA,NA,NA,NA,NA,"West-Vlaanderen","Brugge","8380","NA","NA",NA,"51.3007178","3.1969685",NA,NA,NA
+"ONHOLD","ONHOLD",NA,"Grote Nete","yjbjnzi1",NA,"NO","V_2235_3",NA,NA,NA,NA,NA,"Antwerpen","Hulshout","2235",NA,NA,NA,"51.0618265","4.7866473",NA,NA,NA
+"ONHOLD","ONHOLD",NA,"Houtvense Loop","yjbjnzi1",NA,"YES","I_2221_3",NA,NA,NA,NA,NA,"Antwerpen","Heist-op-den-Berg","2221",NA,NA,NA,"51.0598654","4.7877307",NA,NA,NA
