@@ -220,7 +220,7 @@
 "FALSE","FALSE","Snuifmolenstraat,thv parking station Dendermonde,brugje","Vondelbeek",NA,NA,"YES","I_9200_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Dendermonde","9200","1","6337",NA,"51.0211062237894","4.10035653401679","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Klein-Antwerpenstraat,opw weg","Nijverseelbeek",NA,NA,"YES","I_9280_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Lebbeke","9280","2","6438",NA,"50.9885695304351","4.15511924959109","Oost-Vlaanderen",NA,"waterbeleid@oost-vlaanderen.be"
 "FALSE","FALSE","Ledebaan,afw weg en stuw","Ter Erpenbeek",NA,NA,"YES","I_9300_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Aalst","9300","1","5953",NA,"50.9528837021661","4.01703563908781","VMM",NA,"d.slootmaekers@vmm.be"
-"FALSE","FALSE","Eksaarde,einde Reepstraat,veldweg","Zuidlede",NA,NA,"YES","I_9160_3",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Lokeren","9160","1","26",NA,"51.1372354","3.9701579","VMM",NA,"d.slootmaekers@vmm.be"
+"ONHOLD","ONHOLD","Eksaarde,einde Reepstraat,veldweg","Zuidlede","njgyytiw",NA,"YES","I_9160_3",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Lokeren","9160","1","26",NA,"51.1372354","3.9701579","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Sint-Lievens-Esse,Wijnhuizestraat-Pijpketel,opw weg","Plankebeek",NA,NA,"YES","I_9620_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Herzele","9620","2","5976",NA,"50.8528669885209","3.85172513669193","Oost-Vlaanderen",NA,"waterbeleid@oost-vlaanderen.be"
 "FALSE","FALSE","Etbos,opw brug","Zuidlede",NA,NA,"YES","I_9180_4",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Moerbeke","9180","1","26",NA,"51.151347597325","3.92468856009841","VMM",NA,"d.slootmaekers@vmm.be"
 "TRUE","TRUE","Affligemsestraat-Driesstraat,afw weg,thv handelszaak","Bellebeek","yjmznwm3","27/09/2024","YES","I_1770_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Vlaams-Brabant","Liedekerke","1770","1","5956",NA,"50.8854042","4.0965682","VMM",NA,"d.slootmaekers@vmm.be"
@@ -881,7 +881,7 @@
 "FALSE","FALSE","Rode & gevlekte Amerikaanse rivierkreeft in 2022","Moervaart",NA,NA,"YES","I_9112_7",NA,NA,"Scheers","Lotisch",NA,"Oost-Vlaanderen","Sint-Niklaas","9112","0","8",NA,"51.1543194","3.9974239",NA,NA,NA
 "FALSE","FALSE","Rode en gevlekte Amerikaanse rivierkreeft in 2022","Moervaart",NA,NA,"YES","I_9160_7",NA,NA,"Scheers","Lotisch",NA,"Oost-Vlaanderen","Lokeren","9160","0","8",NA,"51.1570587902399","4.00029169880965",NA,NA,NA
 "TRUE","TRUE","Moervaart, Rode Amerikaanse rivierkreeft in 2022","Bovendurme","ogvkytdi","TBD","YES","I_9160_8",NA,NA,"Scheers","Lotisch",NA,"Oost-Vlaanderen","Lokeren","9160","0","15074",NA,"51.1294864","3.978681",NA,NA,NA
-"FALSE","FALSE","geen rivierkreeften in 2022","Mariabeek",NA,NA,"YES","I_9160_9",NA,NA,"Scheers","Lotisch",NA,"Oost-Vlaanderen","Lokeren","9160","2","633",NA,"51.1296613902483","3.97628579881213","Polder Moervaart en Zuidlede","09/3573231","info@moervaart.be"
+"ONHOLD","ONHOLD","geen rivierkreeften in 2022","Mariabeek","njgyytiw",NA,"YES","I_9160_9",NA,NA,"Scheers","Lotisch",NA,"Oost-Vlaanderen","Lokeren","9160","2","633",NA,"51.1296614","3.9762858","Polder Moervaart en Zuidlede","09/3573231","info@moervaart.be"
 "TRUE","TRUE","Rode en gevlekte Amerikaanse rivierkreeft in 2022","Moervaart","ndlmngu0","2e helft sept","YES","I_9185_3",NA,NA,"Scheers","Lotisch",NA,"Oost-Vlaanderen","Wachtebeke","9185","0","8",NA,"51.1667465","3.88697",NA,NA,NA
 "FALSE","FALSE","Geen rivierkreeft in 2022","Polderbeek",NA,NA,"YES","I_9240_1",NA,NA,"Scheers","Lotisch",NA,"Oost-Vlaanderen","Zele","9240","3","3638",NA,"51.0941457902587","4.04360199876304","Polder tussen Schelde en Durme","052/452092","polder.scheldedurme@telenet.be"
 "FALSE","FALSE","Geen rivierkreeft in 2022","Roosebeke",NA,NA,"YES","I_9240_2",NA,NA,"Scheers","Lotisch",NA,"Oost-Vlaanderen","Zele","9240","3","3657",NA,"51.0941457902587","4.04360199876304","Polder tussen Schelde en Durme","052/452092","polder.scheldedurme@telenet.be"
@@ -1716,4 +1716,5 @@
 "TRUE","TRUE",NA,"Molenbeek","ytq0zwrk",NA,"NO","V_9230_6",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Wetteren","9230","NA","NA",NA,"50.990542","3.87673",NA,NA,NA
 "TRUE","TRUE",NA,"Grootgeleed","odjlnmu5","TBD","NO","V_8470_5",NA,NA,NA,NA,NA,"West-Vlaanderen","Gistel","8470","NA","NA",NA,"51.141675","2.9534261",NA,NA,NA
 "TRUE","TRUE",NA,"Oostveergote","ndriztk0","TBD","NO","V_9240_7",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Zele","9240","NA","NA",NA,"51.0505283","4.0453895",NA,NA,NA
-"TRUE","TRUE",NA,"Desselse Neet","zgu4nzuz","TBD","NO","V_2470_4",NA,NA,NA,NA,NA,"Antwerpen","Dessel","2470",NA,NA,NA,"51.2565851","5.1060183",NA,NA,NA
+"TRUE","TRUE",NA,"Desselse Neet","zgu4nzuz","TBD","NO","V_2470_4",NA,NA,NA,NA,NA,"Antwerpen","Dessel","2470","NA","NA",NA,"51.2565851","5.1060183",NA,NA,NA
+"ONHOLD","ONHOLD",NA,"Olentgracht","njgyytiw",NA,"YES","I_9180_13",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Moerbeke","9180",NA,NA,NA,"51.144841","3.9301138",NA,NA,NA
