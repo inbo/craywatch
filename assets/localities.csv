@@ -510,7 +510,7 @@
 "FALSE","FALSE","Herentals;Langendonk; Zavelbosstraat; juist voorbij spoorwegbrug einde veldweg","Kleine Nete",NA,NA,"YES","I_2200_4",NA,NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Herentals","2200","1","8502",NA,"51.1887364259217","4.85802340823218","VMM",NA,"d.slootmaekers@vmm.be"
 "TRUE","TRUE","Retie; zijweg van Kastelsedijk; zandpad ten einde, door wei; afw enkele meters voorbij berkenboom","Kleine Nete","ntc5zjdl","01/08/24","YES","I_2460_6",NA,NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Kasterlee","2460","1","8502",NA,"51.2424805","5.0214393","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Retie; Molendijk; afw watermolen","Kleine Nete",NA,NA,"YES","I_2470_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Retie","2470","1","8502",NA,"51.2441785306639","5.04712630263548","VMM",NA,"d.slootmaekers@vmm.be"
-"FALSE","FALSE","Zandweg naast Broekstraat 61 in; 110 m afw brug (knooppunt 17 Antwerpse Kempen) beginnen","Kleine Nete",NA,NA,"YES","I_2480_2","bij voorkeur tussen 20/07 - 01/09",NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Dessel","2480","2","8502",NA,"51.2333523449181","5.10338053009728","Antwerpen",NA,"hans.vanloy@provincieantwerpen.be"
+"TRUE","TRUE","Zandweg naast Broekstraat 61 in; 110 m afw brug (knooppunt 17 Antwerpse Kempen) beginnen","Kleine Nete","zgu4nzuz","TBD","YES","I_2480_2","bij voorkeur tussen 20/07 - 01/09",NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Dessel","2480","2","8502",NA,"51.233302","5.1045285","Antwerpen",NA,"hans.vanloy@provincieantwerpen.be"
 "FALSE","FALSE","Viersel, Veerstraat; veldweg tgo huisnr 89; 100m opw mtp 279000","Molenbeek",NA,NA,"YES","I_2240_3",NA,NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Zandhoven","2240","1","8505",NA,"51.1859853","4.6597649","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Zandhoven; Tussen Draaiboom en Blauwhoef","Molenbeek",NA,NA,"YES","I_2243_2",NA,NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Zandhoven","2243","1","8505",NA,"51.2038154380572","4.68213309358028","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Vorselaar; 500m afw mtp 281000","Molenbeek",NA,NA,"YES","I_2290_3","bij voorkeur tussen 20/07 - 01/09",NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Vorselaar","2290","2","8505",NA,"51.2389632915526","4.74285330815622","Antwerpen",NA,"hans.vanloy@provincieantwerpen.be"
@@ -1229,7 +1229,7 @@
 "ONHOLD","ONHOLD","Damslootmeer","Damslootmeer","mthmngrl",NA,"YES","I_9070_3",NA,NA,"Scheers","Lentisch",NA,"Oost-Vlaanderen","Destelbergen","9070",NA,NA,NA,"51.0434542","3.8084187",NA,NA,NA
 "TRUE","TRUE","watersportbaan, Gent","Watersportbaan","ownlnda3","TBD","YES","I_9000_4",NA,NA,"Scheers","Lentisch",NA,"Oost-Vlaanderen","Gent","9000",NA,NA,NA,"51.0517868","3.6788923",NA,NA,NA
 "TRUE","TRUE","Liedermeerspark","Verlorenbroodvijver","odbmmmm1","01/09/2024","YES","I_9820_6",NA,NA,"Scheers","Lentisch",NA,"Oost-Vlaanderen","Merelbeke","9820","0","0",NA,"51.0132808","3.7451943",NA,NA,NA
-"FALSE","FALSE","Citadelpark",NA,NA,NA,"YES","I_9000_5",NA,NA,"Scheers","Lentisch",NA,"Oost-Vlaanderen","Gent","9000",NA,NA,NA,"51.0355132","3.7201661",NA,NA,NA
+"TRUE","TRUE","Citadelpark",NA,"mjcymgi5","TBD","YES","I_9000_5",NA,NA,"Scheers","Lentisch",NA,"Oost-Vlaanderen","Gent","9000",NA,NA,NA,"51.0355132","3.7201661",NA,NA,NA
 "TRUE","TRUE","recreation area, Overmeers","Schoonmeersvijver","nzkzyzvh","TBD","YES","I_9000_6",NA,NA,"Scheers","Lentisch",NA,"Oost-Vlaanderen","Gent","9000",NA,NA,NA,"51.0339201","3.6972447",NA,NA,NA
 "FALSE","FALSE","Waesmeer","Waesmeer",NA,NA,"YES","I_9140_3",NA,NA,"Scheers","Lentisch",NA,"Oost-Vlaanderen","Temse","9140",NA,NA,NA,"51.1209865","4.1890359",NA,NA,NA
 "TRUE","TRUE","Recreation area, Provincial Dom. De Roomacker","Roomackerput","njbjymrl","08/07/24","YES","I_9140_4",NA,NA,"Scheers","Lentisch",NA,"Oost-Vlaanderen","Temse","9140",NA,NA,NA,"51.1178571","4.171653",NA,NA,NA
@@ -1715,4 +1715,5 @@
 "TRUE","TRUE",NA,"Klein Schijn","zwjizmvl","TBD","NO","V_2900_6",NA,NA,NA,NA,NA,"Antwerpen","Schoten","2900","NA","NA",NA,"51.2374766","4.5129461",NA,NA,NA
 "TRUE","TRUE",NA,"Molenbeek","ytq0zwrk",NA,"NO","V_9230_6",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Wetteren","9230","NA","NA",NA,"50.990542","3.87673",NA,NA,NA
 "TRUE","TRUE",NA,"Grootgeleed","odjlnmu5","TBD","NO","V_8470_5",NA,NA,NA,NA,NA,"West-Vlaanderen","Gistel","8470","NA","NA",NA,"51.141675","2.9534261",NA,NA,NA
-"TRUE","TRUE",NA,"Oostveergote","ndriztk0","TBD","NO","V_9240_7",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Zele","9240",NA,NA,NA,"51.0505283","4.0453895",NA,NA,NA
+"TRUE","TRUE",NA,"Oostveergote","ndriztk0","TBD","NO","V_9240_7",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Zele","9240","NA","NA",NA,"51.0505283","4.0453895",NA,NA,NA
+"TRUE","TRUE",NA,"Desselse Neet","zgu4nzuz","TBD","NO","V_2470_4",NA,NA,NA,NA,NA,"Antwerpen","Dessel","2470",NA,NA,NA,"51.2565851","5.1060183",NA,NA,NA
