@@ -1570,10 +1570,10 @@
 "TRUE","TRUE",NA,"Kasteel Diepensteyn","njdhzdu1","TBD","NO","V_1840_6",NA,NA,NA,NA,NA,"Vlaams-Brabant","Londerzeel","1840",NA,NA,NA,"51.000656","4.2715318",NA,NA,NA
 "TRUE","TRUE",NA,"Kleiputten","otniytkz","TBD","NO","V_9111_2",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Sint-Niklaas","9111",NA,NA,NA,"51.163632","4.1244265",NA,NA,NA
 "TRUE","TRUE",NA,"Krommenhoek","nwixndkz","23/8/24","NO","V_9840_5",NA,NA,NA,NA,NA,"Oost-Vlaanderen","De Pinte","9840",NA,NA,NA,"50.973235","3.700994",NA,NA,NA
-"FALSE","FALSE",NA,"Meersbloemvijver ",NA,NA,"YES","I_9052_2","beheer NP (zie Karel Schoonvaere)",NA,NA,NA,NA,"Oost-Vlaanderen","Gent","9052",NA,NA,NA,"50.985202","3.716197",NA,NA,NA
+"ONHOLD","ONHOLD",NA,"Meersbloemvijver ","yzq0m2yw",NA,"YES","I_9052_2","beheer NP (zie Karel Schoonvaere)",NA,NA,NA,NA,"Oost-Vlaanderen","Gent","9052",NA,NA,NA,"50.985202","3.716197",NA,NA,NA
 "FALSE","FALSE","niet gebruiken",NA,NA,NA,"NO","V_9052_3","PRIVE & ONTOEGANKELIJK",NA,NA,NA,NA,"Oost-Vlaanderen","Gent","9052",NA,NA,NA,"50.9847937","3.7151682",NA,NA,NA
 "FALSE","FALSE","beheer visclub, prive",NA,NA,NA,"NO","V_9052_4","evt contactgegevens via Karel Schoonvaere",NA,NA,NA,NA,"Oost-Vlaanderen","Gent","9052",NA,NA,NA,"50.983365","3.713624",NA,NA,NA
-"FALSE","FALSE",NA,"De Spanjaard",NA,NA,"YES","I_9840_6","beheer NP, check met Karel Schoonvaere",NA,NA,NA,NA,"Oost-Vlaanderen","De Pinte","9840",NA,NA,NA,"50.980918","3.707763",NA,NA,NA
+"ONHOLD","ONHOLD",NA,"De Spanjaard","yzq0m2yw",NA,"YES","I_9840_6","beheer NP, check met Karel Schoonvaere",NA,NA,NA,NA,"Oost-Vlaanderen","De Pinte","9840",NA,NA,NA,"50.980918","3.707763",NA,NA,NA
 "FALSE","FALSE",NA,"Vunt",NA,NA,"YES","I_3010_2",NA,NA,"VMM_Mtp","Lotisch",NA,"Vlaams-Brabant","Leuven","3010","1","6603",NA,"50.892316","4.711942","VMM",NA,"d.slootmaekers@vmm.be"
 "TRUE","TRUE","Bezoekerscentrum De Wulp",NA,"mdflzwm0",NA,"YES","I_3910_13",NA,NA,NA,NA,NA,"Limburg","Pelt","3910",NA,NA,NA,"51.248411","5.41703",NA,NA,NA
 "TRUE","TRUE",NA,"Melsenbeek ","mdu1yja5","16/08/24","NO","V_9820_9",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Merelbeke","9820","NA","NA",NA,"50.972361","3.711361",NA,NA,NA
@@ -1730,3 +1730,4 @@
 "ONHOLD","ONHOLD",NA,"Dijle","odi5ngi0",NA,"NO","V_2800_10",NA,NA,NA,NA,NA,"Antwerpen","Mechelen","2800","NA","NA",NA,"51.0196563","4.5018692",NA,NA,NA
 "ONHOLD","ONHOLD",NA,"Kraenepoel","n2vintk4",NA,"NO","V_9880_4",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Aalter","9880",NA,NA,NA,"51.0739506","3.4819131","Meulebrouck Klaar",NA,"recreatie.ovl.anb@vlaanderen.be"
 "ONHOLD","ONHOLD",NA,NA,"n2vintk4",NA,"NO","V_9880_5",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Aalter","9880",NA,NA,NA,"51.104322","3.4753949",NA,NA,NA
+"ONHOLD","ONHOLD",NA,"Zonneputje","yzq0m2yw",NA,"NO","V_9052_6",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Gent","9052",NA,NA,NA,"50.993863","3.721124",NA,NA,NA
