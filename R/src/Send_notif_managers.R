@@ -8,6 +8,13 @@ library(zip)
 library(blastula)
 library(keyring)
 
+library(httr)
+
+# Stel een langere timeout in, door de grote bijlagen werd de initiële time-out overschreden en de email niet verzonden
+
+set_config(config(timeout(60)))
+
+
 # Define the function to send email
 send_email <- function(to_email, subject, body, attachments) {
   from <- "craywatch@inbo.be"
