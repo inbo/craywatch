@@ -1,3 +1,3 @@
-id,date,time,lat,lng,location id,Finding place crayfish,Description crayfish,Description finding place crayfish,I replaced the bait,Code sample location
-325243355,2024-08-21,09:18:00,51.026693,3.051209,252643,Stilstaand water,zie foto ik vermoed geknobbelde amerikaanse rivierkreeft,vijsvijver voor karpervissers,Ja,I_8610_6
-325344713,2024-08-22,09:26:00,51.026608,3.051156,252643,Stilstaand water,Zie foto,"vijsvijver voor karpervissers kreeften werden gevangen in 2 vd 3 fuiken. De grootste tot nu toe, was 13 cm",Ja,I_8610_6
+id,date,time,lat,lng,location id,number of individuals,has photo,Finding place crayfish,Description crayfish,Description finding place crayfish,I replaced the bait,Code sample location
+325243355,2024-08-21,09:18:00,51.026693,3.051209,252643,10,True,Stilstaand water,zie foto ik vermoed geknobbelde amerikaanse rivierkreeft,vijsvijver voor karpervissers,Ja,I_8610_6
+325344713,2024-08-22,09:26:00,51.026608,3.051156,252643,11,True,Stilstaand water,Zie foto,"vijsvijver voor karpervissers kreeften werden gevangen in 2 vd 3 fuiken. De grootste tot nu toe, was 13 cm",Ja,I_8610_6

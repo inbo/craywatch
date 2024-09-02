@@ -1,26 +1,34 @@
-id,date,time,lat,lng,location id,Finding place crayfish,Description crayfish,Description finding place crayfish,I replaced the bait,Code sample location
-318178915,2024-07-09,10:00:00,51.291929,4.546666,28291,,zie foto's,Inham van kanaal/aarvederkruid/ maaswater licht basisch/bijvangst 15 zonnebaars,Nee,I.2900-3
-318375287,2024-07-10,09:37:00,51.291977,4.546902,28291,Stromend water,zie foto's,"Inham van kanaal/aarvederkruid/ PH=7,3 geleidbaarheid 410/bijvangst 1 zonnebaars",Ja,I.2900-3
-318526484,2024-07-11,14:15:00,51.29195,4.546902,28291,,"één schaar verloren ,levendig",Inham van kanaal/aarvederkruid/ maaswater licht basisch/bijvangst 1 snoekje 5 zonnebaars,Ja,I.2900-3
-318615396,2024-07-12,09:50:00,51.292004,4.546988,28291,,zie foto's,Inham van kanaal/aarvederkruid/ 6 zonnebaars 1 snoek 1 zwartbekgrondel,Nee,I.2900-3
-319864831,2024-07-19,10:08:00,51.159295,5.802299,27557,Stromend water,Mist 1 schaar,"Helder water, niet diezp (max 50 cm), zicht tot op de bodem, riet aan de kant en beetje planten in de beek.",Ja,"I_3640_6: Itterbeek (51.15096, 5.77547)"
-320071914,2024-07-20,10:00:00,51.159113,5.801956,27557,Stromend water,"weinig beweging, altijd opgerold",Idem als gisteren; helder licht stromend water; niet diep met riet aan de zijkanten en een weinig vegetatie in de beek.,Nee,"I_3640_6: Itterbeek (51.15096, 5.77547)"
-320695212,2024-07-23,09:35:00,50.802659,3.755643,27527,Stilstaand water,,,Ja,"I_9660_4: De Rijdtmeersen (50.80339, 3.75721)"
-321001912,2024-07-24,11:42:00,51.146156,5.141065,29170,Stilstaand water,,complex van ondiepe vijvers met veel plantengroei,Ja,V-2491-3
-321101367,2024-07-24,09:27:00,50.802905,3.755568,27527,Stilstaand water,,,Nee,I_9660_4: De Rijdtmeersen
-321101513,2024-07-25,09:40:00,50.802676,3.7557,27527,Stilstaand water,,,Nee,I_9660_4: De Rijdtmeersen
-321393387,2024-07-25,,51.146134,5.141073,29170,Stilstaand water,,vijver ondiep,Ja,V-2491-3
-321394363,2024-07-26,11:49:00,51.146153,5.141129,29170,Stilstaand water,,vijver ondiep,Ja,V-2491-3
-322228080,2024-08-01,09:30:00,51.302359,4.538711,29288,Stilstaand water,zie foto's. weinig levendig,ondiep veel waterpest water 23°,Ja,I-2930-6
-322458484,2024-08-02,19:30:00,51.333143,4.862748,73340,Stilstaand water,,,Ja,I_2340_2
-322667781,2024-07-29,,51.144989,5.129102,29170,Stilstaand water,,,Ja,V-2491-5
-323014989,2024-08-05,10:00:00,51.162524,5.740523,94494,Stromend water,"Levendig, actief","Aabeek, natuurlijke beek met begroeing.(zie foto) Best veel rottende bladeren op de bodem.",Ja,V_3640_15
-323016523,2024-08-06,09:43:00,51.162571,5.740373,94494,Stromend water,"Actief, levendig. zocht telkens zo snel mogelijk de schaduw/dekking op.",Aabeek. Stromend water met begroeing. Veel rotttende bladeren op de bodem.,Nee,V_3640_15
-323049479,2024-08-06,11:06:00,51.01594,5.350565,94491,Stilstaand water,"In goede conditie, normaal gedrag","Bamboe, bramen, grassen, kniewaterstand",Nee,I_3520_8
-323200419,2024-08-07,11:30:00,50.987666,5.317898,29615,Stilstaand water,"Kleiner dan vangst van 06/08, normaal gedrag, wentelt zich snel om als hij op de rug wordt gehouden","Riet, struiken, netels, ... in fuik 3. Bijvangst in fuik 2: 1 vis (zie foto)",Ja,I_3520_8
-323201209,2024-08-06,11:00:00,50.987774,5.317726,29615,Stilstaand water,"Normaal gedrag, lijkt in goede toestand","Riet, struiken, netels, ... - gevonden in fuik 3. Bijvangst in fuik 2: 3 vissen, fuik 1: 1 vis (zie foto)",Nee,I_3520_8
-323280542,2024-08-08,10:30:00,50.987861,5.317906,29615,Stilstaand water,"Kleiner dan vangst voorbije dagen, lijkt nog jong/schuchter en niet volledig ontwikkeld, kort lijfje","Riet, struiken, netels, ... in fuik 3. Bijvangst in fuik 2: 1 vis (zie foto)",Ja,I_3520_8
-323414593,2024-08-09,09:35:00,50.98784,5.317807,29615,Stilstaand water,2 kleinere kreeften,"Riet, struiken, netels, ... 1 gevonden in fuik 2, 1 in fuik 3, telkens met 1 vis erbij.",Nee,I_3520_8
-325372597,2024-08-07,12:02:00,51.021755,3.640581,24188,Stromend water,,Rivieroever zonder vegetatie,Nee,I_9031_3
-325372762,2024-08-08,12:06:00,51.021789,3.640544,24188,Stromend water,groot exemplaar,Rivieroever zonder vegetatie,Nee,I_9031_3
-325372920,2024-08-09,12:00:00,51.021745,3.640565,24188,Stromend water,,Rivieroever zonder vegetatie,Nee,I_9031_3
+id,date,time,lat,lng,location id,number of individuals,has photo,Finding place crayfish,Description crayfish,Description finding place crayfish,I replaced the bait,Code sample location
+318178915,2024-07-09,10:00:00,51.291929,4.546666,28291,4,True,,zie foto's,Inham van kanaal/aarvederkruid/ maaswater licht basisch/bijvangst 15 zonnebaars,Nee,I.2900-3
+318375287,2024-07-10,09:37:00,51.291977,4.546902,28291,1,True,Stromend water,zie foto's,"Inham van kanaal/aarvederkruid/ PH=7,3 geleidbaarheid 410/bijvangst 1 zonnebaars",Ja,I.2900-3
+318526484,2024-07-11,14:15:00,51.29195,4.546902,28291,1,False,,"één schaar verloren ,levendig",Inham van kanaal/aarvederkruid/ maaswater licht basisch/bijvangst 1 snoekje 5 zonnebaars,Ja,I.2900-3
+318615396,2024-07-12,09:50:00,51.292004,4.546988,28291,2,True,,zie foto's,Inham van kanaal/aarvederkruid/ 6 zonnebaars 1 snoek 1 zwartbekgrondel,Nee,I.2900-3
+319864831,2024-07-19,10:08:00,51.159295,5.802299,27557,1,True,Stromend water,Mist 1 schaar,"Helder water, niet diezp (max 50 cm), zicht tot op de bodem, riet aan de kant en beetje planten in de beek.",Ja,"I_3640_6: Itterbeek (51.15096, 5.77547)"
+320071914,2024-07-20,10:00:00,51.159113,5.801956,27557,1,True,Stromend water,"weinig beweging, altijd opgerold",Idem als gisteren; helder licht stromend water; niet diep met riet aan de zijkanten en een weinig vegetatie in de beek.,Nee,"I_3640_6: Itterbeek (51.15096, 5.77547)"
+320695212,2024-07-23,09:35:00,50.802659,3.755643,27527,1,True,Stilstaand water,,,Ja,"I_9660_4: De Rijdtmeersen (50.80339, 3.75721)"
+321001912,2024-07-24,11:42:00,51.146156,5.141065,29170,1,True,Stilstaand water,,complex van ondiepe vijvers met veel plantengroei,Ja,V-2491-3
+321101367,2024-07-24,09:27:00,50.802905,3.755568,27527,2,True,Stilstaand water,,,Nee,I_9660_4: De Rijdtmeersen
+321101513,2024-07-25,09:40:00,50.802676,3.7557,27527,3,True,Stilstaand water,,,Nee,I_9660_4: De Rijdtmeersen
+321393387,2024-07-25,,51.146134,5.141073,29170,1,True,Stilstaand water,,vijver ondiep,Ja,V-2491-3
+321394363,2024-07-26,11:49:00,51.146153,5.141129,29170,1,True,Stilstaand water,,vijver ondiep,Ja,V-2491-3
+322228080,2024-08-01,09:30:00,51.302359,4.538711,29288,1,True,Stilstaand water,zie foto's. weinig levendig,ondiep veel waterpest water 23°,Ja,I-2930-6
+322458484,2024-08-02,19:30:00,51.333143,4.862748,73340,1,False,Stilstaand water,,,Ja,I_2340_2
+322667781,2024-07-29,,51.144989,5.129102,29170,1,False,Stilstaand water,,,Ja,V-2491-5
+323014989,2024-08-05,10:00:00,51.162524,5.740523,94494,1,True,Stromend water,"Levendig, actief","Aabeek, natuurlijke beek met begroeing.(zie foto) Best veel rottende bladeren op de bodem.",Ja,V_3640_15
+323016523,2024-08-06,09:43:00,51.162571,5.740373,94494,1,True,Stromend water,"Actief, levendig. zocht telkens zo snel mogelijk de schaduw/dekking op.",Aabeek. Stromend water met begroeing. Veel rotttende bladeren op de bodem.,Nee,V_3640_15
+323049479,2024-08-06,11:06:00,51.01594,5.350565,94491,1,True,Stilstaand water,"In goede conditie, normaal gedrag","Bamboe, bramen, grassen, kniewaterstand",Nee,I_3520_8
+323200419,2024-08-07,11:30:00,50.987666,5.317898,29615,1,True,Stilstaand water,"Kleiner dan vangst van 06/08, normaal gedrag, wentelt zich snel om als hij op de rug wordt gehouden","Riet, struiken, netels, ... in fuik 3. Bijvangst in fuik 2: 1 vis (zie foto)",Ja,I_3520_8
+323201209,2024-08-06,11:00:00,50.987774,5.317726,29615,1,True,Stilstaand water,"Normaal gedrag, lijkt in goede toestand","Riet, struiken, netels, ... - gevonden in fuik 3. Bijvangst in fuik 2: 3 vissen, fuik 1: 1 vis (zie foto)",Nee,I_3520_8
+323280542,2024-08-08,10:30:00,50.987861,5.317906,29615,1,True,Stilstaand water,"Kleiner dan vangst voorbije dagen, lijkt nog jong/schuchter en niet volledig ontwikkeld, kort lijfje","Riet, struiken, netels, ... in fuik 3. Bijvangst in fuik 2: 1 vis (zie foto)",Ja,I_3520_8
+323414593,2024-08-09,09:35:00,50.98784,5.317807,29615,2,True,Stilstaand water,2 kleinere kreeften,"Riet, struiken, netels, ... 1 gevonden in fuik 2, 1 in fuik 3, telkens met 1 vis erbij.",Nee,I_3520_8
+325372597,2024-08-07,12:02:00,51.021755,3.640581,24188,1,True,Stromend water,,Rivieroever zonder vegetatie,Nee,I_9031_3
+325372762,2024-08-08,12:06:00,51.021789,3.640544,24188,1,True,Stromend water,groot exemplaar,Rivieroever zonder vegetatie,Nee,I_9031_3
+325372920,2024-08-09,12:00:00,51.021745,3.640565,24188,4,True,Stromend water,,Rivieroever zonder vegetatie,Nee,I_9031_3
+325656358,2024-08-25,09:00:00,51.15849,5.705473,94494,1,True,Stromend water,Gevlekte Amerikaanse rivierkreeft,"A beek., riet overs. Beek snel stromend door regen. Fuik aan rietkraag in de loop",Ja,L_3640_17
+326157727,2024-08-29,09:00:00,51.336037,4.653565,29251,1,True,Stromend water,stekels op de wang,gevangen in fuik.,Ja,I_2960_4
+326234981,2024-08-29,19:16:00,51.152342,5.752078,94494,1,True,Stromend water,Gevlekte Amerikaanse rivierkreeft levendig. Vermoedelijk mannelijk,Stromend water naast een bos wier. Plantsoort voor mij onbekend,Ja,L_3640_16
+326282662,2024-08-30,08:15:00,51.336091,4.653673,29251,1,True,Stromend water,,,Nee,I_2960_4
+326300472,2024-08-30,11:31:00,51.0374,3.76109,27406,1,True,Stilstaand water,,,Ja,I_9050_2
+326325863,2024-08-30,12:57:00,51.248356,5.417231,189899,1,True,Stilstaand water,"zeer kleine stippen over volledige lijf, klein oranje puntje op uiteinde van de scharen","licht stromend water (vijver met aanvoer van water), Lage waterstand, weinig water vegetatie",Nee,I_3910_13
+326410313,2024-08-31,10:51:00,51.0374,3.76109,27406,1,True,Stilstaand water,,,Ja,I_9050_2
+326491502,2024-08-31,19:00:00,51.152229,5.752083,23457,1,True,Stromend water,"Levendig, kleiner formaat. Waarschijnlijk mannetje. Gevangen in fuik onder de brug",Gevangen onder de brug,Ja,L_3640_16
