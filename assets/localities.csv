@@ -1693,7 +1693,7 @@
 "TRUE","TRUE",NA,NA,"nzzmzdm3","17/08/24","NO","V_2490_14",NA,NA,NA,NA,NA,"Antwerpen","Balen","2490",NA,NA,NA,"51.150688","5.187034","Quintens Hildegarde",NA,"recreatie.ant.anb@vlaanderen.be"
 "TRUE","TRUE",NA,"Ruiselaarbeek","mtqxmdm4","TBD","YES","I_9112_10",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Sint-Niklaas","9112","NA","NA",NA,"51.149032","4.022537",NA,NA,NA
 "FALSE","FALSE",NA,"Belselebeek",NA,NA,"YES","I_9111_3",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Sint-Niklaas","9111","NA","NA",NA,"51.151957","4.067465",NA,NA,NA
-"ONHOLD","ONHOLD",NA,"Leie","mtfizjjh",NA,"YES","I_9051_1",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Gent","9051",NA,NA,NA,"51.030552","3.670377",NA,NA,NA
+"FALSE","FALSE",NA,"Leie",NA,NA,"YES","I_9051_1",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Gent","9051",NA,NA,NA,"51.030552","3.670377",NA,NA,NA
 "TRUE","TRUE",NA,"Maalte","mtfizjjh","TBD","YES","I_9052_5",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Gent","9052","NA","NA",NA,"51.018882","3.70515",NA,NA,NA
 "TRUE","TRUE",NA,"Grootgeleed","yzmzndnm","TBD","YES","I_8470_2",NA,NA,NA,NA,NA,"West-Vlaanderen","Gistel","8470","NA","NA",NA,"51.150606","2.992113",NA,NA,NA
 "TRUE","TRUE",NA,"Grootgeleed","yzmzndnm","TBD","YES","I_8470_3",NA,NA,NA,NA,NA,"West-Vlaanderen","Gistel","8470","NA","NA",NA,"51.135368","2.932188",NA,NA,NA
@@ -1744,5 +1744,6 @@
 "TRUE","TRUE",NA,"Hoekevaart","ndfhyzg1","TBD","NO","V_8300_12",NA,NA,NA,NA,NA,"West-Vlaanderen","Knokke-Heist","8300","NA","NA",NA,"51.3035601","3.3535741",NA,NA,NA
 "TRUE","TRUE",NA,NA,"ndfhyzg1","TBD","NO","V_8300_13",NA,NA,NA,NA,NA,"West-Vlaanderen","Knokke-Heist","8300","NA","NA",NA,"51.3075344","3.3536221",NA,NA,NA
 "TRUE","TRUE",NA,NA,"ndfhyzg1","TBD","NO","V_8340_13",NA,NA,NA,NA,NA,"West-Vlaanderen","Damme","8340",NA,NA,NA,"51.2989399","3.3637036",NA,NA,NA
-"TRUE","TRUE",NA,"Watering De Dommelvallei","mdflzwm0",NA,"NO","V_3900_5",NA,NA,NA,NA,NA,"Limburg","Pelt","3900",NA,NA,NA,"51.203514","5.37853",NA,NA,NA
-"TRUE","TRUE",NA,"Watering De Dommelvallei","mdflzwm0",NA,"NO","V_3900_6",NA,NA,NA,NA,NA,"Limburg","Pelt","3900",NA,NA,NA,"51.208177","5.395103",NA,NA,NA
+"TRUE","TRUE",NA,"Watering De Dommelvallei","mdflzwm0",NA,"NO","V_3900_5",NA,NA,NA,NA,NA,"Limburg","Pelt","3900","NA","NA",NA,"51.203514","5.37853",NA,NA,NA
+"TRUE","TRUE",NA,"Watering De Dommelvallei","mdflzwm0",NA,"NO","V_3900_6",NA,NA,NA,NA,NA,"Limburg","Pelt","3900","NA","NA",NA,"51.208177","5.395103",NA,NA,NA
+"TRUE","TRUE",NA,NA,"mtfizjjh",NA,"NO","V_9051_3",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Gent","9051",NA,NA,NA,"51.035853","3.667529",NA,NA,NA
