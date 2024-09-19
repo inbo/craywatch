@@ -24,7 +24,7 @@ id,date,time,lat,lng,location id,number of individuals,has photo,Finding place c
 325237713,2024-08-21,08:17:00,51.268865,3.561383,29953,2,True,Stilstaand water,2 man,Open water met rietkraag,Ja,I.9982.11.
 325304170,2024-08-21,17:14:00,51.303967,3.124387,31265,4,True,,1 zonder scharen,,Nee,I_8370_5
 325391072,2024-08-22,,51.299058,3.105553,31257,4,False,Stromend water,,"5m brede waterloop, 1m riet, steile oevers. troebel water",Nee,I_8420_2
-325449539,2024-08-23,08:57:00,51.192211,2.835674,252013,1,True,Stromend water,scharen met rode knobbels. 1 schaar ontbrak,51.18645 2.83553,,L8430-3
+325449539,2024-08-23,08:57:00,51.186902,2.836919,24021,1,True,Stromend water,scharen met rode knobbels. 1 schaar ontbrak,51.18645 2.83553,,L8430-3
 325489421,2024-08-23,,51.299055,3.10559,31257,2,False,,,,Ja,I_8420_2
 325610498,2024-08-24,,51.29905,3.105578,31257,2,False,,,,Ja,I_8420_2
 325749114,2024-08-25,,51.299054,3.10551,31257,4,False,,,,,I_8420_2
@@ -55,3 +55,51 @@ id,date,time,lat,lng,location id,number of individuals,has photo,Finding place c
 326953700,2024-09-03,09:20:00,51.183753,4.05852,30734,2,True,Stilstaand water,,"Ransbeek, Twee fuiken lagen niet helemaal onder water.",,I.9112.2
 326954066,2024-09-04,09:20:00,51.183767,4.058627,30734,3,True,Stilstaand water,,"Ransbeek, regen gehad, fuiken lagen allemaal onder water.",Ja,I.9112.2
 327060671,2024-09-05,08:24:00,51.147736,3.9111,30170,2,True,Stilstaand water,,"Stilstaand, zwak stromend water, waterlelie",,I.9180.5
+327276397,2024-09-07,09:15:00,51.148003,3.910744,30169,4,True,Stromend water,,"Stilstaand, zwak stromend helder water, waterlelie in de oever",Ja,I.9180.5
+327458855,2024-09-06,19:30:00,51.287963,3.17293,28508,18,False,Stromend water,"Foto's niet opgeslaan, sorry","Gracht, riet, lage waterstand",Nee,"V_8380_4: Kruisilader (51.28947, 3.17351)"
+327459845,2024-09-08,14:54:00,51.289043,3.174072,28508,25,True,Stromend water,Aaszakje kapot bij val 2,"Gracht, riet, laag waterstand",Ja,"V_8380_4: Kruisilader (51.28947, 3.17351)"
+327560785,2024-09-08,14:49:00,51.147994,3.910812,30169,3,True,Stromend water,"2 man, 1 vrouw","Stilstaand, zwak stromend helder water, waterlelie in de oever",Nee,I.9180.5
+327585636,2024-09-03,10:33:00,51.066913,4.182358,30729,1,True,Stilstaand water,Mist 1 schaar,"eerste dag proefproject. gracht verbonden met visput, waterstand geregeld met sluizen, niveau water hoog kanten begroeid met riet. waterdiepte 80 cm cm",Ja,valnr.1  I.9220.3
+327585849,2024-09-03,10:37:00,51.067061,4.182385,30729,2,True,Stilstaand water,geen,"eerste dag proefproject. gracht verbonden met visput, waterstand geregeld met sluizen, kanten begroeid met riet. waterdiepte +-80 cm",Ja,valnr.2  I.9220.3
+327606812,2024-09-06,14:57:00,51.183779,4.058601,30734,5,True,Stilstaand water,,Ransbeek,,I.9112.2
+327660947,2024-09-10,09:21:00,51.291797,3.247979,31656,9,True,Stilstaand water,4 vrouwlijke 5 mannelijke,"Natuurlijke oever, normale waterstand, gemaaid rietkraag",Ja,I_8380_2
+327690152,2024-09-10,10:54:00,51.30069,3.196946,31295,10,True,Stromend water,allemaal vrij levendig,Vaartje met veel grote rietkragen. 1ste val vrij veel waterpest (4 kreeftjes) Val 2 & 3 Minder/geen waterpest. telkens 3 kreeftjes.,Ja,"I_8380_5    Lisseweegs Vaartje (51.30071, 3.19696)"
+327706024,2024-09-10,14:36:00,51.189504,4.038481,28411,7,True,Stromend water,,,Nee,I_9111_1
+327707228,2024-09-10,18:20:00,51.170021,2.961601,24027,1,True,Stromend water,1 in fuik 1/3 in fuik 2,brede hoge rietkraag/oever met houten schoeiwerk,Nee,I-8470-1
+327724062,2024-09-11,07:43:00,51.291731,3.248082,31656,20,True,Stromend water,13 vrouwlijke en 7 mannelijke,"Hoger waterstand, licht stromend,natuurlijke oever,gemaaide rietkraag",Nee,I_8380_2
+327753286,2024-09-11,10:58:00,51.1895,4.0385,28411,20,True,Stromend water,,,Nee,I_9111_1
+327760344,2024-09-08,13:55:00,51.108526,3.995112,28806,1,True,Stromend water,"geen donkere gepigmenteerde lijn op onderzijde, schare n rood of oranje",aan de kant van het zwembad lokeren aan een oude steiger,Nee,I.9160.12
+327760547,2024-09-09,,51.108254,3.99547,28806,1,True,Stromend water,"donkere gepigmenteerde lijn op onderzijde, scharen rood of oranje",aan de kant van het zwembad lokeren aan een oude steiger,Nee,I.9160.12
+327770629,2024-09-11,17:48:00,51.170011,2.961665,24027,1,True,Stromend water,,brede hoge rietkraag/oever met houten schoeiwerk,Ja,I-8470-1
+327772603,2024-09-11,18:21:00,51.129107,3.979191,30839,3,True,Stilstaand water,,Tegenover actief pomphuis,Ja,I_9160_8
+327778875,2024-09-11,15:24:00,51.302473,3.197135,31295,9,True,Stromend water,allemaal vrij levendig,Vaartje met veel grote rietkragen. 1ste val vrij veel waterpest (3 kreeftjes) Val 2 & 3 Minder/geen waterpest. telkens 3 kreeftjes.,Ja,"I_8380_5    Lisseweegs Vaartje (51.30071, 3.19696)"
+327790079,2024-09-12,08:31:00,51.291724,3.248233,31656,12,True,Stromend water,8 mannelijke en 4 vrouwlijke waarvan 1 vrouw dragen was van jonge kreeftjes,"Normale waterstand,natuurlijke oevers,gemaaid rietkraag",Ja,I_8380_2
+327808317,2024-09-12,12:36:00,51.170016,2.96156,24027,1,True,Stromend water,,brede hoge rietkraag/oever met houten schoeiwerk,Nee,I-8470-1
+327825538,2024-09-12,10:49:00,51.1895,4.0385,28411,13,True,Stromend water,,,Nee,I_9111_1
+327847494,2024-09-12,18:30:00,51.129085,3.979207,30839,12,True,Stilstaand water,"3 met maar 1 schaar, verschillende 'klapten' met een staart",Tegenover actief pomphuis,Ja,I_9160_8
+327851746,2024-09-12,10:15:00,51.302134,3.196906,31295,13,True,Stromend water,allemaal vrij levendig. Meer grotere exemplaren,"Vaartje met veel grote rietkragen. 1ste val vrij veel waterpest Waar ik de voorbije dagen redelijk wat waterpest opgevist heb met de vallen, zaten nu de meeste kreeftjes.  8 van de de 13 .  De aaszakjes zijn kapotgebeten. Ik doe het aas nu los in de val.",Ja,"I_8380_5    Lisseweegs Vaartje (51.30071, 3.19696)"
+327856615,2024-09-13,07:45:00,51.291761,3.248032,31656,10,True,Stromend water,"7 vrouwlijke 3 mannelijke, 1 vrouwlijke was drager van larven","Ligt stromend, natuurlijke oever, gemaaid rietkraag",Nee,I_8380_2
+327882740,2024-09-13,10:48:00,51.1895,4.0385,28411,14,True,Stromend water,,,,I_9111_1
+327906941,2024-09-13,15:51:00,51.301071,3.196906,31295,13,True,Stromend water,"Het lijken allemaal dezelfde. Door de regenval, meer zuurstof, meer leven in de beek.","Door de grote regenval, meer zuurstof/meer leven in de beek. In elke val zaten ook wel een paar voorn's (?) 1 foto bijgevoegd. Alles samen een 10-tal voorntjes in de vallen.",Ja,"I_8380_5    Lisseweegs Vaartje (51.30071, 3.19696)"
+327926711,2024-09-13,20:26:00,51.103217,3.698469,30314,1,True,Stromend water,,"Waterloop met ijsvogel en ruige vegetatie liesgras, lisdodde etc.",Ja,I_9940_18
+327973916,2024-09-13,18:30:00,51.129154,3.979138,30839,7,True,Stilstaand water,,Tegenover actief pomphuis,Nee,I_9160_8
+328063918,2024-09-15,09:38:00,51.268619,3.197302,31286,10,True,Stromend water,6 vrouwlijke 4 mannelijke,"Oever bezet met steen,rietkragen, normale waterstand",Nee,I_8380_3
+328066802,2024-09-14,20:08:00,51.10323,3.69838,30314,2,True,Stromend water,een kleintje en een grote,"waterloop, weinig stroming, veel ruige vegetatie",Nee,I_9940_18
+328083735,2024-09-14,13:42:00,51.301868,3.196876,31295,9,True,Stromend water,Kreeft 6 heeft een bobbel op zijn pantser. zijkant,"Door de grote regenval, meer zuurstof/meer leven in de beek. In elke val zaten ook wel een paar voorn's (?)",Ja,"I_8380_5    Lisseweegs Vaartje (51.30071, 3.19696)"
+328094345,2024-09-14,12:57:00,51.265441,3.158425,31279,5,True,Stilstaand water,"heel snel , en verschillende groottes",gracht met heel veel riet,Ja,"I_8377_3: Kruisilader (51.26994, 3.1536)"
+328095578,2024-09-14,12:50:00,51.263384,3.134403,31278,0,False,Stilstaand water,,,Ja,"I_8377_4: Blankenbergse Vaart (51.26219, 3.13449)"
+328096601,2024-09-15,12:22:00,51.265453,3.158371,31279,4,True,Stilstaand water,aktief,veel riet,Ja,"1. I_8377_3: Kruisilader (51.26994, 3.1536)"
+328096956,2024-09-15,12:22:00,51.262559,3.134451,31278,2,True,Stilstaand water,lichtere kleur dan op de andere plaats,veel riet,Ja,"51.26219, 3.13449"
+328097666,2024-09-14,12:50:00,51.265441,3.158425,31279,5,True,Stilstaand water,aktief,veel riet,Ja,"I_8377_3: Kruisilader (51.26994, 3.1536)"
+328187724,2024-09-16,08:05:00,51.268595,3.197381,31286,10,True,Stromend water,7 mannelijke 3 vrouwlijke,"Stenen oever, rietkraag, ligt stromend water, normale waterstand",Ja,I_8380_3
+328217756,2024-09-16,13:45:00,51.26539,3.158385,31279,2,True,Stilstaand water,niets te melden,veel riet,Ja,"I_8377_3: Kruisilader (51.26994, 3.1536)"
+328259831,2024-09-16,19:30:00,51.162691,3.948618,30173,1,False,Stromend water,klein rood kreeftje( geen foto... ontsnapte bij het uithalen),heldere beek (nog maar net schoongemaakt met kraan 1maand geleden,Nee,"I_9180_11: Bosbeek (51.16245, 3.94853)"
+328276568,2024-09-17,07:30:00,51.268775,3.197294,31286,9,True,Stromend water,5 mannelijke 4 vrouwlijke,"Ligt stromend, stenen oever, rietkraag, normale waterstand",Nee,I_8380_3
+328336770,2024-09-17,14:52:00,51.183606,4.028133,30733,1,True,Stromend water,,,Nee,I_9112_8
+328358687,2024-09-14,09:52:00,51.170511,2.965536,24027,1,True,Stilstaand water,Zeer actief,"Rechte oevers met lage begroeiing, ongeveer 1,5 m diep. In de volgende val zat een (veel kleinere) gevlekte Amerikaanse rivierkreeft, zie andere rapportage.",Ja,I_8460_1
+328373132,2024-09-16,19:45:00,51.103212,3.698337,30314,1,True,,,,,I_9940_18
+328400098,2024-09-18,14:24:00,51.262069,3.134472,31278,5,True,Stilstaand water,niets te melden,"ik ben door omstandigheden gisteren de netjes niet kunnen gaan ledigen , dus is vn a2 dagen ipv 1 dag, ECHTER op die plaats had een buurman mij gezien  denk ik , en 2 van de 3 netjes waren dus verdwenen :(n",Nee,"51.26994, 3.1536"
+328403816,2024-09-18,07:44:00,51.335653,3.277659,31736,6,True,,levendig en aggressief,traag aflopende oever met rietvegetatie,Ja,I_8300_9
+328404456,2024-09-18,07:47:00,51.335492,3.277488,31736,1,True,Stilstaand water,levendig,langzaam aflopende oever met rietvegetatie,Ja,I_8300_9
+328438978,2024-09-18,19:23:00,51.269747,3.190161,31286,6,True,Stromend water,4 mannelijke 2 vrouwlijke,"Stenen oever, rietkraag, normale waterstand, ligt stromend",Nee,I_8380_3
+328465295,2024-09-18,21:00:00,51.103227,3.698324,30314,2,False,,,,Nee,I_9940_18
