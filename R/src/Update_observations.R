@@ -59,6 +59,7 @@ new_data$locID <- gsub("[-. ]", "_", new_data$Code.sample.location)
 # Replace 'v' with 'V' and 'i' with 'I' in the locID column
 new_data$locID <- gsub("v", "V", new_data$locID)
 new_data$locID <- gsub("i", "I", new_data$locID)
+new_data$locID <- gsub("L","I", new_data$locID)
 
 new_data$locID <- gsub(pattern, "\\1", new_data$locID)
 
