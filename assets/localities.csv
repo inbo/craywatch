@@ -1460,7 +1460,7 @@
 "TRUE","TRUE",NA,"Brakeleiken ","mze2mza3","08/07/2024","NO","V_9940_17",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Evergem","9940","NA","NA",NA,"51.1449082","3.7079786",NA,NA,NA
 "TRUE","TRUE","Den Dotter","Ter Erpenbeek","mjkyzjq3","24-07-2024","NO","V_9420_6",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Erpe-Mere","9420","NA","NA",NA,"50.90148","3.96273",NA,NA,NA
 "TRUE","TRUE","Ter Eppenbeek","Ter Erpenbeek","mjkyzjq3","24-06-2024","NO","V_9450_2",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Haaltert","9450","NA","NA",NA,"50.88894","3.95116",NA,NA,NA
-"TRUE","TRUE","Molenbeek",NA,"mjkyzjq3","24-06-2024","NO","V_9450_3",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Haaltert","9450",NA,NA,NA,"50.89441","4.0229",NA,NA,NA
+"TRUE","TRUE","Molenbeek",NA,"mjkyzjq3","24-06-2024","NO","V_9450_3",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Haaltert","9450","NA","NA",NA,"50.893729","4.021330",NA,NA,NA
 "TRUE","TRUE","Molenbeek","Molenbeek","mjkyzjq3","24-06-2024","NO","V_9450_4",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Haaltert","9450","NA","NA",NA,"50.89703","4.03072",NA,NA,NA
 "TRUE","TRUE","Hertsberg, Sterredreef","Blauwhuisbeek","ymzlmda2","TBD","YES","I_8020_3",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Oostkamp","8020","1","927",NA,"51.1025832","3.2575029","VMM",NA,"d.slootmaekers@vmm.be"
 "ONHOLD","ONHOLD",NA,NA,"mjywyjqx","29/07/2024","YES","I_8810_3","Te ondiep!",NA,NA,NA,NA,"West-Vlaanderen","Lichtervelde","8810","NA","NA",NA,"51.0412999","3.1338196",NA,NA,NA
@@ -1764,3 +1764,8 @@
 "TRUE","TRUE",NA,NA,"mdm4oge4",NA,"NO","V_2850_3",NA,NA,NA,NA,NA,"Antwerpen","Boom","2850",NA,NA,NA,"51.087015","4.3842758",NA,NA,NA
 "TRUE","TRUE",NA,"Sint Andrieszwin","zwzhotbm",NA,"NO","V_8000_7",NA,NA,NA,NA,NA,"West-Vlaanderen","Brugge","8000","NA","NA",NA,"51.2170345","3.1436378",NA,NA,NA
 "TRUE","TRUE",NA,"Roeivijver","njiyn2yx",NA,"NO","V_2100_6",NA,NA,NA,NA,NA,"Antwerpen","Antwerpen","2100",NA,NA,NA,"51.214583","4.473083",NA,NA,NA
+"TRUE","TRUE",NA,"Ter Erpenbeek","mjkyzjq3",NA,"YES","I_9450_5",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Erpe-Mere","9450",NA,NA,NA,"50.893008","3.957963",NA,NA,NA
+"TRUE","TRUE",NA,NA,"mjkyzjq3",NA,"YES","I_9450_6",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Haaltert","9450",NA,NA,NA,"50.894599","4.022742",NA,NA,NA
+"TRUE","TRUE",NA,NA,"mjkyzjq3",NA,"YES","I_9450_7",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Haaltert","9450",NA,NA,NA,"50.886731","4.029902",NA,NA,NA
+"TRUE","TRUE",NA,NA,"mjkyzjq3",NA,"YES","I_9450_8",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Haaltert","9450",NA,NA,NA,"50.858793","4.022645",NA,NA,NA
+"TRUE","TRUE",NA,NA,"mjkyzjq3",NA,"YES","I_9472_1",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Denderleeuw","9472",NA,NA,NA,"50.870342","4.043379",NA,NA,NA
