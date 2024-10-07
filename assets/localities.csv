@@ -233,7 +233,7 @@
 "FALSE","FALSE","Zandbergen,(Beekstraat)-Voordeweg,opw weg","Molenbeek",NA,NA,"YES","I_9506_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Geraardsbergen","9506","1","5954",NA,"50.8080059517763","3.9529944082495","VMM",NA,"d.slootmaekers@vmm.be"
 "TRUE","TRUE","Sint-Maria-Lierde,Beekstraat,opw weg","Ophasseltbeek","zwuzztfl","04/09/24","YES","I_9570_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Lierde","9570","2","6095",NA,"50.8240558","3.8377674","Oost-Vlaanderen",NA,"waterbeleid@oost-vlaanderen.be"
 "TRUE","TRUE","Onkerzele,Bosstraat,opw weg","Steenborrebeek","mta3yjmz",NA,"YES","I_9500_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Geraardsbergen","9500","2","6338",NA,"50.7817292906111","3.92371757436728","Oost-Vlaanderen",NA,"waterbeleid@oost-vlaanderen.be"
-"TRUE","TRUE","Schendelbeke,Astridlaan,opw weg","Dammersbeek","yjqzngy4","08/24","YES","I_9506_2","TE ONDIEP!",NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Geraardsbergen","9506","2","6196",NA,"50.7850447","3.8683194","Oost-Vlaanderen",NA,"waterbeleid@oost-vlaanderen.be"
+"TRUE","TRUE","Schendelbeke,Astridlaan,opw weg","Dammersbeek","yjqzngy4","08/24","YES","I_9506_2","TE ONDIEP!",NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Geraardsbergen","9506","2","6196",NA,"50.7897655","3.8817519","Oost-Vlaanderen",NA,"waterbeleid@oost-vlaanderen.be"
 "FALSE","FALSE","St-Pieters-Kapelle,Roosbroekstraat,einde veldweg,achterzijde boerderij,afw molen","Mark",NA,NA,"YES","I_1541_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Vlaams-Brabant","Herne","1541","1","5952",NA,"50.6989680669501","4.01313638511396","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Torrezeel,veldweg,afw","Beverbeek",NA,NA,"YES","I_1547_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Vlaams-Brabant","Bever","1547","2","6347",NA,"50.7025745367026","3.94595256293746","Vlaams-Brabant",NA,"ingrid.beuls@vlaamsbrabant.be"
 "FALSE","FALSE","Herfelingen,Raseveldstraat,opw monding in Waterblokbeek","Waterblokbeek",NA,NA,"YES","I_1540_2",NA,NA,"VMM_Mtp","Lotisch",NA,"Vlaams-Brabant","Herne","1540","2","6404",NA,"50.7520451026228","4.05765834373395","Vlaams-Brabant",NA,"ingrid.beuls@vlaamsbrabant.be"
@@ -493,7 +493,7 @@
 "TRUE","TRUE","Kapelle-o/d-Bos; Hogerheistraat; begin 110m opw brugje","Birrebeek","mtm3nmvj","09/24","YES","I_1880_2",NA,NA,"VMM_Mtp","Lotisch",NA,"Vlaams-Brabant","Kapelle-op-den-Bos","1880","2","3106",NA,"51.0075036","4.3534237","Vlaams-Brabant",NA,"ingrid.beuls@vlaamsbrabant.be"
 "ONHOLD","ONHOLD","Oostkerke, Sabtsweg","Zwinnevaart","mjcxzme1",NA,"YES","I_8340_4",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Damme","8340","1","2230",NA,"51.2830861","3.2903955","VMM",NA,"d.slootmaekers@vmm.be"
 "ONHOLD","ONHOLD","Westkapelle, Hoekstraat","Zwinnevaart","mdbjyzfk",NA,"YES","I_8300_2",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Knokke-Heist","8300","1","2230",NA,"51.312843","3.318261","VMM",NA,"d.slootmaekers@vmm.be"
-"FALSE","FALSE","Westkapelle, Hazegrasstraat","Zwinnevaart",NA,NA,"YES","I_8300_3",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Knokke-Heist","8300","1","2230",NA,"51.3273390229959","3.33947062510371","VMM",NA,"d.slootmaekers@vmm.be"
+"ONHOLD","ONHOLD","Westkapelle, Hazegrasstraat","Zwinnevaart","ntvlndrm",NA,"YES","I_8300_3",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Knokke-Heist","8300","1","2230",NA,"51.327339","3.3394706","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Winkelom (Geel); zijwegje Zandstraat; 100m opw mtp 260000","Grote Nete",NA,NA,"YES","I_2440_4",NA,NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Geel","2440","1","8501",NA,"51.1494380252568","5.02615436880746","VMM",NA,"d.slootmaekers@vmm.be"
 "TRUE","TRUE","Balen; bereikbaar via kanaalpad; begin aan zandweg (300m afw mtp 261900)","Grote Nete","nzzmzdm3",NA,"YES","I_2490_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Balen","2490","1","8501",NA,"51.149968","5.1432007","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Meerhout;Rooiaarde; 2de zandweg links (aan verkeersbordje 50km)","Grote Nete",NA,NA,"YES","I_2450_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Meerhout","2450","1","8501",NA,"51.136425","5.0916673","VMM",NA,"d.slootmaekers@vmm.be"
@@ -1521,7 +1521,7 @@
 "TRUE","TRUE",NA,"Warmbeek","nthlmzez","TBD","NO","V_3910_11",NA,NA,NA,NA,NA,"Limburg","Pelt","3910","NA","NA",NA,"51.2251145","5.492385",NA,NA,NA
 "TRUE","TRUE",NA,NA,"nthlmzez","TBD","NO","V_3910_12",NA,NA,NA,NA,NA,"Limburg","Pelt","3910",NA,NA,NA,"51.2265491","5.5083407",NA,NA,NA
 "TRUE","TRUE","ziet er meer bereikbaar uit dan ","Omleidingsgracht","zjyxyjrl","10/08/24","YES","I_2030_5",NA,NA,NA,NA,NA,"Antwerpen","Antwerpen","2030","NA","NA",NA,"51.3055899","4.3616486",NA,NA,NA
-"TRUE","TRUE",NA,"Grote Nete","mwnhmtq1","TBD","YES","I_3940_1",NA,NA,NA,NA,NA,"Limburg","Hechtel-Eksel","3940","NA","NA",NA,"51.1341464","5.3779604",NA,NA,NA
+"FALSE","FALSE",NA,"Grote Nete","mwnhmtq1","TBD","YES","I_3940_1","TE ONDIEP!",NA,NA,NA,NA,"Limburg","Hechtel-Eksel","3940","NA","NA",NA,"51.1341464","5.3779604",NA,NA,NA
 "TRUE","TRUE","Kanaal van Beverlo",NA,"mwnhmtq1","TBD","NO","V_2490_3",NA,NA,NA,NA,NA,"Antwerpen","Balen","2490",NA,NA,NA,"51.1533249","5.2511977",NA,NA,NA
 "TRUE","TRUE","Vinderhoute,Bulken,Langendam","Merebeek","mzu1ode0",NA,"YES","I_9031_2",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Gent","9031","1","402",NA,"51.0822354","3.6543178","VMM",NA,"d.slootmaekers@vmm.be"
 "ONHOLD","ONHOLD",NA,"Hof ter Zielbeek","zwuxmwy1","09/07/2024","NO","V_2870_7",NA,NA,NA,NA,NA,"Antwerpen","Puurs-Sint-Amands","2870",NA,NA,NA,"51.0753132","4.3381038",NA,NA,NA
@@ -1773,3 +1773,5 @@
 "ONHOLD","ONHOLD",NA,NA,"njixzjg3",NA,"NO","V_2300_9",NA,NA,NA,NA,NA,"Antwerpen","Turnhout","2300",NA,NA,NA,"51.337718","4.935679",NA,NA,NA
 "ONHOLD","ONHOLD",NA,NA,"njixzjg3",NA,"NO","V_2300_10",NA,NA,NA,NA,NA,"Antwerpen","Turnhout","2300",NA,NA,NA,"51.359212","4.961498",NA,NA,NA
 "TRUE","TRUE",NA,"Kwetshage","zwzhotbm",NA,"NO","V_8490_12",NA,NA,NA,NA,NA,"West-Vlaanderen","Jabbeke","8490","NA","NA",NA,"51.20392","3.100523","Dewulf Evy",NA,"recreatie.wvl.anb@vlaanderen.be"
+"TRUE","TRUE",NA,NA,"nzzmzdm3",NA,"NO","V_3920_7",NA,NA,NA,NA,NA,"Limburg","Lommel","3920",NA,NA,NA,"51.1831977","5.2650075",NA,NA,NA
+"TRUE","TRUE",NA,NA,"nzzmzdm3",NA,"NO","V_3920_8",NA,NA,NA,NA,NA,"Limburg","Lommel","3920",NA,NA,NA,"51.182752","5.2653307",NA,NA,NA
