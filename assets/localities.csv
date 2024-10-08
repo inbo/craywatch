@@ -1399,7 +1399,7 @@
 "ONHOLD","ONHOLD","ANB","Watering De Herk","nza1njg5","TBD","YES","I_3520_9",NA,NA,"Scheers","Lentisch",NA,"Limburg","Zonhoven","3520",NA,NA,NA,"50.9675552","5.3435952","Saey Frank",NA,"recreatie.lim.anb@vlaanderen.be"
 "TRUE","TRUE","wijnegem",NA,"nwqymjk4",NA,"YES","I_2110_1",NA,NA,"Scheers","Lentisch",NA,"Antwerpen","Wijnegem","2110",NA,NA,NA,"51.2245608","4.5268978",NA,NA,NA
 "FALSE","FALSE","Deurne",NA,NA,NA,"YES","I_2100_5",NA,NA,"Scheers","Lentisch",NA,"Antwerpen","Antwerpen","2100",NA,NA,NA,"51.199275790532504","4.46410839875964",NA,NA,NA
-"ONHOLD","ONHOLD","ANB","Kanaalmeer","otjhnmm0",NA,"YES","I_2400_6",NA,NA,"Scheers","Lentisch",NA,"Antwerpen","Mol","2400",NA,NA,NA,"51.230458","5.1813304",NA,NA,NA
+"TRUE","TRUE","ANB","Kanaalmeer","mwnhmtq1","14/10/2024","YES","I_2400_6",NA,NA,"Scheers","Lentisch",NA,"Antwerpen","Mol","2400",NA,NA,NA,"51.230458","5.1813304",NA,NA,NA
 "TRUE","TRUE",NA,NA,"owe0mzg2","TBD","YES","I_9220_3",NA,NA,"Scheers","Lentisch",NA,"Oost-Vlaanderen","Hamme","9220","NA","NA",NA,"51.0670983","4.1824636",NA,NA,NA
 "TRUE","TRUE",NA,"Oude Dender","odvmmji0",NA,"YES","I_9200_11",NA,NA,"Scheers","Lentisch",NA,"Oost-Vlaanderen","Dendermonde","9200","0","0",NA,"51.0258332","4.0783975",NA,NA,NA
 "FALSE","FALSE",NA,NA,NA,NA,"YES","I_9250_2","OTTER - INBO?",NA,"Scheers","Lentisch",NA,"Oost-Vlaanderen","Waasmunster","9250","9","0",NA,"51.1001745","4.0272264",NA,NA,NA
@@ -1659,7 +1659,7 @@
 "TRUE","TRUE",NA,"Kleine Beverdijkvaart","zmu2zji1","09/24","YES","I_8630_13",NA,NA,NA,NA,NA,"West-Vlaanderen","Veurne","8630","NA","NA",NA,"51.086946","2.765037",NA,NA,NA
 "ONHOLD","ONHOLD",NA,NA,"mdm4oge4",NA,"NO","V_2850_1",NA,NA,NA,NA,NA,"Antwerpen","Boom","2850",NA,NA,NA,"51.091341","4.3834673",NA,NA,NA
 "TRUE","TRUE",NA,"Oude A-vaart","zmu2zji1","09/24","YES","I_8600_17",NA,NA,NA,NA,NA,"West-Vlaanderen","Diksmuide","8600",NA,NA,NA,"51.073806","2.769782",NA,NA,NA
-"ONHOLD","ONHOLD",NA,NA,"mdm4oge4",NA,"NO","V_2800_9",NA,NA,NA,NA,NA,"Antwerpen","Mechelen","2800",NA,NA,NA,"51.0227107","4.4550347",NA,NA,NA
+"TRUE","TRUE",NA,NA,"mdm4oge4",NA,"NO","V_2800_9",NA,NA,NA,NA,NA,"Antwerpen","Mechelen","2800",NA,NA,NA,"51.0227107","4.4550347",NA,NA,NA
 "FALSE","FALSE",NA,"Sint-Trudoledeken",NA,NA,"YES","I_8310_5",NA,NA,NA,NA,NA,"West-Vlaanderen","Brugge","8310","NA","NA",NA,"51.185147","3.278781",NA,NA,NA
 "ONHOLD","ONHOLD",NA,NA,"mdm4oge4",NA,"NO","V_2500_8",NA,NA,NA,NA,NA,"Antwerpen","Lier","2500",NA,NA,NA,"51.10687","4.5231917",NA,NA,NA
 "TRUE","TRUE",NA,"Prinsenpark","mwi0nmni","01/10/24","NO","V_2470_2",NA,NA,NA,NA,NA,"Antwerpen","Retie","2470",NA,NA,NA,"51.22879","5.038109",NA,NA,NA
@@ -1780,3 +1780,4 @@
 "TRUE","TRUE",NA,"Leie","yzc4njmw",NA,"NO","V_9800_19",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Deinze","9800",NA,NA,NA,"50.9917051","3.5709575",NA,NA,NA
 "TRUE","TRUE",NA,NA,"owm2ywvi",NA,"NO","V_3550_10",NA,NA,NA,NA,NA,"Limburg","Heusden-Zolder","3550",NA,NA,NA,"50.9973821","5.2711361",NA,NA,NA
 "TRUE","TRUE",NA,"owm2ywvi",NA,NA,"NO","V_3550_11",NA,NA,NA,NA,NA,"Limburg","Heusden-Zolder","3550",NA,NA,NA,"50.9976814","5.271577",NA,NA,NA
+"TRUE","TRUE",NA,NA,"mwnhmtq1",NA,"NO","V_3970_1",NA,NA,NA,NA,NA,"Limburg","Leopoldsburg","3970",NA,NA,NA,"51.1322606","5.2439153",NA,NA,NA
