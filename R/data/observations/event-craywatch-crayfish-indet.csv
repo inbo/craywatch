@@ -1007,3 +1007,190 @@ id,date,time,lat,lng,location id,number of individuals,has photo,Finding place c
 329461802,2024-09-29,,51.027117,3.629332,24459,0,False,Stilstaand water,,Beek met oevervegetatie. Watervlak volledig dicht met kroos,Nee,V_9830_1
 329461975,2024-09-24,18:00:00,51.02708,3.629396,24459,0,False,Stilstaand water,,Beek met oevervegetatie. Watervlak volledig dicht met kroos,Nee,V_9830_1
 329462142,2024-09-25,17:30:00,51.027103,3.629399,24459,0,False,Stilstaand water,,Beek met oevervegetatie. Watervlak volledig dicht met kroos,,V_9830_1
+329494089,2024-09-30,13:30:00,50.951113,4.734287,23390,0,False,,,,Ja,V_3111_3
+329495154,2024-09-30,13:45:00,50.887869,4.116182,30978,0,False,Stromend water,,,Ja,I-1790-1
+329496097,2024-09-30,13:46:00,51.359184,4.997588,713734,0,True,,,,Ja,I-2380-1
+329519197,2024-09-30,19:00:00,50.990542,4.581878,30892,0,False,,,,Ja,I_3190_4
+329533130,2024-09-30,10:00:00,51.367478,4.875559,29515,0,False,Stromend water,,,Nee,I_2330_1
+329534677,2024-09-17,08:00:00,50.797158,3.123587,24094,0,False,,,,Nee,I-8930-4
+329534729,2024-09-18,,50.797169,3.123681,24094,0,False,,,,Nee,I-8930-4
+329534753,2024-09-19,08:00:00,50.797163,3.123651,24094,0,False,Stilstaand water,,,Nee,I-8930-4
+329534766,2024-09-20,,50.797169,3.123666,24094,0,False,Stilstaand water,,,Nee,I-8930-4
+329534802,2024-09-27,10:00:00,50.794522,3.112236,108058,0,False,Stilstaand water,,,Nee,I-8930-7
+329534878,2024-09-29,09:15:00,50.794498,3.112236,108058,0,False,Stilstaand water,,,Nee,I-8930-7
+329534907,2024-09-30,08:00:00,50.794543,3.112,108058,0,False,Stilstaand water,,,Nee,I-8930-7
+329534945,2024-10-01,08:00:00,50.794493,3.112161,108058,0,False,Stilstaand water,,,Nee,I-8930-7
+329537266,2024-09-30,,50.861197,4.738252,687765,0,False,Stilstaand water,,,Nee,V_3000_4
+329541787,2024-09-23,,51.089387,4.384373,29318,0,False,Stilstaand water,,,,V_2850_2
+329541871,2024-09-23,,51.089258,4.383934,29318,0,False,Stilstaand water,,,,V_2850_3
+329542390,2024-10-01,,51.090221,4.38509,29318,0,False,Stilstaand water,,,,V_2850_3
+329542540,2024-09-25,,51.088832,4.383717,29318,0,False,,,,,V_2850_2
+329542577,2024-09-25,,51.089619,4.385176,29318,0,False,,,,,V_2850_3
+329552744,2024-09-25,11:30:00,51.214442,2.945578,27235,0,False,,,,Ja,I-8400-2
+329553102,2024-09-26,17:30:00,51.214258,2.945955,27225,0,False,,,Watetstand ongeveer halve meter hoger dan dag voordien; 1 fuik niet teruggevonden daardoor; bijvangst 1 visje,Ja,I-8400-2
+329553453,2024-09-27,16:00:00,51.214365,2.945868,27225,0,False,,,Nog steeds heel hoge waterstand,Ja,I-8400-2
+329553642,2024-09-29,10:30:00,51.214356,2.945869,27225,0,False,,,"Heel lage waterstand (ong 0,5m lager); 2 fuiken niet meer volledig onder water maar inzwemgaten wel onder; derde fuik gevonden; bijvangst vis 15cm en 3 garnalenn",,
+329553794,2024-10-01,,51.214463,2.945729,27225,0,False,,,Middelhoge waterstand; fuiken weggehaald; bijvangst visje 15cm,Nee,I-8400-2
+329554605,2024-09-26,,51.087531,4.382858,29318,0,False,,,,,V_2850_3
+329554656,2024-09-27,,51.089169,4.383802,29318,0,False,,,,,V_2850_2
+329554760,2024-09-27,,51.090329,4.384918,29318,0,False,,,,,V_2850_3
+329554930,2024-09-28,,51.090502,4.385651,29318,0,False,,,,,V_2850_2
+329554982,2024-09-28,,51.090375,4.384232,29318,0,False,,,,,V_2850_3
+329558058,2024-10-01,13:00:00,50.960254,4.7251,31013,0,False,Stilstaand water,NVT,NVT,Ja,I_3110_7
+329558282,2024-10-01,13:30:00,50.96592,4.694223,23390,0,False,Stromend water,NVT,NVT,Ja,I_3118_1
+329560255,2024-10-01,,50.887878,4.116225,30978,0,False,Stromend water,,Kom Bellebeek en stroomafwaarts de kom. Verhoogde waterstand tgv regen.,Nee,I-1790-1
+329574237,2024-10-01,17:30:00,50.992203,3.570475,71891,0,False,Stilstaand water,,"brede rietgracht met zeer dikke sliblaag, verbinding tussen meander en Leie die voorzien is van terugslagklep, slechts 20-30 cm water, enkel 1 paling van 30 cm en 1 baars van 5 cm in vallen",Nee,I_9800_11
+329582543,2024-10-01,19:15:00,50.990589,4.581835,30892,0,False,,,,Ja,I_3190_4
+329583665,2024-10-01,,50.860591,4.736857,687765,0,False,Stromend water,,kleine beek met veel stroming door de recente regen,Nee,I_3000_3
+329583865,2024-10-01,19:30:00,51.359198,4.997782,713734,2,True,,,kanaal dessel schoten,Nee,I-2380-1
+329592633,2024-09-07,09:00:00,50.999611,4.086927,140972,0,False,Stromend water,,,Ja,V_9280_3
+329594006,2024-10-01,13:00:00,50.951152,4.734665,23390,0,False,,,,Ja,V_3111_3
+329631718,2024-09-29,18:07:00,50.785473,3.875091,27543,0,True,Stromend water,,,Ja,9506-1
+329632227,2024-09-30,10:45:00,50.791873,3.888688,27532,0,False,Stromend water,,,Nee,9506-1
+329632587,2024-09-30,10:47:00,50.792394,3.888452,27532,0,False,Stromend water,,,Nee,9506-1
+329632772,2024-10-01,11:42:00,50.792036,3.889289,27532,0,False,Stromend water,,,Nee,9506-1
+329632991,2024-10-01,11:45:00,50.792253,3.888688,27532,0,False,Stromend water,,,Nee,9506-1
+329633348,2024-10-02,10:53:00,50.792451,3.888119,27532,0,False,Stromend water,,,Nee,9506-1
+329641387,2024-10-02,16:14:00,50.990589,4.581835,30892,0,False,,,,Ja,I_3190_4
+329650650,2024-10-02,18:30:00,50.992183,3.570457,27420,0,False,Stilstaand water,,bijvangst: 2 pos + 1 bittervoorn,Nee,I_9800_11
+329658729,2024-10-02,19:30:00,51.359101,4.998071,713734,0,False,,,kanaal dessel schoten,Nee,I-2380-1
+329673588,2024-09-26,,50.870309,4.042977,24157,0,False,Stilstaand water,,,,V_9472_1
+329673888,2024-09-27,,50.870283,4.043027,24157,0,False,,,,,V_9472_1
+329674060,2024-09-28,,50.870279,4.043106,24157,0,False,Stilstaand water,,,Nee,V_9472_1
+329674077,2024-09-24,09:30:00,51.241367,4.129109,30622,0,False,Stilstaand water,,,Ja,I_9170_13
+329674133,2024-09-29,,50.870334,4.042913,24157,0,False,Stilstaand water,,,Nee,V_9472_1
+329674208,2024-09-25,10:45:00,51.241674,4.128895,30622,0,False,Stilstaand water,,,,I_9170_13
+329674248,2024-09-30,,50.87032,4.042913,24157,0,False,Stilstaand water,,,Nee,V_9472_1
+329674310,2024-09-26,17:35:00,51.241447,4.129066,30622,0,False,Stilstaand water,,,Ja,I_9170_13
+329674403,2024-09-26,,50.870591,4.043921,24157,0,False,,,,Nee,V_9472_2
+329674471,2024-09-27,,50.870631,4.043943,24157,0,False,,,,Nee,V_9472_2
+329674538,2024-09-28,,50.870564,4.043921,24157,0,False,Stilstaand water,,,Nee,V_9472_2
+329674558,2024-09-29,,50.870523,4.043964,24157,0,False,Stilstaand water,,,Nee,V_9472_2
+329674590,2024-09-30,,50.870645,4.043943,24157,0,False,Stilstaand water,,,Nee,V_9472_2
+329674593,2024-09-27,09:30:00,51.241555,4.129024,30622,0,False,Stilstaand water,,,Ja,I_9170_13
+329674797,2024-09-28,10:30:00,51.279126,4.157856,24410,0,False,Stilstaand water,,,Ja,I_9170_14
+329674952,2024-09-26,,50.859022,4.022299,27490,0,False,Stilstaand water,,"3 vijvers naast elkaar, in elk 1 val",Nee,V_9450_8
+329674990,2024-09-29,11:00:00,51.279159,4.157901,24410,0,False,Stilstaand water,,,Nee,I_9170_14
+329674993,2024-09-27,,50.859012,4.022292,27490,0,False,Stilstaand water,,"3 vijvers naast elkaar, in elk 1 val",Nee,V_9450_8
+329675069,2024-09-28,,50.859032,4.022213,27490,0,False,Stilstaand water,,"3 vijvers naast elkaar, in elk 1 val",Nee,V_9450_8
+329675153,2024-09-29,,50.859098,4.022163,27490,0,False,Stilstaand water,,"3 vijvers naast elkaar, in elk 1 val",Nee,V_9450_8
+329675204,2024-09-30,,50.859017,4.022206,27490,0,False,Stilstaand water,,"3 vijvers naast elkaar, in elk 1 val",Nee,V_9450_8
+329675306,2024-09-30,09:30:00,51.279158,4.157898,24410,0,False,Stilstaand water,,,Ja,I_9170_14
+329675376,2024-09-26,,50.886743,4.029991,192992,0,False,Stilstaand water,,"2 vijvers naast elkaar, 2 vallen in elk",Nee,V_9450_7
+329675399,2024-10-01,09:30:00,51.279155,4.157909,24410,0,False,Stilstaand water,,,Nee,I_9170_14
+329675407,2024-09-27,,50.886756,4.030045,192992,0,False,Stilstaand water,,"2 vijvers naast elkaar, 2 vallen in elk",Nee,V_9450_7
+329675425,2024-09-28,,50.886759,4.030326,192992,0,False,Stilstaand water,,"2 vijvers naast elkaar, 2 vallen in elk",Nee,V_9450_7
+329675452,2024-09-29,,50.886678,4.030197,192992,0,False,Stilstaand water,,"2 vijvers naast elkaar, 2 vallen in elk",Nee,V_9450_7
+329675466,2024-09-30,,50.886678,4.030154,192992,0,False,Stilstaand water,,"2 vijvers naast elkaar, 2 vallen in elk",Nee,V_9450_7
+329677523,2024-09-23,,50.893017,3.958011,24334,0,False,Stilstaand water,,ter Epebeek (spaarpot locatie),Nee,V_9450_5
+329677905,2024-09-22,,50.893071,3.958076,24334,0,False,Stilstaand water,,ter Epebeek (spaarpot locatie),Nee,V_9450_5
+329677936,2024-09-21,,50.893061,3.958026,24334,0,False,Stilstaand water,,ter Epebeek (spaarpot locatie),Nee,V_9450_5
+329677955,2024-09-20,,50.893007,3.957876,24334,0,False,Stilstaand water,,ter Epebeek (spaarpot locatie),Nee,V_9450_5
+329677974,2024-09-19,,50.893048,3.957919,24334,0,False,Stilstaand water,,ter Epebeek (spaarpot locatie),Nee,V_9450_5
+329678001,2024-09-18,,50.893075,3.958005,24334,0,False,Stilstaand water,,ter Epebeek (spaarpot locatie),Nee,V_9450_5
+329678043,2024-09-17,,50.89294,3.957941,24334,0,False,Stilstaand water,,ter Epebeek (spaarpot locatie),Nee,V_9450_5
+329678110,2024-09-16,,50.893075,3.957983,24334,0,False,Stilstaand water,,ter Epebeek (spaarpot locatie) 3 vallen geplaatst,Nee,V_9450_5
+329678473,2024-10-03,07:00:00,51.153199,5.251122,138294,0,False,Stromend water,,,Ja,V_2490_3
+329679763,2024-10-02,15:00:00,50.951068,4.73573,23391,0,False,,,,Nee,V_3111_3
+329680127,2024-09-16,,50.888878,3.950727,24334,0,False,Stromend water,,ter Epebeek (markiezen locatie) 3 vallen geplaatst,Nee,V_9450_2
+329680157,2024-09-17,,50.888871,3.950924,24334,0,False,Stromend water,,ter Epebeek (markiezen locatie) 3 vallen geplaatst,Nee,V_9450_2
+329680181,2024-09-18,,50.888903,3.950795,24334,0,False,Stromend water,,ter Epebeek (markiezen locatie) 3 vallen geplaatst,Nee,V_9450_2
+329680204,2024-09-19,,50.888914,3.951061,24334,0,False,Stromend water,,ter Epebeek (markiezen locatie) 3 vallen geplaatst,Nee,V_9450_2
+329680253,2024-09-20,,50.888914,3.950817,24334,0,False,Stromend water,,ter Epebeek (markiezen locatie) 3 vallen geplaatst,Nee,V_9450_2
+329680297,2024-09-21,,50.88899,3.950975,24334,0,False,Stromend water,,ter Epebeek (markiezen locatie) 3 vallen geplaatst,Nee,V_9450_2
+329680319,2024-09-22,,50.888865,3.951018,24334,0,False,Stromend water,,ter Epebeek (markiezen locatie) 3 vallen geplaatst,Nee,V_9450_2
+329680357,2024-09-23,,50.88892,3.951061,24334,0,False,Stromend water,,ter Epebeek (markiezen locatie) 3 vallen geplaatst,Nee,V_9450_2
+329680695,2024-09-23,,50.894515,4.022056,240690,0,False,Stilstaand water,,grote poel  3 vallen geplaatst,Nee,V_9450_9
+329680769,2024-09-24,,50.89465,4.022013,240690,0,False,Stilstaand water,,grote poel  3 vallen geplaatst,Nee,V_9450_9
+329680806,2024-09-25,,50.894469,4.021914,240690,0,False,Stilstaand water,,grote poel  3 vallen geplaatst,Nee,V_9450_9
+329680850,2024-09-26,,50.894469,4.022086,240690,0,False,Stilstaand water,,grote poel  3 vallen geplaatst,Nee,V_9450_9
+329680895,2024-09-27,,50.894523,4.022129,240690,0,False,Stilstaand water,,grote poel  3 vallen geplaatst,Nee,V_9450_9
+329680993,2024-09-28,,50.89464,4.022099,240690,0,False,Stilstaand water,,grote poel  3 vallen geplaatst,Nee,V_9450_9
+329681030,2024-09-29,,50.894485,4.022215,240690,0,False,Stilstaand water,,grote poel  3 vallen geplaatst,Nee,V_9450_9
+329681160,2024-09-23,,50.893748,4.02139,240690,0,False,Stromend water,,molenbeek 3 vallen geplaatst,Nee,V_9450_3
+329681228,2024-09-24,,50.893814,4.021354,240690,0,False,Stromend water,,molenbeek  3 vallen geplaatst,Nee,V_9450_3
+329681296,2024-09-25,,50.893817,4.02144,240690,0,False,Stromend water,,Molenbeek  3 vallen geplaatst,Nee,V_9450_3
+329681382,2024-09-26,,50.893765,4.021397,240690,0,False,Stromend water,,molenbeek  3 vallen geplaatst,Nee,V_9450_3
+329681466,2024-09-27,,50.8938,4.021477,240690,0,False,Stromend water,,molenbeek  3 vallen geplaatst,Nee,V_9450_3
+329681529,2024-09-28,,50.8938,4.021434,240690,0,False,Stromend water,,molenbeek  3 vallen geplaatst,Nee,V_9450_3
+329681607,2024-09-29,,50.893787,4.021477,240690,0,False,Stromend water,,molenbeek  3 vallen geplaatst,Nee,V_9450_3
+329682040,2024-09-17,,50.901176,3.963348,24334,0,False,Stilstaand water,,visvijver  3 vallen geplaatst,Nee,V_9450_6
+329682099,2024-09-18,,50.901176,3.963391,24334,0,False,Stilstaand water,,visvijver  3 vallen geplaatst,Nee,V_9450_6
+329682156,2024-09-19,,50.901176,3.963369,24334,0,False,Stilstaand water,,visvijver  3 vallen geplaatst,Nee,V_9450_6
+329682186,2024-09-20,,50.901136,3.963369,24334,0,False,Stilstaand water,,visvijver  3 vallen geplaatst,Nee,V_9450_6
+329682243,2024-09-21,,50.901109,3.963455,24334,0,False,Stilstaand water,,visvijver  3 vallen geplaatst,Nee,V_9450_6
+329682291,2024-09-22,,50.901114,3.963412,24334,0,False,Stilstaand water,,visvijver  3 vallen geplaatst,Nee,V_9450_6
+329682347,2024-09-23,,50.901146,3.963397,24334,0,False,Stilstaand water,,visvijver  3 vallen geplaatst,Nee,V_9450_6
+329682818,2024-09-17,,50.900134,3.963269,24334,0,False,Stromend water,,ter epebeek  3 vallen geplaatst,Nee,V_9420_6
+329682925,2024-09-18,,50.900134,3.963269,24334,0,False,Stromend water,,ter epebeek  3 vallen geplaatst,Nee,V_9420_6
+329682965,2024-09-19,,50.90006,3.963269,24334,0,False,Stromend water,,ter epebeek  3 vallen geplaatst,Nee,V_9420_6
+329682986,2024-09-20,,50.900006,3.963279,24334,0,False,Stromend water,,ter epebeek  3 vallen geplaatst,Nee,V_9420_6
+329683074,2024-09-20,,50.900069,3.963258,24334,0,False,Stromend water,,ter epebeek  3 vallen geplaatst,Nee,V_9420_6
+329683102,2024-09-21,,50.900126,3.963247,24334,0,False,Stromend water,,ter epebeek  3 vallen geplaatst,Nee,V_9420_6
+329683119,2024-09-22,,50.900026,3.963241,24334,0,False,Stromend water,,ter epebeek  3 vallen geplaatst,Nee,V_9420_6
+329683147,2024-09-23,,50.900152,3.963258,24334,0,False,Stromend water,,ter epebeek  3 vallen geplaatst,Nee,V_9420_6
+329692596,2024-09-29,16:00:00,51.214556,4.474064,71783,0,False,Stilstaand water,/,/,Ja,V_2100_6
+329693925,2024-10-02,13:00:00,50.960101,4.725274,31013,0,False,,NVT,NVT,Ja,I_3110_7
+329694022,2024-10-02,13:30:00,50.965967,4.694343,126480,0,False,,NVT,NVT,Ja,I_3118_1
+329694071,2024-10-03,12:00:00,50.960097,4.725301,31013,0,False,,NVT,NVT,Ja,I_3110_7
+329694340,2024-10-03,12:35:00,50.966008,4.694212,23390,0,True,,NVT,NVT,Ja,I_3118_1
+329727247,2024-10-03,13:35:00,50.881438,4.154997,24389,0,False,Stromend water,,,Nee,I-1740-1
+329729575,2024-10-03,16:30:00,50.99054,4.5819,23398,0,False,,,,Nee,I_3190_4
+329752320,2024-10-03,19:30:00,50.992204,3.570439,27420,0,False,Stilstaand water,,"beetje stroming richting Leie door lekverliezen terugslagklep, bijvangst: 1 grote paling van 70-80 cm",Nee,I_9800_11
+329765332,2024-10-02,10:05:00,51.072468,4.270031,28271,0,False,Stromend water,,"Beek 3m breed, 1-1.5m diep, steile oevers begroeid met gras en brandnetels. Bijvangst: 1 blankvoorn",Ja,I_2870_9
+329765430,2024-10-03,10:05:00,51.072518,4.270069,28271,0,False,Stromend water,,"Beek 3m breed, 1-1.5m diep, steile oevers begroeid met gras en brandnetels",Ja,I_2870_9
+329775535,2024-10-01,09:00:00,51.286541,4.533405,29287,0,False,Stilstaand water,,,Nee,I_2900_1
+329775573,2024-10-03,08:30:00,50.959385,3.466458,28524,0,False,,,,Nee,I_9870_3
+329775679,2024-09-30,17:15:00,51.0083,3.639777,252143,0,False,Stromend water,,open water met oevervegetatie,Nee,V_9830_2
+329775687,2024-10-02,,51.286271,4.533722,29287,0,False,,,,Nee,I_2900_1
+329775768,2024-10-01,18:00:00,51.0083,3.639776,252143,0,False,Stromend water,,open water met oevervegetatie,Nee,V_9830_2
+329775820,2024-10-02,18:00:00,51.008317,3.639809,252143,0,False,Stromend water,,open water met oevervegetatie,Nee,V_9830_2
+329775888,2024-10-03,17:45:00,51.008334,3.639809,252143,0,False,Stromend water,,open water met oevervegetatie,Nee,V_9830_2
+329775942,2024-10-03,12:50:00,51.286988,4.532644,29287,1,True,Stilstaand water,zie foto's. weinig levendig,"weinig waterplanten, overhangende bomen",Nee,I_2900_1
+329781293,2024-10-04,10:05:00,51.072394,4.269967,28271,0,False,Stromend water,,"Beek 3m breed, 1-1.5m diep, steile oevers, begroeid met gras en brandnetels.",Ja,I_2870_9
+329795409,2024-10-04,12:00:00,50.960124,4.725173,31013,0,False,Stilstaand water,NVT,NVT,Nee,I_3110_7
+329795475,2024-10-04,12:30:00,50.965954,4.694255,23390,0,False,Stromend water,NVT,NVT,Nee,I_3118_1
+329862487,2024-10-04,19:45:00,50.992291,3.570435,71891,0,False,,,bijvangst: 2 pos,Nee,I_9800_11
+329875238,2024-10-04,,50.881448,4.154999,24389,0,False,Stromend water,,,Ja,I-1740-1
+329882569,2024-09-16,12:00:00,51.102223,4.832141,29005,0,False,Stromend water,,,,II_2260_1
+329882720,2024-09-17,09:30:00,51.10227,4.832098,29005,0,False,Stromend water,,,,II_2260_1
+329882807,2024-09-18,14:00:00,51.102263,4.83213,29005,0,False,Stromend water,,,,II_2260_1
+329882879,2024-09-19,14:30:00,51.102233,4.83229,29005,0,False,Stromend water,,,,II_2260_1
+329908209,2024-10-05,12:26:00,50.881362,4.154809,24389,0,True,Stromend water,,"Beek 30cm diep, licht vervuild. Veel beplanting. Bijvangst 2 blankvoorntjes en 1 chinese wolhandkrab...",Ja,I-1740-1
+329983580,2024-09-08,08:00:00,50.999417,4.087027,140972,0,False,,,,Ja,V_9280_3
+329983772,2024-09-10,08:00:00,50.99943,4.087025,140972,0,False,,,,Ja,V_9280_3
+329983858,2024-09-11,08:00:00,50.999417,4.087032,140972,0,False,,,,,V_9280_3
+329984548,2024-09-09,08:00:00,50.999387,4.087045,140972,1,True,Stromend water,,,Ja,V_9280_3
+330014908,2024-10-05,08:30:00,50.959275,3.467138,28524,0,False,Stilstaand water,Nvt,,Nee,I_9870_3
+330038543,2024-10-04,07:20:00,51.153899,5.251778,138294,0,False,Stromend water,,,Ja,V_2490_3
+330038874,2024-10-06,07:20:00,51.153576,5.251413,138294,0,False,Stromend water,,,Ja,V_2490_3
+330039107,2024-10-06,07:50:00,51.153563,5.251534,138294,0,False,Stromend water,,,Ja,V_2490_3
+330048337,2024-10-06,09:07:00,51.146876,5.249559,138294,0,True,Stromend water,,,Ja,V_2490_3
+330143017,2024-10-04,10:50:00,51.28658,4.533293,29287,0,False,,,,Nee,I_2900_1
+330144020,2024-09-10,18:00:00,51.039905,4.043808,30689,1,False,,,,Ja,I_9240_6
+330144099,2024-10-07,,51.039911,4.043743,30689,0,False,,,,Ja,I_9240_6
+330144140,2024-09-12,18:00:00,51.039906,4.043746,30689,0,False,,,,Ja,I_9240_6
+330144171,2024-09-13,18:00:00,51.039742,4.043685,30689,0,False,,,,Ja,I_9240_6
+330144262,2024-09-15,18:00:00,51.024333,4.03398,30781,0,False,,,,Ja,I_9290_5
+330144284,2024-09-16,18:00:00,51.024342,4.033996,30781,0,False,,,,Ja,I_9290_5
+330144304,2024-09-17,18:00:00,51.024386,4.034023,30781,0,False,,,,Ja,I_9290_5
+330144355,2024-09-18,,51.024349,4.033991,30781,0,False,,,,Ja,I_9290_5
+330144386,2024-09-20,18:00:00,51.04309,4.118697,27402,0,False,,,,Ja,I_9200_21
+330144417,2024-09-21,18:00:00,51.043072,4.118647,27402,0,False,,,,Ja,I_9200_21
+330144459,2024-09-22,18:00:00,51.04309,4.118708,27402,0,False,,,,Ja,I_9200_21
+330144493,2024-09-23,18:00:00,51.043086,4.11898,27402,0,False,,,,Ja,I_9200_21
+330147296,2024-10-02,07:00:00,51.035649,3.849341,28800,0,False,Stromend water,,Beek met relatief weinig oevervegetatie (steile oever). Veel wilgen/zwarte els.,Ja,V_9270_4
+330147849,2024-10-03,,51.03565,3.849282,28800,0,False,,,V_9270_4,Ja,
+330147892,2024-10-04,,51.035639,3.849363,28800,0,False,,,,Ja,V_9270_4
+330147997,2024-10-06,,50.881186,4.154871,24389,0,False,,,,Ja,I-1740-1
+330193617,2024-10-02,17:25:00,51.334167,4.471122,251747,0,False,,,,Ja,V_2950_3
+330194247,2024-10-03,17:46:00,51.33416,4.471343,251747,0,False,,,,Nee,V_2950_3
+330198616,2024-10-07,,50.881258,4.154506,24389,0,False,Stromend water,,Bijvangst: 8 blankvoorns en 1 riviergrondel. Opgeladen in waarnemingen.be,Nee,I-1740-1
+330200323,2024-10-03,17:46:00,51.334076,4.471809,251747,0,False,,,,Nee,V_2950_3
+330201909,2024-10-04,18:17:00,51.334103,4.471676,251747,0,True,,,,Ja,V_2950_3
+330201998,2024-09-12,09:00:00,51.114138,4.299603,28268,0,False,Stromend water,,,Ja,I.2880.11
+330202185,2024-10-05,17:56:00,51.334134,4.471343,251747,0,False,,,,Nee,V_2950_3
+330233736,2024-10-05,09:48:00,51.068694,5.253852,29552,0,False,Stromend water,,,Nee,I_3582_3
+330233762,2024-10-06,10:13:00,51.068699,5.253863,29552,0,False,,,,Nee,I_3582_3
+330233858,2024-10-07,07:05:00,51.068696,5.253863,29552,0,False,,,,,I_3582_3
+330233883,2024-10-08,08:25:00,51.068679,5.253833,29552,0,False,,,,Nee,I_3582_3

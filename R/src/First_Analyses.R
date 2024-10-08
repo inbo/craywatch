@@ -83,7 +83,7 @@ localities_data <- localities_data %>%
 print(localities_data)
 
 
-# Find locID values that are in combined_locID but not in localities$locI
+# Find locID values that are in combined_locID but not in localities$locID
 erratic_locID <- setdiff(alldata$locID, localities$locID)
 
 write.csv(localities_data, "./data/observations/output/first_data.csv", row.names = FALSE)

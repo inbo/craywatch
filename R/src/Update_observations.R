@@ -1,6 +1,6 @@
 library(dplyr)
 
-##### 1. DATA INITIALISATIE #####
+#####GET NEW DATA FROM NATUURPUNT EXPORT########################################
 #By comparing the id from the observations in the last_import & the new import only new observations are considered
 # Set the directory path
 directory_path <- "./data/observations/"
@@ -12,7 +12,6 @@ if (file.exists("./data/observations/output/last_import.csv")) {
   last_import <- data.frame(id = character(), stringsAsFactors = FALSE)
 }
 
-##### 2. LOAD NEW DATA #####
 # Get the latest export files from Natuurpunt (manually downloaded from eventpage)
 # List files in the directory that match the pattern
 files <- list.files(directory_path, pattern = "^event-craywatch-.*\\.csv$", full.names = TRUE)
@@ -34,7 +33,7 @@ process_file <- function(file) {
   return(data)
 }
 
-##### 3. PROCES NEW DATA #####
+# Process all files and combine them into one data frame
 all_data <- lapply(files, function(file) {
   df <- process_file(file)
   # Only return non-empty data frames
@@ -45,12 +44,12 @@ all_data <- lapply(files, function(file) {
 # sorted by locID
 all_data <- arrange(all_data, Code.sample.location)
 
-# Only keep the new data (so id is not in last_import)
+# Only keep the new data
 new_data <- all_data %>% 
   filter(!(id %in% last_import$id))
 
 
-##### 4. FILTER & CORRECT LOCID IF POSSIBLE FOR NEW DATA #####
+###CORRECT UGLY locID names ####################################################
 # Get all data that has incorrect format in Code.sample.location
 # Define the pattern
 pattern <- ".*?([IV]_[0-9]{4}_[0-9]{1,2}).*"
@@ -65,7 +64,7 @@ new_data$locID <- gsub("L","I", new_data$locID)
 new_data$locID <- gsub(pattern, "\\1", new_data$locID)
 
 
-##### 5. FILTER DATA FOR CONFORMITY TO CATCH PROTOCOL #####
+###FILTER DATA FOR 4 CONSECUTIVE CATCH DAYS ####################################
 #Data met opeenvolgende vangstdagen
 # Append the new data to the datacheck of previous download to filter the 4 consecutive catch days
 if (file.exists("./data/observations/output/datacheck.csv")) {
@@ -74,6 +73,7 @@ if (file.exists("./data/observations/output/datacheck.csv")) {
   old_datacheck <- data.frame(locID = character(), date = character(), stringsAsFactors = FALSE) 
 }
 datacheck <- rbind(old_datacheck, new_data)
+
 
 
 # Bereken aantal entries per Code.sample.location en controleer opeenvolgende dagen
@@ -88,12 +88,9 @@ locID_group <- datacheck %>%
 data_approved <- locID_group %>%
   filter(n == 4, consecutive_days == TRUE)
 
-
-##### 6. WRITE TO CLEANDATA IF LOCID & CATCH PROTOCOL OK | NOK TO DATACHECK #####
-
 # Behoud enkel data met valide locID om naar clean data te schrijven
 data_approved <- data_approved[grep(pattern, data_approved$locID), ]
- 
+
 # Voeg de nieuwe cleandata toe aan de eerdere
 cleandata <- datacheck %>% filter(locID %in% data_approved$locID)
 
