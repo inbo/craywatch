@@ -984,7 +984,7 @@
 "TRUE","TRUE",NA,"Roosterbeek","zjiyngyx","26/8/24","YES","I_3520_4",NA,NA,NA,"Lotisch",NA,"Limburg","Zonhoven","3520","2","0",NA,"50.9869595","5.3508929","Limburg",NA,"christel.bouchet@limburg.be"
 "TRUE","TRUE",NA,"Watering Het Schulensbroek","m2i4yzvl","TBD","YES","I_3580_1",NA,NA,NA,"Lotisch",NA,"Limburg","Beringen","3580","2","0",NA,"51.0419336","5.2287682","Limburg",NA,"christel.bouchet@limburg.be"
 "FALSE","FALSE",NA,"Watering Het Schulensbroek",NA,NA,"YES","I_3560_10",NA,NA,NA,"Lotisch",NA,"Limburg","Lummen","3560","2","0",NA,"51.0218975522711","5.20355435730779","Limburg",NA,"christel.bouchet@limburg.be"
-"FALSE","FALSE",NA,"Stiemerbeek",NA,NA,"YES","I_3600_2",NA,NA,NA,"Lotisch",NA,"Limburg","Genk","3600","2","0",NA,"50.9772773058587","5.4934298267423","Limburg",NA,"christel.bouchet@limburg.be"
+"TRUE","TRUE",NA,"Stiemerbeek","nwvjndbl","TBD","YES","I_3600_2",NA,NA,NA,"Lotisch",NA,"Limburg","Genk","3600","2","0",NA,"50.9772773","5.4934298","Limburg",NA,"christel.bouchet@limburg.be"
 "TRUE","TRUE",NA,"Stiemerbeek","mdnjzwy3","19/07/24","YES","I_3600_3",NA,NA,NA,"Lotisch",NA,"Limburg","Genk","3600","2","0",NA,"50.9709203","5.4893409","Limburg",NA,"christel.bouchet@limburg.be"
 "TRUE","TRUE",NA,"Stiemerbeek","mdnjzwy3","19/07/24","YES","I_3600_4",NA,NA,NA,"Lotisch",NA,"Limburg","Genk","3600","2","0",NA,"50.9651239","5.4818414","Limburg",NA,"christel.bouchet@limburg.be"
 "FALSE","FALSE",NA,"Stiemerbeek",NA,NA,"YES","I_3600_5",NA,NA,NA,"Lotisch",NA,"Limburg","Genk","3600","2","0",NA,"50.9512328","5.4648926","Limburg",NA,"christel.bouchet@limburg.be"
@@ -1450,7 +1450,7 @@
 "ONHOLD","ONHOLD",NA,"Ruiterskuilen","nzzlmmvm",NA,"YES","I_3660_2","te zuur",NA,NA,NA,NA,"Limburg","Oudsbergen","3660",NA,NA,NA,"51.0490058","5.5427268","Jacobs Karen",NA,"recreatie.lim.anb@vlaanderen.be"
 "TRUE","TRUE","Steenhuffel, Lakeman, opw brug","Grote Molenbeek","njdhzdu1","TBD","YES","I_1840_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Vlaams-Brabant","Londerzeel","1840","1","6",NA,"50.9962826","4.2716058","VMM",NA,"d.slootmaekers@vmm.be"
 "ONHOLD","ONHOLD",NA,"Turfven","nzzlmmvm",NA,"YES","I_3660_3","te zuur",NA,NA,NA,NA,"Limburg","Oudsbergen","3660",NA,NA,NA,"51.0553657","5.5472437","Jacobs Karen",NA,"recreatie.lim.anb@vlaanderen.be"
-"TRUE","TRUE","Stationsstraat, Gruuthuyse kasteel","Rivierbeek","mdjjotdj","15/07/2024","YES","I_8020_1",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Oostkamp","8020","1","28",NA,"51.1530017","3.2531877","VMM",NA,"d.slootmaekers@vmm.be"
+"FALSE","FALSE","Stationsstraat, Gruuthuyse kasteel","Rivierbeek",NA,"15/07/2024","YES","I_8020_1",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Oostkamp","8020","1","28",NA,"51.1530017","3.2531877","VMM",NA,"d.slootmaekers@vmm.be"
 "TRUE","TRUE",NA,NA,"ndg3nju0","02/09/24","NO","V_2900_3",NA,NA,NA,NA,NA,"Antwerpen","Schoten","2900","NA","NA",NA,"51.2613534","4.5119248",NA,NA,NA
 "FALSE","FALSE",NA,NA,NA,NA,"YES","I_2900_4","Privé terrein",NA,NA,NA,NA,"Antwerpen","Schoten","2900",NA,NA,NA,"51.2773012","4.5328356",NA,NA,NA
 "TRUE","TRUE",NA,NA,"odzkzdmz","18/08/24","YES","I_8430_3",NA,NA,NA,NA,NA,"West-Vlaanderen","Middelkerke","8430","NA","NA",NA,"51.1864522","2.8355339",NA,NA,NA
@@ -1755,7 +1755,7 @@
 "ONHOLD","ONHOLD",NA,"Winge","owuwmwnj",NA,"NO","V_3111_3",NA,NA,NA,NA,NA,"Vlaams-Brabant","Rotselaar","3111","NA","NA",NA,"50.952033","4.733064",NA,NA,NA
 "TRUE","TRUE",NA,NA,"ngnlmjhi",NA,"YES","I_9255_2",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Buggenhout","9255",NA,NA,NA,"50.989417","4.164278",NA,NA,NA
 "TRUE","TRUE",NA,NA,"mdflzwm0",NA,"NO","V_3910_15",NA,NA,NA,NA,NA,"Limburg","Pelt","3910","NA","NA",NA,"51.235493","5.409433",NA,NA,NA
-"TRUE","TRUE",NA,NA,"mdflzwm0",NA,"NO","V_3920_6",NA,NA,NA,NA,NA,"Limburg","Lommel","3920",NA,NA,NA,"51.258004","5.409064",NA,NA,NA
+"TRUE","TRUE",NA,NA,"mdflzwm0",NA,"NO","V_3920_6",NA,NA,NA,NA,NA,"Limburg","Lommel","3920",NA,NA,NA,"51.2551739","5.4090747",NA,NA,NA
 "FALSE","FALSE",NA,"Voorgracht",NA,"19/8/22","YES","I_2180_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Antwerpen","2180","1","3104",NA,"51.3017677","4.3725453","VMM",NA,"d.slootmaekers@vmm.be"
 "TRUE","TRUE",NA,"Onledebeek","mjywyjqx","19/9","NO","V_8800_7",NA,NA,NA,NA,NA,"West-Vlaanderen","Roeselare","8800","NA","NA",NA,"50.981917","3.136361",NA,NA,NA
 "TRUE","TRUE",NA,"Antitankgracht","nzi4mtm4","2/10/24","NO","V_2950_3",NA,NA,NA,NA,NA,"Antwerpen","Kapellen","2950","NA","NA",NA,"51.3341307","4.4706952",NA,NA,NA
@@ -1785,3 +1785,5 @@
 "TRUE","TRUE",NA,NA,"otjhmjg3",NA,"NO","V_2550_4",NA,NA,NA,NA,NA,"Antwerpen","Kontich","2550",NA,NA,NA,"51.1356662","4.4639236",NA,NA,NA
 "TRUE","TRUE",NA,NA,"otjhmjg3",NA,"NO","V_2650_6",NA,NA,NA,NA,NA,"Antwerpen","Edegem","2650",NA,NA,NA,"51.1458702","4.457224",NA,NA,NA
 "TRUE","TRUE",NA,NA,"njiyn2yx",NA,"NO","V_2100_9",NA,NA,NA,NA,NA,"Antwerpen","Antwerpen","2100",NA,NA,NA,"51.214572","4.471803",NA,NA,NA
+"TRUE","TRUE",NA,NA,"mdflzwm0",NA,"NO","V_3920_10",NA,NA,NA,NA,NA,"Limburg","Lommel","3920",NA,NA,NA,"51.2626088","5.4024901",NA,NA,NA
+"TRUE","TRUE",NA,NA,"nwvjndbl",NA,"NO","V_3600_15",NA,NA,NA,NA,NA,"Limburg","Genk","3600",NA,NA,NA,"50.9772656","5.4943478",NA,NA,NA
