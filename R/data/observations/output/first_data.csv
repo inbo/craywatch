@@ -6,6 +6,7 @@
 "Stambeek","Mansteen","ndzmm2ex","I_1745_1","Lotisch","Vlaams-Brabant","Opwijk",2,50.960996,4.212466,0,NA,NA,NA,NA,NA,1,TRUE,FALSE
 "Birrebeek","Ruisbroek, St. Katharinastr., afw Moerloop","zwuxmwy1","I_2870_2","Lotisch","Antwerpen","Puurs-Sint-Amands",1,51.0746396,4.338863,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 "Lachenebeek","Mechelsesteenweg, opw brug en monding Babelse beek","zgi0mju3","I_2500_1","Lotisch","Antwerpen","Lier",2,51.1348,4.518105,0,NA,NA,NA,NA,NA,5,TRUE,FALSE
+"Kleine Nete","Ten Aard, grens Lichtaart (Bobbejaanland), opw. Lichtaartseweg/Olenstw.","owm5ndk2","I_2460_2","Lotisch","Antwerpen","Kasterlee",1,51.1987613,4.9030521,NA,NA,3,NA,NA,NA,3,FALSE,FALSE
 "Molenbeek","Emblem; afw. Netekanaal","mmmwzmrh","I_2520_1","Lotisch","Antwerpen","Ranst",1,51.1712784,4.6298545,1,NA,1,NA,NA,NA,4,TRUE,TRUE
 "Laakbeek","St Corneliusstraat, opw brug","otuwnjq5","I_2340_1","Lotisch","Antwerpen","Beerse",2,51.3128148,4.8376736,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 "De Wamp","Roest, zijweg Poederstr, opwaarts weg en baangrachten","zwy2zjg3","I_2370_1","Lotisch","Antwerpen","Arendonk",2,51.3343984,5.1183225,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
@@ -18,12 +19,14 @@
 "Weesbeek","Boortmeerbeek, Molenbeekstr, afw weg","ymuxmjez","I_3190_1","Lotisch","Vlaams-Brabant","Boortmeerbeek",2,50.9861762,4.5701582,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 "Demer","Godsheide, Kiezelstr, aan golfterrein vr verval, afw brug","mdcxmmmy","I_3500_1","Lotisch","Limburg","Hasselt",1,50.9296105,5.3774713,0,NA,NA,NA,NA,NA,2,TRUE,FALSE
 "De Hulpe","Testelt, verlengde Wijngaardstr, weg langs Demer, opw brug","otyymtfh","I_3271_1","Lotisch","Vlaams-Brabant","Scherpenheuvel-Zichem",1,51.0071698,4.9664636,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
+"Kleine Beek","Stal West, zijweg Molendijk richting RWZI, juist voorbij de bocht, voor RWZI","mzc5yzc3","I_3582_1","Lotisch","Limburg","Beringen",2,51.0596175,5.2371641,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 "Laambeek","Viversel, Zwembadstr, opw weg","zmvizjk1","I_3550_2","Lotisch","Limburg","Heusden-Zolder",2,50.9991189,5.2597765,0,NA,NA,NA,NA,NA,4,FALSE,FALSE
 "Stiemer","Genk, Platte Weierstraat, opw weg","yzayn2iy","I_3600_1","Lotisch","Limburg","Genk",2,50.9582301,5.4719828,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 "Nijverseelbeek","Klein-Antwerpenstraat,opw weg","ngnlmjhi","I_9280_1","Lotisch","Oost-Vlaanderen","Lebbeke",2,50.991649,4.1497334,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 "Zuidlede","Eksaarde,einde Reepstraat,veldweg","njgyytiw","I_9160_3","Lotisch","Oost-Vlaanderen","Lokeren",1,51.1372354,3.9701579,NA,NA,NA,61,NA,NA,5,FALSE,FALSE
 "Bellebeek","Affligemsestraat-Driesstraat,afw weg,thv handelszaak","yjmznwm3","I_1770_1","Lotisch","Vlaams-Brabant","Liedekerke",1,50.8854042,4.0965682,NA,NA,10,NA,NA,NA,4,TRUE,TRUE
 "Steenvoordbeek","Steenvoordestraat,veldweg,afw Steenvoordemolen","yjmznwm3","I_1740_1","Lotisch","Vlaams-Brabant","Ternat",1,50.8812453,4.1546679,0,NA,NA,NA,NA,NA,5,TRUE,FALSE
+"Ophasseltbeek","Sint-Maria-Lierde,Beekstraat,opw weg","zwuzztfl","I_9570_1","Lotisch","Oost-Vlaanderen","Lierde",2,50.8240558,3.8377674,0,NA,NA,NA,NA,NA,2,FALSE,FALSE
 "Lede","Sint-Amandsberg,Maalgaver","ytljnzlj","I_9070_1","Lotisch","Oost-Vlaanderen","Destelbergen",1,51.0757468,3.8138212,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 "Isabellavaart","Ramskapelle, Heistlaan, Heulebrug","ntvlndrm","I_8301_1","Lotisch","West-Vlaanderen","Knokke-Heist",1,51.3276998,3.237953,NA,NA,NA,26,NA,NA,4,TRUE,FALSE
 "Slijpbeek","Sint-Denijsstraat, Kreupel, afw","zguxztnj","I_8550_1","Lotisch","West-Vlaanderen","Zwevegem",2,50.7950431,3.340028,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
@@ -33,7 +36,7 @@ NA,"Nederbrakel, Heyveld, opw","nwyxntuy","I_9660_1","Lotisch","Oost-Vlaanderen"
 "Verrebeek","Nederbrakel,Roensveldstraat,veldweg,afwaarts","nwyxntuy","I_9660_2","Lotisch","Oost-Vlaanderen","Brakel",2,50.791781,3.7598643,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 "Mark","Meer; Hoogstraat/Looi, BIO en FC afwaarts brug","zgjjotcy","I_2321_1","Lotisch","Antwerpen","Hoogstraten",1,51.4452341,4.7472234,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 "Mark","opw. voetpadje na Vondelweg","njixzjg3","I_2330_1","Lotisch","Antwerpen","Merksplas",2,51.3673697,4.8755144,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
-"Noordermark","Zondereigen; Ginhoven, Stw op Weelde, afw dreef","njixzjg3","I_2387_3","Lotisch","Antwerpen","Baarle-Hertog",2,51.3975475,4.898991,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
+"Noordermark","Zondereigen; Ginhoven, Stw op Weelde, afw dreef","njixzjg3","I_2387_3","Lotisch","Antwerpen","Baarle-Hertog",2,51.3986486,4.8996106,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 "Antitankkanaal","Abtsdreef, afw brug, afw Fort Stabroek","nzi4mtm4","I_2940_1","Lotisch","Antwerpen","Stabroek",1,51.3412834,4.3502764,1,NA,NA,NA,NA,NA,5,FALSE,FALSE
 "Blankenbergsevaart","Uitkerke, Scharebrugstraat, Scharebrug","m2m0odgy","I_8370_1","Lotisch","West-Vlaanderen","Blankenberge",1,51.2771978,3.1260221,0,NA,NA,NA,NA,NA,1,TRUE,FALSE
 "Jobeek","Koolskamp, Jostraat, Noordhoek","mjywyjqx","I_8750_2","Lotisch","West-Vlaanderen","Wingene",2,51.0213582,3.2125623,0,NA,NA,NA,NA,NA,3,FALSE,FALSE
@@ -42,15 +45,19 @@ NA,"Nederbrakel, Heyveld, opw","nwyxntuy","I_9660_1","Lotisch","Oost-Vlaanderen"
 "Koebeek","Ieperse Heerweg, opw. zijbeek","mjywyjqx","I_8820_3","Lotisch","West-Vlaanderen","Torhout",2,51.0565537,3.095591,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 "Dommel","Overpelt, Dommellaan, 10 m opw Wedelsemolen, opw houten brugje","mdflzwm0","I_3900_1","Lotisch","Limburg","Pelt",1,51.186019,5.436245,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 "Dommel","Kleine-Brogel,opw brug aan woning (galerie Daelhoxent)","mdflzwm0","I_3900_2","Lotisch","Limburg","Pelt",1,51.173648,5.436339,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
+"Warmbeek","St-Huibrechts-Lille, Geuskens, afw 101600 tot 10m voor de brug","yjvinjli","I_3910_4","Lotisch","Limburg","Pelt",1,51.2412617,5.4951328,0,NA,NA,NA,NA,NA,3,TRUE,FALSE
 "Lossing","Molenbeersel, Bekerstr, 20m opw brug","mznknjaw","I_3640_3","Lotisch","Limburg","Kinrooi",1,51.169877,5.7699146,0,NA,NA,NA,NA,NA,4,FALSE,FALSE
 "Lossing","Molenbeersel, Weertersteenweg, onverhard pad natuurreservaat, 30m opw brug","ztnhyzk1","I_3640_4","Lotisch","Limburg","Kinrooi",1,51.1645167,5.7399779,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 "Itterbeek","Kessenich, Manestr, 10 m afw brug","ztnhyzk1","I_3640_6","Lotisch","Limburg","Kinrooi",1,51.1508565,5.7754728,0,NA,2,NA,NA,NA,4,TRUE,TRUE
 "Abeek","begin traject 100m opw molen","mznkyti0","I_3670_6","Lotisch","Limburg","Oudsbergen",2,51.1244491,5.5150079,0,NA,NA,NA,NA,NA,4,FALSE,FALSE
 "Groot Schijn","Deurne; Parkweg, Ter Rivierenhof; brugje speelweide voor Sterckshof","owmxyjiw","I_2100_2","Lotisch","Antwerpen","Antwerpen",1,51.2157209,4.4590502,0,NA,NA,NA,NA,NA,1,TRUE,FALSE
+"Grote Struisbeek","Schelle; via Capucienendreef; begin aan houten hekje/hoek weide/einde verharde weg","mgexnjex","I_2620_1","Lotisch","Antwerpen","Schelle",1,51.1325115,4.3494272,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 "Dijle","Werchter, afw 216000, voorbij bocht","odi5ngi0","I_3118_1","Lotisch","Vlaams-Brabant","Rotselaar",1,50.96651,4.6946368,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
+"Zwinnevaart","Westkapelle, Hazegrasstraat","ntvlndrm","I_8300_3","Lotisch","West-Vlaanderen","Knokke-Heist",1,51.327339,3.3394706,0,NA,NA,1,NA,NA,2,TRUE,FALSE
 "Grote Nete","Balen; bereikbaar via kanaalpad; begin aan zandweg (300m afw mtp 261900)","nzzmzdm3","I_2490_1","Lotisch","Antwerpen","Balen",1,51.149968,5.1432007,0,NA,NA,NA,NA,NA,3,FALSE,FALSE
 "Kleine Nete","Zandweg naast Broekstraat 61 in; 110 m afw brug (knooppunt 17 Antwerpse Kempen) beginnen","zgu4nzuz","I_2480_2","Lotisch","Antwerpen","Dessel",2,51.233302,5.1045285,0,NA,NA,NA,NA,NA,2,FALSE,FALSE
 "De Aa","Gierle; Middelveld; wegje naar fietsroute 74 volgen; traject in bocht naast weg","yjq0ntkw","I_2275_2","Lotisch","Antwerpen","Lille",1,51.2668617,4.8841623,0,NA,NA,NA,NA,NA,3,TRUE,FALSE
+"De Aa","Oud-Turnhout; Eigen; opw mtp 292000","mzk5yjmz","I_2360_3","Lotisch","Antwerpen","Oud-Turnhout",2,51.3193559,4.9769205,0,NA,NA,NA,NA,NA,2,TRUE,FALSE
 "Laakbeek","Lille; Rolleken; opw Rollekensbrug","yjq0ntkw","I_2275_3","Lotisch","Antwerpen","Lille",2,51.2679451,4.8376797,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 "Wimp","Herenthout; Itegemsestwg; 120m afw brug beginnen","mmm4mzq3","I_2270_3","Lotisch","Antwerpen","Herenthout",1,51.1259324,4.7591022,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 "Bergebeek","Heist o/d Berg; Heistseweg; einde zandweg naast huisnr 133","mmm4mzq3","I_2221_1","Lotisch","Antwerpen","Heist-op-den-Berg",2,51.0701906,4.7628236,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
@@ -62,10 +69,11 @@ NA,"Nederbrakel, Heyveld, opw","nwyxntuy","I_9660_1","Lotisch","Oost-Vlaanderen"
 "Grotebeek","Tessenderlo/Schaffen, Lapseheide/Nieuwe Dijkstr, 411500 is afw brug maar begin traj MF OPW brug","nwnizjfi","I_3290_5","Lotisch","Vlaams-Brabant","Diest",2,51.03249,5.11059,0,NA,NA,NA,NA,NA,4,FALSE,FALSE
 "Zwarte Beek","Koersel, via Stalse Schansstr, tot op einde, dan rechts, ongeveer 200m doorrijden tot populierenbos.","m2i4yzvl","I_3582_3","Lotisch","Limburg","Beringen",2,51.0690631,5.2555738,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 "Vloedgracht","Leeuwerweg, thv kruispunt met landweg, vanaf 2de betonnen brugje","nwi2m2u2","I_3440_6","Lotisch","Vlaams-Brabant","Zoutleeuw",1,50.8409316,5.1014734,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
+"Langelede","Akkerstraat,Katelijnebrug","y2fhytux","I_9185_1","Lotisch","Oost-Vlaanderen","Wachtebeke",2,51.195462,3.858899,0,NA,NA,NA,NA,NA,1,TRUE,FALSE
 "Mangelbeek","Schalbroekstraat, wegje tss huis nr. 125 en 127 (afw Stationstraat), begin traject 105 m afw brug","zmvizjk1","I_3560_8","Lotisch","Limburg","Lummen",1,50.9738454,5.1729945,0,NA,NA,NA,NA,NA,4,TRUE,FALSE
 "Voer","Heverlee, Tervuursevest, opw 478000","nwi1ntu1","I_3001_4","Lotisch","Vlaams-Brabant","Leuven",1,50.8715217,4.6903964,0,NA,NA,NA,NA,NA,4,TRUE,FALSE
 "Voer","Leefdaal, Dorpstr, 5m opw brug nr huizen en wandelweg langs waterwinningsgebied, 200m opw mpl 479000","zja3zjyx","I_3061_1","Lotisch","Vlaams-Brabant","Bertem",2,50.8565096,4.6076213,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
-"Molenbeek","IJzeren Brugje, Oaseln, 20m afw 482000","yjdkn2u5","I_3000_3","Lotisch","Vlaams-Brabant","Leuven",2,50.860589,4.7369018,0,NA,NA,NA,NA,NA,4,FALSE,FALSE
+"Molenbeek","IJzeren Brugje, Oaseln, 20m afw 482000","yjdkn2u5","I_3000_3","Lotisch","Vlaams-Brabant","Leuven",2,50.860611,4.736806,0,NA,NA,NA,NA,NA,4,FALSE,FALSE
 "Lede","Beervelde, Beerveldsebaan, afwaarts weg","ytljnzlj","I_9080_2","Lotisch","Oost-Vlaanderen","Lochristi",1,51.0903407,3.8791977,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 "Zuidlede","Stenenbrug,veldweg langs Zuidlede","nweyoti0","I_9180_5","Lotisch","Oost-Vlaanderen","Moerbeke",1,51.1478349,3.9110453,NA,NA,NA,9,NA,NA,3,FALSE,FALSE
 "Zuidlede","Oostakker,Mendonk,Mendonkdorp-Oostdonkstraat","nwe4m2ex","I_9042_2","Lotisch","Oost-Vlaanderen","Gent",1,51.1483519,3.8290506,NA,NA,NA,16,NA,NA,3,TRUE,FALSE
@@ -75,6 +83,7 @@ NA,"Nederbrakel, Heyveld, opw","nwyxntuy","I_9660_1","Lotisch","Oost-Vlaanderen"
 "Mandel","Kachtem, Rumbeeksestraat","nzi3zgyy","I_8870_3","Lotisch","West-Vlaanderen","Izegem",1,50.9368577,3.1745023,0,NA,NA,NA,NA,NA,5,TRUE,FALSE
 "Gauweloze kreek","Zandvoorde, Zandvoordestraat, saf 695000","n2qzyzhm","I_8400_2","Lotisch","West-Vlaanderen","Oostende",1,51.2151213,2.9451622,0,NA,NA,NA,NA,NA,4,FALSE,FALSE
 "Melsenbeek","Pontweg, opw weg","yzq0m2yw","I_9820_3","Lotisch","Oost-Vlaanderen","Merelbeke",2,50.9938635,3.7348564,0,NA,NA,NA,NA,NA,5,TRUE,FALSE
+"Zwalmbeek","Strijpen,Rijkestraat-Zottegemsesteenweg","zwuzztfl","I_9620_2","Lotisch","Oost-Vlaanderen","Zottegem",1,50.8638979,3.7651385,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 "Oude Kale","Molendam-Molenslag,Molenbrug,opw weg","ytbmntfk","I_9920_3","Lotisch","Oost-Vlaanderen","Lievegem",1,51.0832226,3.6207069,0,NA,NA,NA,NA,NA,5,TRUE,FALSE
 "Oude Kale","Landegem,Brouwerijstraat,afw weg","ytbmntfk","I_9850_4","Lotisch","Oost-Vlaanderen","Deinze",1,51.0578843,3.5717004,0,NA,NA,NA,NA,NA,5,TRUE,FALSE
 "Poekebeek","Graaf van Hoornestraat,afw weg","mmy4ywm3","I_9850_6","Lotisch","Oost-Vlaanderen","Deinze",1,51.0333774,3.5453287,0,NA,NA,NA,NA,NA,4,FALSE,FALSE
@@ -82,6 +91,7 @@ NA,"Nederbrakel, Heyveld, opw","nwyxntuy","I_9660_1","Lotisch","Oost-Vlaanderen"
 "Antitankkanaal","Stabroek; Danckerse weg; opw brug mtp 834610","zjyxyjrl","I_2940_2","Lotisch","Antwerpen","Stabroek",1,51.3429651,4.3775854,0,NA,NA,NA,NA,NA,4,TRUE,FALSE
 "Moerdijkvaart","Vaartstraat, Wittebrug","otm1mzuw","I_8470_1","Lotisch","West-Vlaanderen","Gistel",1,51.1700324,2.9620238,0,NA,3,3,NA,NA,5,FALSE,FALSE
 "Moerdijkvaart",NA,"odjlnmu5","I_8460_1","Lotisch","West-Vlaanderen","Oudenburg",1,51.1704978428547,2.96531269098783,0,NA,1,1,NA,NA,4,FALSE,FALSE
+"Kerkebeek","Sint-Michiels, Rijselstraat, Stokvelde","ymu3ntm1","I_8200_2","Lotisch","West-Vlaanderen","Brugge",1,51.1744665,3.208793,1,NA,NA,NA,NA,NA,5,TRUE,FALSE
 "Dommel","MP91000; afw brug; RO; te voet door wei tot aan grote zomereik","mdflzwm0","I_3910_6","Lotisch","Limburg","Pelt",1,51.2679807,5.4284195,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 "Bollisenbeek","Einde traject 10m afw brug aan MP 99500","mwnhmtq1","I_3990_5","Lotisch","Limburg","Peer",2,51.1165486,5.3916738,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 "Marijneloop",NA,"yjqxzmiz","I_2920_4","Lotisch","Antwerpen","Kalmthout",2,51.4264226,4.5103658,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
@@ -102,6 +112,7 @@ NA,"Nederbrakel, Heyveld, opw","nwyxntuy","I_9660_1","Lotisch","Oost-Vlaanderen"
 "Antitankkanaal","Antitankgracht","nmvkndjl","I_2970_2","Lotisch","Antwerpen","Schilde",1,51.2483174,4.5985564,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 "Bommelzwin",NA,"m2m0odgy","I_8370_5","Lotisch","West-Vlaanderen","Blankenberge",2,51.3039487,3.1244784,NA,NA,NA,13,NA,NA,4,TRUE,TRUE
 "Bommelzwin",NA,"m2m0odgy","I_8420_2","Lotisch","West-Vlaanderen","De Haan",2,51.2990122,3.105183,NA,NA,NA,12,NA,NA,4,TRUE,TRUE
+"Lovaart",NA,"nzm3mdi0","I_8647_7","Lotisch","West-Vlaanderen","Lo-Reninge",NA,50.9716344,2.7377762,0,NA,NA,NA,NA,NA,1,TRUE,FALSE
 "Roosterbeek",NA,"zjiyngyx","I_3520_4","Lotisch","Limburg","Zonhoven",2,50.9869595,5.3508929,0,NA,NA,NA,1,NA,4,TRUE,FALSE
 "Watering Het Schulensbroek",NA,"m2i4yzvl","I_3580_1","Lotisch","Limburg","Beringen",2,51.0419336,5.2287682,0,NA,NA,NA,NA,NA,1,TRUE,FALSE
 "Moervaart",NA,"nzjknjqy","I_9180_8","Lotisch","Oost-Vlaanderen","Moerbeke",NA,51.173329,3.958132,NA,NA,NA,6,NA,NA,3,TRUE,FALSE
@@ -120,17 +131,21 @@ NA,"Moorseelsesteenweg, Sterrebosvijver","nzi3zgyy","I_8800_3","Lentisch","West-
 "Machelenput","Machelen, Brugstraat","ztjjntcx","I_9800_14","Lentisch","Oost-Vlaanderen","Deinze",NA,50.9575438,3.4783938,0,NA,2,NA,NA,NA,4,TRUE,FALSE
 NA,"Gottem, thv Leie, oostelijk eind","ztjjntcx","I_9870_3","Lentisch","Oost-Vlaanderen","Zulte",NA,50.959398,3.4664016,0,NA,NA,NA,NA,NA,2,FALSE,FALSE
 "Ardooievijver","Provinciaal Domein 't Veld; Vijver op Veldbeek","zgqwyjrm","I_8850_4","Lentisch","West-Vlaanderen","Ardooie",NA,50.9601016,3.2312679,0,NA,NA,NA,NA,NA,4,FALSE,FALSE
+NA,"Breevendreef, t.h.v. de cafetaria v/h zwembad","zge1otbm","I_2880_1","Lentisch","Antwerpen","Bornem",NA,51.0913189,4.2391514,NA,NA,1,NA,NA,NA,1,TRUE,FALSE
 NA,"Prov. Domein Lippensgoed-Bulskampveld, perceel 25Y","mdixota5","I_8730_5","Lentisch","West-Vlaanderen","Beernem",NA,51.1090414,3.2902429,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 NA,"Zaffelare,Giesmeersbos,Bosdam,veldweg","nweyoti0","I_9080_4","Lentisch","Oost-Vlaanderen","Lochristi",NA,51.1429647,3.8800557,0,NA,NA,1,NA,NA,4,TRUE,TRUE
 "Watering de Burggravenstroom","Provinciaal Domein Het Leen","zta3nzm0","I_9950_4","Lentisch","Oost-Vlaanderen","Lievegem",NA,51.1651471,3.5788206,0,NA,NA,NA,NA,NA,4,FALSE,FALSE
 "Watering de Burggravenstroom","Provinciaal Domein Het Leen","zta3nzm0","I_9950_5","Lentisch","Oost-Vlaanderen","Lievegem",NA,51.1662117,3.5753712,0,NA,NA,NA,NA,NA,4,FALSE,FALSE
 NA,"Brasschaat; Sion Kloosterlaan ten einde en rechtsaf; 100m afw ingang fort beginnens","odi3zti0","I_2930_4","Lentisch","Antwerpen","Brasschaat",NA,51.3289853,4.4939617,0,NA,NA,NA,NA,NA,2,TRUE,FALSE
+NA,NA,"ywqxzdy4","I_9130_16","Lentisch","Oost-Vlaanderen","Beveren",NA,51.2581946,4.1944395,0,NA,NA,NA,4,NA,4,TRUE,FALSE
 "Grote Saleghemgeul","Geen kreeften in 2021-2022","ywqxzdy4","I_9170_13","Lentisch","Oost-Vlaanderen","Sint-Gillis-Waas",NA,51.244686,4.1271735,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 "Grote Geule","geen kreeften in 2021-2022","ywqxzdy4","I_9170_14","Lentisch","Oost-Vlaanderen","Sint-Gillis-Waas",2,51.2793651,4.15747,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 "Oostpolderkreek","Oostpolderkreek","nju4nzzh","I_9982_5","Lentisch","Oost-Vlaanderen","Sint-Laureins",NA,51.2611327,3.5820292,NA,NA,NA,9,NA,NA,4,TRUE,TRUE
 "Boerenkreek","Boerekreek","nju4nzzh","I_9982_6","Lentisch","Oost-Vlaanderen","Sint-Laureins",NA,51.2657601,3.577096,0,NA,NA,1,NA,NA,4,TRUE,FALSE
+"Grote Geul",NA,"nwmzmtg3","I_9960_7","Lentisch","Oost-Vlaanderen","Assenede",99,51.2464656,3.749102,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 "Kleine Geul",NA,"otm1owi1, zwu5mgjj","I_9960_9","Lentisch","Oost-Vlaanderen","Assenede",99,51.2365444,3.7562741,NA,NA,NA,7,NA,NA,4,TRUE,TRUE
 "Mazurekreek","Mazurekreek","nju4nzzh","I_9982_8","Lentisch","Oost-Vlaanderen","Sint-Laureins",NA,51.2596778,3.5634546,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
+"Kragenwiel",NA,"zge1otbm","I_2880_2","Lentisch","Antwerpen","Bornem",NA,51.1092937,4.2478199,NA,NA,NA,1,NA,NA,1,TRUE,FALSE
 NA,"fort","zdvjmdzk","I_2600_2","Lentisch","Antwerpen","Antwerpen",NA,51.1905352,4.4293877,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 NA,"fort","zgjhngvm","I_2640_1","Lentisch","Antwerpen","Mortsel",NA,51.1718562,4.4609497,0,2,NA,NA,NA,NA,4,TRUE,FALSE
 NA,"fort","zgjhngvm","I_2610_1","Lentisch","Antwerpen","Antwerpen",NA,51.1634236,4.4021273,0,NA,NA,NA,NA,NA,5,TRUE,FALSE
@@ -140,9 +155,11 @@ NA,"Marmerkreeft in 2020-2021","ymjlzwe4","I_2610_3","Lentisch","Antwerpen","Ant
 NA,NA,"nmvkndjl","I_2900_1","Lentisch","Antwerpen","Schoten",NA,51.2871379,4.5257715,1,NA,NA,NA,NA,NA,4,TRUE,TRUE
 "Antitankgracht",NA,"nzi4mtm4","I_2950_2","Lentisch","Antwerpen","Kapellen",1,51.3463916,4.4291238,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 "E10-plas",NA,"nmvkndjl","I_2930_6","Lentisch","Antwerpen","Brasschaat",NA,51.3022217,4.5369521,0,NA,1,NA,NA,NA,2,TRUE,FALSE
+NA,NA,"ota3ymuw","I_2520_4","Lentisch","Antwerpen","Ranst",1,51.2285958,4.6120736,0,NA,NA,NA,NA,NA,3,FALSE,FALSE
 "Bergelenput","recreation area (provincial dom. Bergelen Put)","mwu5ntqy","I_8560_6","Lentisch","West-Vlaanderen","Wevelgem",NA,50.8388989,3.1838946,0,NA,NA,NA,NA,NA,1,FALSE,FALSE
 "Damvalleimeer","Damvalleimeer","ytljnzlj","I_9070_2","Lentisch","Oost-Vlaanderen","Destelbergen",NA,51.0549668,3.808909,NA,NA,1,NA,NA,NA,1,TRUE,FALSE
 "Watersportbaan","watersportbaan, Gent","ownlnda3","I_9000_4","Lentisch","Oost-Vlaanderen","Gent",NA,51.0517868,3.6788923,0,NA,NA,NA,NA,NA,2,FALSE,FALSE
+NA,"Citadelpark","mjcymgi5","I_9000_5","Lentisch","Oost-Vlaanderen","Gent",NA,51.0355132,3.7201661,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 "Schoonmeersvijver","recreation area, Overmeers","nzkzyzvh","I_9000_6","Lentisch","Oost-Vlaanderen","Gent",NA,51.0339201,3.6972447,0,NA,NA,NA,NA,NA,3,FALSE,FALSE
 "Roomackerput","Recreation area, Provincial Dom. De Roomacker","njbjymrl","I_9140_4","Lentisch","Oost-Vlaanderen","Temse",NA,51.1178571,4.171653,1,NA,NA,NA,NA,NA,4,TRUE,FALSE
 NA,"recreation area, Provincial dom. Kessel-Lo","nzq2nzbh","I_3010_4","Lentisch","Vlaams-Brabant","Leuven",NA,50.8943306,4.7227575,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
@@ -151,6 +168,7 @@ NA,"recreation area, Provincial dom. Kessel-Lo","nzq2nzbh","I_3010_6","Lentisch"
 "Bellefroid vijver",NA,"mzqxyjhi","I_3012_8","Lentisch","Vlaams-Brabant","Leuven",NA,50.9056413,4.7035974,0,NA,NA,NA,NA,NA,1,TRUE,FALSE
 NA,"toestemming vragen Abdij van Park","y2nhotdk","I_3001_7","Lentisch","Vlaams-Brabant","Leuven",NA,50.8637529,4.7141723,0,NA,NA,NA,NA,NA,1,TRUE,FALSE
 "Rotselaar Meer","Not free (ask permission?) Meer van Rotselaar","odi5ngi0","I_3110_7","Lentisch","Vlaams-Brabant","Rotselaar",NA,50.9597795,4.7292443,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
+NA,"Turnhout","mzk5yjmz","I_2300_4","Lentisch","Antwerpen","Turnhout",NA,51.3101635,4.9474125,NA,NA,6,NA,NA,NA,3,FALSE,FALSE
 NA,NA,"mdnjzwy3","I_3600_11","Lentisch","Limburg","Genk",NA,50.9773846,5.4927852,0,NA,NA,NA,NA,NA,3,TRUE,FALSE
 NA,NA,"mdnjzwy3","I_3600_12","Lentisch","Limburg","Genk",NA,50.9786478,5.4934182,0,NA,NA,NA,NA,NA,3,TRUE,FALSE
 "Zegemeer","Knokke-Heist, Zegemeer","nzlkmtvh","I_8300_8","Lentisch","West-Vlaanderen","Knokke-Heist",NA,51.3451031,3.2827663,0,NA,NA,NA,NA,NA,2,TRUE,FALSE
@@ -163,6 +181,7 @@ NA,"Dendermonde","zdexmmex","I_9200_8","Lentisch","Oost-Vlaanderen","Dendermonde
 "Molenvijver",NA,"yjq4y2nh","I_1640_2","Lentisch","Vlaams-Brabant","Sint-Genesius-Rode",9,50.7220474,4.3281399,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 NA,"Kortenberg","zja3zjyx","I_3070_1","Lentisch","Vlaams-Brabant","Kortenberg",9,50.8846604,4.5507054,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 NA,"Bilzen","zji2zgyw","I_3740_6","Lentisch","Limburg","Bilzen",NA,50.8633251,5.5139927,0,NA,NA,NA,NA,NA,2,TRUE,FALSE
+NA,"accessible?","zgi0mju3","I_2500_7","Lentisch","Antwerpen","Lier",NA,51.1469777,4.5494446,0,NA,NA,NA,NA,NA,1,TRUE,FALSE
 NA,"Izegem","zgqwyjrm","I_8870_6","Lentisch","West-Vlaanderen","Izegem",NA,50.9194813,3.2229803,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 NA,"citadelpark","ownlnda3","I_9000_8","Lentisch","Oost-Vlaanderen","Gent",NA,51.0389914,3.7233503,0,NA,NA,NA,NA,NA,3,TRUE,FALSE
 NA,"recreation area, Provincial dom. Puyenbroeck","nweyoti0","I_9185_8","Lentisch","Oost-Vlaanderen","Wachtebeke",NA,51.1495342,3.8824034,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
@@ -180,8 +199,9 @@ NA,NA,"nmvkndjl","I_2900_3",NA,"Antwerpen","Schoten",NA,51.2927059,4.5470864,NA,
 NA,NA,"odzkzdmz","I_8430_3",NA,"West-Vlaanderen","Middelkerke",NA,51.1864522,2.8355339,0,NA,NA,1,NA,NA,5,FALSE,FALSE
 "Ter Erpenbeek","Den Dotter","mjkyzjq3","V_9420_6",NA,"Oost-Vlaanderen","Erpe-Mere",NA,50.90148,3.96273,0,NA,NA,NA,NA,NA,7,FALSE,FALSE
 "Ter Erpenbeek","Ter Eppenbeek","mjkyzjq3","V_9450_2",NA,"Oost-Vlaanderen","Haaltert",NA,50.88894,3.95116,0,NA,NA,NA,NA,NA,8,TRUE,FALSE
-NA,"Molenbeek","mjkyzjq3","V_9450_3",NA,"Oost-Vlaanderen","Haaltert",NA,50.89441,4.0229,0,NA,NA,NA,NA,NA,7,TRUE,FALSE
+NA,"Molenbeek","mjkyzjq3","V_9450_3",NA,"Oost-Vlaanderen","Haaltert",NA,50.893729,4.02133,0,NA,NA,NA,NA,NA,7,TRUE,FALSE
 "Molenbeek","Molenbeek","mjkyzjq3","V_9450_4",NA,"Oost-Vlaanderen","Haaltert",NA,50.89703,4.03072,0,NA,NA,NA,NA,NA,8,TRUE,FALSE
+"Blauwhuisbeek","Hertsberg, Sterredreef","ymzlmda2","I_8020_3","Lotisch","West-Vlaanderen","Oostkamp",1,51.1025832,3.2575029,0,NA,NA,NA,NA,NA,1,TRUE,FALSE
 "Spanjaardbeek",NA,"mdywmjc1","V_8610_8",NA,"West-Vlaanderen","Kortemark",NA,51.0286484,3.0580516,0,NA,NA,NA,NA,NA,3,FALSE,FALSE
 NA,NA,"odi3zti0","V_2930_8",NA,"Antwerpen","Brasschaat",NA,51.3142677,4.5322723,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 NA,NA,"ntq0otk2","I_9050_1",NA,"Oost-Vlaanderen","Gent",NA,51.0351294,3.7511217,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
@@ -202,6 +222,7 @@ NA,"Poel reservaat Lovenarenbroek","nzq2nzbh","V_3010_12",NA,"Vlaams-Brabant","L
 NA,"Bronbeek Provinciedomein","nzq2nzbh","V_3010_13",NA,"Vlaams-Brabant","Leuven",NA,50.8938153,4.7201073,0,12,NA,NA,NA,NA,3,FALSE,FALSE
 NA,"Tijdelijke plas parking Eénmeilaan","nzq2nzbh","V_3010_14",NA,"Vlaams-Brabant","Leuven",NA,50.8964641,4.7177397,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 "Zelgaas",NA,"ztu0mthk","V_2440_11",NA,"Antwerpen","Geel",NA,51.1724522,5.0423275,0,NA,NA,NA,NA,NA,4,FALSE,FALSE
+"Kanaal Dessel-Schoten",NA,"mzk5yjmz","V_2300_6",NA,"Antwerpen","Turnhout",NA,51.3274215,4.9160958,NA,NA,7,NA,NA,NA,2,TRUE,FALSE
 "Warmbeek",NA,"nthlmzez","V_3910_11",NA,"Limburg","Pelt",NA,51.2251145,5.492385,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 NA,"Kanaal van Beverlo","mwnhmtq1","V_2490_3",NA,"Antwerpen","Balen",NA,51.1533249,5.2511977,0,NA,NA,NA,NA,NA,3,FALSE,FALSE
 "Merebeek","Vinderhoute,Bulken,Langendam","mzu1ode0","I_9031_2","Lotisch","Oost-Vlaanderen","Gent",1,51.0822354,3.6543178,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
@@ -228,6 +249,7 @@ NA,NA,"nzzmzdm3","V_2491_2",NA,"Antwerpen","Balen",NA,51.1460064,5.1341025,0,NA,
 NA,NA,"nzzmzdm3","V_2491_3",NA,"Antwerpen","Balen",NA,51.1461648,5.1410524,0,NA,3,NA,NA,NA,4,TRUE,TRUE
 NA,NA,"nzzmzdm3","V_2491_4",NA,"Antwerpen","Balen",NA,51.1458209,5.1421366,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 "Vogelzang",NA,"zdvjmdzk","I_2020_1",NA,"Antwerpen","Antwerpen",NA,51.18664,4.40863,0,NA,NA,NA,NA,NA,4,TRUE,FALSE
+NA,"gracht rond Middelheimmuseum","zdvjmdzk","I_2020_2",NA,"Antwerpen","Antwerpen",NA,51.17985,4.4122,0,NA,NA,NA,NA,NA,3,TRUE,FALSE
 NA,NA,"nzzmzdm3","V_2491_5",NA,"Antwerpen","Balen",NA,51.1448134,5.1286907,0,NA,1,NA,NA,NA,4,TRUE,FALSE
 NA,NA,"nzzmzdm3","V_2491_6",NA,"Antwerpen","Balen",NA,51.1436651,5.1272898,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 "Grote Calie",NA,"yjq0ntkw","I_2460_10",NA,"Antwerpen","Kasterlee",NA,51.2440713,4.9130423,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
@@ -266,6 +288,7 @@ NA,NA,"ntvlndrm","I_8380_2",NA,"West-Vlaanderen","Brugge",NA,51.2917,3.246988,NA
 "Meander Hoolstmolen",NA,"ymfmywyx","I_2491_7",NA,"Antwerpen","Balen",NA,51.150198,5.151801,0,NA,NA,NA,NA,NA,2,TRUE,FALSE
 "Autbroekloop",NA,"mthjnmy5","I_2880_11",NA,"Antwerpen","Bornem",NA,51.1180833,4.2985397,0,NA,NA,NA,NA,NA,1,TRUE,FALSE
 "Vliet",NA,"mthjnmy5","I_2880_12",NA,"Antwerpen","Bornem",NA,51.092545,4.3127155,0,NA,NA,NA,NA,NA,1,TRUE,FALSE
+"Antitankgracht",NA,"zjkwzmrj","I_2520_8",NA,"Antwerpen","Ranst",NA,51.210439,4.615385,0,NA,NA,NA,NA,NA,4,FALSE,FALSE
 NA,NA,"njixzjg3","V_2330_4",NA,"Antwerpen","Merksplas",NA,51.3792635,4.8833541,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 NA,NA,"njixzjg3","V_2381_7",NA,"Antwerpen","Ravels",NA,51.392528,4.969778,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 "Bosbeek",NA,"ndlmngu0","I_9180_11",NA,"Oost-Vlaanderen","Moerbeke",NA,51.162451,3.948537,0,NA,NA,2,NA,2,4,TRUE,FALSE
@@ -277,7 +300,11 @@ NA,NA,"mdm4oge4","V_2850_1",NA,"Antwerpen","Boom",NA,51.091341,4.3834673,0,NA,1,
 "Scheldebroeken",NA,"ngvimgq2","I_9240_6",NA,"Oost-Vlaanderen","Zele",NA,51.039,4.041855,1,NA,NA,NA,NA,NA,4,FALSE,FALSE
 "Dambeek",NA,"ngvimgq2","I_9290_5",NA,"Oost-Vlaanderen","Berlare",NA,51.024045,4.033699,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 NA,NA,"ngvimgq2","I_9200_21",NA,"Oost-Vlaanderen","Dendermonde",NA,51.043378,4.119151,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
+NA,NA,"mmy5nzkz","I_8310_6",NA,"West-Vlaanderen","Brugge",NA,51.182775,3.233472,1,NA,NA,NA,NA,NA,3,TRUE,FALSE
+NA,NA,"mzk5yjmz","V_2300_7",NA,"Antwerpen","Turnhout",NA,51.3590129,4.9624728,NA,NA,5,NA,NA,NA,3,TRUE,FALSE
+NA,NA,"yzc5zdbk","V_2650_4",NA,"Antwerpen","Edegem",NA,51.156389,4.405889,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 "Grote Astbeek",NA,"otblmwjl","V_9250_3",NA,"Oost-Vlaanderen","Waasmunster",NA,51.1370644,4.039342,NA,NA,NA,7,NA,NA,4,FALSE,FALSE
+NA,NA,"ztnjowu1","I_2930_10",NA,"Antwerpen","Brasschaat",NA,51.2870106,4.5002058,0,NA,1,NA,NA,NA,4,TRUE,FALSE
 NA,NA,"nzzmzdm3","V_2490_13",NA,"Antwerpen","Balen",NA,51.15089,5.188153,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 NA,NA,"nzzmzdm3","V_2490_14",NA,"Antwerpen","Balen",NA,51.150688,5.187034,1,NA,NA,NA,NA,NA,4,TRUE,TRUE
 "Grootgeleed",NA,"yzmzndnm","I_8470_2",NA,"West-Vlaanderen","Gistel",NA,51.150606,2.992113,0,NA,NA,NA,NA,NA,1,TRUE,FALSE
@@ -294,7 +321,9 @@ NA,NA,"nzzmzdm3","V_2490_14",NA,"Antwerpen","Balen",NA,51.150688,5.187034,1,NA,N
 "Olentgracht",NA,"njgyytiw","I_9180_13",NA,"Oost-Vlaanderen","Moerbeke",NA,51.144841,3.9301138,0,NA,NA,8,NA,NA,4,TRUE,FALSE
 NA,NA,"odzkzdmz","I_8433_5",NA,"West-Vlaanderen","Middelkerke",NA,51.152667,2.802804,0,NA,NA,NA,NA,NA,5,TRUE,FALSE
 "Vliet",NA,"njm2yzlk","I_2880_13",NA,"Antwerpen","Bornem",NA,51.0836332,4.2890212,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
-"Vliet",NA,"njm2yzlk","I_2870_9",NA,"Antwerpen","Puurs-Sint-Amands",NA,51.072554,4.2699231,0,NA,NA,NA,NA,NA,3,TRUE,FALSE
+"Koningsbeek",NA,"njm2yzlk","I_2870_8",NA,"Antwerpen","Puurs-Sint-Amands",NA,51.0804692,4.2672169,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
+"Vliet",NA,"njm2yzlk","I_2870_9",NA,"Antwerpen","Puurs-Sint-Amands",NA,51.072554,4.2699231,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
+"Dijle",NA,"odi5ngi0","V_2800_10",NA,"Antwerpen","Mechelen",NA,51.0196563,4.5018692,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 "Zonneputje",NA,"yzq0m2yw","V_9052_6",NA,"Oost-Vlaanderen","Gent",NA,50.993863,3.721124,0,NA,NA,NA,NA,NA,5,TRUE,FALSE
 NA,NA,"ytvimtiz","V_9890_8",NA,"Oost-Vlaanderen","Gavere",NA,50.922205,3.662712,0,NA,NA,NA,NA,NA,4,TRUE,FALSE
 NA,NA,"mznknjaw","V_3640_18",NA,"Limburg","Kinrooi",NA,51.181501,5.74537,0,NA,NA,NA,NA,NA,6,FALSE,FALSE
@@ -302,16 +331,24 @@ NA,NA,"mznknjaw","V_3640_18",NA,"Limburg","Kinrooi",NA,51.181501,5.74537,0,NA,NA
 "Watering Het Grootbroek",NA,"mznknjaw","V_3640_20",NA,"Limburg","Kinrooi",NA,51.167457,5.760667,0,NA,NA,NA,NA,NA,4,FALSE,FALSE
 "Grote Nete",NA,"nzzmzdm3","V_2491_8",NA,"Antwerpen","Balen",NA,51.150153,5.149361,0,NA,NA,NA,NA,NA,4,FALSE,FALSE
 NA,NA,"nzzmzdm3","V_2490_15",NA,"Antwerpen","Balen",NA,51.151999,5.146447,0,NA,NA,NA,NA,NA,3,FALSE,FALSE
-NA,NA,"yjdkn2u5","V_3000_4",NA,"Vlaams-Brabant","Leuven",NA,50.8612684,4.7381551,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 "Watering De Dommelvallei",NA,"mdflzwm0","V_3900_5",NA,"Limburg","Pelt",NA,51.203514,5.37853,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 "Watering De Dommelvallei",NA,"mdflzwm0","V_3900_6",NA,"Limburg","Pelt",NA,51.208177,5.395103,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 "Windgatbeek",NA,"mdm5y2i4","V_9280_3",NA,"Oost-Vlaanderen","Lebbeke",NA,50.999601,4.086909,1,NA,NA,NA,NA,NA,5,TRUE,FALSE
 NA,NA,"odhmndaz","V_2500_11",NA,"Antwerpen","Lier",NA,51.1091667,4.5272222,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
+NA,NA,"ogzjzmq2","V_2547_2",NA,"Antwerpen","Lint",NA,51.1315278,4.5038056,0,NA,NA,NA,NA,NA,5,TRUE,FALSE
 "Winge",NA,"owuwmwnj","V_3111_3",NA,"Vlaams-Brabant","Rotselaar",NA,50.952033,4.733064,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 NA,NA,"ngnlmjhi","I_9255_2",NA,"Oost-Vlaanderen","Buggenhout",NA,50.989417,4.164278,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 NA,NA,"mdflzwm0","V_3910_15",NA,"Limburg","Pelt",NA,51.235493,5.409433,1,NA,NA,NA,NA,NA,4,TRUE,TRUE
+NA,NA,"mdflzwm0","V_3920_6",NA,"Limburg","Lommel",NA,51.258004,5.409064,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
 "Voorgracht",NA,NA,"I_2180_1","Lotisch","Antwerpen","Antwerpen",1,51.3017677,4.3725453,1,NA,NA,NA,NA,NA,4,TRUE,TRUE
 "Antitankgracht",NA,"nzi4mtm4","V_2950_3",NA,"Antwerpen","Kapellen",NA,51.3341307,4.4706952,0,NA,NA,NA,NA,NA,4,FALSE,FALSE
 NA,NA,"mdm4oge4","V_2850_2",NA,"Antwerpen","Boom",NA,51.0878472,4.3800916,0,NA,4,NA,NA,NA,6,TRUE,FALSE
 NA,NA,"mdm4oge4","V_2850_3",NA,"Antwerpen","Boom",NA,51.087015,4.3842758,0,NA,NA,NA,NA,NA,6,FALSE,FALSE
 "Sint Andrieszwin",NA,"zwzhotbm","V_8000_7",NA,"West-Vlaanderen","Brugge",NA,51.2170345,3.1436378,NA,NA,NA,6,NA,NA,4,TRUE,TRUE
+"Roeivijver",NA,"njiyn2yx","V_2100_6",NA,"Antwerpen","Antwerpen",NA,51.214583,4.473083,0,NA,15,NA,NA,NA,10,FALSE,FALSE
+NA,NA,"yjdkn2u5","V_3000_4",NA,"Vlaams-Brabant","Leuven",NA,50.861222,4.738139,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
+"Spiegelvijver",NA,"njiyn2yx","V_2100_7",NA,"Antwerpen","Antwerpen",NA,51.216667,4.468611,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
+NA,NA,"njiyn2yx","V_2100_8",NA,"Antwerpen","Antwerpen",NA,51.216,4.465694,0,NA,NA,NA,NA,NA,5,TRUE,FALSE
+"Leie",NA,"yzc4njmw","V_9800_19",NA,"Oost-Vlaanderen","Deinze",NA,50.9917051,3.5709575,0,NA,NA,NA,NA,NA,4,TRUE,TRUE
+NA,NA,"owm2ywvi","V_3550_10",NA,"Limburg","Heusden-Zolder",NA,50.9973821,5.2711361,NA,NA,6,NA,NA,NA,4,TRUE,TRUE
+"owm2ywvi",NA,NA,"V_3550_11",NA,"Limburg","Heusden-Zolder",NA,50.9976814,5.271577,NA,NA,14,NA,NA,NA,4,FALSE,FALSE

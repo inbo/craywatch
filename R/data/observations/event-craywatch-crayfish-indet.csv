@@ -1146,7 +1146,6 @@ id,date,time,lat,lng,location id,number of individuals,has photo,Finding place c
 329775768,2024-10-01,18:00:00,51.0083,3.639776,252143,0,False,Stromend water,,open water met oevervegetatie,Nee,V_9830_2
 329775820,2024-10-02,18:00:00,51.008317,3.639809,252143,0,False,Stromend water,,open water met oevervegetatie,Nee,V_9830_2
 329775888,2024-10-03,17:45:00,51.008334,3.639809,252143,0,False,Stromend water,,open water met oevervegetatie,Nee,V_9830_2
-329775942,2024-10-03,12:50:00,51.286988,4.532644,29287,1,True,Stilstaand water,zie foto's. weinig levendig,"weinig waterplanten, overhangende bomen",Nee,I_2900_1
 329781293,2024-10-04,10:05:00,51.072394,4.269967,28271,0,False,Stromend water,,"Beek 3m breed, 1-1.5m diep, steile oevers, begroeid met gras en brandnetels.",Ja,I_2870_9
 329795409,2024-10-04,12:00:00,50.960124,4.725173,31013,0,False,Stilstaand water,NVT,NVT,Nee,I_3110_7
 329795475,2024-10-04,12:30:00,50.965954,4.694255,23390,0,False,Stromend water,NVT,NVT,Nee,I_3118_1
@@ -1160,14 +1159,13 @@ id,date,time,lat,lng,location id,number of individuals,has photo,Finding place c
 329983580,2024-09-08,08:00:00,50.999417,4.087027,140972,0,False,,,,Ja,V_9280_3
 329983772,2024-09-10,08:00:00,50.99943,4.087025,140972,0,False,,,,Ja,V_9280_3
 329983858,2024-09-11,08:00:00,50.999417,4.087032,140972,0,False,,,,,V_9280_3
-329984548,2024-09-09,08:00:00,50.999387,4.087045,140972,1,True,Stromend water,,,Ja,V_9280_3
 330014908,2024-10-05,08:30:00,50.959275,3.467138,28524,0,False,Stilstaand water,Nvt,,Nee,I_9870_3
 330038543,2024-10-04,07:20:00,51.153899,5.251778,138294,0,False,Stromend water,,,Ja,V_2490_3
 330038874,2024-10-06,07:20:00,51.153576,5.251413,138294,0,False,Stromend water,,,Ja,V_2490_3
 330039107,2024-10-06,07:50:00,51.153563,5.251534,138294,0,False,Stromend water,,,Ja,V_2490_3
 330048337,2024-10-06,09:07:00,51.146876,5.249559,138294,0,True,Stromend water,,,Ja,V_2490_3
 330143017,2024-10-04,10:50:00,51.28658,4.533293,29287,0,False,,,,Nee,I_2900_1
-330144020,2024-09-10,18:00:00,51.039905,4.043808,30689,1,False,,,,Ja,I_9240_6
+330144020,2024-09-10,18:00:00,51.039905,4.043808,30689,0,False,,,,Ja,I_9240_6
 330144099,2024-10-07,,51.039911,4.043743,30689,0,False,,,,Ja,I_9240_6
 330144140,2024-09-12,18:00:00,51.039906,4.043746,30689,0,False,,,,Ja,I_9240_6
 330144171,2024-09-13,18:00:00,51.039742,4.043685,30689,0,False,,,,Ja,I_9240_6
@@ -1194,3 +1192,115 @@ id,date,time,lat,lng,location id,number of individuals,has photo,Finding place c
 330233762,2024-10-06,10:13:00,51.068699,5.253863,29552,0,False,,,,Nee,I_3582_3
 330233858,2024-10-07,07:05:00,51.068696,5.253863,29552,0,False,,,,,I_3582_3
 330233883,2024-10-08,08:25:00,51.068679,5.253833,29552,0,False,,,,Nee,I_3582_3
+330278683,2024-10-08,13:43:00,51.195452,3.859014,30138,0,False,,,,Ja,I_9185_1
+330305590,2024-10-05,18:30:00,50.991604,3.571183,27420,0,False,Stromend water,,Leieoever met stortstenen en rietbegroeing thv aanlegsteiger pleziervaart,Nee,V_9800_19
+330306097,2024-10-06,19:00:00,50.991681,3.571025,27420,0,False,,,bijvangst: 1 paling (50 cm),Nee,V_9800_19
+330306246,2024-10-07,19:00:00,50.991702,3.571001,27420,0,False,,,,Nee,V_9800_19
+330306313,2024-10-08,19:15:00,50.991684,3.57099,27420,0,False,,,"bijvangst: 1 zwartbekgrondel, 1 paling (50 cm)",Nee,V_9800_19
+330318229,2024-10-04,09:00:00,51.131544,4.503735,23335,0,False,Stilstaand water,,,Ja,V_2547_2: Poel Klimaatbos
+330318293,2024-10-05,09:00:00,51.131568,4.503711,23335,0,False,Stilstaand water,,,Ja,V_2547_2: Poel Klimaatbos
+330318312,2024-10-06,09:00:00,51.131572,4.503711,23335,0,False,Stilstaand water,,,Ja,V_2547_2: Poel Klimaatbos
+330318327,2024-10-07,09:00:00,51.131564,4.503724,23335,0,False,Stilstaand water,,,Ja,V_2547_2: Poel Klimaatbos
+330318371,2024-10-08,09:00:00,51.131545,4.503719,23335,0,False,Stilstaand water,,,Nee,V_2547_2: Poel Klimaatbos
+330335711,2024-10-08,10:15:00,51.080635,4.267942,29137,0,False,Stromend water,,"Traagstromende beek (3m breed, 0.5 diep), stenige bedding langsheen de oevers, zachthellende grassige oevers met brandnetels en distels, aanplanting van es.",Ja,I_2870_8
+330335846,2024-10-09,10:05:00,51.080519,4.267515,29137,0,False,Stromend water,,"Traagstromende beek (3m breed, 0.5 diep), stenige bedding langsheen de oevers, zachthellende grassige oevers met brandnetels en distels, aanplanting van es.",Ja,I_2870_8
+330351635,2024-10-01,12:15:00,51.216398,4.468678,71783,0,False,Stilstaand water,/,"Spiegelvijver, geen bijzondere kenmerken",Nee,V_2100_7
+330351728,2024-10-02,12:30:00,51.216497,4.468646,71783,0,False,Stilstaand water,/,"Spiegelvijver, geen bijzondere kenmerken",Nee,V_2100_7
+330351773,2024-10-03,13:25:00,51.216605,4.468474,71783,0,False,Stilstaand water,/,"Spiegelvijver, geen bijzondere kenmerken",Nee,V_2100_7
+330351810,2024-10-04,15:00:00,51.216605,4.468818,71783,0,False,Stilstaand water,/,"Spiegelvijver, geen bijzondere kenmerken",Nee,V_2100_7
+330353255,2024-10-06,11:00:00,51.21582,4.465717,71783,0,False,Stromend water,/,"Lupinegracht: oever vegitatie, staat in verbinding met het Schijn (indien hoog water) via een sluizen systeem",Nee,V_2100_8
+330353326,2024-10-07,13:00:00,51.21586,4.46576,71783,0,False,Stromend water,/,"Lupinegracht: oever vegitatie, staat in verbinding met het Schijn (indien hoog water) via een sluizen systeem",Nee,V_2100_8
+330353369,2024-10-08,12:30:00,51.215847,4.465696,71783,0,False,Stromend water,/,"Lupinegracht: oever vegitatie, staat in verbinding met het Schijn (indien hoog water) via een sluizen systeem",Nee,V_2100_8
+330353412,2024-10-09,14:03:00,51.215814,4.465787,71783,0,False,Stromend water,/,"Lupinegracht: oever vegitatie, staat in verbinding met het Schijn (indien hoog water) via een sluizen systeem",Nee,V_2100_8
+330368804,2024-10-03,08:10:00,51.059914,5.23932,29551,0,False,Running water,,Kleine Beek Beringen,Yes,I_3582_1
+330368962,2024-10-04,08:06:00,51.060073,5.238537,29551,0,False,Running water,,Kleine Beek,Yes,I_3582_1
+330369068,2024-10-05,09:50:00,51.060033,5.238751,29551,0,False,Running water,,Kleine Beek,Yes,I_3582_1
+330369162,2024-10-06,09:10:00,51.060087,5.23888,29551,0,False,Running water,,Kleine Beek,Yes,I_3582_1
+330418702,2024-10-10,,50.971741,2.737628,27302,0,False,,,,Ja,I_8647_7
+330433303,2024-09-19,17:00:00,50.824614,3.839389,84129,0,False,,,,,I-9570-1
+330433675,2024-09-18,17:30:00,50.826159,3.835205,27519,0,False,,,,,
+330433942,2024-09-17,16:00:00,50.824614,3.839604,84129,0,False,,,,,I-9570-1
+330434083,2024-09-21,15:00:00,50.862337,3.76617,27498,0,False,,,,,I-9620-2
+330434462,2024-09-22,17:00:00,50.862147,3.766031,84289,0,False,,,,Ja,I-9620-2
+330434532,2024-09-23,,50.86201,3.766068,84289,0,False,,,,,I-9620-2
+330434708,2024-09-24,,50.861836,3.766106,84289,0,False,,,,,I-9620-2
+330445389,2024-10-10,15:57:00,51.215848,4.465765,71783,0,False,Stromend water,/,"Lupinegracht: oever vegitatie, staat in verbinding met het Schijn (indien hoog water) via een sluizen systeem",Ja,V_2100_8
+330475473,2024-09-16,11:22:00,51.246677,3.747574,30039,0,False,,,,Nee,I_9960_7
+330475497,2024-09-17,11:30:00,51.246304,3.746956,30039,0,False,,,,Nee,I_9960_7
+330475549,2024-09-18,08:25:00,51.24654,3.746956,30039,0,False,,,,Nee,I_9960_7
+330475571,2024-09-19,11:00:00,51.24632,3.74657,30039,0,False,,,,Nee,I_9960_7
+330483804,2024-10-07,09:30:00,51.258757,4.194632,191911,0,False,,,,,I_9130_16
+330484322,2024-10-11,07:00:00,51.134433,5.242268,23498,0,False,Stromend water,,,Ja,V_3970_1
+330485721,2024-10-11,08:35:00,51.240244,5.495205,94505,0,False,Stromend water,,"Diep, veel oevervegetatie, loofbomen tot tegen de beek",Nee,I_3910_4
+330495407,2024-10-11,10:30:00,51.13304,4.351212,28293,0,False,,,"Gisteren snelstromend en hoog, vandaag stromend en een halve m lager - geen vegetatie - troebel water",Nee,I_2620_1
+330535096,2024-10-05,08:45:00,51.07242,4.269999,28271,0,False,Stromend water,,"Beschrijving vindplaats rivierkreeft: Beek 3m breed, 1-1.5m diep, steile oevers, begroeid met gras en brandnetels.",,I_2870_9
+330535463,2024-10-10,09:45:00,51.080499,4.267429,29137,0,False,Stromend water,,"Traagstromende beek (3m breed, 1m diep), stenige bedding langsheen de oevers, zachthellende grassige oevers met brandnetels en distels, aanplanting van es.",Ja,I_2870_8
+330535950,2024-10-11,10:05:00,51.080516,4.267483,29137,0,False,Stromend water,,"Traagstromende beek (3m breed, 1-2m diep), stenige bedding langsheen de oevers, zachthellende grassige oevers met brandnetels en distels, aanplanting van es.",,I_2870_8
+330593858,2024-10-12,10:30:00,51.133053,4.351208,28293,0,False,Stromend water,,Stromend water - geen vegetatie - redelijk helder water,Ja,I_2620_1
+330622630,2024-10-03,19:30:00,51.182712,3.233677,31448,0,False,Stromend water,,"geen natuurlijke kanaaloever, bakprofiel, stekelbaars in een van de vallen",Nee,I_8310_6
+330623339,2024-10-04,12:00:00,51.182701,3.233697,31448,1,False,Stromend water,,"geen natuurlijke kanaaloever, bakprofiel",Ja,I_8310_6
+330623762,2024-10-05,,51.182649,3.233809,31448,0,False,,,"geen natuurlijke kanaaloever, bakprofiel",Nee,I_8310_6
+330666046,2024-10-12,08:35:00,51.240244,5.495205,94505,0,False,Stromend water,,"Diep, veel oevervegetatie, loofbomen tot tegen de beek",Nee,I_3910_4
+330711033,2024-10-11,12:30:00,51.285228,4.498488,29280,0,False,,,,,I_2930_10
+330711812,2024-10-09,17:30:00,51.021808,4.497481,35216,0,False,Running water,,,Yes,V_2800_10
+330712170,2024-10-10,,51.021665,4.497871,35216,0,False,Running water,,,Yes,V_2800_10
+330712462,2024-10-11,17:30:00,51.021946,4.497511,35216,0,False,Running water,,Bijvangst: 1 x paling en 1 x visje,Yes,V_2800_10
+330712750,2024-10-12,12:30:00,51.021781,4.497545,35216,0,False,Running water,,Twee vallen beschadigd en lokzakje kapot gegeten + een val verdwenen (waarschijnlijk door hogere stroming),Yes,V_2800_10
+330724543,2024-10-13,10:30:00,51.133005,4.351187,28293,0,False,Stromend water,,,Ja,I_2620_1
+330801131,2024-10-13,09:40:00,51.240244,5.495205,94505,0,False,Stromend water,,"Diep, veel oevervegetatie, loofbomen tot tegen de beek",Nee,I_3910_4
+330829941,2024-10-08,18:00:00,51.035517,3.720318,27403,0,False,Stilstaand water,,,Ja,I_9000_5
+330830010,2024-10-09,18:00:00,51.035614,3.720383,27403,0,False,Stilstaand water,,,Ja,I_9000_5
+330830059,2024-10-10,18:00:00,51.035627,3.720253,27403,0,False,Stilstaand water,,,Ja,I_9000_5
+330830092,2024-10-11,18:00:00,51.035638,3.720254,27403,0,False,Stilstaand water,,,Ja,I_9000_5
+330830573,2024-10-12,07:00:00,51.134283,5.242378,23498,0,False,Stromend water,,,Ja,V_3970_1
+330830701,2024-10-13,07:00:00,51.134242,5.242378,23498,0,False,Stromend water,,,Ja,V_3970_1
+330838276,2024-10-10,09:52:00,51.035429,3.667969,27411,0,False,Stromend water,,oevers van de Leie in Afsnee,Ja,
+330838443,2024-10-12,10:46:00,51.035888,3.667293,27411,0,False,Stromend water,oevers van de Leie in Afsnee,,Nee,
+330869235,2024-09-15,15:17:00,51.210025,4.615528,191336,0,False,,,,Ja,I_2520_8
+330869521,2024-09-16,15:30:00,51.210096,4.615539,191336,0,False,,,,Ja,I_2520_8
+330869637,2024-09-17,15:36:00,51.210124,4.615671,191336,0,False,,,,Ja,I_2520_8
+330869885,2024-09-19,15:45:00,51.209917,4.615703,27159,0,False,,,,Nee,I_2520_8
+330871623,2024-10-14,16:01:00,51.146318,4.549749,138295,0,False,,,"stilstaand water, oevervegetatie: riet en watermunt",Nee,I-2500-7
+330875491,2024-10-14,16:15:00,51.132867,4.351258,28293,0,False,Stromend water,,,Ja,I_2620_1
+330910224,2024-10-11,17:00:00,51.21461,4.473914,71783,0,False,Stilstaand water,/,"Waterstand: 92cm, groot nimfkruid",Nee,V_2100_6
+330910265,2024-10-13,14:00:00,51.214618,4.473791,71783,0,False,Stilstaand water,/,"Waterstand: 92cm, groot nimfkruid",Nee,V_2100_6
+330910308,2024-10-12,13:15:00,51.214619,4.473643,71783,0,False,Stilstaand water,/,"Waterstand: 92cm, groot nimfkruid",Ja,V_2100_6
+330916517,2024-09-10,12:30:00,51.15781,4.406678,109653,0,False,Running water,,"Kleine Struisbeek: smalle beek, helder water, waterplanten, lage waterstand",Yes,
+330916607,2024-09-11,16:00:00,51.157838,4.406711,109653,0,False,Running water,,"Kleine Struisbeek: smalle beek, helder water, waterplanten, lage waterstand",Yes,
+330916698,2024-09-12,16:10:00,51.157822,4.406695,109653,0,False,Running water,,"Kleine Struisbeek: smalle beek, helder water, waterplanten, lage waterstand",Yes,
+330916768,2024-09-13,16:00:00,51.157848,4.406725,109653,0,False,Running water,,"Kleine Struisbeek: smalle beek, helder water, waterplanten, lage waterstand",Yes,
+330917017,2024-09-10,12:30:00,51.156292,4.405979,193291,0,False,Stagnant water,,Vijver bedekt met eendenkroos,Yes,V_2650_4
+330917093,2024-09-11,16:15:00,51.156334,4.406081,193291,0,False,Stagnant water,,Vijver bedekt met eendenkroos,Yes,V_2650_4
+330917155,2024-09-12,16:15:00,51.156341,4.406038,193291,0,False,Stagnant water,,Vijver bedekt met eendenkroos,Yes,V_2650_4
+330917283,2024-09-13,16:15:00,51.156252,4.406086,193291,0,False,Stagnant water,,Vijver bedekt met eendenkroos,Yes,V_2650_4
+330924693,2024-08-27,09:00:00,51.227289,4.612464,191336,0,False,Stromend water,,,Ja,"I_2520_4: Antitankkanaal Vrieselhof (51.22859, 4.61207)"
+330924833,2024-09-06,09:00:00,51.228125,4.612271,191336,0,False,Stromend water,,,Ja,"I_2520_4: Antitankkanaal Vrieselhof (51.22859, 4.61207)"
+330924923,2024-09-11,09:00:00,51.227215,4.612567,191336,0,False,,,,Ja,"I_2520_4: Antitankkanaal Vrieselhof (51.22859, 4.61207)"
+330931219,2024-10-01,13:30:00,51.256832,5.393388,32521,0,False,Stromend water,,"beek van 3 meter breed en +/- 70 cm diep, helder water, oevervegetatie en loofbomen langs oever",Nee,V_3920_9
+330931992,2024-10-02,13:30:00,51.256832,5.393388,32521,0,False,Stromend water,,"beek van 3 meter breed en +/- 70 cm diep, helder water, oevervegetatie en loofbomen langs oever",Nee,V_3920_9
+330932224,2024-10-03,14:00:00,51.257091,5.393388,32521,0,False,Stromend water,,"beek van 3 meter breed en +/- 70 cm diep, helder water, oevervegetatie en loofbomen langs oever",Nee,V_3920_9
+330932338,2024-10-04,11:30:00,51.256832,5.393388,32521,0,False,Stromend water,,"beek van 3 meter breed en +/- 70 cm diep, helder water, oevervegetatie en loofbomen langs oever",Nee,V_3920_9
+330942477,2024-10-05,,51.102541,3.257972,31506,0,False,Stromend water,/,/,Ja,I_8020_3
+330991048,2024-08-13,09:00:00,51.319158,4.976784,28317,0,False,Stromend water,,rivier de Aa in Oud-TUrnhout - lage waterstand,Ja,I_2360_3
+330991234,2024-08-14,16:00:00,51.318932,4.976632,28317,0,False,Stromend water,,rivier de Aa in Oud-TUrnhout - lage waterstand,Ja,I_2360_3
+330991252,2024-08-15,18:30:00,51.318704,4.976481,28317,0,False,Stromend water,,rivier de Aa in Oud-TUrnhout - lage waterstand,Ja,
+330998922,2024-10-16,08:10:00,51.328254,3.342138,31683,0,False,Stromend water,,"Natuurlijke oever tegen rietkraag, normale waterstand",Nee,I_8300_3
+331005007,2024-10-13,12:30:00,51.285119,4.498448,29280,0,False,,,,Ja,I_2930_10
+331005095,2024-10-14,12:30:00,51.285128,4.498475,29280,0,False,,,,Nee,I_2930_10
+331019198,2024-10-16,09:15:00,51.181205,4.412322,28307,0,False,Stilstaand water,,"Troebel water, geen waterplanten",,I_2020_2
+331019447,2024-10-15,09:00:00,51.181201,4.412322,28307,0,False,Stilstaand water,,"Troebel water, geen waterplanten, bijvangst 1 hybride blankvoorn x rietvoorn",,I_2020_2
+331025654,2024-10-16,,51.060521,4.514329,191308,0,False,,,fort van katelijne - vrij helder water - 3 vallen geen vangst,Ja,
+331026132,2024-10-16,11:45:00,51.214525,4.471867,71783,0,False,Stilstaand water,/,"Vijver rond OLT: lage waterstand (geen exact getal), enkel oever vegitatie, kort bij het Schijn",Nee,V_2100_9
+331090859,2024-09-28,10:30:00,51.174543,3.209062,31446,0,False,Stromend water,,"betonnen steile oevers en slibrijke bodem, weinig waterplanten, slecht een dertig a veertig tal centimeter waterkolom",Nee,"I_8200_2: Kerkebeek (51.17446, 3.20879"
+331091088,2024-09-29,10:30:00,51.174537,3.209008,31446,0,False,Stromend water,,"betonnen steile oevers en slibrijke bodem, weinig waterplanten, slecht een dertig a veertig tal centimeter waterkolom",Ja,"I_8200_2: Kerkebeek (51.17446, 3.20879"
+331091281,2024-09-30,12:00:00,51.174526,3.209014,31446,0,False,Stromend water,,"betonnen steile oevers en slibrijke bodem, weinig waterplanten, slecht een dertig a veertig tal centimeter waterkolom",Ja,"I_8200_2: Kerkebeek (51.17446, 3.20879"
+331091460,2024-10-01,12:00:00,51.174647,3.209234,31446,0,False,,,"betonnen steile oevers en slibrijke bodem, weinig waterplanten, slecht een dertig a veertig tal centimeter waterkolom",Ja,"I_8200_2: Kerkebeek (51.17446, 3.20879"
+331091524,2024-10-02,12:00:00,51.174523,3.20896,31446,1,False,,,"betonnen steile oevers en slibrijke bodem, weinig waterplanten, slecht een dertig a veertig tal centimeter waterkolom",Nee,"I_8200_2: Kerkebeek (51.17446, 3.20879"
+331095060,2024-10-07,11:30:00,51.255153,5.409083,24350,0,False,Stromend water,,"Snel stromend, helder",Nee,V_3920_6
+331095210,2024-10-08,11:10:00,51.255205,5.409092,24350,0,False,Stromend water,,"Snel stromend, helder",Nee,V_3920_6
+331095291,2024-10-09,11:15:00,51.255207,5.409082,24350,0,False,Stromend water,,"Snel stromend, helder",Nee,V_3920_6
+331095347,2024-10-10,11:30:00,51.255204,5.409076,24350,0,False,Stromend water,,"Snel stromend, helder",Nee,V_3920_6
+331113130,2024-10-07,10:30:00,51.262599,5.402464,24350,0,False,Stromend water,,"+/- 70cm diep, veel loofbomen langs de oever",Nee,V_3920_10
+331113233,2024-10-08,10:10:00,51.262599,5.402464,24350,0,False,Stromend water,,"+/- 70cm diep, veel loofbomen langs de oever",Nee,V_3920_10
+331113296,2024-10-09,10:05:00,51.262599,5.402464,24350,0,False,Stromend water,,"+/- 70cm diep, veel loofbomen langs de oever",Nee,V_3920_10
+331118205,2024-10-17,08:55:00,51.181202,4.412279,28307,0,False,Stilstaand water,,"Troebel water, zonder waterplanten. Geen bijvangst",,I_2020_2
