@@ -812,7 +812,7 @@
 "TRUE","TRUE","Sint-Michiels, Rijselstraat, Stokvelde","Kerkebeek","ymu3ntm1","TBD","YES","I_8200_2",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Brugge","8200","1","54716",NA,"51.1744665","3.208793","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Stationsstraat","Rivierbeek",NA,NA,"YES","I_8020_4",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Oostkamp","8020","1","28",NA,"51.1546945672706","3.25253261070005","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Waterstraat, Nieuwenhove, eindpt brugje in weide","Rivierbeek",NA,NA,"YES","I_8020_5",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Oostkamp","8020","1","28",NA,"51.1265055607223","3.23581960679026","VMM",NA,"d.slootmaekers@vmm.be"
-"FALSE","FALSE","Kampveldstraat","Hertsbergebeek",NA,NA,"YES","I_8020_6",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Oostkamp","8020","1","845",NA,"51.1327145","3.2525003","VMM",NA,"d.slootmaekers@vmm.be"
+"TRUE","TRUE","Kampveldstraat","Hertsbergebeek","odcxnmmx",NA,"YES","I_8020_6",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Oostkamp","8020","1","845",NA,"51.13214","3.25372","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Tussenstraat (weg naar bezoekercentrum De Wulp), oprit pluimveebedrijf voor bezoekerscentrum doorrijden tot aan de Dommel.  Einde MF-traject aan oprit van bedrijf","Dommel",NA,NA,"YES","I_3910_5",NA,NA,"VMM_Mtp","Lotisch",NA,"Limburg","Pelt","3910","1","9512",NA,"51.248289980108","5.41810058550228","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Overpelt/Neerpelt, 20m opw inkokering sporen","Dommel",NA,NA,"YES","I_3900_3",NA,NA,"VMM_Mtp","Lotisch",NA,"Limburg","Pelt","3900","1","9512",NA,"51.2188309","5.436296","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Overpelt, opw brug en 93000, lang buitenverblijf thv 1ste vijver","Dommel",NA,NA,"YES","I_3900_4",NA,NA,"VMM_Mtp","Lotisch",NA,"Limburg","Pelt","3900","1","9512",NA,"51.1718651154883","5.43588602031703","VMM",NA,"d.slootmaekers@vmm.be"
@@ -870,7 +870,7 @@
 "FALSE","FALSE","geen kreeften in 2023","Stekense vaart",NA,NA,"YES","I_9190_3",NA,NA,"Scheers","Lotisch",NA,"Oost-Vlaanderen","Stekene","9190","1","406",NA,"51.1982906902273","4.03622589880595","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","geen kreeften in 2023","Kanaal van Stekene",NA,NA,"YES","I_9190_4",NA,NA,"Scheers","Lotisch",NA,"Oost-Vlaanderen","Stekene","9190","1","123",NA,"51.1982906902273","4.03622589880595","VMM",NA,"d.slootmaekers@vmm.be"
 "TRUE","TRUE","geen kreeften in 2023","Kanaal van Stekene","mtqxmdm4","TBD","YES","I_9190_5",NA,NA,"Scheers","Lotisch",NA,"Oost-Vlaanderen","Stekene","9190","1","123",NA,"51.1982907","4.0362259","VMM",NA,"d.slootmaekers@vmm.be"
-"FALSE","FALSE","Rode Amerikaanse rivierkreeft in 2022 en 2023","Kanaal van Stekene",NA,NA,"YES","I_9190_6",NA,NA,"Scheers","Lotisch",NA,"Oost-Vlaanderen","Stekene","9190","1","123",NA,"51.1918102902293","4.0364361988034","VMM",NA,"d.slootmaekers@vmm.be"
+"TRUE","TRUE","Rode Amerikaanse rivierkreeft in 2022 en 2023","Kanaal van Stekene","odcxnmmx",NA,"YES","I_9190_6",NA,NA,"Scheers","Lotisch",NA,"Oost-Vlaanderen","Stekene","9190","1","123",NA,"51.1965","4.0372","VMM",NA,"d.slootmaekers@vmm.be"
 "TRUE","TRUE","Rode Amerikaanse rivierkreeft in 2022","Molenbeek","ogzjnjqz","30/9/24","YES","I_9111_1",NA,NA,"Scheers","Lotisch",NA,"Oost-Vlaanderen","Sint-Niklaas","9111","2","555",NA,"51.1895246","4.0385329","Polder Sinaai-Daknam","03/7783283","info@poldersinaaidaknam.be"
 "TRUE","TRUE","rode Amerikaanse rivierkreeft in 2022","Ransbeek","nzjkzdez",NA,"YES","I_9112_2",NA,NA,"Scheers","Lotisch",NA,"Oost-Vlaanderen","Sint-Niklaas","9112","2","871",NA,"51.1799993","4.0557512","Polder Sinaai-Daknam","03/7783283","info@poldersinaaidaknam.be"
 "FALSE","FALSE","rode Amerikaanse rivierkreeft in 2022","Kanaal van Stekene",NA,NA,"YES","I_9112_3",NA,NA,"Scheers","Lotisch",NA,"Oost-Vlaanderen","Sint-Niklaas","9112","1","123",NA,"51.1844698902316","4.0256742988064","VMM",NA,"d.slootmaekers@vmm.be"
@@ -947,7 +947,7 @@
 "TRUE","TRUE","Antitankgracht","Antitankkanaal","nmvkndjl","TBD","YES","I_2970_2",NA,NA,"EcoWat","Lotisch",NA,"Antwerpen","Schilde","2970","1","17603",NA,"51.2483174","4.5985564","VMM",NA,"d.slootmaekers@vmm.be"
 "ONHOLD","ONHOLD",NA,NA,"njjkzwfl",NA,"YES","I_8460_2",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Oudenburg","8460","2","0",NA,"51.2057176","3.0240857","Nieuwe Polder van Blankenberge","050/321790","info@polderblankenberge.be"
 "ONHOLD","ONHOLD",NA,NA,"n2flymi5",NA,"YES","I_8490_3",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Jabbeke","8490","2","0",NA,"51.2070339","3.1305799","Nieuwe Polder van Blankenberge","050/321790","info@polderblankenberge.be"
-"FALSE","FALSE",NA,"Jabbeekse Beek",NA,NA,"YES","I_8490_4",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Jabbeke","8490","2","0",NA,"51.1923079487199","3.08977094546033","Nieuwe Polder van Blankenberge","050/321790","info@polderblankenberge.be"
+"TRUE","TRUE",NA,"Jabbeekse Beek","odcxnmmx",NA,"YES","I_8490_4",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Jabbeke","8490","2","0",NA,"51.1923079","3.0897709","Nieuwe Polder van Blankenberge","050/321790","info@polderblankenberge.be"
 "ONHOLD","ONHOLD",NA,"Noordede","njjkzwfl",NA,"YES","I_8420_1",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","De Haan","8420",NA,NA,NA,"51.228075","3.0407048",NA,NA,NA
 "FALSE","FALSE",NA,NA,NA,NA,"YES","I_8450_2",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Bredene","8450",NA,NA,NA,"51.2235961821827","2.99160342337945",NA,NA,NA
 "FALSE","FALSE",NA,"Blauwe Torengeleed",NA,NA,"YES","I_8000_1",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Brugge","8000","2","0",NA,"51.2348626027355","3.19655272782139","Nieuwe Polder van Blankenberge","050/321790","info@polderblankenberge.be"
@@ -1245,7 +1245,7 @@
 "FALSE","FALSE","freely accessible?, recreation area","Zonnevijver",NA,NA,"YES","I_3621_2",NA,NA,"Scheers","Lentisch",NA,"Limburg","Lanaken","3621",NA,NA,NA,"50.9182746903193","5.6698283978229",NA,NA,NA
 "FALSE","FALSE","F. limosus","Grindplas Eisden Mijn",NA,NA,"YES","I_3630_4",NA,NA,"Scheers","Lentisch",NA,"Limburg","Maasmechelen","3630",NA,NA,NA,"50.999400590294","5.68396159784434",NA,NA,NA
 "FALSE","FALSE",NA,"Kleine Plas",NA,NA,"YES","I_3650_7",NA,NA,"Scheers","Lentisch",NA,"Limburg","Dilsen-Stokkem","3650",NA,NA,NA,"51.0068248902918","5.69799309783939",NA,NA,NA
-"FALSE","FALSE","ANB","Aspermansvijver",NA,NA,"YES","I_3621_3",NA,NA,"Scheers","Lentisch",NA,"Limburg","Lanaken","3621",NA,NA,NA,"50.9362634903136","5.66311339783303","Jacobs Karen",NA,"recreatie.lim.anb@vlaanderen.be"
+"TRUE","TRUE","ANB","Aspermansvijver","odcxnmmx",NA,"YES","I_3621_3",NA,NA,"Scheers","Lentisch",NA,"Limburg","Lanaken","3621","NA","NA",NA,"50.93616","5.66344","Jacobs Karen",NA,"recreatie.lim.anb@vlaanderen.be"
 "FALSE","FALSE","private?",NA,NA,NA,"YES","I_3630_5",NA,NA,"Scheers","Lentisch",NA,"Limburg","Maasmechelen","3630",NA,NA,NA,"50.9417937903118","5.66663249783311",NA,NA,NA
 "TRUE","TRUE","Turnhout",NA,"mzk5yjmz","TBD","YES","I_2300_4",NA,NA,"Scheers","Lentisch",NA,"Antwerpen","Turnhout","2300",NA,NA,NA,"51.3101635","4.9474125",NA,NA,NA
 "FALSE","FALSE","Mellevijver","Mellevijver",NA,NA,"YES","I_2300_5",NA,NA,"Scheers","Lentisch",NA,"Antwerpen","Turnhout","2300",NA,NA,NA,"51.2951880901973","4.96369079834358","Quintens Hildegarde",NA,"recreatie.ant.anb@vlaanderen.be"
@@ -1787,3 +1787,8 @@
 "TRUE","TRUE",NA,NA,"njiyn2yx",NA,"NO","V_2100_9",NA,NA,NA,NA,NA,"Antwerpen","Antwerpen","2100",NA,NA,NA,"51.214572","4.471803",NA,NA,NA
 "TRUE","TRUE",NA,NA,"mdflzwm0",NA,"NO","V_3920_10",NA,NA,NA,NA,NA,"Limburg","Lommel","3920",NA,NA,NA,"51.2626088","5.4024901",NA,NA,NA
 "TRUE","TRUE",NA,NA,"nwvjndbl",NA,"NO","V_3600_15",NA,NA,NA,NA,NA,"Limburg","Genk","3600",NA,NA,NA,"50.9772656","5.4943478",NA,NA,NA
+"TRUE","TRUE",NA,"Slijpebruggeleed","odcxnmmx",NA,"YES","I_8432_1",NA,NA,NA,NA,NA,"West-Vlaanderen","Middelkerke","8432",NA,NA,NA,"51.16521","2.83294",NA,NA,NA
+"TRUE","TRUE",NA,"Bourgognevaart","odcxnmmx",NA,"YES","I_8460_10",NA,NA,NA,NA,NA,"West-Vlaanderen","Oudenburg","8460",NA,NA,NA,"51.15303","3.00184",NA,NA,NA
+"TRUE","TRUE",NA,"Jobeek","odcxnmmx",NA,"YES","I_8750_3",NA,NA,NA,NA,NA,"West-Vlaanderen","Wingene","8750",NA,NA,NA,"51.04451","3.20547",NA,NA,NA
+"TRUE","TRUE",NA,"Zuidervaartje","odcxnmmx",NA,"YES","I_8020_8",NA,NA,NA,NA,NA,"West-Vlaanderen","Oostkamp","8020",NA,NA,NA,"51.17569","3.23535",NA,NA,NA
+"TRUE","TRUE",NA,NA,"odcxnmmx",NA,"YES","I_2220_1",NA,NA,NA,NA,NA,"Antwerpen","Heist-op-den-Berg","2220",NA,NA,NA,"51.0906","4.7409",NA,NA,NA
