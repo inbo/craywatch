@@ -377,7 +377,7 @@
 "TRUE","TRUE","Abtsdreef, afw brug, afw Fort Stabroek","Antitankkanaal","nzi4mtm4","27/8/24","YES","I_2940_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Stabroek","2940","1","113",NA,"51.3412834","4.3502764","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Bethanië, einde Leemputweg","Antitankkanaal",NA,NA,"YES","I_2930_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Brasschaat","2930","1","113",NA,"51.3214046473438","4.50540221018621","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Weelde; Litse Heide, zijwegje Meir, opw. weg","Leyloop",NA,NA,"YES","I_2381_1","bij voorkeur tussen 20/07 - 01/09",NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Ravels","2381","2","9511",NA,"51.4274109035644","4.98696279754626","Antwerpen",NA,"hans.vanloy@provincieantwerpen.be"
-"FALSE","FALSE","Leffinge, Vaartdijk Noord, opw pompgemaal","Puidenbroekgeleed",NA,NA,"YES","I_8431_1",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Middelkerke","8431","2","130",NA,"51.1694344384621","2.85134362396901","Middenkustpolder","059/278477","info@middenkustpolder.be"
+"TRUE","TRUE","Leffinge, Vaartdijk Noord, opw pompgemaal","Puidenbroekgeleed","odcxnmmx","15/10/24","YES","I_8431_1",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Middelkerke","8431","2","130",NA,"51.1749033","2.8552918","Middenkustpolder","059/278477","info@middenkustpolder.be"
 "FALSE","FALSE","Slijpe, Donkermaneschijnweg, opw de weg","Slijpeduikergeleed",NA,NA,"YES","I_8433_3",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Middelkerke","8433","2","234",NA,"51.1590998191821","2.84819083442785","Middenkustpolder","059/278477","info@middenkustpolder.be"
 "FALSE","FALSE","Mexicooooooooooostraat","Blekerijbeek",NA,NA,"YES","I_8480_1",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Ichtegem","8480","2","1523",NA,"51.087488265013","3.01011453291905","West-Vlaanderen",NA,NA
 "FALSE","FALSE","Noordmiddenstraat, thv huisnr 7","Aletebeek",NA,NA,"YES","I_8480_2",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Ichtegem","8480","2","1921",NA,"51.1364702696876","3.03801309237485","West-Vlaanderen",NA,NA
@@ -1787,8 +1787,10 @@
 "TRUE","TRUE",NA,NA,"njiyn2yx",NA,"NO","V_2100_9",NA,NA,NA,NA,NA,"Antwerpen","Antwerpen","2100",NA,NA,NA,"51.214572","4.471803",NA,NA,NA
 "TRUE","TRUE",NA,NA,"mdflzwm0",NA,"NO","V_3920_10",NA,NA,NA,NA,NA,"Limburg","Lommel","3920",NA,NA,NA,"51.2626088","5.4024901",NA,NA,NA
 "TRUE","TRUE",NA,NA,"nwvjndbl",NA,"NO","V_3600_15",NA,NA,NA,NA,NA,"Limburg","Genk","3600",NA,NA,NA,"50.9772656","5.4943478",NA,NA,NA
-"TRUE","TRUE",NA,"Slijpebruggeleed","odcxnmmx",NA,"YES","I_8432_1",NA,NA,NA,NA,NA,"West-Vlaanderen","Middelkerke","8432",NA,NA,NA,"51.16521","2.83294",NA,NA,NA
-"TRUE","TRUE",NA,"Bourgognevaart","odcxnmmx",NA,"YES","I_8460_10",NA,NA,NA,NA,NA,"West-Vlaanderen","Oudenburg","8460",NA,NA,NA,"51.15303","3.00184",NA,NA,NA
-"TRUE","TRUE",NA,"Jobeek","odcxnmmx",NA,"YES","I_8750_3",NA,NA,NA,NA,NA,"West-Vlaanderen","Wingene","8750",NA,NA,NA,"51.04451","3.20547",NA,NA,NA
-"TRUE","TRUE",NA,"Zuidervaartje","odcxnmmx",NA,"YES","I_8020_8",NA,NA,NA,NA,NA,"West-Vlaanderen","Oostkamp","8020",NA,NA,NA,"51.17569","3.23535",NA,NA,NA
+"TRUE","TRUE",NA,"Slijpebruggeleed","odcxnmmx",NA,"YES","I_8432_1",NA,NA,NA,NA,NA,"West-Vlaanderen","Middelkerke","8432","NA","NA",NA,"51.16521","2.83294",NA,NA,NA
+"TRUE","TRUE",NA,"Bourgognevaart","odcxnmmx",NA,"YES","I_8460_10",NA,NA,NA,NA,NA,"West-Vlaanderen","Oudenburg","8460","NA","NA",NA,"51.15303","3.00184",NA,NA,NA
+"TRUE","TRUE",NA,"Jobeek","odcxnmmx",NA,"YES","I_8750_3",NA,NA,NA,NA,NA,"West-Vlaanderen","Wingene","8750","NA","NA",NA,"51.04451","3.20547",NA,NA,NA
+"TRUE","TRUE",NA,"Zuidervaartje","odcxnmmx",NA,"YES","I_8020_8",NA,NA,NA,NA,NA,"West-Vlaanderen","Oostkamp","8020","NA","NA",NA,"51.17569","3.23535",NA,NA,NA
 "TRUE","TRUE",NA,NA,"odcxnmmx",NA,"YES","I_2220_1",NA,NA,NA,NA,NA,"Antwerpen","Heist-op-den-Berg","2220",NA,NA,NA,"51.0906","4.7409",NA,NA,NA
+"TRUE","TRUE",NA,NA,"odcxnmmx",NA,"YES","I_8432_2",NA,NA,NA,NA,NA,"West-Vlaanderen","Middelkerke","8432",NA,NA,NA,"51.1596686","2.9141654",NA,NA,NA
+"TRUE","TRUE",NA,NA,"odcxnmmx",NA,"YES","I_8460_11",NA,NA,NA,NA,NA,"West-Vlaanderen","Oudenburg","8460",NA,NA,NA,"51.1821246","2.9633365",NA,NA,NA
