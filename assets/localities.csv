@@ -867,9 +867,7 @@
 "TRUE","TRUE","1 gestreepte Amerikaanse rivierkreeft in 2022, meerdere in 2023","Kanaal van Stekene","mtqxmdm4","TBD","YES","I_9190_2",NA,NA,"Scheers","Lotisch",NA,"Oost-Vlaanderen","Stekene","9190","2","123",NA,"51.2226048","4.0402293","Polder Sinaai-Daknam","03/7783283","info@poldersinaaidaknam.be"
 "TRUE","TRUE",NA,"Waterloop van de hoge landen","y2uzntq0","TBD","YES","I_9120_3",NA,NA,"Scheers","Lotisch",NA,"Oost-Vlaanderen","Beveren","9120","1","3110",NA,"51.2389791","4.2039857","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE",NA,"Blokstraatbeek",NA,NA,"YES","I_9120_4",NA,NA,"Scheers","Lotisch",NA,"Oost-Vlaanderen","Beveren","9120","2","3851",NA,"51.2284675902176","4.18393419873846","Polder van het Land van Waas","03/7732526","info@polderlandvanwaas.be"
-"FALSE","FALSE","geen kreeften in 2023","Stekense vaart",NA,NA,"YES","I_9190_3",NA,NA,"Scheers","Lotisch",NA,"Oost-Vlaanderen","Stekene","9190","1","406",NA,"51.1982906902273","4.03622589880595","VMM",NA,"d.slootmaekers@vmm.be"
-"FALSE","FALSE","geen kreeften in 2023","Kanaal van Stekene",NA,NA,"YES","I_9190_4",NA,NA,"Scheers","Lotisch",NA,"Oost-Vlaanderen","Stekene","9190","1","123",NA,"51.1982906902273","4.03622589880595","VMM",NA,"d.slootmaekers@vmm.be"
-"TRUE","TRUE","geen kreeften in 2023","Kanaal van Stekene","mtqxmdm4","TBD","YES","I_9190_5",NA,NA,"Scheers","Lotisch",NA,"Oost-Vlaanderen","Stekene","9190","1","123",NA,"51.1982907","4.0362259","VMM",NA,"d.slootmaekers@vmm.be"
+"TRUE","TRUE","geen kreeften in 2023","Kanaal van Stekene","mtqxmdm4","TBD","YES","I_9190_5",NA,NA,"Scheers","Lotisch",NA,"Oost-Vlaanderen","Stekene","9190","1","123",NA,"51.1982839","4.0362259","VMM",NA,"d.slootmaekers@vmm.be"
 "TRUE","TRUE","Rode Amerikaanse rivierkreeft in 2022 en 2023","Kanaal van Stekene","odcxnmmx",NA,"YES","I_9190_6",NA,NA,"Scheers","Lotisch",NA,"Oost-Vlaanderen","Stekene","9190","1","123",NA,"51.1965","4.0372","VMM",NA,"d.slootmaekers@vmm.be"
 "TRUE","TRUE","Rode Amerikaanse rivierkreeft in 2022","Molenbeek","ogzjnjqz","30/9/24","YES","I_9111_1",NA,NA,"Scheers","Lotisch",NA,"Oost-Vlaanderen","Sint-Niklaas","9111","2","555",NA,"51.1895246","4.0385329","Polder Sinaai-Daknam","03/7783283","info@poldersinaaidaknam.be"
 "TRUE","TRUE","rode Amerikaanse rivierkreeft in 2022","Ransbeek","nzjkzdez",NA,"YES","I_9112_2",NA,NA,"Scheers","Lotisch",NA,"Oost-Vlaanderen","Sint-Niklaas","9112","2","871",NA,"51.1799993","4.0557512","Polder Sinaai-Daknam","03/7783283","info@poldersinaaidaknam.be"
@@ -1797,6 +1795,7 @@
 "TRUE","TRUE",NA,"Engelbeek","odcxnmmx",NA,"YES","I_8480_4",NA,NA,NA,NA,NA,"West-Vlaanderen","Ichtegem","8480","NA","NA",NA,"51.1201668","3.0224166",NA,NA,NA
 "TRUE","TRUE",NA,"Jobeek","odcxnmmx",NA,"YES","I_8020_9",NA,NA,NA,NA,NA,"West-Vlaanderen","Oostkamp","8020","NA","NA",NA,"51.0713302","3.1864224",NA,NA,NA
 "TRUE","TRUE",NA,"Rivierbeek","odcxnmmx",NA,"YES","I_8020_10",NA,NA,NA,NA,NA,"West-Vlaanderen","Oostkamp","8020","NA","NA",NA,"51.1035502","3.2041622",NA,NA,NA
-"TRUE","TRUE",NA,NA,"odcxnmmx",NA,"YES","I_9190_7",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Stekene","9190",NA,NA,NA,"51.222892","4.0409765",NA,NA,NA
-"TRUE","TRUE",NA,"Kanaal van Stekene","odcxnmmx",NA,"YES","I_9190_8",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Stekene","9190",NA,NA,NA,"51.2184782","4.034516",NA,NA,NA
+"TRUE","TRUE",NA,NA,"odcxnmmx",NA,"YES","I_9190_7",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Stekene","9190","NA","NA",NA,"51.222892","4.0409765",NA,NA,NA
+"TRUE","TRUE",NA,"Kanaal van Stekene","odcxnmmx",NA,"YES","I_9190_8",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Stekene","9190","NA","NA",NA,"51.2184782","4.034516",NA,NA,NA
 "TRUE","TRUE",NA,"Stekense vaart","odcxnmmx",NA,"YES","I_9190_9",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Stekene","9190",NA,NA,NA,"51.1978","4.03672",NA,NA,NA
+"TRUE","TRUE",NA,NA,"odcxnmmx",NA,"YES","I_9190_10",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Stekene","9190",NA,NA,NA,"51.2042535","4.0287827",NA,NA,NA
