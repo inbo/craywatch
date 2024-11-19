@@ -803,6 +803,7 @@ id,date,time,lat,lng,location id,number of individuals,has photo,Finding place c
 328337038,2024-09-17,18:00:00,51.167195,5.760485,27554,0,False,Stromend water,,Grote Renne mond in lossing,Ja,V_3640_20
 328337767,2024-09-17,18:23:00,51.330954,3.245827,31730,0,False,Stilstaand water,,,Ja,
 328338382,2024-09-17,,51.336642,3.278174,31736,0,False,Stilstaand water,,,Ja,I_8300_9
+328353113,2024-09-17,19:30:00,51.162488,3.948714,30173,2,False,Stromend water,"een kreeftje eenpotig, ander kreeftje poten ontbrekend",heldere beek (nog maar net schoongemaakt met kraan 1maand geleden,,"I_9180_11: Bosbeek (51.16245, 3.94853)"
 328354597,2024-08-20,,50.757568,3.649968,109966,0,False,Stromend water,,oevers volledig bezet met reuzenbalsemien - bijvangst: vrouwtje driedoornige stekelbaars,Ja,I_9600
 328356613,2024-08-21,,50.757543,3.649979,109966,0,False,Stromend water,,oevers volledig bezet met reuzenbalsemien,Nee,I_9600
 328356819,2024-08-22,,50.757486,3.650044,109966,0,False,Stromend water,,,Nee,I_9600
@@ -1352,3 +1353,60 @@ id,date,time,lat,lng,location id,number of individuals,has photo,Finding place c
 331804381,2024-10-18,08:15:00,51.211497,3.862126,30141,0,False,Stilstaand water,,kreek,Nee,I_9185_5
 331804565,2024-10-20,15:21:00,51.211477,3.862169,30141,0,True,Stilstaand water,,kreek,Nee,I_9185_5
 331836609,2024-10-23,16:15:00,51.212231,4.470481,71783,0,False,Stilstaand water,/,"Waterstand: 248cm, geen specifieke watervegitatie",Ja,V_2100_10
+331938549,2024-10-24,12:10:00,51.067264,5.736837,29758,0,False,Stilstaand water,,,Nee,"V_3650_14: De Broeken (51.06819, 5.73554)"
+331939327,2024-10-24,12:40:00,51.07853,5.738897,94517,0,False,Stromend water,,,Nee,"V_3650_15: Zanderbeek (51.07659, 5.7354)"
+331980716,2024-10-23,10:05:00,51.054207,4.262277,24524,0,False,Stromend water,,"Beek 3m breed, stromend water, bosrijke omgeving, oeverbegroeiing hoofdzakelijk brandnetel. Fuik bevatte vrij veel plantenmateriaal bij het binnenhalen. Bijvangst: 1 riviergrondel",Ja,I_2890_1
+331980932,2024-10-24,07:50:00,51.054207,4.262255,24524,0,False,Stromend water,,"Beek 3m breed, stromend water, bosrijke omgeving, oeverbegroeiing hoofdzakelijk brandnetel. Fuik bevatte vrij veel plantenmateriaal bij het binnenhalen. Bijvangst: 1 blankvoorn, 1 groene kikker",Ja,I_2890_1
+331981063,2024-10-25,10:05:00,51.054239,4.26221,24524,0,False,Stromend water,,"Beek 3m breed, stromend water, bosrijke omgeving, oeverbegroeiing hoofdzakelijk brandnetel. Fuik bevatte vrij veel plantenmateriaal bij het binnenhalen.",,I_2890_1
+332279276,2024-10-25,13:40:00,51.067285,5.73688,29758,0,False,Stilstaand water,,,Nee,"V_3650_14: De Broeken (51.06819, 5.73554)"
+332280517,2024-10-25,14:15:00,51.07836,5.738833,94517,0,True,Stromend water,,"Bijvangst weer posthoornslak, geen kreeften",Nee,"V_3650_15: Zanderbeek (51.07659, 5.7354)"
+332489649,2024-10-15,18:10:00,51.146254,4.549949,138295,0,False,Stilstaand water,,"stilstaand water, oevervegetatie: riet en watermunt",Nee,I-2500-7
+332490830,2024-10-19,18:06:00,51.146283,4.549878,138295,0,False,,,"stilstaand water, oevervegetatie: riet en watermunt",Nee,I-2500-7
+332547569,2024-10-16,18:15:00,50.93423,4.830813,126481,0,False,Stilstaand water,,,,I_3220_2
+332547935,2024-10-17,18:20:00,50.934222,4.830839,126481,0,False,Stilstaand water,,,Nee,I_3220_2
+332548189,2024-10-18,18:20:00,50.934277,4.830716,126481,0,False,Stilstaand water,,,Nee,I_3220_2
+332548442,2024-10-19,18:20:00,50.934277,4.830791,126481,0,False,Stilstaand water,,,Nee,I_3220_2
+332549327,2024-10-25,17:00:00,50.93686,4.772094,133035,0,False,Stromend water,,,,V_3111_2
+332549648,2024-10-26,,50.936844,4.771682,133035,0,False,Stromend water,,,Nee,V_3111_2
+332549767,2024-10-27,,50.936873,4.771364,133035,0,False,Stromend water,,,Nee,V_3111_2
+332549852,2024-10-28,,50.936853,4.771611,133035,0,False,Stromend water,,,Nee,V_3111_2
+332600590,2024-08-29,10:00:00,50.800497,4.070376,23250,0,False,,,,,I_1755_4
+332600748,2024-10-15,17:00:00,50.819041,4.054607,24149,0,False,,,,,I_9402_1
+332600905,2024-10-22,17:00:00,50.807927,3.953134,27528,0,False,,,,,I_9506_3
+332629369,2024-10-01,,50.783143,4.240186,31170,0,False,,,,Yes,I-1600-8
+332629451,2024-10-02,,50.7832,4.24054,31170,0,False,,,,,I-1600-8
+332629611,2024-10-04,,50.783354,4.240937,31170,0,False,,7 palingen gevangen !,,Yes,I-1600-8
+332629690,2024-10-05,,50.7833,4.240851,31170,0,False,,,,,I-1600-8
+332629793,2024-10-07,,50.783634,4.236077,31170,0,False,,,,,I-1600-10
+332629858,2024-10-08,,50.783769,4.234425,31170,0,False,,,,,I-1600-10
+332629922,2024-10-09,,50.783783,4.234446,31170,0,False,,,,Yes,I-1600-10
+332630021,2024-10-10,,50.783742,4.234661,31170,0,False,,,,,I-1600-10
+332714141,2024-10-24,13:15:00,51.212177,4.470459,71783,0,False,,/,"Waterstand: 248cm, geen specifieke watervegitatie",Nee,V_2100_10
+333070346,2024-10-30,,51.428979,4.524673,109663,0,False,Stilstaand water,,,Ja,I_2920_9
+333070349,2024-09-21,08:45:00,50.981671,3.136461,140705,0,False,,,,Ja,V_8800_7
+333070401,2024-09-22,08:45:00,50.981686,3.136455,140705,0,False,,,,Ja,V_8800_7
+333070507,2024-09-23,08:15:00,50.981676,3.136471,140705,0,False,,,,Ja,V_8800_7
+333070511,2024-10-31,,51.428946,4.524689,109663,0,False,Stilstaand water,,,Nee,I_2920_9
+333070550,2024-11-01,,51.428942,4.524685,109663,0,False,Stilstaand water,,,Nee,I_2920_9
+333070559,2024-09-24,08:15:00,50.981703,3.136455,140705,0,False,,,,Nee,V_8800_7
+333180502,2024-10-14,,51.019236,4.459591,29083,0,False,Stilstaand water,,,Ja,V_2800_9
+333180649,2024-10-15,,51.019955,4.457788,29083,0,False,Stilstaand water,,,Nee,V_2800_9
+333180759,2024-10-16,,51.019718,4.460506,29083,0,False,Stilstaand water,,,Nee,V_2800_9
+333180845,2024-10-17,,51.019979,4.459967,29083,0,False,Stilstaand water,,,Nee,V_2800_9
+333180904,2024-10-18,,51.0198,4.459934,29083,1,False,Stilstaand water,,,Nee,
+333198213,2024-10-17,07:00:00,51.230162,5.180938,29181,0,False,Stilstaand water,,,Nee,I_2400_6
+333338248,2024-10-26,10:00:00,51.215519,4.463351,71783,0,False,Stilstaand water,/,"Vijver rond pravilioen: veel riet en waterplanten, waterstand onbekend",Ja,V_2100_11
+333338267,2024-10-27,10:00:00,51.215465,4.463394,71783,0,False,Stilstaand water,/,"Vijver rond pravilioen: veel riet en waterplanten, waterstand onbekend",Nee,V_2100_11
+333338294,2024-10-28,10:00:00,51.215505,4.463384,71783,0,False,Stilstaand water,/,"Vijver rond pravilioen: veel riet en waterplanten, waterstand onbekend",Nee,V_2100_11
+333338310,2024-10-29,10:00:00,51.215486,4.463397,71783,0,False,Stilstaand water,/,"Vijver rond pravilioen: veel riet en waterplanten, waterstand onbekend",Nee,V_2100_11
+333338338,2024-10-30,10:00:00,51.215492,4.463373,71783,0,False,Stilstaand water,/,"Vijver rond pravilioen: veel riet en waterplanten, waterstand onbekend",Nee,V_2100_11
+333351373,2024-10-08,13:43:00,51.195606,3.858991,30138,0,True,Stilstaand water,,afgesloten kanaal,Nee,I_9185_1
+333365801,2024-10-09,08:00:00,51.195354,3.858991,30138,0,False,Stilstaand water,,afgesloten kanaal,Nee,I_9185_1
+333366316,2024-10-10,08:00:00,51.195364,3.858985,30138,0,False,Stilstaand water,,afgesloten kanaal,Ja,I_9185_1
+333366400,2024-10-12,11:21:00,51.195354,3.858996,30138,0,True,Stilstaand water,,afgesloten kanaal,Nee,I_9185_1
+333366483,2024-10-13,18:36:00,51.195388,3.858985,30138,0,True,Stilstaand water,,afgesloten kanaal,Nee,I_9185_1
+333649347,2024-10-31,14:00:00,50.784288,5.019284,27785,0,True,Stromend water,,,Ja,"50.78432, 5.02317"
+333649537,2024-10-31,12:00:00,50.785075,5.019233,27785,0,True,,,,Ja,"50.78432, 5.02317"
+333649594,2024-10-31,16:07:00,50.785058,5.019147,27785,0,True,,,,Ja,"50.78432, 5.02317"
+333649646,2024-11-02,10:00:00,50.784982,5.01919,27787,0,False,,,,Ja,"50.78432, 5.02317"
+333649700,2024-11-03,15:07:00,50.785042,5.019276,27787,0,True,,,,,"50.78432, 5.02317"
