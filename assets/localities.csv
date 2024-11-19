@@ -825,7 +825,7 @@
 "FALSE","FALSE",NA,"Handzamevaart",NA,NA,"YES","I_8820_5",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Torhout","8820","2","1208",NA,"51.0413366710452","3.09591910896961","West-Vlaanderen",NA,NA
 "FALSE","FALSE","Werken, Steenstraat","Zarrenbeek",NA,NA,"YES","I_8610_5",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Kortemark","8610","1","1496",NA,"51.0243482433492","2.94762403242223","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE",NA,"Zarrenbeek",NA,NA,"YES","I_8840_6",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Staden","8840","2","1496",NA,"50.9938746278352","3.01126065168251","West-Vlaanderen",NA,NA
-"TRUE","TRUE","Woumen, Rapestraat","Stenensluisvaart","zjhlnjq4","TBD","YES","I_8600_5",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Diksmuide","8600","1","1379",NA,"51.0006079","2.8292666","VMM",NA,"d.slootmaekers@vmm.be"
+"FALSE","FALSE","Woumen, Rapestraat","Stenensluisvaart",NA,"TBD","YES","I_8600_5",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Diksmuide","8600","1","1379",NA,"51.0006079","2.8292666","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Woumen, Noordbroekstraat, Rillebroek","Stenensluisvaart",NA,NA,"YES","I_8600_6",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Diksmuide","8600","1","1379",NA,"50.9949931676546","2.83513566233399","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Woumen, Noordbroekstraat, Rillebroek","Noordkantvaart",NA,NA,"YES","I_8600_7",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Diksmuide","8600","1","2083",NA,"51.0001745","2.846408","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Rijselseweg, landweg lgs spoorweg","Ieperlee",NA,NA,"YES","I_8900_2",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Ieper","8900","1","1206",NA,"50.8355208535783","2.89160772496389","VMM",NA,"d.slootmaekers@vmm.be"
@@ -969,7 +969,7 @@
 "FALSE","FALSE",NA,"Yser-IJzer",NA,NA,"YES","I_8972_2",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Poperinge","8972","0","0",NA,"50.9116887333862","2.60737947107892",NA,NA,NA
 "FALSE","FALSE",NA,"Lovaart",NA,NA,"YES","I_8690_2",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Alveringem","8690","0","0",NA,"51.01944380784","2.72230504436411",NA,NA,NA
 "TRUE","TRUE",NA,"Lovaart","nzm3mdi0",NA,"YES","I_8647_7",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Lo-Reninge","8647","NA","NA",NA,"50.9716344","2.7377762",NA,NA,NA
-"TRUE","TRUE",NA,"Ijzer","zjhlnjq4","TBD","YES","I_8600_8",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Diksmuide","8600",NA,NA,NA,"50.9882039","2.8136319",NA,NA,NA
+"FALSE","FALSE",NA,"Ijzer",NA,"TBD","YES","I_8600_8",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Diksmuide","8600",NA,NA,NA,"50.9882039","2.8136319",NA,NA,NA
 "FALSE","FALSE",NA,NA,NA,NA,"YES","I_8650_3",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Houthulst","8650",NA,NA,NA,"50.9629665784883","2.81989477679407",NA,NA,NA
 "TRUE","TRUE",NA,NA,"mwzkzmy1","08/07/2024","YES","I_8600_9",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Diksmuide","8600",NA,NA,NA,"51.076334","2.8366286",NA,NA,NA
 "FALSE","FALSE",NA,NA,NA,NA,"YES","I_8600_10",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Diksmuide","8600",NA,NA,NA,"51.1023186019735","2.82048467422401",NA,NA,NA
@@ -1010,7 +1010,7 @@
 "FALSE","FALSE","Oude Leie Oeselgem",NA,NA,NA,"YES","I_8720_4",NA,NA,"EcoWater","Lentisch",NA,"West-Vlaanderen","Dentergem","8720",NA,NA,NA,"50.9332660903111","3.43133049902622","Coppens Xavier",NA,"recreatie.ovl.anb@vlaanderen.be"
 "TRUE","TRUE","Oude Leie Sint-Baafs-Vijve",NA,"njmzowyw","TBD","YES","I_8710_1",NA,NA,"EcoWater","Lentisch",NA,"West-Vlaanderen","Wielsbeke","8710",NA,NA,NA,"50.9084883","3.3901706",NA,NA,NA
 "FALSE","FALSE","Oude Leie Ooigem","Oude Leiearm",NA,NA,"YES","I_8710_2",NA,NA,"EcoWater","Lentisch",NA,"West-Vlaanderen","Wielsbeke","8710","9","0",NA,"50.8951289903234","3.34409459905757","Coppens Xavier",NA,"recreatie.wvl.anb@vlaanderen.be"
-"TRUE","TRUE","Oude Leie Bavikhove","Oude Leiearm Bavikhove","ymmznwu5","1/10/24","YES","I_8531_2",NA,NA,"EcoWater","Lentisch",NA,"West-Vlaanderen","Harelbeke","8531",NA,NA,NA,"50.8770325","3.3238015",NA,NA,NA
+"FALSE","FALSE","Oude Leie Bavikhove","Oude Leiearm Bavikhove",NA,"1/10/24","YES","I_8531_2",NA,NA,"EcoWater","Lentisch",NA,"West-Vlaanderen","Harelbeke","8531",NA,NA,NA,"50.8770325","3.3238015",NA,NA,NA
 "TRUE","TRUE","Oude Leie Wevelgem Leiebos",NA,"zguxztnj","12/07/24","YES","I_8560_4",NA,NA,"EcoWater","Lentisch",NA,"West-Vlaanderen","Wevelgem","8560",NA,NA,NA,"50.8066401","3.2026969","Coppens Xavier",NA,"recreatie.wvl.anb@vlaanderen.be"
 "TRUE","TRUE","Oude Schelde Doornhammeke","Oude Schelde Doornhammeke","nge4otq3","15/08/24","YES","I_9840_1",NA,NA,"EcoWater","Lentisch",NA,"Oost-Vlaanderen","De Pinte","9840",NA,NA,NA,"50.9669306","3.6844278",NA,NA,NA
 "FALSE","FALSE","Oude Schelde Teirlinckput","Teerlinckput",NA,NA,"YES","I_9820_4",NA,NA,"EcoWater","Lentisch",NA,"Oost-Vlaanderen","Merelbeke","9820",NA,NA,NA,"50.9565792","3.6860966","Coppens Xavier",NA,"recreatie.ovl.anb@vlaanderen.be"
@@ -1788,7 +1788,7 @@
 "TRUE","TRUE",NA,"Slijpebruggeleed","odcxnmmx",NA,"YES","I_8432_1",NA,NA,NA,NA,NA,"West-Vlaanderen","Middelkerke","8432","NA","NA",NA,"51.16521","2.83294",NA,NA,NA
 "TRUE","TRUE",NA,"Bourgognevaart","odcxnmmx",NA,"YES","I_8460_10",NA,NA,NA,NA,NA,"West-Vlaanderen","Oudenburg","8460","NA","NA",NA,"51.15303","3.00184",NA,NA,NA
 "TRUE","TRUE",NA,"Jobeek","odcxnmmx",NA,"YES","I_8750_3",NA,NA,NA,NA,NA,"West-Vlaanderen","Wingene","8750","NA","NA",NA,"51.04451","3.20547",NA,NA,NA
-"TRUE","TRUE",NA,"Zuidervaartje","odcxnmmx",NA,"YES","I_8020_8",NA,NA,NA,NA,NA,"West-Vlaanderen","Oostkamp","8020","NA","NA",NA,"51.17569","3.23535",NA,NA,NA
+"TRUE","TRUE",NA,"Zuidervaartje","odcxnmmx",NA,"YES","I_8020_8",NA,NA,NA,NA,NA,"West-Vlaanderen","Oostkamp","8020",NA,NA,NA,"51.1777616","3.2349959",NA,NA,NA
 "TRUE","TRUE",NA,NA,"odcxnmmx",NA,"YES","I_2220_1",NA,NA,NA,NA,NA,"Antwerpen","Heist-op-den-Berg","2220",NA,NA,NA,"51.0906","4.7409",NA,NA,NA
 "TRUE","TRUE",NA,NA,"odcxnmmx",NA,"YES","I_8432_2",NA,NA,NA,NA,NA,"West-Vlaanderen","Middelkerke","8432","NA","NA",NA,"51.1596686","2.9141654",NA,NA,NA
 "TRUE","TRUE",NA,NA,"odcxnmmx",NA,"YES","I_8460_11",NA,NA,NA,NA,NA,"West-Vlaanderen","Oudenburg","8460",NA,NA,NA,"51.1821246","2.9633365",NA,NA,NA
@@ -1802,3 +1802,4 @@
 "TRUE","TRUE",NA,"Visvijver","njiyn2yx",NA,"NO","V_2100_10",NA,NA,NA,NA,NA,"Antwerpen","Antwerpen","2100",NA,NA,NA,"51.212119","4.470448",NA,NA,NA
 "TRUE","TRUE",NA,"Hornszeevijver","nwvjndbl",NA,"NO","V_3600_16",NA,NA,NA,NA,NA,"Limburg","Genk","3600",NA,NA,NA,"50.998015","5.550321",NA,NA,NA
 "TRUE","TRUE",NA,"Homeleswijer","nwvjndbl",NA,"NO","V_3600_17",NA,NA,NA,NA,NA,"Limburg","Genk","3600",NA,NA,NA,"50.958981","5.467505",NA,NA,NA
+"TRUE","TRUE",NA,NA,"njiyn2yx",NA,"NO","V_2100_11",NA,NA,NA,NA,NA,"Antwerpen","Antwerpen","2100",NA,NA,NA,"51.215415","4.4634837",NA,NA,NA
