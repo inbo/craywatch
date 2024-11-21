@@ -176,13 +176,14 @@ id;date;time;lat;lng;location.id;number.of.individuals;has.photo;Finding.place.c
 327759476;8/09/2024;13:54:00;51.108.589;3.994.987;28806;6;True;Stromend water;rode puntjes op de scharen en stekels op het rostrum;aan de kant van het zwembad lokeren aan een oude steiger;Nee;I.9160.12;faxonius limosus;I_9160_12;mjqzogvi;;Vallen gevandaliseerd op derde dag
 327760344;8/09/2024;13:55:00;51.108.526;3.995.112;28806;1;True;Stromend water;geen donkere gepigmenteerde lijn op onderzijde, schare n rood of oranje;aan de kant van het zwembad lokeren aan een oude steiger;Nee;I.9160.12;procambarus clarkii;I_9160_12;mjqzogvi;;Vallen gevandaliseerd op derde dag
 327760547;9/09/2024;;51.108.254;399.547;28806;1;True;Stromend water;donkere gepigmenteerde lijn op onderzijde, scharen rood of oranje;aan de kant van het zwembad lokeren aan een oude steiger;Nee;I.9160.12;procambarus clarkii;I_9160_12;mjqzogvi;;Vallen gevandaliseerd op derde dag
-326034285;28/08/2024;7:52:00;51.057.736;3.687.195;27403;0;True;;er zat 1 rat en 3 kleine visjes(3à'cm) in de vallen;;Nee;I_9000_1;crayfish indet;I_9000_1;mjvjmjq4;;ja
-326278720;30/08/2024;7:45:00;51.058.003;3.687.536;27403;0;True;;er zat 1 paling, 1 spiegelkarper(12cm) en 1 bliek in de vallen;;Nee;I_9000_1;crayfish indet;I_9000_1;mjvjmjq4;;ja
-326419448;31/08/2024;8:47:00;51.057.822;3.687.542;27403;0;True;;1 rat en 1 voorn (10cm);;;I_9000_1;crayfish indet;I_9000_1;mjvjmjq4;;ja
-320977536;23/07/2024;8:15:00;51.021.326;321.255;24490;0;False;Stromend water;;;Ja;I_8750_2;crayfish indet;I_8750_2;mjywyjqx;;stop
+326034285;28/08/2024;7:52:00;51.057.736;3.687.195;27403;0;True;;er zat 1 rat en 3 kleine visjes(3à'cm) in de vallen;;Nee;I_9000_1;crayfish indet;I_9000_1;mjvjmjq4;;
+;29/08/2024;;51.057.736;3.687.195;27403;0;True;;;;Nee;I_9000_1;crayfish indet;I_9000_1;mjvjmjq4;Ontbrekende waarneming, bevestigd via mail;
+326278720;30/08/2024;7:45:00;51.058.003;3.687.536;27403;0;True;;er zat 1 paling, 1 spiegelkarper(12cm) en 1 bliek in de vallen;;Nee;I_9000_1;crayfish indet;I_9000_1;mjvjmjq4;;
+326419448;31/08/2024;8:47:00;51.057.822;3.687.542;27403;0;True;;1 rat en 1 voorn (10cm);;;I_9000_1;crayfish indet;I_9000_1;mjvjmjq4;;
+320977536;23/07/2024;8:15:00;51.021.326;321.255;24490;0;False;Stromend water;;;Ja;I_8750_2;crayfish indet;I_8750_2;mjywyjqx;;
 320978094;24/07/2024;8:45:00;51.021.295;321.255;24490;0;False;Stromend water;;;Ja;I_8750_2;crayfish indet;I_8750_2;mjywyjqx;;
 324013153;25/07/2024;8:30:00;5.102.128;3.212.553;24490;0;False;;;;Ja;I_8750_2;crayfish indet;I_8750_2;mjywyjqx;;
-324013323;25/07/2024;8:40:00;51.021.277;321.255;24490;0;False;;;;Nee;I_8750_2;crayfish indet;I_8750_2;mjywyjqx;;
+324013323;25/07/2024;8:40:00;51.021.277;321.255;24490;0;False;;;;Nee;I_8750_2;crayfish indet;I_8750_2;mjywyjqx;;ja
 327104337;31/08/2024;14:15:00;51.057.501;3.096.607;252648;0;False;;;;Ja;I_8820_3;crayfish indet;I_8820_3;mjywyjqx;;
 327104518;1/09/2024;14:45:00;51.057.468;3.096.571;252648;0;False;;;;Ja;I_8820_3;crayfish indet;I_8820_3;mjywyjqx;;
 327104727;2/09/2024;18:00:00;5.105.761;3.096.719;252648;0;False;;;;Ja;I_8820_3;crayfish indet;I_8820_3;mjywyjqx;;
@@ -207,7 +208,7 @@ id;date;time;lat;lng;location.id;number.of.individuals;has.photo;Finding.place.c
 326990006;4/09/2024;15:50:00;51.172.839;4.631.572;28924;0;False;;;;Ja;I_2520_1;crayfish indet;I_2520_1;mmmwzmrh;;
 327096976;5/09/2024;14:30:00;51.173.086;463.228;28924;0;False;;;;;I_2520_1;crayfish indet;I_2520_1;mmmwzmrh;;
 327204193;6/09/2024;14:30:00;51.171.946;4.630.005;28924;1;True;Stromend water;Bruin grijs, stekeltjes op de wangen met oranje puntjes op de scharen, klein formaat, was heel beweeglijk en verdedigend;Licht stromend, helder water, kleine rotsen in het water, hoge begroeiing aan de kant;Ja;I_2520_1;faxonius limosus;I_2520_1;mmmwzmrh;;
-320678585;23/07/2024;10:38:00;51.033.454;3.545.828;30378;0;False;Stromend water;;Recent hermeanderingproject nabij;Ja;I_9850_6;crayfish indet;I_9850_6;mmy4ywm3;;
+320678585;23/07/2024;10:38:00;51.033.454;3.545.828;30378;0;False;Stromend water;;Recent hermeanderingproject nabij;Ja;I_9850_6;crayfish indet;I_9850_6;mmy4ywm3;stop;
 320679072;23/07/2024;10:38:00;51.033.186;3.545.344;30378;0;False;Stromend water;;Recent hermeanderingproject nabij;Ja;I_9850_6;crayfish indet;I_9850_6;mmy4ywm3;;
 320679424;23/07/2024;10:38:00;51.033.097;3.545.402;30378;0;False;Stromend water;;Recent hermeanderingproject nabij;Ja;I_9850_6;crayfish indet;I_9850_6;mmy4ywm3;;
 320936700;24/07/2024;;51.033.191;3.545.285;30378;0;False;Stromend water;;Recent hermeanderingproject nabij;Ja;I_9850_6;crayfish indet;I_9850_6;mmy4ywm3;;
