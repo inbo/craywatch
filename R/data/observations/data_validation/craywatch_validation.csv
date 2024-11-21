@@ -1,7 +1,8 @@
 id;date;time;lat;lng;location.id;number.of.individuals;has.photo;Finding.place.crayfish;Description.crayfish;Description.finding.place.crayfish;I.replaced.the.bait;Code.sample.location;soort;locID;vrijwillID;reason.for.change;verduidelijking gevraagd
-329194439;26/09/2024;8:30:00;51.038.845;5.225.488;23447;0;False;Stromend water;;;Nee;I_3580_1;crayfish indet;I_3580_1;m2i4yzvl;;ja
-329307171;27/09/2024;;51.038.759;5.225.474;23447;0;False;Stromend water;;;Nee;I_3580;crayfish indet;I_3580;NA;;ja
-329307264;28/09/2024;;51.038.752;5.225.496;23447;0;False;Stromend water;;;Nee;I_3580;crayfish indet;I_3580;NA;;ja
+329194439;26/09/2024;8:30:00;51.038.845;5.225.488;23447;0;False;Stromend water;;;Nee;I_3580_1;crayfish indet;I_3580_1;m2i4yzvl;;
+329307171;27/09/2024;;51.038.759;5.225.474;23447;0;False;Stromend water;;;Nee;I_3580_1;crayfish indet;I_3580_1;m2i4yzvl;LocID was onvolledig, via mail bevestigd dat dit zijn waarnemingen waren;
+329307264;28/09/2024;;51.038.752;5.225.496;23447;0;False;Stromend water;;;Nee;I_3580_1;crayfish indet;I_3580_1;m2i4yzvl;LocID was onvolledig, via mail bevestigd dat dit zijn waarnemingen waren;
+;29/09/2024;;51.038.752;5.225.496;23447;0;False;Stromend water;;;Nee;I_3580_1;crayfish indet;I_3580_1;m2i4yzvl;Waarneming onbrak, via mail bevestigd;
 330233736;5/10/2024;9:48:00;51.068.694;5.253.852;29552;0;False;Stromend water;;;Nee;I_3582_3;crayfish indet;I_3582_3;m2i4yzvl;;
 330233762;6/10/2024;10:13:00;51.068.699;5.253.863;29552;0;False;;;;Nee;I_3582_3;crayfish indet;I_3582_3;m2i4yzvl;;
 330233858;7/10/2024;7:05:00;51.068.696;5.253.863;29552;0;False;;;;;I_3582_3;crayfish indet;I_3582_3;m2i4yzvl;;
@@ -62,59 +63,57 @@ id;date;time;lat;lng;location.id;number.of.individuals;has.photo;Finding.place.c
 331113130;7/10/2024;10:30:00;51.262.599;5.402.464;24350;0;False;Stromend water;;+/- 70cm diep, veel loofbomen langs de oever;Nee;V_3920_10;crayfish indet;V_3920_10;mdflzwm0;;
 331113233;8/10/2024;10:10:00;51.262.599;5.402.464;24350;0;False;Stromend water;;+/- 70cm diep, veel loofbomen langs de oever;Nee;V_3920_10;crayfish indet;V_3920_10;mdflzwm0;;
 331113296;9/10/2024;10:05:00;51.262.599;5.402.464;24350;0;False;Stromend water;;+/- 70cm diep, veel loofbomen langs de oever;Nee;V_3920_10;crayfish indet;V_3920_10;mdflzwm0;;
-326325863;30/08/2024;12:57:00;51.248.356;5.417.231;189899;1;True;Stilstaand water;zeer kleine stippen over volledige lijf, klein oranje puntje op uiteinde van de scharen;licht stromend water (vijver met aanvoer van water), Lage waterstand, weinig water vegetatie;Nee;I_3910_13;faxonius limosus;I_3910_13;mdflzwm0;;ja, heeft nu aangevuld via waarnemingen
-327141625;31/08/2024;12:29:00;51.248.355;5.417.263;189899;1;True;Stilstaand water;zeer kleine stippen over volledige lijf, klein oranje puntje op uiteinde van de scharen;licht stromend water (vijver met aanvoer van water), Lage waterstand, weinig water vegetatie;Nee;I_3910_13;faxonius limosus;I_3910_13;mdflzwm0;;ja, heeft nu aangevuld via waarnemingen
-327142222;2/09/2024;12:24:00;51.248.359;5.417.279;189899;2;True;Stilstaand water;zeer kleine stippen over volledige lijf, klein oranje puntje op uiteinde van de scharen;licht stromend water (vijver met aanvoer van water), Lage waterstand, weinig water vegetatie;Nee;I_3910_13;faxonius limosus;I_3910_13;mdflzwm0;;ja, heeft nu aangevuld via waarnemingen
 331113390;10/10/2024;11:15:00;51.262.612;5.402.467;24350;1;True;Stromend water;zeer kleine stippen over volledige lijf, klein oranje puntje op uiteinde van de scharen;+/- 70cm diep, veel loofbomen langs de oever;Nee;V_3920_10;faxonius limosus;V_3920_10;mdflzwm0;;
+326325863;30/08/2024;12:57:00;51.248.356;5.417.231;189899;1;True;Stilstaand water;zeer kleine stippen over volledige lijf, klein oranje puntje op uiteinde van de scharen;licht stromend water (vijver met aanvoer van water), Lage waterstand, weinig water vegetatie;Nee;I_3910_13;faxonius limosus;I_3910_13;mdflzwm0;;
+327141625;31/08/2024;12:29:00;51.248.355;5.417.263;189899;1;True;Stilstaand water;zeer kleine stippen over volledige lijf, klein oranje puntje op uiteinde van de scharen;licht stromend water (vijver met aanvoer van water), Lage waterstand, weinig water vegetatie;Nee;I_3910_13;faxonius limosus;I_3910_13;mdflzwm0;;
+;1/09/2024;11:03:00;51.248.359;5.417.279;189899;1;True;Stilstaand water;zeer kleine stippen over volledige lijf, klein oranje puntje op uiteinde van de scharen;licht stromend water (vijver met aanvoer van water), Lage waterstand, weinig water vegetatie;Nee;I_3910_13;faxonius limosus;I_3910_13;mdflzwm0;Had waarneming niet ingevuld op waarnemingen, bevestigd via mail;
+327142222;2/09/2024;12:24:00;51.248.359;5.417.279;189899;2;True;Stilstaand water;zeer kleine stippen over volledige lijf, klein oranje puntje op uiteinde van de scharen;licht stromend water (vijver met aanvoer van water), Lage waterstand, weinig water vegetatie;Nee;I_3910_13;faxonius limosus;I_3910_13;mdflzwm0;;
 321712628;24/07/2024;9:00:00;51.108.299;3.291.626;24479;0;False;;;;Nee;I_8730_5: Bornebeek (51.10228, 3.30014);crayfish indet;I_8730_5;mdixota5;;
 321713223;25/07/2024;9:00:00;51.108.289;3.291.605;24479;0;False;;;;Ja;I_8730_5: Bornebeek (51.10228, 3.30014);crayfish indet;I_8730_5;mdixota5;;
 321713846;26/07/2024;9:00:00;51.108.267;3.291.581;24479;0;False;;;;Ja;I_8730_5: Bornebeek (51.10228, 3.30014);crayfish indet;I_8730_5;mdixota5;;
 321714271;27/07/2024;9:00:00;51.108.267;3.291.592;24479;0;False;;;;Nee;I_8730_5: Bornebeek (51.10228, 3.30014);crayfish indet;I_8730_5;mdixota5;;
-317015546;30/06/2024;10:20:00;51.143.683;3.292.294;31539;0;False;;;;Nee;I_8730_9;crayfish indet;I_8730_9;mdjjotdj;;ja
-317138677;1/07/2024;;51.144.107;3.291.854;31539;0;False;;;;;I_8730_9;crayfish indet;I_8730_9;mdjjotdj;;ja
-328668196;18/09/2024;14:40:00;51.072.955;4.377.233;29065;0;False;;;;;V_2830_7;crayfish indet;V_2830_7;mdm4oge4;;stop
-328668551;18/09/2024;;51.090.233;4.387.665;29318;0;False;;;;Nee;V_2850_1;crayfish indet;V_2850_1;mdm4oge4;;
+317015546;30/06/2024;10:20:00;51.143.683;3.292.294;31539;0;False;;;;Nee;I_8730_9;crayfish indet;I_8730_9;mdjjotdj;;ja, vallen gestolen op dag 2, niet meer verder gedaan
+317138677;1/07/2024;;51.144.107;3.291.854;31539;0;False;;;;;I_8730_9;crayfish indet;I_8730_9;mdjjotdj;;ja, vallen gestolen op dag 2, niet meer verder gedaan
+328668196;18/09/2024;14:40:00;51.072.955;4.377.233;29065;0;False;;;;;V_2830_7;crayfish indet;V_2830_7;mdm4oge4;;
 328668696;19/09/2024;;5.107.309;4.377.744;29065;0;False;;;;Nee;V_2830_7;crayfish indet;V_2830_7;mdm4oge4;;
-328668808;19/09/2024;;51.087.481;438.147;29318;0;False;;;;Nee;V_2850_1;crayfish indet;V_2850_1;mdm4oge4;;
 328669065;20/09/2024;;51.074.573;4.373.226;29065;0;False;;;;Nee;V_2830_7;crayfish indet;V_2830_7;mdm4oge4;;
-328715239;21/09/2024;;51.074.784;437.738;29065;1;True;Stilstaand water;;;Nee;V_2830_7;crayfish indet;V_2830_7;mdm4oge4;;
-328715446;21/09/2024;;51.073.999;4.376.764;29065;1;True;Stilstaand water;;;Nee;V_2830_7;crayfish indet;V_2830_7;mdm4oge4;;
+328715239;21/09/2024;;51.074.784;437.738;29065;0;True;Stilstaand water;;;Nee;V_2830_7;crayfish indet;V_2830_7;mdm4oge4;Foto op waarnemingen is van bijvangst, geen rivierkreeften gevangen;
+328668551;18/09/2024;;51.090.233;4.387.665;29318;0;False;;;;Nee;V_2850_1;crayfish indet;V_2850_1;mdm4oge4;;
+328668808;19/09/2024;;51.087.481;438.147;29318;0;False;;;;Nee;V_2850_1;crayfish indet;V_2850_1;mdm4oge4;;
+328669719;20/09/2024;;51.089.589;4.385.262;29318;1;True;Stilstaand water;;Veel gedoornd hoornblad in buurt;Nee;V_2850_1;faxonius limosus;V_2850_1;mdm4oge4;;
 328715714;21/09/2024;;51.089.021;4.385.216;29318;0;False;Stilstaand water;;;Nee;V_2850_1;crayfish indet;V_2850_1;mdm4oge4;;
 329541787;23/09/2024;;51.089.387;4.384.373;29318;0;False;Stilstaand water;;;;V_2850_2;crayfish indet;V_2850_2;mdm4oge4;;
-329541871;23/09/2024;;51.089.258;4.383.934;29318;0;False;Stilstaand water;;;;V_2850_3;crayfish indet;V_2850_3;mdm4oge4;;
-329542390;1/10/2024;;51.090.221;438.509;29318;0;False;Stilstaand water;;;;V_2850_3;crayfish indet;V_2850_3;mdm4oge4;;
+329542213;24/09/2024;;51.088.678;4.384.575;29318;3;True;Stilstaand water;;;;V_2850_2;faxonius limosus;V_2850_2;mdm4oge4;;
 329542540;25/09/2024;;51.088.832;4.383.717;29318;0;False;;;;;V_2850_2;crayfish indet;V_2850_2;mdm4oge4;;
+329554513;26/09/2024;;5.109.037;4.381.828;29318;1;True;;;;;V_2850_2;faxonius limosus;V_2850_2;mdm4oge4;;
+329554656;27/09/2024;;51.089.169;4.383.802;29318;0;False;;;;;V_2850_2;crayfish indet;V_2850_2;mdm4oge4;;
+329554930;28/09/2024;;51.090.502;4.385.651;29318;0;False;;;;;V_2850_2;crayfish indet;V_2850_2;mdm4oge4;;
 329542577;25/09/2024;;51.089.619;4.385.176;29318;0;False;;;;;V_2850_3;crayfish indet;V_2850_3;mdm4oge4;;
 329554605;26/09/2024;;51.087.531;4.382.858;29318;0;False;;;;;V_2850_3;crayfish indet;V_2850_3;mdm4oge4;;
-329554656;27/09/2024;;51.089.169;4.383.802;29318;0;False;;;;;V_2850_2;crayfish indet;V_2850_2;mdm4oge4;;
 329554760;27/09/2024;;51.090.329;4.384.918;29318;0;False;;;;;V_2850_3;crayfish indet;V_2850_3;mdm4oge4;;
-329554930;28/09/2024;;51.090.502;4.385.651;29318;0;False;;;;;V_2850_2;crayfish indet;V_2850_2;mdm4oge4;;
 329554982;28/09/2024;;51.090.375;4.384.232;29318;0;False;;;;;V_2850_3;crayfish indet;V_2850_3;mdm4oge4;;
 333180502;14/10/2024;;51.019.236;4.459.591;29083;0;False;Stilstaand water;;;Ja;V_2800_9;crayfish indet;V_2800_9;mdm4oge4;;
 333180649;15/10/2024;;51.019.955;4.457.788;29083;0;False;Stilstaand water;;;Nee;V_2800_9;crayfish indet;V_2800_9;mdm4oge4;;
 333180759;16/10/2024;;51.019.718;4.460.506;29083;0;False;Stilstaand water;;;Nee;V_2800_9;crayfish indet;V_2800_9;mdm4oge4;;
 333180845;17/10/2024;;51.019.979;4.459.967;29083;0;False;Stilstaand water;;;Nee;V_2800_9;crayfish indet;V_2800_9;mdm4oge4;;
-328669719;20/09/2024;;51.089.589;4.385.262;29318;1;True;Stilstaand water;;Veel gedoornd hoornblad in buurt;Nee;V_2850_1;faxonius limosus;V_2850_1;mdm4oge4;;
-329542213;24/09/2024;;51.088.678;4.384.575;29318;3;True;Stilstaand water;;;;V_2850_2;faxonius limosus;V_2850_2;mdm4oge4;;
-329554513;26/09/2024;;5.109.037;4.381.828;29318;1;True;;;;;V_2850_2;faxonius limosus;V_2850_2;mdm4oge4;;
 327261323;27/08/2024;20:00:00;51.045.765;4.114.791;27402;0;False;Stromend water;;;Nee;V-9200-16;crayfish indet;V_9200_16;mdm5y2i4;;
 327261473;28/08/2024;20:15:00;51.045.762;4.114.786;27402;0;False;;;;Ja;v-9200-16;crayfish indet;V_9200_16;mdm5y2i4;;
 327261585;29/08/2024;17:40:00;51.045.748;4.114.813;27402;0;False;Stromend water;;;Ja;v-9200-16;crayfish indet;V_9200_16;mdm5y2i4;;
 327261676;30/08/2024;20:15:00;51.045.759;4.114.797;27402;0;False;Stromend water;;;;v-9200-16;crayfish indet;V_9200_16;mdm5y2i4;;
 329592633;7/09/2024;9:00:00;50.999.611;4.086.927;140972;0;False;Stromend water;;;Ja;V_9280_3;crayfish indet;V_9280_3;mdm5y2i4;;
 329983580;8/09/2024;8:00:00;50.999.417;4.087.027;140972;0;False;;;;Ja;V_9280_3;crayfish indet;V_9280_3;mdm5y2i4;;
+329984548;9/09/2024;8:00:00;50.999.387;4.087.045;140972;1;True;Stromend water;;;Ja;V_9280_3;procambarus acutus;V_9280_3;mdm5y2i4;;
 329983772;10/09/2024;8:00:00;5.099.943;4.087.025;140972;0;False;;;;Ja;V_9280_3;crayfish indet;V_9280_3;mdm5y2i4;;
 329983858;11/09/2024;8:00:00;50.999.417;4.087.032;140972;0;False;;;;;V_9280_3;crayfish indet;V_9280_3;mdm5y2i4;;
-329984548;9/09/2024;8:00:00;50.999.387;4.087.045;140972;1;True;Stromend water;;;Ja;V_9280_3;procambarus acutus;V_9280_3;mdm5y2i4;;
-325904529;27/08/2024;9:45:00;50.978.654;549.366;24387;0;False;;;;Ja;I_3600_12 val 2;crayfish indet;I_3600_12;mdnjzwy3;;
-325904586;27/08/2024;;50.977.323;5.493.239;24387;0;False;;;;;I_3600_11;crayfish indet;I_3600_11;mdnjzwy3;;
-326023049;28/08/2024;8:30:00;50.977.646;5.493.144;24387;0;False;;;;;I_3600_11;crayfish indet;I_3600_11;mdnjzwy3;;
-326023253;28/08/2024;8:40:00;50.978.715;5.493.351;24387;0;False;;;;;I_3600_12;crayfish indet;I_3600_12;mdnjzwy3;;
-326152992;29/08/2024;8:40:00;5.097.872;5.493.366;24387;0;False;;;;Ja;I_3600_12 3 vallen;crayfish indet;I_3600_12;mdnjzwy3;;
-326153083;29/08/2024;;50.977.523;5.493.293;24387;0;False;;;;Nee;I_3600_11;crayfish indet;I_3600_11;mdnjzwy3;;
-325905854;27/08/2024;9:00:00;51.336.078;4.653.667;29251;0;False;Stilstaand water;;;Ja;I_2960_4;crayfish indet;I_2960_4;mdq4mmy1;;
-326157727;29/08/2024;9:00:00;51.336.037;4.653.565;29251;1;True;Stromend water;stekels op de wang;gevangen in fuik.;Ja;I_2960_4;faxonius limosus;I_2960_4;mdq4mmy1;;
-326282662;30/08/2024;8:15:00;51.336.091;4.653.673;29251;1;True;Stromend water;;;Nee;I_2960_4;faxonius limosus;I_2960_4;mdq4mmy1;;
+325904529;27/08/2024;9:45:00;50.978.654;549.366;24387;0;False;;;;Ja;I_3600_12 val 2;crayfish indet;I_3600_12;mdnjzwy3;;ja
+326023253;28/08/2024;8:40:00;50.978.715;5.493.351;24387;0;False;;;;;I_3600_12;crayfish indet;I_3600_12;mdnjzwy3;;ja
+326152992;29/08/2024;8:40:00;5.097.872;5.493.366;24387;0;False;;;;Ja;I_3600_12 3 vallen;crayfish indet;I_3600_12;mdnjzwy3;;ja
+325904586;27/08/2024;;50.977.323;5.493.239;24387;0;False;;;;;I_3600_11;crayfish indet;I_3600_11;mdnjzwy3;;ja
+326023049;28/08/2024;8:30:00;50.977.646;5.493.144;24387;0;False;;;;;I_3600_11;crayfish indet;I_3600_11;mdnjzwy3;;ja
+326153083;29/08/2024;;50.977.523;5.493.293;24387;0;False;;;;Nee;I_3600_11;crayfish indet;I_3600_11;mdnjzwy3;;ja
+325905854;27/08/2024;9:00:00;51.336.078;4.653.667;29251;0;False;Stilstaand water;;;Ja;I_2960_4;crayfish indet;I_2960_4;mdq4mmy1;;ja
+326157727;29/08/2024;9:00:00;51.336.037;4.653.565;29251;1;True;Stromend water;stekels op de wang;gevangen in fuik.;Ja;I_2960_4;faxonius limosus;I_2960_4;mdq4mmy1;;ja
+326282662;30/08/2024;8:15:00;51.336.091;4.653.673;29251;1;True;Stromend water;;;Nee;I_2960_4;faxonius limosus;I_2960_4;mdq4mmy1;;ja
 321769145;18/07/2024;10:00:00;50.848.635;479.736;31050;0;False;Stromend water;;;Nee;V.3360.2;crayfish indet;V_3360_2;mdrmnwjm;;
 321769502;19/07/2024;10:00:00;5.084.889;4.797.189;31050;0;False;Stromend water;;;Nee;V.3360.2;crayfish indet;V_3360_2;mdrmnwjm;;
 321769705;20/07/2024;10:00:00;50.848.939;4.797.103;31050;0;False;Stromend water;;;Ja;V.3360.2;crayfish indet;V_3360_2;mdrmnwjm;;
@@ -131,11 +130,11 @@ id;date;time;lat;lng;location.id;number.of.individuals;has.photo;Finding.place.c
 317231304;1/07/2024;19:30:00;51.026.066;3.023.694;24052;0;False;Stromend water;;oever en onderwatervegitatie;Ja;I_8610_1;crayfish indet;I_8610_1;mdywmjc1;;
 317231485;2/07/2024;19:30:00;51.025.843;3.023.829;24052;0;False;Stromend water;;oever en onderwatervegitatie;Ja;I_8610_1;crayfish indet;I_8610_1;mdywmjc1;;
 317333692;3/07/2024;19:30:00;51.026.014;3.023.679;24052;0;True;Stromend water;;oever en onderwatervegitatie en zeer sterke stroming na de regenval van vanmorgen;Nee;I_8610_1;crayfish indet;I_8610_1;mdywmjc1;;
-319126725;14/07/2024;19:30:00;51.028.033;3.058.214;24052;0;True;Stromend water;;Zie foto;Ja;V_8610_8;crayfish indet;V_8610_8;mdywmjc1;;
-319172671;10/07/2024;19:30:00;51.028.183;3.058.033;24052;0;True;Stromend water;;Zie foto;Ja;V_8610_8;crayfish indet;V_8610_8;mdywmjc1;;
-319172678;9/07/2024;19:30:00;51.028.048;3.058.033;24052;0;True;Stromend water;;Zie foto;Nee;V_8610_8;crayfish indet;V_8610_8;mdywmjc1;;
-325243355;21/08/2024;9:18:00;51.026.693;3.051.209;252643;10;True;Stilstaand water;zie foto ik vermoed geknobbelde amerikaanse rivierkreeft;vijsvijver voor karpervissers;Ja;I_8610_6;faxonius virilis;I_8610_6;mdywmjc1;;
-325344713;22/08/2024;9:26:00;51.026.608;3.051.156;252643;11;True;Stilstaand water;Zie foto;vijsvijver voor karpervissers kreeften werden gevangen in 2 vd 3 fuiken. De grootste tot nu toe, was 13 cm;Ja;I_8610_6;faxonius virilis;I_8610_6;mdywmjc1;;
+319126725;14/07/2024;19:30:00;51.028.033;3.058.214;24052;0;True;Stromend water;;Zie foto;Ja;V_8610_8;crayfish indet;V_8610_8;mdywmjc1;;ja
+319172671;10/07/2024;19:30:00;51.028.183;3.058.033;24052;0;True;Stromend water;;Zie foto;Ja;V_8610_8;crayfish indet;V_8610_8;mdywmjc1;;ja
+319172678;9/07/2024;19:30:00;51.028.048;3.058.033;24052;0;True;Stromend water;;Zie foto;Nee;V_8610_8;crayfish indet;V_8610_8;mdywmjc1;;ja
+325243355;21/08/2024;9:18:00;51.026.693;3.051.209;252643;10;True;Stilstaand water;zie foto ik vermoed geknobbelde amerikaanse rivierkreeft;vijsvijver voor karpervissers;Ja;I_8610_6;faxonius virilis;I_8610_6;mdywmjc1;;ja (Kevin)
+325344713;22/08/2024;9:26:00;51.026.608;3.051.156;252643;11;True;Stilstaand water;Zie foto;vijsvijver voor karpervissers kreeften werden gevangen in 2 vd 3 fuiken. De grootste tot nu toe, was 13 cm;Ja;I_8610_6;faxonius virilis;I_8610_6;mdywmjc1;;ja (Kevin)
 330495407;11/10/2024;10:30:00;5.113.304;4.351.212;28293;0;False;;;Gisteren snelstromend en hoog, vandaag stromend en een halve m lager - geen vegetatie - troebel water;Nee;I_2620_1;crayfish indet;I_2620_1;mgexnjex;;
 330593858;12/10/2024;10:30:00;51.133.053;4.351.208;28293;0;False;Stromend water;;Stromend water - geen vegetatie - redelijk helder water;Ja;I_2620_1;crayfish indet;I_2620_1;mgexnjex;;
 330724543;13/10/2024;10:30:00;51.133.005;4.351.187;28293;0;False;Stromend water;;;Ja;I_2620_1;crayfish indet;I_2620_1;mgexnjex;;
@@ -171,17 +170,16 @@ id;date;time;lat;lng;location.id;number.of.individuals;has.photo;Finding.place.c
 329682925;18/09/2024;;50.900.134;3.963.269;24334;0;False;Stromend water;;ter epebeek  3 vallen geplaatst;Nee;V_9420_6;crayfish indet;V_9420_6;mjkyzjq3;;
 329682965;19/09/2024;;5.090.006;3.963.269;24334;0;False;Stromend water;;ter epebeek  3 vallen geplaatst;Nee;V_9420_6;crayfish indet;V_9420_6;mjkyzjq3;;
 329682986;20/09/2024;;50.900.006;3.963.279;24334;0;False;Stromend water;;ter epebeek  3 vallen geplaatst;Nee;V_9420_6;crayfish indet;V_9420_6;mjkyzjq3;;
-329683074;20/09/2024;;50.900.069;3.963.258;24334;0;False;Stromend water;;ter epebeek  3 vallen geplaatst;Nee;V_9420_6;crayfish indet;V_9420_6;mjkyzjq3;;
 329683102;21/09/2024;;50.900.126;3.963.247;24334;0;False;Stromend water;;ter epebeek  3 vallen geplaatst;Nee;V_9420_6;crayfish indet;V_9420_6;mjkyzjq3;;
 329683119;22/09/2024;;50.900.026;3.963.241;24334;0;False;Stromend water;;ter epebeek  3 vallen geplaatst;Nee;V_9420_6;crayfish indet;V_9420_6;mjkyzjq3;;
 329683147;23/09/2024;;50.900.152;3.963.258;24334;0;False;Stromend water;;ter epebeek  3 vallen geplaatst;Nee;V_9420_6;crayfish indet;V_9420_6;mjkyzjq3;;
-327759476;8/09/2024;13:54:00;51.108.589;3.994.987;28806;6;True;Stromend water;rode puntjes op de scharen en stekels op het rostrum;aan de kant van het zwembad lokeren aan een oude steiger;Nee;I.9160.12;faxonius limosus;I_9160_12;mjqzogvi;;
-327760344;8/09/2024;13:55:00;51.108.526;3.995.112;28806;1;True;Stromend water;geen donkere gepigmenteerde lijn op onderzijde, schare n rood of oranje;aan de kant van het zwembad lokeren aan een oude steiger;Nee;I.9160.12;procambarus clarkii;I_9160_12;mjqzogvi;;
-327760547;9/09/2024;;51.108.254;399.547;28806;1;True;Stromend water;donkere gepigmenteerde lijn op onderzijde, scharen rood of oranje;aan de kant van het zwembad lokeren aan een oude steiger;Nee;I.9160.12;procambarus clarkii;I_9160_12;mjqzogvi;;
-326034285;28/08/2024;7:52:00;51.057.736;3.687.195;27403;0;True;;er zat 1 rat en 3 kleine visjes(3à'cm) in de vallen;;Nee;I_9000_1;crayfish indet;I_9000_1;mjvjmjq4;;
-326278720;30/08/2024;7:45:00;51.058.003;3.687.536;27403;0;True;;er zat 1 paling, 1 spiegelkarper(12cm) en 1 bliek in de vallen;;Nee;I_9000_1;crayfish indet;I_9000_1;mjvjmjq4;;
-326419448;31/08/2024;8:47:00;51.057.822;3.687.542;27403;0;True;;1 rat en 1 voorn (10cm);;;I_9000_1;crayfish indet;I_9000_1;mjvjmjq4;;
-320977536;23/07/2024;8:15:00;51.021.326;321.255;24490;0;False;Stromend water;;;Ja;I_8750_2;crayfish indet;I_8750_2;mjywyjqx;;
+327759476;8/09/2024;13:54:00;51.108.589;3.994.987;28806;6;True;Stromend water;rode puntjes op de scharen en stekels op het rostrum;aan de kant van het zwembad lokeren aan een oude steiger;Nee;I.9160.12;faxonius limosus;I_9160_12;mjqzogvi;;Vallen gevandaliseerd op derde dag
+327760344;8/09/2024;13:55:00;51.108.526;3.995.112;28806;1;True;Stromend water;geen donkere gepigmenteerde lijn op onderzijde, schare n rood of oranje;aan de kant van het zwembad lokeren aan een oude steiger;Nee;I.9160.12;procambarus clarkii;I_9160_12;mjqzogvi;;Vallen gevandaliseerd op derde dag
+327760547;9/09/2024;;51.108.254;399.547;28806;1;True;Stromend water;donkere gepigmenteerde lijn op onderzijde, scharen rood of oranje;aan de kant van het zwembad lokeren aan een oude steiger;Nee;I.9160.12;procambarus clarkii;I_9160_12;mjqzogvi;;Vallen gevandaliseerd op derde dag
+326034285;28/08/2024;7:52:00;51.057.736;3.687.195;27403;0;True;;er zat 1 rat en 3 kleine visjes(3à'cm) in de vallen;;Nee;I_9000_1;crayfish indet;I_9000_1;mjvjmjq4;;ja
+326278720;30/08/2024;7:45:00;51.058.003;3.687.536;27403;0;True;;er zat 1 paling, 1 spiegelkarper(12cm) en 1 bliek in de vallen;;Nee;I_9000_1;crayfish indet;I_9000_1;mjvjmjq4;;ja
+326419448;31/08/2024;8:47:00;51.057.822;3.687.542;27403;0;True;;1 rat en 1 voorn (10cm);;;I_9000_1;crayfish indet;I_9000_1;mjvjmjq4;;ja
+320977536;23/07/2024;8:15:00;51.021.326;321.255;24490;0;False;Stromend water;;;Ja;I_8750_2;crayfish indet;I_8750_2;mjywyjqx;;stop
 320978094;24/07/2024;8:45:00;51.021.295;321.255;24490;0;False;Stromend water;;;Ja;I_8750_2;crayfish indet;I_8750_2;mjywyjqx;;
 324013153;25/07/2024;8:30:00;5.102.128;3.212.553;24490;0;False;;;;Ja;I_8750_2;crayfish indet;I_8750_2;mjywyjqx;;
 324013323;25/07/2024;8:40:00;51.021.277;321.255;24490;0;False;;;;Nee;I_8750_2;crayfish indet;I_8750_2;mjywyjqx;;
@@ -355,6 +353,7 @@ id;date;time;lat;lng;location.id;number.of.individuals;has.photo;Finding.place.c
 319451111;17/07/2024;16:30:00;51.153.438;3.253.058;31529;0;False;;;;Ja;I_8020_1;crayfish indet;I_8020_1;mdjjotdj;Gezien in registratieformulier wie dit was;
 319467186;18/07/2024;7:00:00;51.135.659;4.167.483;32512;0;False;Stromend water;;;Ja;V_9140_1;crayfish indet;V_9140_1;NA;;
 319876992;19/07/2024;10:00:00;51.135.783;4.167.355;32512;0;False;Stromend water;;;Nee;V_9140_1;crayfish indet;V_9140_1;NA;;
+320296374;18/07/2024;11:21:00;51.153.381;3.253.015;31529;0;False;;;;;I_8020_1;crayfish indet;I_8020_1;mdjjotdj;Gezien in registratieformulier wie dit was, gevraagd via mail om waarneming aan te vullen;
 320296374;19/07/2024;11:21:00;51.153.381;3.253.015;31529;0;False;;;;;I_8020_1;crayfish indet;I_8020_1;mdjjotdj;Gezien in registratieformulier wie dit was;
 320729588;23/07/2024;;51.144.729;37.078;30311;0;False;Stromend water;;;Ja;I_9940_17;crayfish indet;I_9940_17;NA;;
 320992604;24/07/2024;15:26:00;51.144.693;3.707.457;30311;0;False;Stromend water;;;Ja;I_9940_17;crayfish indet;I_9940_17;NA;;
