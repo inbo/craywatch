@@ -7,7 +7,10 @@ id;date;time;lat;lng;location.id;number.of.individuals;has.photo;Finding.place.c
 330233762;6/10/2024;10:13:00;51.068.699;5.253.863;29552;0;False;;;;Nee;I_3582_3;crayfish indet;I_3582_3;m2i4yzvl;;
 330233858;7/10/2024;7:05:00;51.068.696;5.253.863;29552;0;False;;;;;I_3582_3;crayfish indet;I_3582_3;m2i4yzvl;;
 330233883;8/10/2024;8:25:00;51.068.679;5.253.833;29552;0;False;;;;Nee;I_3582_3;crayfish indet;I_3582_3;m2i4yzvl;;
-326204367;29/08/2024;;51.276.375;3.125.789;31277;0;False;Stromend water;;brede beek, troebel water, steile oevers, weinig oeverplanten. Veel hengelaars.;Ja;I_8370_1;crayfish indet;I_8370_1;m2m0odgy;;ja
+;26/08/2024;;51.276.375;3.125.789;31277;0;False;;;;;I_8370_1;crayfish indet;I_8370_1;m2m0odgy;Waarneming onbrak, via mail bevestigd;
+;27/08/2024;;51.276.375;3.125.789;31277;1;False;;;;;I_8370_1;procambarus clarkii;I_8370_1;m2m0odgy;Waarneming onbrak, via mail bevestigd;
+;28/08/2024;;51.276.375;3.125.789;31277;0;False;;;;;I_8370_1;crayfish indet;I_8370_1;m2m0odgy;Waarneming onbrak, via mail bevestigd;
+326204367;29/08/2024;;51.276.375;3.125.789;31277;0;False;Stromend water;;brede beek, troebel water, steile oevers, weinig oeverplanten. Veel hengelaars.;Ja;I_8370_1;crayfish indet;I_8370_1;m2m0odgy;;
 324903260;18/08/2024;;51.303.911;3.124.167;31265;1;True;Stromend water;;gracht, rietkragen, troebel water;Ja;I_8370_5;procambarus clarkii;I_8370_5;m2m0odgy;;
 325093628;19/08/2024;19:28:00;51.303.964;312.457;31265;2;True;Stromend water;;;Nee;I_8370_5;procambarus clarkii;I_8370_5;m2m0odgy;;
 325201335;20/08/2024;17:18:00;51.303.956;3.124.505;31265;6;True;;;;Nee;I_8370_5;procambarus clarkii;I_8370_5;m2m0odgy;;
@@ -111,9 +114,10 @@ id;date;time;lat;lng;location.id;number.of.individuals;has.photo;Finding.place.c
 325904586;27/08/2024;;50.977.323;5.493.239;24387;0;False;;;;;I_3600_11;crayfish indet;I_3600_11;mdnjzwy3;;ja
 326023049;28/08/2024;8:30:00;50.977.646;5.493.144;24387;0;False;;;;;I_3600_11;crayfish indet;I_3600_11;mdnjzwy3;;ja
 326153083;29/08/2024;;50.977.523;5.493.293;24387;0;False;;;;Nee;I_3600_11;crayfish indet;I_3600_11;mdnjzwy3;;ja
-325905854;27/08/2024;9:00:00;51.336.078;4.653.667;29251;0;False;Stilstaand water;;;Ja;I_2960_4;crayfish indet;I_2960_4;mdq4mmy1;;ja
-326157727;29/08/2024;9:00:00;51.336.037;4.653.565;29251;1;True;Stromend water;stekels op de wang;gevangen in fuik.;Ja;I_2960_4;faxonius limosus;I_2960_4;mdq4mmy1;;ja
-326282662;30/08/2024;8:15:00;51.336.091;4.653.673;29251;1;True;Stromend water;;;Nee;I_2960_4;faxonius limosus;I_2960_4;mdq4mmy1;;ja
+325905854;27/08/2024;9:00:00;51.336.078;4.653.667;29251;0;False;Stilstaand water;;;Ja;I_2960_4;crayfish indet;I_2960_4;mdq4mmy1;;
+;28/08/2024;9:00:00;51.336.078;4.653.667;29251;0;False;Stilstaand water;;een paling;Ja;I_2960_4;crayfish indet;I_2960_4;mdq4mmy1;Ontbrekende waarneming, bevestigd via mail;
+326157727;29/08/2024;9:00:00;51.336.037;4.653.565;29251;1;True;Stromend water;stekels op de wang;gevangen in fuik.;Ja;I_2960_4;faxonius limosus;I_2960_4;mdq4mmy1;;
+326282662;30/08/2024;8:15:00;51.336.091;4.653.673;29251;1;True;Stromend water;;;Nee;I_2960_4;faxonius limosus;I_2960_4;mdq4mmy1;;
 321769145;18/07/2024;10:00:00;50.848.635;479.736;31050;0;False;Stromend water;;;Nee;V.3360.2;crayfish indet;V_3360_2;mdrmnwjm;;
 321769502;19/07/2024;10:00:00;5.084.889;4.797.189;31050;0;False;Stromend water;;;Nee;V.3360.2;crayfish indet;V_3360_2;mdrmnwjm;;
 321769705;20/07/2024;10:00:00;50.848.939;4.797.103;31050;0;False;Stromend water;;;Ja;V.3360.2;crayfish indet;V_3360_2;mdrmnwjm;;
@@ -183,7 +187,7 @@ id;date;time;lat;lng;location.id;number.of.individuals;has.photo;Finding.place.c
 320977536;23/07/2024;8:15:00;51.021.326;321.255;24490;0;False;Stromend water;;;Ja;I_8750_2;crayfish indet;I_8750_2;mjywyjqx;;
 320978094;24/07/2024;8:45:00;51.021.295;321.255;24490;0;False;Stromend water;;;Ja;I_8750_2;crayfish indet;I_8750_2;mjywyjqx;;
 324013153;25/07/2024;8:30:00;5.102.128;3.212.553;24490;0;False;;;;Ja;I_8750_2;crayfish indet;I_8750_2;mjywyjqx;;
-324013323;25/07/2024;8:40:00;51.021.277;321.255;24490;0;False;;;;Nee;I_8750_2;crayfish indet;I_8750_2;mjywyjqx;;ja
+324013323;26/07/2024;8:40:00;51.021.277;321.255;24490;0;False;;;;Nee;I_8750_2;crayfish indet;I_8750_2;mjywyjqx;Datum fout ingegeven, bevestigd via mail;
 327104337;31/08/2024;14:15:00;51.057.501;3.096.607;252648;0;False;;;;Ja;I_8820_3;crayfish indet;I_8820_3;mjywyjqx;;
 327104518;1/09/2024;14:45:00;51.057.468;3.096.571;252648;0;False;;;;Ja;I_8820_3;crayfish indet;I_8820_3;mjywyjqx;;
 327104727;2/09/2024;18:00:00;5.105.761;3.096.719;252648;0;False;;;;Ja;I_8820_3;crayfish indet;I_8820_3;mjywyjqx;;
@@ -208,54 +212,51 @@ id;date;time;lat;lng;location.id;number.of.individuals;has.photo;Finding.place.c
 326990006;4/09/2024;15:50:00;51.172.839;4.631.572;28924;0;False;;;;Ja;I_2520_1;crayfish indet;I_2520_1;mmmwzmrh;;
 327096976;5/09/2024;14:30:00;51.173.086;463.228;28924;0;False;;;;;I_2520_1;crayfish indet;I_2520_1;mmmwzmrh;;
 327204193;6/09/2024;14:30:00;51.171.946;4.630.005;28924;1;True;Stromend water;Bruin grijs, stekeltjes op de wangen met oranje puntjes op de scharen, klein formaat, was heel beweeglijk en verdedigend;Licht stromend, helder water, kleine rotsen in het water, hoge begroeiing aan de kant;Ja;I_2520_1;faxonius limosus;I_2520_1;mmmwzmrh;;
-320678585;23/07/2024;10:38:00;51.033.454;3.545.828;30378;0;False;Stromend water;;Recent hermeanderingproject nabij;Ja;I_9850_6;crayfish indet;I_9850_6;mmy4ywm3;stop;
-320679072;23/07/2024;10:38:00;51.033.186;3.545.344;30378;0;False;Stromend water;;Recent hermeanderingproject nabij;Ja;I_9850_6;crayfish indet;I_9850_6;mmy4ywm3;;
-320679424;23/07/2024;10:38:00;51.033.097;3.545.402;30378;0;False;Stromend water;;Recent hermeanderingproject nabij;Ja;I_9850_6;crayfish indet;I_9850_6;mmy4ywm3;;
+320678585;23/07/2024;10:38:00;51.033.454;3.545.828;30378;0;False;Stromend water;;Recent hermeanderingproject nabij;Ja;I_9850_6;crayfish indet;I_9850_6;mmy4ywm3;Data dubbel ingegeven verwijderd;
 320936700;24/07/2024;;51.033.191;3.545.285;30378;0;False;Stromend water;;Recent hermeanderingproject nabij;Ja;I_9850_6;crayfish indet;I_9850_6;mmy4ywm3;;
 321093296;25/07/2024;9:07:00;51.033.174;3.545.452;30378;0;False;Stromend water;;Recent hermeanderingproject nabij;Ja;I_9850_6;crayfish indet;I_9850_6;mmy4ywm3;;
 321250436;26/07/2024;10:00:00;51.033.125;3.545.367;30378;0;False;Stromend water;;Recent hermeanderingproject nabij;;I_9850_6;crayfish indet;I_9850_6;mmy4ywm3;;
-330622630;3/10/2024;19:30:00;51.182.712;3.233.677;31448;0;False;Stromend water;;geen natuurlijke kanaaloever, bakprofiel, stekelbaars in een van de vallen;Nee;I_8310_6;crayfish indet;I_8310_6;mmy5nzkz;;
-330623339;4/10/2024;12:00:00;51.182.701;3.233.697;31448;1;False;Stromend water;;geen natuurlijke kanaaloever, bakprofiel;Ja;I_8310_6;crayfish indet;I_8310_6;mmy5nzkz;;
-330623762;5/10/2024;;51.182.649;3.233.809;31448;0;False;;;geen natuurlijke kanaaloever, bakprofiel;Nee;I_8310_6;crayfish indet;I_8310_6;mmy5nzkz;;
-328242849;12/09/2024;8:30:00;51.091.529;4.311.962;28225;0;False;Stromend water;;;Ja;I.2880.12;crayfish indet;I_2880_12;mthjnmy5;;
-330201998;12/09/2024;9:00:00;51.114.138;4.299.603;28268;0;False;Stromend water;;;Ja;I.2880.11;crayfish indet;I_2880_11;mthjnmy5;;
+330622630;3/10/2024;19:30:00;51.182.712;3.233.677;31448;0;False;Stromend water;;geen natuurlijke kanaaloever, bakprofiel, stekelbaars in een van de vallen;Nee;I_8310_6;crayfish indet;I_8310_6;mmy5nzkz;;ja
+330623339;4/10/2024;12:00:00;51.182.701;3.233.697;31448;1;False;Stromend water;;geen natuurlijke kanaaloever, bakprofiel;Ja;I_8310_6;crayfish indet;I_8310_6;mmy5nzkz;;ja
+330623762;5/10/2024;;51.182.649;3.233.809;31448;0;False;;;geen natuurlijke kanaaloever, bakprofiel;Nee;I_8310_6;crayfish indet;I_8310_6;mmy5nzkz;;ja
+328242849;12/09/2024;8:30:00;51.091.529;4.311.962;28225;0;False;Stromend water;;;Ja;I.2880.12;crayfish indet;I_2880_12;mthjnmy5;;ja
+330201998;12/09/2024;9:00:00;51.114.138;4.299.603;28268;0;False;Stromend water;;;Ja;I.2880.11;crayfish indet;I_2880_11;mthjnmy5;;ja
 327872559;11/09/2024;;51.230.016;5.039.879;35177;0;False;Stilstaand water;;;Ja;v 2470_2;crayfish indet;V_2470_2;mwi0nmni;;
 327872711;12/09/2024;;51.230.011;5.039.781;35177;0;False;Stilstaand water;;;Ja;v 2470_2;crayfish indet;V_2470_2;mwi0nmni;;
 327872795;13/09/2024;;51.229.967;5.040.004;35177;0;False;Stilstaand water;;;Ja;v 2470_2;crayfish indet;V_2470_2;mwi0nmni;;
+328066976;14/09/2024;;51.229.511;5.040.296;35177;0;False;;;;Ja;v 2470_2;crayfish indet;V_2470_2;mwi0nmni;;
+328076568;15/09/2024;10:01:00;51.229.323;5.040.381;35177;1;True;Stilstaand water;bleke scharen en stekels op de wangen;lage waterstand, vijver word voorzien van kanaalwater. geen vegetatie in vijver, steile oever;Nee;v 2470_2;faxonius limosus;V_2470_2;mwi0nmni;;
 327872926;13/09/2024;;51.224.975;5.044.192;29158;0;False;Stilstaand water;;;;v 2470_3;crayfish indet;V_2470_3;mwi0nmni;;
 327873025;12/09/2024;;51.225.055;5.044.304;29158;0;False;Stilstaand water;;;Ja;v 2470_3;crayfish indet;V_2470_3;mwi0nmni;;
 327873315;11/09/2024;;51.224.959;5.044.733;29158;0;False;Stilstaand water;;lage waterstand, vijver word voorzien van kanaalwater. geen vegetatie in vijver, steile oever;;v 2470_3;crayfish indet;V_2470_3;mwi0nmni;;
 328066707;15/09/2024;;51.224.948;5.044.012;29158;0;False;;;lage waterstand, vijver word voorzien van kanaalwater. geen vegetatie in vijver, steile oever;Nee;v 2470_3;crayfish indet;V_2470_3;mwi0nmni;;
 328066791;14/09/2024;;51.224.921;5.044.115;29158;0;False;;;lage waterstand, vijver word voorzien van kanaalwater. geen vegetatie in vijver, steile oever;Ja;v 2470_3;crayfish indet;V_2470_3;mwi0nmni;;
-328066976;14/09/2024;;51.229.511;5.040.296;35177;0;False;;;;Ja;v 2470_2;crayfish indet;V_2470_2;mwi0nmni;;
-328076568;15/09/2024;10:01:00;51.229.323;5.040.381;35177;1;True;Stilstaand water;bleke scharen en stekels op de wangen;lage waterstand, vijver word voorzien van kanaalwater. geen vegetatie in vijver, steile oever;Nee;v 2470_2;faxonius limosus;V_2470_2;mwi0nmni;;
 324966226;19/08/2024;8:00:00;51.115.653;5.391.616;189154;0;False;Stromend water;;;Ja;I_3990_5;crayfish indet;I_3990_5;mwnhmtq1;;
 325141778;20/08/2024;8:19:00;51.115.862;539.197;189154;0;True;Stromend water;;;Ja;I_3990_5;crayfish indet;I_3990_5;mwnhmtq1;;
 325243700;21/08/2024;8:58:00;51.115.768;5.391.487;189154;0;True;Stromend water;;;Ja;I_3990_5;crayfish indet;I_3990_5;mwnhmtq1;;
 325340425;22/08/2024;8:00:00;51.115.647;5.391.401;189154;0;False;Stromend water;;;Nee;I_3990_5;crayfish indet;I_3990_5;mwnhmtq1;;
 329678473;3/10/2024;7:00:00;51.153.199;5.251.122;138294;0;False;Stromend water;;;Ja;V_2490_3;crayfish indet;V_2490_3;mwnhmtq1;;
 330038543;4/10/2024;7:20:00;51.153.899;5.251.778;138294;0;False;Stromend water;;;Ja;V_2490_3;crayfish indet;V_2490_3;mwnhmtq1;;
-330038874;6/10/2024;7:20:00;51.153.576;5.251.413;138294;0;False;Stromend water;;;Ja;V_2490_3;crayfish indet;V_2490_3;mwnhmtq1;;
+330038874;5/10/2024;7:20:00;51.153.576;5.251.413;138294;0;False;Stromend water;;;Ja;V_2490_3;crayfish indet;V_2490_3;mwnhmtq1;Datum fout ingegeven, dubbele ingave verwijderd;
 330039107;6/10/2024;7:50:00;51.153.563;5.251.534;138294;0;False;Stromend water;;;Ja;V_2490_3;crayfish indet;V_2490_3;mwnhmtq1;;
-330048337;6/10/2024;9:07:00;51.146.876;5.249.559;138294;0;True;Stromend water;;;Ja;V_2490_3;crayfish indet;V_2490_3;mwnhmtq1;;
-330484322;11/10/2024;7:00:00;51.134.433;5.242.268;23498;0;False;Stromend water;;;Ja;V_3970_1;crayfish indet;V_3970_1;mwnhmtq1;;
-330830573;12/10/2024;7:00:00;51.134.283;5.242.378;23498;0;False;Stromend water;;;Ja;V_3970_1;crayfish indet;V_3970_1;mwnhmtq1;;
-330830701;13/10/2024;7:00:00;51.134.242;5.242.378;23498;0;False;Stromend water;;;Ja;V_3970_1;crayfish indet;V_3970_1;mwnhmtq1;;
-331759339;23/10/2024;7:00:00;51.230.322;5.182.798;29181;0;False;Stilstaand water;;;Ja;I_2400_6;crayfish indet;I_2400_6;mwnhmtq1;;
-331759424;22/10/2024;7:00:00;51.230.301;5.182.666;29181;0;False;Stilstaand water;;;Ja;I_2400_6;crayfish indet;I_2400_6;mwnhmtq1;;
-331759483;21/10/2024;7:00:00;51.230.253;5.182.639;29181;0;False;Stilstaand water;;;Ja;I_2400_6;crayfish indet;I_2400_6;mwnhmtq1;;
-333198213;17/10/2024;7:00:00;51.230.162;5.180.938;29181;0;False;Stilstaand water;;;Nee;I_2400_6;crayfish indet;I_2400_6;mwnhmtq1;;
-328368031;18/09/2024;8:41:00;51.123.851;2.755.568;31218;0;False;;;;Nee;I-8620-5;crayfish indet;I_8620_5;mwu5ntqy;;
-328368293;18/09/2024;8:44:00;51.122.858;2.756.681;31218;0;False;;;;;I-8620-5;crayfish indet;I_8620_5;mwu5ntqy;;
-328368487;18/09/2024;8:47:00;51.122.556;2.756.594;31218;0;False;;;;;I-8620-5;crayfish indet;I_8620_5;mwu5ntqy;;
-328470566;19/09/2024;;51.123.468;2.756.495;31218;0;False;;;;Nee;I-8620-5;crayfish indet;I_8620_5;mwu5ntqy;;
-328470790;19/09/2024;10:07:00;51.122.584;2.756.581;31218;0;False;;;;Nee;I-8620-5;crayfish indet;I_8620_5;mwu5ntqy;;
-328678896;21/09/2024;11:28:00;50.813.069;2.932.491;32184;0;False;;;;;I-8560-6;crayfish indet;I_8560_6;mwu5ntqy;;
-328679805;21/09/2024;;50.812.375;2.931.129;32184;0;False;;;;;I-8560-6;crayfish indet;I_8560_6;mwu5ntqy;;
-328680068;21/09/2024;11:35:00;5.081.213;2.924.809;32184;0;False;;;;;I-8560-6;crayfish indet;I_8560_6;mwu5ntqy;;
-328705603;21/09/2024;14:27:00;51.122.443;2.756.497;31218;0;False;;;;;I-8620-5;crayfish indet;I_8620_5;mwu5ntqy;;
-328705796;21/09/2024;14:29:00;51.123.583;275.628;31218;0;False;;;;;I-8620-5;crayfish indet;I_8620_5;mwu5ntqy;;
-328706347;21/09/2024;14:30:00;51.124.138;2.754.543;31218;0;False;;;;;I-8620-5;crayfish indet;I_8620_5;mwu5ntqy;;
+330484322;11/10/2024;7:00:00;51.134.433;5.242.268;23498;0;False;Stromend water;;;Ja;V_3970_1;crayfish indet;V_3970_1;mwnhmtq1;;ja
+330830573;12/10/2024;7:00:00;51.134.283;5.242.378;23498;0;False;Stromend water;;;Ja;V_3970_1;crayfish indet;V_3970_1;mwnhmtq1;;ja
+330830701;13/10/2024;7:00:00;51.134.242;5.242.378;23498;0;False;Stromend water;;;Ja;V_3970_1;crayfish indet;V_3970_1;mwnhmtq1;;ja
+331759339;23/10/2024;7:00:00;51.230.322;5.182.798;29181;0;False;Stilstaand water;;;Ja;I_2400_6;crayfish indet;I_2400_6;mwnhmtq1;;ja
+331759424;22/10/2024;7:00:00;51.230.301;5.182.666;29181;0;False;Stilstaand water;;;Ja;I_2400_6;crayfish indet;I_2400_6;mwnhmtq1;;ja
+331759483;21/10/2024;7:00:00;51.230.253;5.182.639;29181;0;False;Stilstaand water;;;Ja;I_2400_6;crayfish indet;I_2400_6;mwnhmtq1;;ja
+333198213;17/10/2024;7:00:00;51.230.162;5.180.938;29181;0;False;Stilstaand water;;;Nee;I_2400_6;crayfish indet;I_2400_6;mwnhmtq1;;ja
+328368031;18/09/2024;8:41:00;51.123.851;2.755.568;31218;0;False;;;;Nee;I-8620-5;crayfish indet;I_8620_5;mwu5ntqy;;ja
+328368293;18/09/2024;8:44:00;51.122.858;2.756.681;31218;0;False;;;;;I-8620-5;crayfish indet;I_8620_5;mwu5ntqy;;ja
+328368487;18/09/2024;8:47:00;51.122.556;2.756.594;31218;0;False;;;;;I-8620-5;crayfish indet;I_8620_5;mwu5ntqy;;ja
+328470566;19/09/2024;;51.123.468;2.756.495;31218;0;False;;;;Nee;I-8620-5;crayfish indet;I_8620_5;mwu5ntqy;;ja
+328470790;19/09/2024;10:07:00;51.122.584;2.756.581;31218;0;False;;;;Nee;I-8620-5;crayfish indet;I_8620_5;mwu5ntqy;;ja
+328705603;21/09/2024;14:27:00;51.122.443;2.756.497;31218;0;False;;;;;I-8620-5;crayfish indet;I_8620_5;mwu5ntqy;;ja
+328705796;21/09/2024;14:29:00;51.123.583;275.628;31218;0;False;;;;;I-8620-5;crayfish indet;I_8620_5;mwu5ntqy;;ja
+328706347;21/09/2024;14:30:00;51.124.138;2.754.543;31218;0;False;;;;;I-8620-5;crayfish indet;I_8620_5;mwu5ntqy;;ja
+328678896;21/09/2024;11:28:00;50.813.069;2.932.491;32184;0;False;;;;;I-8560-6;crayfish indet;I_8560_6;mwu5ntqy;;ja
+328679805;21/09/2024;;50.812.375;2.931.129;32184;0;False;;;;;I-8560-6;crayfish indet;I_8560_6;mwu5ntqy;;ja
+328680068;21/09/2024;11:35:00;5.081.213;2.924.809;32184;0;False;;;;;I-8560-6;crayfish indet;I_8560_6;mwu5ntqy;;ja
 325444529;23/08/2024;9:20:00;50.744.916;425.048;23218;0;False;Stromend water;;;Nee;I_1501_1;crayfish indet;I_1501_1;mzc3ytq4;;
 325552399;24/08/2024;;50.745.126;4.250.513;23218;0;False;Stromend water;;;Ja;I_1501_1;crayfish indet;I_1501_1;mzc3ytq4;;
 325658067;25/08/2024;;50.745.423;4.250.544;23218;0;False;Stromend water;;;;I_1501_1;crayfish indet;I_1501_1;mzc3ytq4;;
