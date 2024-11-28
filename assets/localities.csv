@@ -692,7 +692,7 @@
 "FALSE","FALSE","Massemen,Watermolenstraat-Kriephoekstraat,afw molen","Molenbeek",NA,NA,"YES","I_9230_4",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Wetteren","9230","1","5006",NA,"50.9783156615813","3.87895051152484","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Kalverhagestraat,opw weg","Molenbeek",NA,NA,"YES","I_9090_2",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Melle","9090","2","5005",NA,"51.0012","3.81001","Oost-Vlaanderen",NA,"waterbeleid@oost-vlaanderen.be"
 "FALSE","FALSE","Moortsele,Kasteelstraat,opw weg,thv VMMnr:556900","Molenbeek",NA,NA,"YES","I_9860_6",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Oosterzele","9860","2","5005",NA,"50.9536139","3.7776528","Oost-Vlaanderen",NA,"waterbeleid@oost-vlaanderen.be"
-"TRUE","TRUE","Essen; Hollandsedreef; begin vanaf brug mtp 59000 100m SO","Spillebeek","mguzztmz","TBD","YES","I_2910_2","bij voorkeur tussen 20/07 - 01/09",NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Essen","2910","2","10042",NA,"51.462614","4.4251043","Antwerpen",NA,"hans.vanloy@provincieantwerpen.be"
+"FALSE","FALSE","Essen; Hollandsedreef; begin vanaf brug mtp 59000 100m SO","Spillebeek",NA,NA,"YES","I_2910_2","bij voorkeur tussen 20/07 - 01/09",NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Essen","2910","2","10042",NA,"51.462614","4.4251043","Antwerpen",NA,"hans.vanloy@provincieantwerpen.be"
 "FALSE","FALSE",NA,"Kattebeek",NA,NA,"YES","I_9800_4",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Deinze","9800","2","4410",NA,"50.9761155673386","3.51906527159109","Oost-Vlaanderen",NA,"waterbeleid@oost-vlaanderen.be"
 "FALSE","FALSE",NA,"Kattebeek",NA,NA,"YES","I_9800_5",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Deinze","9800","2","4410",NA,"50.9676592888933","3.52825882752221","Oost-Vlaanderen",NA,"waterbeleid@oost-vlaanderen.be"
 "FALSE","FALSE","thv surfput de Soeverein","Kattebeek",NA,NA,"YES","I_9800_6",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Deinze","9800","2","4410",NA,"50.957684051998","3.53378939616716","Oost-Vlaanderen",NA,"waterbeleid@oost-vlaanderen.be"
@@ -709,7 +709,7 @@
 "TRUE","TRUE","Kachtem, Rumbeeksestraat","Mandel","nzi3zgyy","08/07/24","YES","I_8870_3",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Izegem","8870","1","4203",NA,"50.9368577","3.1745023","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Oostnieuwkerke","Mandel",NA,NA,"YES","I_8840_4",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Staden","8840","2","4203",NA,"50.9541903583064","3.08332329638676","West-Vlaanderen",NA,NA
 "FALSE","FALSE","Oostenieuwkerke","Mandel",NA,NA,"YES","I_8840_5",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Staden","8840","2","4203",NA,"50.9332690059107","3.049223252751","West-Vlaanderen",NA,NA
-"TRUE","TRUE","Essen; Essendonkbos; 200m afw stuw","Kleine Aa","mguzztmz","TBD","YES","I_2910_3","bij voorkeur tussen 20/07 - 01/09",NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Essen","2910","2","68226",NA,"51.4753536","4.4815792","Antwerpen",NA,"hans.vanloy@provincieantwerpen.be"
+"FALSE","FALSE","Essen; Essendonkbos; 200m afw stuw","Kleine Aa",NA,NA,"YES","I_2910_3","bij voorkeur tussen 20/07 - 01/09",NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Essen","2910","2","68226",NA,"51.4753536","4.4815792","Antwerpen",NA,"hans.vanloy@provincieantwerpen.be"
 "FALSE","FALSE","Kalmthout; Achterbroek; Leyterstraat; begin 200m afw mtp 65000.","Kleine Aa",NA,NA,"YES","I_2920_3","bij voorkeur tussen 20/07 - 01/09",NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Kalmthout","2920","2","9514",NA,"51.3996845654076","4.48441156967848","Antwerpen",NA,"hans.vanloy@provincieantwerpen.be"
 "FALSE","FALSE","Walburgstraat, Berdelenbrug","Devebeek",NA,NA,"YES","I_8770_2",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Ingelmunster","8770","1","4207",NA,"50.9208812877929","3.29482945447592","VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE",NA,"Devebeek",NA,NA,"YES","I_8770_3",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Ingelmunster","8770","1","4207",NA,"50.9219993032434","3.28733648852494","VMM",NA,"d.slootmaekers@vmm.be"
@@ -1456,7 +1456,7 @@
 "TRUE","TRUE",NA,"Watering De Kleine Gete","nwi2m2u2","11/07/24","NO","V_3440_9","waterpeil half juli te laag",NA,NA,NA,NA,"Vlaams-Brabant","Zoutleeuw","3440","NA","NA",NA,"50.8389004","5.1213607",NA,NA,NA
 "FALSE","FALSE",NA,"Molenbeek","yjk2zjuy",NA,"YES","I_3010_7","Maalbeek al op provindiedom bemonsterd",NA,NA,NA,NA,"Vlaams-Brabant","Leuven","3010","NA","NA",NA,"50.8950524","4.7307924",NA,NA,NA
 "TRUE","TRUE",NA,"Brakeleiken ","mze2mza3","08/07/2024","NO","V_9940_17",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Evergem","9940","NA","NA",NA,"51.1449082","3.7079786",NA,NA,NA
-"TRUE","TRUE","Den Dotter","Ter Erpenbeek","mjkyzjq3","24-07-2024","NO","V_9420_6",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Erpe-Mere","9420","NA","NA",NA,"50.90148","3.96273",NA,NA,NA
+"TRUE","TRUE","Den Dotter","Ter Erpenbeek","mjkyzjq3","24-07-2024","NO","V_9420_6",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Erpe-Mere","9420",NA,NA,NA,"50.9014834","3.9630626",NA,NA,NA
 "TRUE","TRUE","Ter Eppenbeek","Ter Erpenbeek","mjkyzjq3","24-06-2024","NO","V_9450_2",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Haaltert","9450","NA","NA",NA,"50.88894","3.95116",NA,NA,NA
 "TRUE","TRUE","Molenbeek",NA,"mjkyzjq3","24-06-2024","NO","V_9450_3",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Haaltert","9450","NA","NA",NA,"50.893729","4.021330",NA,NA,NA
 "TRUE","TRUE","Molenbeek","Molenbeek","mjkyzjq3","24-06-2024","NO","V_9450_4",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Haaltert","9450","NA","NA",NA,"50.89703","4.03072",NA,NA,NA
@@ -1754,7 +1754,7 @@
 "TRUE","TRUE",NA,NA,"ngnlmjhi",NA,"YES","I_9255_2",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Buggenhout","9255",NA,NA,NA,"50.989417","4.164278",NA,NA,NA
 "TRUE","TRUE",NA,NA,"mdflzwm0",NA,"NO","V_3910_15",NA,NA,NA,NA,NA,"Limburg","Pelt","3910","NA","NA",NA,"51.235493","5.409433",NA,NA,NA
 "TRUE","TRUE",NA,NA,"mdflzwm0",NA,"NO","V_3920_6",NA,NA,NA,NA,NA,"Limburg","Lommel","3920",NA,NA,NA,"51.2551739","5.4090747",NA,NA,NA
-"FALSE","FALSE",NA,"Voorgracht",NA,"19/8/22","YES","I_2180_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Antwerpen","2180","1","3104",NA,"51.3017677","4.3725453","VMM",NA,"d.slootmaekers@vmm.be"
+"TRUE","TRUE",NA,"Voorgracht","nzi4mtm4","19/8/22","YES","I_2180_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Antwerpen","2180","1","3104",NA,"51.3017677","4.3725453","VMM",NA,"d.slootmaekers@vmm.be"
 "TRUE","TRUE",NA,"Onledebeek","mjywyjqx","19/9","NO","V_8800_7",NA,NA,NA,NA,NA,"West-Vlaanderen","Roeselare","8800","NA","NA",NA,"50.981917","3.136361",NA,NA,NA
 "TRUE","TRUE",NA,"Antitankgracht","nzi4mtm4","2/10/24","NO","V_2950_3",NA,NA,NA,NA,NA,"Antwerpen","Kapellen","2950","NA","NA",NA,"51.3341307","4.4706952",NA,NA,NA
 "TRUE","TRUE",NA,NA,"mdm4oge4",NA,"NO","V_2850_2",NA,NA,NA,NA,NA,"Antwerpen","Boom","2850",NA,NA,NA,"51.0878472","4.3800916",NA,NA,NA
@@ -1765,7 +1765,7 @@
 "TRUE","TRUE",NA,NA,"mjkyzjq3",NA,"YES","I_9450_6",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Haaltert","9450",NA,NA,NA,"50.894599","4.022742",NA,NA,NA
 "TRUE","TRUE",NA,NA,"mjkyzjq3",NA,"YES","I_9450_7",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Haaltert","9450",NA,NA,NA,"50.886731","4.029902",NA,NA,NA
 "TRUE","TRUE",NA,NA,"mjkyzjq3",NA,"YES","I_9450_8",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Haaltert","9450",NA,NA,NA,"50.858793","4.022645",NA,NA,NA
-"TRUE","TRUE",NA,NA,"mjkyzjq3",NA,"YES","I_9472_1",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Denderleeuw","9472",NA,NA,NA,"50.870342","4.043379",NA,NA,NA
+"TRUE","TRUE",NA,NA,"mjkyzjq3",NA,"YES","I_9472_1",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Denderleeuw","9472",NA,NA,NA,"50.8703149","4.0428962",NA,NA,NA
 "TRUE","TRUE",NA,NA,"yjdkn2u5",NA,"NO","V_3000_4",NA,NA,NA,NA,NA,"Vlaams-Brabant","Leuven","3000",NA,NA,NA,"50.861222","4.738139",NA,NA,NA
 "ONHOLD","ONHOLD",NA,NA,"njixzjg3",NA,"NO","V_2300_8",NA,NA,NA,NA,NA,"Antwerpen","Turnhout","2300",NA,NA,NA,"51.35729","4.938894",NA,NA,NA
 "ONHOLD","ONHOLD",NA,NA,"njixzjg3",NA,"NO","V_2300_9",NA,NA,NA,NA,NA,"Antwerpen","Turnhout","2300",NA,NA,NA,"51.337718","4.935679",NA,NA,NA
@@ -1803,3 +1803,4 @@
 "TRUE","TRUE",NA,"Hornszeevijver","nwvjndbl",NA,"NO","V_3600_16",NA,NA,NA,NA,NA,"Limburg","Genk","3600",NA,NA,NA,"50.998015","5.550321",NA,NA,NA
 "TRUE","TRUE",NA,"Homeleswijer","nwvjndbl",NA,"NO","V_3600_17",NA,NA,NA,NA,NA,"Limburg","Genk","3600",NA,NA,NA,"50.958981","5.467505",NA,NA,NA
 "TRUE","TRUE",NA,NA,"njiyn2yx",NA,"NO","V_2100_11",NA,NA,NA,NA,NA,"Antwerpen","Antwerpen","2100",NA,NA,NA,"51.215415","4.4634837",NA,NA,NA
+"TRUE","TRUE",NA,NA,"mjkyzjq3",NA,"NO","V_9472_2",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Denderleeuw","9472",NA,NA,NA,"50.8707076","4.0437601",NA,NA,NA
