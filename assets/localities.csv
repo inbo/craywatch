@@ -1141,7 +1141,7 @@
 "FALSE","FALSE",NA,NA,NA,NA,"YES","I_2381_5",NA,NA,"ANB_Mtp","Lentisch",NA,"Antwerpen","Ravels","2381",NA,NA,NA,"51.4246204112664","5.05009656244791","Quintens Hildegarde",NA,"recreatie.ant.anb@vlaanderen.be"
 "FALSE","FALSE","De Aa - zijbeek 1;  Poppel, noordoostkant vijver Overheide",NA,NA,NA,"YES","I_2381_6",NA,NA,"ANB_Mtp","Lentisch",NA,"Antwerpen","Ravels","2381",NA,NA,NA,"51.425230304367","5.05032117708771","Quintens Hildegarde",NA,"recreatie.ant.anb@vlaanderen.be"
 "FALSE","FALSE","prive, visvijver, medewerking eigenaar?",NA,NA,NA,"YES","I_2920_8",NA,NA,"Scheers","Lentisch",NA,"Antwerpen","Kalmthout","2920",NA,NA,NA,"51.4223626901584","4.52710939862653",NA,NA,NA
-"FALSE","FALSE","gestreepte Amerikaanse rivierkreeft aanwezig (sinds 2015?)",NA,NA,NA,"YES","I_2920_9",NA,NA,"Scheers","Lentisch",NA,"Antwerpen","Kalmthout","2920",NA,NA,NA,"51.428769","4.5248433",NA,NA,NA
+"TRUE","TRUE","gestreepte Amerikaanse rivierkreeft aanwezig (sinds 2015?)",NA,"ywyxmtey",NA,"YES","I_2920_9",NA,NA,"Scheers","Lentisch",NA,"Antwerpen","Kalmthout","2920",NA,NA,NA,"51.428769","4.5248433",NA,NA,NA
 "FALSE","FALSE","Gestreepte Amerikaanse rivierkreeft aanwezig sinds 2019",NA,NA,NA,"YES","I_9130_13",NA,NA,"Scheers","Lentisch",NA,"Oost-Vlaanderen","Beveren","9130",NA,NA,NA,"51.263585990207","4.19638189874493","Hermans Jop",NA,"recreatie.ovl.anb@vlaanderen.be"
 "FALSE","FALSE","Gestreepte Amerikaanse rivierkreeft aanwezig (2020?)",NA,NA,NA,"YES","I_9130_14",NA,NA,"Scheers","Lentisch",NA,"Oost-Vlaanderen","Beveren","9130",NA,NA,NA,"51.2557466902093","4.20071799873967",NA,NA,NA
 "FALSE","FALSE","geen kreeften in 2021-2022",NA,NA,NA,"YES","I_9130_15",NA,NA,"Scheers","Lentisch",NA,"Oost-Vlaanderen","Beveren","9130",NA,NA,NA,"51.266789790206","4.19160829874866",NA,NA,NA
@@ -1428,7 +1428,7 @@
 "TRUE","TRUE",NA,"Polderwind","odc4ztrj",NA,"YES","I_8377_2",NA,NA,"Scheers","Lentisch",NA,"West-Vlaanderen","Zuienkerke","8377",NA,NA,NA,"51.2609007","3.1796315",NA,NA,NA
 "TRUE","TRUE",NA,NA,"odvmmji0",NA,"YES","I_9200_12",NA,NA,"Scheers","Lentisch",NA,"Oost-Vlaanderen","Dendermonde","9200",NA,NA,NA,"51.0240833","4.0959897",NA,NA,NA
 "FALSE","FALSE",NA,"Molenvijver",NA,NA,"YES","I_9310_3",NA,NA,"Scheers","Lentisch",NA,"Oost-Vlaanderen","Aalst","9310",NA,NA,NA,"50.9350366790843","4.12911711157886",NA,NA,NA
-"FALSE","FALSE",NA,NA,NA,NA,"YES","I_2920_10",NA,NA,"Scheers","Lentisch",NA,"Antwerpen","Kalmthout","2920",NA,NA,NA,"51.3687658484981","4.49336633960907",NA,NA,NA
+"TRUE","TRUE",NA,NA,"ywyxmtey",NA,"YES","I_2920_10",NA,NA,"Scheers","Lentisch",NA,"Antwerpen","Kalmthout","2920",NA,NA,NA,"51.3687658","4.4933663",NA,NA,NA
 "FALSE","FALSE",NA,NA,NA,NA,"YES","I_8200_7",NA,NA,"Scheers","Lentisch",NA,"West-Vlaanderen","Brugge","8200",NA,NA,NA,"51.2040364268594","3.18386976885553",NA,NA,NA
 "FALSE","FALSE",NA,"Meer van Heist",NA,NA,"YES","I_8301_2",NA,NA,"Scheers","Lentisch",NA,"West-Vlaanderen","Knokke-Heist","8301",NA,NA,NA,"51.3356135923918","3.25517566037467",NA,NA,NA
 "FALSE","FALSE",NA,NA,NA,NA,"YES","I_8300_11",NA,NA,"Scheers","Lentisch",NA,"West-Vlaanderen","Knokke-Heist","8300",NA,NA,NA,"51.3273733551308","3.28235353985486",NA,NA,NA
@@ -1732,7 +1732,7 @@
 "TRUE","TRUE",NA,NA,"mznknjaw","05/09/24","NO","V_3640_18",NA,NA,NA,NA,NA,"Limburg","Kinrooi","3640",NA,NA,NA,"51.181501","5.74537",NA,NA,NA
 "TRUE","TRUE",NA,"Watering Het Grootbroek","mznknjaw",NA,"NO","V_3640_19",NA,NA,NA,NA,NA,"Limburg","Kinrooi","3640",NA,NA,NA,"51.155334","5.75214",NA,NA,NA
 "TRUE","TRUE",NA,"Watering Het Grootbroek","mznknjaw","16/9/24","NO","V_3640_20",NA,NA,NA,NA,NA,"Limburg","Kinrooi","3640","NA","NA",NA,"51.167457","5.760667",NA,NA,NA
-"ONHOLD","ONHOLD",NA,"Kleine Struisbeek","zgjhngvm",NA,"NO","V_2650_5",NA,NA,NA,NA,NA,"Antwerpen","Edegem","2650","NA","NA",NA,"51.1566837","4.4045428",NA,NA,NA
+"ONHOLD","ONHOLD",NA,"Kleine Struisbeek","yzc5zdbk",NA,"NO","V_2650_5",NA,NA,NA,NA,NA,"Antwerpen","Edegem","2650","NA","NA",NA,"51.1566837","4.4045428",NA,NA,NA
 "TRUE","TRUE",NA,"Grote Nete","nzzmzdm3",NA,"NO","V_2491_8",NA,NA,NA,NA,NA,"Antwerpen","Balen","2491","NA","NA",NA,"51.150153","5.149361",NA,NA,NA
 "TRUE","TRUE",NA,NA,"nzzmzdm3",NA,"NO","V_2490_15",NA,NA,NA,NA,NA,"Antwerpen","Balen","2490",NA,NA,NA,"51.151999","5.146447",NA,NA,NA
 "FALSE","FALSE",NA,"Babelsebeek",NA,NA,"NO","V_2500_9",NA,NA,NA,NA,NA,"Antwerpen","Lier","2500","NA","NA",NA,"51.1155617","4.5298849",NA,NA,NA
@@ -1777,7 +1777,7 @@
 "TRUE","TRUE",NA,NA,"njiyn2yx",NA,"NO","V_2100_8",NA,NA,NA,NA,NA,"Antwerpen","Antwerpen","2100",NA,NA,NA,"51.216","4.465694",NA,NA,NA
 "TRUE","TRUE",NA,"Leie","yzc4njmw",NA,"NO","V_9800_19",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Deinze","9800",NA,NA,NA,"50.9917051","3.5709575",NA,NA,NA
 "TRUE","TRUE",NA,NA,"owm2ywvi",NA,"NO","V_3550_10",NA,NA,NA,NA,NA,"Limburg","Heusden-Zolder","3550",NA,NA,NA,"50.9973821","5.2711361",NA,NA,NA
-"TRUE","TRUE",NA,"owm2ywvi",NA,NA,"NO","V_3550_11",NA,NA,NA,NA,NA,"Limburg","Heusden-Zolder","3550",NA,NA,NA,"50.9976814","5.271577",NA,NA,NA
+"TRUE","TRUE",NA,NA,"owm2ywvi",NA,"NO","V_3550_11",NA,NA,NA,NA,NA,"Limburg","Heusden-Zolder","3550",NA,NA,NA,"50.9976814","5.271577",NA,NA,NA
 "TRUE","TRUE",NA,NA,"mwnhmtq1",NA,"NO","V_3970_1",NA,NA,NA,NA,NA,"Limburg","Leopoldsburg","3970",NA,NA,NA,"51.1322606","5.2439153",NA,NA,NA
 "TRUE","TRUE",NA,NA,"mdflzwm0",NA,"NO","V_3920_9",NA,NA,NA,NA,NA,"Limburg","Lommel","3920",NA,NA,NA,"51.2568454","5.3933986",NA,NA,NA
 "TRUE","TRUE",NA,NA,"otjhmjg3",NA,"NO","V_2550_4",NA,NA,NA,NA,NA,"Antwerpen","Kontich","2550",NA,NA,NA,"51.1356662","4.4639236",NA,NA,NA
@@ -1804,3 +1804,4 @@
 "TRUE","TRUE",NA,"Homeleswijer","nwvjndbl",NA,"NO","V_3600_17",NA,NA,NA,NA,NA,"Limburg","Genk","3600",NA,NA,NA,"50.958981","5.467505",NA,NA,NA
 "TRUE","TRUE",NA,NA,"njiyn2yx",NA,"NO","V_2100_11",NA,NA,NA,NA,NA,"Antwerpen","Antwerpen","2100",NA,NA,NA,"51.215415","4.4634837",NA,NA,NA
 "TRUE","TRUE",NA,NA,"mjkyzjq3",NA,"NO","V_9472_2",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Denderleeuw","9472",NA,NA,NA,"50.8707076","4.0437601",NA,NA,NA
+"TRUE","TRUE",NA,"Bellebeek","yjmznwm3",NA,"NO","V_1742_1",NA,NA,NA,NA,NA,"Vlaams-Brabant","Ternat","1742",NA,NA,NA,"50.8845471","4.1125285",NA,NA,NA
