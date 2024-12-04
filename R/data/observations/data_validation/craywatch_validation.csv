@@ -542,7 +542,24 @@ NA,28/08/2024,9:00:00,51.336078,4.653667,29251,0,False,Stilstaand water,,een pal
 330436711,27/09/2024,8:15:00,50.997602,5.271632,94489,4,True,Stilstaand water,Wijnrode vlekken op de staartdelen,Beboste Vijver oever,Nee,V_3550_11,faxonius limosus,V_3550_11,owm2ywvi,"vrijwillID ontbrak, gegevens aangevuld obv registratieformulier",
 330436927,28/09/2024,9:20:00,50.997809,5.271655,94489,4,True,Stilstaand water,Wijnrode vlekken op de staartdelen(met bijvangst Zonnebaars),Beboste Vijver oever,Ja,V_3550_11,faxonius limosus,V_3550_11,owm2ywvi,"vrijwillID ontbrak, gegevens aangevuld obv registratieformulier",
 330437087,29/09/2024,9:20:00,50.997522,5.271603,94489,0,True,Stilstaand water,geen vangst in de fuiken,Beboste Vijver oever,Nee,V_3550_11,faxonius limosus,V_3550_11,owm2ywvi,"Datum fout en vrijwillID ontbrak, gegevens aangevuld obv registratieformulier en mails",
-331819859,20/10/2024,14:38:00,51.266945,3.297791,31607,1,True,Stilstaand water,,ter hoogte van de siphon (pompgemaal) aan de damse vaart,,,procambarus clarkii,,NA,?,
+331819859,20/10/2024,14:38:00,51.266945,3.297791,31607,1,True,Stilstaand water,,ter hoogte van de siphon (pompgemaal) aan de damse vaart,,,procambarus clarkii,V_8340_25,ndfhyzg1,"Locatiecode en vrijwillID ontbrak, gegevens aangevuld obv locatie en registratieformulier",
+,8/10/2024,,,,,5,False,,,,,,procambarus clarkii,V_8340_14,ndfhyzg1,"Waarneming onbrak, gevonden op waarnemingen.be",
+,8/10/2024,,,,,2,True,,,,,,procambarus clarkii,V_8300_14,ndfhyzg1,"Waarneming onbrak, gevonden op waarnemingen.be",
+,29/09/2024,,,,,9,True,,,,,,procambarus clarkii,V_8340_15,ndfhyzg1,"Waarneming onbrak, gevonden op waarnemingen.be",
+,29/09/2024,,,,,5,False,,,,,,procambarus clarkii,V_8300_15,ndfhyzg1,"Waarneming onbrak, gevonden op waarnemingen.be",
+,29/09/2024,,,,,6,False,,,,,,procambarus clarkii,V_8340_16,ndfhyzg1,"Waarneming onbrak, gevonden op waarnemingen.be",
+,26/09/2024,,,,,3,False,,,,,,procambarus clarkii,V_8340_17,ndfhyzg1,"Waarneming onbrak, gevonden op waarnemingen.be",
+,26/09/2024,,,,,5,False,,,,,,procambarus clarkii,V_8300_16,ndfhyzg1,"Waarneming onbrak, gevonden op waarnemingen.be",
+,26/09/2024,,,,,7,True,,,,,,procambarus clarkii,V_8340_18,ndfhyzg1,"Waarneming onbrak, gevonden op waarnemingen.be",
+,26/09/2024,,,,,1,True,,,,,,procambarus clarkii,V_8340_19,ndfhyzg1,"Waarneming onbrak, gevonden op waarnemingen.be",
+,21/09/2024,,,,,5,False,,,,,,procambarus clarkii,V_8340_20,ndfhyzg1,"Waarneming onbrak, gevonden op waarnemingen.be",
+,24/10/2024,,,,,2,True,,,,,,procambarus clarkii,V_8301_4,ndfhyzg1,"Waarneming onbrak, gevonden op waarnemingen.be",
+,24/10/2024,,,,,6,True,,,,,,procambarus clarkii,V_8301_5,ndfhyzg1,"Waarneming onbrak, gevonden op waarnemingen.be",
+,23/10/2024,,,,,11,True,,,,,,procambarus clarkii,V_8340_21,ndfhyzg1,"Waarneming onbrak, gevonden op waarnemingen.be",
+,23/10/2024,,,,,1,True,,,,,,procambarus clarkii,V_8340_22,ndfhyzg1,"Waarneming onbrak, gevonden op waarnemingen.be",
+,11/10/2024,,,,,2,False,,,,,,procambarus clarkii,V_8340_23,ndfhyzg1,"Waarneming onbrak, gevonden op waarnemingen.be",
+,10/10/2024,,,,,2,False,,,,,,procambarus clarkii,V_8300_17,ndfhyzg1,"Waarneming onbrak, gevonden op waarnemingen.be",
+,10/10/2024,,,,,8,False,,,,,,procambarus clarkii,V_8340_24,ndfhyzg1,"Waarneming onbrak, gevonden op waarnemingen.be",
 328259831,16/09/2024,19:30:00,51.162691,3.948618,30173,1,False,Stromend water,klein rood kreeftje( geen foto... ontsnapte bij het uithalen),heldere beek (nog maar net schoongemaakt met kraan 1maand geleden,Nee,"I_9180_11: Bosbeek (51.16245, 3.94853)",procambarus clarkii,I_9180_11,ndlmngu0,,
 328353113,17/09/2024,19:30:00,51.162488,3.948714,30173,2,False,Stromend water,"een kreeftje eenpotig, ander kreeftje poten ontbrekend",heldere beek (nog maar net schoongemaakt met kraan 1maand geleden,,"I_9180_11: Bosbeek (51.16245, 3.94853)",crayfish indet,I_9180_11,ndlmngu0,,ja
 328439674,18/09/2024,19:30:00,51.162337,3.948074,30173,0,False,,,heldere beek (nog maar net schoongemaakt met kraan 1maand geleden,,"I_9180_11: Bosbeek (51.16245, 3.94853)",crayfish indet,I_9180_11,ndlmngu0,,
@@ -652,20 +669,21 @@ NA,28/08/2024,9:00:00,51.336078,4.653667,29251,0,False,Stilstaand water,,een pal
 330353369,8/10/2024,12:30:00,51.215847,4.465696,71783,0,False,Stromend water,/,"Lupinegracht: oever vegitatie, staat in verbinding met het Schijn (indien hoog water) via een sluizen systeem",Nee,V_2100_8,crayfish indet,V_2100_8,njiyn2yx,,
 330353412,9/10/2024,14:03:00,51.215814,4.465787,71783,0,False,Stromend water,/,"Lupinegracht: oever vegitatie, staat in verbinding met het Schijn (indien hoog water) via een sluizen systeem",Nee,V_2100_8,crayfish indet,V_2100_8,njiyn2yx,,
 330445389,10/10/2024,15:57:00,51.215848,4.465765,71783,0,False,Stromend water,/,"Lupinegracht: oever vegitatie, staat in verbinding met het Schijn (indien hoog water) via een sluizen systeem",Ja,V_2100_8,crayfish indet,V_2100_8,njiyn2yx,,
-330910224,11/10/2024,17:00:00,51.21461,4.473914,71783,0,False,Stilstaand water,/,"Waterstand: 92cm, groot nimfkruid",Nee,V_2100_6,crayfish indet,V_2100_6,njiyn2yx,,ja
-330910308,12/10/2024,13:15:00,51.214619,4.473643,71783,0,False,Stilstaand water,/,"Waterstand: 92cm, groot nimfkruid",Ja,V_2100_6,crayfish indet,V_2100_6,njiyn2yx,,ja
-330910265,13/10/2024,14:00:00,51.214618,4.473791,71783,0,False,Stilstaand water,/,"Waterstand: 92cm, groot nimfkruid",Nee,V_2100_6,crayfish indet,V_2100_6,njiyn2yx,,ja
-330910165,14/10/2024,16:00:00,51.214623,4.473957,71783,1,False,Stilstaand water,Hebben de kenmerkende stekels aan het hoofd. Krullen de staart en stellen zich verdedigend op.,"Waterstand: 92cm, groot nimfkruid",Nee,V_2100_6,faxonius limosus,V_2100_6,njiyn2yx,,ja
-330912790,15/10/2024,9:30:00,51.214615,4.473911,71783,1,True,Stilstaand water,Hebben de kenmerkende stekels aan het hoofd. Krullen de staart en stellen zich verdedigend op.,"Waterstand: 92cm, groot nimfkruid",Nee,V_2100_6,faxonius limosus,V_2100_6,njiyn2yx,,ja
-329691419,26/09/2024,13:30:00,51.21457,4.47445,71783,3,False,Stilstaand water,Hebben de kenmerkende stekels aan het hoofd. Krullen de staart en stellen zich verdedigend op.,"Waterstand: 92cm, groot nimfkruid",Nee,V_2100_6,faxonius limosus,V_2100_6,njiyn2yx,,ja
-329691808,27/09/2024,10:15:00,51.214564,4.474391,71783,3,True,Stilstaand water,Hebben de kenmerkende stekels aan het hoofd. Krullen de staart en stellen zich verdedigend op.,"Waterstand: 92cm, groot nimfkruid",Nee,V_2100_6,faxonius limosus,V_2100_6,njiyn2yx,,ja
-329714545,28/09/2024,10:50:00,51.214597,4.474279,71783,5,True,Stilstaand water,Hebben de kenmerkende stekels aan het hoofd. Krullen de staart en stellen zich verdedigend op.,"Waterstand: 92cm, groot nimfkruid",Nee,V_2100_6,faxonius limosus,V_2100_6,njiyn2yx,,ja
-329692596,29/09/2024,16:00:00,51.214556,4.474064,71783,0,False,Stilstaand water,/,/,Ja,V_2100_6,crayfish indet,V_2100_6,njiyn2yx,,ja
-329693691,30/09/2024,12:30:00,51.214591,4.47393,71783,2,False,Stilstaand water,Hebben de kenmerkende stekels aan het hoofd. Krullen de staart en stellen zich verdedigend op.,"Waterstand: 92cm, groot nimfkruid",Nee,V_2100_6,faxonius limosus,V_2100_6,njiyn2yx,,ja
-331026132,16/10/2024,11:45:00,51.214525,4.471867,71783,0,False,Stilstaand water,/,"Vijver rond OLT: lage waterstand (geen exact getal), enkel oever vegitatie, kort bij het Schijn",Nee,V_2100_9,crayfish indet,V_2100_9,njiyn2yx,,ja
-331136419,17/10/2024,13:45:00,51.214531,4.471849,71783,0,False,Stilstaand water,/,"Vijver rond OLT: lage waterstand (geen exact getal), enkel oever vegitatie, kort bij het Schijn",Nee,V_2100_9,crayfish indet,V_2100_9,njiyn2yx,,ja
-331482974,19/10/2024,14:09:00,51.214575,4.471794,71783,0,False,Stilstaand water,/,"Vijver rond OLT: lage waterstand (geen exact getal), enkel oever vegitatie, kort bij het Schijn",Nee,V_2100_9,crayfish indet,V_2100_9,njiyn2yx,,ja
-331483269,20/10/2024,11:45:00,51.214551,4.471766,71783,0,False,Stilstaand water,/,"Vijver rond OLT: lage waterstand (geen exact getal), enkel oever vegitatie, kort bij het Schijn",Ja,V_2100_9,crayfish indet,V_2100_9,njiyn2yx,,ja
+330910224,11/10/2024,17:00:00,51.21461,4.473914,71783,0,False,Stilstaand water,/,"Waterstand: 92cm, groot nimfkruid",Nee,V_2100_6,crayfish indet,V_2100_6,njiyn2yx,,
+330910308,12/10/2024,13:15:00,51.214619,4.473643,71783,0,False,Stilstaand water,/,"Waterstand: 92cm, groot nimfkruid",Ja,V_2100_6,crayfish indet,V_2100_6,njiyn2yx,,
+330910265,13/10/2024,14:00:00,51.214618,4.473791,71783,0,False,Stilstaand water,/,"Waterstand: 92cm, groot nimfkruid",Nee,V_2100_6,crayfish indet,V_2100_6,njiyn2yx,,
+330910165,14/10/2024,16:00:00,51.214623,4.473957,71783,1,False,Stilstaand water,Hebben de kenmerkende stekels aan het hoofd. Krullen de staart en stellen zich verdedigend op.,"Waterstand: 92cm, groot nimfkruid",Nee,V_2100_6,faxonius limosus,V_2100_6,njiyn2yx,,
+330912790,15/10/2024,9:30:00,51.214615,4.473911,71783,1,True,Stilstaand water,Hebben de kenmerkende stekels aan het hoofd. Krullen de staart en stellen zich verdedigend op.,"Waterstand: 92cm, groot nimfkruid",Nee,V_2100_6,faxonius limosus,V_2100_6,njiyn2yx,,
+329691419,26/09/2024,13:30:00,51.21457,4.47445,71783,3,False,Stilstaand water,Hebben de kenmerkende stekels aan het hoofd. Krullen de staart en stellen zich verdedigend op.,"Waterstand: 92cm, groot nimfkruid",Nee,V_2100_6,faxonius limosus,V_2100_6,njiyn2yx,,
+329691808,27/09/2024,10:15:00,51.214564,4.474391,71783,3,True,Stilstaand water,Hebben de kenmerkende stekels aan het hoofd. Krullen de staart en stellen zich verdedigend op.,"Waterstand: 92cm, groot nimfkruid",Nee,V_2100_6,faxonius limosus,V_2100_6,njiyn2yx,,
+329714545,28/09/2024,10:50:00,51.214597,4.474279,71783,5,True,Stilstaand water,Hebben de kenmerkende stekels aan het hoofd. Krullen de staart en stellen zich verdedigend op.,"Waterstand: 92cm, groot nimfkruid",Nee,V_2100_6,faxonius limosus,V_2100_6,njiyn2yx,,
+329692596,29/09/2024,16:00:00,51.214556,4.474064,71783,0,False,Stilstaand water,/,/,Ja,V_2100_6,crayfish indet,V_2100_6,njiyn2yx,,
+329693691,30/09/2024,12:30:00,51.214591,4.47393,71783,2,False,Stilstaand water,Hebben de kenmerkende stekels aan het hoofd. Krullen de staart en stellen zich verdedigend op.,"Waterstand: 92cm, groot nimfkruid",Nee,V_2100_6,faxonius limosus,V_2100_6,njiyn2yx,,
+331026132,16/10/2024,11:45:00,51.214525,4.471867,71783,0,False,Stilstaand water,/,"Vijver rond OLT: lage waterstand (geen exact getal), enkel oever vegitatie, kort bij het Schijn",Nee,V_2100_9,crayfish indet,V_2100_9,njiyn2yx,,
+331136419,17/10/2024,13:45:00,51.214531,4.471849,71783,0,False,Stilstaand water,/,"Vijver rond OLT: lage waterstand (geen exact getal), enkel oever vegitatie, kort bij het Schijn",Nee,V_2100_9,crayfish indet,V_2100_9,njiyn2yx,,
+,18/10/2024,,51.214575,4.471794,71783,0,False,Stilstaand water,,,,V_2100_9,crayfish indet,V_2100_9,njiyn2yx,"Waarneming ontbrak, bevestigd via mail",
+331482974,19/10/2024,14:09:00,51.214575,4.471794,71783,0,False,Stilstaand water,/,"Vijver rond OLT: lage waterstand (geen exact getal), enkel oever vegitatie, kort bij het Schijn",Nee,V_2100_9,crayfish indet,V_2100_9,njiyn2yx,,
+331483269,20/10/2024,11:45:00,51.214551,4.471766,71783,0,False,Stilstaand water,/,"Vijver rond OLT: lage waterstand (geen exact getal), enkel oever vegitatie, kort bij het Schijn",Ja,V_2100_9,crayfish indet,V_2100_9,njiyn2yx,,
 331700505,21/10/2024,10:30:00,51.212158,4.470475,71783,0,False,Stilstaand water,/,"Waterstand: 248cm, geen specifieke watervegitatie",Nee,V_2100_10,crayfish indet,V_2100_10,njiyn2yx,,
 331709703,22/10/2024,16:01:00,51.211869,4.470241,71783,1,True,Stilstaand water,Hebben de kenmerkende stekels aan het hoofd. Krullen de staart en stellen zich verdedigend op.,"Waterstand: 248cm, geen specifieke watervegitatie",Nee,V_2100_10,faxonius limosus,V_2100_10,njiyn2yx,,
 331836609,23/10/2024,16:15:00,51.212231,4.470481,71783,0,False,Stilstaand water,/,"Waterstand: 248cm, geen specifieke watervegitatie",Ja,V_2100_10,crayfish indet,V_2100_10,njiyn2yx,,
@@ -800,9 +818,10 @@ NA,28/08/2024,9:00:00,51.336078,4.653667,29251,0,False,Stilstaand water,,een pal
 331756256,23/10/2024,7:50:00,50.846583,5.111376,622566,0,False,Stromend water,,2 vallen,Nee,I_3440_5,crayfish indet,I_3440_5,nwi2m2u2,,
 ,24/10/2024,,50.846583,5.111376,622566,0,,Stromend water,,2 vallen,,I_3440_5,crayfish indet,I_3440_5,nwi2m2u2,"Waarneming ontbrak, via mail bevestigd",
 ,25/10/2024,,50.846583,5.111376,622566,0,,Stromend water,,2 vallen,,I_3440_5,crayfish indet,I_3440_5,nwi2m2u2,"Waarneming ontbrak, via mail bevestigd",
-323816120,12/08/2024,6:42:00,50.978859,3.703943,30645,0,False,Stilstaand water,,"Fuiken liggen ongeveer 1 m van de oever waar het water 0,5m diep is, dus net onderwater. 1/ rondom takken. 3/ rondom waterplant.",Nee,I_9840_4,crayfish indet,I_9840_4,nwixndkz,,ja
-323957288,13/08/2024,7:45:00,50.978835,3.70397,30645,0,False,Stilstaand water,,,Ja,I_9840_4,crayfish indet,I_9840_4,nwixndkz,,ja
-324088461,14/08/2024,7:38:00,50.978858,3.704055,30645,0,False,Stilstaand water,,,Nee,I_9840_4,crayfish indet,I_9840_4,nwixndkz,,ja
+323816120,12/08/2024,6:42:00,50.978859,3.703943,30645,0,False,Stilstaand water,,"Fuiken liggen ongeveer 1 m van de oever waar het water 0,5m diep is, dus net onderwater. 1/ rondom takken. 3/ rondom waterplant.",Nee,I_9840_4,crayfish indet,I_9840_4,nwixndkz,,
+323957288,13/08/2024,7:45:00,50.978835,3.70397,30645,0,False,Stilstaand water,,,Ja,I_9840_4,crayfish indet,I_9840_4,nwixndkz,,
+324088461,14/08/2024,7:38:00,50.978858,3.704055,30645,0,False,Stilstaand water,,,Nee,I_9840_4,crayfish indet,I_9840_4,nwixndkz,,
+,15/08/2024,,,,,0,False,Stilstaand water,,,,I_9840_4,crayfish indet,I_9840_4,nwixndkz,"Waarneming ontbrak, via mail bevestigd",
 324768086,17/08/2024,9:45:00,50.987353,3.717503,30680,0,False,Stilstaand water,,,Nee,I_9052_1,crayfish indet,I_9052_1,nwixndkz,,
 324927706,18/08/2024,9:21:00,50.98734,3.717492,30680,0,False,Stilstaand water,,,Ja,I_9052_1,crayfish indet,I_9052_1,nwixndkz,,
 325420470,19/08/2024,7:40:00,50.98734,3.717498,30680,0,False,Stilstaand water,,Bijvangst: 1 bittervoorn,Ja,I_9052_1,crayfish indet,I_9052_1,nwixndkz,,
@@ -871,9 +890,9 @@ NA,28/08/2024,9:00:00,51.336078,4.653667,29251,0,False,Stilstaand water,,een pal
 330200323,3/10/2024,17:46:00,51.334076,4.471809,251747,0,False,,,,Nee,V_2950_3,crayfish indet,V_2950_3,nzi4mtm4,"Waarneming twee maal ingegeven, dubbele verwijderd",
 330201909,4/10/2024,18:17:00,51.334103,4.471676,251747,0,True,,,,Ja,V_2950_3,crayfish indet,V_2950_3,nzi4mtm4,,
 330202185,5/10/2024,17:56:00,51.334134,4.471343,251747,0,False,,,,Nee,V_2950_3,crayfish indet,V_2950_3,nzi4mtm4,,
-326357289,30/08/2024,17:52:00,51.173319,3.958101,30162,4,True,Running water,,,No,I_9180_8,procambarus clarkii,I_9180_8,nzjknjqy,,ja
-326394642,31/08/2024,8:55:00,51.173327,3.958228,30162,1,True,Running water,,,No,I_9180_8,procambarus clarkii,I_9180_8,nzjknjqy,,ja
-326525614,1/09/2024,9:23:00,51.173386,3.960779,30163,1,True,,,,Yes,I_9180_8,procambarus clarkii,I_9180_8,nzjknjqy,,ja
+326357289,30/08/2024,17:52:00,51.173319,3.958101,30162,4,True,Running water,,,No,I_9180_8,procambarus clarkii,I_9180_8,nzjknjqy,,"ja, klopt"
+326394642,31/08/2024,8:55:00,51.173327,3.958228,30162,1,True,Running water,,,No,I_9180_8,procambarus clarkii,I_9180_8,nzjknjqy,,"ja, klopt"
+326525614,1/09/2024,9:23:00,51.173386,3.960779,30163,1,True,,,,Yes,I_9180_8,procambarus clarkii,I_9180_8,nzjknjqy,,"ja, klopt"
 325930460,27/08/2024,13:43:00,51.174538,4.003626,30827,2,True,Stromend water,,Kanaal Van Stekene,Ja,I.9112.4,procambarus clarkii,I_9112_4,nzjkzdez,,ja
 326701139,28/08/2024,13:43:00,51.174656,4.003766,30827,3,True,Stromend water,,Kanaal Van Stekene,Ja,I.9112.4,procambarus clarkii,I_9112_4,nzjkzdez,,ja
 326953700,3/09/2024,9:20:00,51.183753,4.05852,30734,2,True,Stilstaand water,,"Ransbeek, Twee fuiken lagen niet helemaal onder water.",,I.9112.2,procambarus clarkii,I_9112_2,nzjkzdez,,ja
@@ -1137,9 +1156,9 @@ NA,28/08/2024,9:00:00,51.336078,4.653667,29251,0,False,Stilstaand water,,een pal
 330318312,6/10/2024,9:00:00,51.131572,4.503711,23335,0,False,Stilstaand water,,,Ja,V_2547_2: Poel Klimaatbos,crayfish indet,V_2547_2,ogzjzmq2,,
 330318327,7/10/2024,9:00:00,51.131564,4.503724,23335,0,False,Stilstaand water,,,Ja,V_2547_2: Poel Klimaatbos,crayfish indet,V_2547_2,ogzjzmq2,,
 330318371,8/10/2024,9:00:00,51.131545,4.503719,23335,0,False,Stilstaand water,,,Nee,V_2547_2: Poel Klimaatbos,crayfish indet,V_2547_2,ogzjzmq2,,
-330924693,27/08/2024,9:00:00,51.227289,4.612464,191336,0,False,Stromend water,,,Ja,"I_2520_4: Antitankkanaal Vrieselhof (51.22859, 4.61207)",crayfish indet,I_2520_4,ota3ymuw,,ja
-330924833,6/09/2024,9:00:00,51.228125,4.612271,191336,0,False,Stromend water,,,Ja,"I_2520_4: Antitankkanaal Vrieselhof (51.22859, 4.61207)",crayfish indet,I_2520_4,ota3ymuw,,ja
-330924923,11/09/2024,9:00:00,51.227215,4.612567,191336,0,False,,,,Ja,"I_2520_4: Antitankkanaal Vrieselhof (51.22859, 4.61207)",crayfish indet,I_2520_4,ota3ymuw,,ja
+330924693,27/08/2024,9:00:00,51.227289,4.612464,191336,0,False,Stromend water,,,Ja,"I_2520_4: Antitankkanaal Vrieselhof (51.22859, 4.61207)",crayfish indet,I_2520_4,ota3ymuw,,ja (data via mail bevestigd)
+330924833,6/09/2024,9:00:00,51.228125,4.612271,191336,0,False,Stromend water,,,Ja,"I_2520_4: Antitankkanaal Vrieselhof (51.22859, 4.61207)",crayfish indet,I_2520_4,ota3ymuw,,ja (data via mail bevestigd)
+330924923,11/09/2024,9:00:00,51.227215,4.612567,191336,0,False,,,,Ja,"I_2520_4: Antitankkanaal Vrieselhof (51.22859, 4.61207)",crayfish indet,I_2520_4,ota3ymuw,,ja (data via mail bevestigd)
 328539514,15/09/2024,9:31:00,51.136806,4.038377,30700,3,True,Stromend water,"relatief klein, duidelijk volledig rode onderkant scharen","Smalle waterloop, taluds sterk begroeid, beekbodem onbegroeid en zandig, waterkolom beperkt, enkel bij eerste fuik, die vlak na duiker onder de straat zat. In eerste fuik, die zat helemaal onder water. 2 volgende fuiken zaten maar half onder water.",Ja,V_9250_3,procambarus clarkii,V_9250_3,otblmwjl,,ja (data via mail bevestigd)
 328539691,16/09/2024,10:00:00,51.136897,4.039217,30700,2,True,Stromend water,groter dan die van gisteren,"Smalle waterloop, taluds sterk begroeid, beekbodem onbegroeid en zandig, waterkolom beperkt, enkel bij eerste fuik, die vlak na duiker onder de straat zat. In eerste fuik, die zat helemaal onder water. 2 volgende fuiken zaten maar half onder water.",Ja,V_9250_3,procambarus clarkii,V_9250_3,otblmwjl,,ja (data via mail bevestigd)
 328539834,18/09/2024,9:23:00,51.136878,4.039169,30700,1,True,Stromend water,zelfde grootte dan eergisteren,"Smalle waterloop, taluds sterk begroeid, beekbodem onbegroeid en zandig, waterkolom beperkt, enkel bij eerste fuik, die vlak na duiker onder de straat zat. In eerste fuik, die zat helemaal onder water. 2 volgende fuiken zaten maar half onder water.",Ja,V_9250_3,procambarus clarkii,V_9250_3,otblmwjl,,ja (data via mail bevestigd)
@@ -1148,10 +1167,18 @@ NA,28/08/2024,9:00:00,51.336078,4.653667,29251,0,False,Stilstaand water,,een pal
 323117618,7/08/2024,7:05:00,51.136961,3.331525,31541,0,False,Stromend water,,,Ja,V_8730_11,crayfish indet,V_8730_11,otg3mza0,,
 323280440,8/08/2024,11:00:00,51.136965,3.331963,31541,0,False,Stromend water,,,Ja,V_8730_11,crayfish indet,V_8730_11,otg3mza0,,
 323443784,9/08/2024,11:00:00,51.137145,3.331861,31541,0,False,Stromend water,,,Nee,V_8730_11,crayfish indet,V_8730_11,otg3mza0,"Locatiecode ontbrak, aangevuld obv locatie",
-332600590,29/08/2024,10:00:00,50.800497,4.070376,23250,0,False,,,,,I_1755_4,crayfish indet,I_1755_4,otgzymmz,,ja
-332600748,15/10/2024,17:00:00,50.819041,4.054607,24149,0,False,,,,,I_9402_1,crayfish indet,I_9402_1,otgzymmz,,ja
+332600590,29/08/2024,10:00:00,50.800497,4.070376,23250,0,False,,,,,I_1755_4,crayfish indet,I_1755_4,otgzymmz,,
+,30/08/2024,,,,,0,False,,,,,I_1755_4,crayfish indet,I_1755_4,otgzymmz,,
+,31/08/2024,,,,,0,False,,,,,I_1755_4,crayfish indet,I_1755_4,otgzymmz,,
+,01/09/2024,,,,,0,False,,,,,I_1755_4,crayfish indet,I_1755_4,otgzymmz,,
+332600748,15/10/2024,17:00:00,50.819041,4.054607,24149,0,False,,,,,I_9402_1,crayfish indet,I_9402_1,otgzymmz,,
+,16/10/2024,,,,,0,False,,,,,I_9402_1,crayfish indet,I_9402_1,otgzymmz,,
+,17/10/2024,,,,,0,False,,,,,I_9402_1,crayfish indet,I_9402_1,otgzymmz,,
+,18/10/2024,,,,,0,False,,,,,I_9402_1,crayfish indet,I_9402_1,otgzymmz,,
 332600905,22/10/2024,17:00:00,50.807927,3.953134,27528,0,False,,,,,I_9506_3,crayfish indet,I_9506_3,otgzymmz,,ja
-,,,,,,,,,,,,,,,,,
+,23/10/2024,,,,,0,False,,,,,I_9506_3,crayfish indet,I_9506_3,otgzymmz,,
+,24/10/2024,,,,,0,False,,,,,I_9506_3,crayfish indet,I_9506_3,otgzymmz,,
+,25/10/2024,,,,,0,False,,,,,I_9506_3,crayfish indet,I_9506_3,otgzymmz,,
 327631460,8/09/2024,19:14:00,51.169999,2.962257,24027,0,True,,,val 3,Nee,I-8470-1,crayfish indet,I_8470_1,otm1mzuw,,
 327630263,9/09/2024,17:02:00,51.17002,2.961974,24027,1,True,Stromend water,"groot, heel actief","brede hoge rietkraag/oever met houten schoeiwerk en doek, val 2/ dode, aangevreten kleine pos vast in net",Nee,I-8470-1,faxonius limosus,I_8470_1,otm1mzuw,"Waarneming twee maal ingegeven, dubbele verwijderd",
 327706874,10/09/2024,17:57:00,51.169991,2.962068,24027,1,True,Stromend water,,brede hoge rietkraag/oever met houten schoeiwerk en doek,Nee,I-8470-1,faxonius limosus,I_8470_1,otm1mzuw,,
@@ -1663,7 +1690,7 @@ NA,28/08/2024,9:00:00,51.336078,4.653667,29251,0,False,Stilstaand water,,een pal
 330147892,4/10/2024,,51.035639,3.849363,28800,0,False,,,,Ja,V_9270_4,crayfish indet,V_9270_4,ztezzjnh,,
 326393747,29/08/2024,17:30:00,51.048664,4.783235,23292,0,False,,,,,I_2221_2,crayfish indet,I_2221_2,ztfhota2,,
 326394086,30/08/2024,17:00:00,51.0484,4.78325,23292,0,False,Stromend water,,,Ja,I_2221_2,crayfish indet,I_2221_2,ztfhota2,,
-327028640,31/08/2024,10:00:00,51.048559,4.783175,23292,1,False,Stromend water,,,,I_2221_2,crayfish indet,I_2221_2,ztfhota2,,ja
+327028640,31/08/2024,10:00:00,51.048559,4.783175,23292,0,False,Stromend water,,,,I_2221_2,crayfish indet,I_2221_2,ztfhota2,"Aantal fout ingegeven, via mail bevestigd",
 327029346,1/09/2024,12:00:00,51.048385,4.783155,23292,0,False,Stromend water,,,,I_2221_2,crayfish indet,I_2221_2,ztfhota2,,
 327030017,2/09/2024,12:00:00,51.048587,4.783155,23292,0,False,Stromend water,,,,I_2221_2,crayfish indet,I_2221_2,ztfhota2,,
 329882569,16/09/2024,12:00:00,51.102223,4.832141,29005,0,False,Stromend water,,,,II_2260_1,crayfish indet,I_2260_1,ztfhota2,,
