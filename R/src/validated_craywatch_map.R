@@ -1,27 +1,10 @@
 #R - libraries
-install.packages("ggspatial")
 library(ggspatial)
 library(sf)
-library(leaflet)
 library(tidyverse)
 library(dplyr)
-library(vecsets)
-library(readr)
-library(raster)
-library(svDialogs)
-library(rgbif)
-library(yarrr)
-library(inborutils)
-library(httr)
-library(ows4R)
-library(lwgeom)
 library(scales)
-library(rgeos)
-library(maps)
 library(osmdata)
-library(dplyr)  # or magrittr
-
-library(sf)
 library(ggplot2)
 
 # Load the CSV file
@@ -42,9 +25,9 @@ craywatch_sf <- st_as_sf(craywatch_data_clean, coords = c("Longitude", "Latitude
 
 
 # Read individual shapefiles
-vlaanderen <- st_read("~/GitHub/craywatch/R/data/observations/data_validation/input/shapefiles/grenzenvlaanderen.shp")
-hoofdrivieren <- st_read("~/GitHub/craywatch/R/data/observations/data_validation/input/shapefiles/hoofdrivieren.shp")
-kanalen <- st_read("~/GitHub/craywatch/R/data/observations/data_validation/input/shapefiles/kanalen.shp")
+vlaanderen <- st_read("~/GitHub/craywatch/R/data/input/shapefiles/grenzenvlaanderen.shp")
+hoofdrivieren <- st_read("~/GitHub/craywatch/R/data/input/shapefiles/hoofdrivieren.shp")
+kanalen <- st_read("~/GitHub/craywatch/R/data/input/shapefiles/kanalen.shp")
 
 sf_use_s2(FALSE)
 
@@ -53,10 +36,6 @@ sf_use_s2(FALSE)
 #flanders_provincies <- provincies %>%
 #  filter(PROVNAAM %in% c("Antwerpen", "Limburg", "Oost-Vlaanderen", "Vlaams-Brabant", "West-Vlaanderen"))
 
-
-library(osmdata)
-library(ggplot2)
-library(sf)
 
 base_plot <- ggplot() +
   geom_sf(data = vlaanderen, fill= "#98AF93", size=0.2, colour= "black") +
@@ -68,9 +47,7 @@ base_plot <- ggplot() +
         legend.key.size = unit(0.2, "cm"),
         legend.position = "bottom",
         plot.title= element_text(face = "italic")) +
-  coord_sf() +
-  annotation_north_arrow(location = "tr", which_north = "true", 
-                         style = north_arrow_fancy_orienteering)  # Voeg noordpijl toe rechtsboven
+  coord_sf()
 
 # Define a color palette for species
 species_colors <- c("faxonius limosus" = "#FFD700",
