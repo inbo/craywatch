@@ -53,7 +53,6 @@ str(grouped_craywatch_data)
 # Filter the data we want to use
 craywatch_data_filtered <- grouped_craywatch_data %>%
   filter(!is.na(Longitude) & !is.na(Latitude)) %>%
-  filter(!(species == "absent" & consecutive == FALSE)) %>%  # Exclude rows where species is "absent" and consecutive is FALSE
   filter(!(species == "absent" & number_of_days < 4))  # Exclude rows where species is "absent" and number_of_days < 4
 
 craywatch_sf <- st_as_sf(craywatch_data_filtered, coords = c("Longitude", "Latitude"), crs = 4326)
