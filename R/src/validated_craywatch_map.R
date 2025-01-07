@@ -50,6 +50,12 @@ head(grouped_craywatch_data) # Show the first few rows of the data
 # Inspect the structure of the dataset to check for lat/long columns
 str(grouped_craywatch_data)
 
+# Nagaan hoeveel mensen exact het protocol volgden
+protocol_followers <- grouped_craywatch_data %>%
+  filter(number_of_days == 4 & consecutive == "TRUE") # locaties waar er exact 4 na elkaar dagen gecontroleerd is
+
+n_distinct(protocol_followers$vrijwillID)
+
 # Filter the data we want to use
 craywatch_data_filtered <- grouped_craywatch_data %>%
   filter(!is.na(Longitude) & !is.na(Latitude)) %>%
