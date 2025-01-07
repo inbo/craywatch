@@ -111,6 +111,6 @@ ggsave(species_plot, file = "~/GitHub/craywatch/R/data/output/validated_craywatc
        width = 15, height = 6.4, units = "cm", dpi = 200)
 
 # Print the number of points included after filtering
-num_points <- nrow(craywatch_data_clean)
+num_points <- nrow(craywatch_data_filtered)
 print(paste("Number of points included in the map:", num_points))
 
