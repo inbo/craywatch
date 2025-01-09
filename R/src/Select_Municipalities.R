@@ -107,6 +107,8 @@ localities_2025 <- read.csv("../assets/localities.csv") %>%
   st_intersection(gemeenten_2025)
 
 write.csv(localities_2025, "./data/output/SelectedMunic/localities_2025.csv", row.names = FALSE)
+
+
  
 
 
