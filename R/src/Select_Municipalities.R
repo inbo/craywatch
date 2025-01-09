@@ -1,3 +1,16 @@
+# ====================================================
+# Scriptnaam: Select_Municipalities.R
+# Auteur: Frédérique Steen
+# Datum: 09-01-2025
+# Beschrijving: 
+#   Dit script maakt het mogelijk om gemeenten (polygonen) 
+#   te selecteren op kaart in een shiny app met de ggplot
+#   van de verspreiding 2025 als achtergrond. De selectie
+#   resulteert in een shape die gebruikt wordt om een subset 
+#   van localiteiten te maken
+# ====================================================
+
+
 #R - libraries
 library(ggspatial)
 library(sf)
