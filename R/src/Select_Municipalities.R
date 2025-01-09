@@ -10,10 +10,17 @@ library(tidyr)
 library(lubridate)
 library(shiny)
 
+#Based on output from this script, the user can select polygons on the map and save them as a shapefile.
+
+##### 1. Selecteer gemeenten
 
 # Laad data (species_plot & gemeenten shape)
 gemeenten <- st_read("~/GitHub/craywatch/R/data/input/shapefiles/gemeenten.shp")
-species_plot <- readRDS("path/to/species_plot.rds")
+species_plot <- readRDS("./data/output/SelectedMunic/species_plot.rds")
+vlaanderen <- st_read("~/GitHub/craywatch/R/data/input/shapefiles/grenzenvlaanderen.shp")
+riparias <- st_read("~/GitHub/craywatch/R/data/input/shapefiles/riparias.shp") %>%
+  st_intersection(vlaanderen)  # Beperk tot Vlaanderen
+
 
 
 # UI voor Shiny app
@@ -45,7 +52,8 @@ server <- function(input, output, session) {
     
     # Combineer species_plot met polygonen
     species_plot +
-      geom_sf(data = gemeenten, aes(fill = selected), color = "black", alpha = 0.5) +  # Polygonen transparant
+      geom_sf(data = gemeenten, aes(fill = selected), color = "black", fill = NA) +  # Alleen lijnen zichtbaar
+      geom_sf(data = riparias, color = "red", fill = NA, linewidth = 2) +  # Outline van riparias
       scale_fill_manual(values = c("FALSE" = "transparent", "TRUE" = "red")) +
       labs(fill = "Geselecteerd") +
       theme_minimal()  # Houd de kaart overzichtelijk
@@ -89,3 +97,18 @@ server <- function(input, output, session) {
 
 # Start de app
 shinyApp(ui, server)
+
+    
+#2. Maak intersect met de localities.csv
+gemeenten_2025 <- st_read("./data/output/SelectedMunic/SelectedMunic.shp")
+localities_2025 <- read.csv("../assets/localities.csv") %>%
+  st_as_sf(coords = c("Longitude", "Latitude"), crs = 4326) %>%
+  st_transform(st_crs(gemeenten_2025)) %>%
+  st_intersection(gemeenten_2025)
+ 
+
+
+           
+           
+           
+           
