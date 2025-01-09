@@ -190,8 +190,8 @@ cat1_waterlopen_in_vlaanderen <- st_intersection(cat1_waterlopen, vlaanderen)
 cat1_plot <- ggplot() +
   geom_sf(data = vlaanderen, fill= "#98AF93", size=0.2, colour= "black") +
   geom_sf(data = gemeenten_in_vlaanderen, size=0.1, colour="grey")+
-#  geom_sf(data = hoofdrivieren_in_vlaanderen, size=0.1, colour="#4682B4")+
-#  geom_sf(data = kanalen_in_vlaanderen, size=0.1, colour="#4682B4")+
+  geom_sf(data = hoofdrivieren_in_vlaanderen, size=0.1, colour="#ADD8E6")+
+  geom_sf(data = kanalen_in_vlaanderen, size=0.1, colour="#ADD8E6")+
   geom_sf(data = cat1_waterlopen_in_vlaanderen, size=0.1, colour="#4682B4")+
   theme_void() +
   theme(legend.title = element_blank(), 
