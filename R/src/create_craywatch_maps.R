@@ -1,3 +1,12 @@
+# ====================================================
+# Scriptnaam: create_craywatch_maps.R
+# Auteur: Margot Vermeylen
+# Datum: 09-01-2025
+# Beschrijving: 
+# Dit script genereert twee Craywatch kaarten met de absence/presence waarnemingen van 2024
+# Het script genereert ook de input voor Select_municipalities
+# ====================================================
+
 #R - libraries
 library(ggspatial)
 library(sf)

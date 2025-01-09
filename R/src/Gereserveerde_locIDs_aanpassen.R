@@ -1,3 +1,12 @@
+# ====================================================
+# Scriptnaam: Gereserveerde_locIDs_aanpassen.R
+# Auteur: Margot Vermeylen
+# Datum: 07-01-2025
+# Beschrijving: 
+#   Dit script heeft de file localities.csv aangepast na het 2024 Craywatch seizoen.
+#   Hierdoor stonden enkel de punten waarvan er bruikbare data was op TRUE.
+# ====================================================
+
 # lees csv
 localities <- read.csv("~/GitHub/craywatch/assets/localities.csv")
 

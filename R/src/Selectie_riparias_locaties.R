@@ -1,3 +1,12 @@
+# ====================================================
+# Scriptnaam: Selectie_riparias_locaties.R
+# Auteur: Margot Vermeylen
+# Datum: 08-01-2025
+# Beschrijving: 
+#   Dit script maakt een subset van de locaties die in 2025 
+#   bemonsterd zouden kunnen worden en die in Riparias gebied liggen
+# ====================================================
+
 library(sf)
 library(dplyr)
 
@@ -6,7 +15,7 @@ vlaanderen <- st_read("~/GitHub/craywatch/R/data/input/shapefiles/grenzenvlaande
 riparias <- st_read("~/GitHub/craywatch/R/data/input/shapefiles/riparias.shp")
 
 # data lezen
-locaties_2025 <- read.csv("~/GitHub/craywatch/assets/open_locations.csv")
+locaties_2025 <- read.csv("~/GitHub/craywatch/R/data/output/locations/open_locations.csv")
 
 colnames(locaties_2025)
 
@@ -44,5 +53,5 @@ locaties_in_riparias_wgs84_df <- st_drop_geometry(locaties_in_riparias_wgs84)
 head(locaties_in_riparias_wgs84_df)
 
 # Exporteer de dataset (optioneel)
-write.csv(locaties_in_riparias_wgs84_df, "~/GitHub/craywatch/assets/locaties_in_riparias.csv", row.names = FALSE)
+write.csv(locaties_in_riparias_wgs84_df, "~/GitHub/craywatch/R/data/output/locations/locaties_in_riparias.csv", row.names = FALSE)
 
