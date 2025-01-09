@@ -12,15 +12,8 @@
 
 
 #R - libraries
-library(ggspatial)
 library(sf)
-library(tidyverse)
-library(dplyr)
-library(scales)
-library(osmdata)
 library(ggplot2)
-library(tidyr)
-library(lubridate)
 library(shiny)
 
 #Based on output from this script, the user can select polygons on the map and save them as a shapefile.
