@@ -105,6 +105,8 @@ localities_2025 <- read.csv("../assets/localities.csv") %>%
   st_as_sf(coords = c("Longitude", "Latitude"), crs = 4326) %>%
   st_transform(st_crs(gemeenten_2025)) %>%
   st_intersection(gemeenten_2025)
+
+write.csv(localities_2025, "./data/output/SelectedMunic/localities_2025.csv", row.names = FALSE)
  
 
 
