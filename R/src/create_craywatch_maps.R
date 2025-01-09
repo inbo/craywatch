@@ -93,7 +93,7 @@ sf_use_s2(FALSE)
 
 # Make plot
 base_plot <- ggplot() +
-  geom_sf(data = vlaanderen, fill= "#98AF93", size=0.2, colour= "black") +
+  geom_sf(data = vlaanderen, fill= "lightgrey", size=0.2, colour= "black") +
   geom_sf(data = hoofdrivieren_in_vlaanderen, size=0.1, colour="#4682B4")+
   geom_sf(data = kanalen_in_vlaanderen, size=0.1, colour="#4682B4")+
   theme_void() +
@@ -121,7 +121,7 @@ gemeente_plot <- ggplot() +
 # Define a color palette for species
 species_colors <- c("faxonius limosus" = "#FFD700",
                     "procambarus clarkii" = "#FF0000", "procambarus virginalis" = "#FF00FF",
-                    "faxonius virilis" = "#FFA500", "procambarus acutus" = "#000000", "absent" = "lightgrey")
+                    "faxonius virilis" = "#FFA500", "procambarus acutus" = "#000000", "absent" = "darkgrey")
 
 # Update the legend labels for species with italic formatting
 species_labels <- c( "faxonius limosus" = expression(italic("Faxonius limosus")),
@@ -169,3 +169,37 @@ print(paste("Number of points included in the map:", num_points))
 
 # Sla finale Craywatch data op als een CSV-bestand
 write.csv(craywatch_data_usable, "~/GitHub/craywatch/R/data/output/final_craywatch_data_2024.csv", row.names = FALSE)
+
+# ===================================================================================================================
+## Make plot of observations in cat 1 waterways
+# read data
+final_craywatch_data <- read.csv("~/GitHub/craywatch/R/data/output/final_craywatch_data_2024.csv")
+localities <- read.csv("~/GitHub/craywatch/assets/localities.csv")
+
+# filter locations done in cat1
+cat1_locations <- localities %>%
+  filter(isReserved == TRUE & !is.na(CATC) & CATC == 1)
+
+# filter cat1 locations out of the craywatch observations
+cat1_observations <- final_craywatch_data %>%
+  filter(locID %in% cat1_locations$locID)
+
+craywatch_cat1_sf <- st_as_sf(cat1_observations, coords = c("Longitude", "Latitude"), crs = 4326)
+
+# Separate the data for absence and presence
+crayfish_indet_cat1_sf <- craywatch_cat1_sf %>% filter(species == "absent")
+other_species_cat1_sf <- craywatch_cat1_sf %>% filter(species != "absent")
+
+# Plot on the gemeente map
+species_plot_cat1 <- gemeente_plot +
+  geom_sf(data = crayfish_indet_cat1_sf, aes(color = species), size = 1) +  # lightgrey (absence) points
+  geom_sf(data = other_species_cat1_sf, aes(color = species), size = 1) +   # other species points
+  color_scale  # Apply the color scale based on species
+
+# Print the number of observations included
+num_points <- nrow(cat1_observations)
+print(paste("Number of points in cat1:", num_points))
+
+# Save the plot
+ggsave(species_plot_cat1, file = "~/GitHub/craywatch/R/data/output/craywatch_maps/cat1_craywatch_map.png", 
+       width = 15, height = 6.4, units = "cm", dpi = 200)
