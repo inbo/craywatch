@@ -67,21 +67,38 @@ craywatch_sf <- st_as_sf(craywatch_data_usable, coords = c("Longitude", "Latitud
 vlaanderen <- st_read("~/GitHub/craywatch/R/data/input/shapefiles/grenzenvlaanderen.shp")
 hoofdrivieren <- st_read("~/GitHub/craywatch/R/data/input/shapefiles/hoofdrivieren.shp")
 kanalen <- st_read("~/GitHub/craywatch/R/data/input/shapefiles/kanalen.shp")
+gemeenten <- st_read("~/GitHub/craywatch/R/data/input/shapefiles/gemeenten.shp")
 
 # Zorg dat alle shapefiles dezelfde CRS hebben
 vlaanderen <- st_transform(vlaanderen, st_crs(hoofdrivieren))
 hoofdrivieren <- st_transform(hoofdrivieren, st_crs(vlaanderen))
 kanalen <- st_transform(kanalen, st_crs(vlaanderen))
+gemeenten <- st_transform(gemeenten, st_crs(vlaanderen))
 
 # Clip de shapefiles tot de grenzen van Vlaanderen
 hoofdrivieren_in_vlaanderen <- st_intersection(hoofdrivieren, vlaanderen)
 kanalen_in_vlaanderen <- st_intersection(kanalen, vlaanderen)
+gemeenten_in_vlaanderen <- st_intersection(gemeenten, vlaanderen)
 
 sf_use_s2(FALSE)
 
 # Make plot
 base_plot <- ggplot() +
   geom_sf(data = vlaanderen, fill= "#98AF93", size=0.2, colour= "black") +
+  geom_sf(data = hoofdrivieren_in_vlaanderen, size=0.1, colour="#4682B4")+
+  geom_sf(data = kanalen_in_vlaanderen, size=0.1, colour="#4682B4")+
+  theme_void() +
+  theme(legend.title = element_blank(), 
+        legend.text=element_text(size=8, face="italic"), 
+        legend.key.size = unit(0.2, "cm"),
+        legend.position = "bottom",
+        plot.title= element_text(face = "italic")) +
+  coord_sf()
+
+# Make plot
+gemeente_plot <- ggplot() +
+  geom_sf(data = vlaanderen, fill= "#98AF93", size=0.2, colour= "black") +
+  geom_sf(data = gemeenten_in_vlaanderen, size=0.1, colour="grey")+
   geom_sf(data = hoofdrivieren_in_vlaanderen, size=0.1, colour="#4682B4")+
   geom_sf(data = kanalen_in_vlaanderen, size=0.1, colour="#4682B4")+
   theme_void() +
@@ -119,14 +136,27 @@ species_plot <- base_plot +
   geom_sf(data = other_species_sf, aes(color = species), size = 1) +   # other species points
   color_scale  # Apply the color scale based on species
 
+# Plot 'crayfish.indet' (absence) points first, then other species
+species_plot_gemeente <- gemeente_plot +
+  geom_sf(data = crayfish_indet_sf, aes(color = species), size = 1) +  # lightgrey (absence) points
+  geom_sf(data = other_species_sf, aes(color = species), size = 1) +   # other species points
+  color_scale  # Apply the color scale based on species
 
 # Save the plot
-ggsave(species_plot, file = "~/GitHub/craywatch/R/data/output/validated_craywatch_map.png", 
+ggsave(species_plot, file = "~/GitHub/craywatch/R/data/output/craywatch_maps/validated_craywatch_map.png", 
        width = 15, height = 6.4, units = "cm", dpi = 200)
 
+# Save the plot
+ggsave(species_plot_gemeente, file = "~/GitHub/craywatch/R/data/output/craywatch_maps/validated_craywatch_map_gemeenten.png", 
+       width = 15, height = 6.4, units = "cm", dpi = 200)
+
+# Sla het ggplot-object op
+dir.create("./data/output/SelectedMunic", showWarnings = FALSE, recursive = TRUE)
+saveRDS(species_plot_gemeente, "./data/output/SelectedMunic/species_plot.rds")
+
 # Print the number of points included after filtering
-num_points <- nrow(craywatch_data_filtered)
+num_points <- nrow(craywatch_data_usable)
 print(paste("Number of points included in the map:", num_points))
 
 # Sla finale Craywatch data op als een CSV-bestand
-write.csv(craywatch_data_usable, "~/GitHub/craywatch/R/data/output/finale_craywatch_data_2024.csv", row.names = FALSE)
+write.csv(craywatch_data_usable, "~/GitHub/craywatch/R/data/output/final_craywatch_data_2024.csv", row.names = FALSE)
