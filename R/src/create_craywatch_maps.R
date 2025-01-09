@@ -176,6 +176,31 @@ write.csv(craywatch_data_usable, "~/GitHub/craywatch/R/data/output/final_craywat
 final_craywatch_data <- read.csv("~/GitHub/craywatch/R/data/output/final_craywatch_data_2024.csv")
 localities <- read.csv("~/GitHub/craywatch/assets/localities.csv")
 
+# shapefile inlezen
+waterlopen <- st_read("~/GitHub/craywatch/R/data/input/shapefiles/vhaCattraj.shp")
+
+# cat1 waterlopen er uit halen
+cat1_waterlopen <- waterlopen %>%
+  filter(CATC == 1)
+
+cat1_waterlopen <- st_transform(cat1_waterlopen, st_crs(vlaanderen))
+cat1_waterlopen_in_vlaanderen <- st_intersection(cat1_waterlopen, vlaanderen)
+
+# Make plot
+cat1_plot <- ggplot() +
+  geom_sf(data = vlaanderen, fill= "#98AF93", size=0.2, colour= "black") +
+  geom_sf(data = gemeenten_in_vlaanderen, size=0.1, colour="grey")+
+#  geom_sf(data = hoofdrivieren_in_vlaanderen, size=0.1, colour="#4682B4")+
+#  geom_sf(data = kanalen_in_vlaanderen, size=0.1, colour="#4682B4")+
+  geom_sf(data = cat1_waterlopen_in_vlaanderen, size=0.1, colour="#4682B4")+
+  theme_void() +
+  theme(legend.title = element_blank(), 
+        legend.text=element_text(size=8, face="italic"), 
+        legend.key.size = unit(0.2, "cm"),
+        legend.position = "bottom",
+        plot.title= element_text(face = "italic")) +
+  coord_sf()
+
 # filter locations done in cat1
 cat1_locations <- localities %>%
   filter(isReserved == TRUE & !is.na(CATC) & CATC == 1)
@@ -191,7 +216,7 @@ crayfish_indet_cat1_sf <- craywatch_cat1_sf %>% filter(species == "absent")
 other_species_cat1_sf <- craywatch_cat1_sf %>% filter(species != "absent")
 
 # Plot on the gemeente map
-species_plot_cat1 <- gemeente_plot +
+species_plot_cat1 <- cat1_plot +
   geom_sf(data = crayfish_indet_cat1_sf, aes(color = species), size = 1) +  # lightgrey (absence) points
   geom_sf(data = other_species_cat1_sf, aes(color = species), size = 1) +   # other species points
   color_scale  # Apply the color scale based on species
