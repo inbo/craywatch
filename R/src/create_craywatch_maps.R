@@ -4,6 +4,7 @@
 # Datum: 09-01-2025
 # Beschrijving: 
 # Dit script genereert twee Craywatch kaarten met de absence/presence waarnemingen van 2024
+# en een kaart met de Craywatch punten bemonsterd in cat 1 waterlopen
 # Het script genereert ook de input voor Select_municipalities
 # ====================================================
 
@@ -94,8 +95,8 @@ sf_use_s2(FALSE)
 # Make plot
 base_plot <- ggplot() +
   geom_sf(data = vlaanderen, fill= "lightgrey", size=0.2, colour= "black") +
-  geom_sf(data = hoofdrivieren_in_vlaanderen, size=0.1, colour="#4682B4")+
-  geom_sf(data = kanalen_in_vlaanderen, size=0.1, colour="#4682B4")+
+  geom_sf(data = hoofdrivieren_in_vlaanderen, size=0.1, colour="#6BA1D3")+
+  geom_sf(data = kanalen_in_vlaanderen, size=0.1, colour="#6BA1D3")+
   theme_void() +
   theme(legend.title = element_blank(), 
         legend.text=element_text(size=8, face="italic"), 
@@ -108,8 +109,8 @@ base_plot <- ggplot() +
 gemeente_plot <- ggplot() +
   geom_sf(data = vlaanderen, fill= "#98AF93", size=0.2, colour= "black") +
   geom_sf(data = gemeenten_in_vlaanderen, size=0.1, colour="grey")+
-  geom_sf(data = hoofdrivieren_in_vlaanderen, size=0.1, colour="#4682B4")+
-  geom_sf(data = kanalen_in_vlaanderen, size=0.1, colour="#4682B4")+
+  geom_sf(data = hoofdrivieren_in_vlaanderen, size=0.1, colour="#6BA1D3")+
+  geom_sf(data = kanalen_in_vlaanderen, size=0.1, colour="#6BA1D3")+
   theme_void() +
   theme(legend.title = element_blank(), 
         legend.text=element_text(size=8, face="italic"), 
@@ -131,9 +132,19 @@ species_labels <- c( "faxonius limosus" = expression(italic("Faxonius limosus"))
                      "procambarus acutus" = expression(italic("Procambarus acutus")), 
                      "absent" = expression(italic("Absence")))
 
+# Update the legend labels for species in Dutch 
+species_labels_dutch <- c( "faxonius limosus" = expression("gevlekte Amerikaanse rivierkreeft"),
+                     "procambarus clarkii" = expression("rode Amerikaanse rivierkreeft"), 
+                     "procambarus virginalis" = expression("marmerkreeft"), 
+                     "faxonius virilis" = expression("geknobbelde Amerikaanse rivierkreeft"), 
+                     "procambarus acutus" = expression("gestreepte Amerikaanse rivierkreeft"), 
+                     "absent" = expression("afwezigheid"))
 
 # Create a color scale with updated labels
 color_scale <- scale_color_manual(values = species_colors, labels = species_labels)
+
+# Create a color scale with updated labels in Dutch
+color_scale_dutch <- scale_color_manual(values = species_colors, labels = species_labels_dutch)
 
 # Separate the data for 'crayfish.indet' (absence) and other species
 crayfish_indet_sf <- craywatch_sf %>% filter(species == "absent")
@@ -145,18 +156,28 @@ species_plot <- base_plot +
   geom_sf(data = other_species_sf, aes(color = species), size = 1) +   # other species points
   color_scale  # Apply the color scale based on species
 
-# Plot 'crayfish.indet' (absence) points first, then other species
+# Plot craywatch map with municipalities
 species_plot_gemeente <- gemeente_plot +
   geom_sf(data = crayfish_indet_sf, aes(color = species), size = 1) +  # lightgrey (absence) points
   geom_sf(data = other_species_sf, aes(color = species), size = 1) +   # other species points
   color_scale  # Apply the color scale based on species
 
+# Plot craywatch map with municipalities
+species_plot_dutch <- gemeente_plot +
+  geom_sf(data = crayfish_indet_sf, aes(color = species), size = 1) +  # lightgrey (absence) points
+  geom_sf(data = other_species_sf, aes(color = species), size = 1) +   # other species points
+  color_scale_dutch  # Apply the color scale based on species
+
 # Save the plot
 ggsave(species_plot, file = "~/GitHub/craywatch/R/data/output/craywatch_maps/validated_craywatch_map.png", 
        width = 15, height = 6.4, units = "cm", dpi = 200)
 
-# Save the plot
+# Save the plot (gemeente)
 ggsave(species_plot_gemeente, file = "~/GitHub/craywatch/R/data/output/craywatch_maps/validated_craywatch_map_gemeenten.png", 
+       width = 15, height = 6.4, units = "cm", dpi = 200)
+
+# Save the plot (Dutch)
+ggsave(species_plot_dutch, file = "~/GitHub/craywatch/R/data/output/craywatch_maps/validated_craywatch_map_dutch.png", 
        width = 15, height = 6.4, units = "cm", dpi = 200)
 
 # Sla het ggplot-object op
