@@ -54,11 +54,11 @@ server <- function(input, output, session) {
   
   # Combineer species_plot en polygonen
   output$map <- renderPlot({
-    gemeenten$selected <- selected()  # Voeg selectie toe aan dataset
+    gemeenten$selected <- as.character(selected())  # Voeg selectie toe als string waarden
     
     # Combineer species_plot met polygonen
     species_plot +
-      geom_sf(data = gemeenten, aes(fill = selected), color = "black", fill = NA) +  # Alleen lijnen zichtbaar
+      geom_sf(data = gemeenten, aes(fill = selected), color = "black", lwd = 0.2) +  # Vul polygonen met kleuren
       geom_sf(data = riparias, color = "red", fill = NA, linewidth = 2) +  # Outline van riparias
       scale_fill_manual(values = c("FALSE" = "transparent", "TRUE" = "red")) +
       labs(fill = "Geselecteerd") +
@@ -104,7 +104,7 @@ server <- function(input, output, session) {
 # Start de app
 shinyApp(ui, server)
 
-    
+
 #2. Maak intersect met de localities.csv
 gemeenten_2025 <- st_read("./data/output/SelectedMunic/SelectedMunic.shp")
 localities_2025 <- read.csv("../assets/localities.csv") %>%
@@ -113,12 +113,3 @@ localities_2025 <- read.csv("../assets/localities.csv") %>%
   st_intersection(gemeenten_2025)
 
 write.csv(localities_2025, "./data/output/SelectedMunic/localities_2025.csv", row.names = FALSE)
-
-
- 
-
-
-           
-           
-           
-           
