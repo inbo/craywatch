@@ -107,7 +107,7 @@ shinyApp(ui, server)
 
 #2. Maak intersect met de localities.csv
 gemeenten_2025 <- st_read("./data/output/SelectedMunic/SelectedMunic.shp")
-localities_2025 <- read.csv("../assets/localities.csv") %>%
+localities_2025 <- read.csv("~/GitHub/craywatch/assets/localities.csv") %>%
   st_as_sf(coords = c("Longitude", "Latitude"), crs = 4326) %>%
   st_transform(st_crs(gemeenten_2025)) %>%
   st_intersection(gemeenten_2025)
