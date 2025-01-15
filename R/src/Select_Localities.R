@@ -6,7 +6,7 @@ library(lwgeom)
 
 #####LAAD DE KML DATA EN MAAK KLAAR VOOR UPDATE ###############################
 # Bestandspad naar de KML-file
-kml_file <- "./data/input/localities.kml"
+kml_file <- "./data/input/localities_2025.kml"
 
 # Lezen van de KML-bestand
 kml_data <- st_read(kml_file)
@@ -354,11 +354,39 @@ if (nrow(duplicate_locIDs) > 0) {
 
 ######################### Save als een csv bestand############################## 
 # Definieer het pad naar het CSV-bestand
-csv_path <- "../assets/localities.csv"
+csv_path <- "~/GitHub/craywatch/R/data/output/localities_2025_updated"
 
 # Schrijf kml_data naar een CSV-bestand
 write.csv(kml_data, file = csv_path, row.names = FALSE, sep = ",", dec = ".")
 
-print("CSV file successfully saved.")
+print("subset CSV file successfully saved.")
 
+########################update volledig localities file#########################
+#lees de oude localities csv in
+localities_full <- read.csv("~/GitHub/craywatch/assets/localities.csv", stringsAsFactors = FALSE)
 
+#lees de 2025 subset in
+localities_2025 <- read.csv("~/GitHub/craywatch/R/data/output/localities_2025_updated", stringsAsFactors = FALSE)
+
+# Behoud alleen kolommen die in localities_full voorkomen
+localities_2025_cleaned <- localities_2025 %>%
+  select(all_of(colnames(localities_full)))
+
+#zorg dat het type van IsReserved gelijk is in beide datasets
+localities_2025_cleaned <- localities_2025_cleaned %>%
+  mutate(
+    isReserved = as.logical(isReserved),  
+    updateRes = as.logical(updateRes)     
+  )
+
+# Zorg ervoor dat de kolomnamen overeenkomen
+stopifnot(all(colnames(localities_full) %in% colnames(localities_2025_cleaned)))
+
+# Pas de wijzigingen van de subset toe aan de volledige file
+localities_updated <- localities_full %>%
+  rows_update(localities_2025_cleaned, by = "locID")
+
+# Sla de geupdate volledige dataset op
+write.csv(localities_updated, "~/GitHub/craywatch/assets/localities.csv", row.names = FALSE, sep = ",", dec = ".")
+
+print("full CSV file successfully saved.")
