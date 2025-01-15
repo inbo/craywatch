@@ -354,7 +354,7 @@ if (nrow(duplicate_locIDs) > 0) {
 
 ######################### Save als een csv bestand############################## 
 # Definieer het pad naar het CSV-bestand
-csv_path <- "~/GitHub/craywatch/R/data/output/localities_2025_updated"
+csv_path <- "~/GitHub/craywatch/R/data/output/localities_2025_updated.csv"
 
 # Schrijf kml_data naar een CSV-bestand
 write.csv(kml_data, file = csv_path, row.names = FALSE, sep = ",", dec = ".")
@@ -366,17 +366,23 @@ print("subset CSV file successfully saved.")
 localities_full <- read.csv("~/GitHub/craywatch/assets/localities.csv", stringsAsFactors = FALSE)
 
 #lees de 2025 subset in
-localities_2025 <- read.csv("~/GitHub/craywatch/R/data/output/localities_2025_updated", stringsAsFactors = FALSE)
+localities_2025 <- read.csv("~/GitHub/craywatch/R/data/output/localities_2025_updated.csv", stringsAsFactors = FALSE)
 
 # Behoud alleen kolommen die in localities_full voorkomen
 localities_2025_cleaned <- localities_2025 %>%
   select(all_of(colnames(localities_full)))
 
-#zorg dat het type van IsReserved gelijk is in beide datasets
+# Zorg dat de kolommen van hetzelfde type zijn
+localities_full <- localities_full %>%
+  mutate(
+    isReserved = as.character(isReserved),
+    updateRes = as.character(updateRes)
+  )
+
 localities_2025_cleaned <- localities_2025_cleaned %>%
   mutate(
-    isReserved = as.logical(isReserved),  
-    updateRes = as.logical(updateRes)     
+    isReserved = as.character(isReserved),
+    updateRes = as.character(updateRes)
   )
 
 # Zorg ervoor dat de kolomnamen overeenkomen
