@@ -9,6 +9,14 @@ output:
     default: true
 ---
 
+<style>
+body {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Calibri, sans-serif;
+}
+</style>
 
 ```{r setup, include=FALSE}
 # Suppress messages and warnings and prevent output display
@@ -29,77 +37,99 @@ Het Craywatch project was een enorm succes en dit is volledig aan jullie te dank
 
 
 <div style="text-align: center;">
-```{r Includeimage1, echo=FALSE, out.width="15%", fig.align='center'}
+```{r Includeimage1, echo=FALSE, out.width="30%", fig.align='center'}
 knitr::include_graphics("~/GitHub/craywatch/assets/images/happy_holidays_crayfish.webp")
 ```
 </div>
 
 
-### Een aantal leuke cijfers
-- De afgelopen maanden schreven 422 mensen zich in voor Craywatch. We krijgen zelfs nu nog nieuwe aanmeldingen binnen! We ontvingen van 193 unieke deelnemers waarnemingen van in totaal niet minder dan 456 locaties.
+### Een aantal cijfers
+- Maar liefst 422 personen schreven zich in voor Craywatch. Ook nu nog zijn er nieuwe aanmeldingen! 
 
-- Op al die locaties werden in totaal 1536 kreeften gevangen.
+- Van maar liefst 193 deelnemers ontvingen we data van **456 locaties** verspreid over Vlaanderen.
 
-- De rode Amerikaanse rivierkreeft werd met 977 individuen het vaakst gevangen. Daarnaast werden er 221 gestreepte en 192 gevlekte Amerikaanse rivierkreeften opgevist. Ook 125 marmerkreeften en 21 geknobbelde Amerikaanse rivierkreeften werden via Craywatch geregistreerd.
+- Op deze locaties werden in totaal **1536 kreeften** gevangen.
 
-- Sommige regio's in Vlaanderen telden meer vrijwilligers dan andere. Hier kun je per provincie zien hoeveel locaties werden bemonsterd:
+- De rode Amerikaanse rivierkreeft werd met 977 individuen het vaakst gevangen. Daarnaast werden er 221 gestreepte en 192 gevlekte Amerikaanse rivierkreeften opgevist. Ook 125 marmerkreeften en 21 geknobbelde Amerikaanse rivierkreeften werden geregistreerd.
+
+- Sommige provincies telden meer vrijwilligers dan andere en dit weerspiegelt zich in het aantal bemonsterde locaties:
   - Oost-Vlaanderen: 135
   - Antwerpen: 119
   - West-Vlaanderen: 94
   - Limburg: 54
   - Vlaams-Brabant: 54
-  
-- Zoals jullie in jullie postpakketten hebben gezien, kwam er best wat materiaal kijken bij dit burgerwetenschapsproject. Dit hadden we allemaal nodig om al onze deelnemers van materiaal te voorzien:
+
+- Zoals jullie in jullie postpakketten hebben gezien, kwam er best wat materiaal kijken bij dit burgerwetenschapsproject. Dit hadden we allemaal nodig:
   - 1200 kreeftenvallen
   - 3000 meter touw
   - meer dan 100 kg hondenvoer als lokaas
   - 2500 aaszakjes
   - 1600 Craywatch labels
 
+
 ### Eerste resultaten
-Jullie hebben talrijk meegedaan en waarnemingen geregistreerd. De verzamelde data geven ons een beter beeld van de huidige verspreiding van invasieve rivierkreeften. Op deze kaart kan je zien waar er in Vlaanderen rivierkreeften werden waargenomen tijdens Craywatch, maar ook plekken waar de rivierkreeften afwezig lijken te zijn.
+Jullie hebben talrijk meegedaan en waarnemingen geregistreerd. De verzamelde data geven ons een beter beeld van de huidige verspreiding van invasieve rivierkreeften. Op deze kaart en op [de website](https://craywatch.inbo.be/kaart/) kan je zien waar er in Vlaanderen rivierkreeften werden waargenomen tijdens Craywatch en waar er geen kreeften werden gevangen.
 
 ```{r IncludeMap, echo = FALSE, fig.align='center'}
 knitr::include_graphics("~/GitHub/craywatch/R/data/output/craywatch_maps/validated_craywatch_map_dutch.png")
 ```
+<br><br>
 
-### Eerste vondst geknobbelde Amerikaanse rivierkreeft in België
-Voor de start van het Craywatch project waren er zes gekende soorten van uitheemse, invasieve rivierkreeften in België (de Californische rivierkreeft, gestreepte Amerikaanse rivierkreeft, gevlekte Amerikaanse rivierkreeft, marmerkreeft, rode Amerikaanse rivierkreeft en Turkse rivierkreeft). In augustus 2024 vond een vrijwilliger in een visvijver in Kortemark een nieuwe en zevende soort, de geknobbelde Amerikaanse rivierkreeft. 
+Er zijn een aantal belangrijke resultaten die we hier even op een rij zetten:
 
-```{r Includeimage3, echo=FALSE, out.width= "18%", out.extra='style="float:left; padding:10px"'}
+#### 1. Eerste vondst geknobbelde Amerikaanse rivierkreeft in België
+Voor de start van het Craywatch project waren er zes soorten uitheemse, invasieve rivierkreeften in Vlaanderen (de Californische rivierkreeft, gestreepte Amerikaanse rivierkreeft, gevlekte Amerikaanse rivierkreeft, marmerkreeft, rode Amerikaanse rivierkreeft en Turkse rivierkreeft). In augustus 2024 vond een vrijwilliger in een visvijver in Kortemark een nieuwe en zevende soort: de geknobbelde Amerikaanse rivierkreeft. 
+
+```{r Includeimage3, echo=FALSE, out.width= "50%", out.extra='style="float:left; padding:10px"'}
 knitr::include_graphics("~/GitHub/craywatch/assets/images/virilis_nieuwsbrief.jpg")
 ```
-Deze soort komt ook al voor in Nederland en Frankrijk, maar was tot dan toe nog niet bevestigd in ons land. Het INBO Craywatch-team plaatste 5 dagen lang 35 vallen in de vijver om een beter zicht te krijgen op de omvang van de populatie en controleerde ook meteen de omliggende beken en plassen op de aanwezigheid van rivierkreeften. De densiteitsmeting wees op een zeer omvangrijke populatie, wat te verwachten was op basis van de hoeveelheid overlast die vissers hier blijkbaar ondervinden. In de andere plassen en de beek hebben we geen rivierkreeften aangetroffen. Er wordt nu met de gemeente overlegd welke maatregelen genomen kunnen worden. Sindsdien werd nog een tweede populatie van geknobbelde Amerikaanse rivierkreeften bevestigd in Ruddervoorde.
+Van deze soort werd al een populatie waargenomen in het Verenigd Koninkrijk en Frankrijk, in Nederland is deze soort sterk aan het uitbreiden. Voor Craywatch was deze soort nog niet bevestigd in ons land. Het INBO Craywatch-team plaatste 5 dagen lang 35 vallen in de vijver om een beter zicht te krijgen op de omvang van de populatie en controleerde ook meteen de omliggende beken en plassen op de aanwezigheid van rivierkreeften. De densiteitsmeting wees op een zeer omvangrijke populatie, wat te verwachten was op basis van de hoeveelheid overlast die vissers hier blijkbaar ondervinden. In de andere plassen en de beek hebben we geen rivierkreeften aangetroffen. Sindsdien werd nog een tweede populatie van geknobbelde Amerikaanse rivierkreeften bevestigd in Ruddervoorde.
 
 Deze situatie toont aan hoe belangrijk burgerwetenschappers zijn voor het opsporen van invasieve soorten. Kom je in de toekomst nog een rivierkreeft tegen, meld het dan zeker op waarnemingen.be of laat het ons weten!
 Keep Craywatching!
 
+#### 2. Nieuwe populaties van de marmerkreeft
+Nieuwe populaties van de recent ontdekte marmerkreeft werden door Craywatch geregistreerd, onder andere in Fort 4 (Antwerpen) en de Stiemerbeekvallei (Genk). Er zijn ondertussen 10 gekende populaties. De marmerkreeft is ontstaan in de aquariumhandel en bestaat enkel uit vrouwelijke individuen. Het is een zeer zorgwekkende soort, vooral door het feit dat ze zich ongeslachtelijk voortplanten en hierdoor snel grote aantallen bereiken. 
+
+#### 3. Westwaartse uitbreiding van de rode Amerikaanse rivierkreeft
+De rode Amerikaanse rivierkreeft is zich in West-Vlaanderen steeds meer in westelijke richting aan het uitbreiden, dit blijkt uit recente waarnemingen door Craywatch. Hierdoor nadert deze nu het natuurgebied de IJzervallei. De rode Amerikaanse rivierkreeft is zich aan een zorgwekkend tempo aan het verspreiden in Vlaanderen.
+
+```{r Includeimage9, echo=FALSE, out.width="40%"}
+knitr::include_graphics("~/GitHub/craywatch/assets/images/p_clarkii_404.jpg")
+```
+
+#### 4. Gestreepte Amerikaanse rivierkreeft duikt op in West-Vlaanderen
+Tijdens het Craywatch onderzoek werd de gestreepte Amerikaanse rivierkreeft voor het eerst in West-Vlaanderen waargenomen. Dit benadrukt dat ook deze soort zijn regio aan het uitbreiden is in Vlaanderen.
+<br><br>
+
 ### Speciale vermeldingen
 Al jullie waarnemingen waren stuk voor stuk van onschatbare waarde. Toch zetten we graag Natuurpunt Balen-Nete en Natuurpunt Pelt hier extra in de kijker. Zij trommelden namelijk een enthousiaste groep helpers op, die samen maar liefst respectievelijk 20 en 13 locaties bemonsterden voor Craywatch.
+<br><br>
 
 ### Wat heeft 2025 in petto?
-We zetten Craywatch voort in 2025, maar het zal er iets anders uitzien dan vorig jaar. Ons team selecteert op voorhand locaties die van speciaal belang zijn of in regio’s liggen die nog niet voldoende gecontroleerd werden. Vervolgens gaan we op zoek naar Craywatch vrijwilligers die in de buurt van deze plekken wonen. Hou je mailbox dus in de gaten, want misschien kunnen we volgend jaar je hulp nog eens gebruiken!  
+We zetten Craywatch voort in 2025, met een iets andere werkwijze dan vorig jaar. Ons team selecteert op voorhand locaties die van bijzonder belang zijn of in regio’s liggen die nog niet voldoende gekend zijn. Vervolgens gaan we op zoek naar Craywatch vrijwilligers die in de buurt van deze plekken wonen. **Hou je mailbox dus in de gaten, want misschien kunnen we volgend jaar je hulp (nog eens) gebruiken!** 
+<br><br>
 
 ### Craywatch behind the scenes
 <u>Vrijwilligers in actie</u>
 
-```{r Includeimage4, echo=FALSE, out.width="25%"}
+```{r Includeimage4, echo=FALSE, out.width="50%"}
 knitr::include_graphics("~/GitHub/craywatch/assets/images/foto_vrijwilliger1.jpg")
 ```
 Foto van Luc Ghyselbrecht
 
-```{r Includeimage5, echo=FALSE, out.width= "25%"}
+```{r Includeimage5, echo=FALSE, out.width= "50%"}
 knitr::include_graphics("~/GitHub/craywatch/assets/images/foto_vrijwilliger2.jpg")
 ```
 Foto van Sofie Van Belleghem
 
 <u>Pakketten klaarmaken en verzenden</u>
 
-```{r Includeimage6, echo=FALSE, out.width="25%", fig.align='left'}
+```{r Includeimage6, echo=FALSE, out.width="50%", fig.align='left'}
 knitr::include_graphics("~/GitHub/craywatch/assets/images/foto_pakketten1.jpg")
 ```
 
-```{r Includeimage7, echo=FALSE, out.width="25%", fig.align='left'}
+```{r Includeimage7, echo=FALSE, out.width="50%", fig.align='left'}
 knitr::include_graphics("~/GitHub/craywatch/assets/images/foto_pakketten2.jpg")
 ```
 
@@ -107,6 +137,6 @@ Bedankt voor al jullie enthousiasme en harde werk!
 
 Het Craywatch project-team
 
-```{r Includeimage8, echo=FALSE, out.width="50%", fig.align='left'}
+```{r Includeimage8, echo=FALSE, out.width="100%", fig.align='left'}
 knitr::include_graphics(image_links$banner_bottom)
 ```
