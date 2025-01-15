@@ -109,12 +109,39 @@ shinyApp(ui, server)
 gemeenten_2025 <- st_read("./data/output/SelectedMunic/SelectedMunic.shp")
 library(dplyr)
 
-localities_2025 <- read.csv("~/GitHub/craywatch/assets/localities.csv") %>%
-  st_as_sf(coords = c("Longitude", "Latitude"), crs = 4326) %>%
-  st_transform(st_crs(gemeenten_2025)) %>%
-  st_intersection(gemeenten_2025) %>%
+library(sf)
+library(dplyr)
+
+# Stap 1: Lees het CSV-bestand in en maak er een sf-object van
+localities <- read.csv("~/GitHub/craywatch/assets/localities.csv") %>%
+  st_as_sf(coords = c("Longitude", "Latitude"), crs = 4326) %>% # WGS84 CRS
+  
+  # Stap 2: Transformeer naar Lambert 31370
+  st_transform(31370)
+
+# Stap 3: Maak een intersect met gemeenten_2025
+localities_intersect <- st_intersection(localities, gemeenten_2025)
+
+# Stap 4: Voeg de originele WGS84-coördinaten toe
+localities_2025 <- localities_intersect %>%
   mutate(
     Longitude = st_coordinates(st_transform(geometry, 4326))[, 1],
     Latitude = st_coordinates(st_transform(geometry, 4326))[, 2]
   )
-write.csv(localities_2025, "./data/output/SelectedMunic/localities_2025.csv", row.names = FALSE)
+
+# Stap 5: Controleer op geldige coördinaten
+invalid_coords <- localities_2025 %>%
+  filter(
+    Latitude < -90 | Latitude > 90 | Longitude < -180 | Longitude > 180
+  )
+
+if (nrow(invalid_coords) > 0) {
+  warning("Er zijn ongeldige Latitude of Longitude coördinaten in de dataset.")
+  print(invalid_coords)
+} else {
+  message("Alle Latitude en Longitude waarden zijn valide.")
+}
+
+# Stap 6: Schrijf het resultaat naar een nieuw bestand
+st_drop_geometry(localities_2025) %>%
+  write.csv("./data/output/SelectedMunic/localities_2025.csv", row.names = FALSE)
