@@ -13321,11 +13321,11 @@
     </Placemark>
     <Placemark>
       <name>FALSE</name>
-      <description><![CDATA[updateRes: FALSE<br>OMSCHR: Oostenieuwkerke<br>NAAM: Mandel<br>vrijwillID: NA<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_8840_5<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: West-Vlaanderen<br>gemeente: Staden<br>postcode: 8840<br>CATC: 2<br>VHAG: 4203<br>WVLC: NA<br>Beheerder: West-Vlaanderen<br>Bhrtel: NA<br>Bhremail: NA<br>OIDN: 146<br>UIDN: 830<br>TERRID: 206<br>NISCODE: 36019<br>NAAM.1: Staden<br>DATPUBLBS: 1982-12-29<br>NUMAC: 1982001920<br>LENGTE: 3552409<br>OPPERVL: 4681548093<br>GEMNAAM: Staden<br>Longitude: 3.04922324898574<br>Latitude: 50.9332690082678]]></description>
+      <description><![CDATA[updateRes: ONHOLD<br>OMSCHR: Oostenieuwkerke<br>NAAM: Mandel<br>vrijwillID: yze3nzdi<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_8840_5<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: West-Vlaanderen<br>gemeente: Staden<br>postcode: 8840<br>CATC: 2<br>VHAG: 4203<br>WVLC: NA<br>Beheerder: West-Vlaanderen<br>Bhrtel: NA<br>Bhremail: NA<br>OIDN: 146<br>UIDN: 830<br>TERRID: 206<br>NISCODE: 36019<br>NAAM.1: Staden<br>DATPUBLBS: 1982-12-29<br>NUMAC: 1982001920<br>LENGTE: 3552409<br>OPPERVL: 4681548093<br>GEMNAAM: Staden<br>Longitude: 3.0514924<br>Latitude: 50.93524]]></description>
       <styleUrl>#icon-1899-558B2F</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
-          <value>FALSE</value>
+          <value>ONHOLD</value>
         </Data>
         <Data name="OMSCHR">
           <value>Oostenieuwkerke</value>
@@ -13334,7 +13334,7 @@
           <value>Mandel</value>
         </Data>
         <Data name="vrijwillID">
-          <value>NA</value>
+          <value>yze3nzdi</value>
         </Data>
         <Data name="startDate">
           <value>NA</value>
@@ -13418,15 +13418,15 @@
           <value>Staden</value>
         </Data>
         <Data name="Longitude">
-          <value>3.04922324898574</value>
+          <value>3.0514924</value>
         </Data>
         <Data name="Latitude">
-          <value>50.9332690082678</value>
+          <value>50.93524</value>
         </Data>
       </ExtendedData>
       <Point>
         <coordinates>
-          3.04922324898574,50.9332690082678,0
+          3.0514924,50.93524,0
         </coordinates>
       </Point>
     </Placemark>
@@ -15984,9 +15984,9 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>FALSE</name>
+      <name>ONHOLD</name>
       <description><![CDATA[updateRes: ONHOLD<br>OMSCHR: Vladslo, Einsdijkstraat, br. Eindsdijk-Esenbroek<br>NAAM: Handzamevaart<br>vrijwillID: mgeyodcw<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_8600_3<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: West-Vlaanderen<br>gemeente: Diksmuide<br>postcode: 8600<br>CATC: 1<br>VHAG: 1208<br>WVLC: NA<br>Beheerder: VMM<br>Bhrtel: NA<br>Bhremail: d.slootmaekers@vmm.be<br>OIDN: 185<br>UIDN: 856<br>TERRID: 153<br>NISCODE: 32003<br>NAAM.1: Diksmuide<br>DATPUBLBS: 1976-01-23<br>NUMAC: 1975123003<br>LENGTE: 6380216<br>OPPERVL: 15073875943<br>GEMNAAM: Diksmuide<br>Longitude: 2.9266385<br>Latitude: 51.0345673]]></description>
-      <styleUrl>#icon-1899-558B2F</styleUrl>
+      <styleUrl>#icon-1899-F9A825</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
           <value>ONHOLD</value>
@@ -16983,9 +16983,9 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>FALSE</name>
+      <name>ONHOLD</name>
       <description><![CDATA[updateRes: ONHOLD<br>OMSCHR: Diksmuide<br>NAAM: NA<br>vrijwillID: mgeyodcw<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_8600_12<br>restricties: NA<br>Sampler: NA<br>dataset: Scheers<br>SystemType: Lentisch<br>GEBIED: NA<br>provincie: West-Vlaanderen<br>gemeente: Diksmuide<br>postcode: 8600<br>CATC: NA<br>VHAG: NA<br>WVLC: NA<br>Beheerder: NA<br>Bhrtel: NA<br>Bhremail: NA<br>OIDN: 185<br>UIDN: 856<br>TERRID: 153<br>NISCODE: 32003<br>NAAM.1: Diksmuide<br>DATPUBLBS: 1976-01-23<br>NUMAC: 1975123003<br>LENGTE: 6380216<br>OPPERVL: 15073875943<br>GEMNAAM: Diksmuide<br>Longitude: 2.8680722<br>Latitude: 51.0347191]]></description>
-      <styleUrl>#icon-1899-558B2F</styleUrl>
+      <styleUrl>#icon-1899-F9A825</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
           <value>ONHOLD</value>
@@ -17205,9 +17205,9 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>FALSE</name>
+      <name>ONHOLD</name>
       <description><![CDATA[updateRes: ONHOLD<br>OMSCHR: NA<br>NAAM: mgeyodcw<br>vrijwillID: NA<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_8600_14<br>restricties: NA<br>Sampler: NA<br>dataset: NA<br>SystemType: NA<br>GEBIED: NA<br>provincie: West-Vlaanderen<br>gemeente: Diksmuide<br>postcode: 8600<br>CATC: NA<br>VHAG: NA<br>WVLC: NA<br>Beheerder: NA<br>Bhrtel: NA<br>Bhremail: NA<br>OIDN: 185<br>UIDN: 856<br>TERRID: 153<br>NISCODE: 32003<br>NAAM.1: Diksmuide<br>DATPUBLBS: 1976-01-23<br>NUMAC: 1975123003<br>LENGTE: 6380216<br>OPPERVL: 15073875943<br>GEMNAAM: Diksmuide<br>Longitude: 2.8734323<br>Latitude: 51.0566341]]></description>
-      <styleUrl>#icon-1899-558B2F</styleUrl>
+      <styleUrl>#icon-1899-F9A825</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
           <value>ONHOLD</value>
@@ -22422,9 +22422,9 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>FALSE</name>
+      <name>ONHOLD</name>
       <description><![CDATA[updateRes: ONHOLD<br>OMSCHR: NA<br>NAAM: NA<br>vrijwillID: zjm0zwm2<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_8890_2<br>restricties: NA<br>Sampler: NA<br>dataset: NA<br>SystemType: NA<br>GEBIED: NA<br>provincie: West-Vlaanderen<br>gemeente: Moorslede<br>postcode: 8890<br>CATC: NA<br>VHAG: NA<br>WVLC: NA<br>Beheerder: NA<br>Bhrtel: NA<br>Bhremail: NA<br>OIDN: 306<br>UIDN: 930<br>TERRID: 246<br>NISCODE: 36012<br>NAAM.1: Moorslede<br>DATPUBLBS: 1976-01-23<br>NUMAC: 1975123003<br>LENGTE: 3389135<br>OPPERVL: 3544784273<br>GEMNAAM: Moorslede<br>Longitude: 3.0910547<br>Latitude: 50.8534766]]></description>
-      <styleUrl>#icon-1899-558B2F</styleUrl>
+      <styleUrl>#icon-1899-F9A825</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
           <value>ONHOLD</value>
@@ -32079,9 +32079,9 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>FALSE</name>
-      <description><![CDATA[updateRes: ONHOLD<br>OMSCHR: Mispelarestraat<br>NAAM: NA<br>vrijwillID: zjm0zwm2<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_8980_1<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: West-Vlaanderen<br>gemeente: Zonnebeke<br>postcode: 8980<br>CATC: 2<br>VHAG: 58840<br>WVLC: NA<br>Beheerder: West-Vlaanderen<br>Bhrtel: NA<br>Bhremail: NA<br>OIDN: 46<br>UIDN: 956<br>TERRID: 244<br>NISCODE: 33037<br>NAAM.1: Zonnebeke<br>DATPUBLBS: 1976-01-23<br>NUMAC: 1975123003<br>LENGTE: 5245263<br>OPPERVL: 680927643<br>GEMNAAM: Zonnebeke<br>Longitude: 3.0247939<br>Latitude: 50.8775229]]></description>
-      <styleUrl>#icon-1899-558B2F</styleUrl>
+      <name>ONHOLD</name>
+      <description><![CDATA[updateRes: ONHOLD<br>OMSCHR: Mispelarestraat<br>NAAM: Heulebeek<br>vrijwillID: zjm0zwm2<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_8980_1<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: West-Vlaanderen<br>gemeente: Zonnebeke<br>postcode: 8980<br>CATC: 2<br>VHAG: 58840<br>WVLC: NA<br>Beheerder: West-Vlaanderen<br>Bhrtel: NA<br>Bhremail: NA<br>OIDN: 46<br>UIDN: 956<br>TERRID: 244<br>NISCODE: 33037<br>NAAM.1: Zonnebeke<br>DATPUBLBS: 1976-01-23<br>NUMAC: 1975123003<br>LENGTE: 5245263<br>OPPERVL: 680927643<br>GEMNAAM: Zonnebeke<br>Longitude: 3.0247939<br>Latitude: 50.8775229]]></description>
+      <styleUrl>#icon-1899-F9A825</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
           <value>ONHOLD</value>
@@ -32090,7 +32090,7 @@
           <value>Mispelarestraat</value>
         </Data>
         <Data name="NAAM">
-          <value>NA</value>
+          <value>Heulebeek</value>
         </Data>
         <Data name="vrijwillID">
           <value>zjm0zwm2</value>
@@ -32301,9 +32301,9 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>FALSE</name>
+      <name>ONHOLD</name>
       <description><![CDATA[updateRes: ONHOLD<br>OMSCHR: NA<br>NAAM: Heulebeek<br>vrijwillID: zjm0zwm2<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_8890_1<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: West-Vlaanderen<br>gemeente: Moorslede<br>postcode: 8890<br>CATC: 2<br>VHAG: 4205<br>WVLC: NA<br>Beheerder: West-Vlaanderen<br>Bhrtel: NA<br>Bhremail: NA<br>OIDN: 46<br>UIDN: 956<br>TERRID: 244<br>NISCODE: 33037<br>NAAM.1: Zonnebeke<br>DATPUBLBS: 1976-01-23<br>NUMAC: 1975123003<br>LENGTE: 5245263<br>OPPERVL: 680927643<br>GEMNAAM: Zonnebeke<br>Longitude: 3.0663245<br>Latitude: 50.8572822]]></description>
-      <styleUrl>#icon-1899-558B2F</styleUrl>
+      <styleUrl>#icon-1899-F9A825</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
           <value>ONHOLD</value>
@@ -40072,11 +40072,11 @@
     </Placemark>
     <Placemark>
       <name>FALSE</name>
-      <description><![CDATA[updateRes: FALSE<br>OMSCHR: Poelkapelle, Lange Molenstraat, afw Paddebeek<br>NAAM: Lekkerboterbeek<br>vrijwillID: NA<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_8920_3<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: West-Vlaanderen<br>gemeente: Langemark-Poelkapelle<br>postcode: 8920<br>CATC: 2<br>VHAG: 1543<br>WVLC: NA<br>Beheerder: West-Vlaanderen<br>Bhrtel: NA<br>Bhremail: NA<br>OIDN: 121<br>UIDN: 983<br>TERRID: 226<br>NISCODE: 33040<br>NAAM.1: Langemark-Poelkapelle<br>DATPUBLBS: 1976-01-23<br>NUMAC: 1975123003<br>LENGTE: 3791369<br>OPPERVL: 5306800328<br>GEMNAAM: Langemark-Poelkapelle<br>Longitude: 2.9796302849667<br>Latitude: 50.9137032212754]]></description>
+      <description><![CDATA[updateRes: ONHOLD<br>OMSCHR: Poelkapelle, Lange Molenstraat, afw Paddebeek<br>NAAM: Lekkerboterbeek<br>vrijwillID: yze3nzdi<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_8920_3<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: West-Vlaanderen<br>gemeente: Langemark-Poelkapelle<br>postcode: 8920<br>CATC: 2<br>VHAG: 1543<br>WVLC: NA<br>Beheerder: West-Vlaanderen<br>Bhrtel: NA<br>Bhremail: NA<br>OIDN: 121<br>UIDN: 983<br>TERRID: 226<br>NISCODE: 33040<br>NAAM.1: Langemark-Poelkapelle<br>DATPUBLBS: 1976-01-23<br>NUMAC: 1975123003<br>LENGTE: 3791369<br>OPPERVL: 5306800328<br>GEMNAAM: Langemark-Poelkapelle<br>Longitude: 2.9796303<br>Latitude: 50.9137032]]></description>
       <styleUrl>#icon-1899-558B2F</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
-          <value>FALSE</value>
+          <value>ONHOLD</value>
         </Data>
         <Data name="OMSCHR">
           <value>Poelkapelle, Lange Molenstraat, afw Paddebeek</value>
@@ -40085,7 +40085,7 @@
           <value>Lekkerboterbeek</value>
         </Data>
         <Data name="vrijwillID">
-          <value>NA</value>
+          <value>yze3nzdi</value>
         </Data>
         <Data name="startDate">
           <value>NA</value>
@@ -40169,15 +40169,15 @@
           <value>Langemark-Poelkapelle</value>
         </Data>
         <Data name="Longitude">
-          <value>2.9796302849667</value>
+          <value>2.9796303</value>
         </Data>
         <Data name="Latitude">
-          <value>50.9137032212754</value>
+          <value>50.9137032</value>
         </Data>
       </ExtendedData>
       <Point>
         <coordinates>
-          2.9796302849667,50.9137032212754,0
+          2.9796303,50.9137032,0
         </coordinates>
       </Point>
     </Placemark>
@@ -40294,11 +40294,11 @@
     </Placemark>
     <Placemark>
       <name>FALSE</name>
-      <description><![CDATA[updateRes: FALSE<br>OMSCHR: Bikscshote, Pottestraat, Sint-Janskapel<br>NAAM: Martjevaart<br>vrijwillID: NA<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_8920_5<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: West-Vlaanderen<br>gemeente: Langemark-Poelkapelle<br>postcode: 8920<br>CATC: 1<br>VHAG: 1216<br>WVLC: NA<br>Beheerder: VMM<br>Bhrtel: NA<br>Bhremail: d.slootmaekers@vmm.be<br>OIDN: 121<br>UIDN: 983<br>TERRID: 226<br>NISCODE: 33040<br>NAAM.1: Langemark-Poelkapelle<br>DATPUBLBS: 1976-01-23<br>NUMAC: 1975123003<br>LENGTE: 3791369<br>OPPERVL: 5306800328<br>GEMNAAM: Langemark-Poelkapelle<br>Longitude: 2.88747735531212<br>Latitude: 50.9310542862304]]></description>
+      <description><![CDATA[updateRes: ONHOLD<br>OMSCHR: Bikscshote, Pottestraat, Sint-Janskapel<br>NAAM: Martjevaart<br>vrijwillID: yze3nzdi<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_8920_5<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: West-Vlaanderen<br>gemeente: Langemark-Poelkapelle<br>postcode: 8920<br>CATC: 1<br>VHAG: 1216<br>WVLC: NA<br>Beheerder: VMM<br>Bhrtel: NA<br>Bhremail: d.slootmaekers@vmm.be<br>OIDN: 121<br>UIDN: 983<br>TERRID: 226<br>NISCODE: 33040<br>NAAM.1: Langemark-Poelkapelle<br>DATPUBLBS: 1976-01-23<br>NUMAC: 1975123003<br>LENGTE: 3791369<br>OPPERVL: 5306800328<br>GEMNAAM: Langemark-Poelkapelle<br>Longitude: 2.8874774<br>Latitude: 50.9310543]]></description>
       <styleUrl>#icon-1899-558B2F</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
-          <value>FALSE</value>
+          <value>ONHOLD</value>
         </Data>
         <Data name="OMSCHR">
           <value>Bikscshote, Pottestraat, Sint-Janskapel</value>
@@ -40307,7 +40307,7 @@
           <value>Martjevaart</value>
         </Data>
         <Data name="vrijwillID">
-          <value>NA</value>
+          <value>yze3nzdi</value>
         </Data>
         <Data name="startDate">
           <value>NA</value>
@@ -40391,15 +40391,15 @@
           <value>Langemark-Poelkapelle</value>
         </Data>
         <Data name="Longitude">
-          <value>2.88747735531212</value>
+          <value>2.8874774</value>
         </Data>
         <Data name="Latitude">
-          <value>50.9310542862304</value>
+          <value>50.9310543</value>
         </Data>
       </ExtendedData>
       <Point>
         <coordinates>
-          2.88747735531212,50.9310542862304,0
+          2.8874774,50.9310543,0
         </coordinates>
       </Point>
     </Placemark>
