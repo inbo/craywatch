@@ -13320,9 +13320,9 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>FALSE</name>
+      <name>ONHOLD</name>
       <description><![CDATA[updateRes: ONHOLD<br>OMSCHR: Oostenieuwkerke<br>NAAM: Mandel<br>vrijwillID: yze3nzdi<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_8840_5<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: West-Vlaanderen<br>gemeente: Staden<br>postcode: 8840<br>CATC: 2<br>VHAG: 4203<br>WVLC: NA<br>Beheerder: West-Vlaanderen<br>Bhrtel: NA<br>Bhremail: NA<br>OIDN: 146<br>UIDN: 830<br>TERRID: 206<br>NISCODE: 36019<br>NAAM.1: Staden<br>DATPUBLBS: 1982-12-29<br>NUMAC: 1982001920<br>LENGTE: 3552409<br>OPPERVL: 4681548093<br>GEMNAAM: Staden<br>Longitude: 3.0514924<br>Latitude: 50.93524]]></description>
-      <styleUrl>#icon-1899-558B2F</styleUrl>
+      <styleUrl>#icon-1899-F9A825</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
           <value>ONHOLD</value>
@@ -22423,11 +22423,11 @@
     </Placemark>
     <Placemark>
       <name>ONHOLD</name>
-      <description><![CDATA[updateRes: ONHOLD<br>OMSCHR: NA<br>NAAM: NA<br>vrijwillID: zjm0zwm2<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_8890_2<br>restricties: NA<br>Sampler: NA<br>dataset: NA<br>SystemType: NA<br>GEBIED: NA<br>provincie: West-Vlaanderen<br>gemeente: Moorslede<br>postcode: 8890<br>CATC: NA<br>VHAG: NA<br>WVLC: NA<br>Beheerder: NA<br>Bhrtel: NA<br>Bhremail: NA<br>OIDN: 306<br>UIDN: 930<br>TERRID: 246<br>NISCODE: 36012<br>NAAM.1: Moorslede<br>DATPUBLBS: 1976-01-23<br>NUMAC: 1975123003<br>LENGTE: 3389135<br>OPPERVL: 3544784273<br>GEMNAAM: Moorslede<br>Longitude: 3.0910547<br>Latitude: 50.8534766]]></description>
+      <description><![CDATA[updateRes: TRUE<br>OMSCHR: NA<br>NAAM: NA<br>vrijwillID: zjm0zwm2<br>startDate: TBD<br>SugbyINBO: YES<br>locID: I_8890_2<br>restricties: NA<br>Sampler: NA<br>dataset: NA<br>SystemType: NA<br>GEBIED: NA<br>provincie: West-Vlaanderen<br>gemeente: Moorslede<br>postcode: 8890<br>CATC: NA<br>VHAG: NA<br>WVLC: NA<br>Beheerder: NA<br>Bhrtel: NA<br>Bhremail: NA<br>OIDN: 306<br>UIDN: 930<br>TERRID: 246<br>NISCODE: 36012<br>NAAM.1: Moorslede<br>DATPUBLBS: 1976-01-23<br>NUMAC: 1975123003<br>LENGTE: 3389135<br>OPPERVL: 3544784273<br>GEMNAAM: Moorslede<br>Longitude: 3.0910547<br>Latitude: 50.8534766]]></description>
       <styleUrl>#icon-1899-F9A825</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
-          <value>ONHOLD</value>
+          <value>TRUE</value>
         </Data>
         <Data name="OMSCHR">
           <value>NA</value>
@@ -22439,7 +22439,7 @@
           <value>zjm0zwm2</value>
         </Data>
         <Data name="startDate">
-          <value>NA</value>
+          <value>TBD</value>
         </Data>
         <Data name="SugbyINBO">
           <value>YES</value>
@@ -40071,9 +40071,9 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>FALSE</name>
+      <name>ONHOLD</name>
       <description><![CDATA[updateRes: ONHOLD<br>OMSCHR: Poelkapelle, Lange Molenstraat, afw Paddebeek<br>NAAM: Lekkerboterbeek<br>vrijwillID: yze3nzdi<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_8920_3<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: West-Vlaanderen<br>gemeente: Langemark-Poelkapelle<br>postcode: 8920<br>CATC: 2<br>VHAG: 1543<br>WVLC: NA<br>Beheerder: West-Vlaanderen<br>Bhrtel: NA<br>Bhremail: NA<br>OIDN: 121<br>UIDN: 983<br>TERRID: 226<br>NISCODE: 33040<br>NAAM.1: Langemark-Poelkapelle<br>DATPUBLBS: 1976-01-23<br>NUMAC: 1975123003<br>LENGTE: 3791369<br>OPPERVL: 5306800328<br>GEMNAAM: Langemark-Poelkapelle<br>Longitude: 2.9796303<br>Latitude: 50.9137032]]></description>
-      <styleUrl>#icon-1899-558B2F</styleUrl>
+      <styleUrl>#icon-1899-F9A825</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
           <value>ONHOLD</value>
@@ -40293,9 +40293,9 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>FALSE</name>
+      <name>ONHOLD</name>
       <description><![CDATA[updateRes: ONHOLD<br>OMSCHR: Bikscshote, Pottestraat, Sint-Janskapel<br>NAAM: Martjevaart<br>vrijwillID: yze3nzdi<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_8920_5<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: West-Vlaanderen<br>gemeente: Langemark-Poelkapelle<br>postcode: 8920<br>CATC: 1<br>VHAG: 1216<br>WVLC: NA<br>Beheerder: VMM<br>Bhrtel: NA<br>Bhremail: d.slootmaekers@vmm.be<br>OIDN: 121<br>UIDN: 983<br>TERRID: 226<br>NISCODE: 33040<br>NAAM.1: Langemark-Poelkapelle<br>DATPUBLBS: 1976-01-23<br>NUMAC: 1975123003<br>LENGTE: 3791369<br>OPPERVL: 5306800328<br>GEMNAAM: Langemark-Poelkapelle<br>Longitude: 2.8874774<br>Latitude: 50.9310543]]></description>
-      <styleUrl>#icon-1899-558B2F</styleUrl>
+      <styleUrl>#icon-1899-F9A825</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
           <value>ONHOLD</value>
