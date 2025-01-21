@@ -388,6 +388,16 @@ localities_2025_cleaned <- localities_2025_cleaned %>%
 # Zorg ervoor dat de kolomnamen overeenkomen
 stopifnot(all(colnames(localities_full) %in% colnames(localities_2025_cleaned)))
 
+# Controleer welke rijen nieuwe locID's bevatten
+new_rows <- anti_join(localities_2025_cleaned, localities_full, by = "locID")
+
+# Voeg nieuwe locID's toe aan de volledige dataset
+localities_full <- bind_rows(localities_full, new_rows)
+
+# Update bestaande locID's in de volledige dataset
+localities_full <- localities_full %>%
+  rows_update(localities_2025_cleaned, by = "locID")
+
 # Pas de wijzigingen van de subset toe aan de volledige file
 localities_updated <- localities_full %>%
   rows_update(localities_2025_cleaned, by = "locID")

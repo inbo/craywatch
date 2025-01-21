@@ -301,7 +301,7 @@
 "FALSE","FALSE","Brecht, Schoordijk, overbroekstraat opw weg en zijbeek","Kleine Aa of Weerijsbeek",NA,NA,"YES","I_2960_1","bij voorkeur tussen 20/07 - 01/09",NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Brecht",2960,2,9503,NA,51.3484351024083,4.61431769589795,"Antwerpen",NA,"hans.vanloy@provincieantwerpen.be"
 "FALSE","FALSE","Nieuwmoer, natuurreservaat 'De Gaatjes', opw brug","Broekloop",NA,NA,"YES","I_2920_2","bij voorkeur tussen 20/07 - 01/09",NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Kalmthout",2920,2,9845,NA,51.4221005023779,4.52992259592646,"Antwerpen",NA,"hans.vanloy@provincieantwerpen.be"
 "FALSE","FALSE","Begijnenmoerweg, (Bio)opw brug; (FC) afw brug","Berkenbeek",NA,NA,"YES","I_2990_4","bij voorkeur tussen 20/07 - 01/09",NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Wuustwezel",2990,2,9773,NA,51.4232061978389,4.54243327134531,"Antwerpen",NA,"hans.vanloy@provincieantwerpen.be"
-"FALSE","FALSE","De Moeren, Chemin des limites, opw pompstation","Ringsloot",NA,NA,"YES","I_8630_1",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Veurne",8630,2,14983,NA,51.0129773879602,2.5726848073014,"Westkustpolder","058/314653","info@westkustpolder.be"
+"ONHOLD","ONHOLD","De Moeren, Chemin des limites, opw pompstation","Ringsloot","yzk3mme3",NA,"YES","I_8630_1",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Veurne",8630,2,14983,NA,51.0129774,2.5726848,"Westkustpolder","058/314653","info@westkustpolder.be"
 "FALSE","FALSE","Schore, Lekestraat, afw",NA,"mwzkzmy1","22/07/2024","YES","I_8433_1",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Middelkerke",8433,2,2040,NA,51.1083695,2.8645937,"Middenkustpolder","059/278477","info@middenkustpolder.be"
 "FALSE","FALSE","Sint-Pieters-Kapelle, Sint Godelievestraat, afw",NA,"mwzkzmy1","29/07/2024","YES","I_8433_2",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Middelkerke",8433,2,2039,NA,51.1167086,2.8706247,"Middenkustpolder","059/278477","info@middenkustpolder.be"
 "FALSE","FALSE","Catstraat, grindpad net na huisnr 69","Lekevaartje",NA,NA,"YES","I_8680_1",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Koekelare",8680,2,1903,NA,51.0874187170219,2.95298834481109,"West-Vlaanderen",NA,NA
@@ -737,7 +737,7 @@
 "FALSE","FALSE","Brecht; Overbroek; Overbroekstraat; 20m opw brug mtp 68000","Kleine Aa of Weerijsbeek",NA,NA,"YES","I_2960_3","bij voorkeur tussen 20/07 - 01/09",NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Brecht",2960,2,9503,NA,51.3482096711321,4.61466097486303,"Antwerpen",NA,"hans.vanloy@provincieantwerpen.be"
 "FALSE","FALSE","Ramskapelle, Koolhofstraat, Koolhofbrug","Slijkvaart",NA,NA,"YES","I_8620_3",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Nieuwpoort",8620,1,1211,NA,51.1117793311603,2.74799162787546,"VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE",NA,"Steengracht",NA,NA,"YES","I_8630_2",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Veurne",8630,2,1233,NA,51.0431432564634,2.66088460939923,"Westkustpolder","058/314653","info@westkustpolder.be"
-"FALSE","FALSE",NA,"Steengracht",NA,NA,"YES","I_8630_3",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Veurne",8630,2,1233,NA,51.0340455242831,2.67906978140184,"Westkustpolder","058/314653","info@westkustpolder.be"
+"ONHOLD","ONHOLD",NA,"Steengracht","yzk3mme3",NA,"YES","I_8630_3",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Veurne",8630,2,1233,NA,51.0340455,2.6790698,"Westkustpolder","058/314653","info@westkustpolder.be"
 "FALSE","FALSE",NA,"Oerenbeek",NA,NA,"YES","I_8630_4",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Veurne",8630,2,1408,NA,51.0291876551062,2.69020970693312,"Westkustpolder","058/314653","info@westkustpolder.be"
 "TRUE","TRUE",NA,"Oude Veurnevaart - Langeleed","njhknmu0",NA,"YES","I_8670_1",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Koksijde",8670,2,1212,NA,51.1038088,2.6847605,"Westkustpolder","058/314653","info@westkustpolder.be"
 "FALSE","FALSE",NA,"Oude Veurnevaart - Langeleed",NA,NA,"YES","I_8670_2",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Koksijde",8670,2,1212,NA,51.0887082453384,2.67252664056735,"Westkustpolder","058/314653","info@westkustpolder.be"
@@ -959,11 +959,11 @@
 "FALSE","FALSE",NA,"Kromzwijn",NA,NA,"YES","I_8421_2",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","De Haan",8421,2,0,NA,51.2622311772021,3.05288192085939,"Nieuwe Polder van Blankenberge","050/321790","info@polderblankenberge.be"
 "FALSE","FALSE",NA,"Duiveketezwin","njjkzwfl",NA,"YES","I_8420_3",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","De Haan",8420,2,0,NA,51.2368122,2.9986906,"Nieuwe Polder van Blankenberge","050/321790","info@polderblankenberge.be"
 "FALSE","FALSE",NA,NA,NA,NA,"YES","I_8630_7",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Veurne",8630,2,0,NA,51.0653693022766,2.63180519634678,"Westkustpolder","058/314653","info@westkustpolder.be"
-"FALSE","FALSE",NA,NA,NA,NA,"YES","I_8660_1",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","De Panne",8660,NA,NA,NA,51.0711046,2.5675574,NA,NA,NA
+"ONHOLD","ONHOLD",NA,NA,"yzk3mme3",NA,"YES","I_8660_1",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","De Panne",8660,NA,NA,NA,51.0711046,2.5675574,NA,NA,NA
 "TRUE","TRUE",NA,"Bergenvaart","njhknmu0",NA,"YES","I_8630_8",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Veurne",8630,0,0,NA,51.0615585,2.6482963,NA,NA,NA
 "TRUE","TRUE",NA,"Lovaart","njhknmu0",NA,"YES","I_8630_9",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Veurne",8630,0,0,NA,51.0535273,2.6803944,NA,NA,NA
 "FALSE","FALSE",NA,"Bergenvaart",NA,NA,"YES","I_8630_10",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Veurne",8630,0,0,NA,51.0117763293482,2.58829941043518,NA,NA,NA
-"FALSE","FALSE",NA,"Bergenvaart",NA,NA,"YES","I_8630_11",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Veurne",8630,0,0,NA,51.0240640868945,2.62716426637382,NA,NA,NA
+"ONHOLD","ONHOLD",NA,"Bergenvaart","yzk3mme3",NA,"YES","I_8630_11",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Veurne",8630,0,0,NA,51.0225862,2.618034,NA,NA,NA
 "FALSE","FALSE",NA,NA,"nzm3mdi0",NA,"YES","I_8647_6",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Lo-Reninge",8647,NA,NA,NA,50.9586893023209,2.77178599630303,NA,NA,NA
 "ONHOLD","ONHOLD",NA,"IJzer","ndk3mty3",NA,"YES","I_8691_5",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Alveringem",8691,NA,NA,NA,50.9452887,2.6783356,NA,NA,NA
 "FALSE","FALSE",NA,"Yser-IJzer",NA,NA,"YES","I_8972_2",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Poperinge",8972,0,0,NA,50.9116887357032,2.60737946741585,NA,NA,NA
@@ -1824,3 +1824,5 @@
 "TRUE","TRUE",NA,NA,"ndfhyzg1",NA,"NO","V_8340_24",NA,NA,NA,NA,NA,"West-Vlaanderen","Damme",8340,NA,NA,NA,51.3029000022851,3.35219999620027,NA,NA,NA
 "TRUE","TRUE",NA,NA,"ndfhyzg1",NA,"NO","V_8340_25",NA,NA,NA,NA,NA,"West-Vlaanderen","Damme",8340,NA,NA,NA,51.2669450022894,3.29779099620961,NA,NA,NA
 "TRUE","TRUE",NA,NA,"nzzlmmvm",NA,"NO","V_3660_4",NA,NA,NA,NA,NA,"Limburg","Oudsbergen",3660,NA,NA,NA,51.023500002614,5.5861999956194,NA,NA,NA
+"ONHOLD","ONHOLD",NA,"Seinemolenvaart","yzk3mme3",NA,"YES","I_8630_15",NA,NA,NA,NA,NA,"West-Vlaanderen",NA,8630,NA,NA,NA,51.0361849,2.581487,NA,NA,NA
+"ONHOLD","ONHOLD",NA,"Ringsloot","yzk3mme3",NA,"YES","I_8630_16",NA,NA,NA,NA,NA,"West-Vlaanderen",NA,8630,NA,NA,NA,51.0568907,2.6039507,NA,NA,NA
