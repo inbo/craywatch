@@ -347,8 +347,8 @@
 "FALSE","FALSE","Kruiskerkestraat,opw weg","Wantebeek",NA,NA,"YES","I_8755_1",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Ruiselede",8755,2,293,NA,51.0651014277752,3.38679599758748,"West-Vlaanderen",NA,NA
 "FALSE","FALSE","Vorte Bossen,Kruisbergstraat","Wantebeek",NA,NA,"YES","I_8755_2",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Ruiselede",8755,2,293,NA,51.0766769974133,3.37355280238456,"West-Vlaanderen",NA,NA
 "FALSE","FALSE","Schuiferskapelle,Rijkegemkouterstraat,opw weg","Kapellebeek",NA,NA,"YES","I_8700_2",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Tielt",8700,2,169,NA,51.0314287023616,3.35424099617203,"West-Vlaanderen",NA,NA
-"FALSE","FALSE","Rokalseidestraat, voor mnd in Schipdonkk.","Ede","ztg1zti4",NA,"YES","I_9990_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Maldegem",9990,2,620,NA,51.2339883023138,3.44170549617183,"Polder van Maldegem","0473/350437","info@poldervanmaldegem.be"
-"FALSE","FALSE","Moerhuizestraat","Noordbroekwatergang","ztg1zti4",NA,"YES","I_9990_2",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Maldegem",9990,2,2143,NA,51.2335857023141,3.44391419617126,"Polder van Maldegem","0473/350437","info@poldervanmaldegem.be"
+"ONHOLD","ONHOLD","Rokalseidestraat, voor mnd in Schipdonkk.","Ede","mwyxzjc2",NA,"YES","I_9990_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Maldegem",9990,2,620,NA,51.2339883,3.4417055,"Polder van Maldegem","0473/350437","info@poldervanmaldegem.be"
+"ONHOLD","ONHOLD","Moerhuizestraat","Noordbroekwatergang","mwyxzjc2",NA,"YES","I_9990_2",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Maldegem",9990,2,2143,NA,51.2339686,3.4422566,"Polder van Maldegem","0473/350437","info@poldervanmaldegem.be"
 "FALSE","FALSE","Koningin Astridlaan, spoorweg","Ede","nzkwmjiy",NA,"YES","I_9990_3",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Maldegem",9990,2,620,NA,51.2044149023219,3.43955739616932,"Oost-Vlaanderen",NA,"waterbeleid@oost-vlaanderen.be"
 "FALSE","FALSE","Kleit, Pot en Zuidhoutstraat, Maasbone","Ede",NA,NA,"YES","I_9990_4",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Maldegem",9990,2,620,NA,51.1750863753311,3.47138705242727,"Oost-Vlaanderen",NA,"waterbeleid@oost-vlaanderen.be"
 "FALSE","FALSE","Kleine Burkel, Goebilkstraat - zijweg","Leegakkerbeek","nzkwmjiy",NA,"YES","I_9990_5",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Maldegem",9990,2,874,NA,51.1799601023258,3.41198369617343,"Oost-Vlaanderen",NA,"waterbeleid@oost-vlaanderen.be"
@@ -770,9 +770,9 @@
 "FALSE","FALSE","Baremeers, 100m afw brug thv 740000","Molenbeek",NA,NA,"YES","I_9600_4",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Ronse",9600,2,5188,NA,50.7364253516024,3.54848820570871,"Oost-Vlaanderen",NA,"waterbeleid@oost-vlaanderen.be"
 "FALSE","FALSE","César Snoecklaan thv Utexbel, 100m afw brug thv 740400","Molenbeek",NA,NA,"YES","I_9600_5",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Ronse",9600,2,5188,NA,50.7474523445775,3.584643038305,"Oost-Vlaanderen",NA,"waterbeleid@oost-vlaanderen.be"
 "FALSE","FALSE","Savooistraat, opw brug","Molenbeek","nmyxzdkw",NA,"YES","I_9600_6",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Ronse",9600,2,5188,NA,50.7546316024694,3.61958469607942,"Oost-Vlaanderen",NA,"waterbeleid@oost-vlaanderen.be"
-"FALSE","FALSE","Spiere,Oudenaardseweg","Zwarte Spiere",NA,NA,"YES","I_8587_2",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Spiere-Helkijn",8587,1,5523,NA,50.7163666981298,3.35550882335384,"VMM",NA,"d.slootmaekers@vmm.be"
+"ONHOLD","ONHOLD","Spiere,Oudenaardseweg","Zwarte Spiere","oti1mjew",NA,"YES","I_8587_2",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Spiere-Helkijn",8587,1,5523,NA,50.7163939,3.3576975,"VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Spiere, Oudenaardseweg (100m voor gewestgrens)","Zwarte Spiere",NA,NA,"YES","I_8587_3",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Spiere-Helkijn",8587,1,5523,NA,50.7159040436559,3.34573332546867,"VMM",NA,"d.slootmaekers@vmm.be"
-"FALSE","FALSE","Spiere,Pijpestraat,opw kasteelhoeve,opw weg","Grote Spiere",NA,NA,"YES","I_8587_4",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Spiere-Helkijn",8587,1,5039,NA,50.7280484072663,3.34653223730848,"VMM",NA,"d.slootmaekers@vmm.be"
+"ONHOLD","ONHOLD","Spiere,Pijpestraat,opw kasteelhoeve,opw weg","Grote Spiere","oti1mjew",NA,"YES","I_8587_4",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Spiere-Helkijn",8587,1,5039,NA,50.7280484,3.3465322,"VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Spiere,Hellenhoek,opw zijwaterlopen","Grote Spiere",NA,NA,"YES","I_8587_5",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Spiere-Helkijn",8587,1,5039,NA,50.7244041416595,3.35652590110797,"VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Kooigem; te bereiken via:Moeskroen,La Cabocherie,Clos Pierre Bayens","Grote Spiere",NA,NA,"YES","I_8510_6",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Kortrijk",8510,1,5039,NA,50.7356882,3.317861,"VMM",NA,"d.slootmaekers@vmm.be"
 "TRUE","TRUE","Molendam-Molenslag,Molenbrug,opw weg","Oude Kale","ytbmntfk",NA,"YES","I_9920_3",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Lievegem",9920,1,72,NA,51.0832226,3.6207069,"VMM",NA,"d.slootmaekers@vmm.be"
@@ -923,7 +923,7 @@
 "FALSE","FALSE","Major polder waterway","Blankenbergsevaart",NA,NA,"YES","I_8370_3",NA,NA,"Scheers","Lotisch",NA,"West-Vlaanderen","Blankenberge",8370,1,2123,NA,51.2921098,3.118717,"VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","P. acutus","Oude Dender","zmq0mjjl",NA,"YES","I_9280_2",NA,NA,"Scheers","Lotisch",NA,"Oost-Vlaanderen","Lebbeke",9280,2,6156,NA,51.0022784,4.0817288,"Polder van de Beneden Dender","0478/838482","klaas.keppens@mail.be"
 "FALSE","FALSE","major polder waterway in urban area","Zuidervaartje",NA,NA,"YES","I_8310_2",NA,NA,"Scheers","Lotisch",NA,"West-Vlaanderen","Brugge",8310,1,2124,NA,51.2143948902291,3.24013999923334,"VMM",NA,"d.slootmaekers@vmm.be"
-"FALSE","FALSE",NA,"Leopoldkanaal","ztg1zti4",NA,"YES","I_9990_6",NA,NA,"Scheers","Lotisch",NA,"Oost-Vlaanderen","Maldegem",9990,0,2121,NA,51.2402434023165,3.48373549616239,NA,NA,NA
+"ONHOLD","ONHOLD",NA,"Leopoldkanaal","mwyxzjc2",NA,"YES","I_9990_6",NA,NA,"Scheers","Lotisch",NA,"Oost-Vlaanderen","Maldegem",9990,0,2121,NA,51.2402434,3.4837355,NA,NA,NA
 "FALSE","FALSE",NA,"Zwinnevaart",NA,NA,"YES","I_8340_8",NA,NA,"Scheers","Lotisch",NA,"West-Vlaanderen","Damme",8340,1,2230,NA,51.2780505924945,3.28294699544937,"VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Bourgoyen",NA,"zwi5ytq3",NA,"YES","I_9030_1",NA,NA,"EcoWat","Lotisch",NA,"Oost-Vlaanderen","Gent",9030,0,799,NA,51.066723,3.67287,NA,NA,NA
 "FALSE","FALSE","Oude Leie Menen","Leiemeander t.h.v. Menen Prés de Menin",NA,NA,"YES","I_8930_3",NA,NA,"EcoWat","Lotisch",NA,"West-Vlaanderen","Menen",8930,0,12103,NA,50.7939872903561,3.11571039913862,NA,NA,NA
@@ -1019,9 +1019,9 @@
 "FALSE","FALSE","Oude Schelde Mesureput","Mesureput",NA,NA,"YES","I_9750_4",NA,NA,"EcoWater","Lentisch",NA,"Oost-Vlaanderen","Kruisem",9750,NA,NA,NA,50.8994297927543,3.68431519495927,NA,NA,NA
 "FALSE","FALSE","Oude Schelde Blarewater",NA,"zdzmotni",NA,"YES","I_9636_3",NA,NA,"EcoWater","Lentisch",NA,"Oost-Vlaanderen","Zwalm",9636,NA,NA,NA,50.8920956,3.6813214,"Coppens Xavier",NA,"recreatie.ovl.anb@vlaanderen.be"
 "FALSE","FALSE","Oude Schelde Spettekraai","Oude Schelde Spetterkraai","zgexogy3",NA,"YES","I_9750_5",NA,NA,"EcoWater","Lentisch",NA,"Oost-Vlaanderen","Kruisem",9750,NA,NA,NA,50.8932680024353,3.67283559608101,NA,NA,NA
-"FALSE","FALSE","Oude Schelde Heurne-Heuvel","Oude Schelde Heurne",NA,NA,"YES","I_9700_9",NA,NA,"EcoWater","Lentisch",NA,"Oost-Vlaanderen","Oudenaarde",9700,NA,NA,NA,50.8839606927588,3.63902839498662,NA,NA,NA
+"ONHOLD","ONHOLD","Oude Schelde Heurne-Heuvel","Oude Schelde Heurne","ytrlzjy0",NA,"YES","I_9700_9",NA,NA,"EcoWater","Lentisch",NA,"Oost-Vlaanderen","Oudenaarde",9700,NA,NA,NA,50.8839607,3.6390284,NA,NA,NA
 "FALSE","FALSE","Oude Schelde Nederename?","Oude Schelde Eine",NA,NA,"YES","I_9700_10",NA,NA,"EcoWater","Lentisch",NA,"Oost-Vlaanderen","Oudenaarde",9700,NA,NA,NA,50.8663304927685,3.63185449498367,NA,NA,NA
-"FALSE","FALSE","Oude Schelde De Sterre","Oude Schelde Heurne",NA,NA,"YES","I_9700_11",NA,NA,"EcoWater","Lentisch",NA,"Oost-Vlaanderen","Oudenaarde",9700,NA,NA,NA,50.8797968927601,3.62792919499316,NA,NA,NA
+"ONHOLD","ONHOLD","Oude Schelde De Sterre","Oude Schelde Heurne","ytrlzjy0",NA,"YES","I_9700_11",NA,NA,"EcoWater","Lentisch",NA,"Oost-Vlaanderen","Oudenaarde",9700,NA,NA,NA,50.8797969,3.6279292,NA,NA,NA
 "FALSE","FALSE","Oude Schelde Melden Het Veer",NA,NA,NA,"YES","I_9700_12",NA,NA,"EcoWater","Lentisch",NA,"Oost-Vlaanderen","Oudenaarde",9700,NA,NA,NA,50.8202020927899,3.5754814950048,"Coppens Xavier",NA,"recreatie.ovl.anb@vlaanderen.be"
 "FALSE","FALSE","Oude Schelde Elsegem","Oude Schelde Wortegem-Petegem","zgrhnjvm",NA,"YES","I_9790_2",NA,NA,"EcoWater","Lentisch",NA,"Oost-Vlaanderen","Wortegem-Petegem",9790,NA,NA,NA,50.823190102442,3.54966449610348,"Coppens Xavier",NA,"recreatie.ovl.anb@vlaanderen.be"
 "FALSE","FALSE","Oude Schelde Berchem Meerse","Rijtgracht",NA,NA,"YES","I_9690_1",NA,NA,"EcoWater","Lentisch",NA,"Oost-Vlaanderen","Kluisbergen",9690,NA,NA,NA,50.8085979927936,3.54408479502335,"Coppens Xavier",NA,"recreatie.ovl.anb@vlaanderen.be"
@@ -1511,7 +1511,7 @@
 "FALSE","FALSE","suggestie I Beuls VL Brabant","Herseltseloop","yjbjnzi1","TBD","NO","V_3130_1",NA,NA,NA,NA,NA,"Vlaams-Brabant","Begijnendijk",3130,NA,NA,NA,51.0267753025216,4.79548339581916,NA,NA,NA
 "FALSE","FALSE",NA,"Maalbeek","nzrintni",NA,"NO","V_1700_3","te ondiep!",NA,NA,NA,NA,"Vlaams-Brabant","Dilbeek",1700,NA,NA,NA,50.8859434,4.2262363,NA,NA,NA
 "FALSE","FALSE",NA,NA,"nzrintni","15/07/2024","NO","V_1700_4",NA,NA,NA,NA,NA,"Vlaams-Brabant","Dilbeek",1700,NA,NA,NA,50.8816613,4.2143418,NA,NA,NA
-"FALSE","FALSE","Eeklose Watergang","Eeklose watergang","zta3nzm0",NA,"YES","I_9900_1",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Eeklo",9900,NA,NA,NA,51.2160525023291,3.53881689614668,NA,NA,NA
+"ONHOLD","ONHOLD","Eeklose Watergang","Eeklose watergang","mwyxzjc2",NA,"YES","I_9900_1",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Eeklo",9900,NA,NA,NA,51.2160525,3.5388169,NA,NA,NA
 "TRUE","TRUE",NA,"Kanaal Dessel-Schoten","mzk5yjmz","TBD","NO","V_2300_6",NA,NA,NA,NA,NA,"Antwerpen","Turnhout",2300,NA,NA,NA,51.3274215,4.9160958,NA,NA,NA
 "FALSE","FALSE",NA,"Kastanjebeek","ntm4ztkx",NA,"NO","V_8210_4",NA,NA,NA,NA,NA,"West-Vlaanderen","Zedelgem",8210,NA,NA,NA,51.1542975,3.1138884,"Meulebrouck Klaar",NA,"recreatie.wvl.anb@vlaanderen.be"
 "FALSE","FALSE",NA,"Jabbeekse Beek","ntm4ztkx",NA,"NO","V_8490_10",NA,NA,NA,NA,NA,"West-Vlaanderen","Jabbeke",8490,NA,NA,NA,51.1549801,3.1003473,"Meulebrouck Klaar",NA,"recreatie.wvl.anb@vlaanderen.be"
@@ -1588,7 +1588,7 @@
 "FALSE","FALSE",NA,"Beneden Autbraekloop","yzazyzm2",NA,"YES","I_2880_9",NA,NA,NA,NA,NA,"Antwerpen","Bornem",2880,NA,NA,NA,51.1212752,4.2851834,NA,NA,NA
 "FALSE","FALSE",NA,NA,"yzazyzm2",NA,"YES","I_2880_10",NA,NA,NA,NA,NA,"Antwerpen","Bornem",2880,NA,NA,NA,51.12,4.3012776,NA,NA,NA
 "TRUE","TRUE",NA,"Watering Oude Kale en Meirebeek","ytbmntfk",NA,"YES","I_9920_5",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Lievegem",9920,NA,NA,NA,51.088417,3.620158,NA,NA,NA
-"FALSE","FALSE",NA,NA,"mda4ntq1",NA,"YES","I_9991_3",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Maldegem",9991,NA,NA,NA,51.1920773023346,3.5264607961472,NA,NA,NA
+"ONHOLD","ONHOLD",NA,NA,"owu3yjdl",NA,"YES","I_9991_3",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Maldegem",9991,NA,NA,NA,51.1920773,3.5264608,NA,NA,NA
 "TRUE","TRUE",NA,NA,"owe0mzg2","TBD","YES","I_9220_9",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Hamme",9220,NA,NA,NA,51.0588728,4.1719219,NA,NA,NA
 "FALSE","FALSE",NA,"Leie","otc0ztnk",NA,"YES","I_8501_2",NA,NA,NA,NA,NA,"West-Vlaanderen","Kortrijk",8501,NA,NA,NA,50.8253778,3.2420074,NA,NA,NA
 "FALSE","FALSE",NA,"Schelde","yjeyzgy4","26/9 of 2/10","YES","I_9050_3",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Gent",9050,NA,NA,NA,51.0301327,3.7430006,NA,NA,NA
@@ -1826,3 +1826,4 @@
 "TRUE","TRUE",NA,NA,"nzzlmmvm",NA,"NO","V_3660_4",NA,NA,NA,NA,NA,"Limburg","Oudsbergen",3660,NA,NA,NA,51.023500002614,5.5861999956194,NA,NA,NA
 "ONHOLD","ONHOLD",NA,"Seinemolenvaart","yzk3mme3",NA,"YES","I_8630_15",NA,NA,NA,NA,NA,"West-Vlaanderen",NA,8630,NA,NA,NA,51.0361849,2.581487,NA,NA,NA
 "ONHOLD","ONHOLD",NA,"Ringsloot","yzk3mme3",NA,"YES","I_8630_16",NA,NA,NA,NA,NA,"West-Vlaanderen",NA,8630,NA,NA,NA,51.0568907,2.6039507,NA,NA,NA
+"ONHOLD","ONHOLD",NA,"Zwalmbeek","ytrlzjy0",NA,"YES","I_9700_18",NA,NA,NA,NA,NA,"Oost-Vlaanderen",NA,9700,NA,NA,NA,50.888798,3.6773243,NA,NA,NA
