@@ -19,7 +19,7 @@ De soorten die tot nu toe in Vlaanderen voorkomen zijn:
 - [rode Amerikaanse rivierkreeft](/soorten/procambarus-clarkii/) (_Procambarus clarkii_)
 - [marmerkreeft](/soorten/procambarus-virginalis/) (_Procambarus virginalis_)
 - [gestreepte Amerikaanse rivierkreeft](/soorten/procambarus-acutus/) (_Procambarus acutus_)  
-- [gevlekte Amerikaanse rivierkreeft](/soorten/faxonius-virilis/) (_Faxonius virilis_)
+- [geknobbelde Amerikaanse rivierkreeft](/soorten/faxonius-virilis/) (_Faxonius virilis_)
 
 ### Hoe kwamen ze hier terecht?
 

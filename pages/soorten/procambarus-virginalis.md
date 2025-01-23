@@ -21,7 +21,7 @@ Marmerkreeften planten zich strikt parthenogenetisch voort, wat betekent dat er 
 
 ## Verspreiding
 
-Deze soort is momenteel gekend van vijf populaties: Schoonselhof (Antwerpen), de Wolvenberg (Antwerpen), Provinciaal Domein Kessel-Lo (Vlaams-Brabant), een artificiële vijver in Leuven (Vlaams-Brabant) en een parkvijver bij Middelkerke (West-Vlaanderen).
+Deze soort is momenteel gesignaleerd op 10 verschillende locaties, waaronder het Schoonselhof (Antwerpen), de Wolvenberg (Antwerpen), Provinciaal Domein Kessel-Lo (Vlaams-Brabant), een artificiële vijver in Leuven (Vlaams-Brabant) en een parkvijver bij Middelkerke (West-Vlaanderen).
 
 [Verpreidingskaart](/kaart/){:.btn .btn-primary .text-light}
 

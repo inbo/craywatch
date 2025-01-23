@@ -28,7 +28,7 @@ Controleer zo snel mogelijk of je alles ontvangen hebt. Indien niet, kan je ons 
 
 ### De voorbereiding
 
-**Kies een periode** van 5 opeenvolgende dagen tussen 15 juni en 15 oktober om de vallen te plaatsen en te controleren. Ga best al eens een **kijkje nemen** op de gekozen locatie(s) om in te schatten of je er gemakkelijk kan geraken en waar de vallen geplaatst kunnen worden.
+**Kies een periode** van 5 opeenvolgende dagen tussen 1 mei en 15 augustus 2025 om de vallen te plaatsen en te controleren. Ga best al eens een **kijkje nemen** op de gekozen locatie(s) om in te schatten of je er gemakkelijk kan geraken en waar de vallen geplaatst kunnen worden.
 <br><br>
 ### Het plaatsen van de vallen op de eerste dag
 
