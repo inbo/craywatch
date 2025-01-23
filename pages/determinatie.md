@@ -9,6 +9,8 @@ permalink: /determinatie/
 <iframe src="https://www.youtube.com/embed/watch?v=sOk3d7kjzTI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/sOk3d7kjzTI/0.jpg)](https://www.youtube.com/watch?v=sOk3d7kjzTI)
+
 [![alt text](/assets/images/craywatch_key.jpg)](/assets/images/craywatch_key.jpg)
 
 
