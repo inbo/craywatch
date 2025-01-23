@@ -15097,11 +15097,11 @@
     </Placemark>
     <Placemark>
       <name>FALSE</name>
-      <description><![CDATA[updateRes: FALSE<br>OMSCHR: Gors-Opleeuw; einde mf-traject 5m afw brug aan mp 451200<br>NAAM: Mombeek<br>vrijwillID: NA<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_3840_4<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: Limburg<br>gemeente: Borgloon<br>postcode: 3840<br>CATC: 2<br>VHAG: 7159<br>WVLC: NA<br>Beheerder: Limburg<br>Bhrtel: NA<br>Bhremail: christel.bouchet@limburg.be<br>Longitude: 5.40367271404076<br>Latitude: 50.8259306423953<br>OIDN: 166<br>UIDN: 846<br>TERRID: 50<br>NISCODE: 73009<br>NAAM.1: Borgloon<br>DATPUBLBS: 1982-07-17<br>NUMAC: 1982001074<br>LENGTE: 4605579<br>OPPERVL: 5132233887<br>GEMNAAM: Borgloon]]></description>
+      <description><![CDATA[updateRes: ONHOLD<br>OMSCHR: Gors-Opleeuw; einde mf-traject 5m afw brug aan mp 451200<br>NAAM: Mombeek<br>vrijwillID: mdcxmmmy<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_3840_4<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: Limburg<br>gemeente: Borgloon<br>postcode: 3840<br>CATC: 2<br>VHAG: 7159<br>WVLC: NA<br>Beheerder: Limburg<br>Bhrtel: NA<br>Bhremail: christel.bouchet@limburg.be<br>Longitude: 5.4036727<br>Latitude: 50.8259306<br>OIDN: 166<br>UIDN: 846<br>TERRID: 50<br>NISCODE: 73009<br>NAAM.1: Borgloon<br>DATPUBLBS: 1982-07-17<br>NUMAC: 1982001074<br>LENGTE: 4605579<br>OPPERVL: 5132233887<br>GEMNAAM: Borgloon]]></description>
       <styleUrl>#icon-1899-558B2F</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
-          <value>FALSE</value>
+          <value>ONHOLD</value>
         </Data>
         <Data name="OMSCHR">
           <value>Gors-Opleeuw; einde mf-traject 5m afw brug aan mp 451200</value>
@@ -15110,7 +15110,7 @@
           <value>Mombeek</value>
         </Data>
         <Data name="vrijwillID">
-          <value>NA</value>
+          <value>mdcxmmmy</value>
         </Data>
         <Data name="startDate">
           <value>NA</value>
@@ -15164,10 +15164,10 @@
           <value>christel.bouchet@limburg.be</value>
         </Data>
         <Data name="Longitude">
-          <value>5.40367271404076</value>
+          <value>5.4036727</value>
         </Data>
         <Data name="Latitude">
-          <value>50.8259306423953</value>
+          <value>50.8259306</value>
         </Data>
         <Data name="OIDN">
           <value>166</value>
@@ -15202,7 +15202,7 @@
       </ExtendedData>
       <Point>
         <coordinates>
-          5.40367271404076,50.8259306423953,0
+          5.4036727,50.8259306,0
         </coordinates>
       </Point>
     </Placemark>
@@ -18759,9 +18759,9 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>FALSE</name>
+      <name>ONHOLD</name>
       <description><![CDATA[updateRes: ONHOLD<br>OMSCHR: vijver het Vinne, Zoutleeuw, thv zuidwestelijke punt, via knuppelpad, links in open water, thv dode boom<br>NAAM: Vinne<br>vrijwillID: nwi2m2u2<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_3440_8<br>restricties: NA<br>Sampler: NA<br>dataset: ANB_Mtp<br>SystemType: Lentisch<br>GEBIED: NA<br>provincie: Vlaams-Brabant<br>gemeente: Zoutleeuw<br>postcode: 3440<br>CATC: NA<br>VHAG: NA<br>WVLC: NA<br>Beheerder: NA<br>Bhrtel: NA<br>Bhremail: NA<br>Longitude: 5.1189194<br>Latitude: 50.8353643<br>OIDN: 197<br>UIDN: 862<br>TERRID: 46<br>NISCODE: 24130<br>NAAM.1: Zoutleeuw<br>DATPUBLBS: 1982-12-29<br>NUMAC: 1982001920<br>LENGTE: 4558438<br>OPPERVL: 4684508475<br>GEMNAAM: Zoutleeuw]]></description>
-      <styleUrl>#icon-1899-558B2F</styleUrl>
+      <styleUrl>#icon-1899-F9A825</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
           <value>ONHOLD</value>
@@ -18870,9 +18870,9 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>FALSE</name>
+      <name>ONHOLD</name>
       <description><![CDATA[updateRes: ONHOLD<br>OMSCHR: NA<br>NAAM: Watering De Kleine Gete<br>vrijwillID: nwi2m2u2<br>startDate: 11/07/24<br>SugbyINBO: NO<br>locID: V_3440_9<br>restricties: waterpeil half juli te laag<br>Sampler: NA<br>dataset: NA<br>SystemType: NA<br>GEBIED: NA<br>provincie: Vlaams-Brabant<br>gemeente: Zoutleeuw<br>postcode: 3440<br>CATC: NA<br>VHAG: NA<br>WVLC: NA<br>Beheerder: NA<br>Bhrtel: NA<br>Bhremail: NA<br>Longitude: 5.1213607<br>Latitude: 50.8389004<br>OIDN: 197<br>UIDN: 862<br>TERRID: 46<br>NISCODE: 24130<br>NAAM.1: Zoutleeuw<br>DATPUBLBS: 1982-12-29<br>NUMAC: 1982001920<br>LENGTE: 4558438<br>OPPERVL: 4684508475<br>GEMNAAM: Zoutleeuw]]></description>
-      <styleUrl>#icon-1899-558B2F</styleUrl>
+      <styleUrl>#icon-1899-F9A825</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
           <value>ONHOLD</value>
@@ -18982,11 +18982,11 @@
     </Placemark>
     <Placemark>
       <name>FALSE</name>
-      <description><![CDATA[updateRes: FALSE<br>OMSCHR: Alken, Meerdegatstr, tss kruising met Expressweg Sint-Truiden en Jardinstr, opw weg<br>NAAM: Kleine Herk<br>vrijwillID: NA<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_3570_1<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: Limburg<br>gemeente: Alken<br>postcode: 3570<br>CATC: 1<br>VHAG: 7812<br>WVLC: NA<br>Beheerder: VMM<br>Bhrtel: NA<br>Bhremail: d.slootmaekers@vmm.be<br>Longitude: 5.30750969567569<br>Latitude: 50.8886293026213<br>OIDN: 203<br>UIDN: 866<br>TERRID: 42<br>NISCODE: 73001<br>NAAM.1: Alken<br>DATPUBLBS: 1982-07-17<br>NUMAC: 1982001074<br>LENGTE: 2771288<br>OPPERVL: 2823549591<br>GEMNAAM: Alken]]></description>
+      <description><![CDATA[updateRes: ONHOLD<br>OMSCHR: Alken, Meerdegatstr, tss kruising met Expressweg Sint-Truiden en Jardinstr, opw weg<br>NAAM: Kleine Herk<br>vrijwillID: mdcxmmmy<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_3570_1<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: Limburg<br>gemeente: Alken<br>postcode: 3570<br>CATC: 1<br>VHAG: 7812<br>WVLC: NA<br>Beheerder: VMM<br>Bhrtel: NA<br>Bhremail: d.slootmaekers@vmm.be<br>Longitude: 5.3075097<br>Latitude: 50.8886293<br>OIDN: 203<br>UIDN: 866<br>TERRID: 42<br>NISCODE: 73001<br>NAAM.1: Alken<br>DATPUBLBS: 1982-07-17<br>NUMAC: 1982001074<br>LENGTE: 2771288<br>OPPERVL: 2823549591<br>GEMNAAM: Alken]]></description>
       <styleUrl>#icon-1899-558B2F</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
-          <value>FALSE</value>
+          <value>ONHOLD</value>
         </Data>
         <Data name="OMSCHR">
           <value>Alken, Meerdegatstr, tss kruising met Expressweg Sint-Truiden en Jardinstr, opw weg</value>
@@ -18995,7 +18995,7 @@
           <value>Kleine Herk</value>
         </Data>
         <Data name="vrijwillID">
-          <value>NA</value>
+          <value>mdcxmmmy</value>
         </Data>
         <Data name="startDate">
           <value>NA</value>
@@ -19049,10 +19049,10 @@
           <value>d.slootmaekers@vmm.be</value>
         </Data>
         <Data name="Longitude">
-          <value>5.30750969567569</value>
+          <value>5.3075097</value>
         </Data>
         <Data name="Latitude">
-          <value>50.8886293026213</value>
+          <value>50.8886293</value>
         </Data>
         <Data name="OIDN">
           <value>203</value>
@@ -19087,7 +19087,7 @@
       </ExtendedData>
       <Point>
         <coordinates>
-          5.30750969567569,50.8886293026213,0
+          5.3075097,50.8886293,0
         </coordinates>
       </Point>
     </Placemark>
@@ -20313,9 +20313,9 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>FALSE</name>
+      <name>ONHOLD</name>
       <description><![CDATA[updateRes: ONHOLD<br>OMSCHR: 33/1-2;Runkelen.begin traject aan 1ste bocht opw MP 435000<br>NAAM: Melsterbeek<br>vrijwillID: nwi2m2u2<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_3454_2<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: Vlaams-Brabant<br>gemeente: Geetbets<br>postcode: 3454<br>CATC: 1<br>VHAG: 7154<br>WVLC: NA<br>Beheerder: VMM<br>Bhrtel: NA<br>Bhremail: d.slootmaekers@vmm.be<br>Longitude: 5.1485804<br>Latitude: 50.8604145<br>OIDN: 249<br>UIDN: 895<br>TERRID: 41<br>NISCODE: 24028<br>NAAM.1: Geetbets<br>DATPUBLBS: 1976-01-23<br>NUMAC: 1975123003<br>LENGTE: 3210076<br>OPPERVL: 3551767078<br>GEMNAAM: Geetbets]]></description>
-      <styleUrl>#icon-1899-558B2F</styleUrl>
+      <styleUrl>#icon-1899-F9A825</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
           <value>ONHOLD</value>
@@ -24531,9 +24531,9 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>ONHOLD</name>
+      <name>TRUE</name>
       <description><![CDATA[updateRes: TRUE<br>OMSCHR: Tienen<br>NAAM: NA<br>vrijwillID: nzyyotg1<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_3300_9<br>restricties: NA<br>Sampler: NA<br>dataset: Scheers<br>SystemType: Lentisch<br>GEBIED: NA<br>provincie: Vlaams-Brabant<br>gemeente: Tienen<br>postcode: 3300<br>CATC: NA<br>VHAG: NA<br>WVLC: NA<br>Beheerder: NA<br>Bhrtel: NA<br>Bhremail: NA<br>Longitude: 4.9515788<br>Latitude: 50.8117904<br>OIDN: 6<br>UIDN: 939<br>TERRID: 278<br>NISCODE: 24107<br>NAAM.1: Tienen<br>DATPUBLBS: 1976-01-23<br>NUMAC: 1975123003<br>LENGTE: 5295706<br>OPPERVL: 7277228799<br>GEMNAAM: Tienen]]></description>
-      <styleUrl>#icon-1899-F9A825</styleUrl>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
           <value>TRUE</value>
@@ -40626,9 +40626,9 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>ONHOLD</name>
+      <name>TRUE</name>
       <description><![CDATA[updateRes: TRUE<br>OMSCHR: Hoegaarden, Stationstr, opw brug<br>NAAM: Grote Gete<br>vrijwillID: nzyyotg1<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_3320_1<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: Vlaams-Brabant<br>gemeente: Hoegaarden<br>postcode: 3320<br>CATC: 1<br>VHAG: 7153<br>WVLC: NA<br>Beheerder: VMM<br>Bhrtel: NA<br>Bhremail: d.slootmaekers@vmm.be<br>Longitude: 4.9000942<br>Latitude: 50.7759463<br>OIDN: 129<br>UIDN: 986<br>TERRID: 296<br>NISCODE: 24041<br>NAAM.1: Hoegaarden<br>DATPUBLBS: 1976-01-23<br>NUMAC: 1975123003<br>LENGTE: 3873957<br>OPPERVL: 3412818322<br>GEMNAAM: Hoegaarden]]></description>
-      <styleUrl>#icon-1899-F9A825</styleUrl>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
           <value>TRUE</value>
@@ -40737,9 +40737,9 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>ONHOLD</name>
+      <name>FALSE</name>
       <description><![CDATA[updateRes: FALSE<br>OMSCHR: Hoegaarden, langs Persstr, begin traj opw betonnen brugje<br>NAAM: Mene<br>vrijwillID: nzyyotg1<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_3320_2<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: Vlaams-Brabant<br>gemeente: Hoegaarden<br>postcode: 3320<br>CATC: 2<br>VHAG: 7835<br>WVLC: NA<br>Beheerder: Vlaams-Brabant<br>Bhrtel: NA<br>Bhremail: ingrid.beuls@vlaamsbrabant.be<br>Longitude: 4.8618662<br>Latitude: 50.7989895<br>OIDN: 129<br>UIDN: 986<br>TERRID: 296<br>NISCODE: 24041<br>NAAM.1: Hoegaarden<br>DATPUBLBS: 1976-01-23<br>NUMAC: 1975123003<br>LENGTE: 3873957<br>OPPERVL: 3412818322<br>GEMNAAM: Hoegaarden]]></description>
-      <styleUrl>#icon-1899-F9A825</styleUrl>
+      <styleUrl>#icon-1899-558B2F</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
           <value>FALSE</value>
