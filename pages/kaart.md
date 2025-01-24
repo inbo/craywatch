@@ -33,7 +33,7 @@ Bovenstaande kaart toont welke locaties tot nu toe werden vastgelegd om door onz
 ### Bevindingen
 De verzamelde data geven ons een beter beeld van de huidige verspreiding van invasieve rivierkreeften. Op deze kaart kan je zien waar er in Vlaanderen rivierkreeften werden waargenomen in 2024 tijdens Craywatch en waar er geen kreeften werden gevangen.
 
- ![image](/assets/images/kaart_resultaten.jpg){:.col-md-8 .w-75 .mx-auto}
+ ![image](/assets/images/kaart_resultaten.png){:.col-md-8 .w-75 .mx-auto}
 
 **Eerste vondst geknobbelde Amerikaanse rivierkreeft in België**
 Voor de start van het Craywatch project waren er zes soorten uitheemse, invasieve rivierkreeften in Vlaanderen (de Californische rivierkreeft, gestreepte Amerikaanse rivierkreeft, gevlekte Amerikaanse rivierkreeft, marmerkreeft, rode Amerikaanse rivierkreeft en Turkse rivierkreeft). In augustus 2024 vond een vrijwilliger in een visvijver in Kortemark een nieuwe en zevende soort: de geknobbelde Amerikaanse rivierkreeft. 
