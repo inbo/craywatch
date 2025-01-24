@@ -21,7 +21,7 @@ Jonge dieren zijn moeilijk te onderscheiden van jonge gestreepte Amerikaanse riv
 
 ## Verspreiding
 
-De soort is sterk aan het toenemen, met vondsten in alle Belgische provincies. Momenteel is er een grote populatie ten noorden van Brugge (ruwweg in de driehoek tussen Oostende, Maldegem en Knokke-Heist), en enkele clusters tussen Westerlo en Tessenderlo en bij Lokeren. Verder zijn er verspreide vondsten over heel Vlaanderen.
+De soort is sterk aan het toenemen, met vondsten in alle Belgische provincies. Momenteel is er een grote populatie ten noorden van Brugge, die zich steeds meer in westelijke richting aan het uitbreiden is. Verder zijn er verspreide vondsten over heel Vlaanderen.
 
 [Verpreidingskaart](/kaart/){:.btn .btn-primary .text-light}
 

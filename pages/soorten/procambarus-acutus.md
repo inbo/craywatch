@@ -19,7 +19,7 @@ De gestreepte Amerikaanse rivierkreeft kan tot 13 cm lang worden, zonder inbegri
 
 ## Verspreiding
 
-Momenteel zijn er slechts vier gevestigde populaties bekend in Vlaanderen, meer bepaald in Oost-Vlaanderen, Antwerpen en Limburg. Verspreide waarnemingen buiten deze populaties en provincies wijzen erop dat de verspreiding van de soort nog niet goed gekend is. In Wallonië is de soort voorlopig nog niet waargenomen.
+Momenteel zijn er gevestigde populaties bekend in West-Vlaanderen, Oost-Vlaanderen, Antwerpen en Limburg. Craywatch identificeerde in 2024 de eerste populatie in West-Vlaanderen. Verschillende waarnemingen in de rest van Vlaanderen wijzen erop dat de verspreiding van de soort nog niet genoeg gekend is. In Wallonië is de soort voorlopig nog niet waargenomen.
 
 [Verpreidingskaart](/kaart/){:.btn .btn-primary .text-light}
 
