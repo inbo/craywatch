@@ -103,7 +103,16 @@ base_plot <- ggplot() +
         legend.key.size = unit(0.2, "cm"),
         legend.position = "bottom",
         plot.title= element_text(face = "italic")) +
-  coord_sf()
+  coord_sf() + 
+  annotation_scale(location = "tl", style = "ticks", width_hint = 0.15) +
+  annotation_north_arrow(
+    location = "tr",
+    which_north = "true",
+    pad_x = unit(0.5, "cm"),
+    pad_y = unit(0.1, "cm"),
+    style = north_arrow_fancy_orienteering(fill = c("black", "black"), line_width = 0.3),
+    scale = 0.1 # Maak de noordpijl kleiner
+    )
 
 # Make plot
 gemeente_plot <- ggplot() +
@@ -117,7 +126,16 @@ gemeente_plot <- ggplot() +
         legend.key.size = unit(0.2, "cm"),
         legend.position = "bottom",
         plot.title= element_text(face = "italic")) +
-  coord_sf()
+  coord_sf() +
+  annotation_scale(location = "tl", style = "ticks", width_hint = 0.15) +
+  annotation_north_arrow(
+    location = "tr",
+    which_north = "true",
+    pad_x = unit(0.5, "cm"),
+    pad_y = unit(0.1, "cm"),
+    style = north_arrow_fancy_orienteering(fill = c("black", "black"), line_width = 0.3),
+    scale = 0.1 # Maak de noordpijl kleiner
+    )
 
 # Define a color palette for species
 species_colors <- c("faxonius limosus" = "#FFD700",
@@ -170,15 +188,15 @@ species_plot_dutch <- gemeente_plot +
 
 # Save the plot
 ggsave(species_plot, file = "~/GitHub/craywatch/R/data/output/craywatch_maps/validated_craywatch_map.png", 
-       width = 15, height = 6.4, units = "cm", dpi = 200)
+       width = 15, height = 7, units = "cm", dpi = 200)
 
 # Save the plot (gemeente)
 ggsave(species_plot_gemeente, file = "~/GitHub/craywatch/R/data/output/craywatch_maps/validated_craywatch_map_gemeenten.png", 
-       width = 15, height = 6.4, units = "cm", dpi = 200)
+       width = 15, height = 7, units = "cm", dpi = 200)
 
 # Save the plot (Dutch)
 ggsave(species_plot_dutch, file = "~/GitHub/craywatch/R/data/output/craywatch_maps/validated_craywatch_map_dutch.png", 
-       width = 15, height = 6.4, units = "cm", dpi = 200)
+       width = 15, height = 7, units = "cm", dpi = 200)
 
 # Sla het ggplot-object op
 dir.create("./data/output/SelectedMunic", showWarnings = FALSE, recursive = TRUE)
@@ -248,4 +266,4 @@ print(paste("Number of points in cat1:", num_points))
 
 # Save the plot
 ggsave(species_plot_cat1, file = "~/GitHub/craywatch/R/data/output/craywatch_maps/cat1_craywatch_map.png", 
-       width = 15, height = 6.4, units = "cm", dpi = 200)
+       width = 15, height = 7, units = "cm", dpi = 200)
