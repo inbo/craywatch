@@ -999,9 +999,9 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>ONHOLD</name>
-      <description><![CDATA[updateRes: FALSE<br>OMSCHR: NA<br>NAAM: Watering De Vreenebeek<br>vrijwillID: <br>startDate: NA<br>SugbyINBO: YES<br>locID: I_3670_7<br>restricties: NA<br>Sampler: NA<br>dataset: NA<br>SystemType: NA<br>GEBIED: NA<br>provincie: Limburg<br>gemeente: Oudsbergen<br>postcode: 3670<br>CATC: NA<br>VHAG: NA<br>WVLC: NA<br>Beheerder: NA<br>Bhrtel: NA<br>Bhremail: NA<br>Longitude: 5.5157167<br>Latitude: 51.0899777<br>OIDN: 310<br>UIDN: 745<br>TERRID: 364<br>NISCODE: 72042<br>NAAM.1: Oudsbergen<br>DATPUBLBS: 2018-06-01<br>NUMAC: 2018012105<br>LENGTE: 582081<br>OPPERVL: 1163706502<br>GEMNAAM: Oudsbergen]]></description>
-      <styleUrl>#icon-1899-F9A825</styleUrl>
+      <name>FALSE</name>
+      <description><![CDATA[updateRes: FALSE<br>OMSCHR: NA<br>NAAM: Watering De Vreenebeek<br>vrijwillID: NA<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_3670_7<br>restricties: NA<br>Sampler: NA<br>dataset: NA<br>SystemType: NA<br>GEBIED: NA<br>provincie: Limburg<br>gemeente: Oudsbergen<br>postcode: 3670<br>CATC: NA<br>VHAG: NA<br>WVLC: NA<br>Beheerder: NA<br>Bhrtel: NA<br>Bhremail: NA<br>Longitude: 5.5157167<br>Latitude: 51.0899777<br>OIDN: 310<br>UIDN: 745<br>TERRID: 364<br>NISCODE: 72042<br>NAAM.1: Oudsbergen<br>DATPUBLBS: 2018-06-01<br>NUMAC: 2018012105<br>LENGTE: 582081<br>OPPERVL: 1163706502<br>GEMNAAM: Oudsbergen]]></description>
+      <styleUrl>#icon-1899-558B2F</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
           <value>FALSE</value>
@@ -1013,7 +1013,7 @@
           <value>Watering De Vreenebeek</value>
         </Data>
         <Data name="vrijwillID">
-          <value/>
+          <value>NA</value>
         </Data>
         <Data name="startDate">
           <value>NA</value>
@@ -1110,9 +1110,9 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>ONHOLD</name>
+      <name>TRUE</name>
       <description><![CDATA[updateRes: TRUE<br>OMSCHR: NA<br>NAAM: Watering De Vreenebeek<br>vrijwillID: mznkyti0<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_3670_8<br>restricties: NA<br>Sampler: NA<br>dataset: NA<br>SystemType: NA<br>GEBIED: NA<br>provincie: Limburg<br>gemeente: Oudsbergen<br>postcode: 3670<br>CATC: NA<br>VHAG: NA<br>WVLC: NA<br>Beheerder: NA<br>Bhrtel: NA<br>Bhremail: NA<br>Longitude: 5.5232808<br>Latitude: 51.0762833<br>OIDN: 310<br>UIDN: 745<br>TERRID: 364<br>NISCODE: 72042<br>NAAM.1: Oudsbergen<br>DATPUBLBS: 2018-06-01<br>NUMAC: 2018012105<br>LENGTE: 582081<br>OPPERVL: 1163706502<br>GEMNAAM: Oudsbergen]]></description>
-      <styleUrl>#icon-1899-F9A825</styleUrl>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
           <value>TRUE</value>
@@ -3331,11 +3331,11 @@
     </Placemark>
     <Placemark>
       <name>ONHOLD</name>
-      <description><![CDATA[updateRes: ONHOLD<br>OMSCHR: Bisdonkstraat, veldwegel thv bocht<br>NAAM: Stokstormbeek<br>vrijwillID: yzc4njmw<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_9770_1<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: Oost-Vlaanderen<br>gemeente: Kruisem<br>postcode: 9770<br>CATC: 2<br>VHAG: 4463<br>WVLC: NA<br>Beheerder: Oost-Vlaanderen<br>Bhrtel: NA<br>Bhremail: waterbeleid@oost-vlaanderen.be<br>Longitude: 3.5177699<br>Latitude: 50.9454238<br>OIDN: 314<br>UIDN: 749<br>TERRID: 366<br>NISCODE: 45068<br>NAAM.1: Kruisem<br>DATPUBLBS: 2018-06-01<br>NUMAC: 2018012104<br>LENGTE: 5440716<br>OPPERVL: 7158974805<br>GEMNAAM: Kruisem]]></description>
+      <description><![CDATA[updateRes: TRUE<br>OMSCHR: Bisdonkstraat, veldwegel thv bocht<br>NAAM: Stokstormbeek<br>vrijwillID: yzc4njmw<br>startDate: TBD<br>SugbyINBO: YES<br>locID: I_9770_1<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: Oost-Vlaanderen<br>gemeente: Kruisem<br>postcode: 9770<br>CATC: 2<br>VHAG: 4463<br>WVLC: NA<br>Beheerder: Oost-Vlaanderen<br>Bhrtel: NA<br>Bhremail: waterbeleid@oost-vlaanderen.be<br>Longitude: 3.5177699<br>Latitude: 50.9454238<br>OIDN: 314<br>UIDN: 749<br>TERRID: 366<br>NISCODE: 45068<br>NAAM.1: Kruisem<br>DATPUBLBS: 2018-06-01<br>NUMAC: 2018012104<br>LENGTE: 5440716<br>OPPERVL: 7158974805<br>GEMNAAM: Kruisem]]></description>
       <styleUrl>#icon-1899-F9A825</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
-          <value>ONHOLD</value>
+          <value>TRUE</value>
         </Data>
         <Data name="OMSCHR">
           <value>Bisdonkstraat, veldwegel thv bocht</value>
@@ -3347,7 +3347,7 @@
           <value>yzc4njmw</value>
         </Data>
         <Data name="startDate">
-          <value>NA</value>
+          <value>TBD</value>
         </Data>
         <Data name="SugbyINBO">
           <value>YES</value>
@@ -3997,11 +3997,11 @@
     </Placemark>
     <Placemark>
       <name>ONHOLD</name>
-      <description><![CDATA[updateRes: ONHOLD<br>OMSCHR: Neereichemstraat afw brug<br>NAAM: Stampkotbeek<br>vrijwillID: yzc4njmw<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_9770_3<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: Oost-Vlaanderen<br>gemeente: Kruisem<br>postcode: 9770<br>CATC: 2<br>VHAG: 5274<br>WVLC: NA<br>Beheerder: Oost-Vlaanderen<br>Bhrtel: NA<br>Bhremail: waterbeleid@oost-vlaanderen.be<br>Longitude: 3.580549<br>Latitude: 50.9240558<br>OIDN: 314<br>UIDN: 749<br>TERRID: 366<br>NISCODE: 45068<br>NAAM.1: Kruisem<br>DATPUBLBS: 2018-06-01<br>NUMAC: 2018012104<br>LENGTE: 5440716<br>OPPERVL: 7158974805<br>GEMNAAM: Kruisem]]></description>
+      <description><![CDATA[updateRes: TRUE<br>OMSCHR: Neereichemstraat afw brug<br>NAAM: Stampkotbeek<br>vrijwillID: yzc4njmw<br>startDate: TBD<br>SugbyINBO: YES<br>locID: I_9770_3<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: Oost-Vlaanderen<br>gemeente: Kruisem<br>postcode: 9770<br>CATC: 2<br>VHAG: 5274<br>WVLC: NA<br>Beheerder: Oost-Vlaanderen<br>Bhrtel: NA<br>Bhremail: waterbeleid@oost-vlaanderen.be<br>Longitude: 3.580549<br>Latitude: 50.9240558<br>OIDN: 314<br>UIDN: 749<br>TERRID: 366<br>NISCODE: 45068<br>NAAM.1: Kruisem<br>DATPUBLBS: 2018-06-01<br>NUMAC: 2018012104<br>LENGTE: 5440716<br>OPPERVL: 7158974805<br>GEMNAAM: Kruisem]]></description>
       <styleUrl>#icon-1899-F9A825</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
-          <value>ONHOLD</value>
+          <value>TRUE</value>
         </Data>
         <Data name="OMSCHR">
           <value>Neereichemstraat afw brug</value>
@@ -4013,7 +4013,7 @@
           <value>yzc4njmw</value>
         </Data>
         <Data name="startDate">
-          <value>NA</value>
+          <value>TBD</value>
         </Data>
         <Data name="SugbyINBO">
           <value>YES</value>
@@ -20979,9 +20979,9 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>ONHOLD</name>
-      <description><![CDATA[updateRes: FALSE<br>OMSCHR: Wauberg, Meeuwerbaan (N719), grensbord Peer/Meeuwen, opw weg<br>NAAM: Gielisbeek<br>vrijwillID: <br>startDate: NA<br>SugbyINBO: YES<br>locID: I_3990_2<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: Limburg<br>gemeente: Peer<br>postcode: 3990<br>CATC: 2<br>VHAG: 9663<br>WVLC: NA<br>Beheerder: Limburg<br>Bhrtel: NA<br>Bhremail: christel.bouchet@limburg.be<br>Longitude: 5.4832172<br>Latitude: 51.0898192<br>OIDN: 279<br>UIDN: 913<br>TERRID: 13<br>NISCODE: 72030<br>NAAM.1: Peer<br>DATPUBLBS: 1982-07-17<br>NUMAC: 1982001074<br>LENGTE: 4720193<br>OPPERVL: 8723599568<br>GEMNAAM: Peer]]></description>
-      <styleUrl>#icon-1899-F9A825</styleUrl>
+      <name>FALSE</name>
+      <description><![CDATA[updateRes: FALSE<br>OMSCHR: Wauberg, Meeuwerbaan (N719), grensbord Peer/Meeuwen, opw weg<br>NAAM: Gielisbeek<br>vrijwillID: NA<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_3990_2<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: Limburg<br>gemeente: Peer<br>postcode: 3990<br>CATC: 2<br>VHAG: 9663<br>WVLC: NA<br>Beheerder: Limburg<br>Bhrtel: NA<br>Bhremail: christel.bouchet@limburg.be<br>Longitude: 5.4832172<br>Latitude: 51.0898192<br>OIDN: 279<br>UIDN: 913<br>TERRID: 13<br>NISCODE: 72030<br>NAAM.1: Peer<br>DATPUBLBS: 1982-07-17<br>NUMAC: 1982001074<br>LENGTE: 4720193<br>OPPERVL: 8723599568<br>GEMNAAM: Peer]]></description>
+      <styleUrl>#icon-1899-558B2F</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
           <value>FALSE</value>
@@ -20993,7 +20993,7 @@
           <value>Gielisbeek</value>
         </Data>
         <Data name="vrijwillID">
-          <value/>
+          <value>NA</value>
         </Data>
         <Data name="startDate">
           <value>NA</value>
@@ -31968,9 +31968,9 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>FALSE</name>
+      <name>ONHOLD</name>
       <description><![CDATA[updateRes: ONHOLD<br>OMSCHR: NA<br>NAAM: Broekgracht<br>vrijwillID: otg3ytll<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_1800_1<br>restricties: NA<br>Sampler: NA<br>dataset: Scheers<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: Vlaams-Brabant<br>gemeente: Vilvoorde<br>postcode: 1800<br>CATC: 2<br>VHAG: 6873<br>WVLC: NA<br>Beheerder: Vlaams-Brabant<br>Bhrtel: NA<br>Bhremail: ingrid.beuls@vlaamsbrabant.be<br>Longitude: 4.4610634<br>Latitude: 50.953136<br>OIDN: 39<br>UIDN: 954<br>TERRID: 313<br>NISCODE: 23088<br>NAAM.1: Vilvoorde<br>DATPUBLBS: 1998-04-24<br>NUMAC: 1998000040<br>LENGTE: 329759<br>OPPERVL: 2157364058<br>GEMNAAM: Vilvoorde]]></description>
-      <styleUrl>#icon-1899-558B2F</styleUrl>
+      <styleUrl>#icon-1899-F9A825</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
           <value>ONHOLD</value>
@@ -41848,11 +41848,11 @@
     </Placemark>
     <Placemark>
       <name>FALSE</name>
-      <description><![CDATA[updateRes: FALSE<br>OMSCHR: Grimbergen/Meise, Sprietmolenstr/Maalbeekln nr 37, begin traject 100m afw brug<br>NAAM: Maalbeek<br>vrijwillID: NA<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_1850_1<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: Vlaams-Brabant<br>gemeente: Grimbergen<br>postcode: 1850<br>CATC: 2<br>VHAG: 6673<br>WVLC: NA<br>Beheerder: Vlaams-Brabant<br>Bhrtel: NA<br>Bhremail: ingrid.beuls@vlaamsbrabant.be<br>Longitude: 4.34231391641479<br>Latitude: 50.9229223612565<br>OIDN: 158<br>UIDN: 992<br>TERRID: 314<br>NISCODE: 23025<br>NAAM.1: Grimbergen<br>DATPUBLBS: 1998-04-24<br>NUMAC: 1998000040<br>LENGTE: 3494879<br>OPPERVL: 386703193<br>GEMNAAM: Grimbergen]]></description>
+      <description><![CDATA[updateRes: ONHOLD<br>OMSCHR: Grimbergen/Meise, Sprietmolenstr/Maalbeekln nr 37, begin traject 100m afw brug<br>NAAM: Maalbeek<br>vrijwillID: odcxnmmx<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_1850_1<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: Vlaams-Brabant<br>gemeente: Grimbergen<br>postcode: 1850<br>CATC: 2<br>VHAG: 6673<br>WVLC: NA<br>Beheerder: Vlaams-Brabant<br>Bhrtel: NA<br>Bhremail: ingrid.beuls@vlaamsbrabant.be<br>Longitude: 4.3423139<br>Latitude: 50.9229224<br>OIDN: 158<br>UIDN: 992<br>TERRID: 314<br>NISCODE: 23025<br>NAAM.1: Grimbergen<br>DATPUBLBS: 1998-04-24<br>NUMAC: 1998000040<br>LENGTE: 3494879<br>OPPERVL: 386703193<br>GEMNAAM: Grimbergen]]></description>
       <styleUrl>#icon-1899-558B2F</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
-          <value>FALSE</value>
+          <value>ONHOLD</value>
         </Data>
         <Data name="OMSCHR">
           <value>Grimbergen/Meise, Sprietmolenstr/Maalbeekln nr 37, begin traject 100m afw brug</value>
@@ -41861,7 +41861,7 @@
           <value>Maalbeek</value>
         </Data>
         <Data name="vrijwillID">
-          <value>NA</value>
+          <value>odcxnmmx</value>
         </Data>
         <Data name="startDate">
           <value>NA</value>
@@ -41915,10 +41915,10 @@
           <value>ingrid.beuls@vlaamsbrabant.be</value>
         </Data>
         <Data name="Longitude">
-          <value>4.34231391641479</value>
+          <value>4.3423139</value>
         </Data>
         <Data name="Latitude">
-          <value>50.9229223612565</value>
+          <value>50.9229224</value>
         </Data>
         <Data name="OIDN">
           <value>158</value>
@@ -41953,7 +41953,7 @@
       </ExtendedData>
       <Point>
         <coordinates>
-          4.34231391641479,50.9229223612565,0
+          4.3423139,50.9229224,0
         </coordinates>
       </Point>
     </Placemark>
@@ -53169,9 +53169,9 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>ONHOLD</name>
-      <description><![CDATA[updateRes: FALSE<br>OMSCHR: NA<br>NAAM: NA<br>vrijwillID: <br>startDate: NA<br>SugbyINBO: YES<br>locID: I_9991_3<br>restricties: NA<br>Sampler: NA<br>dataset: NA<br>SystemType: NA<br>GEBIED: NA<br>provincie: Oost-Vlaanderen<br>gemeente: Maldegem<br>postcode: 9991<br>CATC: NA<br>VHAG: NA<br>WVLC: NA<br>Beheerder: NA<br>Bhrtel: NA<br>Bhremail: NA<br>Longitude: 3.5264608<br>Latitude: 51.1920773<br>OIDN: 248<br>UIDN: 1023<br>TERRID: 93<br>NISCODE: 43010<br>NAAM.1: Maldegem<br>DATPUBLBS: 1982-12-29<br>NUMAC: 1982001920<br>LENGTE: 5296586<br>OPPERVL: 9562698665<br>GEMNAAM: Maldegem]]></description>
-      <styleUrl>#icon-1899-F9A825</styleUrl>
+      <name>FALSE</name>
+      <description><![CDATA[updateRes: FALSE<br>OMSCHR: NA<br>NAAM: NA<br>vrijwillID: NA<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_9991_3<br>restricties: NA<br>Sampler: NA<br>dataset: NA<br>SystemType: NA<br>GEBIED: NA<br>provincie: Oost-Vlaanderen<br>gemeente: Maldegem<br>postcode: 9991<br>CATC: NA<br>VHAG: NA<br>WVLC: NA<br>Beheerder: NA<br>Bhrtel: NA<br>Bhremail: NA<br>Longitude: 3.5264608<br>Latitude: 51.1920773<br>OIDN: 248<br>UIDN: 1023<br>TERRID: 93<br>NISCODE: 43010<br>NAAM.1: Maldegem<br>DATPUBLBS: 1982-12-29<br>NUMAC: 1982001920<br>LENGTE: 5296586<br>OPPERVL: 9562698665<br>GEMNAAM: Maldegem]]></description>
+      <styleUrl>#icon-1899-558B2F</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
           <value>FALSE</value>
@@ -53183,7 +53183,7 @@
           <value>NA</value>
         </Data>
         <Data name="vrijwillID">
-          <value/>
+          <value>NA</value>
         </Data>
         <Data name="startDate">
           <value>NA</value>
@@ -55056,9 +55056,9 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>FALSE</name>
+      <name>ONHOLD</name>
       <description><![CDATA[updateRes: ONHOLD<br>OMSCHR: Zijbeek, Tangebeek, Eppegem, Dorentstraat, afw weg, opw houten dam<br>NAAM: Beek<br>vrijwillID: otg3ytll<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_1980_2<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: Vlaams-Brabant<br>gemeente: Zemst<br>postcode: 1980<br>CATC: 2<br>VHAG: 6996<br>WVLC: NA<br>Beheerder: Heyens Veerle<br>Bhrtel: NA<br>Bhremail: recreatie.vbr.anb@vlaanderen.be<br>Longitude: 4.4420612<br>Latitude: 50.9535553<br>OIDN: 270<br>UIDN: 1030<br>TERRID: 310<br>NISCODE: 23096<br>NAAM.1: Zemst<br>DATPUBLBS: 1998-04-24<br>NUMAC: 1998000040<br>LENGTE: 4572609<br>OPPERVL: 4322926564<br>GEMNAAM: Zemst]]></description>
-      <styleUrl>#icon-1899-558B2F</styleUrl>
+      <styleUrl>#icon-1899-F9A825</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
           <value>ONHOLD</value>
@@ -61161,9 +61161,9 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>ONHOLD</name>
+      <name>TRUE</name>
       <description><![CDATA[updateRes: TRUE<br>OMSCHR: NA<br>NAAM: Gemeentelijke Visvijver<br>vrijwillID: nzzlmmvm<br>startDate: TBD<br>SugbyINBO: YES<br>locID: I_3665_1<br>restricties: NA<br>Sampler: NA<br>dataset: NA<br>SystemType: NA<br>GEBIED: NA<br>provincie: Limburg<br>gemeente: NA<br>postcode: 3665<br>CATC: NA<br>VHAG: NA<br>WVLC: NA<br>Beheerder: NA<br>Bhrtel: NA<br>Bhremail: NA<br>Longitude: 5.5768903<br>Latitude: 51.0202376<br>OIDN: NA<br>UIDN: NA<br>TERRID: NA<br>NISCODE: NA<br>NAAM.1: NA<br>DATPUBLBS: NA<br>NUMAC: NA<br>LENGTE: NA<br>OPPERVL: NA<br>GEMNAAM: NA]]></description>
-      <styleUrl>#icon-1899-F9A825</styleUrl>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
           <value>TRUE</value>
@@ -61827,9 +61827,9 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>ONHOLD</name>
+      <name>TRUE</name>
       <description><![CDATA[updateRes: TRUE<br>OMSCHR: NA<br>NAAM: NA<br>vrijwillID: yjm4mmm2<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_9190_1<br>restricties: NA<br>Sampler: NA<br>dataset: NA<br>SystemType: NA<br>GEBIED: NA<br>provincie: Oost-Vlaanderen<br>gemeente: NA<br>postcode: 9190<br>CATC: NA<br>VHAG: NA<br>WVLC: NA<br>Beheerder: NA<br>Bhrtel: NA<br>Bhremail: NA<br>Longitude: 4.0527382<br>Latitude: 51.2007713<br>OIDN: NA<br>UIDN: NA<br>TERRID: NA<br>NISCODE: NA<br>NAAM.1: NA<br>DATPUBLBS: NA<br>NUMAC: NA<br>LENGTE: NA<br>OPPERVL: NA<br>GEMNAAM: NA]]></description>
-      <styleUrl>#icon-1899-F9A825</styleUrl>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
           <value>TRUE</value>
@@ -61938,9 +61938,9 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>ONHOLD</name>
+      <name>TRUE</name>
       <description><![CDATA[updateRes: TRUE<br>OMSCHR: NA<br>NAAM: Kanaal van Stekene<br>vrijwillID: yjm4mmm2<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_9190_2<br>restricties: NA<br>Sampler: NA<br>dataset: NA<br>SystemType: NA<br>GEBIED: NA<br>provincie: Oost-Vlaanderen<br>gemeente: NA<br>postcode: 9190<br>CATC: NA<br>VHAG: NA<br>WVLC: NA<br>Beheerder: NA<br>Bhrtel: NA<br>Bhremail: NA<br>Longitude: 4.0575324<br>Latitude: 51.2308292<br>OIDN: NA<br>UIDN: NA<br>TERRID: NA<br>NISCODE: NA<br>NAAM.1: NA<br>DATPUBLBS: NA<br>NUMAC: NA<br>LENGTE: NA<br>OPPERVL: NA<br>GEMNAAM: NA]]></description>
-      <styleUrl>#icon-1899-F9A825</styleUrl>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
           <value>TRUE</value>
