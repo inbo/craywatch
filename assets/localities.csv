@@ -352,7 +352,7 @@
 "FALSE","FALSE","Koningin Astridlaan, spoorweg","Ede","nzkwmjiy",NA,"YES","I_9990_3",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Maldegem",9990,2,620,NA,51.2044149023219,3.43955739616932,"Oost-Vlaanderen",NA,"waterbeleid@oost-vlaanderen.be"
 "FALSE","FALSE","Kleit, Pot en Zuidhoutstraat, Maasbone","Ede",NA,NA,"YES","I_9990_4","kleine gracht, amper bemonsterbaar",NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Maldegem",9990,2,620,NA,51.1750864,3.4713871,"Oost-Vlaanderen",NA,"waterbeleid@oost-vlaanderen.be"
 "FALSE","FALSE","Kleine Burkel, Goebilkstraat - zijweg","Leegakkerbeek","nzkwmjiy",NA,"YES","I_9990_5",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Maldegem",9990,2,874,NA,51.1799601023258,3.41198369617343,"Oost-Vlaanderen",NA,"waterbeleid@oost-vlaanderen.be"
-"ONHOLD","ONHOLD","Adegem, Akker","Watergang van de grote leegte","owu3yjdl",NA,"YES","I_9991_1","kleine gracht, amper bemonsterbaar",NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Maldegem",9991,2,79,NA,51.1748654,3.5327697,"Oost-Vlaanderen",NA,"waterbeleid@oost-vlaanderen.be"
+"TRUE","TRUE","Adegem, Akker","Watergang van de grote leegte","owu3yjdl","TBD","YES","I_9991_1","kleine gracht, amper bemonsterbaar",NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Maldegem",9991,2,79,NA,51.1748654,3.5327697,"Oost-Vlaanderen",NA,"waterbeleid@oost-vlaanderen.be"
 "FALSE","FALSE","Adegem, Heulendonk","Watergang van de grote leegte","nzkwmjiy",NA,"YES","I_9991_2","kleine gracht, amper bemonsterbaar",NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Maldegem",9991,2,79,NA,51.1864862,3.4981566,"Oost-Vlaanderen",NA,"waterbeleid@oost-vlaanderen.be"
 "FALSE","FALSE","Over Leiestraat",NA,NA,NA,"YES","I_9910_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Aalter",9910,2,1036,NA,51.1184119048906,3.38813325654013,"Oost-Vlaanderen",NA,"waterbeleid@oost-vlaanderen.be"
 "FALSE","FALSE","Bellem, Eksterstraat","Fortloop",NA,NA,"YES","I_9881_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Aalter",9881,2,397,NA,51.1045717,3.5072512,"Oost-Vlaanderen",NA,"waterbeleid@oost-vlaanderen.be"
@@ -850,9 +850,9 @@
 "TRUE","TRUE",NA,"Marijneloop","yjqxzmiz","12/8/24","YES","I_2920_4","bij voorkeur tussen 20/07 - 01/09",NA,"Scheers","Lotisch",NA,"Antwerpen","Kalmthout",2920,2,9918,NA,51.4264226023746,4.51036579593173,"Antwerpen",NA,"hans.vanloy@provincieantwerpen.be"
 "FALSE","FALSE",NA,"Broekloop",NA,NA,"YES","I_2920_5","bij voorkeur tussen 20/07 - 01/09",NA,"Scheers","Lotisch",NA,"Antwerpen","Kalmthout",2920,2,9845,NA,51.4212001925362,4.52384519455574,"Antwerpen",NA,"hans.vanloy@provincieantwerpen.be"
 "FALSE","FALSE",NA,"Darmloop",NA,NA,"YES","I_2920_6","bij voorkeur tussen 20/07 - 01/09",NA,"Scheers","Lotisch",NA,"Antwerpen","Kalmthout",2920,2,9880,NA,51.4184965925369,4.51453389456178,"Antwerpen",NA,"hans.vanloy@provincieantwerpen.be"
-"ONHOLD","ONHOLD",NA,"Broekloop","ywyxmtey",NA,"YES","I_2920_7","bij voorkeur tussen 20/07 - 01/09",NA,"Scheers","Lotisch",NA,"Antwerpen","Kalmthout",2920,2,9845,NA,51.4240464,4.5316957,"Antwerpen",NA,"hans.vanloy@provincieantwerpen.be"
+"TRUE","TRUE",NA,"Broekloop","ywyxmtey","TBD","YES","I_2920_7","bij voorkeur tussen 20/07 - 01/09",NA,"Scheers","Lotisch",NA,"Antwerpen","Kalmthout",2920,2,9845,NA,51.4240464,4.5316957,"Antwerpen",NA,"hans.vanloy@provincieantwerpen.be"
 "FALSE","FALSE",NA,"Berkenbeek",NA,NA,"YES","I_2990_9","bij voorkeur tussen 20/07 - 01/09",NA,"Scheers","Lotisch",NA,"Antwerpen","Wuustwezel",2990,2,9773,NA,51.423157802379,4.54247529592347,"Antwerpen",NA,"hans.vanloy@provincieantwerpen.be"
-"ONHOLD","ONHOLD",NA,"Berkenbeek","ywyxmtey",NA,"YES","I_2990_10","bij voorkeur tussen 20/07 - 01/09",NA,"Scheers","Lotisch",NA,"Antwerpen","Wuustwezel",2990,2,9773,NA,51.417124,4.5432147,"Antwerpen",NA,"hans.vanloy@provincieantwerpen.be"
+"TRUE","TRUE",NA,"Berkenbeek","ywyxmtey","TBD","YES","I_2990_10","bij voorkeur tussen 20/07 - 01/09",NA,"Scheers","Lotisch",NA,"Antwerpen","Wuustwezel",2990,2,9773,NA,51.417124,4.5432147,"Antwerpen",NA,"hans.vanloy@provincieantwerpen.be"
 "FALSE","FALSE","Gestreepte Amerikaanse rivierkreeft aanwezig (2020)","Zuidelijke Watergang",NA,NA,"YES","I_9130_6","NIET GEBRUIKEN",NA,"Scheers","Lotisch",NA,"Oost-Vlaanderen","Beveren",9130,2,47902,NA,51.2465769,4.1888337,"Polder van het Land van Waas","03/7732526","info@polderlandvanwaas.be"
 "FALSE","FALSE","Gestreepte Amerikaanse rivierkreeft aanwezig (2020)","Zuidelijke Watergang",NA,NA,"YES","I_9130_7","NIET GEBRUIKEN",NA,"Scheers","Lotisch",NA,"Oost-Vlaanderen","Beveren",9130,2,47902,NA,51.2414279,4.1682015,"Polder van het Land van Waas","03/7732526","info@polderlandvanwaas.be"
 "FALSE","FALSE",NA,"Zuidelijke Watergang",NA,NA,"YES","I_9130_8",NA,NA,"Scheers","Lotisch",NA,"Oost-Vlaanderen","Beveren",9130,2,47902,NA,51.2424919902135,4.16096259875597,"Polder van het Land van Waas","03/7732526","info@polderlandvanwaas.be"
@@ -1140,8 +1140,8 @@
 "FALSE","FALSE",NA,"Watering De Beneden Mark",NA,NA,"YES","I_2322_4",NA,NA,"ANB_Mtp","Lentisch",NA,"Antwerpen","Hoogstraten",2322,NA,NA,NA,51.4234469674848,4.71521716375312,"Quintens Hildegarde",NA,"recreatie.ant.anb@vlaanderen.be"
 "FALSE","FALSE",NA,NA,NA,NA,"YES","I_2381_5",NA,NA,"ANB_Mtp","Lentisch",NA,"Antwerpen","Ravels",2381,NA,NA,NA,51.4246204112664,5.05009656244791,"Quintens Hildegarde",NA,"recreatie.ant.anb@vlaanderen.be"
 "FALSE","FALSE","De Aa - zijbeek 1;  Poppel, noordoostkant vijver Overheide",NA,NA,NA,"YES","I_2381_6",NA,NA,"ANB_Mtp","Lentisch",NA,"Antwerpen","Ravels",2381,NA,NA,NA,51.425230304367,5.05032117708771,"Quintens Hildegarde",NA,"recreatie.ant.anb@vlaanderen.be"
-"ONHOLD","ONHOLD","prive, visvijver, medewerking eigenaar?",NA,"ywyxmtey",NA,"YES","I_2920_8",NA,NA,"Scheers","Lentisch",NA,"Antwerpen","Kalmthout",2920,NA,NA,NA,51.4223627,4.5271094,NA,NA,NA
-"ONHOLD","ONHOLD","gestreepte Amerikaanse rivierkreeft aanwezig (sinds 2015?)",NA,"ywyxmtey",NA,"YES","I_2920_9",NA,NA,"Scheers","Lentisch",NA,"Antwerpen","Kalmthout",2920,NA,NA,NA,51.428769,4.5248433,NA,NA,NA
+"TRUE","TRUE","prive, visvijver, medewerking eigenaar?",NA,"ywyxmtey","TBD","YES","I_2920_8",NA,NA,"Scheers","Lentisch",NA,"Antwerpen","Kalmthout",2920,NA,NA,NA,51.4223627,4.5271094,NA,NA,NA
+"TRUE","TRUE","gestreepte Amerikaanse rivierkreeft aanwezig (sinds 2015?)",NA,"ywyxmtey","TBD","YES","I_2920_9",NA,NA,"Scheers","Lentisch",NA,"Antwerpen","Kalmthout",2920,NA,NA,NA,51.428769,4.5248433,NA,NA,NA
 "FALSE","FALSE","Gestreepte Amerikaanse rivierkreeft aanwezig sinds 2019",NA,NA,NA,"YES","I_9130_13",NA,NA,"Scheers","Lentisch",NA,"Oost-Vlaanderen","Beveren",9130,NA,NA,NA,51.263585990207,4.19638189874493,"Hermans Jop",NA,"recreatie.ovl.anb@vlaanderen.be"
 "FALSE","FALSE","Gestreepte Amerikaanse rivierkreeft aanwezig (2020?)",NA,NA,NA,"YES","I_9130_14",NA,NA,"Scheers","Lentisch",NA,"Oost-Vlaanderen","Beveren",9130,NA,NA,NA,51.2557466902093,4.20071799873967,NA,NA,NA
 "FALSE","FALSE","geen kreeften in 2021-2022",NA,NA,NA,"YES","I_9130_15",NA,NA,"Scheers","Lentisch",NA,"Oost-Vlaanderen","Beveren",9130,NA,NA,NA,51.266789790206,4.19160829874866,NA,NA,NA
@@ -1588,7 +1588,7 @@
 "FALSE","FALSE",NA,"Beneden Autbraekloop","yzazyzm2",NA,"YES","I_2880_9",NA,NA,NA,NA,NA,"Antwerpen","Bornem",2880,NA,NA,NA,51.1212752,4.2851834,NA,NA,NA
 "FALSE","FALSE",NA,NA,"yzazyzm2",NA,"YES","I_2880_10",NA,NA,NA,NA,NA,"Antwerpen","Bornem",2880,NA,NA,NA,51.12,4.3012776,NA,NA,NA
 "TRUE","TRUE",NA,"Watering Oude Kale en Meirebeek","ytbmntfk",NA,"YES","I_9920_5",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Lievegem",9920,NA,NA,NA,51.088417,3.620158,NA,NA,NA
-"ONHOLD","ONHOLD",NA,NA,"owu3yjdl",NA,"YES","I_9991_3",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Maldegem",9991,NA,NA,NA,51.1920773,3.5264608,NA,NA,NA
+"TRUE","TRUE",NA,NA,"owu3yjdl","TBD","YES","I_9991_3",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Maldegem",9991,NA,NA,NA,51.1920773,3.5264608,NA,NA,NA
 "TRUE","TRUE",NA,NA,"owe0mzg2","TBD","YES","I_9220_9",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Hamme",9220,NA,NA,NA,51.0588728,4.1719219,NA,NA,NA
 "FALSE","FALSE",NA,"Leie","otc0ztnk",NA,"YES","I_8501_2",NA,NA,NA,NA,NA,"West-Vlaanderen","Kortrijk",8501,NA,NA,NA,50.8253778,3.2420074,NA,NA,NA
 "FALSE","FALSE",NA,"Schelde","yjeyzgy4","26/9 of 2/10","YES","I_9050_3",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Gent",9050,NA,NA,NA,51.0301327,3.7430006,NA,NA,NA
@@ -1663,7 +1663,7 @@
 "TRUE","TRUE",NA,"Prinsenpark","mwi0nmni","01/10/24","NO","V_2470_2",NA,NA,NA,NA,NA,"Antwerpen","Retie",2470,NA,NA,NA,51.22879,5.038109,NA,NA,NA
 "TRUE","TRUE",NA,"Prinsenpark","mwi0nmni","01/10/24","NO","V_2470_3",NA,NA,NA,NA,NA,"Antwerpen","Retie",2470,NA,NA,NA,51.224666,5.045138,NA,NA,NA
 "FALSE","FALSE",NA,"Chartreusemeersen",NA,NA,"YES","I_8310_4",NA,NA,NA,NA,NA,"West-Vlaanderen","Brugge",8310,NA,NA,NA,51.1838511,3.2521405,NA,NA,NA
-"ONHOLD","ONHOLD",NA,"Eeklose Watergang","owu3yjdl",NA,"YES","I_9900_2",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Eeklo",9900,NA,NA,NA,51.209412,3.586339,NA,NA,NA
+"TRUE","TRUE",NA,"Eeklose Watergang","owu3yjdl","TBD","YES","I_9900_2",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Eeklo",9900,NA,NA,NA,51.209412,3.586339,NA,NA,NA
 "FALSE","FALSE","Vertakking Hollandersgatkreek",NA,"nwu0njy5",NA,"YES","I_9982_12",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Sint-Laureins",9982,NA,NA,NA,51.265971,3.53815,NA,NA,NA
 "FALSE","FALSE",NA,NA,"nwu0njy5",NA,"YES","I_9981_4",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Sint-Laureins",9981,NA,NA,NA,51.267486,3.523547,NA,NA,NA
 "FALSE","FALSE",NA,"Herseltseloop",NA,NA,"YES","I_2230_2",NA,NA,NA,NA,NA,"Antwerpen","Herselt",2230,NA,NA,NA,51.027688,4.902965,NA,NA,NA
