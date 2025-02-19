@@ -1019,9 +1019,9 @@
 "FALSE","FALSE","Oude Schelde Mesureput","Mesureput",NA,NA,"YES","I_9750_4",NA,NA,"EcoWater","Lentisch",NA,"Oost-Vlaanderen","Kruisem",9750,NA,NA,NA,50.8994297927543,3.68431519495927,NA,NA,NA
 "FALSE","FALSE","Oude Schelde Blarewater",NA,"zdzmotni",NA,"YES","I_9636_3",NA,NA,"EcoWater","Lentisch",NA,"Oost-Vlaanderen","Zwalm",9636,NA,NA,NA,50.8920956,3.6813214,"Coppens Xavier",NA,"recreatie.ovl.anb@vlaanderen.be"
 "FALSE","FALSE","Oude Schelde Spettekraai","Oude Schelde Spetterkraai","zgexogy3",NA,"YES","I_9750_5",NA,NA,"EcoWater","Lentisch",NA,"Oost-Vlaanderen","Kruisem",9750,NA,NA,NA,50.8932680024353,3.67283559608101,NA,NA,NA
-"ONHOLD","ONHOLD","Oude Schelde Heurne-Heuvel","Oude Schelde Heurne","ytqwyznm",NA,"YES","I_9700_9",NA,NA,"EcoWater","Lentisch",NA,"Oost-Vlaanderen","Oudenaarde",9700,NA,NA,NA,50.8839607,3.6390284,NA,NA,NA
-"ONHOLD","ONHOLD","Oude Schelde Nederename?","Oude Schelde Eine","ytqwyznm",NA,"YES","I_9700_10",NA,NA,"EcoWater","Lentisch",NA,"Oost-Vlaanderen","Oudenaarde",9700,NA,NA,NA,50.8663305,3.6318545,NA,NA,NA
-"ONHOLD","ONHOLD","Oude Schelde De Sterre","Oude Schelde Heurne","ytqwyznm",NA,"YES","I_9700_11",NA,NA,"EcoWater","Lentisch",NA,"Oost-Vlaanderen","Oudenaarde",9700,NA,NA,NA,50.8797969,3.6279292,NA,NA,NA
+"TRUE","TRUE","Oude Schelde Heurne-Heuvel","Oude Schelde Heurne","ytqwyznm","TBD","YES","I_9700_9",NA,NA,"EcoWater","Lentisch",NA,"Oost-Vlaanderen","Oudenaarde",9700,NA,NA,NA,50.8839607,3.6390284,NA,NA,NA
+"TRUE","TRUE","Oude Schelde Nederename?","Oude Schelde Eine","ytqwyznm","TBD","YES","I_9700_10",NA,NA,"EcoWater","Lentisch",NA,"Oost-Vlaanderen","Oudenaarde",9700,NA,NA,NA,50.8663305,3.6318545,NA,NA,NA
+"TRUE","TRUE","Oude Schelde De Sterre","Oude Schelde Heurne","ytqwyznm","TBD","YES","I_9700_11",NA,NA,"EcoWater","Lentisch",NA,"Oost-Vlaanderen","Oudenaarde",9700,NA,NA,NA,50.8797969,3.6279292,NA,NA,NA
 "FALSE","FALSE","Oude Schelde Melden Het Veer",NA,NA,NA,"YES","I_9700_12",NA,NA,"EcoWater","Lentisch",NA,"Oost-Vlaanderen","Oudenaarde",9700,NA,NA,NA,50.8202020927899,3.5754814950048,"Coppens Xavier",NA,"recreatie.ovl.anb@vlaanderen.be"
 "FALSE","FALSE","Oude Schelde Elsegem","Oude Schelde Wortegem-Petegem","zgrhnjvm",NA,"YES","I_9790_2",NA,NA,"EcoWater","Lentisch",NA,"Oost-Vlaanderen","Wortegem-Petegem",9790,NA,NA,NA,50.823190102442,3.54966449610348,"Coppens Xavier",NA,"recreatie.ovl.anb@vlaanderen.be"
 "FALSE","FALSE","Oude Schelde Berchem Meerse","Rijtgracht",NA,NA,"YES","I_9690_1",NA,NA,"EcoWater","Lentisch",NA,"Oost-Vlaanderen","Kluisbergen",9690,NA,NA,NA,50.8085979927936,3.54408479502335,"Coppens Xavier",NA,"recreatie.ovl.anb@vlaanderen.be"
@@ -1264,11 +1264,11 @@
 "FALSE","FALSE","Hasselt",NA,NA,NA,"YES","I_3500_6",NA,NA,"Scheers","Lentisch",NA,"Limburg","Hasselt",3500,NA,NA,NA,50.9348038,5.3535918,NA,NA,NA
 "FALSE","FALSE","Sint-Truiden","Watering van Sint-Truiden",NA,NA,"YES","I_3800_3",NA,NA,"Scheers","Lentisch",NA,"Limburg","Sint-Truiden",3800,NA,NA,NA,50.823691692971,5.19013049374743,NA,NA,NA
 "FALSE","FALSE",NA,"Vroegere scheepswerf Sint-Barbara",NA,NA,"YES","I_3630_6",NA,NA,"Scheers","Lentisch",NA,"Limburg","Maasmechelen",3630,NA,NA,NA,50.9845498929386,5.70570909341182,NA,NA,NA
-"ONHOLD","ONHOLD","gemeente Lanaken?",NA,"mgnizmrm",NA,"YES","I_3620_1",NA,NA,"Scheers","Lentisch",NA,"Limburg","Lanaken",3620,NA,NA,NA,50.9023994,5.6609594,NA,NA,NA
+"FALSE","FALSE","gemeente Lanaken?",NA,NA,NA,"YES","I_3620_1",NA,NA,"Scheers","Lentisch",NA,"Limburg","Lanaken",3620,NA,NA,NA,50.9023994,5.6609594,NA,NA,NA
 "FALSE","FALSE",NA,"Sledderzee",NA,NA,"YES","I_3600_14",NA,NA,"Scheers","Lentisch",NA,"Limburg","Genk",3600,NA,NA,NA,50.9280400903148,5.54107169789652,NA,NA,NA
 "FALSE","FALSE",NA,"Visvijver",NA,NA,"YES","I_3690_1",NA,NA,"Scheers","Lentisch",NA,"Limburg","Zutendaal",3690,NA,NA,NA,50.9374060903119,5.54941509789536,NA,NA,NA
 "FALSE","FALSE",NA,"Duikvijver De Kyn",NA,NA,"YES","I_3690_2",NA,NA,"Scheers","Lentisch",NA,"Limburg","Zutendaal",3690,NA,NA,NA,50.9396332903112,5.55070659789549,NA,NA,NA
-"ONHOLD","ONHOLD","LILA","Grindplas Hochterbampt","mgnizmrm",NA,"YES","I_3620_2",NA,NA,"Scheers","Lentisch",NA,"Limburg","Lanaken",3620,NA,NA,NA,50.9002087,5.6934187,NA,NA,NA
+"FALSE","FALSE","LILA","Grindplas Hochterbampt",NA,NA,"YES","I_3620_2",NA,NA,"Scheers","Lentisch",NA,"Limburg","Lanaken",3620,NA,NA,NA,50.9002087,5.6934187,NA,NA,NA
 "FALSE","FALSE",NA,"Maesbempder Greend",NA,NA,"YES","I_3630_7",NA,NA,"Scheers","Lentisch",NA,"Limburg","Maasmechelen",3630,NA,NA,NA,50.9791866929458,5.7346681933861,NA,NA,NA
 "FALSE","FALSE","F. limosus","Oude Maas Stokkem",NA,NA,"YES","I_3650_8",NA,NA,"Scheers","Lentisch",NA,"Limburg","Dilsen-Stokkem",3650,NA,NA,NA,51.019423292924,5.75671559338721,NA,NA,NA
 "FALSE","FALSE","f. limosus high densities",NA,NA,NA,"YES","I_3650_9",NA,NA,"Scheers","Lentisch",NA,"Limburg","Dilsen-Stokkem",3650,NA,NA,NA,51.0235602929211,5.75307859339204,NA,NA,NA
@@ -1523,7 +1523,7 @@
 "TRUE","TRUE","Kanaal van Beverlo",NA,"mwnhmtq1","TBD","NO","V_2490_3",NA,NA,NA,NA,NA,"Antwerpen","Balen",2490,NA,NA,NA,51.1533249,5.2511977,NA,NA,NA
 "TRUE","TRUE","Vinderhoute,Bulken,Langendam","Merebeek","mzu1ode0",NA,"YES","I_9031_2",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Gent",9031,1,402,NA,51.0822354,3.6543178,"VMM",NA,"d.slootmaekers@vmm.be"
 "TRUE","TRUE",NA,"Hof ter Zielbeek","zwuxmwy1","09/07/2024","NO","V_2870_7",NA,NA,NA,NA,NA,"Antwerpen","Puurs-Sint-Amands",2870,NA,NA,NA,51.0753132024561,4.33810379593762,NA,NA,NA
-"ONHOLD","ONHOLD",NA,"Kanaal","mgnizmrm",NA,"YES","I_3631_2",NA,NA,NA,NA,NA,"Limburg","Maasmechelen",3631,NA,NA,NA,50.9137288,5.6968729,NA,NA,NA
+"FALSE","FALSE",NA,"Kanaal",NA,NA,"YES","I_3631_2",NA,NA,NA,NA,NA,"Limburg","Maasmechelen",3631,NA,NA,NA,50.9137288,5.6968729,NA,NA,NA
 "FALSE","FALSE",NA,"Kikbeek",NA,NA,"YES","I_3630_8",NA,NA,NA,NA,NA,"Limburg","Maasmechelen",3630,NA,NA,NA,50.952219102649,5.70238159558203,NA,NA,NA
 "TRUE","TRUE",NA,"Watering De Herk","zwexnwe1","05/08/2024","YES","I_3511_4",NA,NA,NA,"Lotisch",NA,"Limburg","Hasselt",3511,2,0,NA,50.9652475,5.2918906,"Limburg",NA,"christel.bouchet@limburg.be"
 "FALSE","FALSE",NA,"Molse Nete","odq4mdmz",NA,"NO","V_2490_4",NA,NA,NA,NA,NA,"Antwerpen","Balen",2490,NA,NA,NA,51.1875052,5.1570086,NA,NA,NA
@@ -1833,6 +1833,6 @@
 "TRUE","TRUE",NA,"Maas","ngrkywmz",NA,"YES","I_3650_16",NA,NA,NA,NA,NA,"Limburg",NA,3650,NA,NA,NA,51.0622554,5.7729366,NA,NA,NA
 "ONHOLD","ONHOLD",NA,"Echelbeek","mtmzmge1",NA,"YES","I_3530_4",NA,NA,NA,NA,NA,"Limburg",NA,3530,NA,NA,NA,51.0387988,5.3564118,NA,NA,NA
 "FALSE","FALSE",NA,"Vijver Lombarde",NA,NA,"YES","I_8434_1",NA,NA,NA,NA,NA,"West-Vlaanderen",NA,8434,NA,NA,NA,51.1574805,2.7552549,NA,NA,NA
-"ONHOLD","ONHOLD",NA,NA,"mgnizmrm",NA,"YES","I_3620_3",NA,NA,NA,NA,NA,"Limburg",NA,3620,NA,NA,NA,50.8819839,5.6787674,NA,NA,NA
+"FALSE","FALSE",NA,NA,NA,NA,"YES","I_3620_3",NA,NA,NA,NA,NA,"Limburg",NA,3620,NA,NA,NA,50.8819839,5.6787674,NA,NA,NA
 "FALSE","FALSE","melding via Johan Auwerx dat hier veel kreeften zouden zitten",NA,NA,NA,"YES","I_3040_13",NA,NA,NA,NA,NA,"Vlaams-Brabant",NA,3040,NA,NA,NA,50.8055279,4.6305187,NA,NA,NA
 "TRUE","TRUE",NA,NA,"zjdlogvk",NA,"NO","V_8630_17",NA,NA,NA,NA,NA,"West-Vlaanderen",NA,8630,NA,NA,NA,51.015806,2.67575,NA,NA,NA
