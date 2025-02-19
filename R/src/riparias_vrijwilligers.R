@@ -28,6 +28,3 @@ print(aantal_true_locaties)
 # Aantal unieke vrijwilligers
 aantal_vrijwilligers <- n_distinct(true_locaties$vrijwillID)
 print(aantal_vrijwilligers)
-
-# ====================================================================================
-# Aantal vrijwilligers ingeschreven in Riparias gebied
