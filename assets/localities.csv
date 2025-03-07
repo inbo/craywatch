@@ -112,7 +112,7 @@
 "FALSE","FALSE","Ertvelde,Hoek,Hoogstraat","Molenvaardeken",NA,NA,"YES","I_9940_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Evergem",9940,1,604,NA,51.1574250201179,3.74056446446658,"VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Laar, Humbeeksebaan, weg naar KWZI, 10 m OPW lozing KWZI","Laarbeek",NA,NA,"YES","I_1980_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Vlaams-Brabant","Zemst",1980,2,6966,NA,50.9866433583835,4.40700758968964,"Vlaams-Brabant",NA,"ingrid.beuls@vlaamsbrabant.be"
 "ONHOLD","ONHOLD","Zijbeek Laerebeek, Hombeek, Rechtestr, langs afspanning, 15m opw wegje en LP","Laarbeek","ztc4nmfl",NA,"YES","I_2811_1","bij voorkeur tussen 20/07 - 01/09",NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Mechelen",2811,2,6972,NA,51.0059161,4.4067102,"Antwerpen",NA,"hans.vanloy@provincieantwerpen.be"
-"ONHOLD","ONHOLD","Zijbeek, Tangebeek, Eppegem, Dorentstraat, afw weg, opw houten dam","Beek","njfjm2i0",NA,"YES","I_1980_2",NA,NA,"VMM_Mtp","Lotisch",NA,"Vlaams-Brabant","Zemst",1980,2,6996,NA,50.9535553,4.4420612,"Heyens Veerle",NA,"recreatie.vbr.anb@vlaanderen.be"
+"TRUE","TRUE","Zijbeek, Tangebeek, Eppegem, Dorentstraat, afw weg, opw houten dam","Beek","njfjm2i0","TBD","YES","I_1980_2",NA,NA,"VMM_Mtp","Lotisch",NA,"Vlaams-Brabant","Zemst",1980,2,6996,NA,50.9535553,4.4420612,"Heyens Veerle",NA,"recreatie.vbr.anb@vlaanderen.be"
 "FALSE","FALSE","Kraainem, Molenstr, langs straat en opw 3+1 PVC-buizen","Kleine Maelbeek",NA,NA,"YES","I_1950_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Vlaams-Brabant","Kraainem",1950,1,6573,NA,50.865305969566,4.45629768071192,"VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Zellik, Molenbeekdal / T. Coppensstraat, via wandelweg tot 100 m opw brugje, 10 m opw effluent Puratos","Maalbeek","ztc4ymy0",NA,"YES","I_1731_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Vlaams-Brabant","Asse",1731,2,6960,NA,50.8825544,4.2658569,"Vlaams-Brabant",NA,"ingrid.beuls@vlaamsbrabant.be"
 "TRUE","TRUE",NA,"Zuunbeek","ndvhowez","TBD","YES","I_1600_1",NA,NA,NA,NA,NA,"Vlaams-Brabant",NA,1600,NA,NA,NA,50.77818,4.21213,NA,NA,NA
@@ -909,7 +909,7 @@
 "FALSE","FALSE",NA,"Aabeek",NA,NA,"YES","I_2811_4",NA,NA,"Scheers","Lotisch",NA,"Antwerpen","Mechelen",2811,9,6936,NA,51.0307402927535,4.40395619446402,NA,NA,NA
 "FALSE","FALSE","Prioritair gestreepte gespot in Leest in 2015","Aabeek","m2ywngnj",NA,"YES","I_2811_5",NA,NA,"Scheers","Lotisch",NA,"Antwerpen","Mechelen",2811,9,6936,NA,51.0307403,4.4039562,NA,NA,NA
 "FALSE","FALSE",NA,"Aabeek",NA,NA,"YES","I_2811_6","bij voorkeur tussen 20/07 - 01/09",NA,"Scheers","Lotisch",NA,"Antwerpen","Mechelen",2811,2,6936,NA,51.0185573927595,4.39263099446709,"Polder Willebroek","03/8996317","polderwillebroek@vvpw.be"
-"ONHOLD","ONHOLD",NA,"Broekgracht","njfjm2i0",NA,"YES","I_1800_1",NA,NA,"Scheers","Lotisch",NA,"Vlaams-Brabant","Vilvoorde",1800,2,6873,NA,50.953136,4.4610634,"Vlaams-Brabant",NA,"ingrid.beuls@vlaamsbrabant.be"
+"TRUE","TRUE",NA,"Broekgracht","njfjm2i0","TBD","YES","I_1800_1",NA,NA,"Scheers","Lotisch",NA,"Vlaams-Brabant","Vilvoorde",1800,2,6873,NA,50.953136,4.4610634,"Vlaams-Brabant",NA,"ingrid.beuls@vlaamsbrabant.be"
 "FALSE","FALSE",NA,"Barebeek Oude Arm",NA,NA,"YES","I_1982_2",NA,NA,"Scheers","Lotisch",NA,"Vlaams-Brabant","Zemst",1982,2,6794,NA,50.9609650928034,4.47816249437286,"Vlaams-Brabant",NA,"ingrid.beuls@vlaamsbrabant.be"
 "FALSE","FALSE",NA,"Broekgracht",NA,NA,"YES","I_1982_3",NA,NA,"Scheers","Lotisch",NA,"Vlaams-Brabant","Zemst",1982,2,6873,NA,50.9609650928034,4.47816249437286,"Vlaams-Brabant",NA,"ingrid.beuls@vlaamsbrabant.be"
 "FALSE","FALSE",NA,"Barebeek Oude Arm",NA,NA,"YES","I_1982_4",NA,NA,"Scheers","Lotisch",NA,"Vlaams-Brabant","Zemst",1982,2,6794,NA,50.9609650928034,4.47816249437286,"Vlaams-Brabant",NA,"ingrid.beuls@vlaamsbrabant.be"
@@ -1364,7 +1364,7 @@
 "FALSE","FALSE","gemeente Zonhoven",NA,NA,NA,"YES","I_3520_7",NA,NA,"Scheers","Lentisch",NA,"Limburg","Zonhoven",3520,NA,NA,NA,50.9897148900119,5.3603726974079,NA,NA,NA
 "FALSE","FALSE","Private?","Kanaalke",NA,NA,"YES","I_3550_7",NA,NA,"Scheers","Lentisch",NA,"Limburg","Heusden-Zolder",3550,NA,NA,NA,51.0263730906343,5.34597689780547,NA,NA,NA
 "FALSE","FALSE","private","Watering De Herk",NA,NA,"YES","I_3550_8",NA,NA,"Scheers","Lentisch",NA,"Limburg","Heusden-Zolder",3550,NA,NA,NA,51.0269787906084,5.34229379818808,NA,NA,NA
-"FALSE","FALSE","recreation area, recreatiedomein De Plas (ANB?)","De Plas",NA,NA,"YES","I_3530_3",NA,NA,"Scheers","Lentisch",NA,"Limburg","Houthalen-Helchteren",3530,NA,NA,NA,51.0330313,5.4219622,"Thijs Koen",NA,"recreatie.lim.anb@vlaanderen.be"
+"TRUE","TRUE","recreation area, recreatiedomein De Plas (ANB?)","De Plas","mtmzmge1","TBD","YES","I_3530_3",NA,NA,"Scheers","Lentisch",NA,"Limburg","Houthalen-Helchteren",3530,NA,NA,NA,51.0330313,5.4219622,"Thijs Koen",NA,"recreatie.lim.anb@vlaanderen.be"
 "FALSE","FALSE","Private?",NA,NA,NA,"YES","I_3200_2",NA,NA,"Scheers","Lentisch",NA,"Vlaams-Brabant","Aarschot",3200,NA,NA,NA,50.9818717898911,4.85634659875362,NA,NA,NA
 "FALSE","FALSE",NA,NA,NA,NA,"YES","I_3200_3",NA,NA,"Scheers","Lentisch",NA,"Vlaams-Brabant","Aarschot",3200,NA,NA,NA,50.9806822904373,4.8505921978388,NA,NA,NA
 "FALSE","FALSE","accessible?",NA,"zgi0mju3","09/24","YES","I_2500_7",NA,NA,"Scheers","Lentisch",NA,"Antwerpen","Lier",2500,NA,NA,NA,51.1469777,4.5494446,NA,NA,NA
@@ -1831,7 +1831,7 @@
 "FALSE","FALSE",NA,NA,NA,NA,"YES","I_3790_4",NA,NA,NA,NA,NA,"Limburg",NA,3790,NA,NA,NA,50.7436155,5.8142029,NA,NA,NA
 "FALSE","FALSE",NA,NA,NA,NA,"YES","I_3792_1",NA,NA,NA,NA,NA,"Limburg",NA,3792,NA,NA,NA,50.736748,5.8225506,NA,NA,NA
 "TRUE","TRUE",NA,"Maas","ngrkywmz","TBD","YES","I_3650_16",NA,NA,NA,NA,NA,"Limburg",NA,3650,NA,NA,NA,51.0622554,5.7729366,NA,NA,NA
-"FALSE","FALSE",NA,"Echelbeek",NA,NA,"YES","I_3530_4",NA,NA,NA,NA,NA,"Limburg",NA,3530,NA,NA,NA,51.0387988,5.3564118,NA,NA,NA
+"TRUE","TRUE",NA,"Echelbeek","mtmzmge1","TBD","YES","I_3530_4",NA,NA,NA,NA,NA,"Limburg",NA,3530,NA,NA,NA,51.0387988,5.3564118,NA,NA,NA
 "FALSE","FALSE",NA,"Vijver Lombarde",NA,NA,"YES","I_8434_1",NA,NA,NA,NA,NA,"West-Vlaanderen",NA,8434,NA,NA,NA,51.1574805,2.7552549,NA,NA,NA
 "ONHOLD","ONHOLD",NA,NA,"zji2zgyw",NA,"YES","I_3620_3",NA,NA,NA,NA,NA,"Limburg",NA,3620,NA,NA,NA,50.8819839,5.6787674,NA,NA,NA
 "TRUE","TRUE","melding via Johan Auwerx dat hier veel kreeften zouden zitten",NA,"owm3nzbk","TBD","YES","I_3040_13",NA,NA,NA,NA,NA,"Vlaams-Brabant",NA,3040,NA,NA,NA,50.8055279,4.6305187,NA,NA,NA
