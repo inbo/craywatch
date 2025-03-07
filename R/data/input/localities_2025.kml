@@ -63751,14 +63751,14 @@
     </Placemark>
     <Placemark>
       <name>Punt 574</name>
-      <description><![CDATA[updateRes: TRUE<br>OMSCHR: De Bomputten<br>NAAM: <br>vrijwillID: njfjm2i0<br>startDate: TBD<br>SugbyINBO: Yes<br>locID: <br>restricties: <br>Sampler: <br>dataset: <br>SystemType: <br>GEBIED: <br>provincie: <br>gemeente: <br>postcode: <br>CATC: <br>VHAG: <br>WVLC: <br>Beheerder: <br>Bhrtel: <br>Bhremail: <br>Longitude: 4.4550192<br>Latitude: 50.9530418<br>OIDN: <br>UIDN: <br>TERRID: <br>NISCODE: <br>NAAM.1: <br>DATPUBLBS: <br>NUMAC: <br>LENGTE: <br>OPPERVL: <br>GEMNAAM: ]]></description>
+      <description><![CDATA[updateRes: TRUE<br>OMSCHR: <br>NAAM: <br>vrijwillID: njfjm2i0<br>startDate: <br>SugbyINBO: Yes<br>locID: <br>restricties: <br>Sampler: <br>dataset: <br>SystemType: <br>GEBIED: <br>provincie: <br>gemeente: <br>postcode: <br>CATC: <br>VHAG: <br>WVLC: <br>Beheerder: <br>Bhrtel: <br>Bhremail: <br>Longitude: 4.4550192<br>Latitude: 50.9530418<br>OIDN: <br>UIDN: <br>TERRID: <br>NISCODE: <br>NAAM.1: <br>DATPUBLBS: <br>NUMAC: <br>LENGTE: <br>OPPERVL: <br>GEMNAAM: ]]></description>
       <styleUrl>#icon-1899-FFD600</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
           <value>TRUE</value>
         </Data>
         <Data name="OMSCHR">
-          <value>De Bomputten</value>
+          <value/>
         </Data>
         <Data name="NAAM">
           <value/>
@@ -63767,7 +63767,7 @@
           <value>njfjm2i0</value>
         </Data>
         <Data name="startDate">
-          <value>TBD</value>
+          <value/>
         </Data>
         <Data name="SugbyINBO">
           <value>Yes</value>
