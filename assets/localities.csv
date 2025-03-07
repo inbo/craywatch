@@ -47,7 +47,7 @@
 "FALSE","FALSE","Muizenhol,zandweg naast electriciteitskab. aan Luiseekstr, 70 m voorbij de Barbierbeek","Steendonkstraatbeek",NA,NA,"YES","I_9140_2",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Temse",9140,2,3390,NA,51.165224071789,4.22356455334256,"Oost-Vlaanderen",NA,"waterbeleid@oost-vlaanderen.be"
 "FALSE","FALSE","Cleydaellaan, thv. kasteel Cleydael, opw brug","Grote Struisbeek",NA,NA,"YES","I_2630_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Antwerpen","Aartselaar",2630,1,3108,NA,51.1373307680202,4.362912876352,"VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Sint-Jan-In-Eremo,Sint-Janspolderdijk,opw weg","Roeselarekreek",NA,NA,"YES","I_9982_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Sint-Laureins",9982,2,2949,NA,51.266723722904,3.55650991134693,"Generale Vrije Polders","09/3799667","info@generalevrijepolders.be"
-"FALSE","FALSE","Wilsele, Aarschotsestwg, afw weg","Dijle",NA,NA,"YES","I_3012_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Vlaams-Brabant","Leuven",3012,1,6551,NA,50.9023927315929,4.70908953770206,"VMM",NA,"d.slootmaekers@vmm.be"
+"FALSE","FALSE","Prioritair, waarneming rivierkreeft onbekend--> marmerkreeft?",NA,NA,NA,"YES","I_3012_1",NA,NA,NA,NA,NA,"Vlaams-Brabant",NA,3012,NA,NA,NA,50.8947982,4.7063837,NA,NA,NA
 "FALSE","FALSE","Sint-Jan-In-Eremo,Brouwersweg, afw Graafjansdijk,afw weg",NA,NA,NA,"YES","I_9982_2",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Sint-Laureins",9982,2,3008,NA,51.2486074985737,3.57449954552839,"Slependammepolders","09/3798695","griffier@slependammepolders.be"
 "FALSE","FALSE","Kessel-Lo, Dijledreef, opw brug","Dijle","yjk2zjuy",NA,"YES","I_3010_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Vlaams-Brabant","Leuven",3010,1,6551,NA,50.8913324,4.7102315,"VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Wilsele, Vuurkruisenln, op bedrijventerrein AB InBev, over Dijle via weg achter fabriek, trap aan LO net afw overwelving, via trapje","Dijle",NA,NA,"YES","I_3012_2",NA,NA,"VMM_Mtp","Lotisch",NA,"Vlaams-Brabant","Leuven",3012,1,6551,NA,50.888923672517,4.71005765358826,"VMM",NA,"d.slootmaekers@vmm.be"
@@ -1837,3 +1837,4 @@
 "TRUE","TRUE","melding via Johan Auwerx dat hier veel kreeften zouden zitten",NA,"owm3nzbk","TBD","YES","I_3040_13",NA,NA,NA,NA,NA,"Vlaams-Brabant",NA,3040,NA,NA,NA,50.8055279,4.6305187,NA,NA,NA
 "TRUE","TRUE",NA,NA,"zjdlogvk","TBD","NO","V_8630_17",NA,NA,NA,NA,NA,"West-Vlaanderen",NA,8630,NA,NA,NA,51.015806,2.67575,NA,NA,NA
 "FALSE","FALSE","Prioritair, waarneming rivierkreeft onbekend--> marmerkreeft?",NA,NA,NA,"Yes",NA,NA,NA,NA,NA,NA,"Vlaams-Brabant",NA,3012,NA,NA,NA,50.8947982,4.7063837,NA,NA,NA
+"TRUE","TRUE",NA,NA,"njfjm2i0",NA,"YES","I_1980_9",NA,NA,NA,NA,NA,"Vlaams-Brabant",NA,1980,NA,NA,NA,50.9530568,4.455003,NA,NA,NA
