@@ -2,42 +2,6 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>localities_2025.csv</name>
-    <Style id="icon-1899-3949AB-normal">
-      <IconStyle>
-        <color>ffab4939</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>0</scale>
-      </LabelStyle>
-    </Style>
-    <Style id="icon-1899-3949AB-highlight">
-      <IconStyle>
-        <color>ffab4939</color>
-        <scale>1</scale>
-        <Icon>
-          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-        </Icon>
-        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
-      </IconStyle>
-      <LabelStyle>
-        <scale>1</scale>
-      </LabelStyle>
-    </Style>
-    <StyleMap id="icon-1899-3949AB">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#icon-1899-3949AB-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#icon-1899-3949AB-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
     <Style id="icon-1899-558B2F-normal">
       <IconStyle>
         <color>ff2f8b55</color>
@@ -8362,11 +8326,11 @@
     </Placemark>
     <Placemark>
       <name>ONHOLD</name>
-      <description><![CDATA[updateRes: ONHOLD<br>OMSCHR: Laakdal; Zammel; Blaardonk/Trichelhoek; opw brug mtp 324950<br>NAAM: Grote Laak<br>vrijwillID: otyymtfh<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_2431_2<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: Antwerpen<br>gemeente: Laakdal<br>postcode: 2431<br>CATC: 1<br>VHAG: 8503<br>WVLC: NA<br>Beheerder: VMM<br>Bhrtel: NA<br>Bhremail: d.slootmaekers@vmm.be<br>Longitude: 4.9557391<br>Latitude: 51.0870393<br>OIDN: 74<br>UIDN: 792<br>TERRID: 156<br>NISCODE: 13053<br>NAAM.1: Laakdal<br>DATPUBLBS: 1976-01-23<br>NUMAC: 1975123003<br>LENGTE: 4293253<br>OPPERVL: 424305923<br>GEMNAAM: Laakdal]]></description>
+      <description><![CDATA[updateRes: TRUE<br>OMSCHR: Laakdal; Zammel; Blaardonk/Trichelhoek; opw brug mtp 324950<br>NAAM: Grote Laak<br>vrijwillID: otyymtfh<br>startDate: TBD<br>SugbyINBO: YES<br>locID: I_2431_2<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: Antwerpen<br>gemeente: Laakdal<br>postcode: 2431<br>CATC: 1<br>VHAG: 8503<br>WVLC: NA<br>Beheerder: VMM<br>Bhrtel: NA<br>Bhremail: d.slootmaekers@vmm.be<br>Longitude: 4.9557391<br>Latitude: 51.0870393<br>OIDN: 74<br>UIDN: 792<br>TERRID: 156<br>NISCODE: 13053<br>NAAM.1: Laakdal<br>DATPUBLBS: 1976-01-23<br>NUMAC: 1975123003<br>LENGTE: 4293253<br>OPPERVL: 424305923<br>GEMNAAM: Laakdal]]></description>
       <styleUrl>#icon-1899-F9A825</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
-          <value>ONHOLD</value>
+          <value>TRUE</value>
         </Data>
         <Data name="OMSCHR">
           <value>Laakdal; Zammel; Blaardonk/Trichelhoek; opw brug mtp 324950</value>
@@ -8378,7 +8342,7 @@
           <value>otyymtfh</value>
         </Data>
         <Data name="startDate">
-          <value>NA</value>
+          <value>TBD</value>
         </Data>
         <Data name="SugbyINBO">
           <value>YES</value>
@@ -19573,11 +19537,11 @@
     </Placemark>
     <Placemark>
       <name>ONHOLD</name>
-      <description><![CDATA[updateRes: ONHOLD<br>OMSCHR: Geetbets, Kasteellaan, opw brug<br>NAAM: Gete<br>vrijwillID: otyymtfh<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_3450_1<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: Vlaams-Brabant<br>gemeente: Geetbets<br>postcode: 3450<br>CATC: 9<br>VHAG: 7162<br>WVLC: NA<br>Beheerder: NA<br>Bhrtel: NA<br>Bhremail: NA<br>Longitude: 5.1276598<br>Latitude: 50.9000984<br>OIDN: 249<br>UIDN: 895<br>TERRID: 41<br>NISCODE: 24028<br>NAAM.1: Geetbets<br>DATPUBLBS: 1976-01-23<br>NUMAC: 1975123003<br>LENGTE: 3210076<br>OPPERVL: 3551767078<br>GEMNAAM: Geetbets]]></description>
+      <description><![CDATA[updateRes: TRUE<br>OMSCHR: Geetbets, Kasteellaan, opw brug<br>NAAM: Gete<br>vrijwillID: otyymtfh<br>startDate: TBD<br>SugbyINBO: YES<br>locID: I_3450_1<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: Vlaams-Brabant<br>gemeente: Geetbets<br>postcode: 3450<br>CATC: 9<br>VHAG: 7162<br>WVLC: NA<br>Beheerder: NA<br>Bhrtel: NA<br>Bhremail: NA<br>Longitude: 5.1276598<br>Latitude: 50.9000984<br>OIDN: 249<br>UIDN: 895<br>TERRID: 41<br>NISCODE: 24028<br>NAAM.1: Geetbets<br>DATPUBLBS: 1976-01-23<br>NUMAC: 1975123003<br>LENGTE: 3210076<br>OPPERVL: 3551767078<br>GEMNAAM: Geetbets]]></description>
       <styleUrl>#icon-1899-F9A825</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
-          <value>ONHOLD</value>
+          <value>TRUE</value>
         </Data>
         <Data name="OMSCHR">
           <value>Geetbets, Kasteellaan, opw brug</value>
@@ -19589,7 +19553,7 @@
           <value>otyymtfh</value>
         </Data>
         <Data name="startDate">
-          <value>NA</value>
+          <value>TBD</value>
         </Data>
         <Data name="SugbyINBO">
           <value>YES</value>
@@ -20128,11 +20092,11 @@
     </Placemark>
     <Placemark>
       <name>ONHOLD</name>
-      <description><![CDATA[updateRes: ONHOLD<br>OMSCHR: 33/1-2;Geetbets; einde traject op 10m afw brug aan MP 434000<br>NAAM: Melsterbeek<br>vrijwillID: otyymtfh<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_3450_5<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: Vlaams-Brabant<br>gemeente: Geetbets<br>postcode: 3450<br>CATC: 1<br>VHAG: 7154<br>WVLC: NA<br>Beheerder: VMM<br>Bhrtel: NA<br>Bhremail: d.slootmaekers@vmm.be<br>Longitude: 5.1332746<br>Latitude: 50.9000619<br>OIDN: 249<br>UIDN: 895<br>TERRID: 41<br>NISCODE: 24028<br>NAAM.1: Geetbets<br>DATPUBLBS: 1976-01-23<br>NUMAC: 1975123003<br>LENGTE: 3210076<br>OPPERVL: 3551767078<br>GEMNAAM: Geetbets]]></description>
+      <description><![CDATA[updateRes: TRUE<br>OMSCHR: 33/1-2;Geetbets; einde traject op 10m afw brug aan MP 434000<br>NAAM: Melsterbeek<br>vrijwillID: otyymtfh<br>startDate: TBD<br>SugbyINBO: YES<br>locID: I_3450_5<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: Vlaams-Brabant<br>gemeente: Geetbets<br>postcode: 3450<br>CATC: 1<br>VHAG: 7154<br>WVLC: NA<br>Beheerder: VMM<br>Bhrtel: NA<br>Bhremail: d.slootmaekers@vmm.be<br>Longitude: 5.1332746<br>Latitude: 50.9000619<br>OIDN: 249<br>UIDN: 895<br>TERRID: 41<br>NISCODE: 24028<br>NAAM.1: Geetbets<br>DATPUBLBS: 1976-01-23<br>NUMAC: 1975123003<br>LENGTE: 3210076<br>OPPERVL: 3551767078<br>GEMNAAM: Geetbets]]></description>
       <styleUrl>#icon-1899-F9A825</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
-          <value>ONHOLD</value>
+          <value>TRUE</value>
         </Data>
         <Data name="OMSCHR">
           <value>33/1-2;Geetbets; einde traject op 10m afw brug aan MP 434000</value>
@@ -20144,7 +20108,7 @@
           <value>otyymtfh</value>
         </Data>
         <Data name="startDate">
-          <value>NA</value>
+          <value>TBD</value>
         </Data>
         <Data name="SugbyINBO">
           <value>YES</value>
@@ -21793,11 +21757,11 @@
     </Placemark>
     <Placemark>
       <name>ONHOLD</name>
-      <description><![CDATA[updateRes: ONHOLD<br>OMSCHR: Laakdal; Vorst; Lindestraat; beginnen 10m opw brugje<br>NAAM: Grote Laak<br>vrijwillID: otyymtfh<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_3980_3<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: Limburg<br>gemeente: Tessenderlo<br>postcode: 3980<br>CATC: 1<br>VHAG: 8503<br>WVLC: NA<br>Beheerder: VMM<br>Bhrtel: NA<br>Bhremail: d.slootmaekers@vmm.be<br>Longitude: 5.0587994<br>Latitude: 51.0790464<br>OIDN: 294<br>UIDN: 922<br>TERRID: 24<br>NISCODE: 71057<br>NAAM.1: Tessenderlo<br>DATPUBLBS: 1849-06-23<br>NUMAC: NA<br>LENGTE: 4735687<br>OPPERVL: 5164253454<br>GEMNAAM: Tessenderlo]]></description>
+      <description><![CDATA[updateRes: TRUE<br>OMSCHR: Laakdal; Vorst; Lindestraat; beginnen 10m opw brugje<br>NAAM: Grote Laak<br>vrijwillID: otyymtfh<br>startDate: TBD<br>SugbyINBO: YES<br>locID: I_3980_3<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: Limburg<br>gemeente: Tessenderlo<br>postcode: 3980<br>CATC: 1<br>VHAG: 8503<br>WVLC: NA<br>Beheerder: VMM<br>Bhrtel: NA<br>Bhremail: d.slootmaekers@vmm.be<br>Longitude: 5.0587994<br>Latitude: 51.0790464<br>OIDN: 294<br>UIDN: 922<br>TERRID: 24<br>NISCODE: 71057<br>NAAM.1: Tessenderlo<br>DATPUBLBS: 1849-06-23<br>NUMAC: NA<br>LENGTE: 4735687<br>OPPERVL: 5164253454<br>GEMNAAM: Tessenderlo]]></description>
       <styleUrl>#icon-1899-F9A825</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
-          <value>ONHOLD</value>
+          <value>TRUE</value>
         </Data>
         <Data name="OMSCHR">
           <value>Laakdal; Vorst; Lindestraat; beginnen 10m opw brugje</value>
@@ -21809,7 +21773,7 @@
           <value>otyymtfh</value>
         </Data>
         <Data name="startDate">
-          <value>NA</value>
+          <value>TBD</value>
         </Data>
         <Data name="SugbyINBO">
           <value>YES</value>
@@ -64749,72 +64713,72 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>51.238453, 5.386569</name>
-      <description><![CDATA[updateRes: TRUE<br>OMSCHR: <br>NAAM: <br>vrijwillID: mdflzwm0<br>startDate: <br>SugbyINBO: NO<br>locID: <br>restricties: <br>Sampler: <br>dataset: <br>SystemType: <br>GEBIED: <br>provincie: <br>gemeente: <br>postcode: <br>CATC: <br>VHAG: <br>WVLC: <br>Beheerder: <br>Bhrtel: <br>Bhremail: <br>Longitude: 5.386569<br>Latitude: 51.238453<br>OIDN: <br>UIDN: <br>TERRID: <br>NISCODE: <br>NAAM.1: <br>DATPUBLBS: <br>NUMAC: <br>LENGTE: <br>OPPERVL: <br>GEMNAAM: ]]></description>
-      <styleUrl>#icon-1899-3949AB</styleUrl>
+      <name>TRUE</name>
+      <description><![CDATA[updateRes: TRUE<br>OMSCHR: NA<br>NAAM: NA<br>vrijwillID: mdflzwm0<br>startDate: NA<br>SugbyINBO: NO<br>locID: V_3920_2<br>restricties: NA<br>Sampler: NA<br>dataset: NA<br>SystemType: NA<br>GEBIED: NA<br>provincie: Limburg<br>gemeente: NA<br>postcode: 3920<br>CATC: NA<br>VHAG: NA<br>WVLC: NA<br>Beheerder: NA<br>Bhrtel: NA<br>Bhremail: NA<br>Longitude: 5.386569<br>Latitude: 51.238453<br>OIDN: NA<br>UIDN: NA<br>TERRID: NA<br>NISCODE: NA<br>NAAM.1: NA<br>DATPUBLBS: NA<br>NUMAC: NA<br>LENGTE: NA<br>OPPERVL: NA<br>GEMNAAM: NA]]></description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
           <value>TRUE</value>
         </Data>
         <Data name="OMSCHR">
-          <value/>
+          <value>NA</value>
         </Data>
         <Data name="NAAM">
-          <value/>
+          <value>NA</value>
         </Data>
         <Data name="vrijwillID">
           <value>mdflzwm0</value>
         </Data>
         <Data name="startDate">
-          <value/>
+          <value>NA</value>
         </Data>
         <Data name="SugbyINBO">
           <value>NO</value>
         </Data>
         <Data name="locID">
-          <value/>
+          <value>V_3920_2</value>
         </Data>
         <Data name="restricties">
-          <value/>
+          <value>NA</value>
         </Data>
         <Data name="Sampler">
-          <value/>
+          <value>NA</value>
         </Data>
         <Data name="dataset">
-          <value/>
+          <value>NA</value>
         </Data>
         <Data name="SystemType">
-          <value/>
+          <value>NA</value>
         </Data>
         <Data name="GEBIED">
-          <value/>
+          <value>NA</value>
         </Data>
         <Data name="provincie">
-          <value/>
+          <value>Limburg</value>
         </Data>
         <Data name="gemeente">
-          <value/>
+          <value>NA</value>
         </Data>
         <Data name="postcode">
-          <value/>
+          <value>3920.0</value>
         </Data>
         <Data name="CATC">
-          <value/>
+          <value>NA</value>
         </Data>
         <Data name="VHAG">
-          <value/>
+          <value>NA</value>
         </Data>
         <Data name="WVLC">
-          <value/>
+          <value>NA</value>
         </Data>
         <Data name="Beheerder">
-          <value/>
+          <value>NA</value>
         </Data>
         <Data name="Bhrtel">
-          <value/>
+          <value>NA</value>
         </Data>
         <Data name="Bhremail">
-          <value/>
+          <value>NA</value>
         </Data>
         <Data name="Longitude">
           <value>5.386569</value>
@@ -64823,34 +64787,34 @@
           <value>51.238453</value>
         </Data>
         <Data name="OIDN">
-          <value/>
+          <value>NA</value>
         </Data>
         <Data name="UIDN">
-          <value/>
+          <value>NA</value>
         </Data>
         <Data name="TERRID">
-          <value/>
+          <value>NA</value>
         </Data>
         <Data name="NISCODE">
-          <value/>
+          <value>NA</value>
         </Data>
         <Data name="NAAM.1">
-          <value/>
+          <value>NA</value>
         </Data>
         <Data name="DATPUBLBS">
-          <value/>
+          <value>NA</value>
         </Data>
         <Data name="NUMAC">
-          <value/>
+          <value>NA</value>
         </Data>
         <Data name="LENGTE">
-          <value/>
+          <value>NA</value>
         </Data>
         <Data name="OPPERVL">
-          <value/>
+          <value>NA</value>
         </Data>
         <Data name="GEMNAAM">
-          <value/>
+          <value>NA</value>
         </Data>
       </ExtendedData>
       <Point>
