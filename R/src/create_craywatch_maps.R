@@ -31,8 +31,8 @@ craywatch_data$date <- dmy(craywatch_data$date) # Convert to Date using dmy form
 grouped_craywatch_data <- craywatch_data %>%
   group_by(locID) %>%
   summarize(
-    number_of_individuals = sum(number.of.individuals, na.rm = TRUE), 
-    number_of_days = n(), # Rename count
+    individuals = sum(number.of.individuals, na.rm = TRUE), 
+    days_sampled = n(), # Rename count
     start_date = min(date, na.rm = TRUE), # Get the first date
     end_date = max(date, na.rm = TRUE), # Get the last date
     species = list(
@@ -46,6 +46,7 @@ grouped_craywatch_data <- craywatch_data %>%
     vrijwillID = first(vrijwillID)  # Take the first 'vrijwillID' value for each group (assuming it is the same for each group)
   ) %>%
   unnest(cols = c(species)) # Separate each species into its own row
+
 
 # Select only the 'locID', 'Latitude', and 'Longitude' columns from localities
 localities_selected <- map_data %>%
@@ -62,16 +63,20 @@ str(grouped_craywatch_data)
 
 # Nagaan hoeveel mensen exact het protocol volgden
 protocol_followers <- grouped_craywatch_data %>%
-  filter(number_of_days == 4 & consecutive == "TRUE") # locaties waar er exact 4 na elkaar dagen gecontroleerd is
+  filter(days_sampled == 4 & consecutive == "TRUE") # locaties waar er exact 4 na elkaar dagen gecontroleerd is
 
 n_distinct(protocol_followers$vrijwillID)
 
 # Filter the data we want to use
 craywatch_data_usable <- grouped_craywatch_data %>%
   filter(!is.na(Longitude) & !is.na(Latitude)) %>%
-  filter(!(species == "absent" & number_of_days < 4))  # Exclude rows where species is "absent" and number_of_days < 4
+  filter(!(species == "absent" & days_sampled < 4))  # Exclude rows where species is "absent" and number_of_days < 4
 
 craywatch_sf <- st_as_sf(craywatch_data_usable, coords = c("Longitude", "Latitude"), crs = 4326)
+
+# Maak GIS-laag
+st_write(craywatch_sf, "~/GitHub/craywatch/R/data/output/GIS-laag/craywatch_results_2024.shp", append=FALSE)  # shapefile
+st_write(craywatch_sf, "~/GitHub/craywatch/R/data/output/GIS-laag/craywatch_results_2024.gpkg", layer = "craywatch_observations", append=FALSE)
 
 # Read shapefiles
 vlaanderen <- st_read("~/GitHub/craywatch/R/data/input/shapefiles/grenzenvlaanderen.shp")
