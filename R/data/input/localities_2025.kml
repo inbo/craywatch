@@ -65710,7 +65710,7 @@
     </Placemark>
     <Placemark>
       <name>Punt 591</name>
-      <description><![CDATA[updateRes: TRUE<br>OMSCHR: <br>NAAM: <br>vrijwillID: odcxnmmx<br>startDate: YES<br>SugbyINBO: <br>locID: <br>restricties: <br>Sampler: <br>dataset: <br>SystemType: <br>GEBIED: <br>provincie: <br>gemeente: <br>postcode: <br>CATC: <br>VHAG: <br>WVLC: <br>Beheerder: <br>Bhrtel: <br>Bhremail: <br>Longitude: 4.7412299<br>Latitude: 51.0907835<br>OIDN: <br>UIDN: <br>TERRID: <br>NISCODE: <br>NAAM.1: <br>DATPUBLBS: <br>NUMAC: <br>LENGTE: <br>OPPERVL: <br>GEMNAAM: ]]></description>
+      <description><![CDATA[updateRes: TRUE<br>OMSCHR: <br>NAAM: <br>vrijwillID: odcxnmmx<br>startDate: <br>SugbyINBO: YES<br>locID: <br>restricties: <br>Sampler: <br>dataset: <br>SystemType: <br>GEBIED: <br>provincie: <br>gemeente: <br>postcode: <br>CATC: <br>VHAG: <br>WVLC: <br>Beheerder: <br>Bhrtel: <br>Bhremail: <br>Longitude: 4.7412299<br>Latitude: 51.0907835<br>OIDN: <br>UIDN: <br>TERRID: <br>NISCODE: <br>NAAM.1: <br>DATPUBLBS: <br>NUMAC: <br>LENGTE: <br>OPPERVL: <br>GEMNAAM: ]]></description>
       <styleUrl>#icon-1899-7CB342</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
@@ -65726,10 +65726,10 @@
           <value>odcxnmmx</value>
         </Data>
         <Data name="startDate">
-          <value>YES</value>
+          <value/>
         </Data>
         <Data name="SugbyINBO">
-          <value/>
+          <value>YES</value>
         </Data>
         <Data name="locID">
           <value/>
