@@ -376,13 +376,15 @@ localities_2025_cleaned <- localities_2025 %>%
 localities_full <- localities_full %>%
   mutate(
     isReserved = as.character(isReserved),
-    updateRes = as.character(updateRes)
+    updateRes = as.character(updateRes),
+    Latitude = as.character(Latitude)
   )
 
 localities_2025_cleaned <- localities_2025_cleaned %>%
   mutate(
     isReserved = as.character(isReserved),
-    updateRes = as.character(updateRes)
+    updateRes = as.character(updateRes),
+    Latitude = as.character(Latitude)
   )
 
 # Zorg ervoor dat de kolomnamen overeenkomen
