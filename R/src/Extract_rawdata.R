@@ -1,5 +1,8 @@
+library(magrittr)
+library(dplyr)
+
 #To convert data to validation file
-directory_path <- "./data/observations/"
+directory_path <- "~/GitHub/craywatch/R/data/observations/exports_2025"
 files <- list.files(directory_path, pattern = "^event-craywatch-.*\\.csv$", full.names = TRUE)
 
 process_file <- function(file) {
@@ -39,9 +42,9 @@ all_data$locID <- gsub(pattern, "\\1", all_data$locID)
 
 
 #read localities file to extract vrijwilID
-localities <- read.csv("../assets/localities.csv")
+localities <- read.csv("~/GitHub/craywatch/assets/localities.csv")
 
 localities_subset <- localities %>% select(locID, vrijwillID)
 all_data <- all_data %>% left_join(localities_subset, by = "locID")
 
-write.csv(all_data, file = "./data/observations/craywatch_validation.csv", row.names = FALSE)
+write.csv(all_data, file = "~/GitHub/craywatch/R/data/observations/data_validation/craywatch_validation_2025.csv", row.names = FALSE)
