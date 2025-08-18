@@ -3331,7 +3331,7 @@
     </Placemark>
     <Placemark>
       <name>TRUE</name>
-      <description><![CDATA[updateRes: TRUE<br>OMSCHR: Bisdonkstraat, veldwegel thv bocht<br>NAAM: Stokstormbeek<br>vrijwillID: yzc4njmw<br>startDate: TBD<br>SugbyINBO: YES<br>locID: I_9770_1<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: Oost-Vlaanderen<br>gemeente: Kruisem<br>postcode: 9770<br>CATC: 2<br>VHAG: 4463<br>WVLC: NA<br>Beheerder: Oost-Vlaanderen<br>Bhrtel: NA<br>Bhremail: waterbeleid@oost-vlaanderen.be<br>Longitude: 3.5177699<br>Latitude: 50.9454238<br>OIDN: 314<br>UIDN: 749<br>TERRID: 366<br>NISCODE: 45068<br>NAAM.1: Kruisem<br>DATPUBLBS: 2018-06-01<br>NUMAC: 2018012104<br>LENGTE: 5440716<br>OPPERVL: 7158974805<br>GEMNAAM: Kruisem]]></description>
+      <description><![CDATA[updateRes: TRUE<br>OMSCHR: Bisdonkstraat, veldwegel thv bocht<br>NAAM: Stokstormbeek<br>vrijwillID: yzc4njmw<br>startDate: TBD<br>SugbyINBO: YES<br>locID: I_9770_1<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: Oost-Vlaanderen<br>gemeente: Kruisem<br>postcode: 9770<br>CATC: 2<br>VHAG: 4463<br>WVLC: NA<br>Beheerder: Oost-Vlaanderen<br>Bhrtel: NA<br>Bhremail: waterbeleid@oost-vlaanderen.be<br>Longitude: 3.536272<br>Latitude: 50.956429<br>OIDN: 314<br>UIDN: 749<br>TERRID: 366<br>NISCODE: 45068<br>NAAM.1: Kruisem<br>DATPUBLBS: 2018-06-01<br>NUMAC: 2018012104<br>LENGTE: 5440716<br>OPPERVL: 7158974805<br>GEMNAAM: Kruisem]]></description>
       <styleUrl>#icon-1899-FF5252</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
@@ -3398,10 +3398,10 @@
           <value>waterbeleid@oost-vlaanderen.be</value>
         </Data>
         <Data name="Longitude">
-          <value>3.5177699</value>
+          <value>3.536272</value>
         </Data>
         <Data name="Latitude">
-          <value>50.9454238</value>
+          <value>50.956429</value>
         </Data>
         <Data name="OIDN">
           <value>314</value>
@@ -3436,7 +3436,7 @@
       </ExtendedData>
       <Point>
         <coordinates>
-          3.5177699,50.9454238,0
+          3.536272,50.956429,0
         </coordinates>
       </Point>
     </Placemark>
@@ -19647,9 +19647,9 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>FALSE</name>
+      <name>ONHOLD</name>
       <description><![CDATA[updateRes: ONHOLD<br>OMSCHR: Grazen, Galgestr, opw brug<br>NAAM: Melsterbeek<br>vrijwillID: nwi2m2u2<br>startDate: NA<br>SugbyINBO: YES<br>locID: I_3454_1<br>restricties: NA<br>Sampler: NA<br>dataset: VMM_Mtp<br>SystemType: Lotisch<br>GEBIED: NA<br>provincie: Vlaams-Brabant<br>gemeente: Geetbets<br>postcode: 3454<br>CATC: 1<br>VHAG: 7154<br>WVLC: NA<br>Beheerder: VMM<br>Bhrtel: NA<br>Bhremail: d.slootmaekers@vmm.be<br>Longitude: 5.1480851<br>Latitude: 50.8605257<br>OIDN: 249<br>UIDN: 895<br>TERRID: 41<br>NISCODE: 24028<br>NAAM.1: Geetbets<br>DATPUBLBS: 1976-01-23<br>NUMAC: 1975123003<br>LENGTE: 3210076<br>OPPERVL: 3551767078<br>GEMNAAM: Geetbets]]></description>
-      <styleUrl>#icon-1899-558B2F</styleUrl>
+      <styleUrl>#icon-1899-F9A825</styleUrl>
       <ExtendedData>
         <Data name="updateRes">
           <value>ONHOLD</value>
