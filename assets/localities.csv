@@ -347,7 +347,7 @@
 "FALSE","FALSE","Kruiskerkestraat,opw weg","Wantebeek",NA,NA,"YES","I_8755_1",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Ruiselede",8755,2,293,NA,"51.0651014277752",3.38679599758748,"West-Vlaanderen",NA,NA
 "FALSE","FALSE","Vorte Bossen,Kruisbergstraat","Wantebeek",NA,NA,"YES","I_8755_2",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Ruiselede",8755,2,293,NA,"51.0766769974133",3.37355280238456,"West-Vlaanderen",NA,NA
 "ONHOLD","ONHOLD","Schuiferskapelle,Rijkegemkouterstraat,opw weg","Kapellebeek","mjywyjqx",NA,"YES","I_8700_2",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Tielt",8700,2,169,NA,"51.0314287",3.354241,"West-Vlaanderen",NA,NA
-"TRUE","TRUE","Rokalseidestraat, voor mnd in Schipdonkk.","Ede","mwyxzjc2","TBD","YES","I_9990_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Maldegem",9990,2,620,NA,"51.2339883",3.4417055,"Polder van Maldegem","0473/350437","info@poldervanmaldegem.be"
+"FALSE","FALSE","Rokalseidestraat, voor mnd in Schipdonkk.","Ede","mwyxzjc2","TBD","YES","I_9990_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Maldegem",9990,2,620,NA,"51.2339883",3.4417055,"Polder van Maldegem","0473/350437","info@poldervanmaldegem.be"
 "TRUE","TRUE","Moerhuizestraat","Noordbroekwatergang","mwyxzjc2","TBD","YES","I_9990_2",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Maldegem",9990,2,2143,NA,"51.2339686",3.4422566,"Polder van Maldegem","0473/350437","info@poldervanmaldegem.be"
 "TRUE","TRUE","Koningin Astridlaan, spoorweg","Ede","zgzlztnm","TBD","YES","I_9990_3",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Maldegem",9990,2,620,NA,"51.2074162",3.4438141,"Oost-Vlaanderen",NA,"waterbeleid@oost-vlaanderen.be"
 "FALSE","FALSE","Kleit, Pot en Zuidhoutstraat, Maasbone","Ede",NA,NA,"YES","I_9990_4","kleine gracht, amper bemonsterbaar",NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Maldegem",9990,2,620,NA,"51.1750864",3.4713871,"Oost-Vlaanderen",NA,"waterbeleid@oost-vlaanderen.be"
@@ -1511,7 +1511,7 @@
 "ONHOLD","ONHOLD","suggestie I Beuls VL Brabant","Herseltseloop","zje5zwzm","TBD","NO","V_3130_1",NA,NA,NA,NA,NA,"Vlaams-Brabant","Begijnendijk",3130,NA,NA,NA,"51.0236576",4.8006547,NA,NA,NA
 "FALSE","FALSE",NA,"Maalbeek","nzrintni",NA,"NO","V_1700_3","te ondiep!",NA,NA,NA,NA,"Vlaams-Brabant","Dilbeek",1700,NA,NA,NA,"50.8859434",4.2262363,NA,NA,NA
 "FALSE","FALSE",NA,NA,"nzrintni","15/07/2024","NO","V_1700_4",NA,NA,NA,NA,NA,"Vlaams-Brabant","Dilbeek",1700,NA,NA,NA,"50.8816613",4.2143418,NA,NA,NA
-"TRUE","TRUE","Eeklose Watergang","Eeklose watergang","mwyxzjc2","TBD","YES","I_9900_1",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Eeklo",9900,NA,NA,NA,"51.2160525",3.5388169,NA,NA,NA
+"FALSE","FALSE","Eeklose Watergang","Eeklose watergang","mwyxzjc2","TBD","YES","I_9900_1","waterniveau te laag",NA,NA,NA,NA,"Oost-Vlaanderen","Eeklo",9900,NA,NA,NA,"51.2160525",3.5388169,NA,NA,NA
 "TRUE","TRUE",NA,"Kanaal Dessel-Schoten","mzk5yjmz","TBD","NO","V_2300_6",NA,NA,NA,NA,NA,"Antwerpen","Turnhout",2300,NA,NA,NA,"51.3274215",4.9160958,NA,NA,NA
 "FALSE","FALSE",NA,"Kastanjebeek","ntm4ztkx",NA,"NO","V_8210_4",NA,NA,NA,NA,NA,"West-Vlaanderen","Zedelgem",8210,NA,NA,NA,"51.1542975",3.1138884,"Meulebrouck Klaar",NA,"recreatie.wvl.anb@vlaanderen.be"
 "FALSE","FALSE",NA,"Jabbeekse Beek","ntm4ztkx",NA,"NO","V_8490_10",NA,NA,NA,NA,NA,"West-Vlaanderen","Jabbeke",8490,NA,NA,NA,"51.1549801",3.1003473,"Meulebrouck Klaar",NA,"recreatie.wvl.anb@vlaanderen.be"
