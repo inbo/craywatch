@@ -82,7 +82,38 @@ species_counts <- craywatch_2024 %>%
 # Toon het resultaat
 print(species_counts)
 
-#########################Nagaan voor volledige gbif data#############################################
+# Creëer een binaire kolom 'aanwezigheid'
+# Deze kolom is 1 als de soort aanwezig is, en 0 als deze afwezig is
+craywatch_watertype <- craywatch_2024 %>%
+  mutate(aanwezigheid = if_else(species == "absent", 0, 1))
+
+# Controleer of het gelukt is
+table(craywatch_watertype$aanwezigheid)
+
+unieke_soorten <- unique(craywatch_watertype$species[craywatch_watertype$species != "absent"])
+
+# 2. Voer de analyse uit in een loop voor elke soort
+for (soort in unieke_soorten) {
+  
+  # Creëer een tijdelijke binaire kolom voor deze specifieke soort
+  temp_data_soorten <- craywatch_watertype %>%
+    mutate(aanwezigheid_soort = if_else(tolower(trimws(species)) == tolower(trimws(soort)), 1, 0))
+  
+  # Voer de logistische regressie uit
+  model <- glm(aanwezigheid_soort ~ type, data = temp_data_soorten, family = "binomial")
+  
+  # Druk de resultaten af
+  cat("--------------------------------------------------\n")
+  cat("Resultaten voor soort:", soort, "\n")
+  print(summary(model))
+  
+  # Druk de odds ratio's af voor een directe interpretatie
+  cat("\nOdds Ratio's:\n")
+  print(exp(coef(model)))
+  cat("\n")
+}
+
+#####################Nagaan voor volledige gbif data########################
 
 # Lijst van soorten
 species <- c("Procambarus clarkii",
