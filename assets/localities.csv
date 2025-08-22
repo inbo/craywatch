@@ -1492,7 +1492,7 @@
 "TRUE","TRUE",NA,"Provinciedomein Kessel Lo","nzq2nzbh","29/07/2024","YES","I_3010_10",NA,NA,NA,NA,NA,"Vlaams-Brabant","Leuven",3010,NA,NA,NA,"50.8935525",4.7281685,NA,NA,NA
 "FALSE","FALSE",NA,"Visput 3","nze2zmyy","TBD","YES","I_9090_3",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Melle",9090,NA,NA,NA,"50.993275",3.8042573,NA,NA,NA
 "FALSE","FALSE",NA,NA,"mdu1yja5",NA,"YES","I_9820_7",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Merelbeke",9820,NA,NA,NA,"50.9760917",3.7422922,NA,NA,NA
-"FALSE","FALSE",NA,NA,"ndhlztm0","25/07/24","NO","V_9520_1",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Sint-Lievens-Houtem",9520,NA,NA,NA,"50.9135269",3.8561177,"Coppens Xavier",NA,"recreatie.ovl.anb@vlaanderen.be"
+"TRUE","TRUE",NA,NA,"mtk0mjgx",NA,"NO","V_9520_1",NA,NA,NA,NA,NA,"Oost-Vlaanderen",NA,9520,NA,NA,NA,"50.94729",3.89046,NA,NA,NA
 "TRUE","TRUE",NA,NA,"zja3zjyx",NA,"NO","V_3078_1",NA,NA,NA,NA,NA,"Vlaams-Brabant","Kortenberg",3078,NA,NA,NA,"50.8845868",4.5636599,NA,NA,NA
 "TRUE","TRUE",NA,"De Broeken","ngrkywmz",NA,"NO","V_3650_14","danny.klingeleers verwittigen",NA,NA,NA,NA,"Limburg","Dilsen-Stokkem",3650,NA,NA,NA,"51.0681912026184",5.73554039558607,NA,NA,NA
 "TRUE","TRUE","Zanderbeek","Zanderbeek","ngrkywmz","tbd","NO","V_3650_15",NA,NA,NA,NA,NA,"Limburg","Dilsen-Stokkem",3650,NA,NA,NA,"51.0765970026159",5.73540749558701,NA,NA,NA
@@ -1854,3 +1854,5 @@
 "TRUE","TRUE","Riparias","Zenne","odcxnmmx",NA,"NO","V_1982_11",NA,NA,NA,NA,NA,"Vlaams-Brabant",NA,1982,NA,NA,NA,"50.9857257",4.4786026,NA,NA,NA
 "TRUE","TRUE",NA,"Grote Nete","odcxnmmx",NA,"YES","I_2220_3",NA,NA,NA,NA,NA,"Antwerpen",NA,2220,NA,NA,NA,"51.089962",4.744915,NA,NA,NA
 "TRUE","TRUE",NA,"Bichterweerd","ngrkywmz",NA,"NO","V_3650_17",NA,NA,NA,NA,NA,"Limburg",NA,3650,NA,NA,NA,"51.044157",5.757447,NA,NA,NA
+"TRUE","TRUE",NA,NA,"mtk0mjgx",NA,"NO","V_8870_1",NA,NA,NA,NA,NA,"West-Vlaanderen",NA,8870,NA,NA,NA,"50.90541",3.18794,NA,NA,NA
+"TRUE","TRUE",NA,NA,"mtk0mjgx",NA,"NO","V_9255_1",NA,NA,NA,NA,NA,"Oost-Vlaanderen",NA,9255,NA,NA,NA,"51.03097",4.2158,NA,NA,NA
