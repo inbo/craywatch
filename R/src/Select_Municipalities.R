@@ -11,7 +11,7 @@
 #
 # Input:
 # - ~/GitHub/craywatch/R/data/input/shapefiles/gemeenten.shp
-# - ./data/output/SelectedMunic/species_plot.rds
+# - ./data/output/SelectedMunic/species_plot.rds #Is een plot met alle presence/absence
 # - ~/GitHub/craywatch/R/data/input/shapefiles/grenzenvlaanderen.shp
 # - ~/GitHub/craywatch/R/data/input/shapefiles/riparias.shp
 # - ~/GitHub/craywatch/assets/localities.csv
