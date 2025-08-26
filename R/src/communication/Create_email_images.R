@@ -43,19 +43,31 @@ library(RColorBrewer)
 library(knitr)
 library(RCurl)
 library(XML)
+library(here)
 
 
 
 client_id <- Sys.getenv("IMGUR_CLIENT_ID")
 client_secret <- Sys.getenv("IMGUR_CLIENT_SECRET")
 
+PATHS <- list(
+shapefile = here("data", "input", "shapefiles", "postkantons.shp"),
+registration = here("data", "input", "registration.tsv"),
+images_dir = here("images"),
+output_rdata = here("data", "output", "processed_data.RData"),
+localities = here("assets", "localities.csv")
+)
+
+# Zorg dat outputmappen bestaan
+if (!dir.exists(PATHS$images_dir)) dir.create(PATHS$images_dir, recursive = TRUE)
+if (!dir.exists(here("data", "output"))) dir.create(here("data", "output"), recursive = TRUE)
+
 # Laad en verwerk je shapefile
-shapefile_path <- "./data/input/shapefiles/postkantons.shp"
-shapefile <- st_read(shapefile_path)
-shapefile <- st_make_valid(shapefile)
+shapefile <- st_read(PATHS$shapefile, quiet = TRUE) |> st_make_valid()
+
 
 # Authenticeer en laad de data
-data <- read.csv("./data/input/registration.tsv", sep="\t")
+data <- read.csv(PATHS$registration, sep = "\t")
 
 names(data) <- c(
   "VrijwilID", "PrimaireGemeente",
@@ -88,7 +100,7 @@ colnames(postcode_counts) <- c("postcode", "AantalRegistraties")
 
 
 # Genereer de treemap
-png(filename = "./images/treemap.png", width = 300, height = 300, res = 72)
+png(filename = file.path(PATHS$images_dir, "treemap.png"), width = 300, height = 300, res = 72)
 colors <- c( "#217a79", "#d3f2a3", "#074050", "#6cc08b", "#4c9b82" )
 ggplot(province_counts, aes(area = n, fill = Provincie, label = paste(Provincie, "\n", n))) +
   geom_treemap() +
@@ -99,7 +111,7 @@ dev.off()
 
 
 # Genereer de kaart
-png(filename = "./images/map.png", width = 800, height = 500, res = 72)
+png(filename = file.path(PATHS$images_dir, "map.png"), width = 800, height = 500, res = 72)
 
 shapefile <- shapefile %>%
   left_join(postcode_counts, by = c("nouveau_PO" = "postcode"))
@@ -121,12 +133,14 @@ ggplot(data = shapefile) +
 dev.off()
 
 # Genereer output Data
-localities <- read_csv("../assets/localities.csv")
+localities <- readr::read_csv(PATHS$localities, show_col_types = FALSE)
 num_reserved <- sum(as.logical(localities$isReserved), na.rm = TRUE)
 count_sent <- sum(tolower(data$FuikenVerzonden) == 'true', na.rm = TRUE)
 
 
 #Uploading images to webserver
+
+# Uploading images to webserver (met here::here, minimale wijzigingen)
 
 upload_image_to_imgur <- function(image_path, client_id) {
   # Read the image file
@@ -140,8 +154,7 @@ upload_image_to_imgur <- function(image_path, client_id) {
   )
   
   # Parse the response
-  response_content <- content(response, as = "text")
-  response_json <- fromJSON(response_content)
+  response_json <- fromJSON(content(response, as = "text"))
   
   # Check for success
   if (response$status_code == 200) {
@@ -153,11 +166,10 @@ upload_image_to_imgur <- function(image_path, client_id) {
   }
 }
 
-# upload each image in ./images/ to imgur & extract link for rmarkdown script 
-# List all image files in the ./images/ directory
-image_files <- list.files(path = "./images/", pattern = "\\.(png|jpg)$", full.names = TRUE)
+# upload each image in images/ to imgur & extract link for rmarkdown script 
+# List all image files in the images/ directory (vanaf projectroot)
+image_files <- list.files(path = here::here("images"), pattern = "\\.(png|jpg)$", full.names = TRUE)
 image_links <- list()
-
 
 # Loop through each image file, upload to Imgur, and store the link in a variable
 for (image_path in image_files) {
@@ -166,5 +178,6 @@ for (image_path in image_files) {
   image_links[[file_name]] <- imgur_link[1]
 }
 
-# Save all needed variables in the processed_data.RData file
-save(filtered_data, province_counts, num_reserved, count_sent, image_links, file = "./data/output/processed_data.RData")
+# Save all needed variables in the processed_data.RData file (vanaf projectroot)
+save(filtered_data, province_counts, num_reserved, count_sent, image_links,
+     file = here::here("data", "output", "processed_data.RData"))
