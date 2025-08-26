@@ -13,28 +13,28 @@
 # De verrijkte dataset wordt opgeslagen als CSV voor verdere analyses.
 #
 # Input:
-# - ./data/observations/output/cleandata.csv
-# - ./data/observations/output/datacheck.csv
-# - ../assets/localities.csv
+# - data/observations/output/cleandata.csv
+# - data/observations/output/datacheck.csv
+# - assets/localities.csv
 #
 # Output:
-# - ./data/observations/output/first_data.csv
+# - data/observations/output/first_data.csv
 #
 # Benodigde packages:
-# dplyr, lubridate
+# dplyr, lubridate, here
 # ====================================================
 
 
 library(dplyr)
-
+library(here)
 
 ### LOAD DATA ##################################################################
-cleandata <- read.csv("./data/observations/output/cleandata.csv")
-datacheck <- read.csv("./data/observations/output/datacheck.csv")
+cleandata <- read.csv(here("data", "observations", "output", "cleandata.csv"))
+datacheck <- read.csv(here("data", "observations", "output", "datacheck.csv"))
 
 alldata <- rbind(cleandata,datacheck)
 
-localities <- read.csv("../assets/localities.csv")
+localities <- read.csv(here("..","assets", "localities.csv"))
 
 
 ### CONSTRUCT NEW DATAFRAME ####################################################
@@ -113,5 +113,4 @@ print(localities_data)
 # Find locID values that are in combined_locID but not in localities$locID
 erratic_locID <- setdiff(alldata$locID, localities$locID)
 
-write.csv(localities_data, "./data/observations/output/first_data.csv", row.names = FALSE)
-
+write.csv(localities_data, here("data", "observations", "output", "first_data.csv"), row.names = FALSE)
