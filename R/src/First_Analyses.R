@@ -1,3 +1,30 @@
+# ====================================================
+# Scriptnaam:   Process_observation_data.R
+# Auteur:       Frédérique Steen
+# Datum:        01-07-2024
+#
+# Beschrijving:
+# Dit script combineert gevalideerde en te controleren observatiedata, koppelt 
+# deze aan de locaties, en construeert een uitgebreide dataset met:
+# - Aantallen per soort per locatie
+# - Het totaal aantal vangstdagen
+# - Een controle of de vangstdagen opeenvolgend zijn
+# - Een aanduiding of de data als 'clean' beschouwd kan worden (volledige 4 opeenvolgende vangstdagen)
+# De verrijkte dataset wordt opgeslagen als CSV voor verdere analyses.
+#
+# Input:
+# - ./data/observations/output/cleandata.csv
+# - ./data/observations/output/datacheck.csv
+# - ../assets/localities.csv
+#
+# Output:
+# - ./data/observations/output/first_data.csv
+#
+# Benodigde packages:
+# dplyr, lubridate
+# ====================================================
+
+
 library(dplyr)
 
 

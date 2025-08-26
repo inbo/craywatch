@@ -1,3 +1,27 @@
+# ====================================================
+# Scriptnaam:   Send_locality_notifications.R
+# Auteur:       Frédérique Steen
+# Datum:        01-07-2024
+#
+# Beschrijving:
+# Dit script verstuurt per beheerder een notificatiemail met informatie over 
+# aankomende staalnamelocaties in het Craywatch-project. Het script gebruikt 
+# vooraf gegenereerde HTML- en ZIP-bestanden (met shapefile en CSV) als bijlage 
+# en voegt de HTML-tabel in de body van de e-mail in. De mails worden verstuurd 
+# via SMTP met blastula en keyring voor beveiligde authenticatie.
+#
+# Input:
+# - ./data/output/notif_beheerder/<datum>/table_<Beheerder>.html
+# - ./data/output/notif_beheerder/<datum>/table_<Beheerder>.zip
+#
+# Output:
+# - E-mails naar alle beheerders met beschikbare adressen
+#
+# Benodigde packages:
+# readr, dplyr, lubridate, sf, knitr, kableExtra, zip, blastula, keyring, httr
+# ====================================================
+
+
 library(readr)
 library(dplyr)
 library(lubridate)

@@ -1,3 +1,28 @@
+# ====================================================
+# Scriptnaam:   Send_email_report.R
+# Auteur:       Frédérique Steen
+# Datum:        01-07-2024
+#
+# Beschrijving:
+# Dit script rendert een RMarkdown-bestand (email_report.Rmd) naar HTML 
+# en gebruikt vervolgens het 'blastula'-pakket om de inhoud als e-mail 
+# te versturen. De HTML wordt ingelezen, ingekapseld in een lay-outdiv, 
+# en via SMTP verstuurd met de opgegeven credentials (keyring).
+#
+# Input:
+# - ./src/email_report.Rmd
+#
+# Output:
+# - ./data/output/email_report.html
+# - verzonden e-mail ("Craywatch Nieuws")
+#
+# Benodigde packages:
+# blastula, keyring, rmarkdown
+#
+# Credentials:
+# - Worden opgehaald via keyring (id = "gmail")
+# ====================================================
+
 #install.packages("blastula")
 #install.packages("keyring")
 

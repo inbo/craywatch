@@ -1,13 +1,27 @@
 # ====================================================
-# Scriptnaam: Select_Municipalities.R
-# Auteur: Frédérique Steen
-# Datum: 09-01-2025
-# Beschrijving: 
-#   Dit script maakt het mogelijk om gemeenten (polygonen) 
-#   te selecteren op kaart in een shiny app met de ggplot
-#   van de verspreiding 2025 als achtergrond. De selectie
-#   resulteert in een shape die gebruikt wordt om een subset 
-#   van localiteiten te maken
+# Scriptnaam:   Select_Municipalities.R
+# Auteur:       Frédérique Steen
+# Datum:        09-01-2025
+#
+# Beschrijving:
+# Dit script maakt het mogelijk om in een Shiny-app gemeenten (polygonen) te selecteren 
+# op een kaart met de verspreidingsplot van 2025 als achtergrond. De selectie wordt 
+# opgeslagen als shapefile en kan vervolgens gebruikt worden om intersecties te maken 
+# met localiteiten uit localities.csv. Het resultaat wordt als CSV geëxporteerd.
+#
+# Input:
+# - ~/GitHub/craywatch/R/data/input/shapefiles/gemeenten.shp
+# - ./data/output/SelectedMunic/species_plot.rds
+# - ~/GitHub/craywatch/R/data/input/shapefiles/grenzenvlaanderen.shp
+# - ~/GitHub/craywatch/R/data/input/shapefiles/riparias.shp
+# - ~/GitHub/craywatch/assets/localities.csv
+#
+# Output:
+# - ./data/output/SelectedMunic/SelectedMunic.shp
+# - ./data/output/SelectedMunic/localities_2025.csv
+#
+# Benodigde packages:
+# sf, ggplot2, shiny, dplyr
 # ====================================================
 
 

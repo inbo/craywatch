@@ -1,4 +1,32 @@
-# generate_figures.R
+# ====================================================
+# Scriptnaam:   Create_email_images.R
+# Auteur:       Frédérique Steen
+# Datum:        01-07-2024
+#
+# Beschrijving:
+# Dit script verwerkt registratiedata van vrijwilligers en koppelt die 
+# aan geografische informatie (postkantons). Het genereert verschillende 
+# visualisaties (treemap per provincie, kaart met aantallen registraties), 
+# en slaat deze op als afbeeldingen. De afbeeldingen worden vervolgens 
+# automatisch naar Imgur geüpload en de links, samen met verwerkte data 
+# (bv. aantal reservaties, aantal fuiken verzonden), worden gebundeld in 
+# een .RData-bestand voor gebruik in R Markdown rapportage of e-mails.
+#
+# Input:
+# - ./data/input/shapefiles/postkantons.shp
+# - ./data/input/registration.tsv
+# - ../assets/localities.csv
+#
+# Output:
+# - ./images/treemap.png
+# - ./images/map.png
+# - ./data/output/processed_data.RData
+#
+# Benodigde packages:
+# ggplot2, treemapify, sf, dplyr, httr, jsonlite, imguR, stringr, readr,
+# tm, wordcloud, RColorBrewer, knitr, RCurl, XML
+# ====================================================
+
 
 library(ggplot2)
 library(treemapify)

@@ -1,3 +1,29 @@
+# ====================================================
+# Scriptnaam:   Generate_locality_reports.R
+# Auteur:       Frédérique Steen
+# Datum:        01-07-2024
+#
+# Beschrijving:
+# Dit script filtert gereserveerde locaties uit een CSV-bestand, herformatteert 
+# en valideert startdatums, en selecteert per 'Beheerder' de relevante gegevens. 
+# Voor elke beheerder wordt een aparte tabel aangemaakt en opgeslagen in meerdere 
+# formaten (shapefile, CSV, HTML). De bestanden worden vervolgens per beheerder 
+# gecomprimeerd in een zip-archief. Directories worden dynamisch aangemaakt per datum.
+#
+# Input:
+# - ../assets/localities.csv
+#
+# Output:
+# - ./data/output/notif_beheerder/<datum>/table_<Beheerder>.shp
+# - ./data/output/notif_beheerder/<datum>/table_<Beheerder>.csv
+# - ./data/output/notif_beheerder/<datum>/table_<Beheerder>.html
+# - ./data/output/notif_beheerder/<datum>/table_<Beheerder>.zip
+#
+# Benodigde packages:
+# readr, dplyr, lubridate, sf, knitr, kableExtra, zip
+# ====================================================
+
+
 library(readr)
 library(dplyr)
 library(lubridate)

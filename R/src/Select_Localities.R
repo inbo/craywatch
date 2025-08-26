@@ -1,3 +1,34 @@
+# ====================================================
+# Scriptnaam:   Update_Localities_KML.R
+# Auteur:       Frédérique Steen
+# Datum:        01-07-2025
+#
+# Beschrijving:
+# Dit script verwerkt een KML-bestand met lokale observaties (localities_2025.kml), 
+# parseert de HTML-gecodeerde beschrijving en verrijkt de dataset met informatie uit 
+# verschillende shapefiles (provincies, gemeenten, postkantons, waterlopen, polder- en 
+# wateringbesturen, ANB-terreinen, OSM-waterwegen en -waterlichamen). Na intersecties 
+# worden de juiste attributen (provincie, postcode, gemeente, CATC, VHAG, beheerder, 
+# contactgegevens) toegevoegd of bijgewerkt.
+# Het script genereert unieke locID’s, verwijdert duplicaten, en slaat de resultaten op 
+# als een bijgewerkte subset (localities_2025_updated.csv) én integreert deze in de 
+# volledige localities.csv.
+#
+# Input:
+# - ./data/input/localities_2025.kml
+# - ./data/input/shapefiles/*.shp (provincies, gemeenten, postkantons, waterlopen, polder, watering, ANB, OSM)
+# - ~/GitHub/craywatch/assets/localities.csv
+#
+# Output:
+# - ./data/output/localities_2025_updated.csv
+# - ~/GitHub/craywatch/assets/localities.csv (geüpdatet)
+#
+# Benodigde packages:
+# sf, xml2, dplyr, lwgeom, data.table
+# ====================================================
+
+
+
 library(sf)
 library(xml2)
 library(dplyr)
