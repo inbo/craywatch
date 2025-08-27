@@ -1,11 +1,10 @@
 library(magrittr)
 library(dplyr)
-library(here)
 
-# Pad-instellingen via here() (projectroot = repo-map)
-dir_obs   <- here("data", "observations")
-path_loc  <- here("..", "assets", "localities.csv")
-out_file  <- here("data", "observations", "data_validation", "craywatch_validation_2025_dummy.csv")
+# Hardcoded paden
+dir_obs   <- "~/GitHub/craywatch/R/data/observations/exports_2025"
+path_loc  <- "~/GitHub/craywatch/assets/localities.csv"
+out_file  <- "~/GitHub/craywatch/R/data/observations/data_validation/craywatch_validation_2025.csv"
 
 # Alle exportbestanden inlezen
 files <- list.files(dir_obs, pattern = "^event-craywatch-.*\\.csv$", full.names = TRUE)
