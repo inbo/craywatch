@@ -203,9 +203,6 @@ ggsave(species_plot_gemeente, file = "~/GitHub/craywatch/R/data/output/craywatch
 ggsave(species_plot_dutch, file = "~/GitHub/craywatch/R/data/output/craywatch_maps/validated_craywatch_map_dutch.png", 
        width = 15, height = 7, units = "cm", dpi = 400)
 
-# Sla het ggplot-object op
-dir.create("./data/output/SelectedMunic", showWarnings = FALSE, recursive = TRUE)
-saveRDS(species_plot_gemeente, "./data/output/SelectedMunic/species_plot.rds")
 
 # Print the number of points included after filtering
 num_points <- nrow(craywatch_data_usable)
