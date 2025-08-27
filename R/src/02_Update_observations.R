@@ -94,7 +94,7 @@ if (file.exists("./data/observations/output/datacheck.csv")) {
 } else {
   old_datacheck <- data.frame(locID = character(), date = character(), stringsAsFactors = FALSE) 
 }
-datacheck <- rbind(old_datacheck, new_data)
+datacheck <- dplyr::bind_rows(old_datacheck, new_data)
 
 
 
@@ -123,7 +123,7 @@ if (file.exists("./data/observations/output/cleandata.csv")) {
   old_cleandata <- data.frame(locID = character(), date = character(), stringsAsFactors = FALSE)
 }
 
-cleandata <-rbind(old_cleandata, cleandata)
+cleandata <- dplyr::bind_rows(old_cleandata, cleandata)
 
 datacheck <- datacheck %>% filter(!(locID %in% data_approved$locID))
 
