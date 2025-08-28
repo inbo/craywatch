@@ -1,0 +1,74 @@
+{
+  "timestamp_utc": "2025-08-27 16:04:24",
+  "gbif_download_key": "0000468-250827131500795",
+  "rgbif_version": "3.8.1",
+  "r_version": "R version 4.5.1 (2025-06-13 ucrt)",
+  "query": {
+    "input_species": ["Faxonius limosus", "Procambarus clarkii", "Procambarus virginalis", "Faxonius virilis", "Procambarus acutus", "Astacus astacus", "Pontastacus leptodactylus"],
+    "resolved": [
+      {
+        "input": "Faxonius limosus",
+        "matched": "Faxonius limosus (Rafinesque, 1817)",
+        "status": "ACCEPTED",
+        "usageKey": 8909595,
+        "note": "exact"
+      },
+      {
+        "input": "Procambarus clarkii",
+        "matched": "Procambarus clarkii (Girard, 1852)",
+        "status": "ACCEPTED",
+        "usageKey": 2227300,
+        "note": "exact"
+      },
+      {
+        "input": "Procambarus virginalis",
+        "matched": "Procambarus virginalis Lyko, 2017",
+        "status": "ACCEPTED",
+        "usageKey": 9442269,
+        "note": "exact"
+      },
+      {
+        "input": "Faxonius virilis",
+        "matched": "Faxonius virilis (Hagen, 1870)",
+        "status": "ACCEPTED",
+        "usageKey": 8971201,
+        "note": "exact"
+      },
+      {
+        "input": "Procambarus acutus",
+        "matched": "Procambarus acutus (Girard, 1852)",
+        "status": "ACCEPTED",
+        "usageKey": 2227289,
+        "note": "exact"
+      },
+      {
+        "input": "Astacus astacus",
+        "matched": "Astacus astacus (Linnaeus, 1758)",
+        "status": "ACCEPTED",
+        "usageKey": 2226998,
+        "note": "exact"
+      },
+      {
+        "input": "Pontastacus leptodactylus",
+        "matched": "Pontastacus leptodactylus (Eschscholtz, 1823)",
+        "status": "ACCEPTED",
+        "usageKey": 8946295,
+        "note": "exact"
+      }
+    ],
+    "taxon_keys": ["8909595", "2227300", "9442269", "8971201", "2227289", "2226998", "8946295"],
+    "country": "BE",
+    "years": [2000, 2025],
+    "geometry_wkt": "POLYGON((2.500000 50.680000,5.900000 50.680000,5.900000 51.500000,2.500000 51.500000,2.500000 50.680000))",
+    "presence_only": true,
+    "has_coordinate": true,
+    "format": "SIMPLE_CSV"
+  },
+  "n_records_raw": 6054,
+  "n_records_clean": 6054,
+  "files": {
+    "csv": "../data/input/gbif_occ/gbif_crayfish_flanders.csv.gz",
+    "rds": "../data/input/gbif_occ/gbif_crayfish_flanders.rds"
+  },
+  "sessionInfo_file": "../data/input/gbif_occ/sessionInfo.txt"
+}
