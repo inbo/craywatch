@@ -304,7 +304,7 @@
 "TRUE","TRUE","De Moeren, Chemin des limites, opw pompstation","Ringsloot","yzk3mme3","TBD","YES","I_8630_1",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Veurne",8630,2,14983,NA,"51.0129774",2.5726848,"Westkustpolder","058/314653","info@westkustpolder.be"
 "TRUE","TRUE",NA,"Kreek van Nieuwendamme","mjm4ndiy","TBD","YES","I_8433_1",NA,NA,NA,NA,NA,"West-Vlaanderen",NA,8433,NA,NA,NA,"51.145493",2.796742,NA,NA,NA
 "FALSE","FALSE","Sint-Pieters-Kapelle, Sint Godelievestraat, afw",NA,"mwzkzmy1","29/07/2024","YES","I_8433_2",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Middelkerke",8433,2,2039,NA,"51.1167086",2.8706247,"Middenkustpolder","059/278477","info@middenkustpolder.be"
-"FALSE","FALSE","Catstraat, grindpad net na huisnr 69","Lekevaartje",NA,NA,"YES","I_8680_1",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Koekelare",8680,2,1903,NA,"51.0874187170219",2.95298834481109,"West-Vlaanderen",NA,NA
+"TRUE","TRUE",NA,"Lekevaartje","odcxnmmx",NA,"YES","I_8680_1",NA,NA,NA,NA,NA,"West-Vlaanderen",NA,8680,NA,NA,NA,"51.0808358",2.9779243,NA,NA,NA
 "TRUE","TRUE","Westende-Bad, Kousestraat","Ieperleed","odzkzdmz","18/08/24","YES","I_8430_1",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Middelkerke",8430,2,1213,NA,"51.1669848",2.8007589,"Middenkustpolder","059/278477","info@middenkustpolder.be"
 "FALSE","FALSE","Zandvoordestraat","Gauweloze kreek",NA,NA,"YES","I_8400_1",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Oostende",8400,1,14884,NA,"51.2132630069322",2.94687931801598,"VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Hollebeekstraat,10m opwaarts weg","Melsenbeek",NA,NA,"YES","I_9820_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Oost-Vlaanderen","Merelbeke",9820,2,5088,NA,"50.9751978498288",3.74775958728668,"Oost-Vlaanderen",NA,"waterbeleid@oost-vlaanderen.be"
@@ -832,7 +832,7 @@
 "FALSE","FALSE","Merkem, Ketsedijk","Martjevaart",NA,NA,"YES","I_8650_2",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Houthulst",8650,1,1216,NA,"50.9563211287257",2.82952413907865,"VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Merkem, Iepersteenweg","Martjevaart",NA,NA,"YES","I_8920_4",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Langemark-Poelkapelle",8920,1,10592,NA,"50.9403941065389",2.86045752823064,"VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Bikscshote, Pottestraat, Sint-Janskapel","Martjevaart",NA,NA,"YES","I_8920_5",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Langemark-Poelkapelle",8920,1,1216,NA,"50.9310543",2.8874774,"VMM",NA,"d.slootmaekers@vmm.be"
-"FALSE","FALSE",NA,"Broenbeek",NA,NA,"YES","I_8920_6",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Langemark-Poelkapelle",8920,2,1939,NA,"50.9253727718443",2.93613841830923,"West-Vlaanderen",NA,NA
+"TRUE","TRUE",NA,"Broenbeek","odcxnmmx",NA,"YES","I_8920_6",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Langemark-Poelkapelle",8920,2,1939,NA,"50.9308401",2.9438229,"West-Vlaanderen",NA,NA
 "FALSE","FALSE","Reninge, Broekstraat, Waterhoek","Kemmelbeek",NA,NA,"YES","I_8647_4",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Lo-Reninge",8647,1,1204,NA,"50.953193",2.7922607,"VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Reninge, Bernardplaatsstraat","Kemmelbeek",NA,NA,"YES","I_8647_5",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Lo-Reninge",8647,1,1204,NA,"50.9235453670685",2.82451022239236,"VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Elverdinge, Steenstraat, recht over huisnr 30","Kemmelbeek",NA,NA,"YES","I_8904_1",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Ieper",8904,1,1204,NA,"50.9030962008063",2.8133804295779,"VMM",NA,"d.slootmaekers@vmm.be"
@@ -1878,3 +1878,6 @@
 "TRUE","TRUE",NA,"Kasteelbeek","odcxnmmx",NA,"YES","I_8956_3",NA,NA,NA,NA,NA,"West-Vlaanderen",NA,8956,NA,NA,NA,"50.8079154",2.8338196,NA,NA,NA
 "TRUE","TRUE",NA,"Vleterbeek","odcxnmmx",NA,"YES","I_8970_7",NA,NA,NA,NA,NA,"West-Vlaanderen",NA,8970,NA,NA,NA,"50.8402203",2.7112543,NA,NA,NA
 "TRUE","TRUE",NA,"Korte Keerbeek","odcxnmmx",NA,"YES","I_8902_4",NA,NA,NA,NA,NA,"West-Vlaanderen",NA,8902,NA,NA,NA,"50.8006053",2.9569602,NA,NA,NA
+"TRUE","TRUE",NA,"Douvebeek","odcxnmmx",NA,"YES","I_8957_2",NA,NA,NA,NA,NA,"West-Vlaanderen",NA,8957,NA,NA,NA,"50.7553946",2.9130883,NA,NA,NA
+"TRUE","TRUE",NA,"Leie","odcxnmmx",NA,"YES","I_8940_1",NA,NA,NA,NA,NA,"West-Vlaanderen",NA,8940,NA,NA,NA,"50.7738856",3.0252457,NA,NA,NA
+"TRUE","TRUE",NA,"Heulebeek","odcxnmmx",NA,"YES","I_8980_3",NA,NA,NA,NA,NA,"West-Vlaanderen",NA,8980,NA,NA,NA,"50.8690033",3.0322404,NA,NA,NA
