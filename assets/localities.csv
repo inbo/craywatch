@@ -392,8 +392,8 @@
 "FALSE","FALSE","De Hutten, thv grenspaal 1843, opw oostzijde weg","Kolksgracht","otjhnmm0",NA,"YES","I_3920_4",NA,NA,"VMM_Mtp","Lotisch",NA,"Limburg","Lommel",3920,2,9507,NA,"51.2756285",5.3464537,"Limburg",NA,"christel.bouchet@limburg.be"
 "FALSE","FALSE","Bruggestraat","Rollewegbeek",NA,NA,"YES","I_8210_1",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Zedelgem",8210,2,63966,NA,"51.1244872122695",3.1237838717553,"West-Vlaanderen",NA,NA
 "FALSE","FALSE","Waterstraat, Nieuwenhove","Rivierbeek",NA,NA,"YES","I_8020_2",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Oostkamp",8020,1,28,NA,"51.1254840595753",3.23523007588681,"VMM",NA,"d.slootmaekers@vmm.be"
-"FALSE","FALSE","Ketelbuiserstraat","Regenbeek",NA,NA,"YES","I_8810_1",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Lichtervelde",8810,2,128,NA,"51.05623761283",3.14036295004352,"West-Vlaanderen",NA,NA
-"FALSE","FALSE","Merelaarstraat, voor kapel rechtes (slagboom privéweg)","Rivierbeek",NA,NA,"YES","I_8820_1",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Torhout",8820,2,28,NA,"51.0557343036332",3.1257975966084,"West-Vlaanderen",NA,NA
+"TRUE","TRUE",NA,"Papes putten","odcxnmmx",NA,"YES","I_8810_1",NA,NA,NA,NA,NA,"West-Vlaanderen",NA,8810,NA,NA,NA,"51.0360464",3.1222845,NA,NA,NA
+"TRUE","TRUE",NA,"Ringvaartbeek","odcxnmmx",NA,"YES","I_8820_1",NA,NA,NA,NA,NA,"West-Vlaanderen",NA,8820,NA,NA,NA,"51.0452816",3.1236362,NA,NA,NA
 "FALSE","FALSE","Schuiferskapellestraat, zijweg","Poelvoordebeek",NA,NA,"YES","I_8750_1",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Wingene",8750,2,1115,NA,"51.0444402938767",3.31566918553463,"West-Vlaanderen",NA,NA
 "TRUE","TRUE","Koolskamp, Jostraat, Noordhoek","Jobeek","mjywyjqx","22/07/2024","YES","I_8750_2",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Wingene",8750,2,318,NA,"51.0213582",3.2125623,"West-Vlaanderen",NA,NA
 "FALSE","FALSE","Grote Heide, thv natuurreservaat Hageven, opw brug","Dommel",NA,NA,"YES","I_3910_1",NA,NA,"VMM_Mtp","Lotisch",NA,"Limburg","Pelt",3910,1,9512,NA,"51.2678490804417",5.42832833729296,"VMM",NA,"d.slootmaekers@vmm.be"
@@ -967,11 +967,11 @@
 "FALSE","FALSE",NA,NA,"nzm3mdi0",NA,"YES","I_8647_6",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Lo-Reninge",8647,NA,NA,NA,"50.9586893023209",2.77178599630303,NA,NA,NA
 "TRUE","TRUE",NA,"IJzer","mjc1zjc1 ","TBD","YES","I_8691_5",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Alveringem",8691,NA,NA,NA,"50.9452887",2.6783356,NA,NA,NA
 "TRUE","TRUE",NA,"Yser-IJzer","njuwzjzm","TBD","YES","I_8972_2",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Poperinge",8972,0,0,NA,"50.9116887",2.6073795,NA,NA,NA
-"ONHOLD","ONHOLD",NA,"Lovaart","mwiymta2",NA,"YES","I_8690_2",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Alveringem",8690,0,0,NA,"51.0194438",2.722305,NA,NA,NA
+"TRUE","TRUE",NA,"Lovaart","odcxnmmx",NA,"YES","I_8690_2",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Alveringem",8690,0,NA,NA,"51.0202267",2.7207815,NA,NA,NA
 "FALSE","FALSE",NA,"Lovaart",NA,NA,"YES","I_8647_7",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Lo-Reninge",8647,NA,NA,NA,"50.9647428",2.7356841,NA,NA,NA
 "TRUE","TRUE",NA,"Ijzer","nwm0ndcy","TBD","YES","I_8600_8",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Diksmuide",8600,NA,NA,NA,"50.9882039",2.8136319,NA,NA,NA
 "TRUE","TRUE",NA,NA,"odcxnmmx",NA,"YES","I_8650_3",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Houthulst",8650,NA,NA,NA,"50.9653147",2.8176846,NA,NA,NA
-"FALSE","FALSE",NA,NA,"mwzkzmy1","08/07/2024","YES","I_8600_9",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Diksmuide",8600,NA,NA,NA,"51.0763340022947",2.8366285962997,NA,NA,NA
+"FALSE","FALSE",NA,"IJzer","mwzkzmy1","08/07/2024","YES","I_8600_9",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Diksmuide",8600,NA,NA,NA,"51.0747162",2.8372294,NA,NA,NA
 "ONHOLD","ONHOLD",NA,NA,"zgu1njg3",NA,"YES","I_8600_10",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Diksmuide",8600,NA,NA,NA,"51.117683",2.8139829,NA,NA,NA
 "FALSE","FALSE","Kleine Beverdijkvaart","Kleine Beverdijkvaart","mwzkzmy1","15/07/2024","YES","I_8620_4",NA,NA,NA,"Lotisch",NA,"West-Vlaanderen","Diksmuide",8620,2,0,NA,"51.1024680022856",2.82006579630626,"Westkustpolder","058/314653","info@westkustpolder.be"
 "FALSE","FALSE",NA,"Klein Beek",NA,NA,"YES","I_2240_4","bij voorkeur tussen 20/07 - 01/09",NA,NA,"Lotisch",NA,"Antwerpen","Zandhoven",2240,2,0,NA,"51.1808078",4.6527214,"Antwerpen",NA,"hans.vanloy@provincieantwerpen.be"
@@ -1872,3 +1872,5 @@
 "TRUE","TRUE",NA,"IJzer","odcxnmmx",NA,"YES","I_8650_4",NA,NA,NA,NA,NA,"West-Vlaanderen",NA,8650,NA,NA,NA,"50.9820644",2.8066778,NA,NA,NA
 "TRUE","TRUE",NA,NA,"odcxnmmx",NA,"YES","I_8904_2",NA,NA,NA,NA,NA,"West-Vlaanderen",NA,8904,NA,NA,NA,"50.9126192",2.8487492,NA,NA,NA
 "TRUE","TRUE",NA,"IJzer","odcxnmmx",NA,"YES","I_8647_8",NA,NA,NA,NA,NA,"West-Vlaanderen",NA,8647,NA,NA,NA,"50.9627966",2.7925466,NA,NA,NA
+"TRUE","TRUE",NA,"IJzer","odcxnmmx",NA,"YES","I_8600_18",NA,NA,NA,NA,NA,"West-Vlaanderen",NA,8600,NA,NA,NA,"51.0140966",2.8459754,NA,NA,NA
+"TRUE","TRUE",NA,"IJzer","odcxnmmx",NA,"YES","I_8691_6",NA,NA,NA,NA,NA,"West-Vlaanderen",NA,8691,NA,NA,NA,"50.9432699",2.6730751,NA,NA,NA
