@@ -428,7 +428,7 @@
 "TRUE","TRUE","Oostvleteren, Stavelestraat, Evershamhoeve","Poperingevaart","mjc1zjc1 ","TBD","YES","I_8640_1",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Vleteren",8640,1,1203,NA,"50.947319",2.716387,"VMM",NA,"d.slootmaekers@vmm.be"
 "TRUE","TRUE","Pezelhoekstraat, Reepje","Poperingevaart","m2jmywjk","TBD","YES","I_8970_2",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Poperinge",8970,1,1203,NA,"50.8662181",2.7446808,"VMM",NA,"d.slootmaekers@vmm.be"
 "FALSE","FALSE","Ouderdomseweg","Hazelbeek",NA,NA,"YES","I_8970_3",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Poperinge",8970,2,1997,NA,"50.8371480727826",2.76033888341805,"West-Vlaanderen",NA,NA
-"FALSE","FALSE","Haringe, Heyenbrugstraat","Heidebeek",NA,NA,"YES","I_8972_3",NA,NA,"VMM_Mtp","Lotisch",NA,"West-Vlaanderen","Poperinge",8972,1,1217,NA,"50.9030628607626",2.60604068063125,"VMM",NA,"d.slootmaekers@vmm.be"
+"TRUE","TRUE",NA,"Haringebeek","odcxnmmx",NA,"YES","I_8972_3",NA,NA,NA,NA,NA,"West-Vlaanderen",NA,8972,NA,NA,NA,"50.890831",2.6846261,NA,NA,NA
 "FALSE","FALSE","Wijchmaal, onverhard einde Elsevaart, opw. brugje","Bollisenbeek",NA,NA,"YES","I_3990_3",NA,NA,"VMM_Mtp","Lotisch",NA,"Limburg","Peer",3990,2,9702,NA,"51.0989402570741",5.4037666387001,"Limburg",NA,"christel.bouchet@limburg.be"
 "FALSE","FALSE","Bovenstestr, opw weg en zijgrachtjes","Kleinbeek",NA,NA,"YES","I_3990_4","tussen prikkeldraad in een koeienweide",NA,"VMM_Mtp","Lotisch",NA,"Limburg","Peer",3990,2,9633,NA,"51.1269891",5.4329174,"Limburg",NA,"christel.bouchet@limburg.be"
 "TRUE","TRUE","Hamont, Kluizerdijk, voor Achelse Kluis, 20m opw brug","Warmbeek","mdflzwm0",NA,"YES","I_3930_2",NA,NA,"VMM_Mtp","Lotisch",NA,"Limburg","Hamont-Achel",3930,1,9508,NA,"51.2966876",5.4865843,"VMM",NA,"d.slootmaekers@vmm.be"
@@ -1874,3 +1874,7 @@
 "TRUE","TRUE",NA,"IJzer","odcxnmmx",NA,"YES","I_8647_8",NA,NA,NA,NA,NA,"West-Vlaanderen",NA,8647,NA,NA,NA,"50.9627966",2.7925466,NA,NA,NA
 "TRUE","TRUE",NA,"IJzer","odcxnmmx",NA,"YES","I_8600_18",NA,NA,NA,NA,NA,"West-Vlaanderen",NA,8600,NA,NA,NA,"51.0140966",2.8459754,NA,NA,NA
 "TRUE","TRUE",NA,"IJzer","odcxnmmx",NA,"YES","I_8691_6",NA,NA,NA,NA,NA,"West-Vlaanderen",NA,8691,NA,NA,NA,"50.9432699",2.6730751,NA,NA,NA
+"TRUE","TRUE",NA,"Steenbeek","odcxnmmx",NA,"YES","I_8957_1",NA,NA,NA,NA,NA,"West-Vlaanderen",NA,8957,NA,NA,NA,"50.7582352",2.8871925,NA,NA,NA
+"TRUE","TRUE",NA,"Kasteelbeek","odcxnmmx",NA,"YES","I_8956_3",NA,NA,NA,NA,NA,"West-Vlaanderen",NA,8956,NA,NA,NA,"50.8079154",2.8338196,NA,NA,NA
+"TRUE","TRUE",NA,"Vleterbeek","odcxnmmx",NA,"YES","I_8970_7",NA,NA,NA,NA,NA,"West-Vlaanderen",NA,8970,NA,NA,NA,"50.8402203",2.7112543,NA,NA,NA
+"TRUE","TRUE",NA,"Korte Keerbeek","odcxnmmx",NA,"YES","I_8902_4",NA,NA,NA,NA,NA,"West-Vlaanderen",NA,8902,NA,NA,NA,"50.8006053",2.9569602,NA,NA,NA
