@@ -36,7 +36,7 @@ if (file.exists("./data/observations/output/last_import.csv")) {
 
 # Get the latest export files from Natuurpunt (manually downloaded from eventpage)
 # List files in the directory that match the pattern
-files <- list.files(directory_path, pattern = "^event-craywatch-.*\\.csv$", full.names = TRUE)
+files <- list.files(directory_path, pattern = "^observation-event-craywatch-.*\\.csv$", full.names = TRUE)
 
 # Function to read and process each file, i.e. add species as column
 process_file <- function(file) {

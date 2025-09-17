@@ -2,12 +2,12 @@ library(magrittr)
 library(dplyr)
 
 # Hardcoded paden
-dir_obs   <- "~/GitHub/craywatch/R/data/observations/exports_2025"
+dir_obs   <- "~/GitHub/craywatch/R/data/observations"
 path_loc  <- "~/GitHub/craywatch/assets/localities.csv"
 out_file  <- "~/GitHub/craywatch/R/data/observations/data_validation/craywatch_validation_2025.csv"
 
 # Alle exportbestanden inlezen
-files <- list.files(dir_obs, pattern = "^event-craywatch-.*\\.csv$", full.names = TRUE)
+files <- list.files(dir_obs, pattern = "^observation-event-craywatch-.*\\.csv$", full.names = TRUE)
 
 process_file <- function(file) {
   # Soort uit bestandsnaam halen
