@@ -1540,7 +1540,7 @@
 "TRUE","TRUE",NA,NA,"ymjinme3","TBD","NO","V_3920_5",NA,NA,NA,NA,NA,"Limburg","Lommel",3920,NA,NA,NA,"51.2654471",5.3623945,NA,NA,NA
 "TRUE","TRUE",NA,"Grote Nete","nzzmzdm3",NA,"NO","V_2491_1",NA,NA,NA,NA,NA,"Antwerpen","Balen",2491,NA,NA,NA,"51.1470732",5.1343553,NA,NA,NA
 "TRUE","TRUE",NA,NA,"nzzmzdm3",NA,"NO","V_2491_2",NA,NA,NA,NA,NA,"Antwerpen","Balen",2491,NA,NA,NA,"51.1460064",5.1341025,NA,NA,NA
-"TRUE","TRUE",NA,"Meersbeek","otnkzgi3","01/08/24","NO","V_9830_1",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Sint-Martens-Latem",9830,NA,NA,NA,"51.0271353",3.6291464,NA,NA,NA
+"TRUE","TRUE",NA,"Meersbeek","otnkzgi3",NA,"NO","V_9830_1",NA,NA,NA,NA,NA,"Oost-Vlaanderen",NA,9830,NA,NA,NA,"51.027871",3.622931,NA,NA,NA
 "TRUE","TRUE",NA,"Hooglatembeek","otnkzgi3","01/08/24","NO","V_9830_2",NA,NA,NA,NA,NA,"Oost-Vlaanderen","Sint-Martens-Latem",9830,NA,NA,NA,"51.0083204",3.6397151,NA,NA,NA
 "FALSE","FALSE","extra punt Kevin","Grote Struisbeek","otjhmjg3","TBD","YES","I_2550_3",NA,NA,NA,NA,NA,"Antwerpen","Kontich",2550,NA,NA,NA,"51.1426612",4.4084352,NA,NA,NA
 "FALSE","FALSE","extra punt Kevin","Molenbeek","ntvinwe1","02/09/24","YES","I_2840_3","TE ONDIEP!",NA,NA,NA,NA,"Antwerpen","Rumst",2840,NA,NA,NA,"51.0996222",4.3960756,NA,NA,NA
@@ -1883,3 +1883,5 @@
 "TRUE","TRUE",NA,"Heulebeek","odcxnmmx",NA,"YES","I_8980_3",NA,NA,NA,NA,NA,"West-Vlaanderen",NA,8980,NA,NA,NA,"50.8690033",3.0322404,NA,NA,NA
 "TRUE","TRUE",NA,NA,"owm3nzbk",NA,"NO","V_3040_15",NA,NA,NA,NA,NA,"Vlaams-Brabant",NA,3040,NA,NA,NA,"50.812787",4.619949,NA,NA,NA
 "TRUE","TRUE",NA,NA,"mjkyzjq3",NA,"NO","V_9500_1",NA,NA,NA,NA,NA,"Oost-Vlaanderen",NA,9500,NA,NA,NA,"50.74341",3.92603,NA,NA,NA
+"TRUE","TRUE",NA,"IJzer","mta3yjmz",NA,"YES","I_8600_19",NA,NA,NA,NA,NA,"West-Vlaanderen",NA,8600,NA,NA,NA,"51.048031",2.846146,NA,NA,NA
+"TRUE","TRUE",NA,"Kooivaardeken","mta3yjmz",NA,"YES","I_8650_5",NA,NA,NA,NA,NA,"West-Vlaanderen",NA,8650,NA,NA,NA,"50.984451",2.8254606,NA,NA,NA
