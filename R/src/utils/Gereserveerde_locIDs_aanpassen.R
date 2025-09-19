@@ -8,18 +8,23 @@
 # ====================================================
 
 library(here)
+library(tidyverse)
 
 # Pad naar localities.csv
 path_localities <- "~/GitHub/craywatch/assets/localities.csv"
 
 # lees csv
 localities <- read.csv(path_localities)
+craywatch_data <- read.csv("~/SWO craywatch/R/output/gegroepeerde_craywatch_data.csv")
 
 colnames(localities)
-colnames(craywatch_data_filtered)
+colnames(craywatch_data)
+
+craywatch_bruikbare_data <- craywatch_data %>%
+  filter(by_protocol == TRUE)
 
 # Unieke LocIDs uit gefilterde data
-craywatch_locIDs <- unique(craywatch_data_filtered$locID)
+craywatch_locIDs <- unique(craywatch_bruikbare_data$locID)
 
 # Kolommen aanpassen
 localities$isReserved <- ifelse(localities$locID %in% craywatch_locIDs, "TRUE", "FALSE")
