@@ -138,7 +138,7 @@ grouped_craywatch_data <- daily_data %>%
 
 # Selecteer de kolommen 'locID', 'Latitude', and 'Longitude' van localities
 localities_selected <- map_data %>%
-  dplyr::select(locID, Latitude, Longitude, CATC, VHAG)
+  dplyr::select(locID, Latitude, Longitude)
 
 # voeg data samen met localities om Latitude en Longitude toe te voegen obv locID
 grouped_craywatch_data <- left_join(grouped_craywatch_data, localities_selected, by = "locID")
@@ -163,11 +163,9 @@ crayfish_absence <- grouped_craywatch_data %>%
   filter(soort == "crayfish indet") %>%
   mutate(
     dat.source = "craywatch_data",
-    year = year(end_date), # Gebruik end_date voor het jaar
-    CATC = 0,
-    VHAG = 0
+    year = year(end_date) # Gebruik end_date voor het jaar
   ) %>%
-  select(year, latitude, longitude, traps_used, dat.source, days_sampled, consecutive, CPUE, CATC, VHAG, individuals_caught, date = end_date)
+  select(year, latitude, longitude, traps_used, dat.source, days_sampled, consecutive, CPUE, individuals_caught, date = end_date)
 
 # Verwerk de soorten-waarnemingen
 species_data <- grouped_craywatch_data %>%
@@ -179,7 +177,7 @@ species_data <- grouped_craywatch_data %>%
   rename(species = soort) %>%
   separate_rows(species, sep = ", ") %>%
   mutate(species_present = 1) %>%
-  group_by(year, latitude, longitude, species, traps_used, dat.source, days_sampled, consecutive, CPUE, CATC, VHAG, individuals_caught, date = end_date) %>%
+  group_by(year, latitude, longitude, species, traps_used, dat.source, days_sampled, consecutive, CPUE, individuals_caught, date = end_date) %>%
   summarise(
     species_present = max(species_present),
     .groups = 'drop'
@@ -251,5 +249,45 @@ final_dataset <- final_dataset %>%
   )) %>%
   select(-has_presence, -individuals.caught)
 
-write.csv(final_dataset, file = "~/GitHub/Craywatch-Rapport/R/data/output/analyse_dataset.csv")
-write.csv(final_dataset, file = "~/GitHub/craywatch/R/data/output/analyse_dataset.csv")
+#### Maak intersect met WVLC, CATC en VHAG ###########
+
+watervlakken <- st_read("~/GitHub/Craywatch-Rapport/R/data/input/shapefiles/watervlakken.shp")
+vha_catc <- st_read("~/GitHub/Craywatch-Rapport/R/data/input/shapefiles/vhaCattraj.shp")
+
+# transformeer craywatch data
+final_dataset_sf <- st_as_sf(final_dataset,
+                             coords = c("longitude", "latitude"),
+                             crs = 4326)
+craywatch_sf <- st_transform(final_dataset_sf, crs = st_crs(watervlakken))
+vha_catc <- st_transform(vha_catc, crs = st_crs(watervlakken))
+
+# Leg buffer rond waterlichamen
+watervlakken_buffer <- st_buffer(watervlakken, dist = 10)
+catc_buffer <- st_buffer(vha_catc, dist = 10)
+
+# Maak intersect met craywatch data
+final_dataset <- craywatch_sf %>%
+  st_join(watervlakken_buffer, left = TRUE) %>%
+  st_join(catc_buffer, left = TRUE)
+
+# Verwijder onnodige kolommen
+final_dataset <- final_dataset %>%
+  select(-geometry, -OIDN, -UIDN, -NAAM.x, -OBJECTID, -WTRLICHC, -HYLAC, -GEBIED, -KRWTYPE, -KRWTYPES, -DIEPKL, -CONNECT, -FUNCTIE, -PEILBEHEER, -OPPWVL, -OMTWVL, -SHAPE_Leng, -SHAPE_Area, -NAAM.y, -LBLCATC, -LENGTE)
+
+# Zet terug om naar lat/long
+dataset_analyse <- st_transform(final_dataset, crs = 4326)
+
+# Extraheer de X- en Y-coördinaten
+coordinaten_matrix <- st_coordinates(dataset_analyse)
+
+# Voeg de coördinaten toe aan je data frame als nieuwe kolommen
+dataset_analyse <- dataset_analyse %>%
+  mutate(longitude = coordinaten_matrix[,1],
+         latitude = coordinaten_matrix[,2])
+
+# Pas de volgorde van de kolommen aan
+final_dataset_analyse <- dataset_analyse %>%
+  select(year, date, dat.source, individuals_caught, traps_used, days_sampled, consecutive, CPUE, everything())
+
+write.csv(final_dataset_analyse, file = "~/GitHub/Craywatch-Rapport/R/data/output/analyse_dataset.csv")
+write.csv(final_dataset_analyse, file = "~/GitHub/craywatch/R/data/output/analyse_dataset.csv")
