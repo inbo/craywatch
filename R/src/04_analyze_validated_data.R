@@ -253,6 +253,7 @@ final_dataset <- final_dataset %>%
 
 watervlakken <- st_read("~/GitHub/Craywatch-Rapport/R/data/input/shapefiles/watervlakken.shp")
 vha_catc <- st_read("~/GitHub/Craywatch-Rapport/R/data/input/shapefiles/vhaCattraj.shp")
+bekken <- st_read("~/GitHub/Craywatch-Rapport/R/data/input/shapefiles/Wsbekken.shp")
 
 # transformeer craywatch data
 final_dataset_sf <- st_as_sf(final_dataset,
@@ -260,6 +261,7 @@ final_dataset_sf <- st_as_sf(final_dataset,
                              crs = 4326)
 craywatch_sf <- st_transform(final_dataset_sf, crs = st_crs(watervlakken))
 vha_catc <- st_transform(vha_catc, crs = st_crs(watervlakken))
+bekken <- st_transform(bekken, crs = st_crs(watervlakken))
 
 # Leg buffer rond waterlichamen
 watervlakken_buffer <- st_buffer(watervlakken, dist = 10)
@@ -268,11 +270,12 @@ catc_buffer <- st_buffer(vha_catc, dist = 10)
 # Maak intersect met craywatch data
 final_dataset <- craywatch_sf %>%
   st_join(watervlakken_buffer, left = TRUE) %>%
-  st_join(catc_buffer, left = TRUE)
+  st_join(catc_buffer, left = TRUE) %>%
+  st_join(bekken, left = TRUE)
 
 # Verwijder onnodige kolommen
 final_dataset <- final_dataset %>%
-  select(-geometry, -OIDN, -UIDN, -NAAM.x, -OBJECTID, -WTRLICHC, -HYLAC, -GEBIED, -KRWTYPE, -KRWTYPES, -DIEPKL, -CONNECT, -FUNCTIE, -PEILBEHEER, -OPPWVL, -OMTWVL, -SHAPE_Leng, -SHAPE_Area, -NAAM.y, -LBLCATC, -LENGTE)
+  select(-geometry, -OIDN.x, -OIDN.y, -UIDN.x, - UIDN.y, -NAAM.x, -OBJECTID, -WTRLICHC, -HYLAC, -GEBIED, -KRWTYPE, -KRWTYPES, -DIEPKL, -CONNECT, -FUNCTIE, -PEILBEHEER, -OPPWVL, -OMTWVL, -SHAPE_Leng, -SHAPE_Area, -NAAM.y, -LBLCATC, -LENGTE.x, - LENGTE.y, -BEKNAAM, -STRMGEB, -OPPERVL)
 
 # Zet terug om naar lat/long
 dataset_analyse <- st_transform(final_dataset, crs = 4326)
