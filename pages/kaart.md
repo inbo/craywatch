@@ -13,10 +13,10 @@ Bovenstaande kaart toont welke locaties werden vastgelegd om door onze burgerwet
 ## Resultaten Craywatch 2025
 
 ### Statistieken
-- Jullie interesse in Craywatch was veel groter dan verwacht, maar liefst 483 burgerwetenschappers hebben zich aangemeld om deel te nemen.
+- Jullie interesse in Craywatch was veel groter dan verwacht, maar liefst **483 burgerwetenschappers** hebben zich aangemeld om deel te nemen.
 - Dit jaar vond een ‘light’-versie van Craywatch plaats. We wilden vooral regio’s bemonsteren die in 2024 nog niet voldoende werden onderzocht. Er trokken 49 vrijwilligers op pad, die 135 locaties voor hun rekening namen.
 - Gedurende twee jaar verzamelden we data van maar liefst **548 verschillende bemonsterde locaties**.
-- De teller van de verschillende soorten invasieve kreeftensoorten in Vlaanderen blijft op 7 staan: de Californische rivierkreeft, gestreepte Amerikaanse rivierkreeft, gevlekte Amerikaanse rivierkreeft, marmerkreeft, rode Amerikaanse rivierkreeft, geknobbelde Amerikaanse rivierkreeft en Turkse rivierkreeft.
+- De teller van de verschillende soorten invasieve kreeftensoorten in Vlaanderen blijft op **7** staan: de Californische rivierkreeft, gestreepte Amerikaanse rivierkreeft, gevlekte Amerikaanse rivierkreeft, marmerkreeft, rode Amerikaanse rivierkreeft, geknobbelde Amerikaanse rivierkreeft en Turkse rivierkreeft.
 - In 2025 vingen jullie in totaal 417 rivierkreeften. Ook dit jaar werd de rode Amerikaanse rivierkreeft het meest gevangen, met maar liefst 261 individuen. Daarnaast werden er 122 gestreepte en 34 gevlekte Amerikaanse rivierkreeften gevangen. Er zaten dit jaar geen marmerkreeften, geknobbelde Amerikaanse rivierkreeften, Californische of Turkse rivierkreeften in jullie vallen. 
 - Als beide Craywatch-jaren samengeteld worden staat de teller op **1906 gevangen rivierkreeften**.
 
@@ -41,5 +41,8 @@ Eind 2024 zag onze kaart met de huidige verspreiding van invasieve rivierkreefte
 5. In de loop van het Craywatch-project steeg het aantal gekende locaties van de **marmerkreeft** van 6 naar 10. Die liggen vooral geconcentreerd in de provincie Antwerpen, maar een vrijwilliger stootte ook op individuen in de Stiemerbeekvallei in Genk. Deze soort is oorspronkelijk ontstaan in de aquarimumhandel en heeft geen natuurlijk verspreidingsgebied. Dat er nieuwe populaties blijven opduiken in verstedelijkt gebied bevestigt de theorie dat het hier vermoedelijk om vrijgelaten aquariumdieren gaat.
 
 6. Er werden geen **Californische** of **Turkse rivierkreeften** gevangen tijdens het Craywatch-project.
+
+### Rapport
+Wil je graag meer weten? Momenteel werken wij aan een uitgebreid Craywatch-rapport. Daarin worden onze resultaten nog meer in detail besproken. Zodra het rapport af is, zal je de link kunnen terugvinden op de Craywatch-website.
 
 
