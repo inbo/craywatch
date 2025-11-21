@@ -13,22 +13,12 @@ Bovenstaande kaart toont welke locaties werden vastgelegd om door onze burgerwet
 ## Resultaten Craywatch 2025
 
 ### Statistieken
-- Maar liefst 422 personen schreven zich in voor Craywatch. Ook nu nog zijn er nieuwe aanmeldingen! 
-- Van maar liefst 193 deelnemers ontvingen we data van **456 locaties** verspreid over Vlaanderen.
-- Op deze locaties werden in totaal **1536 kreeften** gevangen.
-- De rode Amerikaanse rivierkreeft werd met 977 individuen het vaakst gevangen. Daarnaast werden er 221 gestreepte en 192 gevlekte Amerikaanse rivierkreeften opgevist. Ook 125 marmerkreeften en 21 geknobbelde Amerikaanse rivierkreeften werden geregistreerd.
-- Sommige provincies telden meer vrijwilligers dan andere en dit weerspiegelt zich in het aantal bemonsterde locaties:
-	- Oost-Vlaanderen: 135
-	- Antwerpen: 119
-	- West-Vlaanderen: 94
-	- Limburg: 54
-	- Vlaams-Brabant: 54
-- Zoals jullie in jullie postpakketten hebben gezien, kwam er best wat materiaal kijken bij dit burgerwetenschapsproject. Dit hadden we allemaal nodig:
-	- 1200 kreeftenvallen
-	- 3000 meter touw
-	- meer dan 100 kg hondenvoer als lokaas
-	- 2500 aaszakjes
-	- 1600 Craywatch labels
+- Jullie interesse in Craywatch was veel groter dan verwacht, maar liefst 483 burgerwetenschappers hebben zich aangemeld om deel te nemen.
+- Dit jaar vond een ‘light’-versie van Craywatch plaats. We wilden vooral regio’s bemonsteren die in 2024 nog niet voldoende werden onderzocht. Er trokken 49 vrijwilligers op pad, die 135 locaties voor hun rekening namen.
+- Gedurende twee jaar verzamelden we data van maar liefst **548 verschillende bemonsterde locaties**.
+- De teller van de verschillende soorten invasieve kreeftensoorten in Vlaanderen blijft op 7 staan: de Californische rivierkreeft, gestreepte Amerikaanse rivierkreeft, gevlekte Amerikaanse rivierkreeft, marmerkreeft, rode Amerikaanse rivierkreeft, geknobbelde Amerikaanse rivierkreeft en Turkse rivierkreeft.
+- In 2025 vingen jullie in totaal 417 rivierkreeften. Ook dit jaar werd de rode Amerikaanse rivierkreeft het meest gevangen, met maar liefst 261 individuen. Daarnaast werden er 122 gestreepte en 34 gevlekte Amerikaanse rivierkreeften gevangen. Er zaten dit jaar geen marmerkreeften, geknobbelde Amerikaanse rivierkreeften, Californische of Turkse rivierkreeften in jullie vallen. 
+- Als beide Craywatch-jaren samengeteld worden staat de teller op **1906 gevangen rivierkreeften**.
 
 ### Bevindingen
 De verzamelde data geven ons een beter beeld van de huidige verspreiding van invasieve rivierkreeften. Op deze kaart kan je zien waar er in Vlaanderen rivierkreeften werden waargenomen in 2024 tijdens Craywatch en waar er geen kreeften werden gevangen.
