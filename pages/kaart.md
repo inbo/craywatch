@@ -26,9 +26,22 @@ Eind 2024 zag onze kaart met de huidige verspreiding van invasieve rivierkreefte
  ![image](/assets/images/kaart_resultaten.png){:.col-md-8 .w-75 .mx-auto}
 <br><br>
 
-Een jaar later staat er een belangrijke nieuwe bevinding op de kaart.
+1. Een jaar later staat er een belangrijke nieuwe bevinding op de kaart.
 
  ![image](/assets/images/kaart_resultaten_2025.png){:.col-md-8 .w-75 .mx-auto}
+
+Vorig jaar bleek al dat de **rode Amerikaanse rivierkreeft** steeds verder westwaarts door ons land trekt. In 2025 registreerde een vrijwilliger vondsten in de Ijzer en in het bekken van de Bergenvaart in Veurne. Hieruit blijkt dat de soort zich al verder heeft verspreid dan we eerst dachten. De populaties in de Noordrand van Brussel waren al bekend dankzij historische waarnemingen, maar werden in het kader van Craywatch dit jaar nog eens bevestigd. Ons burgerwetenschapsproject toonde ook dat het aantal waarnemingen en locaties van de soort in het noorden van Oost-Vlaanderen sterk is toegenomen.
+
+2. Vorig jaar werden twee populaties van de **geknobbelde Amerikaanse rivierkreeft** op de kaart gezet. Het Craywatch team voerde densiteitsmetingen uit op deze locaties en kon aantonen dat het op beide plekken om zeer omvangrijke populaties gaat.
+We monitorden plassen en beken in de buurt van de vondsten en konden deze kreeft gelukkig nog niet op andere locaties vinden. 
+
+3. De **gestreepte Amerikaanse rivierkreeft** werd in 2013 voor het eerst in België gesignaleerd en heeft zich sindsdien gestaag doorheen het land verspreid. Tijdens Craywatch werd bevestigd dat de kreeft zich ondertussen ook in Jabbeke in West-Vlaanderen heeft gevestigd.
+
+4. De **gevlekte Amerikaanse rivierkreeft** komt in heel Vlaanderen voor. De verspreiding van de soort was voor Craywatch al redelijk duidelijk en werd tijdens het project nogmaals bevestigd.
+
+5. In de loop van het Craywatch-project steeg het aantal gekende locaties van de **marmerkreeft** van 6 naar 10. Die liggen vooral geconcentreerd in de provincie Antwerpen, maar een vrijwilliger stootte ook op individuen in de Stiemerbeekvallei in Genk. Deze soort is oorspronkelijk ontstaan in de aquarimumhandel en heeft geen natuurlijk verspreidingsgebied. Dat er nieuwe populaties blijven opduiken in verstedelijkt gebied bevestigt de theorie dat het hier vermoedelijk om vrijgelaten aquariumdieren gaat.
+
+6. Er werden geen **Californische** of **Turkse rivierkreeften** gevangen tijdens het Craywatch-project.
 
 **1. Eerste vondst geknobbelde Amerikaanse rivierkreeft in België**
 
