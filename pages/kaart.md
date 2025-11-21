@@ -7,10 +7,10 @@ permalink: /kaart/
 {:.alert .alert-warning .mt-3} 
 In ontwikkeling.
 
-Bovenstaande kaart toont welke locaties tot nu toe werden vastgelegd om door onze burgerwetenschappers gecontroleerd te worden op de aanwezigheid van invasieve rivierkreeften. Je kan hier ook de observaties die tijdens het project worden doorgegeven en de historische waarnemingen bekijken (zie kaart lagen).
+Bovenstaande kaart toont welke locaties werden vastgelegd om door onze burgerwetenschappers gecontroleerd te worden op de aanwezigheid van invasieve rivierkreeften. Je kan hier ook de observaties die tijdens het project werden doorgegeven en de historische waarnemingen bekijken (zie kaart lagen).
 <br><br>
 
-## Resultaten Craywatch 2024
+## Resultaten Craywatch 2025
 
 ### Statistieken
 - Maar liefst 422 personen schreven zich in voor Craywatch. Ook nu nog zijn er nieuwe aanmeldingen! 
