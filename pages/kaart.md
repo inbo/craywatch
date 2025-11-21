@@ -30,7 +30,7 @@ Eind 2024 zag onze kaart met de huidige verspreiding van invasieve rivierkreefte
 
 Vorig jaar bleek al dat de **rode Amerikaanse rivierkreeft** steeds verder westwaarts door ons land trekt. In 2025 registreerde een vrijwilliger vondsten in de Ijzer en in het bekken van de Bergenvaart in Veurne. Hieruit blijkt dat de soort zich al verder heeft verspreid dan we eerst dachten. De populaties in de Noordrand van Brussel waren al bekend dankzij historische waarnemingen, maar werden in het kader van Craywatch dit jaar nog eens bevestigd. Ons burgerwetenschapsproject toonde ook dat het aantal waarnemingen en locaties van de soort in het noorden van Oost-Vlaanderen sterk is toegenomen.
 
- ![image](/assets/images/kaart_resultaten_2025.png){:.col-md-8 .w-75 .mx-auto}
+	![image](/assets/images/kaart_resultaten_2025.png){:.col-md-8 .w-75 .mx-auto}
 
 2. Vorig jaar werden twee populaties van de **geknobbelde Amerikaanse rivierkreeft** op de kaart gezet. Het Craywatch team voerde densiteitsmetingen uit op deze locaties en kon aantonen dat het op beide plekken om zeer omvangrijke populaties gaat.
 We monitorden plassen en beken in de buurt van de vondsten en konden deze kreeft gelukkig nog niet op andere locaties vinden. 
