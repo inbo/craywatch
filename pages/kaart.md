@@ -43,6 +43,6 @@ Eind 2024 zag onze kaart met de huidige verspreiding van invasieve rivierkreefte
 6. Er werden geen **Californische** of **Turkse rivierkreeften** gevangen tijdens het Craywatch-project.
 
 ### Rapport
-Wil je graag meer weten? Momenteel werken wij aan een uitgebreid Craywatch-rapport. Daarin worden onze resultaten nog meer in detail besproken. Zodra het rapport af is, zal je de link kunnen terugvinden op de Craywatch-website.
+Wil je graag meer weten? Momenteel werken wij aan een uitgebreid Craywatch-rapport. Daarin worden onze resultaten nog meer in detail besproken. Zodra het rapport af is, zal je de link kunnen terugvinden op onze website.
 
 
