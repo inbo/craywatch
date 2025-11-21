@@ -21,10 +21,14 @@ Bovenstaande kaart toont welke locaties werden vastgelegd om door onze burgerwet
 - Als beide Craywatch-jaren samengeteld worden staat de teller op **1906 gevangen rivierkreeften**.
 
 ### Bevindingen
-De verzamelde data geven ons een beter beeld van de huidige verspreiding van invasieve rivierkreeften. Op deze kaart kan je zien waar er in Vlaanderen rivierkreeften werden waargenomen in 2024 tijdens Craywatch en waar er geen kreeften werden gevangen.
+Eind 2024 zag onze kaart met de huidige verspreiding van invasieve rivierkreeften er als volgt uit. De kaart geeft weer waar er in Vlaanderen rivierkreeften werden waargenomen tijdens Craywatch en waar er geen kreeften werden gevangen.
 
  ![image](/assets/images/kaart_resultaten.png){:.col-md-8 .w-75 .mx-auto}
 <br><br>
+
+Een jaar later staat er een belangrijke nieuwe bevinding op de kaart.
+
+ ![image](/assets/images/kaart_resultaten_2025.png){:.col-md-8 .w-75 .mx-auto}
 
 **1. Eerste vondst geknobbelde Amerikaanse rivierkreeft in België**
 
