@@ -8,8 +8,8 @@
 #   4. Exporteert een A4-geformatteerde tabel naar Word (met Flextable).
 #
 # Afhankelijkheden:
-#   - src/config.R
-#   - src/05_load_aq_sbz.R
+#   - src/analysis/config.R
+#   - src/analysis/08_load_aq_sbz.R
 #
 # Output:
 #   - CSV: data/output/.../tabel_afstanden_hbtrl_volledig.csv
@@ -23,7 +23,7 @@ library(flextable)
 library(officer)
 
 # Laad de basisdata (zorgt dat 'hbtrl' en 'CF_presence' beschikbaar zijn)
-source("./src/08_load_aq_sbz.R")
+source("./src/analysis/08_load_aq_sbz.R")
 
 message("--- Start Ruimtelijke Analyse (Volledige HBTRL) ---")
 
