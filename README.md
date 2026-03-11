@@ -1,6 +1,6 @@
 # Craywatch project website
 
-This repository contains the source files for the [Craywatch website](https://craywatch.inbo.be).
+This repository contains the source files for the [Craywatch website](https://craywatch.inbo.be), as well as the analysis workflow of the resulting report.
 
 ## Usage
 
