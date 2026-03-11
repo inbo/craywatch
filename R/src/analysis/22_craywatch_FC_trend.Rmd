@@ -27,9 +27,9 @@ library(wrappedtools)
 # Laad data
 
 ```{r}
-data_fc_cray_notAvg <- read.table(file=here("data","intermediate", "fysicochemie","data_fc_cray_notAvg.txt"),header=T)
+data_fc_cray_notAvg <- read.table(file=here(dir_data_intermediate, "fysicochemie","data_fc_cray_notAvg.txt"),header=T)
 
-data_fc_cray_notAvg_zomer <- read.table(file=here("data","intermediate", "fysicochemie","data_fc_cray_notAvg_summer.txt"),header=T)
+data_fc_cray_notAvg_zomer <- read.table(file=here(dir_data_intermediate, "fysicochemie","data_fc_cray_notAvg_summer.txt"),header=T)
 
 ```
 
@@ -272,7 +272,7 @@ p_values <- rbind(p_values,data.frame(variable=var[i],thresh=value,statistic=tos
 p_values$p_value_cor <- p.adjust(p_values$p_value,method = "fdr")
 p_values$sign <- ifelse(p_values$p_value_cor<=0.05,TRUE, FALSE)
 
-write.table(p_values, file=here("data","output", "fc_trends", "equivalence_test_results.txt"),row.names=F)
+write.table(p_values, file=here(dir_data_output, "fc_trends", "equivalence_test_results.txt"),row.names=F)
 
 p_values
 

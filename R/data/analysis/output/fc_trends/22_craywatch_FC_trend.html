@@ -385,9 +385,9 @@ library(ggbeeswarm)</code></pre>
 </div>
 <div id="laad-data" class="section level1">
 <h1>Laad data</h1>
-<pre class="r"><code>data_fc_cray_notAvg &lt;- read.table(file=here(&quot;data&quot;,&quot;intermediate&quot;, &quot;fysicochemie&quot;,&quot;data_fc_cray_notAvg.txt&quot;),header=T)
+<pre class="r"><code>data_fc_cray_notAvg &lt;- read.table(file=here(dir_data_intermediate, &quot;fysicochemie&quot;,&quot;data_fc_cray_notAvg.txt&quot;),header=T)
 
-data_fc_cray_notAvg_zomer &lt;- read.table(file=here(&quot;data&quot;,&quot;intermediate&quot;, &quot;fysicochemie&quot;,&quot;data_fc_cray_notAvg_summer.txt&quot;),header=T)</code></pre>
+data_fc_cray_notAvg_zomer &lt;- read.table(file=here(dir_data_intermediate, &quot;fysicochemie&quot;,&quot;data_fc_cray_notAvg_summer.txt&quot;),header=T)</code></pre>
 </div>
 <div id="algemene-trend-in-fc-data" class="section level1">
 <h1>Algemene trend in FC data</h1>
@@ -665,7 +665,7 @@ p_values &lt;- rbind(p_values,data.frame(variable=var[i],thresh=value,statistic=
 p_values$p_value_cor &lt;- p.adjust(p_values$p_value,method = &quot;fdr&quot;)
 p_values$sign &lt;- ifelse(p_values$p_value_cor&lt;=0.05,TRUE, FALSE)
 
-write.table(p_values, file=here(&quot;data&quot;,&quot;output&quot;, &quot;fc_trends&quot;, &quot;equivalence_test_results.txt&quot;),row.names=F)
+write.table(p_values, file=here(dir_data_output, &quot;fc_trends&quot;, &quot;equivalence_test_results.txt&quot;),row.names=F)
 
 p_values</code></pre>
 <pre><code>##    variable      thresh statistic      p_value       test  p_value_cor  sign
