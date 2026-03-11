@@ -16,7 +16,7 @@ library(htmltools) # voor HTML() in labels
 
 # --- 1. Ruimtelijke lagen opladen ---
 message("Ruimtelijke lagen inladen...")
-source("./src/08_load_aq_sbz.R")
+source("./src/analysis/08_load_aq_sbz.R")
 
 # Vlaanderen (Referentie)
 vlaanderen <- st_read(file_vlaanderen_grenzen, quiet = TRUE) %>%
