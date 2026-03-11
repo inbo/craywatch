@@ -146,7 +146,7 @@ ggplot(cor_data_filterd_PA, aes(x = as.factor(`procambarus acutus`), y = ZS)) +
 # ==============================================================================
 
 # 0. Definieer de output map en maak deze aan indien nodig
-output_dir <- "./data/output/fysicochemie/boxplots"
+output_dir <- paste0(dir_data_output, "/fysicochemie/boxplots")
 
 if (!dir.exists(output_dir)) {
   dir.create(output_dir, recursive = TRUE)
