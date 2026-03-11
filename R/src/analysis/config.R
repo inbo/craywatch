@@ -34,7 +34,7 @@ invisible(lapply(required_packages, library, character.only = TRUE))
 root_rapport <- here::here()
 
 # Parallelle craywatch repo (../craywatch)
-root_craywatch_app <- root_rapport
+root_craywatch_app <- dirname(root_rapport)
 
 ## ---------- Mappenstructuur ----------
 dir_data_analysis     <- file.path(root_rapport, "data", "analysis")
@@ -79,7 +79,8 @@ invisible(lapply(required_dirs, function(x) {
 ## ---------- Bestanden: input ----------
 # Ruwe data
 file_craywatch_validated <- file.path(dir_data_input, "craywatch", "craywatch_data.csv") # 10.5281/zenodo.17639074
-file_localities_map      <- file.path(dir_craywatch_assets, "localities.csv")
+dir_craywatch_assets <- file.path(root_craywatch_app, "assets")
+file_localities_map  <- file.path(dir_craywatch_assets, "localities.csv")
 
 # Shapefiles 
 file_vlaanderen_grenzen <- file.path(dir_shapefiles, "grenzenvlaanderen.shp")
