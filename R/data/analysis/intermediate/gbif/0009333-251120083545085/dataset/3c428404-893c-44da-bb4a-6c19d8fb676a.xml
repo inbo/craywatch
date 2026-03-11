@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://rs.gbif.org/schema/eml-gbif-profile/1.3/eml.xsd"
+packageId="3c428404-893c-44da-bb4a-6c19d8fb676a"  system="http://gbif.org" scope="system"
+xml:lang="en">
+    <dataset>
+        <alternateIdentifier>10.15468/xjtfoo</alternateIdentifier>
+        <alternateIdentifier>https://ipt.inbo.be/resource?r=alien-macroinvertebrate-occurrences</alternateIdentifier>
+        <alternateIdentifier>3c428404-893c-44da-bb4a-6c19d8fb676a</alternateIdentifier>
+        <alternateIdentifier>http://data.inbo.be/ipt/resource?r=alien-macroinvertebrate-occurrences</alternateIdentifier>
+        <title>Alien macroinvertebrates in Flanders, Belgium</title>
+        <creator>
+            <individualName>
+                <givenName>Pieter</givenName>
+                <surName>Boets</surName>
+            </individualName>
+            <organizationName>Ghent University</organizationName>
+            <positionName>Researcher</positionName>
+            <address>
+                <city>Ghent</city>
+                <country>BELGIUM</country>
+            </address>
+            <electronicMailAddress>pieterboets@msn.com</electronicMailAddress>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Dimitri</givenName>
+                <surName>Brosens</surName>
+            </individualName>
+            <organizationName>Research Institute for Nature and Forest (INBO)</organizationName>
+            <positionName>Biodiversity Data Liaison Manager</positionName>
+            <address>
+                <deliveryPoint>Kliniekstraat 25</deliveryPoint>
+                <city>Brussels</city>
+                <administrativeArea>Brussels Capital Region</administrativeArea>
+                <postalCode>1070</postalCode>
+                <country>BELGIUM</country>
+            </address>
+            <electronicMailAddress>dimitri.brosens@inbo.be</electronicMailAddress>
+            <onlineUrl>http://www.biodiversity.be</onlineUrl>
+            <userId directory="http://orcid.org/">0000-0002-0846-9116</userId>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Koen</givenName>
+                <surName>Lock</surName>
+            </individualName>
+            <organizationName>Ghent University</organizationName>
+            <positionName>Researcher</positionName>
+            <address>
+                <city>Ghent</city>
+                <country>BELGIUM</country>
+            </address>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Tim</givenName>
+                <surName>Adriaens</surName>
+            </individualName>
+            <organizationName>Research Institute for Nature and Forest (INBO)</organizationName>
+            <positionName>Researcher</positionName>
+            <address>
+                <deliveryPoint>Kliniekstraat</deliveryPoint>
+                <city>Brussels</city>
+                <administrativeArea>Brussels Capital Region</administrativeArea>
+                <postalCode>1070</postalCode>
+                <country>BELGIUM</country>
+            </address>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Bart</givenName>
+                <surName>Aelterman</surName>
+            </individualName>
+            <organizationName>Research Institute for Nature and Forest (INBO)</organizationName>
+            <positionName>Lifewatch data scientist</positionName>
+            <address>
+                <deliveryPoint>Kliniekstraat 25</deliveryPoint>
+                <city>Brussels</city>
+                <administrativeArea>Brussels Capital Region</administrativeArea>
+                <postalCode>1070</postalCode>
+                <country>BELGIUM</country>
+            </address>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Joost</givenName>
+                <surName>Mertens</surName>
+            </individualName>
+            <organizationName>Vlaamse Milieu Maatschappij</organizationName>
+            <positionName>Researcher</positionName>
+            <address>
+                <city>Sint-Denijs-Westrem</city>
+                <country>BELGIUM</country>
+            </address>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Peter L.M.</givenName>
+                <surName>Goethals</surName>
+            </individualName>
+            <organizationName>Ghent University</organizationName>
+            <address>
+                <city>Ghent</city>
+                <country>BELGIUM</country>
+            </address>
+        </creator>
+        <metadataProvider>
+            <individualName>
+                <givenName>Pieter</givenName>
+                <surName>Boets</surName>
+            </individualName>
+            <organizationName>Ghent University</organizationName>
+            <positionName>Researcher</positionName>
+            <address>
+                <city>Ghent</city>
+                <country>BELGIUM</country>
+            </address>
+            <electronicMailAddress>pieterboets@msn.com</electronicMailAddress>
+        </metadataProvider>
+        <associatedParty>
+            <individualName>
+                <givenName>Pieter</givenName>
+                <surName>Boets</surName>
+            </individualName>
+            <organizationName>Ugent</organizationName>
+            <positionName>Researcher</positionName>
+            <address>
+                <city>Ghent</city>
+                <country>BELGIUM</country>
+            </address>
+            <electronicMailAddress>pieterboets@msn.com</electronicMailAddress>
+            <role>USER</role>
+        </associatedParty>
+        <pubDate>
+                2025-10-13
+        </pubDate>
+        <language>ENGLISH</language>
+        <abstract>
+            <para>An inventory was made of the alien macroinvertebrates occurring in Flanders. To this end large collections of biological samples were investigated and supplemented with own sampling campaigns. Mainly fresh and brackish surface waters were investigated. Three new macroinvertebrate species for Flanders were discovered. In total 41 alien macroinvertebrates were encountered in fresh and slightly brackish surface waters in Flanders. Additionally, 24 alien macroinvertebrate species have been reported for the Belgian part of the North Sea and its adjacent estuaries. Most alien macroinvertebrates belonged to the crustaceans and molluscs. Over 2,500 samples containing macrocrustaceans were identified to species level, which allowed us to accurately map their distribution in Flanders. Alien species found in the fresh and brackish water environment, mainly originated from the Ponto-Caspian area and North-America followed by Asia and South- and East-Europe. This overview shows that alien macroinvertebrates are widespread and abundantly present in many watercourses in Flanders. Based on observations in neighbouring countries, several additional species are expected to arrive in the near future. A follow-up of the invasive alien species together with a monitoring scheme to detect new incoming species is valuable to estimate the size of the problem and to be able to closely follow their ecological and economic impact</para><para>This dataset was originally created for research on the spread and impact of alien invasive macroinvertebrate species in Flanders. However, the dataset can be reused for a variety of purposes. However, this being an occurrence dataset, it can be used for understanding species richness, distribution pattern and modelling studies such as ecological niche modelling. In order to enhance the confidence of use, we have documented the metadata as well as subjected the data records to a series of quality assessment and enhancement processes as described in the earlier section quality control description.</para><para>To allow anyone to use this dataset, we have released the data to the public domain under a Creative Commons Zero waiver (http://creativecommons.org/publicdomain/zero/1.0/). We would appreciate however, if you read and follow these norms for data use (http://www.inbo.be/en/norms-for-data-use) and provide a link to the original dataset (https://doi.org/10.15468/xjtfoo) whenever possible. If you use these data for a scientific paper, please cite the dataset following the applicable citation norms and/or consider us for co-authorship. We are always interested to know how you have used or visualized the data, or to provide more information, so please contact us via the contact information provided in the metadata, opendata&amp;#64;inbo.be or https://twitter.com/LifeWatchINBO.</para>
+        </abstract>
+        <keywordSet>
+            <keyword>Occurrence</keyword>
+            <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword>Observation</keyword>
+            <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword>Crustacea</keyword>
+            <keyword>macroinvertebrates</keyword>
+            <keyword>exotic species</keyword>
+            <keyword>alien species</keyword>
+            <keyword>GBIF</keyword>
+            <keyword>Mollusca</keyword>
+            <keyword>distribution</keyword>
+            <keywordThesaurus>n/a</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword>Occurrence</keyword>
+            <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type_2015-07-10.xml</keywordThesaurus>
+        </keywordSet>
+        <intellectualRights>
+            <para>To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the <ulink url="http://creativecommons.org/publicdomain/zero/1.0/legalcode"><citetitle>Public Domain (CC0 1.0)</citetitle></ulink>. Users may copy, modify, distribute and use the work, including for commercial purposes, without restriction.</para>
+        </intellectualRights>
+        <licensed>
+            <licenseName>Creative Commons Zero v1.0 Universal</licenseName>
+            <url>https://spdx.org/licenses/CC0-1.0.html</url>
+            <identifier>CC0-1.0</identifier>
+        </licensed>
+        <distribution scope="document">
+            <online>
+                <url function="download">https://ipt.inbo.be/archive.do?r=alien-macroinvertebrate-occurrences</url>
+            </online>
+        </distribution>
+        <coverage>
+            <geographicCoverage>
+                <geographicDescription>Biological invasions of aquatic macroinvertebrates are gaining interest because of their potentially significant ecological and socio-economic impacts. During the present study an inventory was made of the alien macroinvertebrates occurring in Flanders (northern Belgium). Extensive existing collections of biological samples were investigated and supplemented with our own sampling campaigns. Fresh and brackish waters as well as the Belgian coastal harbours, situated at the interface of the marine environment, were investigated. Over 2,500 samples containing alien macroinvertebrates were identified to species level, which allowed us to accurately map their distribution in Flanders. Four new macroinvertebrate species for Flanders were discovered. In total, 52 alien macroinvertebrates were encountered in fresh and slightly brackish surface waters.</geographicDescription>
+                <boundingCoordinates>
+                    <westBoundingCoordinate>2.35</westBoundingCoordinate>
+                    <eastBoundingCoordinate>6.27</eastBoundingCoordinate>
+                    <northBoundingCoordinate>51.59</northBoundingCoordinate>
+                    <southBoundingCoordinate>50.66</southBoundingCoordinate>
+                </boundingCoordinates>
+            </geographicCoverage>
+            <temporalCoverage>
+                <rangeOfDates>
+                    <beginDate>
+                        <calendarDate>                1989
+</calendarDate>
+                    </beginDate>
+                    <endDate>
+                        <calendarDate>                2012
+</calendarDate>
+                    </endDate>
+                </rangeOfDates>
+            </temporalCoverage>
+            <temporalCoverage>
+                <rangeOfDates>
+                    <beginDate>
+                        <calendarDate>                2008
+</calendarDate>
+                    </beginDate>
+                    <endDate>
+                        <calendarDate>                2012
+</calendarDate>
+                    </endDate>
+                </rangeOfDates>
+            </temporalCoverage>
+            <taxonomicCoverage>
+                <generalTaxonomicCoverage>In total, 73 alien macroinvertebrate species have been collected in Flanders of which 52 are regularly encountered in fresh and/or slightly brackish waters. The remaining 21 species are restricted to the marine environment for at least a considerable share of their lifetime. Most alien macroinvertebrate species are  crustaceans (51%), followed by Mollusca (27%), Annelida (19%) and Platyhelminthes (3%) (Figure 3). Most alien macroinvertebrates originate from North America (37%) or the Ponto-Caspian region (21%). The main vector of introduction is probably passive transport via the hull of ships (biofouling) and ballast water (71%). The transport via canals is the second main vector (28%) and promoted the dispersion of alien macroinvertebrates. Also, some species were introduced through aquaculture (17%) and hobbyists (6%)</generalTaxonomicCoverage>
+                <taxonomicClassification>
+                    <taxonRankName>Family</taxonRankName>
+                    <taxonRankValue>Ampharetidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Family</taxonRankName>
+                    <taxonRankValue>Asellidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Family</taxonRankName>
+                    <taxonRankValue>Astacidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Family</taxonRankName>
+                    <taxonRankValue>Atyidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Family</taxonRankName>
+                    <taxonRankValue>Cambaridae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Family</taxonRankName>
+                    <taxonRankValue>Caprellidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Family</taxonRankName>
+                    <taxonRankValue>Corophiidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Family</taxonRankName>
+                    <taxonRankValue>Crangonyctidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Family</taxonRankName>
+                    <taxonRankValue>Dendrocoelidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Family</taxonRankName>
+                    <taxonRankValue>Dreissenidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Family</taxonRankName>
+                    <taxonRankValue>Gammaridae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Family</taxonRankName>
+                    <taxonRankValue>Grapsidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Family</taxonRankName>
+                    <taxonRankValue>Hydrobiidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Family</taxonRankName>
+                    <taxonRankValue>Janiridae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Family</taxonRankName>
+                    <taxonRankValue>Mactridae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Family</taxonRankName>
+                    <taxonRankValue>Melitidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Family</taxonRankName>
+                    <taxonRankValue>Mysidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Family</taxonRankName>
+                    <taxonRankValue>Ostreidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Family</taxonRankName>
+                    <taxonRankValue>Palaemonidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Family</taxonRankName>
+                    <taxonRankValue>Panopeidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Family</taxonRankName>
+                    <taxonRankValue>Physidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Family</taxonRankName>
+                    <taxonRankValue>Planorbidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Family</taxonRankName>
+                    <taxonRankValue>Pleustidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Family</taxonRankName>
+                    <taxonRankValue>Serpulidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Family</taxonRankName>
+                    <taxonRankValue>Talitridae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Family</taxonRankName>
+                    <taxonRankValue>Varunidae</taxonRankValue>
+                </taxonomicClassification>
+            </taxonomicCoverage>
+        </coverage>
+        <purpose><para>Biological invasions of aquatic macroinvertebrates are gaining more and more interest because the potential high ecological and socio-economic impact. During the present study an inventory was made of the alien macroinvertebrates occurring in Flanders (northern part of Belgium). To this end, large existing collections of biological samples were investigated and supplemented with own sampling campaigns. Fresh and brackish waters as well as the Belgian coastal harbours, situated at the interface of the marine environment, were investigated. Over 2,500 samples containing alien macroinvertebrates were identified to species level, which allowed us to accurately map their distribution in Flanders. Four new macroinvertebrate species for Flanders were discovered. In total, 52 alien macroinvertebrates were encountered in fresh and slightly brackish surface waters. Additionally, 21 alien macroinvertebrate species were reported for the Belgian part of the North Sea and its adjacent estuaries. Most alien macroinvertebrates belonged to the crustaceans and molluscs. Alien species found in the fresh and brackish water environment mainly originated from the Ponto-Caspian area and North America, followed by Asia and South- and East-Europe. The complete dataset used for this study has been published under the creative commons zero waiver on the Global Biodiversity Information Facility. In this paper, we also describe this dataset thoroughly. This overview shows that alien macroinvertebrates are widespread and abundantly present in many watercourses in Flanders. Based on observations in neighbouring countries, several additional species are expected to arrive in the near future. A follow-up of the alien macroinvertebrate species together with a monitoring scheme to detect new incoming species is valuable to estimate the size of the problem and to be able to closely follow their ecological and economic impact. This overview can serve as an important step forward to provide a list of alien species present within the country as requested by the European Union.</para></purpose>
+        <maintenance>
+            <description>
+                <para></para>
+            </description>
+            <maintenanceUpdateFrequency>notPlanned</maintenanceUpdateFrequency>
+        </maintenance>
+        <contact>
+            <individualName>
+                <givenName>Pieter</givenName>
+                <surName>Boets</surName>
+            </individualName>
+            <organizationName>Ghent University</organizationName>
+            <positionName>Researcher</positionName>
+            <address>
+                <city>Ghent</city>
+                <country>BELGIUM</country>
+            </address>
+            <electronicMailAddress>pieterboets@msn.com</electronicMailAddress>
+        </contact>
+        <methods>
+            <methodStep>
+                <description>
+                    <para>/</para>
+                </description>
+            </methodStep>
+            <sampling>
+                <studyExtent>
+                    <description>
+                        <para>Different sources of data available:
+(1) Data collected by the Flemish Environment Agency (VMM) of over 4,600 sampling locations situated in inland waters (fresh and brackish water). Biological samples were taken yearly and each sampling location was sampled on average every three years resulting in a large dataset of more than 11,000 biological samples collected between 1989 and 2012. The samples are stored at the Royal Belgian Institute of Natural Sciences (RBINS). Since samples of the VMM are identified to genus or family level, information about alien macrocrustacean species, such as Dikerogammarus villosus (Sowinsky, 1894) or Gammarus tigrinus Sexton, 1939 was not available since both species belong to the same family Gammaridae as the indigenous species G. pulex (Linnaeus, 1758). Although we try to give a complete overview of all alien macroinvertebrates encountered in Flanders, we mainly focused on aquatic macrocrustaceans in Flanders. Consequently, we identified all crustaceans of over 2,500 samples to species level.
+(2) Data collected during the four years of this study (2008-2012) at different sampling locations where alien macroinvertebrate species were expected based on historical records, information retrieved from databases or observations made by colleague zoologists. In addition, data were collected in the scope of a study that was performed in the Belgian coastal harbours to assess the diversity and abundance of alien macro-Crustacea (Malacostraca).
+(3) Data retrieved from the collections of the RBINS and from literature reporting on the occurrence of alien macroinvertebrates.</para>
+                    </description>
+                </studyExtent>
+                <samplingDescription>
+                    <para>The standard method used for biological monitoring of aquatic macroinvertebrates is the one used by the VMM and described by Gabriels et al. (2010). Depending on the depth of the watercourses, macroinvertebrates were sampled by means of a standard handnet or artificial substrates (Gabriels et al., 2010). The handnet consists of a metal frame of approximately 0.2 m by 0.3 m to which a conical net is attached with a mesh size of 300 μm. With the handnet, a stretch of approximately 10-20 m was sampled during three minutes for watercourses less than 2 m wide or five minutes for larger rivers. Sampling effort was proportionally distributed over all accessible aquatic habitats. In addition to the handnet sampling, macroinvertebrates were manually picked from stones, leaves, or branches along the same stretch (Gabriels et al. 2010). Artificial substrates were used for deep waters like canals where handnet sampling was not possible (Gabriels et al., 2010). Three replicates of artificial substrates, which consist of polypropylene bags (5L) filled with bricks of different sizes, were left in the water for a period of at least three weeks before they were retrieved. In this way, species had the time to colonise the substrates. Both sampling methods are standardised semi-quantitative methods (Gabriels et al., 2010).
+
+When investigating the macroinvertebrate fauna of the Belgian coastal harbours we used, besides the abovementioned sampling techniques, a trawl net with a circular diameter of 100 cm, a length of 3 m and a mesh size of 200 μm. This sampling method was used for qualitative analysis only and the samples were used to assess the species present in the water column between 0.2 m and 1.2 m above the bottom. This sampling technique was used to catch mobile species, such as Mysida, since these are often missed when using a handnet or artificial substrates. The trawl net was with a long rope attached to a zodiac and left into the water to the appropriate depth for sampling. Samples were taken by sailing within a radius of 100 m from a predetermined fixed sampling location (GPS determined) within the harbour for 10 minutes at an average ship speed (4 km hour-1 relative to the bottom). All samples were taken during day time when hyperbenthic organisms are known to be concentrated near the bottom.
+In order to be able to give a representative overview of the distribution of crayfish in Flanders we did not only use the standard sampling techniques as described by Gabriels et al. (2010), but we also used fyke nets (0.25 m diameter and a length of 0.50 m) specifically designed to catch crayfish and bait (cat food). Historical records as well as recent observations of crayfish were checked from October 2010 to May 2011.</para>
+                </samplingDescription>
+            </sampling>
+            <qualityControl>
+                <description>
+                    <para>The occurrence data from the original alien macroinvertebrate dataset were pre-processed using open.refine (http://www.openrefine.org/) and cartoDB (www.cartoDB.com) before being imported in Recorder6 (http://www.recorder6.info/) at the Research Institute for Nature and Forest (INBO). By creating a custom SQL view, the data were standardized to Darwin Core (Wieczorek et al. 2012) and were published as open data through the GBIF Integrated Publishing Toolkit (Robertson et al. 2014) at INBO (http://data.inbo.be/ipt) (for the terms of use see Appendix 1).</para>
+                </description>
+            </qualityControl>
+        </methods>
+
+            <project >
+                <title>Impact assessment of alien macroinvertebrates in Flanders (Belgium)</title>
+                <personnel>
+                    <individualName>
+                    <givenName>Pieter</givenName>
+                    <surName>Boets</surName>
+                    </individualName>
+                    <role>POINT_OF_CONTACT</role>
+                </personnel>
+                <abstract>
+                    <para></para>
+                </abstract>
+                <funding>
+                    <para>Research foundation Flanders (FWO-Vlaanderen).</para>
+                </funding>
+                <studyAreaDescription>
+                    <descriptor name="generic" citableClassificationSystem="false">
+                        <descriptorValue>Our study was conducted in Flanders (northern Belgium), which is situated in Northwest Europe and is bordered in the northwest by the North Sea (Figure 1). Flanders comprises a total area of 13,500 km2, is highly urbanised and is characterized by a high population density (on average 460 inhabitants km-2) (Vanweddingen 2012). The region is classified as lowland and has a dense network of small and large watercourses including an extensive network of navigable canals (over 1000 km). The dominant land uses are agriculture, industry and residential area and the landscape typically consists of a highly fragmented and complex mosaic of different forms of land use (Poelmans &amp; Van Rompaey 2009). This imposes a high pressure on semi-natural biotopes with habitat fragmentation and habitat quality loss as the major drivers of biodiversity loss in Flanders (Dumortier et al., 2007)Different aquatic habitats were monitored including all types of watercourses (Jochems et al. 2002), lakes and (coastal) harbours. The bounding coordinates for Flanders are: 50.68 to 51.51 latitude and 2.54 to 5.92 longitude.</descriptorValue>
+                    </descriptor>
+                </studyAreaDescription>
+            </project>
+    </dataset>
+
+    <additionalMetadata>
+        <metadata>
+            <gbif>
+                <dateStamp>2025-11-26T08:47:58Z</dateStamp>
+                <citation identifier="https://doi.org/10.15468/xjtfoo">Boets P, Brosens D, Lock K, Adriaens T, Aelterman B, Mertens J, Goethals P L (2025). Alien macroinvertebrates in Flanders, Belgium. Version 1.11. Ghent University. Occurrence dataset https://doi.org/10.15468/xjtfoo accessed via GBIF.org on 2025-11-26.</citation>
+                <bibliography>
+                <citation>Boets et al. 2012. Distribution of crayfish (Decapoda, Astacoidea) in Flanders (Belgium): An update. Belg. J. Zool., 142 (1): 86-92</citation>
+                <citation identifier="https://doi.org/10.3391/ai.2016.11.2.03">Boets P, Brosens D, Lock K, Adriaens T, Aelterman B, Mertens J &amp; Goethals P. 2016. Alien macroinvertebrates in Flanders (Belgium). Aquatic Invasions 11 (2): 131–144. https://doi.org/10.3391/ai.2016.11.2.03</citation>
+                </bibliography>
+            </gbif>
+        </metadata>
+    </additionalMetadata>
+    </eml:eml>

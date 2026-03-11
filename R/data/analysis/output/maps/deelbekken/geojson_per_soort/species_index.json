@@ -1,0 +1,72 @@
+{
+  "1": [
+    {
+      "species": "Pacifastacus leniusculus",
+      "slug": "pacifastacus_leniusculus",
+      "file": "pacifastacus_leniusculus.geojson",
+      "label_nl": "Californische rivierkreeft",
+      "n_points": 1,
+      "n_active_deelbekkens": 0
+    }
+  ],
+  "2": [
+    {
+      "species": "Faxonius virilis",
+      "slug": "faxonius_virilis",
+      "file": "faxonius_virilis.geojson",
+      "label_nl": "Geknobbelde Amerikaanse rivierkreeft",
+      "n_points": 2,
+      "n_active_deelbekkens": 0
+    }
+  ],
+  "3": [
+    {
+      "species": "Procambarus acutus",
+      "slug": "procambarus_acutus",
+      "file": "procambarus_acutus.geojson",
+      "label_nl": "Gestreepte Amerikaanse rivierkreeft",
+      "n_points": 521,
+      "n_active_deelbekkens": 6
+    }
+  ],
+  "4": [
+    {
+      "species": "Faxonius limosus",
+      "slug": "faxonius_limosus",
+      "file": "faxonius_limosus.geojson",
+      "label_nl": "Gevlekte Amerikaanse rivierkreeft",
+      "n_points": 980,
+      "n_active_deelbekkens": 38
+    }
+  ],
+  "5": [
+    {
+      "species": "Procambarus virginalis",
+      "slug": "procambarus_virginalis",
+      "file": "procambarus_virginalis.geojson",
+      "label_nl": "Marmerkreeft",
+      "n_points": 87,
+      "n_active_deelbekkens": 1
+    }
+  ],
+  "6": [
+    {
+      "species": "Procambarus clarkii",
+      "slug": "procambarus_clarkii",
+      "file": "procambarus_clarkii.geojson",
+      "label_nl": "Rode Amerikaanse rivierkreeft",
+      "n_points": 885,
+      "n_active_deelbekkens": 20
+    }
+  ],
+  "7": [
+    {
+      "species": "Pontastacus leptodactylus",
+      "slug": "pontastacus_leptodactylus",
+      "file": "pontastacus_leptodactylus.geojson",
+      "label_nl": "Turkse rivierkreeft",
+      "n_points": 31,
+      "n_active_deelbekkens": 4
+    }
+  ]
+}

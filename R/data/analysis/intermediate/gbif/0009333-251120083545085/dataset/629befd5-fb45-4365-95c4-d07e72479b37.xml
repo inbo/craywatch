@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://rs.gbif.org/schema/eml-gbif-profile/1.3/eml.xsd"
+packageId="629befd5-fb45-4365-95c4-d07e72479b37"  system="http://gbif.org" scope="system"
+xml:lang="en">
+    <dataset>
+        <alternateIdentifier>10.15468/p58ip1</alternateIdentifier>
+        <alternateIdentifier>629befd5-fb45-4365-95c4-d07e72479b37</alternateIdentifier>
+        <alternateIdentifier>https://ipt.biodiversity.be/resource?r=natagora-alien-occurrences</alternateIdentifier>
+        <title>Observations.be - Non-native species occurrences in Wallonia, Belgium</title>
+        <creator>
+            <individualName>
+                <givenName>Jean-Yves</givenName>
+                <surName>Paquet</surName>
+            </individualName>
+            <organizationName>Natagora</organizationName>
+            <positionName>Head of Study Departement</positionName>
+            <address>
+                <country>BELGIUM</country>
+            </address>
+            <electronicMailAddress>jean-yves.paquet@natagora.be</electronicMailAddress>
+            <onlineUrl>https://www.natagora.be</onlineUrl>
+            <userId directory="http://orcid.org/">0000-0002-2068-7976</userId>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Louis</givenName>
+                <surName>Bronne</surName>
+            </individualName>
+            <organizationName>Natagora</organizationName>
+            <positionName>Database officer</positionName>
+            <address>
+                <country>BELGIUM</country>
+            </address>
+            <electronicMailAddress>louis.bronne@natagora.be</electronicMailAddress>
+            <onlineUrl>https://www.natagora.be</onlineUrl>
+            <userId directory="http://orcid.org/">0000-0002-3396-184X</userId>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Lien</givenName>
+                <surName>Reyserhove</surName>
+            </individualName>
+            <organizationName>Research Institute for Nature and Forest (INBO)</organizationName>
+            <address>
+                <country>BELGIUM</country>
+            </address>
+            <electronicMailAddress>lien.reyserhove@inbo.be</electronicMailAddress>
+            <userId directory="http://orcid.org/">0000-0001-7484-9267</userId>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Peter</givenName>
+                <surName>Desmet</surName>
+            </individualName>
+            <organizationName>Research Institute for Nature and Forest (INBO)</organizationName>
+            <address>
+                <country>BELGIUM</country>
+            </address>
+            <userId directory="http://orcid.org/">0000-0002-8442-8025</userId>
+        </creator>
+        <metadataProvider>
+            <individualName>
+                <givenName>Louis</givenName>
+                <surName>Bronne</surName>
+            </individualName>
+            <organizationName>Natagora</organizationName>
+            <positionName>Database officer</positionName>
+            <address>
+                <country>BELGIUM</country>
+            </address>
+            <electronicMailAddress>louis.bronne@natagora.be</electronicMailAddress>
+            <onlineUrl>https://www.natagora.be</onlineUrl>
+            <userId directory="http://orcid.org/">0000-0002-3396-184X</userId>
+        </metadataProvider>
+        <metadataProvider>
+            <individualName>
+                <givenName>Jean-Yves</givenName>
+                <surName>Paquet</surName>
+            </individualName>
+            <organizationName>Natagora</organizationName>
+            <positionName>Head of Study Departement</positionName>
+            <address>
+                <country>BELGIUM</country>
+            </address>
+            <electronicMailAddress>jean-yves.paquet@natagora.be</electronicMailAddress>
+            <onlineUrl>https://www.natagora.be</onlineUrl>
+            <userId directory="http://orcid.org/">0000-0002-2068-7976</userId>
+        </metadataProvider>
+        <metadataProvider>
+            <individualName>
+                <givenName>Lien</givenName>
+                <surName>Reyserhove</surName>
+            </individualName>
+            <organizationName>Research Institute for Nature and Forest (INBO)</organizationName>
+            <positionName>Data Publisher</positionName>
+            <address>
+                <country>BELGIUM</country>
+            </address>
+            <electronicMailAddress>lien.reyserhove@inbo.be</electronicMailAddress>
+            <userId directory="http://orcid.org/">0000-0001-7484-9267</userId>
+        </metadataProvider>
+        <metadataProvider>
+            <individualName>
+                <givenName>Peter</givenName>
+                <surName>Desmet</surName>
+            </individualName>
+            <organizationName>Research Institute for Nature and Forest (INBO)</organizationName>
+            <address>
+                <country>BELGIUM</country>
+            </address>
+            <userId directory="http://orcid.org/">0000-0002-8442-8025</userId>
+        </metadataProvider>
+        <pubDate>
+                2025-11-08
+        </pubDate>
+        <language>ENGLISH</language>
+        <abstract>
+            <para>Observations.be - Non-native species occurrences in Wallonia, Belgium is a species occurrence dataset published by Natagora. The dataset contains over 190,000 occurrences of animal, plant and fungal non-native species, recorded by volunteers (citizen scientists), mainly since 2008. The occurrences are derived from the database http://www.observations.be, an initiative from the nature conservation NGO Natagora (https://www.natagora.be) in collaboration with Stichting Natuurinformatie and Natuurpunt. Standardized information regarding the occurrence&amp;#39;s sex, reproductiveCondition, behavior, occurrenceRemarks, and samplingProtocol is included as well. Issues with the dataset can be reported at https://github.com/trias-project/natagora-alien-occurrences</para><para>Generalized and/or withheld information: for some occurrences, location information is generalized to grid cells, as requested by the observer (usually to avoid disturbance or collecting). Observer name, toponyms, and photographs are not included in the published dataset, but are known in the source database.</para><para>We have released this dataset to the public domain under a Creative Commons Zero waiver. We would appreciate however, if you read and follow these norms for data use (https://www.natagora.be/donnees_naturalistes_usage) and provide a link to the original data set whenever possible. If you use these data for a scientific paper, please cite the dataset following the applicable citation norms and/or consider us for co-authorship. We are always interested to provide more information or know how you have used the data, so please contact us via the contact information provided in the metadata or via biodata&amp;#64;natagora.be.</para>
+        </abstract>
+        <keywordSet>
+            <keyword>Occurrence; non-native species; citizen science; Natagora; observations.be; observation.org; Wallonia</keyword>
+            <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword>Observation</keyword>
+            <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword>observation.org</keyword>
+            <keyword>fungi</keyword>
+            <keyword>Wallonia</keyword>
+            <keyword>observations.be</keyword>
+            <keyword>exotic species</keyword>
+            <keyword>plants</keyword>
+            <keyword>Natagora</keyword>
+            <keyword>observations</keyword>
+            <keyword>citizen science</keyword>
+            <keyword>animals</keyword>
+            <keyword>invasive species</keyword>
+            <keyword>non-native species</keyword>
+            <keywordThesaurus>n/a</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword>Occurrence</keyword>
+            <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type_2015-07-10.xml</keywordThesaurus>
+        </keywordSet>
+        <intellectualRights>
+            <para>To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the <ulink url="http://creativecommons.org/publicdomain/zero/1.0/legalcode"><citetitle>Public Domain (CC0 1.0)</citetitle></ulink>. Users may copy, modify, distribute and use the work, including for commercial purposes, without restriction.</para>
+        </intellectualRights>
+        <licensed>
+            <licenseName>Creative Commons Zero v1.0 Universal</licenseName>
+            <url>https://spdx.org/licenses/CC0-1.0.html</url>
+            <identifier>CC0-1.0</identifier>
+        </licensed>
+        <distribution scope="document">
+            <online>
+                <url function="information">https://observations.be/</url>
+            </online>
+        </distribution>
+        <distribution scope="document">
+            <online>
+                <url function="download">https://ipt.biodiversity.be/archive.do?r=natagora-alien-occurrences</url>
+            </online>
+        </distribution>
+        <coverage>
+            <geographicCoverage>
+                <geographicDescription>Walloon Region. This region is located in the south of Belgium and covers an area of 16,844 km².</geographicDescription>
+                <boundingCoordinates>
+                    <westBoundingCoordinate>2.785</westBoundingCoordinate>
+                    <eastBoundingCoordinate>6.41</eastBoundingCoordinate>
+                    <northBoundingCoordinate>50.823</northBoundingCoordinate>
+                    <southBoundingCoordinate>49.49</southBoundingCoordinate>
+                </boundingCoordinates>
+            </geographicCoverage>
+            <temporalCoverage>
+                <rangeOfDates>
+                    <beginDate>
+                        <calendarDate>                1924-07-24
+</calendarDate>
+                    </beginDate>
+                    <endDate>
+                        <calendarDate>                2030-12-31
+</calendarDate>
+                    </endDate>
+                </rangeOfDates>
+            </temporalCoverage>
+            <taxonomicCoverage>
+                <taxonomicClassification>
+                    <taxonRankName>Kingdom</taxonRankName>
+                    <taxonRankValue>Plantae</taxonRankValue>
+                    <commonName>Plants</commonName>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Kingdom</taxonRankName>
+                    <taxonRankValue>Animalia</taxonRankValue>
+                    <commonName>Animals</commonName>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Kingdom</taxonRankName>
+                    <taxonRankValue>Fungi</taxonRankValue>
+                    <commonName>Fungi</commonName>
+                </taxonomicClassification>
+            </taxonomicCoverage>
+        </coverage>
+        <maintenance>
+            <description>
+                <para></para>
+            </description>
+            <maintenanceUpdateFrequency>biannually</maintenanceUpdateFrequency>
+        </maintenance>
+        <contact>
+            <individualName>
+                <givenName>Louis</givenName>
+                <surName>Bronne</surName>
+            </individualName>
+            <organizationName>Natagora</organizationName>
+            <positionName>Database officer</positionName>
+            <address>
+                <country>BELGIUM</country>
+            </address>
+            <electronicMailAddress>louis.bronne@natagora.be</electronicMailAddress>
+            <onlineUrl>https://www.natagora.be</onlineUrl>
+            <userId directory="http://orcid.org/">0000-0002-3396-184X</userId>
+        </contact>
+        <methods>
+            <methodStep>
+                <description>
+                    <para>Not provided</para>
+                </description>
+            </methodStep>
+            <sampling>
+                <studyExtent>
+                    <description>
+                        <para>See geographic coverage.</para>
+                    </description>
+                </studyExtent>
+                <samplingDescription>
+                    <para>The observations (species, date, location, observer) were recorded by volunteers (citizen scientists) at http://www.observations.be. The dataset is a mixture of presence-only data and checklists.</para>
+                </samplingDescription>
+            </sampling>
+            <qualityControl>
+                <description>
+                    <para>Recorded data are constantly verified by species group specialists (including professionals) taking collection specimens, the observer’s species knowledge, added photographs and known species list of locations into account. The validation procedure from observations.be consists of an interactive procedure in which observers can be asked for additional information by a team of validators, after which the validator manually adds a validation status. Records that are not manually validated are additionally checked by an automated validation procedure that takes into account the number of manually validated observations within a specified date and distance range. The validation status is indicated in the field identificationVerificationStatus, the link to the original record is in references.</para>
+                </description>
+            </qualityControl>
+        </methods>
+
+            <project id="TrIAS">
+                <title>Tracking Invasive Alien Species (TrIAS)</title>
+                <personnel>
+                    <individualName>
+                    <givenName>Tim</givenName>
+                    <surName>Adriaens</surName>
+                    </individualName>
+            <userId directory="http://orcid.org/">0000-0001-7268-4200</userId>
+                    <role>AUTHOR</role>
+                </personnel>
+                <personnel>
+                    <individualName>
+                    <givenName>Peter</givenName>
+                    <surName>Desmet</surName>
+                    </individualName>
+            <userId directory="http://orcid.org/">0000-0002-8442-8025</userId>
+                    <role>AUTHOR</role>
+                </personnel>
+                <personnel>
+                    <individualName>
+                    <givenName>Quentin</givenName>
+                    <surName>Groom</surName>
+                    </individualName>
+            <userId directory="http://orcid.org/">0000-0002-0596-5376</userId>
+                    <role>PRINCIPAL_INVESTIGATOR</role>
+                </personnel>
+                <personnel>
+                    <individualName>
+                    <givenName>Diederik</givenName>
+                    <surName>Strubbe</surName>
+                    </individualName>
+            <userId directory="http://orcid.org/">0000-0002-2613-4985</userId>
+                    <role>AUTHOR</role>
+                </personnel>
+                <personnel>
+                    <individualName>
+                    <givenName>Sonia</givenName>
+                    <surName>Vanderhoeven</surName>
+                    </individualName>
+            <userId directory="http://orcid.org/">0000-0002-6298-5373</userId>
+                    <role>AUTHOR</role>
+                </personnel>
+                <abstract>
+                    <para>Imagine a future where dynamically, from year to year, we can track the progression of alien species (AS), identify emerging species, assess their current and future risk and timely inform policy in a seamless data-driven workflow. One that is built on open science and open data infrastructures. By using international biodiversity standards and facilities, we would ensure interoperability, repeatability and sustainability. This would make the process adaptable to future requirements in an evolving IAS policy landscape both locally and internationally. The project Tracking Invasive Alien Species (TrIAS) aims to do this for Belgium. For a full project description, see Vanderhoeven et al. (2017, https://doi.org/10.3897/rio.3.e13414).</para>
+                </abstract>
+                <funding>
+                    <para>TrIAS is funded by the Belgian Science Policy Office (BELSPO) call for Belgian Research Action through Interdisciplinary Networks (BRAIN).</para>
+                </funding>
+                <studyAreaDescription>
+                    <descriptor name="generic" citableClassificationSystem="false">
+                        <descriptorValue>Belgium.</descriptorValue>
+                    </descriptor>
+                </studyAreaDescription>
+                <designDescription>
+                    <description>
+                        <para>The project builds on two components: 1) The establishment of a data mobilization framework for alien species data from diverse data sources and 2) the development of data-driven procedures for risk evaluation based on risk modelling, risk mapping and risk assessment. TrIAS uses facilities from the Global Biodiversity Information Facility (GBIF, http://www.gbif.org), standards from the Biodiversity Information Standards organization (TDWG, http://www.tdwg.org) and expertise from the Open science lab for biodiversity (https://twitter.com/oscibio) to create and facilitate a systematic workflow. Alien species data are gathered from a large set of regional, national and international initiatives, including citizen science data, with a wide taxonomic scope from marine, terrestrial and freshwater environments. Observation data are funnelled in repeatable ways to GBIF. In parallel, a Belgian checklist of alien species is established, benefiting from various taxonomic and project-based checklists foreseen for GBIF publication.</para>
+                    </description>
+                </designDescription>
+            </project>
+    </dataset>
+
+    <additionalMetadata>
+        <metadata>
+            <gbif>
+                <dateStamp>2025-11-26T08:47:58Z</dateStamp>
+                <citation identifier="https://doi.org/10.15468/p58ip1">Paquet J, Bronne L, Reyserhove L, Desmet P (2025). Observations.be - Non-native species occurrences in Wallonia, Belgium. Version 1.59. Natagora. Occurrence dataset https://doi.org/10.15468/p58ip1 accessed via GBIF.org on 2025-11-26.</citation>
+                <bibliography>
+                <citation identifier="https://doi.org/10.3897/rio.3.e13414">Vanderhoeven S, Adriaens T, Desmet P, Strubbe D, Backeljau T, Barbier Y, Brosens D, Cigar J, Coupremanne M, De Troch R, Eggermont H, Heughebaert A, Hostens K, Huybrechts P, Jacquemart A, Lens L, Monty A, Paquet J, Prévot C, Robertson T, Termonia P, Van De Kerchove R, Van Hoey G, Van Schaeybroeck B, Vercayie D, Verleye T, Welby S, Groom Q (2017) Tracking Invasive Alien Species (TrIAS): Building a data-driven framework to inform policy. Research Ideas and outcomes 3: e13414.</citation>
+                </bibliography>
+                <resourceLogoUrl>https://ipt.biodiversity.be/logo.do?r=natagora-alien-occurrences</resourceLogoUrl>
+            </gbif>
+        </metadata>
+    </additionalMetadata>
+    </eml:eml>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://rs.gbif.org/schema/eml-gbif-profile/1.3/eml.xsd"
+packageId="37f48e00-1fe8-11dc-b461-b8a03c50a862"  system="http://gbif.org" scope="system"
+xml:lang="en">
+    <dataset>
+        <alternateIdentifier>10.15468/ennulm</alternateIdentifier>
+        <alternateIdentifier>http://ipt.nlbif.nl/resource?r=stowa-limnodata</alternateIdentifier>
+        <alternateIdentifier>http://ipt.nlbif.nl/ipt/resource?r=stowa-limnodata</alternateIdentifier>
+        <alternateIdentifier>http://ipt.nlbif.nl/ipt/resource.do?r=stowa-limnodata</alternateIdentifier>
+        <alternateIdentifier>37f48e00-1fe8-11dc-b461-b8a03c50a862</alternateIdentifier>
+        <alternateIdentifier>1466</alternateIdentifier>
+        <title>Dutch Foundation for Applied Water Research (STOWA) - Limnodata Neerlandica</title>
+        <creator>
+            <individualName>
+                <givenName>Roel</givenName>
+                <surName>Knoben</surName>
+            </individualName>
+            <organizationName>Royal Haskoning DHV</organizationName>
+            <address>
+                <deliveryPoint>P.O. Box 525</deliveryPoint>
+                <city>Den Bosch</city>
+                <postalCode>NL-5201 AM</postalCode>
+                <country>NETHERLANDS</country>
+            </address>
+            <electronicMailAddress>roel.knoben@rhdhv.com</electronicMailAddress>
+            <onlineUrl>http://www.stowa.nl</onlineUrl>
+        </creator>
+        <metadataProvider>
+            <individualName>
+                <givenName>Bas</givenName>
+                <surName>van der Wal</surName>
+            </individualName>
+            <organizationName>STOWA</organizationName>
+            <address>
+                <deliveryPoint>P.O. Box 2180</deliveryPoint>
+                <city>Amersfoort</city>
+                <postalCode>NL-3800 CD</postalCode>
+                <country>NETHERLANDS</country>
+            </address>
+            <electronicMailAddress>b.van.der.wal@stowa.nl</electronicMailAddress>
+            <onlineUrl>http://www.stowa.nl</onlineUrl>
+        </metadataProvider>
+        <associatedParty>
+            <individualName>
+                <givenName>Niels</givenName>
+                <surName>Raes</surName>
+            </individualName>
+            <organizationName>NLBIF</organizationName>
+            <positionName>Node Manager</positionName>
+            <address>
+                <deliveryPoint>PO Box 9517</deliveryPoint>
+                <city>Leiden</city>
+                <postalCode>NL-2300 RA</postalCode>
+                <country>NETHERLANDS</country>
+            </address>
+            <phone>+31 71 751 9362</phone>
+            <electronicMailAddress>nlbif@naturalis.nl</electronicMailAddress>
+            <onlineUrl>http://www.nlbif.nl</onlineUrl>
+            <userId directory="http://orcid.org/">0000-0002-4329-4892</userId>
+            <role>PROCESSOR</role>
+        </associatedParty>
+        <pubDate>
+                2020-04-14
+        </pubDate>
+        <language>ENGLISH</language>
+        <abstract>
+            The Limnodata Neerlandica data set contains the data of more than 30 years systematic and project based sampling of Dutch, mainly freshwater, waterbodies. Data originate from 37 data providers; 26 water boards, the provinces and the Ministry of Transport, Public Works and Water Management. Over 20,000 sample points were used. The main purpose of the dataset is monitoring the quality of Dutch surface waters. Next to the biological characteristics also a-biotic data were sampled and stored alongside the biotic data. Observations are available from phytoplankton, diatoms, aquatic and riparian plants, macro-invertebrates and fish. The data were collected on a yearly base. The taxonomy has been validated according to the Dutch standardised checklist of aquatic species.
+
+Update January 2015: Added data for 2011 and 2012. Enhanced taxonomic and locality data fields.
+        </abstract>
+        <keywordSet>
+            <keyword>macrofauna</keyword>
+            <keyword>Netherlands</keyword>
+            <keyword>riparian</keyword>
+            <keyword>diatoms</keyword>
+            <keyword>plants</keyword>
+            <keyword>zooplankton</keyword>
+            <keyword>fish</keyword>
+            <keyword>phytoplankton</keyword>
+            <keyword>aquatic</keyword>
+            <keyword>monitoring</keyword>
+            <keyword>Limnofauna</keyword>
+            <keywordThesaurus>n/a</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword>Occurrence</keyword>
+            <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword>Observation</keyword>
+            <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+        </keywordSet>
+        <intellectualRights>
+            <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+        </intellectualRights>
+        <licensed>
+            <licenseName>Creative Commons Attribution 4.0 International</licenseName>
+            <url>https://spdx.org/licenses/CC-BY-4.0.html</url>
+            <identifier>CC-BY-4.0</identifier>
+        </licensed>
+        <distribution scope="document">
+            <online>
+                <url function="information">http://www.limnodata.nl/</url>
+            </online>
+        </distribution>
+        <distribution scope="document">
+            <online>
+                <url function="download">http://ipt.nlbif.nl/archive.do?r=stowa-limnodata</url>
+            </online>
+        </distribution>
+        <coverage>
+            <geographicCoverage>
+                <geographicDescription>The Netherlands</geographicDescription>
+                <boundingCoordinates>
+                    <westBoundingCoordinate>2.22</westBoundingCoordinate>
+                    <eastBoundingCoordinate>7.63</eastBoundingCoordinate>
+                    <northBoundingCoordinate>53.87</northBoundingCoordinate>
+                    <southBoundingCoordinate>50.1</southBoundingCoordinate>
+                </boundingCoordinates>
+            </geographicCoverage>
+            <temporalCoverage>
+                <rangeOfDates>
+                    <beginDate>
+                        <calendarDate>                1980-01-01
+</calendarDate>
+                    </beginDate>
+                    <endDate>
+                        <calendarDate>                2012-12-31
+</calendarDate>
+                    </endDate>
+                </rangeOfDates>
+            </temporalCoverage>
+            <taxonomicCoverage>
+                <generalTaxonomicCoverage>phytoplankton, diatoms, aquatic and riparian plants, macro-invertebrates and fish.</generalTaxonomicCoverage>
+                <taxonomicClassification>
+                    <taxonRankValue>n/a</taxonRankValue>
+                </taxonomicClassification>
+            </taxonomicCoverage>
+        </coverage>
+        <purpose><para>Water management and research.</para></purpose>
+        <maintenance>
+            <description>
+                <para></para>
+            </description>
+            <maintenanceUpdateFrequency>notPlanned</maintenanceUpdateFrequency>
+        </maintenance>
+        <contact>
+            <individualName>
+                <givenName>Bas</givenName>
+                <surName>van der Wal</surName>
+            </individualName>
+            <organizationName>STOWA</organizationName>
+            <address>
+                <deliveryPoint>P.O. Box 2180</deliveryPoint>
+                <city>Amersfoort</city>
+                <postalCode>NL-3800 CD</postalCode>
+                <country>NETHERLANDS</country>
+            </address>
+            <electronicMailAddress>b.van.der.wal@stowa.nl</electronicMailAddress>
+            <onlineUrl>http://www.stowa.nl</onlineUrl>
+        </contact>
+        <methods>
+            <methodStep>
+                <description>
+                    <para>Sampling - identification - taxonomic validation - databasing.</para>
+                </description>
+            </methodStep>
+            <sampling>
+                <studyExtent>
+                    <description>
+                        <para>Systematic and project based sampling of biotic and a-biotic characteristics of Dutch waterbodies for water management purposes. Data originate from over 20,000 measure points, mainly situated in freshwater inland systems.</para>
+                    </description>
+                </studyExtent>
+                <samplingDescription>
+                    <para>Phytoplankton was collected through filtration or from sample deposits, data originate from 3,100 sampling points.
+Diatoms were scraped from hard surfaces fro around 2,600 sampling points.
+Macrophyte sampling focused on vascular plants using a variety of sampling protocols (Tansley, Braun-Branquet, etc.), there are data from 13,000 sampling points.
+The intensity of zooplankton sampling was relatively low and restricted to 600 sampling points. 
+Macro fauna sampling was done with nets covering standard plots of about 5 meters and with several additional methods, all together 10,600 sampling points were covered.</para>
+                </samplingDescription>
+            </sampling>
+            <qualityControl>
+                <description>
+                    <para>Taxonomic names have been validated against the standardised list of Dutch Freshwater Species (Dutch acronym TWN).</para>
+                </description>
+            </qualityControl>
+        </methods>
+
+    </dataset>
+
+    <additionalMetadata>
+        <metadata>
+            <gbif>
+                <dateStamp>2025-11-26T08:47:59Z</dateStamp>
+                <citation>Knoben R, van der Wal B (2020). Dutch Foundation for Applied Water Research (STOWA) - Limnodata Neerlandica. Dutch Foundation for Applied Water Research. Occurrence dataset https://doi.org/10.15468/ennulm accessed via GBIF.org on 2025-11-26.</citation>
+                <resourceLogoUrl>http://ipt.nlbif.nl/logo.do?r=stowa-limnodata</resourceLogoUrl>
+            </gbif>
+        </metadata>
+    </additionalMetadata>
+    </eml:eml>

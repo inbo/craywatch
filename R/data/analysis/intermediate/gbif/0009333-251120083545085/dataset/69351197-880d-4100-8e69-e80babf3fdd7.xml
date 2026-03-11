@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://rs.gbif.org/schema/eml-gbif-profile/1.3/eml.xsd"
+packageId="69351197-880d-4100-8e69-e80babf3fdd7"  system="http://gbif.org" scope="system"
+xml:lang="en">
+    <dataset>
+        <alternateIdentifier>10.15468/fw2rbx</alternateIdentifier>
+        <alternateIdentifier>69351197-880d-4100-8e69-e80babf3fdd7</alternateIdentifier>
+        <alternateIdentifier>https://ipt.inbo.be/resource?r=rato-occurrences</alternateIdentifier>
+        <title>RATO - daily operations commissioned by the province East Flanders, Belgium</title>
+        <creator>
+            <individualName>
+                <givenName>Anke</givenName>
+                <surName>Stefens</surName>
+            </individualName>
+            <organizationName>Rattenbestrijding Oost-Vlaanderen vzw (RATO vzw)</organizationName>
+            <address>
+                <country>BELGIUM</country>
+            </address>
+            <electronicMailAddress>rato@oost-vlaanderen.be</electronicMailAddress>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Karel</givenName>
+                <surName>Van Moer</surName>
+            </individualName>
+            <organizationName>Rattenbestrijding Oost-Vlaanderen vzw (RATO vzw)</organizationName>
+            <address>
+                <country>BELGIUM</country>
+            </address>
+            <electronicMailAddress>rato@oost-vlaanderen.be</electronicMailAddress>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Lien</givenName>
+                <surName>Reyserhove</surName>
+            </individualName>
+            <organizationName>Research Institute for Nature and Forest (INBO)</organizationName>
+            <address>
+                <country>BELGIUM</country>
+            </address>
+            <electronicMailAddress>lien.reyserhove@inbo.be</electronicMailAddress>
+            <userId directory="https://orcid.org/">0000-0001-7484-9267</userId>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Damiano</givenName>
+                <surName>Oldoni</surName>
+            </individualName>
+            <organizationName>Research Institute for Nature and Forest (INBO)</organizationName>
+            <electronicMailAddress>damiano.oldoni@inbo.be</electronicMailAddress>
+            <userId directory="https://orcid.org/">0000-0003-3445-7562</userId>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Pieter</givenName>
+                <surName>Huybrechts</surName>
+            </individualName>
+            <organizationName>Research Institute for Nature and Forest (INBO)</organizationName>
+            <electronicMailAddress>pieter.huybrechts@inbo.be</electronicMailAddress>
+            <userId directory="https://orcid.org/">0000-0002-6658-6062</userId>
+        </creator>
+        <metadataProvider>
+            <individualName>
+                <givenName>Anke</givenName>
+                <surName>Stefens</surName>
+            </individualName>
+            <organizationName>Rattenbestrijding Oost-Vlaanderen vzw (RATO vzw)</organizationName>
+            <address>
+                <country>BELGIUM</country>
+            </address>
+            <electronicMailAddress>rato@oost-vlaanderen.be</electronicMailAddress>
+        </metadataProvider>
+        <pubDate>
+                2025-11-24
+        </pubDate>
+        <language>ENGLISH</language>
+        <abstract>
+            <para>The RATO - daily operations commissioned by the Province East Flanders, Belgium dataset is an event dataset published by RATO. The dataset includes data on management actions on invasive alien species and nuisance species, predominantly in the province of East Flanders and from 2021 onwards. Here it is published as a standardized Darwin Core Archive and includes for each occurrence record an occurrenceID, date, location, scientific name, sampling protocol, sampling effort and the number of recorded individuals or biomass. Issues with the dataset can be reported at https://github.com/riparias/rato-occurrences/issues.</para><para>We have released this dataset to the public domain under a Creative Commons Zero waiver. We would appreciate it if you follow the INBO norms for data use (https://www.inbo.be/en/norms-data-use) when using the data. If you have any questions regarding this dataset, don&amp;#39;t hesitate to contact us via the contact information provided in the metadata or via opendata&amp;#64;inbo.be.</para><para>This dataset was published as open data for the LIFE RIPARIAS project (Reaching Integrated and Prompt Action in Response to Invasive Alien Species https://www.riparias.be/), with technical support provided by the Research Institute for Nature and Forest (INBO).</para>
+        </abstract>
+        <keywordSet>
+            <keyword>Occurrence</keyword>
+            <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type_2015-07-10.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword>Observation</keyword>
+            <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword>muskrat</keyword>
+            <keyword>brown rat</keyword>
+            <keyword>East-Flanders</keyword>
+            <keyword>IAS</keyword>
+            <keyword>RATO</keyword>
+            <keyword>pest control</keyword>
+            <keyword>nuisance species</keyword>
+            <keywordThesaurus>N/A</keywordThesaurus>
+        </keywordSet>
+        <intellectualRights>
+            <para>To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the <ulink url="http://creativecommons.org/publicdomain/zero/1.0/legalcode"><citetitle>Public Domain (CC0 1.0)</citetitle></ulink>. Users may copy, modify, distribute and use the work, including for commercial purposes, without restriction.</para>
+        </intellectualRights>
+        <licensed>
+            <licenseName>Creative Commons Zero v1.0 Universal</licenseName>
+            <url>https://spdx.org/licenses/CC0-1.0.html</url>
+            <identifier>CC0-1.0</identifier>
+        </licensed>
+        <distribution scope="document">
+            <online>
+                <url function="information">https://www.riparias.be/</url>
+            </online>
+        </distribution>
+        <distribution scope="document">
+            <online>
+                <url function="download">https://ipt.inbo.be/archive.do?r=rato-occurrences</url>
+            </online>
+        </distribution>
+        <coverage>
+            <geographicCoverage>
+                <geographicDescription>East Flanders</geographicDescription>
+                <boundingCoordinates>
+                    <westBoundingCoordinate>2.53</westBoundingCoordinate>
+                    <eastBoundingCoordinate>5.9</eastBoundingCoordinate>
+                    <northBoundingCoordinate>51.51</northBoundingCoordinate>
+                    <southBoundingCoordinate>50.67</southBoundingCoordinate>
+                </boundingCoordinates>
+            </geographicCoverage>
+            <temporalCoverage>
+                <rangeOfDates>
+                    <beginDate>
+                        <calendarDate>                2021-10-12
+</calendarDate>
+                    </beginDate>
+                    <endDate>
+                        <calendarDate>                2022-06-24
+</calendarDate>
+                    </endDate>
+                </rangeOfDates>
+            </temporalCoverage>
+            <taxonomicCoverage>
+                <generalTaxonomicCoverage>Invasive alien species and nuisance species, mainly muskrat (Ondatra zibethicus) and brown rat (Rattus norvegicus)</generalTaxonomicCoverage>
+                <taxonomicClassification>
+                    <taxonRankName>Kingdom</taxonRankName>
+                    <taxonRankValue>Animalia</taxonRankValue>
+                    <commonName>animals</commonName>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Kingdom</taxonRankName>
+                    <taxonRankValue>Plantae</taxonRankValue>
+                    <commonName>plants</commonName>
+                </taxonomicClassification>
+            </taxonomicCoverage>
+        </coverage>
+        <maintenance>
+            <description>
+                <para></para>
+            </description>
+            <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+        </maintenance>
+        <contact>
+            <individualName>
+                <givenName>Anke</givenName>
+                <surName>Stefens</surName>
+            </individualName>
+            <organizationName>Rattenbestrijding Oost-Vlaanderen vzw (RATO vzw)</organizationName>
+            <address>
+                <country>BELGIUM</country>
+            </address>
+            <electronicMailAddress>rato@oost-vlaanderen.be</electronicMailAddress>
+        </contact>
+        <methods>
+            <methodStep>
+                <description>
+                    <para>A WFS export of the database was generated by RATO and uploaded to a GitHub repository (https://github.com/riparias/rato-occurrences/tree/master/data/raw).</para>
+                </description>
+            </methodStep>
+            <methodStep>
+                <description>
+                    <para>We developed a Rmarkdown script to document and perform the transformation of the data to Darwin Core, which includes the following steps:</para>
+                </description>
+            </methodStep>
+            <methodStep>
+                <description>
+                    <para>Perform some basic data cleaning of the raw data.</para>
+                </description>
+            </methodStep>
+            <methodStep>
+                <description>
+                    <para>Create an occurrence core file (http://rs.gbif.org/core/dwc_occurrence_2015-07-02.xml)</para>
+                </description>
+            </methodStep>
+            <methodStep>
+                <description>
+                    <para>The Darwin Core data file is uploaded to the INBO IPT and documented with metadata.</para>
+                </description>
+            </methodStep>
+            <methodStep>
+                <description>
+                    <para>The dataset is published and registered with GBIF.</para>
+                </description>
+            </methodStep>
+        </methods>
+
+            <project id="LIFE RIPARIAS">
+                <title>Reaching Integrated and Prompt Action in Response to Invasive Alien Species (LIFE RIPARIAS)</title>
+                <personnel>
+                    <individualName>
+                    <givenName>Tim</givenName>
+                    <surName>Adriaens</surName>
+                    </individualName>
+            <userId directory="http://orcid.org/">0000-0001-7268-4200</userId>
+                    <role>AUTHOR</role>
+                </personnel>
+                <personnel>
+                    <individualName>
+                    <givenName>Etienne</givenName>
+                    <surName>Branquart</surName>
+                    </individualName>
+                    <role>AUTHOR</role>
+                </personnel>
+                <personnel>
+                    <individualName>
+                    <givenName>Peter</givenName>
+                    <surName>Desmet</surName>
+                    </individualName>
+            <userId directory="http://orcid.org/">0000-0002-8442-8025</userId>
+                    <role>AUTHOR</role>
+                </personnel>
+                <personnel>
+                    <individualName>
+                    <givenName>Dido</givenName>
+                    <surName>Gossee</surName>
+                    </individualName>
+                    <role>AUTHOR</role>
+                </personnel>
+                <personnel>
+                    <individualName>
+                    <givenName>Jérémie</givenName>
+                    <surName>Guyon</surName>
+                    </individualName>
+            <userId directory="http://orcid.org/">0000-0003-3445-7562</userId>
+                    <role>AUTHOR</role>
+                </personnel>
+                <personnel>
+                    <individualName>
+                    <givenName>Lien</givenName>
+                    <surName>Reyserhove</surName>
+                    </individualName>
+            <userId directory="http://orcid.org/">0000-0001-7484-9267</userId>
+                    <role>AUTHOR</role>
+                </personnel>
+                <personnel>
+                    <individualName>
+                    <givenName>Sonia</givenName>
+                    <surName>Vanderhoeven</surName>
+                    </individualName>
+            <userId directory="http://orcid.org/">0000-0002-6298-5373</userId>
+                    <role>AUTHOR</role>
+                </personnel>
+                <personnel>
+                    <individualName>
+                    <givenName>Xavier</givenName>
+                    <surName>Vermeersch</surName>
+                    </individualName>
+            <userId directory="http://orcid.org/">0000-0003-1752-8226</userId>
+                    <role>AUTHOR</role>
+                </personnel>
+                <abstract>
+                    <para>The spread of invasive alien species (IAS) is not hampered by administrative borders. Aquatic IAS, in particular, spread rapidly through the hydrographic network. To effectively control such species requires coordinated management at higher spatial scales. LIFE RIPARIAS (Reaching Integrated and Prompt Action in Response to Invasive Alien Species) aims to achieve such coordination across regional borders in Belgium, supported by open data and open infrastructure for early warning and management reporting. 
+
+LIFE RIPARIAS aims at improving decision making on IAS management, early warning systems and management reporting tools. To this end, it develops an evidence-based workflow, translating national management objectives into concrete actions in an efficient manner. 
+
+Ultimately the project aims at increasing the conservation status of aquatic and riparian habitats. 
+
+More information on LIFE RIPARIAS is available at the project homepage: https://www.riparias.be/.</para>
+                </abstract>
+                <funding>
+                    <para>LIFE RIPARIAS is co-funded by the three Belgian regions and the European Union in the framework of the LIFE Programme (LIFE19 NAT/BE/000953). It is running from 2021 to 2026.</para>
+                </funding>
+                <studyAreaDescription>
+                    <descriptor name="generic" citableClassificationSystem="false">
+                        <descriptorValue>Dijle, Mark and Zenne river basin of the Scheldt district, Belgium.</descriptorValue>
+                    </descriptor>
+                </studyAreaDescription>
+                <designDescription>
+                    <description>
+                        <para>LIFE RIPARIAS focuses on aquatic and riparian plants as well as crayfish species located in the Dijle, Mark and Zenne river basin of the Scheldt district in Belgium. Cumulative observation data collected in 2000-2015, completed by data gathered from field surveillance in 2021-2022, will provide the baseline to design management objectives and define quantitative targets.</para>
+                    </description>
+                </designDescription>
+            </project>
+    </dataset>
+
+    <additionalMetadata>
+        <metadata>
+            <gbif>
+                <dateStamp>2025-11-26T08:47:58Z</dateStamp>
+                <citation>Stefens A, Van Moer K, Reyserhove L, Oldoni D, Huybrechts P (2025). RATO - daily operations commissioned by the province East Flanders, Belgium. Version 1.154. RATO vzw. Occurrence dataset https://doi.org/10.15468/fw2rbx accessed via GBIF.org on 2025-11-26.</citation>
+            </gbif>
+        </metadata>
+    </additionalMetadata>
+    </eml:eml>

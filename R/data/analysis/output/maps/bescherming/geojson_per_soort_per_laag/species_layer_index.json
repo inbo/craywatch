@@ -1,0 +1,72 @@
+[
+  {
+    "species": "faxonius limosus",
+    "slug": "faxonius_limosus",
+    "dutch_name": "Gevlekte Amerikaanse rivierkreeft",
+    "sbz_h_file": "sbz_h/faxonius_limosus.geojson",
+    "sbp_file": "sbp/faxonius_limosus.geojson",
+    "n_clouds_hbtrl": 330,
+    "n_clouds_sbp": 330,
+    "n_absences": 488
+  },
+  {
+    "species": "procambarus clarkii",
+    "slug": "procambarus_clarkii",
+    "dutch_name": "Rode Amerikaanse rivierkreeft",
+    "sbz_h_file": "sbz_h/procambarus_clarkii.geojson",
+    "sbp_file": "sbp/procambarus_clarkii.geojson",
+    "n_clouds_hbtrl": 397,
+    "n_clouds_sbp": 397,
+    "n_absences": 472
+  },
+  {
+    "species": "procambarus acutus",
+    "slug": "procambarus_acutus",
+    "dutch_name": "Gestreepte Amerikaanse rivierkreeft",
+    "sbz_h_file": "sbz_h/procambarus_acutus.geojson",
+    "sbp_file": "sbp/procambarus_acutus.geojson",
+    "n_clouds_hbtrl": 50,
+    "n_clouds_sbp": 50,
+    "n_absences": 531
+  },
+  {
+    "species": "procambarus virginalis",
+    "slug": "procambarus_virginalis",
+    "dutch_name": "Marmerkreeft",
+    "sbz_h_file": "sbz_h/procambarus_virginalis.geojson",
+    "sbp_file": "sbp/procambarus_virginalis.geojson",
+    "n_clouds_hbtrl": 10,
+    "n_clouds_sbp": 10,
+    "n_absences": 536
+  },
+  {
+    "species": "faxonius virilis",
+    "slug": "faxonius_virilis",
+    "dutch_name": "Geknobbelde Amerikaanse rivierkreeft",
+    "sbz_h_file": "sbz_h/faxonius_virilis.geojson",
+    "sbp_file": "sbp/faxonius_virilis.geojson",
+    "n_clouds_hbtrl": 2,
+    "n_clouds_sbp": 2,
+    "n_absences": 543
+  },
+  {
+    "species": "pontastacus leptodactylus",
+    "slug": "pontastacus_leptodactylus",
+    "dutch_name": "Turkse rivierkreeft",
+    "sbz_h_file": "sbz_h/pontastacus_leptodactylus.geojson",
+    "sbp_file": "sbp/pontastacus_leptodactylus.geojson",
+    "n_clouds_hbtrl": 20,
+    "n_clouds_sbp": 20,
+    "n_absences": 543
+  },
+  {
+    "species": "pacifastacus leniusculus",
+    "slug": "pacifastacus_leniusculus",
+    "dutch_name": "Californische rivierkreeft",
+    "sbz_h_file": "sbz_h/pacifastacus_leniusculus.geojson",
+    "sbp_file": "sbp/pacifastacus_leniusculus.geojson",
+    "n_clouds_hbtrl": 1,
+    "n_clouds_sbp": 1,
+    "n_absences": 543
+  }
+]

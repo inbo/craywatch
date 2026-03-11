@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://rs.gbif.org/schema/eml-gbif-profile/1.3/eml.xsd"
+packageId="49717845-86b1-4bbe-886e-4cddc1f98ebf"  system="http://gbif.org" scope="system"
+xml:lang="en">
+    <dataset>
+        <alternateIdentifier>10.15468/fwp5xs</alternateIdentifier>
+        <alternateIdentifier>49717845-86b1-4bbe-886e-4cddc1f98ebf</alternateIdentifier>
+        <alternateIdentifier>https://ipt.biodiversity.be/resource?r=crsripa</alternateIdentifier>
+        <title>Contrat de Rivière - RIPARIAS: detection and management of aquatic invasive alien species</title>
+        <creator>
+            <individualName>
+                <givenName>Dido</givenName>
+                <surName>Gosse</surName>
+            </individualName>
+            <organizationName>Contrat Rivière Senne</organizationName>
+            <positionName>Regional Coordinator LIFE project RIPARIAS</positionName>
+            <address>
+                <deliveryPoint>Place Josse Goffin n°1</deliveryPoint>
+                <city>Clabecq</city>
+                <administrativeArea>Haineaut</administrativeArea>
+                <postalCode>1480</postalCode>
+                <country>BELGIUM</country>
+            </address>
+            <phone>02/355.02.15</phone>
+            <electronicMailAddress>info@crsenne.be</electronicMailAddress>
+            <onlineUrl>http://www.crsenne.be/lequipe/</onlineUrl>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Jérémie</givenName>
+                <surName>Guyon</surName>
+            </individualName>
+            <organizationName>Contrat de rivière Dyle-Gette</organizationName>
+            <positionName>contributor</positionName>
+            <address>
+                <deliveryPoint>Rue des Andains, 3</deliveryPoint>
+                <city>Perwez</city>
+                <administrativeArea>Walloon Brabant</administrativeArea>
+                <postalCode>1360</postalCode>
+                <country>BELGIUM</country>
+            </address>
+            <onlineUrl>https://www.crdg.eu/crdg-2/contact/8-jeremie-guyon</onlineUrl>
+        </creator>
+        <metadataProvider>
+            <individualName>
+                <givenName>Dido</givenName>
+                <surName>Gosse</surName>
+            </individualName>
+            <organizationName>Contrat Rivière Senne</organizationName>
+            <positionName>Regional Coordinator LIFE project RIPARIAS</positionName>
+            <address>
+                <deliveryPoint>Place Josse Goffin n°1</deliveryPoint>
+                <city>Clabecq</city>
+                <administrativeArea>Haineaut</administrativeArea>
+                <postalCode>1480</postalCode>
+            </address>
+            <electronicMailAddress>info@crsenne.be</electronicMailAddress>
+            <onlineUrl>https://www.linkedin.com/in/dido-gosse-5800b4b5/?originalSubdomain=be</onlineUrl>
+        </metadataProvider>
+        <associatedParty>
+            <individualName>
+                <givenName>Maxime</givenName>
+                <surName>Coupremanne</surName>
+            </individualName>
+            <organizationName>Belgian Biodiversity Platform</organizationName>
+            <positionName>Data liaison officer</positionName>
+            <address>
+                <deliveryPoint>Avenue Maréchal Juin, 23</deliveryPoint>
+                <city>Gembloux</city>
+                <administrativeArea>Namur</administrativeArea>
+                <postalCode>5030</postalCode>
+                <country>BELGIUM</country>
+            </address>
+            <phone>+32471463765</phone>
+            <electronicMailAddress>mcouprem@gmail.com</electronicMailAddress>
+            <userId directory="https://orcid.org/">0000-0002-9052-9500</userId>
+            <role>PUBLISHER</role>
+        </associatedParty>
+        <pubDate>
+                2025-05-14
+        </pubDate>
+        <language>ENGLISH</language>
+        <abstract>
+            <para>&amp;#34;Contrat de Rivière - RIPARIAS: detection and management of aquatic invasive alien species&amp;#34; is a presence/absence dataset focusing on freshwater invasive alien species in the Senne basin, since spring 2021.</para><para>data are derived from the monitoring of a set of managed or surveilled water points (ponds, rivers) where the progress/elimination of a set of invasive species is followed up.</para><para>The dataset includes absence records and should be considered with caution. Each event corresponds to a complete survey of the site in search of a set of targeted IAS.</para><para>The dataset also include had hoc presence observations of other introduced or native species that are made on site.</para>
+        </abstract>
+        <keywordSet>
+            <keyword>Samplingevent ; rivers ; Wallonia ; Belgium ; Aquatic species ; Invasive species ; IAS</keyword>
+            <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type_2015-07-10.xml</keywordThesaurus>
+        </keywordSet>
+        <intellectualRights>
+            <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by-nc/4.0/legalcode"><citetitle>Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License</citetitle></ulink>.</para>
+        </intellectualRights>
+        <licensed>
+            <licenseName>Creative Commons Attribution Non Commercial 4.0 International</licenseName>
+            <url>https://spdx.org/licenses/CC-BY-NC-4.0.html</url>
+            <identifier>CC-BY-NC-4.0</identifier>
+        </licensed>
+        <distribution scope="document">
+            <online>
+                <url function="information">https://www.riparias.be/</url>
+            </online>
+        </distribution>
+        <distribution scope="document">
+            <online>
+                <url function="download">https://ipt.biodiversity.be/archive.do?r=crsripa</url>
+            </online>
+        </distribution>
+        <coverage>
+            <geographicCoverage>
+                <geographicDescription>Senne river basin, Wallonia, Belgium</geographicDescription>
+                <boundingCoordinates>
+                    <westBoundingCoordinate>3.869</westBoundingCoordinate>
+                    <eastBoundingCoordinate>4.773</eastBoundingCoordinate>
+                    <northBoundingCoordinate>50.796</northBoundingCoordinate>
+                    <southBoundingCoordinate>50.488</southBoundingCoordinate>
+                </boundingCoordinates>
+            </geographicCoverage>
+            <temporalCoverage>
+                <rangeOfDates>
+                    <beginDate>
+                        <calendarDate>                2021-03-12
+</calendarDate>
+                    </beginDate>
+                    <endDate>
+                        <calendarDate>                2022-10-27
+</calendarDate>
+                    </endDate>
+                </rangeOfDates>
+            </temporalCoverage>
+            <taxonomicCoverage>
+                <generalTaxonomicCoverage>The monitoring mostly targets a specific list of freshwater invasive alien species (detailed below). 
+Absence records are only available for these target species (as their search is part of the protocol).  However, had hoc observations of other aquatic species - introduced or native - are also included in the dataset.</generalTaxonomicCoverage>
+                <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>Aponogeton distachyos L.f.</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>Astacus leptodactylus Eschscholtz, 1823</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>Cabomba caroliniana A.Gray</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>Cherax destructor Clark, 1936</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>Crassula helmsii (Kirk) Cockayne</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>Egeria densa Planch.</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>Elodea canadensis Michx.</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>Elodea nuttallii (Planch.) H.St.John</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>Faxonius immunis (Hagen, 1870)</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>Faxonius juvenilis (Hagen, 1870)</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>Faxonius rusticus (Girard, 1852)</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>Faxonius virilis (Hagen, 1870)</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>Gunnera manicata Linden</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>Gunnera tinctoria (Molina) Mirb.</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>Heracleum mantegazzianum Sommier &amp; Levier</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>Houttuynia cordata Thunb.</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>Hydrilla verticillata (L.f.) Royle</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>Hydrocotyle ranunculoides L.fil.</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>Impatiens glandulifera Royle</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>Lagarosiphon major (Ridl.) Moss</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>Ludwigia grandiflora (Michx.) Greuter &amp; Burdet</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>Ludwigia peploides (Kunth) P.H.Raven</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>Lysichiton americanus Hultén &amp; H.St.John</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>Myriophyllum aquaticum (Vell.) Verdc.</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>Myriophyllum heterophyllum Michx.</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>Pacifastacus leniusculus (Dana, 1852)</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>Pistia stratiotes L.</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>Pontederia cordata L.</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>Procambarus acutus (Girard, 1852)</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>Procambarus clarkii (Girard, 1852)</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>Procambarus virginalis Lyko, 2017</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>Saururus cernuus L.</taxonRankValue>
+                </taxonomicClassification>
+            </taxonomicCoverage>
+        </coverage>
+        <maintenance>
+            <description>
+                <para></para>
+            </description>
+            <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+        </maintenance>
+        <contact>
+            <individualName>
+                <givenName>Dido</givenName>
+                <surName>Gosse</surName>
+            </individualName>
+            <organizationName>Contrat Rivière Senne</organizationName>
+            <positionName>Regional Coordinator LIFE project RIPARIAS</positionName>
+            <address>
+                <deliveryPoint>Place Josse Goffin n°1</deliveryPoint>
+                <city>Clabecq</city>
+                <administrativeArea>Haineaut</administrativeArea>
+                <postalCode>1480</postalCode>
+                <country>BELGIUM</country>
+            </address>
+            <phone>02/355.02.15</phone>
+            <electronicMailAddress>info@crsenne.be</electronicMailAddress>
+            <onlineUrl>http://www.crsenne.be/lequipe/</onlineUrl>
+        </contact>
+        <methods>
+            <methodStep>
+                <description>
+                    <para>Site prospection by officers in the RIPARIAS framework</para>
+                </description>
+            </methodStep>
+            <methodStep>
+                <description>
+                    <para>Enconding observations using Fulcrum</para>
+                </description>
+            </methodStep>
+            <methodStep>
+                <description>
+                    <para>Export and generate Darwin Core files for GBIF</para>
+                </description>
+            </methodStep>
+            <sampling>
+                <studyExtent>
+                    <description>
+                        <para>freshwater managed or surveilled  sites(ponds rivers) within the Senne river basin, from spring 2021 to present.</para>
+                    </description>
+                </studyExtent>
+                <samplingDescription>
+                    <para>During the visits, the entire site is prospected looking for a set of target IAS. The effort is adapted to the size of the site. For the search of invasive crayfish, traps are also set.</para>
+                </samplingDescription>
+            </sampling>
+        </methods>
+
+            <project id="LIFE RIPARIAS">
+                <title>Reaching Integrated and Prompt Action in Response to Invasive Alien Species (LIFE RIPARIAS)</title>
+                <personnel>
+                    <individualName>
+                    <givenName>Tim</givenName>
+                    <surName>Adriaens</surName>
+                    </individualName>
+            <userId directory="https://orcid.org/">0000-0001-7268-4200</userId>
+                    <role>AUTHOR</role>
+                </personnel>
+                <personnel>
+                    <individualName>
+                    <givenName>Etienne</givenName>
+                    <surName>Branquart</surName>
+                    </individualName>
+                    <role>AUTHOR</role>
+                </personnel>
+                <personnel>
+                    <individualName>
+                    <givenName>Peter</givenName>
+                    <surName>Desmet</surName>
+                    </individualName>
+            <userId directory="https://orcid.org/">0000-0002-8442-8025</userId>
+                    <role>AUTHOR</role>
+                </personnel>
+                <personnel>
+                    <individualName>
+                    <givenName>Dido</givenName>
+                    <surName>Gosse</surName>
+                    </individualName>
+                    <role>AUTHOR</role>
+                </personnel>
+                <personnel>
+                    <individualName>
+                    <givenName>Jérémie</givenName>
+                    <surName>Guyon</surName>
+                    </individualName>
+                    <role>AUTHOR</role>
+                </personnel>
+                <personnel>
+                    <individualName>
+                    <givenName>Damiano</givenName>
+                    <surName>Oldoni</surName>
+                    </individualName>
+            <userId directory="https://orcid.org/">0000-0003-3445-7562</userId>
+                    <role>AUTHOR</role>
+                </personnel>
+                <personnel>
+                    <individualName>
+                    <givenName>Lien</givenName>
+                    <surName>Reyserhove</surName>
+                    </individualName>
+            <userId directory="https://orcid.org/">0000-0001-7484-9267</userId>
+                    <role>AUTHOR</role>
+                </personnel>
+                <personnel>
+                    <individualName>
+                    <givenName>Sonia</givenName>
+                    <surName>Vanderhoeven</surName>
+                    </individualName>
+            <userId directory="https://orcid.org/">0000-0002-6298-5373</userId>
+                    <role>AUTHOR</role>
+                </personnel>
+                <personnel>
+                    <individualName>
+                    <givenName>Xavier</givenName>
+                    <surName>Vermeersch</surName>
+                    </individualName>
+            <userId directory="https://orcid.org/">0000-0003-1752-8226</userId>
+                    <role>PRINCIPAL_INVESTIGATOR</role>
+                </personnel>
+                <abstract>
+                    <para>The spread of invasive alien species (IAS) is not hampered by administrative borders. Aquatic IAS, in particular, spread rapidly through the hydrographic network. To effectively control such species requires coordinated management at higher spatial scales. LIFE RIPARIAS (Reaching Integrated and Prompt Action in Response to Invasive Alien Species) aims to achieve such coordination across regional borders in Belgium, supported by open data and open infrastructure for early warning and management reporting. 
+LIFE RIPARIAS aims at improving decision making on IAS management, early warning systems and management reporting tools. To this end, it develops an evidence-based workflow, translating national management objectives into concrete actions in an efficient manner. 
+Ultimately the project aims at increasing the conservation status of aquatic and riparian habitats. 
+More information on LIFE RIPARIAS is available at the project homepage: https://www.riparias.be/. You can also follow LIFE RIPARIAS on Twitter (@LIFEriparias) and Facebook (LIFE Riparias).
+
+We have released this dataset to the public domain under a Creative Commons Attribution-NonCommercial license. We would appreciate it if you follow the GBIF citation guidelines (https://www.gbif.org/citation-guidelines) when using the data. If you have any questions regarding this dataset, don&apos;t hesitate to contact us via the contact information provided in the metadata or via www.riparias.be.</para>
+                </abstract>
+                <funding>
+                    <para>LIFE RIPARIAS is co-funded by the three Belgian regions and the European Union in the framework of the LIFE Programme (LIFE19 NAT/BE/000953). It is running from 2021 to 2026.</para>
+                </funding>
+                <studyAreaDescription>
+                    <descriptor name="generic" citableClassificationSystem="false">
+                        <descriptorValue>Dijle, Mark and Zenne river basin of the Scheldt district, Belgium.</descriptorValue>
+                    </descriptor>
+                </studyAreaDescription>
+                <designDescription>
+                    <description>
+                        <para>LIFE RIPARIAS focuses on aquatic and riparian plants as well as crayfish species located in the Dijle, Mark and Zenne river basin of the Scheldt district in Belgium. Cumulative observation data collected in 2000-2015, completed by data gathered from field surveillance in 2021-2022, will provide the baseline to design management objectives and define quantitative targets.</para>
+                    </description>
+                </designDescription>
+            </project>
+    </dataset>
+
+    <additionalMetadata>
+        <metadata>
+            <gbif>
+                <dateStamp>2025-11-26T08:47:57Z</dateStamp>
+                <citation>Gosse D, Guyon J (2025). Contrat de Rivière - RIPARIAS: detection and management of aquatic invasive alien species. Version 1.12. Contrat de rivière Senne. Sampling event dataset https://doi.org/10.15468/fwp5xs accessed via GBIF.org on 2025-11-26.</citation>
+            </gbif>
+        </metadata>
+    </additionalMetadata>
+    </eml:eml>

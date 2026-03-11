@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://rs.gbif.org/schema/eml-gbif-profile/1.3/eml.xsd"
+packageId="9a0b66df-7535-4f28-9f4e-5bc11b8b096c"  system="http://gbif.org" scope="system"
+xml:lang="en">
+    <dataset>
+        <alternateIdentifier>10.15468/k2aiak</alternateIdentifier>
+        <alternateIdentifier>https://ipt.inbo.be/resource?r=dieren-exoten-natuurpunt-occurrences</alternateIdentifier>
+        <alternateIdentifier>http://data.inbo.be/ipt/resource?r=dieren-exoten-natuurpunt-occurrences</alternateIdentifier>
+        <alternateIdentifier>9a0b66df-7535-4f28-9f4e-5bc11b8b096c</alternateIdentifier>
+        <title>Waarnemingen.be - Non-native animal occurrences in Flanders and the Brussels Capital Region, Belgium</title>
+        <creator>
+            <individualName>
+                <givenName>Wouter</givenName>
+                <surName>Vanreusel</surName>
+            </individualName>
+            <organizationName>Natuurpunt Studie</organizationName>
+            <address>
+                <country>BELGIUM</country>
+            </address>
+            <electronicMailAddress>wouter.vanreusel@natuurpunt.be</electronicMailAddress>
+            <onlineUrl>http://www.natuurpunt.be</onlineUrl>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Kristijn</givenName>
+                <surName>Swinnen</surName>
+            </individualName>
+            <organizationName>Natuurpunt Studie</organizationName>
+            <address>
+                <country>BELGIUM</country>
+            </address>
+            <electronicMailAddress>kristijn.swinnen@natuurpunt.be</electronicMailAddress>
+            <onlineUrl>http://www.natuurpunt.be</onlineUrl>
+            <userId directory="http://orcid.org/">0000-0002-1910-9247</userId>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Karin</givenName>
+                <surName>Gielen</surName>
+            </individualName>
+            <organizationName>Natuurpunt Studie</organizationName>
+            <address>
+                <country>BELGIUM</country>
+            </address>
+            <electronicMailAddress>karin.gielen@natuurpunt.be</electronicMailAddress>
+            <onlineUrl>http://www.natuurpunt.be</onlineUrl>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Diemer</givenName>
+                <surName>Vercayie</surName>
+            </individualName>
+            <organizationName>Natuurpunt Studie</organizationName>
+            <address>
+                <country>BELGIUM</country>
+            </address>
+            <electronicMailAddress>diemer.vercayie@natuurpunt.be</electronicMailAddress>
+            <onlineUrl>http://www.natuurpunt.be</onlineUrl>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Gerald</givenName>
+                <surName>Driessens</surName>
+            </individualName>
+            <organizationName>Natuurpunt Studie</organizationName>
+            <address>
+                <country>BELGIUM</country>
+            </address>
+            <electronicMailAddress>gerald.driessens@natuurpunt.be</electronicMailAddress>
+            <onlineUrl>http://www.natuurpunt.be</onlineUrl>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Wim</givenName>
+                <surName>Veraghtert</surName>
+            </individualName>
+            <organizationName>Natuurpunt Studie</organizationName>
+            <address>
+                <country>BELGIUM</country>
+            </address>
+            <electronicMailAddress>wim.veraghtert@natuurpunt.be</electronicMailAddress>
+            <onlineUrl>http://www.natuurpunt.be</onlineUrl>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Peter</givenName>
+                <surName>Desmet</surName>
+            </individualName>
+            <organizationName>Research Institute for Nature and Forest (INBO)</organizationName>
+            <address>
+                <country>BELGIUM</country>
+            </address>
+            <electronicMailAddress>peter.desmet@inbo.be</electronicMailAddress>
+            <userId directory="http://orcid.org/">0000-0002-8442-8025</userId>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Marc</givenName>
+                <surName>Herremans</surName>
+            </individualName>
+            <organizationName>Natuurpunt Studie</organizationName>
+            <address>
+                <country>BELGIUM</country>
+            </address>
+            <electronicMailAddress>marc.herremans@natuurpunt.be</electronicMailAddress>
+            <onlineUrl>http://www.natuurpunt.be</onlineUrl>
+        </creator>
+        <creator>
+            <organizationName>all working groups, species validators and observers</organizationName>
+            <address>
+                <country>BELGIUM</country>
+            </address>
+            <onlineUrl>http://www.waarnemingen.be</onlineUrl>
+        </creator>
+        <metadataProvider>
+            <individualName>
+                <givenName>Wouter</givenName>
+                <surName>Vanreusel</surName>
+            </individualName>
+            <organizationName>Natuurpunt Studie</organizationName>
+            <address>
+                <country>BELGIUM</country>
+            </address>
+            <electronicMailAddress>wouter.vanreusel@natuurpunt.be</electronicMailAddress>
+            <onlineUrl>http://www.natuurpunt.be</onlineUrl>
+        </metadataProvider>
+        <metadataProvider>
+            <individualName>
+                <givenName>Peter</givenName>
+                <surName>Desmet</surName>
+            </individualName>
+            <organizationName>Research Institute for Nature and Forest (INBO)</organizationName>
+            <address>
+                <country>BELGIUM</country>
+            </address>
+            <electronicMailAddress>peter.desmet@inbo.be</electronicMailAddress>
+            <userId directory="http://orcid.org/">0000-0002-8442-8025</userId>
+        </metadataProvider>
+        <metadataProvider>
+            <individualName>
+                <givenName>Kristijn</givenName>
+                <surName>Swinnen</surName>
+            </individualName>
+            <organizationName>Natuurpunt Studie</organizationName>
+            <address>
+                <country>BELGIUM</country>
+            </address>
+            <electronicMailAddress>kristijn.swinnen@natuurpunt.be</electronicMailAddress>
+            <userId directory="http://orcid.org/">0000-0002-1910-9247</userId>
+        </metadataProvider>
+        <pubDate>
+                2025-11-19
+        </pubDate>
+        <language>ENGLISH</language>
+        <abstract>
+            <para>Waarnemingen.be - Non-native animal occurrences in Flanders and the Brussels Capital Region, Belgium is a species occurrence dataset published by Natuurpunt and described (v1.2) in Swinnen et al. (2018, https://doi.org/10.3391/bir.2018.7.3.17). The dataset contains over 900,000 occurrences of non-native animal species, recorded by volunteers (citizen scientists), mainly since 2008. The occurrences are derived from the database http://www.waarnemingen.be, hosted at the nature conservation NGO Natuurpunt in collaboration with Stichting Natuurinformatie. Standardized information regarding the occurrence&amp;#39;s sex, lifeStage, reproductiveCondition, behavior, occurrenceRemarks, and samplingProtocol is included as well.</para><para>Generalized and/or withheld information: since dataset v1.4 location information is no longer generalized to grid cells, but provided as the original decimalLatitude/Longitude and coordinateUncertaintyInMeters for all occurrences. Observer name, toponyms, and photographs are not included in the published dataset, but are known in the source database.</para><para>To allow anyone to use this dataset, we have released the data to the public domain under a Creative Commons Zero waiver (http://creativecommons.org/publicdomain/zero/1.0/). We would appreciate however, if you read and follow these norms for data use (http://www.natuurpunt.be/normen-voor-datagebruik) and provide a link to the original dataset (https://doi.org/10.15468/k2aiak) whenever possible. If you use these data for a scientific paper, please cite the dataset following the applicable citation norms and/or consider us for co-authorship. We are always interested to provide more information or know how you have used the data, so please contact us via the contact information provided in the metadata or natuurdata&amp;#64;natuurpunt.be.</para><para>The publication of this dataset is supported by INBO and funded by Research Foundation - Flanders (FWO) as part of the Belgian contribution to LifeWatch.</para>
+        </abstract>
+        <keywordSet>
+            <keyword>Occurrence</keyword>
+            <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type_2015-07-10.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword>Observation</keyword>
+            <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword>observation.org</keyword>
+            <keyword>exotic species</keyword>
+            <keyword>observations</keyword>
+            <keyword>citizen science</keyword>
+            <keyword>waarnemingen.be</keyword>
+            <keyword>animals</keyword>
+            <keyword>distribution</keyword>
+            <keyword>invasive species</keyword>
+            <keyword>Natuurpunt</keyword>
+            <keyword>non-native species</keyword>
+            <keywordThesaurus>n/a</keywordThesaurus>
+        </keywordSet>
+        <intellectualRights>
+            <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by-nc/4.0/legalcode"><citetitle>Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License</citetitle></ulink>.</para>
+        </intellectualRights>
+        <licensed>
+            <licenseName>Creative Commons Attribution Non Commercial 4.0 International</licenseName>
+            <url>https://spdx.org/licenses/CC-BY-NC-4.0.html</url>
+            <identifier>CC-BY-NC-4.0</identifier>
+        </licensed>
+        <distribution scope="document">
+            <online>
+                <url function="information">http://www.waarnemingen.be</url>
+            </online>
+        </distribution>
+        <distribution scope="document">
+            <online>
+                <url function="download">https://ipt.inbo.be/archive.do?r=dieren-exoten-natuurpunt-occurrences</url>
+            </online>
+        </distribution>
+        <coverage>
+            <geographicCoverage>
+                <geographicDescription>Flanders and the Brussels Capital Region. These regions are situated in the north of Belgium and cover an area of 13,522 km² and 162 km² respectively (13,684 km² in total or 45% of the Belgian territory). Flanders is largely covered by agricultural land and urban areas while the Brussels Capital Region is mainly urban.</geographicDescription>
+                <boundingCoordinates>
+                    <westBoundingCoordinate>2.53</westBoundingCoordinate>
+                    <eastBoundingCoordinate>5.94</eastBoundingCoordinate>
+                    <northBoundingCoordinate>51.51</northBoundingCoordinate>
+                    <southBoundingCoordinate>50.67</southBoundingCoordinate>
+                </boundingCoordinates>
+            </geographicCoverage>
+            <taxonomicCoverage>
+                <generalTaxonomicCoverage>The dataset contains all animal taxa recorded in Flanders and the Brussels Capital Region which have the status naturalized, naturalizing, exotic, or incidental import in waarnemingen.be.</generalTaxonomicCoverage>
+                <taxonomicClassification>
+                    <taxonRankName>Kingdom</taxonRankName>
+                    <taxonRankValue>Animalia</taxonRankValue>
+                    <commonName>animals</commonName>
+                </taxonomicClassification>
+            </taxonomicCoverage>
+        </coverage>
+        <maintenance>
+            <description>
+                <para></para>
+            </description>
+            <maintenanceUpdateFrequency>weekly</maintenanceUpdateFrequency>
+        </maintenance>
+        <contact>
+            <individualName>
+                <givenName>Marc</givenName>
+                <surName>Herremans</surName>
+            </individualName>
+            <organizationName>Natuurpunt Studie</organizationName>
+            <address>
+                <country>BELGIUM</country>
+            </address>
+            <electronicMailAddress>marc.herremans@natuurpunt.be</electronicMailAddress>
+            <onlineUrl>http://www.natuurpunt.be</onlineUrl>
+        </contact>
+        <methods>
+            <methodStep>
+                <description>
+                    <para>Not provided.</para>
+                </description>
+            </methodStep>
+            <sampling>
+                <studyExtent>
+                    <description>
+                        <para>See geographic coverage.</para>
+                    </description>
+                </studyExtent>
+                <samplingDescription>
+                    <para>The observations (species, date, location, observer) were recorded by volunteers (citizen scientists) at http://www.waarnemingen.be. The dataset also includes historical records and datasets imported in waarnemingen.be. The majority of the data are presence-only data (absence data are not included in this dataset).</para>
+                </samplingDescription>
+            </sampling>
+            <qualityControl>
+                <description>
+                    <para>Recorded data are constantly verified by species group specialists (including professionals) taking collection specimens, the observer’s species knowledge, added photographs and known species list of locations into account. The validation procedure from waarnemingen.be consists of an interactive procedure in which observers can be asked for additional information by a team of validators, after which the validator manually adds a validation status. Records that are not manually validated are additionally checked by an automated validation procedure that takes into account the number of manually validated observations within a specified date and distance range. The validation status is indicated in the field identificationVerificationStatus, the link to the original record in references.</para>
+                </description>
+            </qualityControl>
+        </methods>
+
+    </dataset>
+
+    <additionalMetadata>
+        <metadata>
+            <gbif>
+                <dateStamp>2025-11-26T08:47:58Z</dateStamp>
+                <citation identifier="https://doi.org/10.15468/k2aiak">Vanreusel W, Swinnen K, Gielen K, Vercayie D, Driessens G, Veraghtert W, Desmet P, Herremans M (2025). Waarnemingen.be - Non-native animal occurrences in Flanders and the Brussels Capital Region, Belgium. Version 1.187. Natuurpunt. Occurrence dataset https://doi.org/10.15468/k2aiak accessed via GBIF.org on 2025-11-26.</citation>
+                <bibliography>
+                <citation>Swinnen K, Vercayie D, Vanreusel W, Barendse R, Boers K, Bogaert J, Dekeukeleire D, Driessens G, Dupriez P, Jooris R, Steeman R, Van Asten K, Van Den Neucker T, Van Dorsselaer P, Van Vooren P, Wysmantel N, Gielen K, Desmet P, Herremans M, all working groups, species validators and recorders Waarnemingen.be (2018) Waarnemingen.be – Non-native plant and animal occurrences in Flanders and the Brussels Capital Region, Belgium. BioInvasions Records 7(3): 335–342. https://doi.org/10.3391/bir.2018.7.3.17</citation>
+                </bibliography>
+                <resourceLogoUrl>https://ipt.inbo.be/logo.do?r=dieren-exoten-natuurpunt-occurrences</resourceLogoUrl>
+                <livingTimePeriod>1900-now</livingTimePeriod>
+            </gbif>
+        </metadata>
+    </additionalMetadata>
+    </eml:eml>

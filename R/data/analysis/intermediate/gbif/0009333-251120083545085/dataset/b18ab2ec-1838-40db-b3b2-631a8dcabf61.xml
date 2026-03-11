@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://rs.gbif.org/schema/eml-gbif-profile/1.3/eml.xsd"
+packageId="b18ab2ec-1838-40db-b3b2-631a8dcabf61"  system="http://gbif.org" scope="system"
+xml:lang="en">
+    <dataset>
+        <alternateIdentifier>10.15468/ycahus</alternateIdentifier>
+        <alternateIdentifier>b18ab2ec-1838-40db-b3b2-631a8dcabf61</alternateIdentifier>
+        <alternateIdentifier>https://ipt.inbo.be/resource?r=vis-non-native-fish-occurrences</alternateIdentifier>
+        <title>VIS - Non-native fish in Flanders, Belgium</title>
+        <creator>
+            <individualName>
+                <givenName>Hugo</givenName>
+                <surName>Verreycken</surName>
+            </individualName>
+            <organizationName>Research Institute for Nature and Forest (INBO)</organizationName>
+            <address>
+                <country>BELGIUM</country>
+            </address>
+            <electronicMailAddress>hugo.verreycken@inbo.be</electronicMailAddress>
+            <userId directory="http://orcid.org/">0000-0003-2060-7005</userId>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Dimitri</givenName>
+                <surName>Brosens</surName>
+            </individualName>
+            <organizationName>Research Institute for Nature and Forest (INBO)/ Belgian Biodiversity Platform</organizationName>
+            <address>
+                <country>BELGIUM</country>
+            </address>
+            <userId directory="http://orcid.org/">0000-0002-0846-9116</userId>
+        </creator>
+        <metadataProvider>
+            <individualName>
+                <givenName>Dimitri</givenName>
+                <surName>Brosens</surName>
+            </individualName>
+            <organizationName>Research Institute for Nature and Forest (INBO) / Belgian Biodiversity Platform</organizationName>
+            <address>
+                <country>BELGIUM</country>
+            </address>
+            <electronicMailAddress>dimitri.brosens@inbo.be</electronicMailAddress>
+            <userId directory="http://orcid.org/">0000-0002-0846-9116</userId>
+        </metadataProvider>
+        <metadataProvider>
+            <individualName>
+                <givenName>Hugo</givenName>
+                <surName>Verreycken</surName>
+            </individualName>
+            <organizationName>Research Institute for Nature and Forest (INBO)</organizationName>
+            <address>
+                <country>BELGIUM</country>
+            </address>
+            <electronicMailAddress>hugo.verreycken@inbo.be</electronicMailAddress>
+            <userId directory="http://orcid.org/">0000-0003-2060-7005</userId>
+        </metadataProvider>
+        <associatedParty>
+            <individualName>
+                <givenName>Dimitri</givenName>
+                <surName>Brosens</surName>
+            </individualName>
+            <electronicMailAddress>dimitri.brosens@inbo.be</electronicMailAddress>
+            <role>USER</role>
+        </associatedParty>
+        <pubDate>
+                2025-10-13
+        </pubDate>
+        <language>ENGLISH</language>
+        <abstract>
+            <para>Non-native Fish in Flanders, Belgium is a sampling event dataset published by the Research Institute of Nature and Forest (INBO). It is part of the VIS database in which data are collected  to monitor the status of fishes and their habitats in Flanders,. This dataset contains fish counts of exotic fish in Flanders. Here, it is published as a standardized Darwin Core Archive and includes for each sampling event an eventID, date, location and sampling protocol (in the event core) and for each occurrence and occurrenceID, the number of recorded individuals, status (present/absent) and scientific name (in the occurrence extension). Issues with the dataset can be reported at https://github.com/inbo/data-publication/issues</para><para>We have released this dataset to the public domain under a Creative Commons Zero waiver. We would appreciate it if you follow the INBO norms for data use (https://www.vlaanderen.be/inbo/en-gb/norms-for-data-use/) when using the data. If you have any questions regarding this dataset, don&amp;#39;t hesitate to contact us via the contact information provided in the metadata or via opendata&amp;#64;inbo.be.</para><para>For all published VIS datasets occurrences, see https://www.gbif.org/occurrence/search?collection_code&amp;#61;VIS</para>
+        </abstract>
+        <keywordSet>
+            <keyword>Samplingevent</keyword>
+            <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type_2015-07-10.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword>alien species</keyword>
+            <keyword>citizen science</keyword>
+            <keyword>IAS</keyword>
+            <keyword>exotic fish</keyword>
+            <keyword>freshwater</keyword>
+            <keyword>monitoring</keyword>
+            <keyword>invasive species</keyword>
+            <keyword>non-indigenous species</keyword>
+            <keyword>angling</keyword>
+            <keywordThesaurus>n/a</keywordThesaurus>
+        </keywordSet>
+        <intellectualRights>
+            <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+        </intellectualRights>
+        <licensed>
+            <licenseName>Creative Commons Attribution 4.0 International</licenseName>
+            <url>https://spdx.org/licenses/CC-BY-4.0.html</url>
+            <identifier>CC-BY-4.0</identifier>
+        </licensed>
+        <distribution scope="document">
+            <online>
+                <url function="download">https://ipt.inbo.be/archive.do?r=vis-non-native-fish-occurrences</url>
+            </online>
+        </distribution>
+        <coverage>
+            <geographicCoverage>
+                <geographicDescription>Flanders, Belgium</geographicDescription>
+                <boundingCoordinates>
+                    <westBoundingCoordinate>2.53</westBoundingCoordinate>
+                    <eastBoundingCoordinate>5.94</eastBoundingCoordinate>
+                    <northBoundingCoordinate>51.51</northBoundingCoordinate>
+                    <southBoundingCoordinate>50.67</southBoundingCoordinate>
+                </boundingCoordinates>
+            </geographicCoverage>
+            <temporalCoverage>
+                <rangeOfDates>
+                    <beginDate>
+                        <calendarDate>                2006-06-22
+</calendarDate>
+                    </beginDate>
+                    <endDate>
+                        <calendarDate>                2024-05-03
+</calendarDate>
+                    </endDate>
+                </rangeOfDates>
+            </temporalCoverage>
+            <taxonomicCoverage>
+                <generalTaxonomicCoverage>Non native fishes in Flanders, Belgium</generalTaxonomicCoverage>
+                <taxonomicClassification>
+                    <taxonRankName>Kingdom</taxonRankName>
+                    <taxonRankValue>Animalia</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Phylum</taxonRankName>
+                    <taxonRankValue>Chordata</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Class</taxonRankName>
+                    <taxonRankValue>Actinopterygii</taxonRankValue>
+                </taxonomicClassification>
+            </taxonomicCoverage>
+        </coverage>
+        <maintenance>
+            <description>
+                <para></para>
+            </description>
+            <maintenanceUpdateFrequency>asNeeded</maintenanceUpdateFrequency>
+        </maintenance>
+        <contact>
+            <individualName>
+                <givenName>Hugo</givenName>
+                <surName>Verreycken</surName>
+            </individualName>
+            <organizationName>Research Institute for Nature and Forest (INBO)</organizationName>
+            <address>
+                <country>BELGIUM</country>
+            </address>
+            <electronicMailAddress>hugo.verreycken@inbo.be</electronicMailAddress>
+            <userId directory="http://orcid.org/">0000-0003-2060-7005</userId>
+        </contact>
+        <methods>
+            <methodStep>
+                <description>
+                    <para>The data are standardized to Darwin Core (Wieczorek et al. 2012) with a custom SQL view on the original VIS database and then published making use of the GBIF Integrated Publishing Toolkit (Robertson et al. 2014) instance at the INBO (http://data.inbo.be/ipt). The Darwin Core terms (http://rs.tdwg.org/dwc/terms/) in the dataset at the time of publication are:
+Event Core
+eventID, type,	language, license, rightsHolder, accessRights, datasetID, institutionCode,	datasetName,	informationWithheld,	habitat, samplingProtocol, samplingEffort, eventDate, verbatimEventDate, locationID, continent, waterBody, countryCode, verbatimLocality,	decimalLatitude, decimalLongitude,	geodeticDatum, coordinateUncertaintyInMeters,	verbatimLatitude, verbatimLongitude, verbatimCoordinateSystem,	verbatimSRS
+Occurrence extension
+occurrenceID,	eventID, collectionCode, recordedBy, individualCount, identifiedBy, scientificName	, kingdom, taxonRank, scientificNameAuthorship, vernacularName	nomenclaturalCode, occurrenceStatus</para>
+                </description>
+            </methodStep>
+            <methodStep>
+                <description>
+                    <para>Researchers from INBO and Natuurpunt Studie define and document the appropriate sampling protocol.</para>
+                </description>
+            </methodStep>
+            <methodStep>
+                <description>
+                    <para>Fieldwork is planned and coordinated by INBO.</para>
+                </description>
+            </methodStep>
+            <methodStep>
+                <description>
+                    <para>Data are collected in the field by specialized personnel, using the predefined sampling protocol.</para>
+                </description>
+            </methodStep>
+            <methodStep>
+                <description>
+                    <para>Collaborators enter the collected data in the VIS database.</para>
+                </description>
+            </methodStep>
+            <methodStep>
+                <description>
+                    <para>A custom SQL view is created in the VIS database to map the original data to Darwin Core as an event core with an occurrence extension.</para>
+                </description>
+            </methodStep>
+            <methodStep>
+                <description>
+                    <para>The Darwin Core views are connected to the INBO IPT and documented with metadata.</para>
+                </description>
+            </methodStep>
+            <sampling>
+                <studyExtent>
+                    <description>
+                        <para>The data in this dataset is a subset of the complete VIS database and holds data from the project Non-native fish in Flanders, Belgium.’
+The geographic coordinates in both datasets are those of the defined sampling locations (dwc:locationID). The coordinate UncertaintyInMeters is set to 30 meter for this dataset.</para>
+                    </description>
+                </studyExtent>
+                <samplingDescription>
+                    <para>Standardized sampling methods were used as described in Belpaire et al. (2000) and Van Thuyne (2010) and are specified in the dataset as dwc:samplingProtocol. For this dataset, also other methods like angling (1 hour on 1m²) were used.</para>
+                </samplingDescription>
+            </sampling>
+            <qualityControl>
+                <description>
+                    <para>Data are collected by specialists using a predefined sampling protocol.</para>
+                </description>
+            </qualityControl>
+        </methods>
+
+            <project id="VIS">
+                <title>Vis Information System</title>
+                <personnel>
+                    <individualName>
+                    <givenName>Hugo</givenName>
+                    <surName>Verreycken</surName>
+                    </individualName>
+            <userId directory="http://orcid.org/">0000-0003-2060-7005</userId>
+                    <role>PRINCIPAL_INVESTIGATOR</role>
+                </personnel>
+                <abstract>
+                    <para>The Fish Information System or VIS is a database created by the Research Institute for Nature and Forest (INBO) which is used to monitor the status of fishes and their habitats in Flanders, Belgium and to calculate the biotic integrity (Karr 1981, Belpaire et al. 2000, Breine et al. 2004, 2007, 2010) of fish assemblages. It contains data regarding occurrences, individual morphometrics, stocks, pollutants, indices, and non-native fish species. Sampling has been going on since 1992, the database model was designed in 1994 (Verbiest et al. 1994), the first database developed in 1996 (Verbiest et al. 1996), and the consolidated database set up in 2001. VIS is used for supporting NATURA 2000, an ecological network of protected areas in Europe and to calculate the EQR (Ecological Quality Ratio) in the framework of the EU Water Directive (Directive 2000/60/EC). Further, the database provides updated information for Flemish Red Lists of fishes and lampreys (Verreycken et al. 2014) and on the distribution status of non-native and invasive fish species. It is also used for reporting the status of invasive fish species in the framework of the EU Regulation 1143/2014 on Invasive Alien Species. The data are also crucial in fish stock management and for reporting on the status of the European eel stock as required by the Eel Regulation (Council Regulation (EC) N° 1100/2007).</para>
+                </abstract>
+                <funding>
+                    <para>Flemish Government</para>
+                </funding>
+                <studyAreaDescription>
+                    <descriptor name="generic" citableClassificationSystem="false">
+                        <descriptorValue>Flanders, Belgium</descriptorValue>
+                    </descriptor>
+                </studyAreaDescription>
+            </project>
+    </dataset>
+
+    <additionalMetadata>
+        <metadata>
+            <gbif>
+                <dateStamp>2025-11-26T08:47:57Z</dateStamp>
+                <citation>Verreycken H, Brosens D (2025). VIS - Non-native fish in Flanders, Belgium. Version 1.12. Research Institute for Nature and Forest (INBO). Sampling event dataset https://doi.org/10.15468/ycahus accessed via GBIF.org on 2025-11-26.</citation>
+                <bibliography>
+                <citation identifier="https://doi.org/10.3897/zookeys.475.8556">Brosens D, Breine J, Van Thuyne G, Belpaire C, Desmet P, Verreycken H (2015) VIS – A database on the distribution of fishes in inland and estuarine waters in Flanders, Belgium. ZooKeys 475: 119-145.</citation>
+                <citation identifier="DOI: 10.3750/AIEP/02688">Verreycken H, Galle L, Lambeens L, Maes Y, Terrie T, Van den Bergh E and Breine JJ 2019. First record of the naked goby, Gobiosoma bosc (Actenopterygii: Perciformes: Gobiidae) from the Zeeschelde (Belgium). Acta Ichthyologia et Piscatoria 49 (3): 291–294</citation>
+                <citation identifier="doi.org/10.1016/j.ecss.2019.04.028">Breine JJ, Van den Bergh E, Terrie T, Lambeens I, Maes Y, Galle L and Verreycken H, 2019. First record of the target fish, Terapon jarbua (Forsskål, 1775) in the Zeeschelde, Belgium. Estuarine, Coastal and Shelf Science</citation>
+                <citation identifier="https://doi.org/10.1007/s10530-015-1016-y">Verhelst P, Boets P, Van Thuyne G, Verreycken H, Goethals PLM &amp; Mouton AM, 2016. The distribution of an invasive fish species is highly affected by the presence of native fish species: evidence based on species distribution modeling. Biological Invasions 18 (2): 427-444.</citation>
+                <citation identifier=" http://dx.doi.org/10.3391/ai.2014.9.3.06">Mombaerts M, Verreycken H, Volckaert F &amp; Huyse T, 2014. The invasive round goby Neogobius melanostomus and tubenose goby Proterorhinus semilunaris: two introduction routes into Belgium. Aquatic Invasions 9 (3): 305-314.</citation>
+                <citation identifier="https://doi.org/10.3391/ai.2012.7.2.011">Cammaerts R, Spikmans F, van Kessel N, Verreycken H, Chérot F, Demol T &amp; Richez S, 2012. Colonization of the Border Meuse area (The Netherlands and Belgium) by the non-native western tubenose goby Proterorhinus semilunaris (Heckel, 1837) (Teleostei, Gobiidae). Aquatic Invasions 7 (2): 251-258.</citation>
+                <citation identifier="https://doi.org/10.3750/AIP2011.41.2.11">Verreycken H, Breine J, Snoeks J &amp; Belpaire C, 2011. First record of the round goby, Neogobius melanostomus (Actinopterygii: Perciformes: Gobiidae) in Belgium. Acta Ichthyologica et Piscatoria 41 (2): 137-140.</citation>
+                <citation identifier="https://doi.org/10.3391/ai.2010.5.1.10">Verreycken H, Geeraerts C, Duvivier C &amp; Belpaire C, 2010. Present status of the North American Umbra pygmaea (DeKay, 1842) (eastern mudminnow) in Flanders (Belgium) and in Europe. Aquatic Invasions 5 (1): 83-96.</citation>
+                <citation identifier="https://doi.org/10.1111/j.1095-8649.2007.01679.x">Verreycken H, Anseeuw D, Van Thuyne G, Quataert P &amp; Belpaire C, 2007. The non-indigenous freshwater fishes of Flanders (Belgium): review, status and trends over the last decade. Journal of Fish Biology 71 suppl. D: 160-172.</citation>
+                </bibliography>
+                <resourceLogoUrl>https://ipt.inbo.be/logo.do?r=vis-estuarine-monitoring-events</resourceLogoUrl>
+            </gbif>
+        </metadata>
+    </additionalMetadata>
+    </eml:eml>

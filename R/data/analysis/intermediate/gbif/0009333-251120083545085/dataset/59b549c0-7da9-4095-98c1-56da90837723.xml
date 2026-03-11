@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://rs.gbif.org/schema/eml-gbif-profile/1.3/eml.xsd"
+packageId="59b549c0-7da9-4095-98c1-56da90837723"  system="http://gbif.org" scope="system"
+xml:lang="en">
+    <dataset>
+        <alternateIdentifier>10.15468/nnzqm5</alternateIdentifier>
+        <alternateIdentifier>59b549c0-7da9-4095-98c1-56da90837723</alternateIdentifier>
+        <alternateIdentifier>https://ipt.biodiversity.be/resource?r=demna_mi</alternateIdentifier>
+        <title>DEMNA-DNE : Occurrences of benthic macroinvertebrates in running waters of Wallonia, Belgium</title>
+        <creator>
+            <individualName>
+                <givenName>François</givenName>
+                <surName>Darchambeau</surName>
+            </individualName>
+            <organizationName>Département d&apos;étude du milieu naturel et agricole</organizationName>
+            <positionName>Unit director</positionName>
+            <address>
+                <deliveryPoint>Avenue Maréchal Juin 23</deliveryPoint>
+                <city>Gembloux</city>
+                <administrativeArea>Namur</administrativeArea>
+                <postalCode>5030</postalCode>
+                <country>BELGIUM</country>
+            </address>
+            <electronicMailAddress>francois.darchambeau@spw.wallonie.be</electronicMailAddress>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Frédéric</givenName>
+                <surName>Chérot</surName>
+            </individualName>
+            <organizationName>Département d&apos;étude du milieu naturel et agricole</organizationName>
+            <positionName>Expert</positionName>
+            <address>
+                <deliveryPoint>Avenue Maréchal Juin 23</deliveryPoint>
+                <city>Gembloux</city>
+                <administrativeArea>Namur</administrativeArea>
+                <postalCode>5030</postalCode>
+                <country>BELGIUM</country>
+            </address>
+            <electronicMailAddress>frederic.cherot@spw.wallonie.be</electronicMailAddress>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>-</givenName>
+                <surName>All members of the Hydrobiology Unit (DEMNA-DNE)</surName>
+            </individualName>
+            <organizationName>Département d&apos;étude du milieu naturel et agricole</organizationName>
+            <positionName>Officers</positionName>
+            <address>
+                <country>BELGIUM</country>
+            </address>
+        </creator>
+        <metadataProvider>
+            <individualName>
+                <givenName>Frédéric</givenName>
+                <surName>Chérot</surName>
+            </individualName>
+            <organizationName>Département d&apos;étude du milieu naturel et agricole</organizationName>
+            <positionName>Expert</positionName>
+            <address>
+                <deliveryPoint>Avenue Maréchal Juin 23</deliveryPoint>
+                <city>Gembloux</city>
+                <administrativeArea>Namur</administrativeArea>
+                <postalCode>5030</postalCode>
+                <country>BELGIUM</country>
+            </address>
+            <electronicMailAddress>frederic.cherot@spw.wallonie.be</electronicMailAddress>
+        </metadataProvider>
+        <associatedParty>
+            <individualName>
+                <givenName>François</givenName>
+                <surName>Darchambeau</surName>
+            </individualName>
+            <organizationName>Département d&apos;étude du milieu naturel et agricole</organizationName>
+            <positionName>Unit director</positionName>
+            <address>
+                <deliveryPoint>Avenue Maréchal Juin 23</deliveryPoint>
+                <city>Gembloux</city>
+                <administrativeArea>Namur</administrativeArea>
+                <postalCode>5030</postalCode>
+                <country>BELGIUM</country>
+            </address>
+            <electronicMailAddress>francois.darchambeau@spw.wallonie.be</electronicMailAddress>
+            <role>PRINCIPAL_INVESTIGATOR</role>
+        </associatedParty>
+        <associatedParty>
+            <individualName>
+                <givenName>Frédéric</givenName>
+                <surName>Chérot</surName>
+            </individualName>
+            <organizationName>Département d&apos;étude du milieu naturel et agricole</organizationName>
+            <positionName>Expert</positionName>
+            <address>
+                <deliveryPoint>Avenue Maréchal Juin 23</deliveryPoint>
+                <city>Gembloux</city>
+                <administrativeArea>Namur</administrativeArea>
+                <postalCode>5030</postalCode>
+                <country>BELGIUM</country>
+            </address>
+            <electronicMailAddress>frederic.cherot@spw.wallonie.be</electronicMailAddress>
+            <role>CONTENT_PROVIDER</role>
+        </associatedParty>
+        <associatedParty>
+            <individualName>
+                <givenName>Etienne</givenName>
+                <surName>Delooz</surName>
+            </individualName>
+            <organizationName>Université Libre de Bruxelles</organizationName>
+            <positionName>Expert</positionName>
+            <address>
+                <country>BELGIUM</country>
+            </address>
+            <role>CONTENT_PROVIDER</role>
+        </associatedParty>
+        <associatedParty>
+            <individualName>
+                <givenName>Roger</givenName>
+                <surName>Cammaerts</surName>
+            </individualName>
+            <organizationName>Département d&apos;étude du milieu naturel et agricole</organizationName>
+            <positionName>Expert</positionName>
+            <address>
+                <country>BELGIUM</country>
+            </address>
+            <role>CONTENT_PROVIDER</role>
+        </associatedParty>
+        <associatedParty>
+            <individualName>
+                <givenName>Pierre</givenName>
+                <surName>Gérard</surName>
+            </individualName>
+            <organizationName>Département d&apos;étude du milieu naturel et agricole</organizationName>
+            <positionName>Expert</positionName>
+            <address>
+                <country>BELGIUM</country>
+            </address>
+            <role>CONTENT_PROVIDER</role>
+        </associatedParty>
+        <associatedParty>
+            <individualName>
+                <givenName>Frédéric</givenName>
+                <surName>Grisez</surName>
+            </individualName>
+            <organizationName>Département d&apos;étude du milieu naturel et agricole</organizationName>
+            <positionName>Expert</positionName>
+            <address>
+                <country>BELGIUM</country>
+            </address>
+            <role>CONTENT_PROVIDER</role>
+        </associatedParty>
+        <associatedParty>
+            <individualName>
+                <givenName>Guy</givenName>
+                <surName>Josens</surName>
+            </individualName>
+            <organizationName>Université Libre de Bruxelles</organizationName>
+            <positionName>Expert</positionName>
+            <address>
+                <country>BELGIUM</country>
+            </address>
+            <role>CONTENT_PROVIDER</role>
+        </associatedParty>
+        <associatedParty>
+            <individualName>
+                <givenName>Christine</givenName>
+                <surName>Keulen</surName>
+            </individualName>
+            <organizationName>Département d&apos;étude du milieu naturel et agricole</organizationName>
+            <positionName>Expert</positionName>
+            <address>
+                <country>BELGIUM</country>
+            </address>
+            <role>CONTENT_PROVIDER</role>
+        </associatedParty>
+        <associatedParty>
+            <individualName>
+                <givenName>Sébastien</givenName>
+                <surName>Richez</surName>
+            </individualName>
+            <organizationName>Département d&apos;étude du milieu naturel et agricole</organizationName>
+            <positionName>Expert</positionName>
+            <address>
+                <country>BELGIUM</country>
+            </address>
+            <role>CONTENT_PROVIDER</role>
+        </associatedParty>
+        <associatedParty>
+            <individualName>
+                <givenName>Jean-Pierre</givenName>
+                <surName>Vanden Bossche</surName>
+            </individualName>
+            <organizationName>Département d&apos;étude du milieu naturel et agricole</organizationName>
+            <positionName>Expert</positionName>
+            <address>
+                <country>BELGIUM</country>
+            </address>
+            <role>CONTENT_PROVIDER</role>
+        </associatedParty>
+        <associatedParty>
+            <individualName>
+                <givenName>Maxime</givenName>
+                <surName>Coupremanne</surName>
+            </individualName>
+            <organizationName>Belgian Biodiversity Platform</organizationName>
+            <positionName>Data liaison officer</positionName>
+            <address>
+                <deliveryPoint>Avenue Maréchal Juin 23</deliveryPoint>
+                <city>Gembloux</city>
+                <administrativeArea>Namur</administrativeArea>
+                <postalCode>5030</postalCode>
+                <country>BELGIUM</country>
+            </address>
+            <electronicMailAddress>m.coupremanne@biodiversity.be</electronicMailAddress>
+            <role>PUBLISHER</role>
+        </associatedParty>
+        <pubDate>
+                2022-07-29
+        </pubDate>
+        <language>ENGLISH</language>
+        <abstract>
+            <para>&amp;#34;DEMNA: Occurrences of macroinvertebrates in running waters of Wallonia&amp;#34; is an occurrence-only dataset created by the Hydrobiology unit of the Direction de la Nature et de l’Eau [Département de l&amp;#39;Étude du Milieu Naturel et Agricole (SPW-DEMNA-DNE)].</para>
+<para>The data come from an ongoing network for the monitoring of the biological quality of running waters in Wallonia maintained under the Water Framework Directive of European Union (Directive 2000/60/CE) (European Council, 2000). The current monitoring network is composed of more than 400 sites, distributed among all streams (brooks to largest rivers/canals) from the hydrographic districts of the Meuse, the Scheldt, the Rhine and the Seine in Wallonia. Macroinvertebrates are one of the 4 indicator groups used to assess the biological quality with macrophytes, diatoms, and fishes. The macroinvertebrate occurrences are obtained by the analysis of standardized IBGN/IBGA samplings, done according a methodology derived from T90-350 (2004) French standard (see Vanden Bossche &amp; Usseglio-Polatera, 2005 in Hydrobiologia, 551: 253-271). Some taxa encountered during the monitoring are not included into this GBIF dataset (when identification level is particularly imprecise, i.e. higher than family E.G: &amp;#39;poriferans&amp;#39;, &amp;#39;Bryozoa&amp;#39;, etc...).</para>
+<para>More information and macroinvertebrate samples are available upon request addressed to the DEMNA.</para>
+        </abstract>
+        <keywordSet>
+            <keyword>DEMNA</keyword>
+            <keyword>Wallonia</keyword>
+            <keyword>Macroinvertebrates</keyword>
+            <keyword>Rivers</keyword>
+            <keyword>Occurrence</keyword>
+            <keyword>Surface Waters</keyword>
+            <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword>Specimen</keyword>
+            <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword>Occurrence</keyword>
+            <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type_2015-07-10.xml</keywordThesaurus>
+        </keywordSet>
+        <intellectualRights>
+            <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by/4.0/legalcode"><citetitle>Creative Commons Attribution (CC-BY) 4.0 License</citetitle></ulink>.</para>
+        </intellectualRights>
+        <licensed>
+            <licenseName>Creative Commons Attribution 4.0 International</licenseName>
+            <url>https://spdx.org/licenses/CC-BY-4.0.html</url>
+            <identifier>CC-BY-4.0</identifier>
+        </licensed>
+        <distribution scope="document">
+            <online>
+                <url function="information">http://biodiversite.wallonie.be/fr/accueil.html?IDC=6</url>
+            </online>
+        </distribution>
+        <distribution scope="document">
+            <online>
+                <url function="download">https://ipt.biodiversity.be/archive.do?r=demna_mi</url>
+            </online>
+        </distribution>
+        <coverage>
+            <geographicCoverage>
+                <geographicDescription>Wallonia, Southern Belgium.</geographicDescription>
+                <boundingCoordinates>
+                    <westBoundingCoordinate>2.909</westBoundingCoordinate>
+                    <eastBoundingCoordinate>6.342</eastBoundingCoordinate>
+                    <northBoundingCoordinate>50.842</northBoundingCoordinate>
+                    <southBoundingCoordinate>49.506</southBoundingCoordinate>
+                </boundingCoordinates>
+            </geographicCoverage>
+            <temporalCoverage>
+                <rangeOfDates>
+                    <beginDate>
+                        <calendarDate>                1990-01-15
+</calendarDate>
+                    </beginDate>
+                    <endDate>
+                        <calendarDate>                2021-10-08
+</calendarDate>
+                    </endDate>
+                </rangeOfDates>
+            </temporalCoverage>
+            <taxonomicCoverage>
+                <generalTaxonomicCoverage>According to T90-350 (2004) French standard, organisms are identified at family level except for some difficult groups treated at a higher rank (Acarina, Nematoda etc.) However, to be able to follow some recent changes in macroinverteabrate communities of Walloon watercourses following mainly from arrival of exotic (invasive) species, (at least a subsample of) different taxa are identified at genus or species level. The detailed identification level per taxon is the following:</generalTaxonomicCoverage>
+                <taxonomicClassification>
+                    <taxonRankName>Phylum</taxonRankName>
+                    <taxonRankValue>Animalia</taxonRankValue>
+                    <commonName>Animals</commonName>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Phylum</taxonRankName>
+                    <taxonRankValue>Annelida</taxonRankValue>
+                    <commonName>Ringed worms</commonName>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Phylum</taxonRankName>
+                    <taxonRankValue>Arthropoda</taxonRankValue>
+                    <commonName>Arthropods</commonName>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Phylum</taxonRankName>
+                    <taxonRankValue>Cnidaria</taxonRankValue>
+                    <commonName>Cnidarians</commonName>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Phylum</taxonRankName>
+                    <taxonRankValue>Mollusca</taxonRankValue>
+                    <commonName>Molluscs</commonName>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Phylum</taxonRankName>
+                    <taxonRankValue>Platyheminthes</taxonRankValue>
+                    <commonName>Flat worms</commonName>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Phylum</taxonRankName>
+                    <taxonRankValue>Porifera</taxonRankValue>
+                    <commonName>Sponges</commonName>
+                </taxonomicClassification>
+            </taxonomicCoverage>
+        </coverage>
+        <purpose><para>Provide free online access to the main occurrence data following from the monitoring of the biological quality of running waters in Wallonia complying with our legal obligations (‘PSI’ Directive (EU) 2019/1024 and regional decrees about open data including the "Décret conjoint de la Région wallonne et de la Communauté française du 12 juillet 2017 relatif à la réutilisation des informations du secteur public et visant à l’établissement d’une politique de données ouvertes”).</para></purpose>
+        <maintenance>
+            <description>
+                <para>The dataset is updated on an annual basis.</para>
+            </description>
+            <maintenanceUpdateFrequency>annually</maintenanceUpdateFrequency>
+        </maintenance>
+        <contact>
+            <individualName>
+                <givenName>Maxime</givenName>
+                <surName>Coupremanne</surName>
+            </individualName>
+            <organizationName>Belgian Biodiversity Platform</organizationName>
+            <positionName>Data liaison officer</positionName>
+            <address>
+                <deliveryPoint>Avenue Maréchal Juin 23</deliveryPoint>
+                <city>Gembloux</city>
+                <administrativeArea>Namur</administrativeArea>
+                <postalCode>5030</postalCode>
+                <country>BELGIUM</country>
+            </address>
+            <electronicMailAddress>m.coupremanne@biodiversity.be</electronicMailAddress>
+        </contact>
+        <contact>
+            <individualName>
+                <givenName>Frédéric</givenName>
+                <surName>Chérot</surName>
+            </individualName>
+            <organizationName>Département d&apos;étude du milieu naturel et agricole</organizationName>
+            <positionName>Expert</positionName>
+            <address>
+                <deliveryPoint>Avenue Maréchal Juin 23</deliveryPoint>
+                <city>Gembloux</city>
+                <administrativeArea>Namur</administrativeArea>
+                <postalCode>5030</postalCode>
+                <country>BELGIUM</country>
+            </address>
+            <electronicMailAddress>frederic.cherot@spw.wallonie.be</electronicMailAddress>
+        </contact>
+        <contact>
+            <individualName>
+                <givenName>François</givenName>
+                <surName>Darchambeau</surName>
+            </individualName>
+            <organizationName>Département d&apos;étude du milieu naturel et agricole</organizationName>
+            <positionName>Unit director</positionName>
+            <address>
+                <deliveryPoint>Avenue Maréchal Juin 23</deliveryPoint>
+                <city>Gembloux</city>
+                <administrativeArea>Namur</administrativeArea>
+                <postalCode>5030</postalCode>
+                <country>BELGIUM</country>
+            </address>
+            <electronicMailAddress>francois.darchambeau@spw.wallonie.be</electronicMailAddress>
+        </contact>
+        <methods>
+            <methodStep>
+                <description>
+                    <para>[Sampling Shallow watercourses, possible to walk] - methodology derived from French IBGN:  
+
+
+The site is defined as a section of the watercourse equal to about ten times the width of the wet bed. Practically, the water course section length must be adapted to sample eight different microhabitats. For the small brooks (width inferior to one meter), this value of ten times the width defined in T90-350 (2004) French standard is frequently too low and for the wide streams (width superior to about twenty meters) it is unnecessarily high. Practically, the length of the site varies generally between 20 and 30 m. Ideally, each microhabitat selected for sampling is characterized by well-defined bottom substrate and surface velocity areas, the 8 microhabitats being distributed between lotic and lentic zones, between mineral and vegetable substrates, between the bed, the left and the right banks. The substrates of microhabitats (and then the microhabitats themselves) are selected according to a decreasing order of habitability as defined in T90-350 (2004) French standard. Each microhabitat or substrate-velocity area is sampled 1 to 5 times through the site (and not just one time as in the French standard), depending on the substrate, using a push net (‘Haveneau’) with a maximum 500µm mesh size. In the derived methodology used in Wallonia, the litters are sampled by kick sampling one time, the roots and macrophytes three times, the stones and pebbles five times for the same surface velocity category [the velocity categories A-E being defined according to T90-350 (2004) French standard]. Consequently, the final sample includes three or five replicates for some substrates. A surface of substrate equivalent to 1/20 m² (about 20*25 cm) is sieved by the operator for each replicate. Net samples, usually composed of a mixture of plants, mineral fragments, and macroinvertebrates, are dumped into a bucket of water once this part of the sampling is completed.  
+
+Independently, a tuft of Bryophytes, 10-20 stones and 1-3 blocks (stones and blocks each equivalent to 1/20 m²), are collected at hand in a lotic and in a lentic areas of the site, transferred in a bucket and “cleaned” to detach the fixed animals.  
+
+The solid contents of both buckets are removed with a 500 μm mesh sieve. The sieve is then held in a light stream of water to remove the fine elements (vase, fine sand, etc.) and the largest debris are eliminated. Afterwards, the remaining contents of the sieve are introduced into a labelled flask (numbered with the site code, dated etc.).  
+
+Subsample of fragile or very small sized organisms (mainly Plecoptera and Ephemeroptera) and organisms easily destroyed by freezing (flat worm, earthworm) are packaged separately in ethanol, itself introduced in the labelled flask.</para>
+                </description>
+            </methodStep>
+            <methodStep>
+                <description>
+                    <para>[Sampling Deep watercourses] :
+
+
+In deep watercourses, such the Meuse or the Scheldt, where the kick and hand samplings are impossible or very difficult, an adapted methodology corresponding to French “Indice Biotique Global Adapté” (IBGA) is used. 
+
+
+It differs essentially of the methodology for shallow watercourses by the length of the site (about 1000m), by the use of (3) artificial substrates to replace the kick sampling and by the use of a dredger to explore the river bed from a small boot. 
+Artificial substrates are standardized in size bags full of stones and pebbles, submerged in the watercourse for about 5-6 weeks and fixed on the bank by a rope (fastened to a tree or a tent peg). The artificial substrates work as small traps, being attractive for numerous organisms in an environment generally poor in stones, a minimal delay for colonization being necessary. When the delay is elapsed, the artificial substrates are removed of water and their content “cleaned” at hand in buckets to extract all organisms.
+
+The solid contents of buckets are then removed with a 500 μm mesh sieve. The sieve is held in a light stream of water to remove the fine elements (vase, fine sand, etc.) and the largest debris are eliminated. 
+
+Afterwards, the remaining contents of the sieve are introduced into a labelled flask (numbered with the site code, dated etc.). Subsample of fragile or very small sized organisms (mainly Plecoptera and Ephemeroptera) and organisms easily destroyed by freezing (flat worm, earthworm) are packaged separately in ethanol, itself introduced in the labelled flask. 
+
+Other groups (Bryozoans etc.): Family level (or higher level, in this case the data not included in GBIF dataset).</para>
+                </description>
+            </methodStep>
+            <methodStep>
+                <description>
+                    <para>[Samples transport] :
+
+
+The flasks including the samples are carried in a fridge from field to laboratory and freezed to minus 18° at laboratory.</para>
+                </description>
+            </methodStep>
+            <methodStep>
+                <description>
+                    <para>[Laboratory treatment 1 - identification of organisms] :
+According to T90-350 (2004) French standard, organisms must be identified at family level except for some difficult groups treated at a higher rank (Acarina, Nematoda etc.) However, to be able to follow some recent changes in macroinverteabrate communities of Walloon watercourses following mainly from arrival of exotic (invasive) species, (at least a subsample of) different taxa are identified at genus or species level. The present identification level per taxon is the following: Crustaceans: Species level, Flatworms: Species level, Insects: Level variable depending to the order: Ephemeroptera: Genus level (except Caenidae, Ephemerellidae, Ephemeridae, Polymitarcidae, Potamanthidae and Sipholnuridae at species level), Coleoptera: Family level, Diptera: Family level (except Athericidae and Stratiomyiidae at species level), Heteroptera: Species level for adults, genus or family level for nymphs, Megaloptera: Species level, Odonata: Genus level, Plecoptera: Genus level (except Perlidae at species level), Trichoptera: Family level (except Ecnomidae, some Hydropsychidae and Odontoceridae at species level) Other orders: Family level.
+Leechs: Genus level (except Erpbodellidae at family level, some Glosiphoniidae and Piscicolidae at species level), Molluscs: Species level.</para>
+                </description>
+            </methodStep>
+            <methodStep>
+                <description>
+                    <para>[Laboratory treatment 2 - The sorting of organisms] : 
+
+ 
+Animals collected in the samples must be separated of debris (plants fragments, small stones, sand, vase) and stored in 70-80% denatured ethanol, a long and difficult task. First, each sample is thawed in water, then transferred on a (or several depending its size) column(s) of sieves partially submerged in water and cleaned with a fine water jet. Content of each sieve of same mesh is transferred independently in a tray, subdivided in smaller trays and the organisms sorted individually with entomological forceps to be stored in ethanol until identification.</para>
+                </description>
+            </methodStep>
+            <methodStep>
+                <description>
+                    <para>[Laboratory treatment 3 - Data encoding and determination of site biological quality] :   
+
+
+When the identification is finished, the results (i.e. the species list) are encoded in the unit database Aquabio, verified and validated. The IBGN/IBGA indices and biological quality of the site are established and the sample definitively labelled and stored permanently in the DEMNA collection.</para>
+                </description>
+            </methodStep>
+            <sampling>
+                <studyExtent>
+                    <description>
+                        <para>The current monitoring network is composed of more than 400 sampling sites distributed among the Wallonia. The concerned habitats include lentic and lotic brooks, streams, largest rivers and canals from the hydrographic districts of the Meuse, the Scheldt, the Rhine and the Seine. The current network and method designs were set up in 2004, but the dataset also includes older data coming from different sampling events performed by the hydrobiology unit since 1990. Given the methodologies used for collecting samples (cf. infra), only information on the presence of species (positive occurrence) can be drawn from it, nothing can be concluded from absences.</para>
+                    </description>
+                </studyExtent>
+                <samplingDescription>
+                    <para>The T90-350 (2004) French standard describing the “Indice Biotique Global Normalisé” (IBGN) provides for sampling (with a Surber net and at hand) 8 microhabitats on each site, i.e. 8 areas of watercourse having a well-defined bottom substrate and surface velocity.</para>
+                </samplingDescription>
+            </sampling>
+            <qualityControl>
+                <description>
+                    <para>The Department is ISO9001 certified.</para>
+                </description>
+            </qualityControl>
+        </methods>
+
+    </dataset>
+
+    <additionalMetadata>
+        <metadata>
+            <gbif>
+                <dateStamp>2025-11-26T08:47:59Z</dateStamp>
+                <citation>Darchambeau F, Chérot F, All members of the Hydrobiology Unit (DEMNA-DNE) - (2022). DEMNA-DNE : Occurrences of benthic macroinvertebrates in running waters of Wallonia, Belgium. Version 1.5. Service Public de Wallonie – Département d’Etude du Milieu Naturel et Agricole (SPW – DEMNA). Occurrence dataset https://doi.org/10.15468/nnzqm5 accessed via GBIF.org on 2025-11-26.</citation>
+                <resourceLogoUrl>https://ipt.biodiversity.be/logo.do?r=demna_mi</resourceLogoUrl>
+            </gbif>
+        </metadata>
+    </additionalMetadata>
+    </eml:eml>
