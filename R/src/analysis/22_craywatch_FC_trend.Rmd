@@ -1,0 +1,297 @@
+---
+Project: Craywatch
+title: 'Craywatch: fysicochemische data trend evaluatie'
+output: html_document
+date: "2025-10-24"
+knit: (function(inputFile, encoding) { 
+  source("config.R", local = TRUE);
+  rmarkdown::render(inputFile, encoding = encoding, output_dir = dir_trends_output) 
+  })
+---
+
+# Laad packages
+```{r}
+library(here)
+library(dplyr)
+library(ggplot2)
+library(corrplot)
+library(DHARMa)
+library(glmmTMB)
+library(tidyr)
+library(ggbeeswarm)
+library(TOSTER)
+library(wrappedtools)
+```
+
+
+# Laad data
+
+```{r}
+data_fc_cray_notAvg <- read.table(file=here("data","intermediate", "fysicochemie","data_fc_cray_notAvg.txt"),header=T)
+
+data_fc_cray_notAvg_zomer <- read.table(file=here("data","intermediate", "fysicochemie","data_fc_cray_notAvg_summer.txt"),header=T)
+
+```
+
+# Algemene trend in FC data
+
+## Visualiseer trend van enkele locaties
+
+```{r, warning=FALSE}
+data_fc_cray_notAvg%>%
+  pivot_longer(cols=O2:Clfyl.a)%>%
+  dplyr::filter(name%in%c("Cl","Nt","O2"), sample_point%in%unique(sample_point)[1:20])%>%
+ggplot(aes(x=as.Date(sample_datum_monstername), y=value, group_by=sample_point, col=sample_point))+geom_line()+facet_wrap(~name, scales="free",ncol=1)
+
+data_fc_cray_notAvg%>%
+  pivot_longer(cols=O2:Clfyl.a)%>%
+  dplyr::filter(name%in%c("BZV5","EC20","T"),  sample_point%in%unique(sample_point)[1:20])%>%
+ggplot(aes(x=as.Date(sample_datum_monstername), y=value, group_by=sample_point, col=sample_point))+geom_line()+facet_wrap(~name, scales="free",ncol=1)
+
+data_fc_cray_notAvg%>%
+  pivot_longer(cols=O2:Clfyl.a)%>%
+  dplyr::filter(name%in%c("pH","Secchi","Pt"),  sample_point%in%unique(sample_point)[1:20])%>%
+ggplot(aes(x=as.Date(sample_datum_monstername), y=value, group_by=sample_point, col=sample_point))+geom_line()+facet_wrap(~name, scales="free",ncol=1)
+
+
+data_fc_cray_notAvg%>%
+  pivot_longer(cols=O2:Clfyl.a)%>%
+  dplyr::filter(name%in%c("Cao","Clfyl.a","ZS"),  sample_point%in%unique(sample_point)[1:20])%>%
+ggplot(aes(x=as.Date(sample_datum_monstername), y=value, group_by=sample_point, col=sample_point))+geom_line()+facet_wrap(~name, scales="free",ncol=1)
+
+```
+
+
+## Visualiseer trend van enkel zomer maanden
+
+```{r,warning=FALSE,warning=FALSE}
+data_fc_cray_notAvg%>%
+  pivot_longer(cols=O2:Clfyl.a)%>%
+  dplyr::filter(name%in%c("Cl","Nt","O2"), sample_point%in%unique(sample_point)[1:20],
+                 MaandNr%in%5:10)%>%
+  ungroup()%>%
+ggplot(aes(x=as.Date(sample_datum_monstername), y=value, group_by=sample_point, col=sample_point))+geom_point()+facet_wrap(~name, scales="free",ncol=1)+stat_smooth(method="lm")+guides(colour="none")
+
+data_fc_cray_notAvg%>%
+  pivot_longer(cols=O2:Clfyl.a)%>%
+  dplyr::filter(name%in%c("BZV5","EC20","T"),  sample_point%in%unique(sample_point)[1:20],
+                 MaandNr%in%5:10)%>%
+  ungroup()%>%
+ggplot(aes(x=as.Date(sample_datum_monstername), y=value, group_by=sample_point, col=sample_point))+geom_point()+facet_wrap(~name, scales="free",ncol=1)+stat_smooth(method="lm")+guides(colour="none")
+
+data_fc_cray_notAvg%>%
+  pivot_longer(O2:Clfyl.a)%>%
+  dplyr::filter(name%in%c("pH","Secchi","Pt"),  sample_point%in%unique(sample_point)[1:20],
+                 MaandNr%in%5:10)%>%
+  ungroup()%>%
+ggplot(aes(x=as.Date(sample_datum_monstername), y=value, group_by=sample_point, col=sample_point))+geom_point()+facet_wrap(~name, scales="free",ncol=1)+stat_smooth(method="lm")+guides(colour="none")
+
+
+data_fc_cray_notAvg%>%
+  pivot_longer(cols=O2:Clfyl.a)%>%
+  dplyr::filter(name%in%c("Cao","Clfyl.a","ZS","ZS"),  sample_point%in%unique(sample_point)[1:20],
+ MaandNr%in%5:10)%>%
+  ungroup()%>%
+ggplot(aes(x=as.Date(sample_datum_monstername), y=value, group_by=sample_point, col=sample_point))+geom_point()+facet_wrap(~name, scales="free",ncol=1)+stat_smooth(method="lm")+guides(colour="none")
+
+```
+
+
+
+
+# Visualiseer distributies ruwe data en relatieve waarden
+```{r}
+data_fc_cray_notAvg%>%
+  pivot_longer(cols=O2:Clfyl.a)%>%
+    dplyr::filter( MaandNr%in%5:10, sample_point%in%unique(sample_point)[1:20])%>%
+  ggplot(aes(x=value, group_by=sample_point, fill=sample_point))+geom_density()+
+  facet_wrap(~name, scales="free")
+
+
+data_fc_cray_notAvg%>%
+  pivot_longer(cols=O2:Clfyl.a)%>%
+  group_by(sample_point, name)%>%
+  mutate(meanval=mean(value,na.rm=TRUE),
+         rel=value/meanval)%>%
+  ungroup()%>%
+    dplyr::filter( MaandNr%in%5:10, sample_point%in%unique(sample_point)[1:20])%>%
+  ggplot(aes(x=rel, group_by=sample_point, fill=sample_point))+geom_density()+
+  facet_wrap(~name, scales="free")+guides(colour="none")
+
+```
+
+# Bepaal thresholds
+Om de thresholds voor de equivalence test te bepalen is beslist om de standaard error (SE) rond de mediaan te gebruiken.
+De SE geeft een maat voor de dispersie van de sample mediaan rond de populatie mediaan. De data zijn skewed zelfs als we naar relatieve waarden kijken, daarom is voor de mediaan en niet gemiddelde gekozen . Mediaan is immers minder gevoelig aan extreme observaties dan het gemiddelde. Er is getest op de ruwe waarden omdat die meer overeenkomen met de waarden die we gebruiken voor de analyse, en niet op de relatieve data. Door de SE te gebruiken kan de thresholds aangepast worden aan de variatie die in een specifieke variabele zit in plaats van 1 algemene threshold.
+
+## Bereken standaard error rond mediaan per variabele van de ruwe data
+```{r}
+data_fc_cray_notAvg%>%
+  pivot_longer(cols=O2:Clfyl.a)%>%
+   distinct(sample_point,
+           name,
+           sample_datum_monstername,
+           sample_tijdstip_monstername,.keep_all = T)%>%
+    dplyr::filter( MaandNr%in%5:10,!is.na(value))%>%
+  group_by(name)%>%
+  summarise(Median=median(value,na.rm=TRUE),
+            MAD=mad(value,na.rm=TRUE),
+            MedianSE=medianse(value))
+
+
+```
+
+Wanneer de algemene SE gebruikt wordt, wordt niet in rekening gebracht dat sommige locaties hogere waarden hebben dan andere. Dit kan de SE verhogen terwijl de variatie binnen een locatie eigenlijk niet zo hoog is. Daarom werd de SE per locatie berekend en worden deze waarden gebruikt om de threshold te bepalen.
+
+
+## Bereken standaard error rond mediaan per locatie en variabele van de ruwe data
+```{r}
+median_se <- data_fc_cray_notAvg%>%
+  pivot_longer(cols=O2:Clfyl.a)%>%
+   distinct(sample_point,
+           name,
+           sample_datum_monstername,
+           sample_tijdstip_monstername,.keep_all = T)%>%
+    dplyr::filter( MaandNr%in%5:10,!is.na(value))%>%
+  group_by(name,sample_point)%>%
+  dplyr::filter(n()>10)%>%
+  summarise(Median=median(value,na.rm=TRUE),
+            MAD=mad(value,na.rm=TRUE),
+            MedianSE=medianse(value))
+
+
+ggplot(median_se,aes(x=MedianSE))+geom_histogram(bins=100)+facet_wrap(~name, scales="free")
+
+```
+
+De standaard errors van de verschillende locaties zijn ook skewed, daarom is het beter de mediaan van de SE in plaats van de gemiddelde SE per locatie te gebruiken.
+
+
+## Bepaal de threshold
+
+```{r}
+
+median_se%>%
+  group_by(name)%>%
+    do(data.frame(t(quantile(.$MedianSE))))
+
+thresh <- median_se%>%
+  group_by(name)%>%
+  summarise(thresh=median(MedianSE))
+
+```
+
+
+
+# Test het verschil in mediaan
+De mediaan wordt gebruikt in plaats van het gemiddelde omdat de data vaak skewed zijn met enkele extreme observaties. Mediaan is minder gevoelig voor deze extreme waarden. De finale dataset zal dus ook de mediaan van de 3 jaar in plaats van het gemiddelde bevatten.
+
+
+```{r}
+
+data_fc_cray_notAvg_zomer_long <- data_fc_cray_notAvg_zomer%>%
+  pivot_longer(cols=O2:Clfyl.a)%>%
+   distinct(sample_point,
+           name,
+           sample_datum_monstername,
+           sample_tijdstip_monstername,.keep_all = T)%>%
+    dplyr::filter( MaandNr%in%5:10,!is.na(value))
+  
+  
+ggplot(data_fc_cray_notAvg_zomer_long,aes(x=value))+geom_histogram()+facet_wrap(~name,scales="free")
+
+
+
+```
+
+## Bereken verschil mediaan. 
+Alle locaties worden gebruikt waarvoor er meer dan 1 jaar metingen aanwezig zijn. Dit komt het meest overeen met de mediaan die gebruikt zal worden voor de analyse. Hierdoor is het gemiddelde soms het gemiddelde van 2 jaar en soms van 3.
+
+```{r}
+
+median_total <- data_fc_cray_notAvg_zomer_long%>%
+  mutate(yearVMM=format(as.Date(sample_datum_monstername),"%Y"))%>%
+  group_by(vangstID,name,sample_point)%>%
+  dplyr::filter(length(unique(yearVMM))>1)%>%
+  summarise(median_all=median(value,na.rm=TRUE))
+
+median_year <- data_fc_cray_notAvg_zomer_long%>%
+mutate(yearVMM=format(as.Date(sample_datum_monstername),"%Y"))%>%
+  group_by(vangstID,name,sample_point)%>%
+  dplyr::filter(length(unique(yearVMM))>1)%>%
+  group_by(vangstID,yearVMM,name,sample_point)%>%
+   summarise(median=median(value,na.rm=TRUE))
+
+median_diff <- median_year%>%
+  left_join(median_total, by=c("vangstID"="vangstID","name"="name","sample_point"="sample_point"), suffix=c("","all"))%>%
+  mutate(diff=median_all-median)%>%
+  dplyr::filter(is.finite(diff))
+
+var <- c( "Cl","Nt","O2","BZV5","EC20","T","pH","Pt","ZS","Secchi")
+
+median_diff <- median_diff%>%
+  left_join(thresh)
+
+ggplot(dplyr::filter(median_diff, name%in%var),aes(y=diff,x=1))+geom_beeswarm()+
+  geom_boxplot(width=0.03, size=0.5)+
+  geom_hline(aes(yintercept=thresh),col="red")+
+  geom_hline(aes(yintercept=-thresh),col="red")+
+  facet_wrap(~name,scales="free")+ylab("median all-median year") +xlab("")+ggtitle("value scaled by mean per location")
+
+```
+
+## Aantal waarnemingen per variabelen
+```{r}
+table(median_diff$name)
+```
+Er zijn  geen tests uitgevoerd op Cao, Clfyl.a en ZS omdat deze weinig observaties hadden. Deze variabelen worden niet gebruikt voor de analyse.
+
+# Voer equivalence test uit en doe een p-waarde correctie
+
+```{r}
+p_values <- data.frame()
+
+
+for(i in 1:length(var)){
+
+test_data <- median_diff%>%
+  dplyr::filter(name==var[i])
+
+value=thresh$thresh[thresh$name==var[i]]
+
+threshold=c(-value,value)
+
+tost <- wilcox_TOST(x=test_data$diff,
+       hypothesis = "EQU",
+       eqb = threshold)
+
+p_values <- rbind(p_values,data.frame(variable=var[i],thresh=value,statistic=tost$TOST$statistic,p_value=tost$TOST$p.value,test=row.names(tost$TOST)))
+
+}
+
+p_values$p_value_cor <- p.adjust(p_values$p_value,method = "fdr")
+p_values$sign <- ifelse(p_values$p_value_cor<=0.05,TRUE, FALSE)
+
+write.table(p_values, file=here("data","output", "fc_trends", "equivalence_test_results.txt"),row.names=F)
+
+p_values
+
+```
+
+De TOST functie doet eigenlijk 3 testen.
+1 NHST test: 
+  null hypothese = het verschil in medianen is gelijk aan 0
+  alternatieve hypothese = verschil is groter dan 0
+  => we willen dat deze test niet significant is
+2 TOST Lower:
+  null hypothese = het verschil in medianen is kleiner dan de treshold
+  alternatieve hypothese = verschil is groter dan de threshold
+  => dit willen we significant zien
+  
+3 TOST Uper:
+  null hypothese = het verschil in medianen is groter dan de treshold
+  alternatieve hypothese = verschil is kleiner dan de threshold
+  => dit willen we ook significant zien
+  
+Enkel voor BZV5 is de test niet significant, dus hiervan kunnen we niet zeggen dat de medianen gelijk zijn aan nul. Deze variabele gebruiken we niet in de analyse.
+  
