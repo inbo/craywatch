@@ -125,4 +125,95 @@ data_community <- cray_long %>%
   mutate(species = factor(species, levels = names(species_labels_dutch)))
 
 p_community <- ggplot(data_community, aes(x = water_type, y = percentage, fill = species)) + 
-  geom_bar(stat = "identity", position = "
+  geom_bar(stat = "identity", position = "stack", width = 0.7) + 
+  
+  scale_fill_manual(
+    values = species_colors,      
+    labels = species_labels_dutch  
+  ) +      
+  
+  labs(
+    title = "Soortensamenstelling per watertype",
+    subtitle = "",
+    y = "Aandeel in de gemeenschap (%)",
+    x = "", fill = "Soort"
+  ) +
+  theme_minimal() + 
+  theme(
+    legend.position = "right",
+    panel.grid.major.x = element_blank(),
+    panel.grid.minor = element_blank(),
+    axis.line.x = element_line(color = "black")
+  )
+
+print(p_community)
+ggsave(file_plot_water_community, p_community, width=8, height=6)
+
+
+# ------------------------------------------------------------------------------
+# Plot vangstsucces per type systeem
+# Data = Craywatch (deler is totaal aantal succesvolle bemonsteringen, 
+# niet beschikbaar voor GBIF data)
+# Hoe groot is de pakkans per bemonsteringsessie?
+# ------------------------------------------------------------------------------
+
+data_vangstsucces <- cray_long %>%
+  filter(dat.source == "craywatch_data") %>% 
+  filter(!is.na(presence)) %>%
+  group_by(species, water_type) %>%
+  summarise(
+    n_traps = n(),
+    n_succes = sum(presence),   
+    percentage = mean(presence) * 100,
+    .groups = "drop"
+  ) %>%
+  # Filter soorten eruit die nergens gevangen zijn
+  group_by(species) %>%
+  filter(sum(percentage) > 0) %>% 
+  ungroup() %>%
+  
+  # Maak compleet voor vaste balkbreedte
+  complete(species, water_type, fill = list(percentage = 0, n_traps = 0)) %>%
+  mutate(dutch_name = factor(species_labels_dutch[species], levels = species_labels_dutch))
+
+max_y <- max(data_vangstsucces$percentage, na.rm = TRUE)
+
+p_vangstsucces <- ggplot(data_vangstsucces, aes(x = dutch_name, y = percentage, fill = water_type)) +
+  geom_bar(stat = "identity", position = position_dodge(width = 0.8), width = 0.7) +
+  
+  geom_text(
+    aes(
+      label = ifelse(
+        percentage > 0, 
+        paste0(round(percentage, 1), "%\n(", n_succes, ")"), 
+        ""
+      )
+    ), 
+    position = position_dodge(width = 0.8), 
+    vjust = -0.5, 
+    size = 2.5,
+    lineheight = 0.8 
+  ) +
+  
+  scale_fill_manual(values = water_colors) +
+  scale_x_discrete(labels = function(x) str_wrap(x, width = 15)) +
+  scale_y_continuous(limits = c(0, max_y * 1.1), expand = expansion(mult = c(0, 0))) +
+  
+  labs(
+    title = "Vangstkans voor een soort per type systeem",
+    subtitle = "op basis van de gestandaardiseerde monitoring",
+    y = "Vangstkans (%)",
+    x = "", fill = ""
+  ) +
+  theme_minimal() + 
+  theme(
+    legend.position = "bottom",
+    panel.grid.major.x = element_blank(),
+    panel.grid.minor = element_blank(),
+    axis.line.x = element_line(color = "black")
+  )
+
+print(p_vangstsucces)
+ggsave(file_plot_water_vangstsucces, p_vangstsucces, width=10, height=6)
+
+
