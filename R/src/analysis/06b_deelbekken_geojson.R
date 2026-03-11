@@ -1,4 +1,3 @@
-
 # ====================================================
 # Scriptnaam: 06_export_geojson_per_soort.R
 # Project: Craywatch
@@ -210,4 +209,3 @@ if (length(species_index) > 0) {
 }
 
 message("Klaar. GeoJSON-bestanden opgeslagen in: ", out_dir)
-EOF
