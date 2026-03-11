@@ -34,12 +34,13 @@ invisible(lapply(required_packages, library, character.only = TRUE))
 root_rapport <- here::here()
 
 # Parallelle craywatch repo (../craywatch)
-root_craywatch_app <- file.path(dirname(root_rapport), "craywatch")
+root_craywatch_app <- root_rapport
 
 ## ---------- Mappenstructuur ----------
-dir_data_input        <- file.path(root_rapport, "data", "input")
-dir_data_intermediate <- file.path(root_rapport, "data", "intermediate")
-dir_data_output       <- file.path(root_rapport, "data", "output")
+dir_data_analysis     <- file.path(root_rapport, "data", "analysis")
+dir_data_input        <- file.path(dir_data_analysis, "input")
+dir_data_intermediate <- file.path(dir_data_analysis, "intermediate")
+dir_data_output       <- file.path(dir_data_analysis, "output")
 dir_bescherming_output <- file.path(dir_data_output, "maps", "bescherming")
 
 dir_gbif_input        <- file.path(dir_data_input, "gbif")
