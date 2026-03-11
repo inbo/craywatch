@@ -30,7 +30,7 @@ library(htmlwidgets)
 library(htmltools) 
 
 # Laad de basisdata en lagen via script 08
-if(!exists("CF_long")) source("./src/08_load_aq_sbz.R")
+if(!exists("CF_long")) source("./src/analysis/08_load_aq_sbz.R")
 
 message("--- Start genereren Integrale Leaflet Kaart ---")
 
