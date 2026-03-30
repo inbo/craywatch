@@ -83,7 +83,7 @@ df_plot_ready <- df_trends %>%
     # Factors (Volgorde van stapelen: Basis onderaan)
     Component = factor(Categorie, 
                        levels = c("n_cw_winst", "n_rest_winst", "n_basis"),
-                       labels = c("Door Craywatch", "Na Craywatch (GBIF)", "Voor Craywatch")),
+                       labels = c("Nieuwe hokken (Craywatch)", "Nieuwe hokken (GBIF)", "Gekende hokken (2010-2024)")),
     
     # Label
     label_pct = paste0("+", round(toename_pct * 100, 0), "%")
@@ -118,17 +118,17 @@ p_trend <- ggplot(df_plot_ready, aes(x = dutch_name, y = Aantal)) +
   
   scale_fill_manual(
     values = c(
-      "Voor Craywatch"      = "#6BA1D3",
-      "Na Craywatch (GBIF)" = "#33A02C",
-      "Door Craywatch"      = "#33A02C"
+      "Gekende hokken (2010-2024)"      = "#6BA1D3",
+      "Nieuwe hokken (GBIF)" = "#33A02C",
+      "Nieuwe hokken (Craywatch)"      = "#33A02C"
     )
   ) +
   
   scale_pattern_manual(
     values = c(
-      "Door Craywatch"      = "stripe", 
-      "Na Craywatch (GBIF)" = "none", 
-      "Voor Craywatch"      = "none"
+      "Nieuwe hokken (Craywatch)"      = "stripe", 
+      "Nieuwe hokken (GBIF)" = "none", 
+      "Gekende hokken (2010-2024)"      = "none"
     )
   ) +
   
