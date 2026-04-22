@@ -10,7 +10,7 @@ In ontwikkeling.
 Bovenstaande kaart toont welke locaties werden vastgelegd om door onze burgerwetenschappers gecontroleerd te worden op de aanwezigheid van invasieve rivierkreeften. Je kan hier ook de observaties die tijdens het project werden doorgegeven en de historische waarnemingen bekijken (zie kaart lagen).
 <br><br>
 
-## Resultaten Craywatch 2025
+## Resultaten Craywatch
 
 ### Statistieken
 - Jullie interesse in Craywatch was veel groter dan verwacht, maar liefst **483 burgerwetenschappers** hebben zich aangemeld om deel te nemen.
@@ -43,6 +43,6 @@ Eind 2024 zag onze kaart met de huidige verspreiding van invasieve rivierkreefte
 6. Er werden geen **Californische** of **Turkse rivierkreeften** gevangen tijdens het Craywatch-project.
 
 ### Rapport
-Wil je graag meer weten? Momenteel werken wij aan een uitgebreid Craywatch-rapport. Daarin worden onze resultaten nog meer in detail besproken. Zodra het rapport af is, zal je de link kunnen terugvinden op onze website.
+Wil je graag meer weten? Lees de volledige resultaten van het project in het [Craywatch-rapport](https://doi.org/10.21436/inbor.134187582)!
 
 
