@@ -1,7 +1,7 @@
 ---
-layout: map
-title: Verspreiding en resultaten
-permalink: /kaart/
+layout: locations
+title: Locaties en waarnemingen
+permalink: /locaties/
 ---
 
 {:.alert .alert-warning .mt-3} 
