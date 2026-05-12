@@ -177,6 +177,7 @@ description: Template for a leaflet map with beschermingskaarten
     { label: 'Nabij (<1km)', borderColor: 'orange', borderWidth: 3 },
     { label: 'Op afstand', borderColor: 'magenta', borderWidth: 3 }
   ];
+  const EMPTY_STATUS = '';
 
   const statusElement = document.getElementById('protected-map-status');
   const liveStatusElement = document.getElementById('protected-map-status-live');
@@ -216,8 +217,9 @@ description: Template for a leaflet map with beschermingskaarten
   legend.addTo(map);
 
   function setStatus(message, isError) {
-    statusElement.textContent = message;
-    liveStatusElement.textContent = message;
+    const nextMessage = message || EMPTY_STATUS;
+    statusElement.textContent = nextMessage;
+    liveStatusElement.textContent = nextMessage;
     statusElement.classList.toggle('is-error', Boolean(isError));
   }
 
@@ -351,7 +353,7 @@ description: Template for a leaflet map with beschermingskaarten
     }
 
     const filePath = species[ANALYSIS_OPTIONS[selectedAnalysis].fileKey];
-    setStatus('', false);
+    setStatus(EMPTY_STATUS, false);
 
     try {
       const response = await fetch(DATA_ROOT + '/' + filePath);
@@ -387,7 +389,7 @@ description: Template for a leaflet map with beschermingskaarten
 
       replaceActiveLayer([contextLayer, cloudLayer, pointLayer]);
       renderLegend();
-      setStatus('', false);
+      setStatus(EMPTY_STATUS, false);
     } catch (error) {
       replaceActiveLayer([]);
       renderLegend();
