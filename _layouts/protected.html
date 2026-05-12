@@ -3,17 +3,6 @@ layout: base
 description: Template for a leaflet map with beschermingskaarten
 ---
 
-<div class="protected-map-toolbar">
-  <div class="protected-map-panel">
-    <div class="protected-map-panel-title">Beschermingsstatus</div>
-    <div id="analysis-selector" class="protected-map-options"></div>
-  </div>
-  <div class="protected-map-panel protected-map-panel-species">
-    <div class="protected-map-panel-title">Soort</div>
-    <div id="species-selector" class="protected-map-options protected-map-species-list"></div>
-  </div>
-</div>
-
 <div id="protected-map-status" class="protected-map-status" aria-live="polite">Kaart laden…</div>
 <div id="map" style="height: 600px;"></div>
 
@@ -25,18 +14,14 @@ description: Template for a leaflet map with beschermingskaarten
     height: 600px;
     width: 100%;
   }
-  .protected-map-toolbar {
-    display: grid;
-    gap: 1rem;
-    margin-bottom: 1rem;
-  }
-  .protected-map-panel {
+  .protected-map-control {
     background: #fff;
     border: 1px solid #d9d9d9;
     border-radius: 0.5rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     padding: 0.75rem 1rem;
   }
-  .protected-map-panel-title {
+  .protected-map-control-title {
     font-weight: 700;
     margin-bottom: 0.5rem;
   }
@@ -51,18 +36,8 @@ description: Template for a leaflet map with beschermingskaarten
   }
   .protected-map-species-list {
     columns: 1;
-    max-height: 18rem;
+    max-height: 14rem;
     overflow-y: auto;
-  }
-  .protected-map-species-name {
-    display: block;
-    font-style: italic;
-  }
-  .protected-map-species-dutch {
-    color: #555;
-    display: block;
-    font-size: 0.9rem;
-    margin-left: 1.45rem;
   }
   .protected-map-status {
     color: #555;
@@ -76,7 +51,6 @@ description: Template for a leaflet map with beschermingskaarten
     background: white;
     line-height: 1.4;
     padding: 10px;
-    margin: 10px;
     border-radius: 5px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     min-width: 210px;
@@ -120,13 +94,11 @@ description: Template for a leaflet map with beschermingskaarten
     height: 12px;
     width: 12px;
   }
-  @media (min-width: 768px) {
-    .protected-map-toolbar {
-      grid-template-columns: minmax(220px, 280px) minmax(280px, 1fr);
-    }
-    .protected-map-species-list {
-      columns: 2;
-    }
+  .leaflet-bottom .protected-map-control {
+    margin-bottom: 24px;
+  }
+  .leaflet-right .protected-map-control {
+    max-width: 280px;
   }
 </style>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
@@ -171,34 +143,26 @@ description: Template for a leaflet map with beschermingskaarten
   const ANALYSIS_OPTIONS = {
     sbz_h: {
       label: 'Habitatrichtlijn (SBZ-H)',
-      fileKey: 'sbz_h_file',
-      contextLegend: [
-        { label: 'SBZ-H', type: 'box', borderColor: 'darkgreen', fillColor: 'transparent' },
-        { label: 'Aquatisch habitat', type: 'box', borderColor: 'lightgreen', fillColor: 'lightgreen', fillOpacity: 0.4 }
-      ],
-      statusLegend: [
-        { label: 'In SBZ-H', borderColor: 'red' },
-        { label: 'Nabij SBZ-H (<1 km)', borderColor: 'orange' },
-        { label: 'Op afstand', borderColor: 'magenta' }
-      ]
+      fileKey: 'sbz_h_file'
     },
     sbp: {
       label: 'Soortenbescherming (SBP)',
-      fileKey: 'sbp_file',
-      contextLegend: [
-        { label: 'SBP-gebied', type: 'box', borderColor: 'blue', fillColor: 'blue', fillOpacity: 0.2 },
-        { label: 'SBP-waterloop', type: 'line', borderColor: 'blue' }
-      ],
-      statusLegend: [
-        { label: 'In SBP', borderColor: 'red' },
-        { label: 'Nabij SBP (<1 km)', borderColor: 'orange' },
-        { label: 'Op afstand', borderColor: 'magenta' }
-      ]
+      fileKey: 'sbp_file'
     }
   };
 
-  const analysisSelector = document.getElementById('analysis-selector');
-  const speciesSelector = document.getElementById('species-selector');
+  const CONTEXT_LEGEND = [
+    { label: 'Habitatrichtlijngebied', type: 'box', borderColor: 'darkgreen', fillColor: 'transparent' },
+    { label: 'Aquatische habitattypes (BWK)', type: 'box', borderColor: 'lightgreen', fillColor: 'lightgreen', fillOpacity: 0.4 },
+    { label: 'Soortbeschermingprogramma gebied', type: 'box', borderColor: 'blue', fillColor: 'blue', fillOpacity: 0.2 },
+    { label: 'Soortbeschermingprogramma waterloop', type: 'line', borderColor: 'blue' }
+  ];
+  const STATUS_LEGEND = [
+    { label: 'In gebied', borderColor: 'red' },
+    { label: 'Nabij (<1km)', borderColor: 'orange' },
+    { label: 'Op afstand', borderColor: 'magenta' }
+  ];
+
   const statusElement = document.getElementById('protected-map-status');
 
   let speciesIndex = [];
@@ -208,10 +172,29 @@ description: Template for a leaflet map with beschermingskaarten
   let lastBounds = null;
   let currentCloudFill = '#FF0000';
 
-  const legend = L.control({ position: 'bottomright' });
+  const selectorControl = L.control({ position: 'bottomright' });
+  selectorControl.onAdd = function() {
+    const div = L.DomUtil.create('div', 'protected-map-control');
+    div.innerHTML = [
+      '<div class="protected-map-control-title">Beschermingsstatus</div>',
+      '<div id="analysis-selector" class="protected-map-options"></div>',
+      '<div class="protected-map-control-title">Soort</div>',
+      '<div id="species-selector" class="protected-map-options protected-map-species-list"></div>'
+    ].join('');
+    L.DomEvent.disableClickPropagation(div);
+    L.DomEvent.disableScrollPropagation(div);
+    return div;
+  };
+  selectorControl.addTo(map);
+
+  const analysisSelector = document.getElementById('analysis-selector');
+  const speciesSelector = document.getElementById('species-selector');
+
+  const legend = L.control({ position: 'bottomleft' });
   legend.onAdd = function() {
     const div = L.DomUtil.create('div', 'legend');
     L.DomEvent.disableClickPropagation(div);
+    L.DomEvent.disableScrollPropagation(div);
     return div;
   };
   legend.addTo(map);
@@ -266,8 +249,7 @@ description: Template for a leaflet map with beschermingskaarten
 
   function renderLegend() {
     const container = legend.getContainer();
-    const config = ANALYSIS_OPTIONS[selectedAnalysis];
-    const contextItems = config.contextLegend.map((item) => {
+    const contextItems = CONTEXT_LEGEND.map((item) => {
       const style = [
         item.borderColor ? 'border-color:' + item.borderColor : 'border-color:transparent',
         item.fillColor ? 'background:' + item.fillColor : 'background:transparent',
@@ -276,7 +258,7 @@ description: Template for a leaflet map with beschermingskaarten
       return '<div class="legend-item"><span class="legend-swatch ' + (item.type === 'line' ? 'line' : '') + '" style="' + style + '"></span><span>' + item.label + '</span></div>';
     }).join('');
 
-    const statusItems = config.statusLegend.map((item) => {
+    const statusItems = STATUS_LEGEND.map((item) => {
       const style = [
         'border-color:' + item.borderColor,
         'background:' + currentCloudFill,
@@ -287,12 +269,12 @@ description: Template for a leaflet map with beschermingskaarten
 
     container.innerHTML = [
       '<div class="legend-title">Legenda</div>',
-      '<div class="legend-subtitle">Context</div>',
+      '<div class="legend-subtitle">Gebieden &amp; Habitats</div>',
       contextItems,
-      '<div class="legend-subtitle">Beschermingsstatus</div>',
+      '<div class="legend-subtitle">Populatiestatus (Randkleur)</div>',
       statusItems,
-      '<div class="legend-subtitle">Waarneming</div>',
-      '<div class="legend-item"><span class="legend-swatch circle" style="border-color:black;background:white;opacity:1"></span><span>Afwezigheid (0)</span></div>'
+      '<div class="legend-subtitle">Afwezigheden</div>',
+      '<div class="legend-item"><span class="legend-swatch circle" style="border-color:black;background:white;opacity:1"></span><span>Nulvangst</span></div>'
     ].join('');
   }
 
@@ -317,8 +299,7 @@ description: Template for a leaflet map with beschermingskaarten
       return [
         '<label>',
         '<input type="radio" name="species_selector" value="', species.slug, '" ', checked, '>',
-        '<span class="protected-map-species-name">', species.species, '</span>',
-        '<span class="protected-map-species-dutch">', species.dutch_name, '</span>',
+        species.dutch_name,
         '</label>'
       ].join('');
     }).join('');
