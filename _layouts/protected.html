@@ -4,7 +4,7 @@ description: Template for a leaflet map with beschermingskaarten
 ---
 
 <div id="protected-map-status" class="protected-map-status"></div>
-<div id="protected-map-status-live" class="protected-map-visually-hidden" aria-live="polite" aria-atomic="true"></div>
+<div id="protected-map-status-live" class="protected-map-visually-hidden" aria-live="polite" aria-atomic="true" aria-label="Kaartstatus-updates"></div>
 <div id="map" style="height: 600px;"></div>
 
 {{ content }}
@@ -178,7 +178,7 @@ description: Template for a leaflet map with beschermingskaarten
     { label: 'Nabij (<1km)', borderColor: 'orange', borderWidth: 3 },
     { label: 'Op afstand', borderColor: 'magenta', borderWidth: 3 }
   ];
-  const EMPTY_STATUS = '';
+  const CLEARED_STATUS_MESSAGE = '';
 
   const statusElement = document.getElementById('protected-map-status');
   const liveStatusElement = document.getElementById('protected-map-status-live');
@@ -218,7 +218,7 @@ description: Template for a leaflet map with beschermingskaarten
   legend.addTo(map);
 
   function setStatus(message, isError) {
-    const nextMessage = message ?? EMPTY_STATUS;
+    const nextMessage = message ?? CLEARED_STATUS_MESSAGE;
     statusElement.textContent = nextMessage;
     liveStatusElement.textContent = nextMessage;
     statusElement.classList.toggle('is-error', Boolean(isError));
@@ -354,7 +354,7 @@ description: Template for a leaflet map with beschermingskaarten
     }
 
     const filePath = species[ANALYSIS_OPTIONS[selectedAnalysis].fileKey];
-    setStatus(EMPTY_STATUS, false);
+    setStatus(CLEARED_STATUS_MESSAGE, false);
 
     try {
       const response = await fetch(DATA_ROOT + '/' + filePath);
@@ -390,7 +390,7 @@ description: Template for a leaflet map with beschermingskaarten
 
       replaceActiveLayer([contextLayer, cloudLayer, pointLayer]);
       renderLegend();
-      setStatus(EMPTY_STATUS, false);
+      setStatus(CLEARED_STATUS_MESSAGE, false);
     } catch (error) {
       replaceActiveLayer([]);
       renderLegend();
