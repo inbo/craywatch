@@ -4,7 +4,7 @@ description: Template for a leaflet map with beschermingskaarten
 ---
 
 <div id="protected-map-status" class="protected-map-status"></div>
-<div id="protected-map-status-live" class="protected-map-visually-hidden" aria-live="polite" aria-atomic="true"><span>Kaartstatus: </span><span id="protected-map-status-live-text"></span></div>
+<div id="protected-map-status-live" class="protected-map-visually-hidden" aria-live="polite" aria-atomic="true"></div>
 <div id="map" style="height: 600px;"></div>
 
 {{ content }}
@@ -181,7 +181,7 @@ description: Template for a leaflet map with beschermingskaarten
   const CLEARED_STATUS_MESSAGE = '';
 
   const statusElement = document.getElementById('protected-map-status');
-  const liveStatusTextElement = document.getElementById('protected-map-status-live-text');
+  const liveStatusElement = document.getElementById('protected-map-status-live');
 
   let speciesIndex = [];
   let selectedAnalysis = 'sbz_h';
@@ -220,7 +220,7 @@ description: Template for a leaflet map with beschermingskaarten
   function setStatus(message, isError) {
     const nextMessage = message || CLEARED_STATUS_MESSAGE;
     statusElement.textContent = nextMessage;
-    liveStatusTextElement.textContent = nextMessage;
+    liveStatusElement.textContent = nextMessage ? 'Kaartstatus: ' + nextMessage : CLEARED_STATUS_MESSAGE;
     statusElement.classList.toggle('is-error', Boolean(isError));
   }
 
