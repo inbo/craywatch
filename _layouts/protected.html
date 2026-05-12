@@ -204,6 +204,11 @@ description: Template for a leaflet map with beschermingskaarten
 
   function setStatus(message, isError) {
     statusElement.textContent = message;
+    if (message) {
+      statusElement.setAttribute('aria-live', 'polite');
+    } else {
+      statusElement.removeAttribute('aria-live');
+    }
     statusElement.classList.toggle('is-error', Boolean(isError));
   }
 
