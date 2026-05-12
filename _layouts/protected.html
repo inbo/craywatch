@@ -3,7 +3,7 @@ layout: base
 description: Template for a leaflet map with beschermingskaarten
 ---
 
-<div id="protected-map-status" class="protected-map-status" aria-live="polite">Kaart laden…</div>
+<div id="protected-map-status" class="protected-map-status" aria-live="polite"></div>
 <div id="map" style="height: 600px;"></div>
 
 {{ content }}
@@ -43,6 +43,9 @@ description: Template for a leaflet map with beschermingskaarten
     color: #555;
     margin-bottom: 0.75rem;
     min-height: 1.5rem;
+  }
+  .protected-map-status:empty {
+    display: none;
   }
   .protected-map-status.is-error {
     color: #b00020;
@@ -270,13 +273,12 @@ description: Template for a leaflet map with beschermingskaarten
     }).join('');
 
     container.innerHTML = [
-      '<div class="legend-title">Legenda</div>',
-      '<div class="legend-subtitle">Gebieden &amp; Habitats</div>',
-      contextItems,
       '<div class="legend-subtitle">Populatiestatus (Randkleur)</div>',
       statusItems,
       '<div class="legend-subtitle">Afwezigheden</div>',
-      '<div class="legend-item"><span class="legend-swatch circle" style="border-color:black;background:white;opacity:1"></span><span>Nulvangst</span></div>'
+      '<div class="legend-item"><span class="legend-swatch circle" style="border-color:black;background:white;opacity:1"></span><span>Nulvangst</span></div>',
+      '<div class="legend-subtitle">Gebieden &amp; Habitats</div>',
+      contextItems
     ].join('');
   }
 
@@ -335,7 +337,7 @@ description: Template for a leaflet map with beschermingskaarten
     }
 
     const filePath = species[ANALYSIS_OPTIONS[selectedAnalysis].fileKey];
-    setStatus('Kaart laden…', false);
+    setStatus('', false);
 
     try {
       const response = await fetch(DATA_ROOT + '/' + filePath);
@@ -371,7 +373,7 @@ description: Template for a leaflet map with beschermingskaarten
 
       replaceActiveLayer([contextLayer, cloudLayer, pointLayer]);
       renderLegend();
-      setStatus(species.dutch_name + ' – ' + ANALYSIS_OPTIONS[selectedAnalysis].label, false);
+      setStatus('', false);
     } catch (error) {
       replaceActiveLayer([]);
       renderLegend();
