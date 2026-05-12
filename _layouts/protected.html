@@ -1,0 +1,315 @@
+---
+layout: base
+description: Template for a leaflet map with the observations
+---
+
+<div id="map" style="height: 600px;"></div>
+
+{{ content }}
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+<style>
+  #map {
+    height: 600px;
+    width: 100%;
+  }
+  .legend {
+    background: white;
+    line-height: 1.5em;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+  .legend em {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+  }
+  .custom-div-icon {
+    background: transparent;
+    border: none;
+  }
+</style>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OverlappingMarkerSpiderfier-Leaflet/0.2.6/oms.min.js"></script>
+<script>
+  // Initialize the map
+  var map = L.map('map', {
+    center: [51.0, 4.15], // Set the center of the map
+    zoom: 8                // Set the zoom level
+  });
+
+  // Initialize the spiderfier
+  var oms = new OverlappingMarkerSpiderfier(map, {
+    keepSpiderfied: true,
+    nearbyDistance: 20,
+    circleSpiralSwitchover: 9,
+    legWeight: 1
+  });
+
+  map.on('zoomend moveend', function() {
+    oms.unspiderfy();
+  });
+
+  var popup = new L.Popup();
+  oms.addListener('click', function(marker) {
+    map.closePopup(); // Close any open popups
+    popup.setContent(marker.getPopup().getContent());
+    popup.setLatLng(marker.getLatLng());
+    map.openPopup(popup);
+  });
+
+  oms.addListener('spiderfy', function(markers) {
+    map.closePopup(); // Close any open popups
+  });
+
+  oms.addListener('unspiderfy', function(markers) {
+    map.closePopup(); // Close any open popups
+  });
+
+  // Define tile layers (background layers)
+  var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+  });
+
+  var satellite = L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
+    attribution: '© OpenStreetMap FR'
+  });
+
+  var positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://carto.com/attributions">CARTO</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  });
+
+  // Define species and their colors
+  var speciesColorsVernacularNames = {
+    'Faxonius limosus': {
+      color: '#264653',
+      vernacularName: 'Gevlekte Amerikaanse rivierkreeft'
+    },
+    'Faxonius virilis': {
+      color: '#287271',
+      vernacularName: 'Geknobbelde Amerikaanse rivierkreeft'
+    },
+    'Astacus astacus': {
+      color: '#2a9d8f',
+      vernacularName: 'Europese rivierkreeft'
+    },
+    'Pontastacus leptodactylus': {
+      color: '#8ab17d',
+      vernacularName: 'Turkse rivierkreeft'
+    },
+    'Pacifastacus leniusculus': {
+      color: '#e9c46a',
+      vernacularName: 'Californische rivierkreeft'
+    },
+    'Procambarus clarkii': {
+      color: '#f4a261',
+      vernacularName: 'Rode Amerikaanse rivierkreeft'
+    },
+    'Procambarus virginalis': {
+      color: '#e76f51',
+      vernacularName: 'Marmerkreeft'
+    },
+    'Procambarus acutus': {
+      color: '#eb886f',
+      vernacularName: 'Gestreepte Amerikaanse rivierkreeft'
+    }
+  };
+
+  // Add a default tile layer to the map
+  positron.addTo(map);
+
+  // Global variable to hold CSV data (reserved locations)
+  let csvArray = [];
+
+  // Global variable to hold JSON data (new observations)
+  let jsonArray = [];
+
+  // Layer groups for markers
+  const markersLayer = L.layerGroup();
+  const newOccsLayer = L.layerGroup();
+  const histOccsLayer = L.layerGroup();
+  const absencesLayer = L.layerGroup();
+
+  // Function to read the CSV file
+  async function readAndShow(csvFile) {
+      try {
+        // Read the CSV file
+        const csvArray = await d3.csv(csvFile);
+
+        // Filter the data where the field 'IsGereserv' is TRUE
+        const filteredData = csvArray.filter(row => row.isReserved === 'TRUE');
+        
+        // Call the function to add markers after the CSV is loaded
+        addMarkers(filteredData);
+      } catch (error) {
+        console.error('Error reading the CSV file:', error);
+      }
+  }
+
+  // Function to add markers to the map
+  function addMarkers(data) {
+      data.forEach(row => {
+      // Check if the 'isReserved' column is TRUE
+      if (row.isReserved === 'TRUE') {
+        // Parse the coordinates as numbers
+        const lon = parseFloat(row.Longitude);
+        const lat = parseFloat(row.Latitude);
+        // Add a marker to the map
+        const marker = L.marker([lat, lon], {alt: `locatieID: ${row.locID}`});
+        // Bind a popup to the marker with the 'locatieID' column's value
+        marker.bindPopup(`<b>locatieID:</b> ${row.locID}<br/><b>gemeente:</b> ${row.gemeente}`);
+        markersLayer.addLayer(marker);
+      }
+    });
+    
+    // Add markers layer to the map
+    markersLayer.addTo(map);
+  }
+
+  async function fetchAllData(baseUrl) {
+    let offset = 0;
+    let allData = [];
+    let fetchMoreData = true;
+
+    while (fetchMoreData) {
+      const url = `${baseUrl}&offset=${offset}`;
+      try {
+        const response = await fetch(url);
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        const data = await response.json();
+
+        allData = allData.concat(data.results);
+        offset += 300;
+
+        // If the number of results returned is less than 300, we've reached the end
+        if (data.results.length < 300) {
+          fetchMoreData = false;
+        }
+
+      } catch (error) {
+        console.error('Fetch error:', error);
+        fetchMoreData = false; // Exit the loop on error
+      }
+    }
+
+    // console.log('All data fetched:', allData);
+    return allData;
+  }
+
+  // Function to add JSON data to the leaflet map
+  async function addJsonDataToMap(data, occsLayer) {
+    data.forEach(item => {
+      const lat = parseFloat(item.decimalLatitude);
+      const lon = parseFloat(item.decimalLongitude);
+      if (!isNaN(lat) && !isNaN(lon)) {
+        const speciesInfo = speciesColorsVernacularNames[item.species] || {color: 'gray',   vernacularName: 'null'};
+        const marker = L.marker([lat, lon], {
+          icon: L.divIcon({
+            className: 'custom-div-icon',
+            html: `<div style="background-color:${speciesInfo.color}; width:10px; height:10px;  border-radius:50%;"></div>`,
+            iconSize: [10, 10],
+            iconAnchor: [5, 5]
+          })
+        });
+        // Create basic popup content
+        let popupContent = `<b>${speciesInfo.vernacularName}</b><br>${item.eventDate}`;
+        if (item.references) {
+          popupContent += `<br><a href="${item.references}" target="_blank">${item.references}</a>`;
+        } else {
+          popupContent += `<br><a href="https://www.gbif.org/occurrence/${item.key}"  target="_blank">https://www.gbif.org/occurrence/${item.key}</a>`;
+        }
+        // Add popup
+        marker.bindPopup(popupContent);
+        // Add marker to layer and spiderfier
+        occsLayer.addLayer(marker);
+        oms.addMarker(marker);
+      }
+    });
+    return occsLayer;
+  }
+  // Function to read the JSON data from the API and add them to the leaflet map
+  async function readAndShowJSON(apiUrl, occsLayer) {
+    // Call the function to fetch all data
+    const occs = await fetchAllData(apiUrl);
+    // Call the function to add JSON data to the map
+    const finalizedLayer = await addJsonDataToMap(occs, occsLayer);
+    return finalizedLayer
+  }
+
+  // Path to directly download csv with locations
+  const localitiesURL = '/assets/localities.csv';
+
+  // URL root for recent data (URL to call the GBIF API without offset)
+  const recentDataUrl = 'https://api.gbif.org/v1/occurrence/search?basis_of_record=OBSERVATION&basis_of_record=HUMAN_OBSERVATION&basis_of_record=MATERIAL_SAMPLE&country=BE&event_date=2024-06-13,*&taxon_key=2227289&taxon_key=9442269&taxon_key=2227300&taxon_key=2226990&taxon_key=8946295&taxon_key=2226998&taxon_key=8971201&taxon_key=8909595&advanced=1&occurrence_status=present&gadm_gid=BEL.2_1&limit=300';
+
+  // URL root for historical data (URL to call the GBIF API without offset)
+  const historicalDataUrl = 'https://api.gbif.org/v1/occurrence/search?basis_of_record=OBSERVATION&basis_of_record=HUMAN_OBSERVATION&basis_of_record=MATERIAL_SAMPLE&country=BE&event_date=2000-01-01,2024-06-12&taxon_key=2227289&taxon_key=9442269&taxon_key=2227300&taxon_key=2226990&taxon_key=8946295&taxon_key=2226998&taxon_key=8971201&taxon_key=8909595&advanced=1&occurrence_status=present&gadm_gid=BEL.2_1&limit=300';
+
+  // URL root for recent absent data (URL to call the GBIF API without offset)
+  const absencesUrl = 'https://api.gbif.org/v1/occurrence/search?basis_of_record=OBSERVATION&basis_of_record=HUMAN_OBSERVATION&basis_of_record=MATERIAL_SAMPLE&country=BE&event_date=2024-06-13,*&taxon_key=2227289&taxon_key=9442269&taxon_key=2227300&taxon_key=2226990&taxon_key=8946295&taxon_key=2226998&taxon_key=8971201&taxon_key=8909595&advanced=1&occurrence_status=absent&gadm_gid=BEL.2_1&limit=300';
+
+
+  // Define the main function to fetch and add all data to the map
+  async function main() {
+    // Call the functions to read the CSV and add the results to the leaflet
+    readAndShow(localitiesURL);
+    // Call the functions to read the recent occurrences (JSON) and add them to the leaflet map
+    await readAndShowJSON(recentDataUrl, newOccsLayer);
+    newOccsLayer.addTo(map);
+    // Call the functions to read the recent absences (JSON) and add them to the leaflet map
+    await readAndShowJSON(absencesUrl, absencesLayer);
+    // Call the functions to read the historical occurrences (JSON) and add them to the leaflet map
+    await readAndShowJSON(historicalDataUrl, histOccsLayer);
+    // Add all markers to the spiderfier
+    newOccsLayer.eachLayer(marker => oms.addMarker(marker));
+    absencesLayer.eachLayer(marker => oms.addMarker(marker));
+    histOccsLayer.eachLayer(marker => oms.addMarker(marker));
+  }
+  
+  // Execute main function when the script loads
+  main();
+
+  // Create layer control and add to the map
+  L.control.layers(
+    {
+      'OpenStreetMap': osm,
+      'Satellite': satellite,        
+      'CartoDB Positron': positron
+    },
+    {
+      'Gereserveerde locaties': markersLayer,
+      'Nieuwe waarnemingen': newOccsLayer,
+      'Historische waarnemingen': histOccsLayer,
+      'Null waarnemingen': absencesLayer
+    },
+    {
+      collapsed:false
+    }
+  ).addTo(map);
+
+  // Add legend to the map
+  var legend = L.control({position: 'bottomright'});
+
+  legend.onAdd = function(map) {
+    var div = L.DomUtil.create('div', 'legend');
+    var labels = ['<strong>Soorten</strong>'];
+    for (var species in speciesColorsVernacularNames) {
+        labels.push(
+            '<em style="background:' + speciesColorsVernacularNames[species].color + '"></em> ' + speciesColorsVernacularNames[species].vernacularName
+        );
+    }
+    div.innerHTML = labels.join('<br>');
+    return div;
+  };
+
+  legend.addTo(map);
+
+</script>
