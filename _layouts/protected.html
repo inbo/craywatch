@@ -1,8 +1,20 @@
 ---
 layout: base
-description: Template for a leaflet map with the observations
+description: Template for a leaflet map with beschermingskaarten
 ---
 
+<div class="protected-map-toolbar">
+  <div class="protected-map-panel">
+    <div class="protected-map-panel-title">Beschermingsstatus</div>
+    <div id="analysis-selector" class="protected-map-options"></div>
+  </div>
+  <div class="protected-map-panel protected-map-panel-species">
+    <div class="protected-map-panel-title">Soort</div>
+    <div id="species-selector" class="protected-map-options protected-map-species-list"></div>
+  </div>
+</div>
+
+<div id="protected-map-status" class="protected-map-status" aria-live="polite">Kaart laden…</div>
 <div id="map" style="height: 600px;"></div>
 
 {{ content }}
@@ -13,303 +25,397 @@ description: Template for a leaflet map with the observations
     height: 600px;
     width: 100%;
   }
+  .protected-map-toolbar {
+    display: grid;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  .protected-map-panel {
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-radius: 0.5rem;
+    padding: 0.75rem 1rem;
+  }
+  .protected-map-panel-title {
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+  .protected-map-options label {
+    cursor: pointer;
+    display: block;
+    font-weight: 400;
+    margin-bottom: 0.35rem;
+  }
+  .protected-map-options input {
+    margin-right: 0.4rem;
+  }
+  .protected-map-species-list {
+    columns: 1;
+    max-height: 18rem;
+    overflow-y: auto;
+  }
+  .protected-map-species-name {
+    display: block;
+    font-style: italic;
+  }
+  .protected-map-species-dutch {
+    color: #555;
+    display: block;
+    font-size: 0.9rem;
+    margin-left: 1.45rem;
+  }
+  .protected-map-status {
+    color: #555;
+    margin-bottom: 0.75rem;
+    min-height: 1.5rem;
+  }
+  .protected-map-status.is-error {
+    color: #b00020;
+  }
   .legend {
     background: white;
-    line-height: 1.5em;
+    line-height: 1.4;
     padding: 10px;
     margin: 10px;
     border-radius: 5px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    min-width: 210px;
   }
-  .legend em {
+  .legend-title {
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+  }
+  .legend-subtitle {
+    border-top: 1px solid #eee;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+  }
+  .legend-item {
+    align-items: center;
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.35rem;
+  }
+  .legend-swatch {
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    display: inline-block;
+    flex: 0 0 auto;
+    height: 16px;
     width: 18px;
-    height: 18px;
-    float: left;
-    margin-right: 8px;
-    opacity: 0.7;
   }
-  .custom-div-icon {
+  .legend-swatch.line {
     background: transparent;
-    border: none;
+    border-bottom-width: 3px;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    height: 0;
+    width: 18px;
+  }
+  .legend-swatch.circle {
+    background: white;
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+  }
+  @media (min-width: 768px) {
+    .protected-map-toolbar {
+      grid-template-columns: minmax(220px, 280px) minmax(280px, 1fr);
+    }
+    .protected-map-species-list {
+      columns: 2;
+    }
   }
 </style>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-<script src="https://d3js.org/d3.v7.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OverlappingMarkerSpiderfier-Leaflet/0.2.6/oms.min.js"></script>
 <script>
-  // Initialize the map
-  var map = L.map('map', {
-    center: [51.0, 4.15], // Set the center of the map
-    zoom: 8                // Set the zoom level
+  const map = L.map('map', {
+    center: [51.0, 4.15],
+    zoom: 8
   });
 
-  // Initialize the spiderfier
-  var oms = new OverlappingMarkerSpiderfier(map, {
-    keepSpiderfied: true,
-    nearbyDistance: 20,
-    circleSpiralSwitchover: 9,
-    legWeight: 1
-  });
-
-  map.on('zoomend moveend', function() {
-    oms.unspiderfy();
-  });
-
-  var popup = new L.Popup();
-  oms.addListener('click', function(marker) {
-    map.closePopup(); // Close any open popups
-    popup.setContent(marker.getPopup().getContent());
-    popup.setLatLng(marker.getLatLng());
-    map.openPopup(popup);
-  });
-
-  oms.addListener('spiderfy', function(markers) {
-    map.closePopup(); // Close any open popups
-  });
-
-  oms.addListener('unspiderfy', function(markers) {
-    map.closePopup(); // Close any open popups
-  });
-
-  // Define tile layers (background layers)
-  var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
   });
 
-  var satellite = L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
+  const satellite = L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
     attribution: '© OpenStreetMap FR'
   });
 
-  var positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+  const positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://carto.com/attributions">CARTO</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
   });
 
-  // Define species and their colors
-  var speciesColorsVernacularNames = {
-    'Faxonius limosus': {
-      color: '#264653',
-      vernacularName: 'Gevlekte Amerikaanse rivierkreeft'
-    },
-    'Faxonius virilis': {
-      color: '#287271',
-      vernacularName: 'Geknobbelde Amerikaanse rivierkreeft'
-    },
-    'Astacus astacus': {
-      color: '#2a9d8f',
-      vernacularName: 'Europese rivierkreeft'
-    },
-    'Pontastacus leptodactylus': {
-      color: '#8ab17d',
-      vernacularName: 'Turkse rivierkreeft'
-    },
-    'Pacifastacus leniusculus': {
-      color: '#e9c46a',
-      vernacularName: 'Californische rivierkreeft'
-    },
-    'Procambarus clarkii': {
-      color: '#f4a261',
-      vernacularName: 'Rode Amerikaanse rivierkreeft'
-    },
-    'Procambarus virginalis': {
-      color: '#e76f51',
-      vernacularName: 'Marmerkreeft'
-    },
-    'Procambarus acutus': {
-      color: '#eb886f',
-      vernacularName: 'Gestreepte Amerikaanse rivierkreeft'
-    }
-  };
-
-  // Add a default tile layer to the map
   positron.addTo(map);
-
-  // Global variable to hold CSV data (reserved locations)
-  let csvArray = [];
-
-  // Global variable to hold JSON data (new observations)
-  let jsonArray = [];
-
-  // Layer groups for markers
-  const markersLayer = L.layerGroup();
-  const newOccsLayer = L.layerGroup();
-  const histOccsLayer = L.layerGroup();
-  const absencesLayer = L.layerGroup();
-
-  // Function to read the CSV file
-  async function readAndShow(csvFile) {
-      try {
-        // Read the CSV file
-        const csvArray = await d3.csv(csvFile);
-
-        // Filter the data where the field 'IsGereserv' is TRUE
-        const filteredData = csvArray.filter(row => row.isReserved === 'TRUE');
-        
-        // Call the function to add markers after the CSV is loaded
-        addMarkers(filteredData);
-      } catch (error) {
-        console.error('Error reading the CSV file:', error);
-      }
-  }
-
-  // Function to add markers to the map
-  function addMarkers(data) {
-      data.forEach(row => {
-      // Check if the 'isReserved' column is TRUE
-      if (row.isReserved === 'TRUE') {
-        // Parse the coordinates as numbers
-        const lon = parseFloat(row.Longitude);
-        const lat = parseFloat(row.Latitude);
-        // Add a marker to the map
-        const marker = L.marker([lat, lon], {alt: `locatieID: ${row.locID}`});
-        // Bind a popup to the marker with the 'locatieID' column's value
-        marker.bindPopup(`<b>locatieID:</b> ${row.locID}<br/><b>gemeente:</b> ${row.gemeente}`);
-        markersLayer.addLayer(marker);
-      }
-    });
-    
-    // Add markers layer to the map
-    markersLayer.addTo(map);
-  }
-
-  async function fetchAllData(baseUrl) {
-    let offset = 0;
-    let allData = [];
-    let fetchMoreData = true;
-
-    while (fetchMoreData) {
-      const url = `${baseUrl}&offset=${offset}`;
-      try {
-        const response = await fetch(url);
-        if (!response.ok) {
-          throw new Error('Network response was not ok');
-        }
-        const data = await response.json();
-
-        allData = allData.concat(data.results);
-        offset += 300;
-
-        // If the number of results returned is less than 300, we've reached the end
-        if (data.results.length < 300) {
-          fetchMoreData = false;
-        }
-
-      } catch (error) {
-        console.error('Fetch error:', error);
-        fetchMoreData = false; // Exit the loop on error
-      }
-    }
-
-    // console.log('All data fetched:', allData);
-    return allData;
-  }
-
-  // Function to add JSON data to the leaflet map
-  async function addJsonDataToMap(data, occsLayer) {
-    data.forEach(item => {
-      const lat = parseFloat(item.decimalLatitude);
-      const lon = parseFloat(item.decimalLongitude);
-      if (!isNaN(lat) && !isNaN(lon)) {
-        const speciesInfo = speciesColorsVernacularNames[item.species] || {color: 'gray',   vernacularName: 'null'};
-        const marker = L.marker([lat, lon], {
-          icon: L.divIcon({
-            className: 'custom-div-icon',
-            html: `<div style="background-color:${speciesInfo.color}; width:10px; height:10px;  border-radius:50%;"></div>`,
-            iconSize: [10, 10],
-            iconAnchor: [5, 5]
-          })
-        });
-        // Create basic popup content
-        let popupContent = `<b>${speciesInfo.vernacularName}</b><br>${item.eventDate}`;
-        if (item.references) {
-          popupContent += `<br><a href="${item.references}" target="_blank">${item.references}</a>`;
-        } else {
-          popupContent += `<br><a href="https://www.gbif.org/occurrence/${item.key}"  target="_blank">https://www.gbif.org/occurrence/${item.key}</a>`;
-        }
-        // Add popup
-        marker.bindPopup(popupContent);
-        // Add marker to layer and spiderfier
-        occsLayer.addLayer(marker);
-        oms.addMarker(marker);
-      }
-    });
-    return occsLayer;
-  }
-  // Function to read the JSON data from the API and add them to the leaflet map
-  async function readAndShowJSON(apiUrl, occsLayer) {
-    // Call the function to fetch all data
-    const occs = await fetchAllData(apiUrl);
-    // Call the function to add JSON data to the map
-    const finalizedLayer = await addJsonDataToMap(occs, occsLayer);
-    return finalizedLayer
-  }
-
-  // Path to directly download csv with locations
-  const localitiesURL = '/assets/localities.csv';
-
-  // URL root for recent data (URL to call the GBIF API without offset)
-  const recentDataUrl = 'https://api.gbif.org/v1/occurrence/search?basis_of_record=OBSERVATION&basis_of_record=HUMAN_OBSERVATION&basis_of_record=MATERIAL_SAMPLE&country=BE&event_date=2024-06-13,*&taxon_key=2227289&taxon_key=9442269&taxon_key=2227300&taxon_key=2226990&taxon_key=8946295&taxon_key=2226998&taxon_key=8971201&taxon_key=8909595&advanced=1&occurrence_status=present&gadm_gid=BEL.2_1&limit=300';
-
-  // URL root for historical data (URL to call the GBIF API without offset)
-  const historicalDataUrl = 'https://api.gbif.org/v1/occurrence/search?basis_of_record=OBSERVATION&basis_of_record=HUMAN_OBSERVATION&basis_of_record=MATERIAL_SAMPLE&country=BE&event_date=2000-01-01,2024-06-12&taxon_key=2227289&taxon_key=9442269&taxon_key=2227300&taxon_key=2226990&taxon_key=8946295&taxon_key=2226998&taxon_key=8971201&taxon_key=8909595&advanced=1&occurrence_status=present&gadm_gid=BEL.2_1&limit=300';
-
-  // URL root for recent absent data (URL to call the GBIF API without offset)
-  const absencesUrl = 'https://api.gbif.org/v1/occurrence/search?basis_of_record=OBSERVATION&basis_of_record=HUMAN_OBSERVATION&basis_of_record=MATERIAL_SAMPLE&country=BE&event_date=2024-06-13,*&taxon_key=2227289&taxon_key=9442269&taxon_key=2227300&taxon_key=2226990&taxon_key=8946295&taxon_key=2226998&taxon_key=8971201&taxon_key=8909595&advanced=1&occurrence_status=absent&gadm_gid=BEL.2_1&limit=300';
-
-
-  // Define the main function to fetch and add all data to the map
-  async function main() {
-    // Call the functions to read the CSV and add the results to the leaflet
-    readAndShow(localitiesURL);
-    // Call the functions to read the recent occurrences (JSON) and add them to the leaflet map
-    await readAndShowJSON(recentDataUrl, newOccsLayer);
-    newOccsLayer.addTo(map);
-    // Call the functions to read the recent absences (JSON) and add them to the leaflet map
-    await readAndShowJSON(absencesUrl, absencesLayer);
-    // Call the functions to read the historical occurrences (JSON) and add them to the leaflet map
-    await readAndShowJSON(historicalDataUrl, histOccsLayer);
-    // Add all markers to the spiderfier
-    newOccsLayer.eachLayer(marker => oms.addMarker(marker));
-    absencesLayer.eachLayer(marker => oms.addMarker(marker));
-    histOccsLayer.eachLayer(marker => oms.addMarker(marker));
-  }
-  
-  // Execute main function when the script loads
-  main();
-
-  // Create layer control and add to the map
   L.control.layers(
     {
       'OpenStreetMap': osm,
-      'Satellite': satellite,        
+      'Satellite': satellite,
       'CartoDB Positron': positron
     },
-    {
-      'Gereserveerde locaties': markersLayer,
-      'Nieuwe waarnemingen': newOccsLayer,
-      'Historische waarnemingen': histOccsLayer,
-      'Null waarnemingen': absencesLayer
-    },
-    {
-      collapsed:false
-    }
+    {},
+    { collapsed: false }
   ).addTo(map);
 
-  // Add legend to the map
-  var legend = L.control({position: 'bottomright'});
+  map.createPane('contextPane');
+  map.getPane('contextPane').style.zIndex = 410;
+  map.createPane('cloudPane');
+  map.getPane('cloudPane').style.zIndex = 420;
+  map.createPane('pointPane');
+  map.getPane('pointPane').style.zIndex = 430;
 
-  legend.onAdd = function(map) {
-    var div = L.DomUtil.create('div', 'legend');
-    var labels = ['<strong>Soorten</strong>'];
-    for (var species in speciesColorsVernacularNames) {
-        labels.push(
-            '<em style="background:' + speciesColorsVernacularNames[species].color + '"></em> ' + speciesColorsVernacularNames[species].vernacularName
-        );
+  const DATA_ROOT = '/data/analysis/output/maps/bescherming/geojson_per_soort_per_laag';
+  const ANALYSIS_OPTIONS = {
+    sbz_h: {
+      label: 'Habitatrichtlijn (SBZ-H)',
+      fileKey: 'sbz_h_file',
+      contextLegend: [
+        { label: 'SBZ-H', type: 'box', borderColor: 'darkgreen', fillColor: 'transparent' },
+        { label: 'Aquatisch habitat', type: 'box', borderColor: 'lightgreen', fillColor: 'lightgreen', fillOpacity: 0.4 }
+      ],
+      statusLegend: [
+        { label: 'In SBZ-H', borderColor: 'red' },
+        { label: 'Nabij SBZ-H (<1 km)', borderColor: 'orange' },
+        { label: 'Op afstand', borderColor: 'magenta' }
+      ]
+    },
+    sbp: {
+      label: 'Soortenbescherming (SBP)',
+      fileKey: 'sbp_file',
+      contextLegend: [
+        { label: 'SBP-gebied', type: 'box', borderColor: 'blue', fillColor: 'blue', fillOpacity: 0.2 },
+        { label: 'SBP-waterloop', type: 'line', borderColor: 'blue' }
+      ],
+      statusLegend: [
+        { label: 'In SBP', borderColor: 'red' },
+        { label: 'Nabij SBP (<1 km)', borderColor: 'orange' },
+        { label: 'Op afstand', borderColor: 'magenta' }
+      ]
     }
-    div.innerHTML = labels.join('<br>');
-    return div;
   };
 
+  const analysisSelector = document.getElementById('analysis-selector');
+  const speciesSelector = document.getElementById('species-selector');
+  const statusElement = document.getElementById('protected-map-status');
+
+  let speciesIndex = [];
+  let selectedAnalysis = 'sbz_h';
+  let selectedSpeciesSlug = null;
+  let activeLayerGroup = L.featureGroup().addTo(map);
+  let lastBounds = null;
+  let currentCloudFill = '#FF0000';
+
+  const legend = L.control({ position: 'bottomright' });
+  legend.onAdd = function() {
+    const div = L.DomUtil.create('div', 'legend');
+    L.DomEvent.disableClickPropagation(div);
+    return div;
+  };
   legend.addTo(map);
 
+  function setStatus(message, isError) {
+    statusElement.textContent = message;
+    statusElement.classList.toggle('is-error', Boolean(isError));
+  }
+
+  function toNumber(value, fallback) {
+    const parsed = Number(value);
+    return Number.isFinite(parsed) ? parsed : fallback;
+  }
+
+  function getShapeStyle(feature) {
+    const properties = feature.properties || {};
+    const fillColor = properties.fill_color || properties.point_fill || properties.point_color || 'transparent';
+    const hasFill = Boolean(properties.fill_color);
+
+    return {
+      pane: feature.properties && feature.properties.feature_type === 'species_cloud' ? 'cloudPane' : 'contextPane',
+      color: properties.border_color || '#666',
+      weight: toNumber(properties.border_weight, 1),
+      opacity: 1,
+      fill: hasFill,
+      fillColor: fillColor,
+      fillOpacity: hasFill ? toNumber(properties.fill_opacity, 0.2) : 0,
+      interactive: true
+    };
+  }
+
+  function getPointLayer(feature, latlng) {
+    const properties = feature.properties || {};
+    return L.circleMarker(latlng, {
+      pane: 'pointPane',
+      color: properties.border_color || properties.point_color || '#000',
+      weight: toNumber(properties.border_weight, 1),
+      radius: toNumber(properties.point_radius, 3),
+      fill: Boolean(properties.point_fill || properties.point_color),
+      fillColor: properties.point_fill || properties.point_color || '#000',
+      fillOpacity: toNumber(properties.point_fill_opacity, 1),
+      opacity: 1
+    });
+  }
+
+  function onEachFeature(feature, layer) {
+    const popupText = feature && feature.properties ? feature.properties.popup_text : null;
+    if (popupText) {
+      layer.bindPopup(popupText);
+    }
+  }
+
+  function renderLegend() {
+    const container = legend.getContainer();
+    const config = ANALYSIS_OPTIONS[selectedAnalysis];
+    const contextItems = config.contextLegend.map((item) => {
+      const style = [
+        item.borderColor ? 'border-color:' + item.borderColor : 'border-color:transparent',
+        item.fillColor ? 'background:' + item.fillColor : 'background:transparent',
+        item.fillOpacity !== undefined ? 'opacity:' + item.fillOpacity : 'opacity:1'
+      ].join(';');
+      return '<div class="legend-item"><span class="legend-swatch ' + (item.type === 'line' ? 'line' : '') + '" style="' + style + '"></span><span>' + item.label + '</span></div>';
+    }).join('');
+
+    const statusItems = config.statusLegend.map((item) => {
+      const style = [
+        'border-color:' + item.borderColor,
+        'background:' + currentCloudFill,
+        'opacity:0.4'
+      ].join(';');
+      return '<div class="legend-item"><span class="legend-swatch" style="' + style + '"></span><span>' + item.label + '</span></div>';
+    }).join('');
+
+    container.innerHTML = [
+      '<div class="legend-title">Legenda</div>',
+      '<div class="legend-subtitle">Context</div>',
+      contextItems,
+      '<div class="legend-subtitle">Beschermingsstatus</div>',
+      statusItems,
+      '<div class="legend-subtitle">Waarneming</div>',
+      '<div class="legend-item"><span class="legend-swatch circle" style="border-color:black;background:white;opacity:1"></span><span>Afwezigheid (0)</span></div>'
+    ].join('');
+  }
+
+  function renderAnalysisSelector() {
+    analysisSelector.innerHTML = Object.keys(ANALYSIS_OPTIONS).map((analysisKey) => {
+      const option = ANALYSIS_OPTIONS[analysisKey];
+      const checked = analysisKey === selectedAnalysis ? 'checked' : '';
+      return '<label><input type="radio" name="analysis_selector" value="' + analysisKey + '" ' + checked + '> ' + option.label + '</label>';
+    }).join('');
+
+    analysisSelector.querySelectorAll('input[name="analysis_selector"]').forEach((input) => {
+      input.addEventListener('change', function(event) {
+        selectedAnalysis = event.target.value;
+        loadCurrentLayer();
+      });
+    });
+  }
+
+  function renderSpeciesSelector() {
+    speciesSelector.innerHTML = speciesIndex.map((species) => {
+      const checked = species.slug === selectedSpeciesSlug ? 'checked' : '';
+      return [
+        '<label>',
+        '<input type="radio" name="species_selector" value="', species.slug, '" ', checked, '>',
+        '<span class="protected-map-species-name">', species.species, '</span>',
+        '<span class="protected-map-species-dutch">', species.dutch_name, '</span>',
+        '</label>'
+      ].join('');
+    }).join('');
+
+    speciesSelector.querySelectorAll('input[name="species_selector"]').forEach((input) => {
+      input.addEventListener('change', function(event) {
+        selectedSpeciesSlug = event.target.value;
+        loadCurrentLayer();
+      });
+    });
+  }
+
+  function replaceActiveLayer(layers) {
+    map.removeLayer(activeLayerGroup);
+    activeLayerGroup = L.featureGroup(layers).addTo(map);
+    if (activeLayerGroup.getLayers().length > 0) {
+      const bounds = activeLayerGroup.getBounds();
+      if (bounds.isValid()) {
+        lastBounds = bounds;
+        map.fitBounds(bounds, { padding: [20, 20] });
+      }
+    } else if (lastBounds) {
+      map.fitBounds(lastBounds, { padding: [20, 20] });
+    }
+  }
+
+  async function loadCurrentLayer() {
+    const species = speciesIndex.find((entry) => entry.slug === selectedSpeciesSlug);
+    if (!species) {
+      return;
+    }
+
+    const filePath = species[ANALYSIS_OPTIONS[selectedAnalysis].fileKey];
+    setStatus('Kaart laden…', false);
+
+    try {
+      const response = await fetch(DATA_ROOT + '/' + filePath);
+      if (!response.ok) {
+        throw new Error('Bestand niet gevonden: ' + filePath);
+      }
+
+      const geojson = await response.json();
+      const speciesCloudFeatures = (geojson.features || []).filter((feature) => feature.properties && feature.properties.feature_type === 'species_cloud');
+      const pointFeatures = (geojson.features || []).filter((feature) => feature.properties && feature.properties.feature_type === 'absence_point');
+      const contextFeatures = (geojson.features || []).filter((feature) => feature.properties && feature.properties.feature_type !== 'species_cloud' && feature.properties.feature_type !== 'absence_point');
+
+      if (speciesCloudFeatures.length > 0) {
+        currentCloudFill = speciesCloudFeatures[0].properties.fill_color || '#FF0000';
+      }
+
+      const contextLayer = L.geoJSON({ type: 'FeatureCollection', features: contextFeatures }, {
+        pane: 'contextPane',
+        style: getShapeStyle,
+        onEachFeature: onEachFeature
+      });
+
+      const cloudLayer = L.geoJSON({ type: 'FeatureCollection', features: speciesCloudFeatures }, {
+        pane: 'cloudPane',
+        style: getShapeStyle,
+        onEachFeature: onEachFeature
+      });
+
+      const pointLayer = L.geoJSON({ type: 'FeatureCollection', features: pointFeatures }, {
+        pointToLayer: getPointLayer,
+        onEachFeature: onEachFeature
+      });
+
+      replaceActiveLayer([contextLayer, cloudLayer, pointLayer]);
+      renderLegend();
+      setStatus(species.dutch_name + ' – ' + ANALYSIS_OPTIONS[selectedAnalysis].label, false);
+    } catch (error) {
+      replaceActiveLayer([]);
+      renderLegend();
+      setStatus('Kon de kaartlaag niet laden: ' + error.message, true);
+      console.error(error);
+    }
+  }
+
+  async function initializeProtectedMap() {
+    try {
+      const response = await fetch(DATA_ROOT + '/species_layer_index.json');
+      if (!response.ok) {
+        throw new Error('Indexbestand niet gevonden');
+      }
+
+      speciesIndex = await response.json();
+      selectedSpeciesSlug = speciesIndex.length > 0 ? speciesIndex[0].slug : null;
+      renderAnalysisSelector();
+      renderSpeciesSelector();
+      renderLegend();
+      await loadCurrentLayer();
+    } catch (error) {
+      renderLegend();
+      setStatus('Kon de soortenindex niet laden: ' + error.message, true);
+      console.error(error);
+    }
+  }
+
+  initializeProtectedMap();
 </script>
