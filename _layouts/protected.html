@@ -54,6 +54,7 @@ description: Template for a leaflet map with beschermingskaarten
   .protected-map-visually-hidden {
     border: 0;
     clip: rect(0 0 0 0);
+    clip-path: inset(50%);
     height: 1px;
     margin: -1px;
     overflow: hidden;
@@ -217,7 +218,7 @@ description: Template for a leaflet map with beschermingskaarten
   legend.addTo(map);
 
   function setStatus(message, isError) {
-    const nextMessage = message || EMPTY_STATUS;
+    const nextMessage = message ?? EMPTY_STATUS;
     statusElement.textContent = nextMessage;
     liveStatusElement.textContent = nextMessage;
     statusElement.classList.toggle('is-error', Boolean(isError));
