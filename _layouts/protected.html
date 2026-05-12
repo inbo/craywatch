@@ -152,15 +152,15 @@ description: Template for a leaflet map with beschermingskaarten
   };
 
   const CONTEXT_LEGEND = [
-    { label: 'Habitatrichtlijngebied', type: 'box', borderColor: 'darkgreen', fillColor: 'transparent' },
+    { label: 'Habitatrichtlijngebied', type: 'box', borderColor: 'darkgreen', borderWidth: 3, fillColor: 'transparent' },
     { label: 'Aquatische habitattypes (BWK)', type: 'box', borderColor: 'lightgreen', fillColor: 'lightgreen', fillOpacity: 0.4 },
-    { label: 'Soortbeschermingprogramma gebied', type: 'box', borderColor: 'blue', fillColor: 'blue', fillOpacity: 0.2 },
+    { label: 'Soortbeschermingsprogramma gebied', type: 'box', borderColor: 'blue', fillColor: 'blue', fillOpacity: 0.2 },
     { label: 'Soortbeschermingprogramma waterloop', type: 'line', borderColor: 'blue' }
   ];
   const STATUS_LEGEND = [
-    { label: 'In gebied', borderColor: 'red' },
-    { label: 'Nabij (<1km)', borderColor: 'orange' },
-    { label: 'Op afstand', borderColor: 'magenta' }
+    { label: 'In gebied', borderColor: 'red', borderWidth: 3 },
+    { label: 'Nabij (<1km)', borderColor: 'orange', borderWidth: 3 },
+    { label: 'Op afstand', borderColor: 'magenta', borderWidth: 3 }
   ];
 
   const statusElement = document.getElementById('protected-map-status');
@@ -252,6 +252,7 @@ description: Template for a leaflet map with beschermingskaarten
     const contextItems = CONTEXT_LEGEND.map((item) => {
       const style = [
         item.borderColor ? 'border-color:' + item.borderColor : 'border-color:transparent',
+        item.borderWidth ? 'border-width:' + item.borderWidth + 'px' : 'border-width:1px',
         item.fillColor ? 'background:' + item.fillColor : 'background:transparent',
         item.fillOpacity !== undefined ? 'opacity:' + item.fillOpacity : 'opacity:1'
       ].join(';');
@@ -261,8 +262,9 @@ description: Template for a leaflet map with beschermingskaarten
     const statusItems = STATUS_LEGEND.map((item) => {
       const style = [
         'border-color:' + item.borderColor,
-        'background:' + currentCloudFill,
-        'opacity:0.4'
+        'border-width:' + (item.borderWidth || 1) + 'px',
+        'background:transparent',
+        'opacity:1'
       ].join(';');
       return '<div class="legend-item"><span class="legend-swatch" style="' + style + '"></span><span>' + item.label + '</span></div>';
     }).join('');
