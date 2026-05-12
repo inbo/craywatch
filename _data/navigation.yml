@@ -13,7 +13,11 @@
   - text: Rapporteer waarnemingen
     href: /waarnemingen/
 - text: Verspreiding en resultaten
-  href: /kaart/
+  menu:
+    - text: Locaties en waarnemingen
+      href: /locaties/
+    - text: Beschermde natuur
+      href: /bescherming/
 - text: FAQ
   href: /faq/
 - text: Team
