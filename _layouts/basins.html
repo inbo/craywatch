@@ -143,6 +143,12 @@ description: Template for a leaflet map with deelbekkens
   map.getPane('pointPane').style.zIndex = 420;
 
   const DATA_ROOT = '/data/analysis/output/maps/deelbekken/geojson_per_soort';
+  const SPECIES_LABELS = {
+    {% assign species_pages = site.pages | where_exp: "page", "page.path contains 'pages/soorten/' and page.name != 'index.md'" %}
+    {% for species_page in species_pages %}
+      {{ species_page.description | replace: '_', '' | strip | jsonify }}: {{ species_page.title | jsonify }}{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  };
   const SPECIES_ORDER = [
     'procambarus_clarkii',
     'procambarus_virginalis',
@@ -229,6 +235,10 @@ description: Template for a leaflet map with deelbekkens
 
       return (left.species || left.slug || '').localeCompare(right.species || right.slug || '');
     });
+  }
+
+  function getSpeciesLabel(species) {
+    return SPECIES_LABELS[species.species] || species.label_nl || species.species || species.slug;
   }
 
   function getPolygonStyle(feature) {
@@ -353,7 +363,7 @@ description: Template for a leaflet map with deelbekkens
       return [
         '<label>',
         '<input type="radio" name="species_selector" value="', species.slug, '" ', checked, '>',
-        species.species,
+        getSpeciesLabel(species),
         '</label>'
       ].join('');
     }).join('');
