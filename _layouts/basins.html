@@ -144,9 +144,10 @@ description: Template for a leaflet map with deelbekkens
 
   const DATA_ROOT = '/data/analysis/output/maps/deelbekken/geojson_per_soort';
   const SPECIES_LABELS = {
-    {% assign species_pages = site.pages | where_exp: "page", "page.path contains 'pages/soorten/' and page.name != 'index.md'" %}
+    {% assign species_pages = site.pages | where_exp: "page", "page.url contains '/soorten/' and page.name != 'index.md'" %}
     {% for species_page in species_pages %}
-      {{ species_page.description | replace: '_', '' | strip | jsonify }}: {{ species_page.title | jsonify }}{% unless forloop.last %},{% endunless %}
+      {% assign species_slug = species_page.name | replace: '.md', '' | replace: '-', '_' %}
+      {{ species_slug | jsonify }}: {{ species_page.title | jsonify }}{% unless forloop.last %},{% endunless %}
     {% endfor %}
   };
   const SPECIES_ORDER = [
@@ -238,7 +239,7 @@ description: Template for a leaflet map with deelbekkens
   }
 
   function getSpeciesLabel(species) {
-    return SPECIES_LABELS[species.species] || species.label_nl || species.species || species.slug;
+    return SPECIES_LABELS[species.slug] || species.label_nl || species.species;
   }
 
   function getPolygonStyle(feature) {
