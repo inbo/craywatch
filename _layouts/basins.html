@@ -219,7 +219,7 @@ description: Template for a leaflet map with deelbekkens
 
     const speciesOrderMap = new Map(SPECIES_ORDER.map((slug, index) => [slug, index]));
 
-    return normalizedSpeciesIndex.slice().sort((left, right) => {
+    return normalizedSpeciesIndex.sort((left, right) => {
       const leftIndex = speciesOrderMap.has(left.slug) ? speciesOrderMap.get(left.slug) : Number.MAX_SAFE_INTEGER;
       const rightIndex = speciesOrderMap.has(right.slug) ? speciesOrderMap.get(right.slug) : Number.MAX_SAFE_INTEGER;
 
