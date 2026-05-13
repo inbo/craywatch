@@ -1,18 +1,9 @@
 ---
-layout: map
-title: Verspreiding en resultaten
-permalink: /kaart/
+title: Resultaten
+permalink: /resultaten/
 ---
 
-{:.alert .alert-warning .mt-3} 
-In ontwikkeling.
-
-Bovenstaande kaart toont welke locaties werden vastgelegd om door onze burgerwetenschappers gecontroleerd te worden op de aanwezigheid van invasieve rivierkreeften. Je kan hier ook de observaties die tijdens het project werden doorgegeven en de historische waarnemingen bekijken (zie kaart lagen).
-<br><br>
-
-## Resultaten Craywatch
-
-### Statistieken
+## Statistieken
 - Jullie interesse in Craywatch was veel groter dan verwacht, maar liefst **483 burgerwetenschappers** hebben zich aangemeld om deel te nemen.
 - Dit jaar vond een ‘light’-versie van Craywatch plaats. We wilden vooral regio’s bemonsteren die in 2024 nog niet voldoende werden onderzocht. Er trokken 49 vrijwilligers op pad, die 135 locaties voor hun rekening namen.
 - Gedurende twee jaar verzamelden we data van maar liefst **548 verschillende bemonsterde locaties**.
@@ -20,7 +11,7 @@ Bovenstaande kaart toont welke locaties werden vastgelegd om door onze burgerwet
 - In 2025 vingen jullie in totaal 417 rivierkreeften. Ook dit jaar werd de rode Amerikaanse rivierkreeft het meest gevangen, met maar liefst 261 individuen. Daarnaast werden er 122 gestreepte en 34 gevlekte Amerikaanse rivierkreeften gevangen. Er zaten dit jaar geen marmerkreeften, geknobbelde Amerikaanse rivierkreeften, Californische of Turkse rivierkreeften in jullie vallen. 
 - Als beide Craywatch-jaren samengeteld worden staat de teller op **1906 gevangen rivierkreeften**.
 
-### Bevindingen
+## Bevindingen
 Eind 2024 zag onze kaart met de huidige verspreiding van invasieve rivierkreeften er als volgt uit. De kaart geeft weer waar er in Vlaanderen rivierkreeften werden waargenomen tijdens Craywatch en waar er geen kreeften werden gevangen.
 
  ![image](/assets/images/kaart_resultaten.png){:.col-md-8 .w-75 .mx-auto}
@@ -42,7 +33,7 @@ Eind 2024 zag onze kaart met de huidige verspreiding van invasieve rivierkreefte
 
 6. Er werden geen **Californische** of **Turkse rivierkreeften** gevangen tijdens het Craywatch-project.
 
-### Rapport
+## Rapport
 Wil je graag meer weten? Lees de volledige resultaten van het project in het [Craywatch-rapport](https://doi.org/10.21436/inbor.134187582)!
 
 
