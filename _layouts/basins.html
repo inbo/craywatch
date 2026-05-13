@@ -144,7 +144,9 @@ description: Template for a leaflet map with deelbekkens
 
   const DATA_ROOT = '/data/analysis/output/maps/deelbekken/geojson_per_soort';
   const SPECIES_LABELS = {
-    {% assign species_pages = site.pages | where_exp: "page", "page.url contains '/soorten/' and page.name != 'index.md'" %}
+    {% assign species_pages = site.pages
+      | where_exp: "page", "page.url contains '/soorten/'"
+      | where_exp: "page", "page.name != 'index.md'" %}
     {% for species_page in species_pages %}
       {% assign species_slug = species_page.name | replace: '.md', '' | replace: '-', '_' %}
       {{ species_slug | jsonify }}: {{ species_page.title | jsonify }}{% unless forloop.last %},{% endunless %}
