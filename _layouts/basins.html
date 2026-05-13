@@ -1,10 +1,10 @@
 ---
 layout: base
-description: Template for a leaflet map with (sub-)basins
+description: Template for a leaflet map with deelbekkens
 ---
 
-<div id="protected-map-status" class="protected-map-status"></div>
-<div id="protected-map-status-live" class="protected-map-visually-hidden" aria-live="polite" aria-atomic="true"></div>
+<div id="basins-map-status" class="basins-map-status"></div>
+<div id="basins-map-status-live" class="basins-map-visually-hidden" aria-live="polite" aria-atomic="true"></div>
 <div id="map" style="height: 600px;"></div>
 
 {{ content }}
@@ -15,43 +15,44 @@ description: Template for a leaflet map with (sub-)basins
     height: 600px;
     width: 100%;
   }
-  .protected-map-control {
+  .basins-map-control {
     background: #fff;
     border: 1px solid #d9d9d9;
     border-radius: 0.5rem;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    max-width: 280px;
     padding: 0.75rem 1rem;
   }
-  .protected-map-control-title {
+  .basins-map-control-title {
     font-weight: 700;
     margin-bottom: 0.5rem;
   }
-  .protected-map-options label {
+  .basins-map-options label {
     cursor: pointer;
     display: block;
     font-weight: 400;
     margin-bottom: 0.35rem;
   }
-  .protected-map-options input {
+  .basins-map-options input {
     margin-right: 0.4rem;
   }
-  .protected-map-species-list {
+  .basins-map-species-list {
     columns: 1;
     max-height: 14rem;
     overflow-y: auto;
   }
-  .protected-map-status {
+  .basins-map-status {
     color: #555;
     margin-bottom: 0.75rem;
     min-height: 1.5rem;
   }
-  .protected-map-status:empty {
+  .basins-map-status:empty {
     display: none;
   }
-  .protected-map-status.is-error {
+  .basins-map-status.is-error {
     color: #b00020;
   }
-  .protected-map-visually-hidden {
+  .basins-map-visually-hidden {
     border: 0;
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
@@ -71,15 +72,16 @@ description: Template for a leaflet map with (sub-)basins
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     min-width: 210px;
   }
-  .legend-title {
-    font-weight: 700;
-    margin-bottom: 0.4rem;
-  }
   .legend-subtitle {
     border-top: 1px solid #eee;
     font-weight: 700;
     margin-top: 0.5rem;
     padding-top: 0.5rem;
+  }
+  .legend-subtitle:first-child {
+    border-top: 0;
+    margin-top: 0;
+    padding-top: 0;
   }
   .legend-item {
     align-items: center;
@@ -95,26 +97,13 @@ description: Template for a leaflet map with (sub-)basins
     height: 16px;
     width: 18px;
   }
-  .legend-swatch.line {
-    background: transparent;
-    border-bottom-width: 3px;
-    border-left: 0;
-    border-right: 0;
-    border-top: 0;
-    height: 0;
-    width: 18px;
-  }
   .legend-swatch.circle {
-    background: white;
     border-radius: 50%;
     height: 12px;
     width: 12px;
   }
-  .leaflet-bottom .protected-map-control {
-    margin-bottom: 24px;
-  }
-  .leaflet-right .protected-map-control {
-    max-width: 280px;
+  .leaflet-right .basins-map-control {
+    margin-top: 12px;
   }
 </style>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
@@ -145,67 +134,45 @@ description: Template for a leaflet map with (sub-)basins
       'CartoDB Positron': positron
     },
     {},
-    { collapsed: false }
+    { collapsed: false, position: 'topleft' }
   ).addTo(map);
 
-  map.createPane('contextPane');
-  map.getPane('contextPane').style.zIndex = 410;
-  map.createPane('cloudPane');
-  map.getPane('cloudPane').style.zIndex = 420;
+  map.createPane('basinPane');
+  map.getPane('basinPane').style.zIndex = 410;
   map.createPane('pointPane');
-  map.getPane('pointPane').style.zIndex = 430;
+  map.getPane('pointPane').style.zIndex = 420;
 
-  const DATA_ROOT = '/data/analysis/output/maps/bescherming/geojson_per_soort_per_laag';
-  const ANALYSIS_OPTIONS = {
-    sbz_h: {
-      label: 'Habitatrichtlijn (SBZ-H)',
-      fileKey: 'sbz_h_file'
-    },
-    sbp: {
-      label: 'Soortenbescherming (SBP)',
-      fileKey: 'sbp_file'
-    }
+  const DATA_ROOT = '/data/analysis/output/maps/deelbekken/geojson_per_soort';
+  const DEFAULT_LEGEND_STYLES = {
+    presentBasin: { color: '#fb6a4a', fillColor: '#fb6a4a', fillOpacity: 0.6, weight: 2 },
+    missingBasin: { color: '#999999', fillColor: 'transparent', fillOpacity: 0, weight: 1 },
+    openObservation: { color: '#cb181d', fillColor: '#cb181d', weight: 1 },
+    closedObservation: { color: 'orange', fillColor: 'orange', weight: 1 }
   };
-
-  const CONTEXT_LEGEND = [
-    { label: 'Habitatrichtlijngebied', type: 'box', borderColor: 'darkgreen', borderWidth: 3, fillColor: 'transparent' },
-    { label: 'Aquatische habitattypes (BWK)', type: 'box', borderColor: 'lightgreen', fillColor: 'lightgreen', fillOpacity: 0.4 },
-    { label: 'Soortbeschermingsprogramma gebied', type: 'box', borderColor: 'blue', fillColor: 'blue', fillOpacity: 0.2 },
-    { label: 'Soortbeschermingprogramma waterloop', type: 'line', borderColor: 'blue', borderWidth: 3 }
-  ];
-  const STATUS_LEGEND = [
-    { label: 'In gebied', borderColor: 'red', borderWidth: 3 },
-    { label: 'Nabij (<1km)', borderColor: 'orange', borderWidth: 3 },
-    { label: 'Op afstand', borderColor: 'magenta', borderWidth: 3 }
-  ];
   const CLEARED_STATUS_MESSAGE = '';
 
-  const statusElement = document.getElementById('protected-map-status');
-  const liveStatusElement = document.getElementById('protected-map-status-live');
+  const statusElement = document.getElementById('basins-map-status');
+  const liveStatusElement = document.getElementById('basins-map-status-live');
 
   let speciesIndex = [];
-  let selectedAnalysis = 'sbz_h';
   let selectedSpeciesSlug = null;
   let activeLayerGroup = L.featureGroup().addTo(map);
   let lastBounds = null;
-  let currentCloudFill = '#FF0000';
+  let legendStyles = DEFAULT_LEGEND_STYLES;
 
-  const selectorControl = L.control({ position: 'bottomright' });
-  selectorControl.onAdd = function() {
-    const div = L.DomUtil.create('div', 'protected-map-control');
+  const speciesControl = L.control({ position: 'topright' });
+  speciesControl.onAdd = function() {
+    const div = L.DomUtil.create('div', 'basins-map-control');
     div.innerHTML = [
-      '<div class="protected-map-control-title">Beschermingsstatus</div>',
-      '<div id="analysis-selector" class="protected-map-options"></div>',
-      '<div class="protected-map-control-title">Soort</div>',
-      '<div id="species-selector" class="protected-map-options protected-map-species-list"></div>'
+      '<div class="basins-map-control-title">Soort</div>',
+      '<div id="species-selector" class="basins-map-options basins-map-species-list"></div>'
     ].join('');
     L.DomEvent.disableClickPropagation(div);
     L.DomEvent.disableScrollPropagation(div);
     return div;
   };
-  selectorControl.addTo(map);
+  speciesControl.addTo(map);
 
-  const analysisSelector = document.getElementById('analysis-selector');
   const speciesSelector = document.getElementById('species-selector');
 
   const legend = L.control({ position: 'bottomleft' });
@@ -229,33 +196,46 @@ description: Template for a leaflet map with (sub-)basins
     return Number.isFinite(parsed) ? parsed : fallback;
   }
 
-  function getShapeStyle(feature) {
-    const properties = feature.properties || {};
-    const fillColor = properties.fill_color || properties.point_fill || properties.point_color || 'transparent';
-    const hasFill = Boolean(properties.fill_color);
+  function normalizeSpeciesIndex(indexData) {
+    if (Array.isArray(indexData)) {
+      return indexData;
+    }
 
+    if (!indexData || typeof indexData !== 'object') {
+      return [];
+    }
+
+    return Object.keys(indexData).sort((left, right) => Number(left) - Number(right)).flatMap((key) => {
+      const group = indexData[key];
+      return Array.isArray(group) ? group : [];
+    });
+  }
+
+  function getPolygonStyle(feature) {
+    const properties = feature.properties || {};
     return {
-      pane: feature.properties && feature.properties.feature_type === 'species_cloud' ? 'cloudPane' : 'contextPane',
-      color: properties.border_color || '#666',
-      weight: toNumber(properties.border_weight, 1),
+      pane: 'basinPane',
+      color: properties.color || '#666',
+      weight: toNumber(properties.weight, 1),
       opacity: 1,
-      fill: hasFill,
-      fillColor: fillColor,
-      fillOpacity: hasFill ? toNumber(properties.fill_opacity, 0.2) : 0,
+      fill: Boolean(properties.fillColor && toNumber(properties.fillOpacity, 0) > 0),
+      fillColor: properties.fillColor || 'transparent',
+      fillOpacity: toNumber(properties.fillOpacity, 0),
       interactive: true
     };
   }
 
   function getPointLayer(feature, latlng) {
     const properties = feature.properties || {};
+    const strokeColor = properties.color || properties.point_color || '#000';
     return L.circleMarker(latlng, {
       pane: 'pointPane',
-      color: properties.border_color || properties.point_color || '#000',
-      weight: toNumber(properties.border_weight, 1),
-      radius: toNumber(properties.point_radius, 3),
-      fill: Boolean(properties.point_fill || properties.point_color),
-      fillColor: properties.point_fill || properties.point_color || '#000',
-      fillOpacity: toNumber(properties.point_fill_opacity, 1),
+      color: strokeColor,
+      weight: toNumber(properties.weight, 1),
+      radius: 4,
+      fill: true,
+      fillColor: properties.point_color || properties.color || '#000',
+      fillOpacity: 1,
       opacity: 1
     });
   }
@@ -267,51 +247,84 @@ description: Template for a leaflet map with (sub-)basins
     }
   }
 
+  function readLegendStyle(feature, fallback) {
+    const properties = feature && feature.properties ? feature.properties : {};
+    return {
+      color: properties.color || fallback.color,
+      fillColor: properties.fillColor || fallback.fillColor,
+      fillOpacity: properties.fillOpacity !== undefined ? toNumber(properties.fillOpacity, fallback.fillOpacity) : fallback.fillOpacity,
+      weight: properties.weight !== undefined ? toNumber(properties.weight, fallback.weight) : fallback.weight
+    };
+  }
+
+  function updateLegendStyles(basinFeatures, pointFeatures) {
+    const activeBasin = basinFeatures.find((feature) => feature.properties && feature.properties.active === true);
+    const inactiveBasin = basinFeatures.find((feature) => feature.properties && feature.properties.active === false);
+    const openObservation = pointFeatures.find((feature) => feature.properties && feature.properties.point_type === 'VHAG (Open)');
+    const closedObservation = pointFeatures.find((feature) => feature.properties && feature.properties.point_type === 'WVLC/Niet gekoppeld');
+
+    legendStyles = {
+      presentBasin: readLegendStyle(activeBasin, DEFAULT_LEGEND_STYLES.presentBasin),
+      missingBasin: readLegendStyle(inactiveBasin, DEFAULT_LEGEND_STYLES.missingBasin),
+      openObservation: readLegendStyle(openObservation, DEFAULT_LEGEND_STYLES.openObservation),
+      closedObservation: readLegendStyle(closedObservation, DEFAULT_LEGEND_STYLES.closedObservation)
+    };
+  }
+
   function renderLegend() {
     const container = legend.getContainer();
-    const contextItems = CONTEXT_LEGEND.map((item) => {
+    const basinItems = [
+      {
+        label: 'Aanwezig (open systeem)',
+        style: legendStyles.presentBasin
+      },
+      {
+        label: 'Deelbekken (niet in open systeem)',
+        style: legendStyles.missingBasin
+      }
+    ].map((item) => {
       const style = [
-        item.borderColor ? 'border-color:' + item.borderColor : 'border-color:transparent',
-        item.borderWidth ? 'border-width:' + item.borderWidth + 'px' : 'border-width:1px',
-        item.fillColor ? 'background:' + item.fillColor : 'background:transparent',
-        item.fillOpacity !== undefined ? 'opacity:' + item.fillOpacity : 'opacity:1'
-      ].join(';');
-      return '<div class="legend-item"><span class="legend-swatch ' + (item.type === 'line' ? 'line' : '') + '" style="' + style + '"></span><span>' + item.label + '</span></div>';
+        'border-color:' + item.style.color,
+        'border-width:' + item.style.weight + 'px',
+        'background:' + item.style.fillColor,
+        'opacity:1'
+      ];
+
+      if (item.style.fillOpacity === 0 || item.style.fillColor === 'transparent') {
+        style.push('background:transparent');
+      } else {
+        style.push('background-color:' + item.style.fillColor);
+        style.push('background-image:linear-gradient(rgba(255,255,255,' + (1 - item.style.fillOpacity) + '), rgba(255,255,255,' + (1 - item.style.fillOpacity) + '))');
+      }
+
+      return '<div class="legend-item"><span class="legend-swatch" style="' + style.join(';') + '"></span><span>' + item.label + '</span></div>';
     }).join('');
 
-    const statusItems = STATUS_LEGEND.map((item) => {
+    const observationItems = [
+      {
+        label: 'Open systeem (VHAG)',
+        style: legendStyles.openObservation
+      },
+      {
+        label: 'Gesloten/niet gekoppeld',
+        style: legendStyles.closedObservation
+      }
+    ].map((item) => {
       const style = [
-        'border-color:' + item.borderColor,
-        'border-width:' + (item.borderWidth || 1) + 'px',
-        'background:transparent',
+        'border-color:' + item.style.color,
+        'border-width:' + item.style.weight + 'px',
+        'background:' + item.style.fillColor,
         'opacity:1'
       ].join(';');
-      return '<div class="legend-item"><span class="legend-swatch" style="' + style + '"></span><span>' + item.label + '</span></div>';
+      return '<div class="legend-item"><span class="legend-swatch circle" style="' + style + '"></span><span>' + item.label + '</span></div>';
     }).join('');
 
     container.innerHTML = [
-      '<div class="legend-subtitle">Populatiestatus (Randkleur)</div>',
-      statusItems,
-      '<div class="legend-subtitle">Afwezigheden</div>',
-      '<div class="legend-item"><span class="legend-swatch circle" style="border-color:black;background:white;opacity:1"></span><span>Nulvangst</span></div>',
-      '<div class="legend-subtitle">Gebieden &amp; Habitats</div>',
-      contextItems
+      '<div class="legend-subtitle">Deelbekken</div>',
+      basinItems,
+      '<div class="legend-subtitle">Type waarneming</div>',
+      observationItems
     ].join('');
-  }
-
-  function renderAnalysisSelector() {
-    analysisSelector.innerHTML = Object.keys(ANALYSIS_OPTIONS).map((analysisKey) => {
-      const option = ANALYSIS_OPTIONS[analysisKey];
-      const checked = analysisKey === selectedAnalysis ? 'checked' : '';
-      return '<label><input type="radio" name="analysis_selector" value="' + analysisKey + '" ' + checked + '> ' + option.label + '</label>';
-    }).join('');
-
-    analysisSelector.querySelectorAll('input[name="analysis_selector"]').forEach((input) => {
-      input.addEventListener('change', function(event) {
-        selectedAnalysis = event.target.value;
-        loadCurrentLayer();
-      });
-    });
   }
 
   function renderSpeciesSelector() {
@@ -320,7 +333,7 @@ description: Template for a leaflet map with (sub-)basins
       return [
         '<label>',
         '<input type="radio" name="species_selector" value="', species.slug, '" ', checked, '>',
-        species.dutch_name,
+        species.species,
         '</label>'
       ].join('');
     }).join('');
@@ -353,33 +366,23 @@ description: Template for a leaflet map with (sub-)basins
       return;
     }
 
-    const filePath = species[ANALYSIS_OPTIONS[selectedAnalysis].fileKey];
     setStatus(CLEARED_STATUS_MESSAGE, false);
 
     try {
-      const response = await fetch(DATA_ROOT + '/' + filePath);
+      const response = await fetch(DATA_ROOT + '/' + species.file);
       if (!response.ok) {
-        throw new Error('Bestand niet gevonden: ' + filePath);
+        throw new Error('Bestand niet gevonden: ' + species.file);
       }
 
       const geojson = await response.json();
-      const speciesCloudFeatures = (geojson.features || []).filter((feature) => feature.properties && feature.properties.feature_type === 'species_cloud');
-      const pointFeatures = (geojson.features || []).filter((feature) => feature.properties && feature.properties.feature_type === 'absence_point');
-      const contextFeatures = (geojson.features || []).filter((feature) => feature.properties && feature.properties.feature_type !== 'species_cloud' && feature.properties.feature_type !== 'absence_point');
+      const basinFeatures = (geojson.features || []).filter((feature) => feature.properties && feature.properties.feature_type === 'deelbekken');
+      const pointFeatures = (geojson.features || []).filter((feature) => feature.properties && feature.properties.feature_type === 'observation');
 
-      if (speciesCloudFeatures.length > 0) {
-        currentCloudFill = speciesCloudFeatures[0].properties.fill_color || '#FF0000';
-      }
+      updateLegendStyles(basinFeatures, pointFeatures);
 
-      const contextLayer = L.geoJSON({ type: 'FeatureCollection', features: contextFeatures }, {
-        pane: 'contextPane',
-        style: getShapeStyle,
-        onEachFeature: onEachFeature
-      });
-
-      const cloudLayer = L.geoJSON({ type: 'FeatureCollection', features: speciesCloudFeatures }, {
-        pane: 'cloudPane',
-        style: getShapeStyle,
+      const basinLayer = L.geoJSON({ type: 'FeatureCollection', features: basinFeatures }, {
+        pane: 'basinPane',
+        style: getPolygonStyle,
         onEachFeature: onEachFeature
       });
 
@@ -388,27 +391,27 @@ description: Template for a leaflet map with (sub-)basins
         onEachFeature: onEachFeature
       });
 
-      replaceActiveLayer([contextLayer, cloudLayer, pointLayer]);
+      replaceActiveLayer([basinLayer, pointLayer]);
       renderLegend();
       setStatus(CLEARED_STATUS_MESSAGE, false);
     } catch (error) {
       replaceActiveLayer([]);
+      legendStyles = DEFAULT_LEGEND_STYLES;
       renderLegend();
       setStatus('Kon de kaartlaag niet laden: ' + error.message, true);
       console.error(error);
     }
   }
 
-  async function initializeProtectedMap() {
+  async function initializeBasinsMap() {
     try {
-      const response = await fetch(DATA_ROOT + '/species_layer_index.json');
+      const response = await fetch(DATA_ROOT + '/species_index.json');
       if (!response.ok) {
         throw new Error('Indexbestand niet gevonden');
       }
 
-      speciesIndex = await response.json();
+      speciesIndex = normalizeSpeciesIndex(await response.json());
       selectedSpeciesSlug = speciesIndex.length > 0 ? speciesIndex[0].slug : null;
-      renderAnalysisSelector();
       renderSpeciesSelector();
       renderLegend();
       await loadCurrentLayer();
@@ -419,5 +422,5 @@ description: Template for a leaflet map with (sub-)basins
     }
   }
 
-  initializeProtectedMap();
+  initializeBasinsMap();
 </script>
