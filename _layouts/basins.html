@@ -143,6 +143,15 @@ description: Template for a leaflet map with deelbekkens
   map.getPane('pointPane').style.zIndex = 420;
 
   const DATA_ROOT = '/data/analysis/output/maps/deelbekken/geojson_per_soort';
+  const SPECIES_ORDER = [
+    'procambarus_clarkii',
+    'procambarus_virginalis',
+    'procambarus_acutus',
+    'faxonius_limosus',
+    'pacifastacus_leniusculus',
+    'faxonius_virilis',
+    'pontastacus_leptodactylus'
+  ];
   const DEFAULT_LEGEND_STYLES = {
     presentBasin: { color: '#fb6a4a', fillColor: '#fb6a4a', fillOpacity: 0.6, weight: 2 },
     missingBasin: { color: '#999999', fillColor: 'transparent', fillOpacity: 0, weight: 1 },
@@ -197,17 +206,28 @@ description: Template for a leaflet map with deelbekkens
   }
 
   function normalizeSpeciesIndex(indexData) {
+    let normalizedSpeciesIndex = [];
+
     if (Array.isArray(indexData)) {
-      return indexData;
+      normalizedSpeciesIndex = indexData;
+    } else if (indexData && typeof indexData === 'object') {
+      normalizedSpeciesIndex = Object.keys(indexData).sort((left, right) => Number(left) - Number(right)).flatMap((key) => {
+        const group = indexData[key];
+        return Array.isArray(group) ? group : [];
+      });
     }
 
-    if (!indexData || typeof indexData !== 'object') {
-      return [];
-    }
+    const speciesOrderMap = new Map(SPECIES_ORDER.map((slug, index) => [slug, index]));
 
-    return Object.keys(indexData).sort((left, right) => Number(left) - Number(right)).flatMap((key) => {
-      const group = indexData[key];
-      return Array.isArray(group) ? group : [];
+    return normalizedSpeciesIndex.slice().sort((left, right) => {
+      const leftIndex = speciesOrderMap.has(left.slug) ? speciesOrderMap.get(left.slug) : Number.MAX_SAFE_INTEGER;
+      const rightIndex = speciesOrderMap.has(right.slug) ? speciesOrderMap.get(right.slug) : Number.MAX_SAFE_INTEGER;
+
+      if (leftIndex !== rightIndex) {
+        return leftIndex - rightIndex;
+      }
+
+      return (left.species || left.slug || '').localeCompare(right.species || right.slug || '');
     });
   }
 
