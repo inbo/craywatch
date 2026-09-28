@@ -8,6 +8,9 @@ _site/
 .bundle/
 vendor/
 
+# Local environment variables
+.env
+
 # Mac OS
 .DS_Store
 .Rproj.user

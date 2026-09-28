@@ -34,6 +34,9 @@ exclude:
   - LICENSE
   - R
 
+# API KEYS
+carto_api_key: <%= ENV['CARTO_API_KEY'] %>
+
 # FRONTMATTER DEFAULTS
 defaults:
   - scope:
