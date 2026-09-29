@@ -81,10 +81,10 @@ description: Template for a leaflet map with the locations and GBIF observations
     attribution: '© OpenStreetMap FR'
   });
 
-  var positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/light_all/{z}/{x}/{y}.png{% if site.carto_api_key and site.carto_api_key != "" %}?key={{ site.carto_api_key | uri_escape }}{% endif %}', {
-    subdomains: 'abcd',
-    maxZoom: 20,
-    attribution: '&copy; <a href="https://carto.com/attributions">CARTO</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  var grayCanvas = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+    maxZoom: 19,
+    maxNativeZoom: 16,
+    attribution: 'Tiles &copy; <a href="https://www.esri.com">Esri</a> &mdash; Esri, DeLorme, NAVTEQ'
   });
 
   // Define species and their colors
@@ -123,9 +123,8 @@ description: Template for a leaflet map with the locations and GBIF observations
     }
   };
 
-  // Add a default tile layer to the map: CARTO Positron requires an API key,
-  // so fall back to OpenStreetMap when no key is configured
-  {% if site.carto_api_key and site.carto_api_key != "" %}positron{% else %}osm{% endif %}.addTo(map);
+  // Add a default tile layer to the map
+  grayCanvas.addTo(map);
 
   // Global variable to hold CSV data (reserved locations)
   let csvArray = [];
@@ -285,7 +284,7 @@ description: Template for a leaflet map with the locations and GBIF observations
     {
       'OpenStreetMap': osm,
       'Satellite': satellite,        
-      'CartoDB Positron': positron
+      'Grijze achtergrond': grayCanvas
     },
     {
       'Gereserveerde locaties': markersLayer,

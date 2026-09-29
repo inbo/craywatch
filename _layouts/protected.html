@@ -133,19 +133,18 @@ description: Template for a leaflet map with beschermingskaarten
     attribution: '© OpenStreetMap FR'
   });
 
-  const positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/light_all/{z}/{x}/{y}.png{% if site.carto_api_key and site.carto_api_key != "" %}?key={{ site.carto_api_key | uri_escape }}{% endif %}', {
-    subdomains: 'abcd',
-    maxZoom: 20,
-    attribution: '&copy; <a href="https://carto.com/attributions">CARTO</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  const grayCanvas = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+    maxZoom: 19,
+    maxNativeZoom: 16,
+    attribution: 'Tiles &copy; <a href="https://www.esri.com">Esri</a> &mdash; Esri, DeLorme, NAVTEQ'
   });
 
-  // CARTO Positron requires an API key, fall back to OpenStreetMap without key
-  {% if site.carto_api_key and site.carto_api_key != "" %}positron{% else %}osm{% endif %}.addTo(map);
+  grayCanvas.addTo(map);
   L.control.layers(
     {
       'OpenStreetMap': osm,
       'Satellite': satellite,
-      'CartoDB Positron': positron
+      'Grijze achtergrond': grayCanvas
     },
     {},
     { collapsed: false }

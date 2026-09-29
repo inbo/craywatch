@@ -8,10 +8,6 @@ _site/
 .bundle/
 vendor/
 
-# Local environment variables and secrets
-.env
-_config_secrets.yml
-
 # Mac OS
 .DS_Store
 .Rproj.user
