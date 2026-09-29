@@ -122,11 +122,14 @@ description: Template for a leaflet map with deelbekkens
     attribution: '© OpenStreetMap FR'
   });
 
-  const positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+  const positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/light_all/{z}/{x}/{y}.png{% if site.carto_api_key and site.carto_api_key != "" %}?key={{ site.carto_api_key }}{% endif %}', {
+    subdomains: 'abcd',
+    maxZoom: 20,
     attribution: '&copy; <a href="https://carto.com/attributions">CARTO</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
   });
 
-  positron.addTo(map);
+  // CARTO Positron requires an API key, fall back to OpenStreetMap without key
+  {% if site.carto_api_key and site.carto_api_key != "" %}positron{% else %}osm{% endif %}.addTo(map);
   L.control.layers(
     {
       'OpenStreetMap': osm,

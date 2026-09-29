@@ -35,7 +35,9 @@ exclude:
   - R
 
 # API KEYS
-carto_api_key: <%= ENV['CARTO_API_KEY'] %>
+# The CARTO basemaps API key is not stored here. It is injected at build time
+# via an extra config file `_config_secrets.yml` (git ignored), see README.
+carto_api_key: ""
 
 # FRONTMATTER DEFAULTS
 defaults:
