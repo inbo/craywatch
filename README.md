@@ -6,6 +6,8 @@ This repository contains the source files for the [Craywatch website](https://cr
 
 This website makes use of the static website generator [Jekyll](https://jekyllrb.com/) and the [Petridish](https://github.com/peterdesmet/petridish) theme. **Each commit to `main` will automatically trigger a new build on GitHub Pages.** There is no need to build the site locally, but you can by installing Jekyll and running `bundle exec jekyll serve`.
 
+The maps use background layers that don't require an API key: [Esri World Light Gray Canvas](https://www.arcgis.com/home/item.html?id=291da5eab3a0412593b66d384379f89f) (default), OpenStreetMap and OpenStreetMap FR. Note that the [CARTO Positron basemap](https://docs.carto.com/faqs/carto-basemaps) is no longer used, as it now requires an API key.
+
 ## Repo structure
 
 The repository structure follows that of Jekyll websites.
